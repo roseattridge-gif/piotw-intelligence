@@ -2,10 +2,16 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 from pipelines.careers import CareerSource, adapter_for
+from pipelines.careers.models import AccessMode
 from pipelines.careers.storage import save_snapshot
+from pipelines.careers.structured_page import collect_structured_page
 
 
 def main() -> None:
@@ -18,7 +24,8 @@ def main() -> None:
     for source in sources:
         if not source.enabled:
             continue
-        jobs = adapter_for(source.provider).collect(source)
+        jobs = (adapter_for(source.provider).collect(source)
+                if source.access_mode == AccessMode.public_api else collect_structured_page(source))
         count = save_snapshot(args.database, source.company_id, source.provider, jobs)
         total += count
         print(f"{source.company_name}: {count} open jobs via {source.provider}")

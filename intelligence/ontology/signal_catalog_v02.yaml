@@ -1,0 +1,100 @@
+version: signal-catalog-0.2.0
+status: proposed_not_frozen
+families:
+  workforce_demand_skills:
+    label: Workforce demand and skills
+    features:
+      vacancy_intensity: {half_life_days: 90, minimum_history_days: 90}
+      vacancy_acceleration: {half_life_days: 90, minimum_history_days: 182}
+      vacancy_persistence: {half_life_days: 270, minimum_history_days: 90}
+      operations_role_share: {half_life_days: 270, minimum_history_days: 90}
+      quality_role_share: {half_life_days: 180, minimum_history_days: 90}
+      supply_chain_role_share: {half_life_days: 180, minimum_history_days: 90}
+      transformation_role_share: {half_life_days: 270, minimum_history_days: 90}
+      seniority_shift: {half_life_days: 365, minimum_history_days: 182}
+      skill_novelty: {half_life_days: 270, minimum_history_days: 365}
+      geographic_concentration: {half_life_days: 270, minimum_history_days: 182}
+      removal_velocity: {half_life_days: 90, minimum_history_days: 90}
+  operational_disclosure:
+    label: Operational disclosure and language
+    features:
+      delivery_constraint: {half_life_days: 180}
+      supplier_constraint: {half_life_days: 180}
+      quality_rework_warranty: {half_life_days: 180}
+      labour_constraint: {half_life_days: 180}
+      utilisation_downtime: {half_life_days: 180}
+      backlog_divergence: {half_life_days: 270}
+      working_capital_language: {half_life_days: 270}
+      restructuring_productivity: {half_life_days: 365}
+      transformation_language: {half_life_days: 270}
+      narrative_novelty: {half_life_days: 270}
+      narrative_contradiction: {half_life_days: 270}
+  leadership_organisation:
+    label: Leadership and organisation
+    features:
+      executive_departure: {half_life_days: 365}
+      interim_appointment: {half_life_days: 365}
+      operations_leadership_change: {half_life_days: 365}
+      transformation_leadership_creation: {half_life_days: 365}
+      officer_churn: {half_life_days: 365}
+      simultaneous_senior_vacancies: {half_life_days: 180}
+  capacity_footprint:
+    label: Capacity, sites and footprint
+    features:
+      facility_opening: {half_life_days: 730}
+      facility_closure: {half_life_days: 730}
+      capacity_investment: {half_life_days: 730}
+      commissioning_delay: {half_life_days: 365}
+      footprint_change: {half_life_days: 730}
+      maintenance_shutdown: {half_life_days: 180}
+  procurement_contracts:
+    label: Procurement, contracts and orders
+    features:
+      public_award_value: {half_life_days: 365}
+      award_acceleration: {half_life_days: 365}
+      customer_concentration: {half_life_days: 540}
+      order_intake_change: {half_life_days: 270}
+      contract_cancellation_delay: {half_life_days: 365}
+  product_quality_customer:
+    label: Product, quality and customer
+    features:
+      official_recall: {half_life_days: 540}
+      regulator_action: {half_life_days: 540}
+      warranty_provision_change: {half_life_days: 365}
+      certification_change: {half_life_days: 365}
+      customer_acceptance_delay: {half_life_days: 270}
+  corporate_actions:
+    label: Corporate actions and legal structure
+    features:
+      acquisition_integration: {half_life_days: 730}
+      disposal: {half_life_days: 540}
+      charge_change: {half_life_days: 540}
+      subsidiary_change: {half_life_days: 540}
+      filing_lateness: {half_life_days: 365}
+      officer_cluster: {half_life_days: 365}
+      insolvency_strikeoff: {half_life_days: 540}
+  web_narrative:
+    label: Web and narrative behaviour
+    features:
+      careers_page_change: {half_life_days: 90}
+      strategy_page_change: {half_life_days: 270}
+      locations_page_change: {half_life_days: 365}
+      leadership_page_change: {half_life_days: 365}
+      press_release_cadence: {half_life_days: 180}
+      target_removed_or_replaced: {half_life_days: 365}
+  sector_macro:
+    label: Sector and macro context
+    features:
+      sector_output_change: {half_life_days: 180}
+      sector_vacancy_change: {half_life_days: 180}
+      sector_input_price_change: {half_life_days: 180}
+      sector_supply_constraint: {half_life_days: 180}
+      exchange_rate_exposure: {half_life_days: 180}
+  financial_state:
+    label: Financial state
+    features:
+      margin_change: {half_life_days: 540}
+      cash_conversion_change: {half_life_days: 540}
+      inventory_revenue_divergence: {half_life_days: 540}
+      leverage_change: {half_life_days: 540}
+      guidance_change: {half_life_days: 365}

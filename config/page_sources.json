@@ -1,0 +1,8 @@
+[
+  {"company_id":"chemring","page_type":"careers","url":"https://www.chemring.com/careers","enabled":false},
+  {"company_id":"chemring","page_type":"news","url":"https://www.chemring.com/media/press-releases","enabled":false},
+  {"company_id":"vesuvius","page_type":"careers","url":"https://www.vesuvius.com/en/careers.html","enabled":false},
+  {"company_id":"vesuvius","page_type":"news","url":"https://www.vesuvius.com/en/media/press-releases.html","enabled":false},
+  {"company_id":"bodycote","page_type":"careers","url":"https://careers.bodycote.com/jobs","enabled":false},
+  {"company_id":"bodycote","page_type":"news","url":"https://www.bodycote.com/investors/news/","enabled":false}
+]

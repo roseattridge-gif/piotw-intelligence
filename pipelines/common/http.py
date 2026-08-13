@@ -20,6 +20,9 @@ class PublicHttpClient:
     _last_request: float = 0.0
 
     def get_json(self, url: str, headers: dict[str, str] | None = None) -> object:
+        return json.loads(self.get_text(url, headers))
+
+    def get_text(self, url: str, headers: dict[str, str] | None = None) -> str:
         if not url.startswith("https://"):
             raise ValueError("Public collectors require HTTPS")
         delay = self.minimum_interval_seconds - (time.monotonic() - self._last_request)
@@ -32,11 +35,12 @@ class PublicHttpClient:
             try:
                 with urlopen(request, timeout=self.timeout_seconds) as response:
                     self._last_request = time.monotonic()
-                    return json.load(response)
+                    charset = response.headers.get_content_charset() or "utf-8"
+                    return response.read().decode(charset, errors="replace")
             except HTTPError as exc:
                 if exc.code not in {429, 500, 502, 503, 504} or attempt == self.retries:
                     raise SourceUnavailable(f"GET failed ({exc.code}) for {url}") from exc
-            except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+            except (URLError, TimeoutError, UnicodeDecodeError) as exc:
                 if attempt == self.retries:
                     raise SourceUnavailable(f"GET failed for {url}: {exc}") from exc
             time.sleep(2**attempt)

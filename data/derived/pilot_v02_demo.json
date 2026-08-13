@@ -1,0 +1,1717 @@
+{
+  "status": "architecture integration demo using the existing retrospective v0.1 evidence; not a new validation",
+  "as_of_date": "2021-12-31",
+  "model_version": "evidence-model-0.2.0",
+  "predictions": [
+    {
+      "company_id": "Bodycote",
+      "model": "operational_pressure",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.139407,
+      "confidence": 0.023099,
+      "prior_probability": 0.1,
+      "evidence_sum": 0.07539949,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": 0.07059052,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05971081,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.02321109,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.02180844,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01865833,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.01400018,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00951641,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00502405,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Bodycote",
+      "model": "operational_pressure",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.20463,
+      "confidence": 0.023099,
+      "prior_probability": 0.15,
+      "evidence_sum": 0.07539949,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": 0.07059052,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05971081,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.02321109,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.02180844,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01865833,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.01400018,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00951641,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00502405,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Bodycote",
+      "model": "operational_pressure",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.267117,
+      "confidence": 0.023099,
+      "prior_probability": 0.2,
+      "evidence_sum": 0.07539949,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": 0.07059052,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05971081,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.02321109,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.02180844,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01865833,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.01400018,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00951641,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00502405,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Bodycote",
+      "model": "expansion_transformation",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.097324,
+      "confidence": 0.020702,
+      "prior_probability": 0.1,
+      "evidence_sum": -0.00601842,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": -0.01102977,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00932981,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00507743,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.0047706,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00392005,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00291536,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.00208171,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.00140673,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Bodycote",
+      "model": "expansion_transformation",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.146204,
+      "confidence": 0.020702,
+      "prior_probability": 0.15,
+      "evidence_sum": -0.00601842,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": -0.01102977,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00932981,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00507743,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.0047706,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00392005,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00291536,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.00208171,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.00140673,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Bodycote",
+      "model": "expansion_transformation",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.195229,
+      "confidence": 0.020702,
+      "prior_probability": 0.2,
+      "evidence_sum": -0.00601842,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "BOY03",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "narrative_contradiction",
+          "contribution": -0.01102977,
+          "explanation": "Expected full-year revenue was cut by up to \u00a310m because automotive recovery did not occur",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY02",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00932981,
+          "explanation": "Automotive revenue fell 6% because of industry supply-chain bottlenecks",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY08",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00507743,
+          "explanation": "Existing restructuring savings were supporting margins",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY07",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.0047706,
+          "explanation": "Energy and labour inflation were being passed to customers",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY06",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00392005,
+          "explanation": "Cash flow remained strong and margins were described as healthy",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY05",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00291536,
+          "explanation": "General-industrial supply chains remained short of inventory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY04",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.00208171,
+          "explanation": "Management characterised the automotive supply problem as transitory",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        },
+        {
+          "observation_id": "BOY01",
+          "event_cluster_id": "bodycote-tu21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.00140673,
+          "explanation": "Ten-month group revenue was 3% above the prior year",
+          "source_url": "https://www.bodycote.com/wp-content/uploads/2021/11/211123-Bodycote-November-Trading-Update-2021-FINAL.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "operational_pressure",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.112837,
+      "confidence": 0.026292,
+      "prior_probability": 0.1,
+      "evidence_sum": 0.02702709,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.0454754,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03719474,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.03534434,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03070042,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.02528225,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.0158595,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01472668,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.0048693,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "operational_pressure",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.168056,
+      "confidence": 0.026292,
+      "prior_probability": 0.15,
+      "evidence_sum": 0.02702709,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.0454754,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03719474,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.03534434,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03070042,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.02528225,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.0158595,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01472668,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.0048693,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "operational_pressure",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.2225,
+      "confidence": 0.026292,
+      "prior_probability": 0.2,
+      "evidence_sum": 0.02702709,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.0454754,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03719474,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": -0.03534434,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.03070042,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.02528225,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.0158595,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01472668,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": 0.0048693,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "expansion_transformation",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.171138,
+      "confidence": 0.023563,
+      "prior_probability": 0.1,
+      "evidence_sum": 0.12392759,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05951158,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.04912067,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00773157,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00710553,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00707903,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00444066,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00412347,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00097386,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "expansion_transformation",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.246947,
+      "confidence": 0.023563,
+      "prior_probability": 0.15,
+      "evidence_sum": 0.12392759,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05951158,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.04912067,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00773157,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00710553,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00707903,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00444066,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00412347,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00097386,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Chemring",
+      "model": "expansion_transformation",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.317203,
+      "confidence": 0.023563,
+      "prior_probability": 0.2,
+      "evidence_sum": 0.12392759,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "CHG07",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05951158,
+          "explanation": "Company planned continued modernisation automation and lean-manufacturing investment",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG05",
+          "event_cluster_id": "chemring-fy21",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.04912067,
+          "explanation": "Order book rose 5% and covered about 84% of expected 2022 revenue",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG06",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "restructuring_productivity",
+          "contribution": 0.00773157,
+          "explanation": "Countermeasures margin improved due to stronger operational execution",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG04",
+          "event_cluster_id": "chemring-fy21",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00710553,
+          "explanation": "Company reported labour availability and supply-chain pressures likely to continue into 2022",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG03",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.00707903,
+          "explanation": "Cash conversion was 105% and net debt fell 45%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG02",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00444066,
+          "explanation": "Underlying operating margin improved from 13.6% to 14.6%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG08",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00412347,
+          "explanation": "Working capital stayed at 21% of revenue and absolute inventory fell",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        },
+        {
+          "observation_id": "CHG01",
+          "event_cluster_id": "chemring-fy21",
+          "family": "financial_state",
+          "feature": "guidance_change",
+          "contribution": -0.00097386,
+          "explanation": "Revenue fell 2% to \u00a3393.3m while underlying operating profit rose 5%",
+          "source_url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/press-releases/fy-results-pr-14-12-2021.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "operational_pressure",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.224864,
+      "confidence": 0.025541,
+      "prior_probability": 0.1,
+      "evidence_sum": 0.19193615,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05903897,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05422485,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": 0.03836849,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.02863849,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.02531438,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01803531,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.01642369,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01526065,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "operational_pressure",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.315416,
+      "confidence": 0.025541,
+      "prior_probability": 0.15,
+      "evidence_sum": 0.19193615,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05903897,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05422485,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": 0.03836849,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.02863849,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.02531438,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01803531,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.01642369,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01526065,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "operational_pressure",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.394935,
+      "confidence": 0.025541,
+      "prior_probability": 0.2,
+      "evidence_sum": 0.19193615,
+      "coverage": 0.106,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.05903897,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.05422485,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": 0.03836849,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": 0.02863849,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": 0.02531438,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": 0.01803531,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": -0.01642369,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": -0.01526065,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "expansion_transformation",
+      "horizon_months": 6,
+      "as_of_date": "2021-12-31",
+      "probability": 0.140074,
+      "confidence": 0.02289,
+      "prior_probability": 0.1,
+      "evidence_sum": 0.07651059,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.09446235,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00847263,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": -0.00599508,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.00506288,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00459863,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.00447476,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00427298,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00281802,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "expansion_transformation",
+      "horizon_months": 12,
+      "as_of_date": "2021-12-31",
+      "probability": 0.205536,
+      "confidence": 0.02289,
+      "prior_probability": 0.15,
+      "evidence_sum": 0.07651059,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.09446235,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00847263,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": -0.00599508,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.00506288,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00459863,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.00447476,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00427298,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00281802,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    },
+    {
+      "company_id": "Vesuvius",
+      "model": "expansion_transformation",
+      "horizon_months": 18,
+      "as_of_date": "2021-12-31",
+      "probability": 0.268206,
+      "confidence": 0.02289,
+      "prior_probability": 0.2,
+      "evidence_sum": 0.07651059,
+      "coverage": 0.095,
+      "contributions": [
+        {
+          "observation_id": "VSVS04",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "capacity_footprint",
+          "feature": "capacity_investment",
+          "contribution": 0.09446235,
+          "explanation": "Company announced a \u00a328m capacity expansion operational from late 2022",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS02",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00847263,
+          "explanation": "Supply-chain disruption caused \u00a310.3m of excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS06",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "working_capital_language",
+          "contribution": -0.00599508,
+          "explanation": "Company expected inventory days to rise after deciding to build raw-material and finished-goods inventory",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS07",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "cash_conversion_change",
+          "contribution": -0.00506288,
+          "explanation": "H1 cash conversion fell to 52% from 137% as working capital and capex increased",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS01",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "margin_change",
+          "contribution": 0.00459863,
+          "explanation": "Revenue rose 12% and return on sales improved 200 basis points",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS03",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "delivery_constraint",
+          "contribution": -0.00447476,
+          "explanation": "Price rises covered raw-material costs but not all excess freight costs",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS05",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "financial_state",
+          "feature": "inventory_revenue_divergence",
+          "contribution": 0.00427298,
+          "explanation": "Trade working capital to sales improved from 23.2% to 20.7%",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        },
+        {
+          "observation_id": "VSVS08",
+          "event_cluster_id": "vesuvius-h121",
+          "family": "operational_disclosure",
+          "feature": "supplier_constraint",
+          "contribution": -0.00281802,
+          "explanation": "Management expected supply-chain disruption to remain a headwind throughout 2021",
+          "source_url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2021/Vesuvius%20plc%20-%20H1%202021%20Results%20RNS%20FINAL_.pdf"
+        }
+      ],
+      "missing_families": [
+        "corporate_actions",
+        "leadership_organisation",
+        "procurement_contracts",
+        "product_quality_customer",
+        "sector_macro",
+        "web_narrative",
+        "workforce_demand_skills"
+      ],
+      "model_version": "evidence-model-0.2.0"
+    }
+  ]
+}

@@ -17,6 +17,8 @@ An auditable, outside-in operational-intelligence research MVP. Phase 0 is imple
 
 Install the JavaScript dependencies with `pnpm install`, then run `pnpm dev`. For the research tests install the Python test extra and run `pytest`. Copy `.env.example` only when connecting later services. Never commit the resulting `.env`.
 
+Run `python scripts/self_check.py` for the dependency-light end-to-end verification. `python scripts/build_v02_demo.py` regenerates the v0.2 architecture demonstration consumed by the dashboard. Public collection is deliberately config-driven: `scripts/collect_careers.py` snapshots enabled ATS/careers sources and `scripts/collect_pages.py` snapshots enabled first-party pages only after their robots policy permits retrieval.
+
 ## GitHub publishing
 
 The frontend is a conventional static Vite application. A manual GitHub Pages workflow is included, but it does nothing until the repository is on GitHub and its **Deploy to GitHub Pages** action is explicitly run. There is no ChatGPT Sites configuration or dependency.
@@ -26,3 +28,5 @@ The frontend is a conventional static Vite application. A manual GitHub Pages wo
 The repository now includes a real, three-company retrospective feasibility pilot. It retained seven official disclosures, manually checked 24 evidence observations and ran deterministic predictions against simple baselines. The result is negative at Gate 4: the operational model did not beat the best simple comparator. See `docs/research/PILOT_REPORT.md`. This is not a statistically powered or genuinely blind backtest.
 
 The broadened outside-in source plan, access boundaries and initial weights are documented in `docs/research/PUBLIC_DATA_APIS.md` and `docs/research/SIGNAL_FRAMEWORK_V02.md`.
+
+For a plain system description see `docs/ARCHITECTURE.md`; for exact model behaviour and limitations see `docs/MODEL_CARD.md`; for the implemented-versus-not-yet-evidenced boundary see `docs/MVP_STATUS.md`.
