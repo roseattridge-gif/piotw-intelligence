@@ -19,6 +19,8 @@ Install the JavaScript dependencies with `pnpm install`, then run `pnpm dev`. Fo
 
 Run `python scripts/self_check.py` for the dependency-light end-to-end verification. `python scripts/build_v02_demo.py` regenerates the v0.2 architecture demonstration consumed by the dashboard. Public collection is deliberately config-driven: `scripts/collect_careers.py` snapshots enabled ATS/careers sources and `scripts/collect_pages.py` snapshots enabled first-party pages only after their robots policy permits retrieval.
 
+`python scripts/build_vertical_slice.py` rebuilds the authoritative local SQLite MVP database and the dashboard's immutable Bodycote prediction fixture. `python scripts/serve_api.py` serves read-only company, prediction and backtest JSON on `127.0.0.1:8765`. The full product decisions, ranked targets, delivery plan and cost ceiling are in `docs/PRODUCT_BLUEPRINT.md`.
+
 ## GitHub publishing
 
 The frontend is a conventional static Vite application. A manual GitHub Pages workflow is included, but it does nothing until the repository is on GitHub and its **Deploy to GitHub Pages** action is explicitly run. There is no ChatGPT Sites configuration or dependency.

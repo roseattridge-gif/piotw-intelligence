@@ -23,6 +23,13 @@
 - [x] Dashboard system map, source map, weights and connected v0.2 demonstration
 - [x] Production frontend build and browser interaction/console verification
 - [x] Dependency-light end-to-end self-check
+- [x] Ranked five-target event taxonomy with objective resolution contracts
+- [x] Canonical entity aliases and deterministic event-deduplication primitives
+- [x] Operational SQLite migration with keys, indexes and collector-run provenance
+- [x] Database-enforced immutable prediction and prediction-resolution registry
+- [x] Fully persisted Bodycote evidence → event → feature → prediction → outcome → backtest slice
+- [x] Read-only localhost API for companies, predictions and backtests
+- [x] Dashboard prediction-registry view backed by the persisted slice
 
 ## Deliberately not claimed as complete evidence
 

@@ -1,0 +1,52 @@
+[
+  {
+    "target":"material_capacity_expansion",
+    "rank":1,
+    "dimension":"expansion",
+    "horizon_months":18,
+    "prior_probability":0.15,
+    "definition":"First post-cutoff announcement or filing of capacity investment at least 2% of latest annual revenue, or an explicitly material new facility, line or geography programme not already announced.",
+    "resolution_sources":["regulated_disclosure","annual_or_interim_results"],
+    "commercial_use":"Anticipate capital, supplier, recruitment and execution demand."
+  },
+  {
+    "target":"restructuring_announced",
+    "rank":2,
+    "dimension":"pressure",
+    "horizon_months":12,
+    "prior_probability":0.12,
+    "definition":"First explicit material restructuring, site closure or consolidation, redundancy programme or group cost programme after cutoff; routine continuous improvement excluded.",
+    "resolution_sources":["regulated_disclosure","annual_or_interim_results"],
+    "commercial_use":"Anticipate intervention, advisory, technology and workforce demand."
+  },
+  {
+    "target":"profit_trading_warning",
+    "rank":3,
+    "dimension":"pressure",
+    "horizon_months":6,
+    "prior_probability":0.08,
+    "definition":"The company explicitly states expected profit or results are materially below its prior guidance or market expectation.",
+    "resolution_sources":["regulated_disclosure"],
+    "commercial_use":"High-value near-term deterioration alert."
+  },
+  {
+    "target":"operating_margin_deterioration",
+    "rank":4,
+    "dimension":"pressure",
+    "horizon_months":12,
+    "prior_probability":0.20,
+    "definition":"Adjusted operating margin falls at least 150 basis points year-on-year in the first comparable result whose period ends after cutoff.",
+    "resolution_sources":["annual_or_interim_results"],
+    "commercial_use":"Objective operating-performance target and financial baseline."
+  },
+  {
+    "target":"senior_operational_leadership_change",
+    "rank":5,
+    "dimension":"pressure",
+    "horizon_months":12,
+    "prior_probability":0.15,
+    "definition":"Previously unannounced appointment or departure of a COO, divisional operations head, supply-chain or quality leader, CIO, CDO or transformation executive.",
+    "resolution_sources":["regulated_disclosure","companies_house","company_leadership_page"],
+    "commercial_use":"Indicates intervention, succession or capability build."
+  }
+]

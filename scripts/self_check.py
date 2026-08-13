@@ -51,7 +51,12 @@ def main() -> None:
         with sqlite3.connect(database) as connection:
             assert connection.execute("SELECT closed_at FROM career_jobs").fetchone()[0]
     subprocess.run([sys.executable, str(ROOT / "scripts/validate_pilot.py")], cwd=ROOT, check=True)
-    print("MVP self-check passed: cutoff, scoring, confidence, ATS detection, JSON-LD, snapshots and evaluation")
+    subprocess.run([sys.executable, str(ROOT / "scripts/build_vertical_slice.py")], cwd=ROOT, check=True)
+    with sqlite3.connect(ROOT / "data/derived/piotw_mvp.sqlite3") as connection:
+        assert connection.execute("SELECT COUNT(*) FROM predictions").fetchone()[0] == 1
+        assert connection.execute("SELECT resolution_status FROM prediction_resolutions").fetchone()[0] == "resolved_negative"
+        assert connection.execute("SELECT COUNT(*) FROM backtest_results").fetchone()[0] == 1
+    print("MVP self-check passed: collection, entities, events, features, immutable prediction, outcome, backtest and dashboard data")
 
 
 if __name__ == "__main__":

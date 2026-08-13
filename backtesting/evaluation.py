@@ -11,7 +11,10 @@ class BinaryEvaluation:
     precision: float
     recall: float
     average_precision: float
+    roc_auc: float | None
     top_quintile_lift: float
+    false_positives: int
+    false_negatives: int
     calibration: list[dict[str, float | int]]
 
 
@@ -40,6 +43,14 @@ def evaluate_binary(probabilities: list[float], outcomes: list[int], threshold: 
             running_tp += 1
             ap += running_tp / rank
     average_precision = ap / positives if positives else 0
+    positive_scores = [p for p, y in zip(probabilities, outcomes) if y == 1]
+    negative_scores = [p for p, y in zip(probabilities, outcomes) if y == 0]
+    if positive_scores and negative_scores:
+        pair_scores = [1 if positive > negative else 0.5 if positive == negative else 0
+                       for positive in positive_scores for negative in negative_scores]
+        roc_auc = sum(pair_scores) / len(pair_scores)
+    else:
+        roc_auc = None
     top_n = max(1, (n + 4) // 5)
     top_rate = sum(outcome for _, outcome in ranked[:top_n]) / top_n
     lift = top_rate / prevalence if prevalence else 0
@@ -56,4 +67,6 @@ def evaluate_binary(probabilities: list[float], outcomes: list[int], threshold: 
     return BinaryEvaluation(n=n, prevalence=round(prevalence, 6), brier_score=round(brier, 6),
                             precision=round(precision, 6), recall=round(recall, 6),
                             average_precision=round(average_precision, 6),
-                            top_quintile_lift=round(lift, 6), calibration=bins)
+                            roc_auc=round(roc_auc, 6) if roc_auc is not None else None,
+                            top_quintile_lift=round(lift, 6), false_positives=fp,
+                            false_negatives=fn, calibration=bins)
