@@ -1,0 +1,439 @@
+{
+  "status": "resolved single-researcher feasibility validation",
+  "prediction_model": "restructuring-rules-1.0.0",
+  "prediction_count": 20,
+  "scored_count": 20,
+  "positive_count": 4,
+  "outcome_file_sha256": "65ddcd8f35163f974c72f1d4dc7830382ee4fcdc8dd2f75551dfd4b07572d550",
+  "evaluations": {
+    "piotw": {
+      "n": 20,
+      "prevalence": 0.2,
+      "brier_score": 0.137896,
+      "precision": 0,
+      "recall": 0.0,
+      "average_precision": 0.590476,
+      "roc_auc": 0.75,
+      "top_quintile_lift": 2.5,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 13,
+          "mean_probability": 0.11559076923076923,
+          "observed_rate": 0.07692307692307693
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 7,
+          "mean_probability": 0.27808585714285716,
+          "observed_rate": 0.42857142857142855
+        }
+      ]
+    },
+    "constant_12_percent": {
+      "n": 20,
+      "prevalence": 0.2,
+      "brier_score": 0.1664,
+      "precision": 0,
+      "recall": 0.0,
+      "average_precision": 0.2,
+      "roc_auc": 0.5,
+      "top_quintile_lift": 1.0,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 20,
+          "mean_probability": 0.12,
+          "observed_rate": 0.2
+        }
+      ]
+    },
+    "leave_one_company_out": {
+      "n": 20,
+      "prevalence": 0.2,
+      "brier_score": 0.174074,
+      "precision": 0,
+      "recall": 0.0,
+      "average_precision": 0.2,
+      "roc_auc": 0.125,
+      "top_quintile_lift": 0.0,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 8,
+          "mean_probability": 0.16666666666666666,
+          "observed_rate": 0.5
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 12,
+          "mean_probability": 0.2222222222222222,
+          "observed_rate": 0.0
+        }
+      ]
+    },
+    "financial_stress_rule": {
+      "n": 20,
+      "prevalence": 0.2,
+      "brier_score": 0.15,
+      "precision": 1.0,
+      "recall": 0.25,
+      "average_precision": 0.4,
+      "roc_auc": 0.625,
+      "top_quintile_lift": 1.0,
+      "false_positives": 0,
+      "false_negatives": 3,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 19,
+          "mean_probability": 0.0,
+          "observed_rate": 0.15789473684210525
+        },
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 1,
+          "mean_probability": 1.0,
+          "observed_rate": 1.0
+        }
+      ]
+    },
+    "disclosure_language_rule": {
+      "n": 20,
+      "prevalence": 0.2,
+      "brier_score": 0.35,
+      "precision": 0.0,
+      "recall": 0.0,
+      "average_precision": 0.2,
+      "roc_auc": 0.40625,
+      "top_quintile_lift": 1.0,
+      "false_positives": 3,
+      "false_negatives": 4,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 17,
+          "mean_probability": 0.0,
+          "observed_rate": 0.23529411764705882
+        },
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 3,
+          "mean_probability": 1.0,
+          "observed_rate": 0.0
+        }
+      ]
+    }
+  },
+  "lead_time_days": {
+    "values": [
+      273,
+      109,
+      52,
+      222
+    ],
+    "median": 165.5
+  },
+  "threshold_errors": [
+    {
+      "prediction_id": "rv-ELM-2022-12-31-restructuring-rules-1.0.0",
+      "ticker": "ELM",
+      "probability": 0.201422,
+      "actual": 1,
+      "error": "false_negative"
+    },
+    {
+      "prediction_id": "rv-CRPR-2022-12-31-restructuring-rules-1.0.0",
+      "ticker": "CRPR",
+      "probability": 0.380499,
+      "actual": 1,
+      "error": "false_negative"
+    },
+    {
+      "prediction_id": "rv-RCDO-2022-12-31-restructuring-rules-1.0.0",
+      "ticker": "RCDO",
+      "probability": 0.112802,
+      "actual": 1,
+      "error": "false_negative"
+    },
+    {
+      "prediction_id": "rv-SPX-2022-12-31-restructuring-rules-1.0.0",
+      "ticker": "SPX",
+      "probability": 0.304189,
+      "actual": 1,
+      "error": "false_negative"
+    }
+  ],
+  "occasions": [
+    {
+      "prediction_id": "rv-SNR-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Senior",
+      "ticker": "SNR",
+      "cutoff": "2021-12-31",
+      "probability": 0.320292,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.seniorplc.com/investors/reports.aspx"
+    },
+    {
+      "prediction_id": "rv-SNR-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Senior",
+      "ticker": "SNR",
+      "cutoff": "2022-12-31",
+      "probability": 0.132684,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.seniorplc.com/investors/reports.aspx"
+    },
+    {
+      "prediction_id": "rv-CHRT-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Cohort",
+      "ticker": "CHRT",
+      "cutoff": "2021-12-31",
+      "probability": 0.24835,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.cohortplc.com/investors/results-reports-presentations"
+    },
+    {
+      "prediction_id": "rv-CHRT-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Cohort",
+      "ticker": "CHRT",
+      "cutoff": "2022-12-31",
+      "probability": 0.12106,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.cohortplc.com/investors/results-reports-presentations"
+    },
+    {
+      "prediction_id": "rv-MRO-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Melrose Industries",
+      "ticker": "MRO",
+      "cutoff": "2021-12-31",
+      "probability": 0.221417,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.melroseplc.net/investors/results-reports-and-presentations/"
+    },
+    {
+      "prediction_id": "rv-MRO-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Melrose Industries",
+      "ticker": "MRO",
+      "cutoff": "2022-12-31",
+      "probability": 0.270432,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.melroseplc.net/media/uk2n4jj0/melrose-annual-report-2023.pdf"
+    },
+    {
+      "prediction_id": "rv-ELM-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Elementis",
+      "ticker": "ELM",
+      "cutoff": "2021-12-31",
+      "probability": 0.170452,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.elementis.com/investors/investor-information/results-reports-and-presentations/"
+    },
+    {
+      "prediction_id": "rv-ELM-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Elementis",
+      "ticker": "ELM",
+      "cutoff": "2022-12-31",
+      "probability": 0.201422,
+      "confidence": 0.48,
+      "outcome": 1,
+      "outcome_status": "positive",
+      "outcome_date": "2023-09-30",
+      "source_url": "https://www.investegate.co.uk/index.php/announcement/rns/elementis--elm/preliminary-results-year-ended-31-december-2023/8075136"
+    },
+    {
+      "prediction_id": "rv-CRPR-2021-12-31-restructuring-rules-1.0.0",
+      "company": "James Cropper",
+      "ticker": "CRPR",
+      "cutoff": "2021-12-31",
+      "probability": 0.071264,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://jamescropper.com/announcements-and-briefings/"
+    },
+    {
+      "prediction_id": "rv-CRPR-2022-12-31-restructuring-rules-1.0.0",
+      "company": "James Cropper",
+      "ticker": "CRPR",
+      "cutoff": "2022-12-31",
+      "probability": 0.380499,
+      "confidence": 0.48,
+      "outcome": 1,
+      "outcome_status": "positive",
+      "outcome_date": "2023-04-19",
+      "source_url": "https://www.investegate.co.uk/announcement/rns/cropper-james---crpr/full-year-results/8324504"
+    },
+    {
+      "prediction_id": "rv-VCT-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Victrex",
+      "ticker": "VCT",
+      "cutoff": "2021-12-31",
+      "probability": 0.074645,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.victrexplc.com/investors/reports-presentations/"
+    },
+    {
+      "prediction_id": "rv-VCT-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Victrex",
+      "ticker": "VCT",
+      "cutoff": "2022-12-31",
+      "probability": 0.188096,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.victrexplc.com/investors/reports-presentations/"
+    },
+    {
+      "prediction_id": "rv-RCDO-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Ricardo",
+      "ticker": "RCDO",
+      "cutoff": "2021-12-31",
+      "probability": 0.138545,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.ricardo.com/en/investors/results-centre"
+    },
+    {
+      "prediction_id": "rv-RCDO-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Ricardo",
+      "ticker": "RCDO",
+      "cutoff": "2022-12-31",
+      "probability": 0.112802,
+      "confidence": 0.48,
+      "outcome": 1,
+      "outcome_status": "positive",
+      "outcome_date": "2023-02-21",
+      "source_url": "https://www.ricardo.com/media/f4ypbjjq/interim-report-for-the-six-months-ended-31-december-2022-hy-2022-23.pdf"
+    },
+    {
+      "prediction_id": "rv-IMI-2021-12-31-restructuring-rules-1.0.0",
+      "company": "IMI",
+      "ticker": "IMI",
+      "cutoff": "2021-12-31",
+      "probability": 0.116868,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.imiplc.com/investors/results-reports-and-presentations"
+    },
+    {
+      "prediction_id": "rv-IMI-2022-12-31-restructuring-rules-1.0.0",
+      "company": "IMI",
+      "ticker": "IMI",
+      "cutoff": "2022-12-31",
+      "probability": 0.140949,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.imiplc.com/investors/results-reports-and-presentations"
+    },
+    {
+      "prediction_id": "rv-SPX-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Spirax Group",
+      "ticker": "SPX",
+      "cutoff": "2021-12-31",
+      "probability": 0.068982,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.spiraxgroup.com/en/investors/results-reports-and-presentations"
+    },
+    {
+      "prediction_id": "rv-SPX-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Spirax Group",
+      "ticker": "SPX",
+      "cutoff": "2022-12-31",
+      "probability": 0.304189,
+      "confidence": 0.48,
+      "outcome": 1,
+      "outcome_status": "positive",
+      "outcome_date": "2023-08-10",
+      "source_url": "https://content.spiraxgroup.com/-/media/engineering/documents/results-and-agm-notices/2023/results/2023-hy-news-release.ashx?hash=9BB23ACBFA9D2C2181A22F08913AA5A6&rev=659d1f7c72d341a0aa29f17e641f680e"
+    },
+    {
+      "prediction_id": "rv-PRV-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Porvair",
+      "ticker": "PRV",
+      "cutoff": "2021-12-31",
+      "probability": 0.077456,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.porvair.com/investors/annual-reports"
+    },
+    {
+      "prediction_id": "rv-PRV-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Porvair",
+      "ticker": "PRV",
+      "cutoff": "2022-12-31",
+      "probability": 0.088877,
+      "confidence": 0.48,
+      "outcome": 0,
+      "outcome_status": "negative",
+      "outcome_date": "",
+      "source_url": "https://www.porvair.com/investors/annual-reports"
+    }
+  ],
+  "gate": {
+    "passed": false,
+    "status": "indeterminate_due_protocol_deviation",
+    "quantitative_candidate_met": true,
+    "eligible_comparators": [
+      "constant_12_percent"
+    ],
+    "decision": "do not expand yet; freeze numeric comparator rules and obtain independent outcome adjudication",
+    "limitation": "Only the constant prior was fully specified before outcome review; the declared simple-rule comparators were not numerically frozen."
+  },
+  "protocol_deviations": [
+    "Financial-stress and disclosure-language rule thresholds were not numerically frozen before outcome review; their results are sensitivity analyses and excluded from the formal gate.",
+    "Outcome adjudication was completed by one researcher rather than independently duplicated.",
+    "Pre-cutoff evidence hashes cover the structured extraction, URL and features, not a locally archived full source document."
+  ]
+}

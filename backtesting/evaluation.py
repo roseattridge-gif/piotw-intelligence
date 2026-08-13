@@ -34,15 +34,23 @@ def evaluate_binary(probabilities: list[float], outcomes: list[int], threshold: 
     precision = tp / (tp + fp) if tp + fp else 0
     recall = tp / (tp + fn) if tp + fn else 0
 
-    ranked = sorted(zip(probabilities, outcomes), reverse=True)
+    ranked = sorted(zip(probabilities, outcomes), key=lambda pair: pair[0], reverse=True)
     positives = sum(outcomes)
+    # Threshold-group integration makes tied scores order-independent. In
+    # particular, a constant score must have AP equal to prevalence.
     running_tp = 0
+    running_n = 0
+    previous_recall = 0.0
     ap = 0.0
-    for rank, (_, outcome) in enumerate(ranked, start=1):
-        if outcome:
-            running_tp += 1
-            ap += running_tp / rank
-    average_precision = ap / positives if positives else 0
+    for score in sorted(set(probabilities), reverse=True):
+        group = [(p, y) for p, y in ranked if p == score]
+        running_tp += sum(y for _, y in group)
+        running_n += len(group)
+        recall_at_threshold = running_tp / positives if positives else 0.0
+        precision_at_threshold = running_tp / running_n
+        ap += (recall_at_threshold - previous_recall) * precision_at_threshold
+        previous_recall = recall_at_threshold
+    average_precision = ap if positives else 0
     positive_scores = [p for p, y in zip(probabilities, outcomes) if y == 1]
     negative_scores = [p for p, y in zip(probabilities, outcomes) if y == 0]
     if positive_scores and negative_scores:
@@ -52,7 +60,9 @@ def evaluate_binary(probabilities: list[float], outcomes: list[int], threshold: 
     else:
         roc_auc = None
     top_n = max(1, (n + 4) // 5)
-    top_rate = sum(outcome for _, outcome in ranked[:top_n]) / top_n
+    boundary_score = ranked[top_n - 1][0]
+    top_group = [(score, outcome) for score, outcome in ranked if score >= boundary_score]
+    top_rate = sum(outcome for _, outcome in top_group) / len(top_group)
     lift = top_rate / prevalence if prevalence else 0
 
     bins = []

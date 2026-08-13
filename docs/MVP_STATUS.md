@@ -30,18 +30,25 @@
 - [x] Fully persisted Bodycote evidence → event → feature → prediction → outcome → backtest slice
 - [x] Read-only localhost API for companies, predictions and backtests
 - [x] Dashboard prediction-registry view backed by the persisted slice
+- [x] Deterministically selected ten-company restructuring cohort at two historical cutoffs
+- [x] Twenty pre-outcome predictions committed before outcome inspection
+- [x] Separate 20-row outcome ledger with exclusions, evidence and immutable SQLite registration
+- [x] Reproducible validation metrics and protocol-deviation report
+- [x] Validation dashboard backed by generated results
+- [x] Ten first-party prospective sources enabled; seven initial permitted snapshots stored and three fail-closed statuses recorded
 
 ## Deliberately not claimed as complete evidence
 
 - [ ] Prospective weekly history: time must pass after the first authorised snapshot
-- [ ] Full historical cohort: requires collecting and manually validating more public records
-- [ ] Model validation: requires an adequately sized temporal development/holdout sample
+- [ ] Independent outcome adjudication: the current 20 labels were resolved by one researcher
+- [ ] Clean comparator validation: numeric simple-rule definitions must be frozen before the next untouched outcome set
+- [ ] Model validation: requires an adequately sized genuinely untouched temporal holdout sample
 - [ ] Statistical coefficient fitting: prohibited until sample size supports it
-- [ ] Commercial or predictive superiority: contradicted by the current tiny pilot
+- [ ] Commercial or predictive superiority: not established by this feasibility sample
 - [ ] Public deployment: not authorised
 
 ## Definition of “MVP complete”
 
 The software path is complete when a configured source can be collected, preserved with provenance, transformed into an observation, scored at a historical cutoff, displayed with its evidence and evaluated once an outcome is supplied. That path is implemented locally.
 
-The research is not “complete” in the sense of proving that the model works. No honest architecture can manufacture the missing time series or validation sample. The MVP is designed to accumulate that evidence without changing the rules after seeing results.
+That working prototype is now implemented and browser-verified. The research is not “complete” in the sense of proving that the model works. The ten-company result is promising on ranking and probability error, but its formal gate remains indeterminate because two comparator thresholds were not numerically frozen and labels lack independent adjudication. The next scientific step is a clean preregistration and untouched temporal holdout, while weekly snapshots accumulate without rewriting prior predictions.

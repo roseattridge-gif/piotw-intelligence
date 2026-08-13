@@ -6,7 +6,6 @@ import hashlib
 import json
 import math
 import sqlite3
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +16,7 @@ MODEL_VERSION = "restructuring-rules-1.0.0"
 PRIOR = 0.12
 WEIGHTS = {"pressure_language": 1.40, "margin_pressure": 0.90,
            "cash_pressure": 0.70, "contrary_strength": -0.80}
+FROZEN_AT = "2026-08-13T18:39:48.763547+00:00"
 
 
 def probability(row: dict[str, str]) -> tuple[float, dict[str, float]]:
@@ -62,7 +62,7 @@ def build() -> dict:
       CREATE TRIGGER predictions_no_delete BEFORE DELETE ON predictions
         BEGIN SELECT RAISE(ABORT, 'validation predictions are immutable'); END;
     """)
-    frozen = datetime.now(timezone.utc).isoformat()
+    frozen = FROZEN_AT
     connection.execute("INSERT INTO model_versions VALUES(?,?,?,?,?,?)", (
         MODEL_VERSION, "restructuring_announced", 12, PRIOR,
         json.dumps(WEIGHTS, sort_keys=True), frozen))
@@ -110,4 +110,3 @@ def build() -> dict:
 
 if __name__ == "__main__":
     build()
-

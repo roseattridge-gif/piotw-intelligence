@@ -1,8 +1,12 @@
 [
-  {"company_id":"chemring","page_type":"careers","url":"https://www.chemring.com/careers","enabled":false},
-  {"company_id":"chemring","page_type":"news","url":"https://www.chemring.com/media/press-releases","enabled":false},
-  {"company_id":"vesuvius","page_type":"careers","url":"https://www.vesuvius.com/en/careers.html","enabled":false},
-  {"company_id":"vesuvius","page_type":"news","url":"https://www.vesuvius.com/en/media/press-releases.html","enabled":false},
-  {"company_id":"bodycote","page_type":"careers","url":"https://careers.bodycote.com/jobs","enabled":false},
-  {"company_id":"bodycote","page_type":"news","url":"https://www.bodycote.com/investors/news/","enabled":false}
+  {"company_id":"senior","page_type":"investor_reports","url":"https://www.seniorplc.com/investors/reports.aspx","enabled":true},
+  {"company_id":"cohort","page_type":"investor_reports","url":"https://www.cohortplc.com/investors/results-reports-presentations","enabled":true},
+  {"company_id":"melrose","page_type":"investor_reports","url":"https://www.melroseplc.net/investors/results-reports-and-presentations/","enabled":true},
+  {"company_id":"elementis","page_type":"investor_reports","url":"https://www.elementis.com/investors/investor-information/results-reports-and-presentations/","enabled":true},
+  {"company_id":"james-cropper","page_type":"announcements","url":"https://jamescropper.com/announcements-and-briefings/","enabled":true},
+  {"company_id":"victrex","page_type":"investor_reports","url":"https://www.victrexplc.com/investors/reports-presentations/","enabled":true},
+  {"company_id":"ricardo","page_type":"investor_reports","url":"https://www.ricardo.com/en/investors/results-centre","enabled":true},
+  {"company_id":"imi","page_type":"investor_reports","url":"https://www.imiplc.com/en/investors/results-reports-presentations/","enabled":true},
+  {"company_id":"spirax","page_type":"investor_reports","url":"https://www.spiraxgroup.com/en/investors/results-reports-and-presentations","enabled":true},
+  {"company_id":"porvair","page_type":"investor_reports","url":"https://www.porvair.com/investors/annual-reports","enabled":true}
 ]

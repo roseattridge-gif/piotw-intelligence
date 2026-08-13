@@ -1,0 +1,94 @@
+{
+  "run_at": "2026-08-13T18:49:02.300602+00:00",
+  "configured": 10,
+  "collected": 7,
+  "sources": [
+    {
+      "company_id": "senior",
+      "page_type": "investor_reports",
+      "url": "https://www.seniorplc.com/investors/reports.aspx",
+      "enabled": true,
+      "status": "unavailable",
+      "reason": "Could not verify robots policy for https://www.seniorplc.com/investors/reports.aspx; collection stopped"
+    },
+    {
+      "company_id": "cohort",
+      "page_type": "investor_reports",
+      "url": "https://www.cohortplc.com/investors/results-reports-presentations",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:48:47.894882+00:00",
+      "content_hash": "9e433b087d8254ac0d79c99bfd1674e248068870ad7ea09e3efefba5accc7567"
+    },
+    {
+      "company_id": "melrose",
+      "page_type": "investor_reports",
+      "url": "https://www.melroseplc.net/investors/results-reports-and-presentations/",
+      "enabled": true,
+      "status": "unavailable",
+      "reason": "Could not verify robots policy for https://www.melroseplc.net/investors/results-reports-and-presentations/; collection stopped"
+    },
+    {
+      "company_id": "elementis",
+      "page_type": "investor_reports",
+      "url": "https://www.elementis.com/investors/investor-information/results-reports-and-presentations/",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:48:50.409466+00:00",
+      "content_hash": "86b9bcbbfc50ae9dd2305dce59ebdff94b1b320f5e148b7982658555db3a86f9"
+    },
+    {
+      "company_id": "james-cropper",
+      "page_type": "announcements",
+      "url": "https://jamescropper.com/announcements-and-briefings/",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:48:52.893115+00:00",
+      "content_hash": "119e03a7acf49defbd03919909c102bc81470f14a518a9442f70ab27f861bc74"
+    },
+    {
+      "company_id": "victrex",
+      "page_type": "investor_reports",
+      "url": "https://www.victrexplc.com/investors/reports-presentations/",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:48:55.056874+00:00",
+      "content_hash": "ff0ca5e9681a7f808832866be18394a23bd6d39d051312ba4f88544e4eab3c2c"
+    },
+    {
+      "company_id": "ricardo",
+      "page_type": "investor_reports",
+      "url": "https://www.ricardo.com/en/investors/results-centre",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:48:57.677935+00:00",
+      "content_hash": "87b4bcaff746feefe72b6ead8142a8e8f3aeb236b412ce070bcc037567583085"
+    },
+    {
+      "company_id": "imi",
+      "page_type": "investor_reports",
+      "url": "https://www.imiplc.com/en/investors/results-reports-presentations/",
+      "enabled": true,
+      "status": "unavailable",
+      "reason": "Could not verify robots policy for https://www.imiplc.com/en/investors/results-reports-presentations/; collection stopped"
+    },
+    {
+      "company_id": "spirax",
+      "page_type": "investor_reports",
+      "url": "https://www.spiraxgroup.com/en/investors/results-reports-and-presentations",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:49:00.160727+00:00",
+      "content_hash": "14a1e81217915f3c42cc5bf71f58f8d02a1cfc4f16e728d11c5d14f3c84ed3b0"
+    },
+    {
+      "company_id": "porvair",
+      "page_type": "investor_reports",
+      "url": "https://www.porvair.com/investors/annual-reports",
+      "enabled": true,
+      "status": "changed",
+      "observed_at": "2026-08-13T18:49:02.297347+00:00",
+      "content_hash": "d4c8c4108e7b638e5bd7cdcedc81dec2923b09a0e5975fb9299aaf84b19de137"
+    }
+  ]
+}
