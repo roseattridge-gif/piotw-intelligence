@@ -1,0 +1,417 @@
+{
+  "status": "frozen before outcome inspection",
+  "target": "restructuring_announced",
+  "horizon_months": 12,
+  "model_version": "restructuring-rules-1.0.0",
+  "prior": 0.12,
+  "weights": {
+    "pressure_language": 1.4,
+    "margin_pressure": 0.9,
+    "cash_pressure": 0.7,
+    "contrary_strength": -0.8
+  },
+  "frozen_at": "2026-08-13T18:39:48.763547+00:00",
+  "prediction_count": 20,
+  "predictions": [
+    {
+      "prediction_id": "rv-SNR-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Senior",
+      "ticker": "SNR",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.320292,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-SNR-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.77,
+        "margin_pressure": 0.5850000000000001,
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.36000000000000004
+      },
+      "evidence_snapshot_hash": "3ae5cebeeb1d017c1de56c184eaeda79988bd90ac9af8321108a48dd05a7e13f",
+      "already_announced_exclusion": "2019-20 restructuring programme"
+    },
+    {
+      "prediction_id": "rv-SNR-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Senior",
+      "ticker": "SNR",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.132684,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-SNR-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.35,
+        "margin_pressure": 0.225,
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.6000000000000001
+      },
+      "evidence_snapshot_hash": "df0262fd6b954fb1b1b325bf49d5d7ad912228973df6da94fbb01952c7d37b63",
+      "already_announced_exclusion": "previously disclosed restructuring"
+    },
+    {
+      "prediction_id": "rv-CHRT-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Cohort",
+      "ticker": "CHRT",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.24835,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-CHRT-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.48999999999999994,
+        "margin_pressure": 0.765,
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.44000000000000006
+      },
+      "evidence_snapshot_hash": "211e9614053c4dc1353e2b34b78375a2a0e9c7e6ffcb0ead109f21529a250059",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-CHRT-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Cohort",
+      "ticker": "CHRT",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.12106,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-CHRT-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.27999999999999997,
+        "margin_pressure": 0.225,
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.6000000000000001
+      },
+      "evidence_snapshot_hash": "956bbaecdf4c30dc78ee74d38a8a137283ceb82b9ed2b734b0dd7c43fade6107",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-MRO-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Melrose Industries",
+      "ticker": "MRO",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.221417,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-MRO-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.77,
+        "margin_pressure": 0.315,
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.5599999999999999
+      },
+      "evidence_snapshot_hash": "e0a8a30c8f35c33b98b64710695e455dd8eaeeadb9a1664e9515bb84ba68fad0",
+      "already_announced_exclusion": "GKN restructuring already disclosed"
+    },
+    {
+      "prediction_id": "rv-MRO-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Melrose Industries",
+      "ticker": "MRO",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.270432,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-MRO-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.84,
+        "margin_pressure": 0.36000000000000004,
+        "cash_pressure": 0.27999999999999997,
+        "contrary_strength": -0.48
+      },
+      "evidence_snapshot_hash": "e9a5b7501bcfaf5422517ca121c3fb087b609db5a64bde95384aa1b6c5793ea4",
+      "already_announced_exclusion": "continuing GKN restructuring already disclosed"
+    },
+    {
+      "prediction_id": "rv-ELM-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Elementis",
+      "ticker": "ELM",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.170452,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-ELM-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.5599999999999999,
+        "margin_pressure": 0.315,
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.6400000000000001
+      },
+      "evidence_snapshot_hash": "c209ec43357fc2a5c05e329467470d32220789a2698265bbaa9aaad2420a134d",
+      "already_announced_exclusion": "2021 efficiency savings already disclosed"
+    },
+    {
+      "prediction_id": "rv-ELM-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Elementis",
+      "ticker": "ELM",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.201422,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-ELM-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.48999999999999994,
+        "margin_pressure": 0.36000000000000004,
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.48
+      },
+      "evidence_snapshot_hash": "d915fa336f1190d9c746d734b2953d43e7191804de1b7aceaae90b6b190fdd25",
+      "already_announced_exclusion": "Chromium sale disclosed before cutoff"
+    },
+    {
+      "prediction_id": "rv-CRPR-2021-12-31-restructuring-rules-1.0.0",
+      "company": "James Cropper",
+      "ticker": "CRPR",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.071264,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-CRPR-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.06999999999999999,
+        "margin_pressure": 0.045000000000000005,
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.76
+      },
+      "evidence_snapshot_hash": "680f61c330d7ef5583c6e4bf2454304f63a7c8f854ee37128e41601faeaa05ec",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-CRPR-2022-12-31-restructuring-rules-1.0.0",
+      "company": "James Cropper",
+      "ticker": "CRPR",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.380499,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-CRPR-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.63,
+        "margin_pressure": 0.81,
+        "cash_pressure": 0.385,
+        "contrary_strength": -0.32000000000000006
+      },
+      "evidence_snapshot_hash": "dbef34e21a3fe136decee98b5690ec982bc345d98011f80d6df9b88d7ad7ea97",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-VCT-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Victrex",
+      "ticker": "VCT",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.074645,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-VCT-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.06999999999999999,
+        "margin_pressure": 0.09000000000000001,
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001
+      },
+      "evidence_snapshot_hash": "6772002a3900ed3b137bd183f4e43054fa3309828cd692e286fcbec71198f4e8",
+      "already_announced_exclusion": "2020 consultation/restructuring already disclosed"
+    },
+    {
+      "prediction_id": "rv-VCT-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Victrex",
+      "ticker": "VCT",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.188096,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-VCT-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.27999999999999997,
+        "margin_pressure": 0.63,
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.52
+      },
+      "evidence_snapshot_hash": "51ce0bf3c1efdc2420b5a4e66f21529e45837e47c0aaf611695fbd69f536d65f",
+      "already_announced_exclusion": "2020 restructuring charge explicitly historical"
+    },
+    {
+      "prediction_id": "rv-RCDO-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Ricardo",
+      "ticker": "RCDO",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.138545,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-RCDO-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.27999999999999997,
+        "margin_pressure": 0.27,
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.5599999999999999
+      },
+      "evidence_snapshot_hash": "727c79c760113c1bacc3a36260385193596485318cd6c54ab79599958f0a27d6",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-RCDO-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Ricardo",
+      "ticker": "RCDO",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.112802,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-RCDO-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.48999999999999994,
+        "margin_pressure": 0.09000000000000001,
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.7200000000000001
+      },
+      "evidence_snapshot_hash": "3ce23a62f30067b3ab098f2df507f8f2b486beb1ff5fe1e7ccce0f4da335cec2",
+      "already_announced_exclusion": "operating-model actions disclosed but no qualifying material programme"
+    },
+    {
+      "prediction_id": "rv-IMI-2021-12-31-restructuring-rules-1.0.0",
+      "company": "IMI",
+      "ticker": "IMI",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.116868,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-IMI-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.48999999999999994,
+        "margin_pressure": 0.09000000000000001,
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.68
+      },
+      "evidence_snapshot_hash": "ab33fd062a699b026b87ceafaf793d4025b29377880baaea1aadb2477b07801a",
+      "already_announced_exclusion": "Precision Engineering restructuring already disclosed"
+    },
+    {
+      "prediction_id": "rv-IMI-2022-12-31-restructuring-rules-1.0.0",
+      "company": "IMI",
+      "ticker": "IMI",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.140949,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-IMI-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.42,
+        "margin_pressure": 0.09000000000000001,
+        "cash_pressure": 0.315,
+        "contrary_strength": -0.6400000000000001
+      },
+      "evidence_snapshot_hash": "e58a71291ef10fc3803772d70538fb20475b3bb4b1fdb3e727206df311670560",
+      "already_announced_exclusion": "Precision Engineering programme already disclosed"
+    },
+    {
+      "prediction_id": "rv-SPX-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Spirax Group",
+      "ticker": "SPX",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.068982,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-SPX-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.06999999999999999,
+        "margin_pressure": 0.045000000000000005,
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76
+      },
+      "evidence_snapshot_hash": "d7c31d9bf70f0215fd086ea1d5e08e3363e1c7d0abda9dbc12bbc380d76e511f",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-SPX-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Spirax Group",
+      "ticker": "SPX",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.304189,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-SPX-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.48999999999999994,
+        "margin_pressure": 0.63,
+        "cash_pressure": 0.5249999999999999,
+        "contrary_strength": -0.48
+      },
+      "evidence_snapshot_hash": "9e53d05d648e2f81418fcd369b407eb026018b3112946b333427ba20da09f832",
+      "already_announced_exclusion": "ETS restructuring already disclosed"
+    },
+    {
+      "prediction_id": "rv-PRV-2021-12-31-restructuring-rules-1.0.0",
+      "company": "Porvair",
+      "ticker": "PRV",
+      "information_cutoff": "2021-12-31",
+      "probability": 0.077456,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-PRV-2021"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.06999999999999999,
+        "margin_pressure": 0.09000000000000001,
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.68
+      },
+      "evidence_snapshot_hash": "10152518e929a71b4b1b9e54adc5b6931983c6d9c467b2b2fae6c38c2b2dd719",
+      "already_announced_exclusion": ""
+    },
+    {
+      "prediction_id": "rv-PRV-2022-12-31-restructuring-rules-1.0.0",
+      "company": "Porvair",
+      "ticker": "PRV",
+      "information_cutoff": "2022-12-31",
+      "probability": 0.088877,
+      "confidence": 0.48,
+      "model_version": "restructuring-rules-1.0.0",
+      "evidence_ids": [
+        "rv-PRV-2022"
+      ],
+      "feature_contributions": {
+        "pressure_language": 0.13999999999999999,
+        "margin_pressure": 0.135,
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.68
+      },
+      "evidence_snapshot_hash": "c31863d6b97b872ab9f87bec2fb4ab62e2d39ba13fb48124514119dca53f0ca4",
+      "already_announced_exclusion": ""
+    }
+  ]
+}
