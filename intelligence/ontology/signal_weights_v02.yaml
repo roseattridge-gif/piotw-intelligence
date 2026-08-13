@@ -1,0 +1,41 @@
+version: signal-weights-0.2.0-proposed
+status: proposed_not_frozen
+models:
+  operational_pressure:
+    workforce_demand_skills: 0.15
+    operational_disclosure: 0.16
+    leadership_organisation: 0.12
+    capacity_footprint: 0.10
+    procurement_contracts: 0.09
+    product_quality_customer: 0.12
+    corporate_actions: 0.07
+    web_narrative: 0.07
+    sector_macro: 0.07
+    financial_state: 0.05
+  expansion_transformation:
+    workforce_demand_skills: 0.22
+    operational_disclosure: 0.10
+    leadership_organisation: 0.12
+    capacity_footprint: 0.16
+    procurement_contracts: 0.12
+    product_quality_customer: 0.08
+    corporate_actions: 0.06
+    web_narrative: 0.06
+    sector_macro: 0.04
+    financial_state: 0.04
+confidence_caps:
+  single_evidence_cluster: 0.55
+  no_non_company_source: 0.70
+  self_published_evidence_share: 0.60
+cluster_contribution_cap: 0.20
+recency_half_life_days:
+  vacancy_spike: 90
+  persistent_skill_shift: 270
+  executive_departure: 365
+  delivery_quality_event: 180
+  repeated_operational_language: 270
+  contract_order_event: 365
+  capacity_site_change: 730
+  acquisition_integration: 730
+  financial_structural: 540
+  recall_enforcement: 540
