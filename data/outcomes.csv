@@ -1,0 +1,5 @@
+company,outcome_type,event_date,positive,verification_document,source_location,verification
+Chemring,major_capacity_investment,2023-06-06,1,chemring-interim-2023,official interim-results page,"£90m capacity expansion plan to 2026 initiated; inside 18-month horizon"
+Vesuvius,major_capacity_investment,2023-03-02,1,vesuvius-fy22,official FY2022 results,"£89m capex and named Flow Control capacity expansions; 4.3% of 2022 revenue"
+Vesuvius,material_inventory_correction,2023-03-02,1,vesuvius-fy22,official FY2022 results,"Reported good progress reducing inventory levels, especially raw materials"
+Bodycote,no_primary_composite_label,2023-06-30,0,bodycote-fy22,official FY2022 results,"No qualifying primary label verified: margin fell only 30bps and named capacity projects were not separately quantified"

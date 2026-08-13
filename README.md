@@ -1,0 +1,24 @@
+# Put It On The Wall Intelligence
+
+An auditable, outside-in operational-intelligence research MVP. Phase 0 is implemented with synthetic data and must not be presented as validated predictive intelligence.
+
+## What is working
+
+- Responsive React research UI with company universe, profile, evidence ledger and honest placeholders for later views.
+- PostgreSQL migration for complete provenance, facts/signals/hypotheses/predictions separation, versions, costs, benchmarks and experiments.
+- Deterministic weighted scoring and confidence calculation.
+- Backtest cutoff enforcement using public `available_at`.
+- Source and extractor interfaces, ontology seed, assumption/backtest/methodology documents and unit tests.
+- AI disabled by default; no secrets; no paid service required.
+
+## Run locally
+
+Install the JavaScript dependencies with `pnpm install`, then run `pnpm dev`. For the research tests install the Python test extra and run `pytest`. Copy `.env.example` only when connecting later services. Never commit the resulting `.env`.
+
+## GitHub publishing
+
+The frontend is a conventional static Vite application. A manual GitHub Pages workflow is included, but it does nothing until the repository is on GitHub and its **Deploy to GitHub Pages** action is explicitly run. There is no ChatGPT Sites configuration or dependency.
+
+## Scientific status
+
+The repository now includes a real, three-company retrospective feasibility pilot. It retained seven official disclosures, manually checked 24 evidence observations and ran deterministic predictions against simple baselines. The result is negative at Gate 4: the operational model did not beat the best simple comparator. See `docs/research/PILOT_REPORT.md`. This is not a statistically powered or genuinely blind backtest.

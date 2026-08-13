@@ -1,0 +1,16 @@
+[project]
+name = "piotw-intelligence"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2", "pyyaml>=6"]
+
+[project.optional-dependencies]
+research = ["pandas", "numpy", "duckdb", "scikit-learn", "statsmodels", "matplotlib"]
+test = ["pytest", "ruff", "mypy"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,1682 @@
+
+--- PAGE 1 ---
+1 
+ 
+  
+14 DECEMBER 2021 
+CHEMRING GROUP PLC 
+(“Chemring”, “the Group” or “the Company”) 
+ 
+RESULTS FOR THE YEAR ENDED 31 OCTOBER 2021 
+ 
+ As reported At 2020 exchange rates  
+ 2021 Change 2021 Change 2020 
+      
+Order intake (£m) 431.0 -1% 448.6 +3% 436.6 
+Revenue (£m) 393.3 - 2% 408.0 + 1% 402.5 
+Underlying EBITDA* (£m)  76.4 + 2% 79.4 + 6% 74.6 
+Underlying operating profit* (£m) 57.5 + 5% 60.1 + 10% 54.7 
+Underlying profit before tax* (£m) 55.9 + 8% 58.4 + 13% 51.7 
+Underlying basic earnings per share* (pence) 16.9 + 12% 17.7 + 17% 15.1 
+Statutory operating profit (£m) 50.4 + 9%   46.3 
+Dividend per share (pence) 4.8 + 23%   3.9 
+Net debt at 31 October (£m)  26.6 - 45% 28.4 -41% 48.2 
+Order book at 31 October (£m) 500.8 + 5% 514.1 +8% 476.0 
+ 
+ 
+Key points 
+ 2021 performance was in line with the Board’s expectations with strong performance in both 
+segments, despite an FX translation headwind caused by the 10 cent weakening of the US dollar  
+ Roke order intake exceeded £100m for the first time, with double digit growth in orders, revenue and 
+operating profit in a positive market 
+ Successful acquisition and integration of the Cubica Group, performing well since completion in June 
+2021 
+ Continued progress in our US Sensors Programs of Record. Further orders received in the year for the 
+next phase of HMDS delivery, valued at $69m, under the previously announced $200m IDIQ contract. 
+$99m EMBD full rate production six-year contract awarded in October 2021 
+ Sensors & Information underlying operating margin increased from 20.0% to 21.6% 
+ Countermeasures & Energetics underlying operating margin increased from 15.0% to 16.2% as the UK 
+countermeasures site delivered strong operational and financial performance 
+ Continued reduction in net debt with strong operating cash generation and cash conversion of 105%. 
+Continued scheduled capital expenditure ahead of depreciation. Net debt to underlying EBITDA of 
+0.35 times 
+ New policy to target a medium-term dividend cover of c.2.5 times underlying EPS. Proposed final 
+dividend increased by 23% to 3.2p, giving a total dividend of 4.8p (3.5 times cover) 
+ Investment in the Group’s manufacturing infrastructure continues to be a key enabler to deliver 
+improved safety and operational excellence. TRIF rate was down 21% at 0.67 (2020: 0.85) 
+ Board’s expectations for 2022 are unchanged. Approximately 84% (2020: 78%) of expected 2022 
+revenue is covered by the order book 
+ 
+Michael Ord, Group Chief Executive, commented: 
+“Despite being another challenging year in which we have continued to operate under the restrictions of 
+CV-19, I am delighted with the financial and operational progress that has been made across Chemring. We 
+have continued the process of transformation that was launched in 2019 as we build a stronger, higher 
+quality and technology focused business. We maintain our relentless focus on safety and on living our 
+shared values of Safety, Excellence and Innovation. In doing so we are driving our collective purpose – 
+delivering innovative protective technologies to help make the world a safer place. 
+
+--- PAGE 2 ---
+2 
+ 
+ 
+Chemring is now a stronger business with increasing opportunities for development and growth and I would 
+like to thank all my colleagues across Chemring for their determination, hard work and support. The 
+progress made over the past few years would not have been possible without their collective efforts. 
+ 
+Trading since the start of the current financial year has been in line with expectations. With 84% of 2022 
+expected revenue covered by the order book, the Board’s expectations for 2022 performance are 
+unchanged. Chemring is well placed, with a robust strategy, market-leading positions across different 
+geographies and sectors, and with products and services that are critical to our government and blue-chip 
+customers around the world. Chemring’s long-term prospects remain strong.” 
+ 
+Notes: 
+* All profit and earnings per share figures in this news release relate to underlying business performance (as defined 
+below) unless otherwise stated. 
+ 
+The principal Alternative Performance Measures (“APMs”) presented are the underlying measures of earnings which 
+exclude discontinued operations, exceptional items, gain or loss on the movement on the fair value of derivative 
+financial instruments, the amortisation of acquired intangibles and the associated tax impact on these items. The 
+Directors believe that these APMs improve the comparability of information between reporting periods as well as 
+reflect the key performance indicators used within the business to measure performance. The term underlying is not 
+defined under IFRS and may not be comparable with similarly titled measures used by other companies.  
+ 
+A reconciliation of underlying measures to statutory measures is provided below: 
+ 
+Group – continuing operations: Underlying Non-underlying Statutory 
+EBITDA (£m) 76.4 (0.9) 75.5 
+Operating profit (£m) 57.5 (7.1) 50.4 
+Profit before tax (£m) 55.9 (7.1) 48.8 
+Tax charge (£m) (8.3) 1.0 (7.3) 
+Profit after tax (£m) 47.6 (6.1) 41.5 
+Basic earnings per share (pence) 16.9  14.7 
+Diluted earnings per share (pence) 16.5   14.4 
+Segments – continuing operations:    
+Sensors & Information EBITDA (£m) 34.4 - 34.4 
+Sensors & Information operating profit (£m) 31.6 (5.7) 25.9 
+Countermeasures & Energetics EBITDA (£m) 56.1 - 56.1 
+Countermeasures & Energetics operating profit (£m) 40.0 (2.1) 37.9 
+ 
+The adjustments to continuing operations comprise: 
+ amortisation of acquired intangibles of £6.2m (2020: £8.9m) 
+ costs relating to acquisitions of £1.6m (2020: £nil) 
+ gain on the movement in the fair value of derivative financial instruments of £0.7m (2020: £0.5m gain) 
+ tax impact of adjustments of £1.0m credit (2020: £0.5m credit) 
+ 
+Further details are provided in note 3. 
+ 
+EBITDA is defined as profit before interest, tax, depreciation and amortisation. Reference to constant currency relates 
+to the re-translation of 2021 financial information at the 2020 exchange rates to reflect the movement excluding the 
+impact of foreign exchange. The exchange rates applied are disclosed in note 10. 
+--- PAGE 3 ---
+3 
+ 
+ 
+ 
+ 
+For further information: 
+ 
+Rupert Pittman Group Director of Corporate Affairs, Chemring Group PLC 01794 463401
+Andrew Jaques MHP Communications 020 3128 8170
+Oliver Hughes 
+James Bavister 
+ 
+  
+ 
+Cautionary statement 
+ 
+This announcement contains forward-looking statements that are based on current expectations or beliefs, as well as 
+assumptions about future events. These forward-looking statements can be identified by the fact that they do not 
+relate only to historical or current facts. Forward-looking statements often use words such as anticipate, target, 
+expect, estimate, intend, plan, goal, believe, will, may, should, would, could, is confident, or other words of similar 
+meaning. Undue reliance should not be placed on any such statements because they speak only as at the date of this 
+document and, by their very nature, they are subject to known and unknown risks and uncertainties and can be 
+affected by other factors that could cause actual results, and Chemring's plans and objectives, to differ materially from 
+those expressed or implied in the forward-looking statements. There are a number of factors which could cause actual 
+results to differ materially from those expressed or implied in forward-looking statements. Among the factors that 
+could cause actual results to differ materially from those described in the forward-looking statements are: increased 
+competition, the loss of or damage to one or more key customer relationships, changes to customer ordering patterns, 
+delays in obtaining customer approvals for engineering or price level changes, the failure of one or more key suppliers, 
+the outcome of business or industry restructuring, the outcome of any litigation, changes in economic conditions, 
+currency fluctuations, changes in interest and tax rates, changes in raw material or energy market prices, changes in 
+laws, regulations or regulatory policies, developments in legal or public policy doctrines, technological developments, 
+the failure to retain key management, or the key timing and success of future acquisition opportunities or major 
+investment projects. Chemring undertakes no obligation to revise or update any forward-looking statement contained 
+within this announcement, regardless of whether those statements are affected as a result of new information, future 
+events or otherwise, save as required by law and regulations. 
+ 
+Notes to editors 
+ 
+ Chemring is a FTSE-250 global business that specialises in the manufacture of high technology products and 
+the provision of services to the aerospace, defence and security markets 
+ Employing approximately 2,300 people worldwide, and with production facilities in four countries, Chemring 
+meets the needs of customers in more than fifty countries  
+ Chemring is organised under two strategic product sectors:  Sensors & Information and Countermeasures & 
+Energetics 
+ Chemring has a diverse portfolio of products that deliver high reliability solutions to protect people, 
+platforms, missions and information against constantly changing threats 
+ Operating in niche markets and with strong investment in research and development, Chemring has the 
+agility to rapidly react to urgent customer needs 
+ 
+www.chemring.co.uk 
+ 
+Presentation 
+A video presentation and accompanying slides will be available at the Chemring Group results centre 
+www.chemring.co.uk/investors/results-centre at 07.00 (UK time) on Tuesday 14 December 2021.  
+ 
+Photography 
+Original high resolution photography is available to the media by contacting Catherine Chapman, MHP 
+Communications: catherine.chapman@mhpc.com / tel: +44 (0) 20 3128 8339. 
+ 
+  
+--- PAGE 4 ---
+4 
+ 
+Group overview 
+ 
+Overall 2021 performance was in line with our expectations despite the foreign exchange headwind caused 
+by the weakening US dollar. On a constant currency basis both segments made operational and financial 
+progress. The Group’s reported revenue was down 2% to £393.3m (2020: £402.5m). Underlying operating 
+profit was up 5% to £57.5m (2020: £54.7m). Underlying earnings per share was up 12% to 16.9p (2020: 
+15.1p). 
+ 
+In 2021 the Group successfully navigated a number of operational and financial challenges, including 
+foreign exchange, delays in the US Department of Defense (“US DoD”) procurement process, labour (in 
+particular US) availability, various supply chain and inflationary pressures. These headwinds are likely to 
+continue into 2022 and the Group will continue to work to mitigate their impact. 
+ 
+The US dollar has weakened in the year with the average exchange rate to sterling increasing from $1.28 to 
+$1.38. Of the Group’s revenue, 53% was US dollar denominated (2020: 54%). On a constant currency basis 
+the Group’s revenue was up 1% to £408.0m, underlying operating profit was up 10% to £60.1m and 
+underlying earnings per share was up 17% to 17.7p. A summary of the impact of the exchange rate 
+movements on the key metrics at a Group and segmental level is shown in the table below. 
+ 
+ 
+ 
+In the Sensors & Information segment, Roke has again recorded double digit growth in orders, revenue and 
+operating profit, with the market continuing to be positive. The acquisition of the Cubica Group was 
+completed in June 2021, which creates further opportunities to enhance and further accelerate growth in 
+Roke. In addition, there has been continued progress on the US Sensors Programs of Record with $69m of 
+further delivery orders received for the next phase of the $200m Husky Mounted Detection System 
+(“HMDS”) Indefinite Delivery / Indefinite Quantity (“IDIQ”) contract and an initial delivery order of $16m 
+received in October 2021 for the sole source Enhanced Maritime Biological Detection (“EMBD”) framework 
+contract, which is valued at up to $99m and will see deliveries being made in the final quarter of FY22 and 
+FY23, with an estimated completion date of December 2027. 
+ 
+In Countermeasures & Energetics, good progress was made on securing new long-term contracts, including 
+Chemring Countermeasures USA receiving a five-year IDIQ contract for the supply of infra-red decoy flares 
+and Chemring Energetics UK securing a 15-year long-term partnering agreement with Martin Baker Aircraft 
+Company. The capital investment programmes are progressing as planned. 
+ 
+ At constant currency As reported  
+ 2021 Change 2021 Change 2020 
+ £m  £m  £m 
+Group      
+Revenue 408.0 +1% 393.3 -2% 402.5 
+Underlying EBITDA 79.4 +6% 76.4 +2% 74.6 
+Underlying operating profit  60.1 +10% 57.5 +5% 54.7 
+Underlying earnings per share 17.7p +17% 16.9p +12% 15.1p 
+      
+Sensors & Information      
+Revenue  151.5 +10% 146.6 +7% 137.2 
+Underlying EBITDA 35.4 +15% 34.4 +12% 30.7 
+Underlying operating profit 32.6 +19% 31.6 +15% 27.4 
+      
+Countermeasures & Energetics      
+Revenue  256.5 -3% 246.7 -7% 265.3 
+Underlying EBITDA 58.4 +3% 56.1 -1% 56.5 
+Underlying operating profit 41.9 +5% 40.0 +0% 39.9 
+--- PAGE 5 ---
+5 
+ 
+Net debt was £26.6m at the end of the year (2020: £48.2m), the decrease since 31 October 2020 being 
+largely attributable to strong operating cash generation offset by the investment in capital projects in the 
+year. Continuing underlying operating cash inflow of £80.0m (2020: £82.4m) represented 105% (2020: 
+110%) of EBITDA. 
+ 
+The Group’s order book at 31 October 2021 was £501m (2020: £476m), of which approximately £358m is 
+scheduled for delivery during 2022, representing cover of approximately 84% (2020: 78%) of expected 2022 
+revenue. The increase since 31 October 2020 is primarily attributable to strong order intake at Roke which 
+exceeded £100m for the first time in its history.  
+ 
+Health and safety 
+ 
+Safety is our core value, with the health, safety and wellbeing of our colleagues, their families, our 
+customers and the communities in which we operate being our priority. This has been particularly relevant 
+this year as we have continued to operate under the restrictions caused by CV-19. 
+ 
+Whilst the pandemic has placed additional burden on every business with the need to implement and 
+adhere to strict guidelines in order to maintain a safe environment, we have delivered good progress in line 
+with our broader HSE strategy. We continue to focus our efforts across the areas of control of major 
+accident hazards, injury reduction and HSE risk management. Alongside this we will ensure that we focus 
+on the right skills, tools, processes and that support is in place at every level and for all employees across 
+the business. 
+ 
+Our focus on injury prevention continues to place more emphasis on safety measures for people working 
+from home and their mental and emotional wellbeing, and is now supported by the newly formed Healthy 
+Workplace Committee.  
+ 
+In 2021 our total recordable injury frequency rate was 0.67 compared to 0.85 in 2020, a decrease of 21%. 
+ 
+Governance and ethics 
+ 
+We continue to strengthen our policies and procedures across the Group to ensure that our businesses 
+operate with integrity and transparency and to the highest ethical standards. We have also maintained our 
+focus on creating an inclusive culture across the Group, where everyone does the right thing and takes 
+personal responsibility for their actions. 
+ 
+The bedrock of our governance is our Code of Conduct and our Operational Framework, both of which bind 
+our purpose, values, behaviour, policies and procedures, and provide the necessary governance to enable 
+us to operate in a safe, consistent and accountable way. Our Ethics & Compliance Committee, which meets 
+regularly throughout the year and is chaired by the Chairman, is responsible for the oversight and 
+monitoring of Chemring’s governance framework and ethical business conduct and compliance. 
+ 
+Good governance and ethical behaviour underpin our evolving sustainability agenda and ensure that we 
+operate safely, responsibly and in compliance with applicable legislation in all of the jurisdictions in which 
+we operate. 
+ 
+  
+--- PAGE 6 ---
+6 
+ 
+Group Chief Executive’s review 
+ 
+Despite being another challenging year in which we have continued to operate under the restrictions of CV-
+19, I am delighted with the financial and operational progress that has been made across Chemring. We 
+have continued the process of transformation that was launched in 2019 as we build a stronger, higher 
+quality and technology focused business. We maintain our relentless focus on safety and on living our 
+shared values of Safety, Excellence and Innovation. In doing so we are driving our collective purpose:  
+delivering innovative protective technologies to help make the world a safer place. 
+ 
+I would like to thank all my colleagues across Chemring for their determination, hard work and support. 
+The progress made over the past few years would not have been possible without their collective efforts. 
+ 
+With market-leading innovative technologies and services that are critical to our customers, our niche 
+market positions and our strong balance sheet, I look to the future with excitement and confidence in our 
+continued success. 
+ 
+Purpose and strategy 
+ 
+Chemring’s purpose is to help make the world a safer place. Across physical and digital environments, our 
+exceptional teams deliver innovative protective technologies to detect and defeat ever-changing threats. 
+We achieve this through innovation, using our extensive science and advanced engineering expertise to 
+design, develop and manufacture critical solutions that protect and safeguard in an uncertain world. 
+ 
+The Group’s strategy is to deliver sustainable, profitable growth by operating in markets where we have 
+differentiators such as intellectual property, niche technology, high barriers to entry and deep long-term 
+customer relationships. 
+ 
+The Sensors & Information sector remains Chemring’s principal area of focus for long-term growth, 
+reflecting customer demand and opportunities in this area. We continue to focus on expanding the Group’s 
+product, service and capability offerings, constantly innovating to enable our customers to deliver 
+competitive advantage and to defend their people, assets and information. 
+ 
+The Countermeasures & Energetics sector strategy continues to be one of strengthening and protecting our 
+niche, world-leading positions through continuously improving our technological and operational base, 
+whilst working closely with our customers in the development of new solutions to meet emerging needs. 
+ 
+As a Board we remain open to accelerating our growth opportunities through selective acquisitions that 
+meet a strict set of criteria, enhance shareholder value and fit in with our wider growth plans. This activity 
+is principally focused on the Sensors & Information sector where we see greatest opportunities for long-
+term growth. 
+ 
+Elsewhere we will continue to focus our efforts on building a safe and resilient business that is able to 
+deliver margin progression through continuous improvement in operational performance and execution. 
+We shall continue to invest in both our people and our infrastructure in order to deliver sustainable growth 
+into the future. 
+ 
+  
+--- PAGE 7 ---
+7 
+ 
+Environmental, Social and Governance (“ESG”) 
+ 
+At Chemring our purpose is to help make the world a safer place, delivering innovative protective 
+technologies to detect and defeat ever-changing threats. Our commitment to protection goes beyond our 
+customers. It embraces many different stakeholders including our people and our suppliers, and it 
+recognises the need for us to contribute towards a sustainable future.  
+ 
+From an ESG perspective 2020 was a baseline year for Chemring where we focused our efforts on gaining 
+a better understanding of our data, identifying gaps within our knowledge, completing the reshaping of the 
+portfolio to focus on protective technologies and putting in place the infrastructure and governance to 
+effectively manage our sustainability agenda. 
+ 
+We continued to build on this progress in 2021 with the overriding goal of elevating our ESG-related activity. 
+ 
+A crucial first step in this, and a priority goal for the year, was to undertake a materiality assessment to 
+identify the areas of greatest concern to our stakeholders, and to identify those areas and activities where 
+our actions could have greatest positive impact. 
+ 
+The materiality assessment process identified the most significant environmental, social and governance 
+topics, both risks and opportunities, and ranked them according to feedback from a selection of 
+stakeholders including customers, suppliers, employees and investors. Key focus areas included health and 
+safety, diversity and inclusion, reducing climate change, and employee wellbeing. 
+ 
+In addition to the materiality exercise we conducted a mapping exercise to consider the alignment of the 
+organisation to the United Nations Sustainable Development Goals (“UN SDGs”), and assess the 
+opportunities to measure and manage Chemring’s contribution to the UN SDGs going forward. 
+ 
+Both exercises have been fundamental to enabling us to set appropriate near and longer-term targets, 
+against which our progress can be measured. These include our commitment to reduce our direct (scope 
+1) and indirect (scope 2) emissions year on year, to be carbon neutral by 2030 (scope 1 and 2), and net zero 
+by 2050. Our broader sustainability goals and near term targets, including our commitment to greater 
+diversity and representation, are disclosed in greater detail in both our stand-alone sustainability report 
+and this year’s annual report and accounts.  
+ 
+To facilitate and ensure a consistent approach to sustainability across all our businesses, a Group 
+Sustainability Committee was formed during the year. The Committee, which is chaired by the Group Chief 
+Executive as the Board Director responsible for sustainability across the Group, consists of members of the 
+Group’s Executive Committee with responsibility for health and safety, environmental impact, people, 
+ethics and business conduct, supported by internal subject matter experts. The Committee will shape and 
+monitor the implementation of our sustainability agenda and ensure that the Group continues to make 
+progress in the future. 
+ 
+As a business we are committed to building a sustainable company of which all our stakeholders can be 
+proud, both now and in the future.  
+ 
+Culture 
+ 
+Our success is built by our people and much of this depends on having the right people, in the right place, 
+at the right time. This is achieved through a balance of effective recruitment, opportunities for 
+development, great managers, and a productive and inspiring culture. The Chemring culture must ensure 
+that all our colleagues are able to enjoy a safe, inclusive, collaborative environment, where every individual 
+has the opportunity to grow and develop and contribute to the development and success of the business. 
+ 
+--- PAGE 8 ---
+8 
+ 
+Our investment in nurturing a culture built on our core values of Safety, Excellence and Innovation, which 
+started with a full review in every part of the business in early 2019, is now embedded in every part of the 
+business. However, there is still work to do and we continue to review and enhance our approach to how 
+best to focus on developing an inclusive, respectful and diverse culture. 
+ 
+The impact of the CV-19 pandemic has been felt in many parts of the business and the ability to bring 
+colleagues together in person has been significantly impacted. Similarly the opportunity to meet with 
+customers and to host third parties at our locations has been reduced with the primary requirement to 
+keep our colleagues, communities and families safe. As restrictions ease the opportunity to interact and 
+collaborate in real time provides the opportunity for more work to be done in support of the cultural 
+journey. 
+ 
+Making sure that we have an appropriately diverse pool of talent within the organisation is a key enabler 
+and our wider focus on diversity, equity and inclusion has further developed this year. The establishment 
+of a strategy and framework of activity to ensure progress towards this important cultural and behavioural 
+element has been a key milestone in 2021. Starting with ensuring corporate and personal awareness of the 
+importance of a diverse population, an inclusive culture and systems that help support equality and drive 
+equity, a programme of workshops is now in place for all our senior leaders and managers. This will continue 
+through 2022 when a programme of mentoring and sponsorship for less well represented populations 
+within the Group will commence. 
+ 
+We will continue to focus throughout 2022 on developing an inclusive and dynamic work environment for 
+all our colleagues in support of our business goals and to ensure that we continue to invest in our people. 
+ 
+Markets 
+ 
+The market outlook is positive with solid demand across our home markets, the US, the UK, Europe, and 
+Australia. 
+ 
+The US 
+ 
+The US has the world’s largest defence budget and our US businesses are well placed to benefit from this 
+strong market environment. 
+ 
+President Biden’s budget request for FY22 suggests that the new Biden-Harris administration is looking to 
+create a modernised force structure with a strong emphasis on technological sophistication and military 
+readiness. The US DoD’s element of the overall $753bn national defence and security budget is $715bn 
+with the additional $38bn being used to fund defence-related activities at the Department of Energy, 
+Federal Bureau of Investigation and other agencies. This represents a non-inflation adjusted increase of 
+1.7%. We note the US budget’s continuing resolution funds government operations at current levels 
+through to mid-February 2022. At that point the budget must be adopted or another continuing resolution 
+passed. 
+ 
+Competition with China and a pivot away from the Middle East towards the Indo-Pacific region are 
+dominant in the planning assumptions, and throughout the budget request there is a strong focus on 
+advanced capability enablers and R&D. Several of the identified priorities for targeted investment such as 
+artificial intelligence, electronic warfare (“EW”), hypersonic technology, cyber and quantum computing can 
+create opportunities for us to deploy Group-wide capabilities and technologies, particularly those in our 
+Sensors & Information sector. Moreover, the need to counter emerging biological threats through threat 
+reduction, infectious disease surveillance, biosecurity and medical countermeasure R&D will also play into 
+our strengths in the same sector. 
+ 
+The President’s request also includes a $12bn request for an additional 85 F-35 Lightning II aircraft which 
+continues to drive demand in our countermeasures business.  
+--- PAGE 9 ---
+9 
+ 
+ 
+ 
+ 
+ 
+The UK 
+ 
+Following November 2020’s £16.5bn uplift for defence spending, the UK Government’s defence and 
+national security priorities as set out in March 2021’s Integrated Review of Security, Defence, Development 
+and Foreign Policy (“IR”) align well to those of the US, and signal a strong and growing demand for our 
+capabilities.  
+ 
+The UK’s future priorities as set out in the IR are very well aligned to those of the US, and include the 
+creation of new military and security constructs that are data and intelligence driven, with Science and 
+Technology (“S&T”) being positioned as a key element of UK soft power. Against this backdrop there is a 
+strong pivot towards the acquisition of high technology capabilities in the areas of cyber, artificial 
+intelligence, data science, EW, unmanned/autonomous systems and space. Our capabilities in the Sensors 
+& Information sector, particularly in Roke, fit very well with these growing requirements. 
+ 
+As the sole source supplier of countermeasures to the UK’s F-35 Lightning II fleet we are well placed to 
+benefit from the IR’s stated plans to expand the UK F-35 fleet size beyond the 48 aircraft already ordered. 
+ 
+For Chemring, the UK MOD accounts for less than 10% of Group revenues; however, it is an important 
+partner for developing and qualifying new products, a role that will gain increased significance with these 
+new capability priorities. 
+ 
+Europe 
+ 
+Near-term European defence spend is growing as several countries are looking to approach the 
+recommended NATO commitment. 
+ 
+Real term European defence expenditure grew about 2% in 2020, with average spend among European 
+NATO members reaching 1.64% of GDP. While this figure represents a continuation of the steady increases 
+seen in recent years, it still falls short of NATO’s recommended target for defence spend, namely 2% of 
+GDP. This is despite the negative effect of the CV-19 pandemic on the European economy that has caused 
+an overall GDP contraction of c.7%. 
+ 
+The budgets of the major European defence actors – France, Germany, Italy and the UK – all have an 
+upwards trend. Although we continue to vie with highly capable competitors and national champions in 
+Europe, we have succeeded in selling countermeasures, EW systems and improvised explosive device 
+(“IED”) detectors to several European customers including Germany, France, Italy and Spain. In addition, 
+we provide energetic materials and components to several leading prime contractors across the region. The 
+near-term outlook for the European market is potentially positive, with a number of niche opportunities 
+for our capabilities. 
+ 
+Australia 
+ 
+Australia is Chemring’s fourth home market and is investing to modernise its defence capabilities. 
+ 
+Australia has a well-equipped military, with capability provided by major international contractors as well 
+as highly capable local suppliers. In response to what it sees as a deteriorating regional environment, the 
+Australian Government has plans to increase its total defence spending over the next decade from 
+AU$195bn to AU$270bn. Associated with this budgetary increase is a simultaneous objective to foster a 
+robust and resilient indigenous industrial base.  
+ 
+--- PAGE 10 ---
+10 
+ 
+The recently announced Australia – United Kingdom – United States (“AUKUS”) tripartite security alliance 
+confirmed that the UK and the US intend to share with Australia their expertise in security and defence 
+related S&T including in cyber, artificial intelligence and quantum computing. AUKUS covers three of 
+Chemring’s home markets, and the even greater co-operation that this pact will engender has potential to 
+create new opportunities for the Group’s capabilities. 
+ 
+Group financial performance 
+ 
+The US dollar has weakened in the year with the average exchange rate to sterling increasing from $1.28 to 
+$1.38, resulting in a significant headwind. Of the Group’s revenue, 53% was US dollar denominated (2020: 
+54%). On a constant currency basis the Group’s revenue was up 1% to £408.0m, underlying operating profit 
+was up 10% to £60.1m and underlying earnings per share was up 17% to 17.7p. 
+ 
+Order intake across the Group has remained robust at £431.0m (2020: £436.6m) despite the impact of the 
+weaker US dollar, with Roke seeing order intake exceeding £100m for the first time and the release of 
+further delivery orders on the HMDS IDIQ contract, as well as orders awarded to the US countermeasures 
+businesses. The comparator year benefitted from our Australian business receiving a $107m multi-year 
+contract for the supply of countermeasures for the F-35. 
+ 
+Revenue for the year was down 2% to £393.3m (2020: £402.5m), driven by strong performance in the 
+Sensors & Information segment, offset by a foreign currency headwind. 
+ 
+The underlying operating profit of £57.5m (2020: £54.7m) resulted in an underlying operating margin of 
+14.6% (2020: 13.6%). The improved margin compared to 2020 primarily reflects the growth of the higher 
+margin Sensors & Information segment and the continued focus on improved operational execution 
+throughout the Group, particularly at the UK countermeasures site. 
+ 
+Total finance expense fell to £1.6m (2020: £3.0m). This was achieved by the continued focus on the efficient 
+management of working capital and lower levels of net debt throughout the year.  
+ 
+This resulted in an underlying profit before tax of £55.9m (2020: £51.7m). The effective tax rate on the 
+underlying profit before tax was 14.8% (2020: 17.6%). The underlying earnings per share was 16.9p (2020: 
+15.1p). 
+ 
+Statutory operating profit was £50.4m (2020: £46.3m) and after statutory finance expenses of £1.6m (2020: 
+£3.0m), statutory profit before tax was £48.8m (2020: £43.3m). The statutory tax charge totalled £7.3m 
+(2020: £8.6m), giving statutory profit after tax of £41.5m (2020: £34.7m) and statutory earnings per share 
+of 14.7p (2020: 12.3p). 
+ 
+A reconciliation of underlying to statutory profit measures is provided in note 3. The non-underlying costs 
+relate to the amortisation of acquired intangibles, costs relating to acquisitions, gains on the movement in 
+the fair value of derivative financial instruments and the tax credit associated with these. 
+ 
+Segmental review – Sensors & Information 
+ 
+Performance 
+ 
+Revenue for Sensors & Information increased by 7% to £146.6m (2020: £137.2m) and underlying operating 
+profit increased by 15% to £31.6m (2020: £27.4m), as underlying operating margin improved to 21.6% 
+(2020: 20.0%). The Sensors & Information business in the US has seen continued progress on the US 
+Programs of Record and Roke’s information security business has continued to grow. On a constant 
+currency basis revenue would have risen 10% to £151.5m and underlying operating profit would have been 
+up 19% to £32.6m. The statutory operating profit for the year was £25.9m (2020: £21.0m). 
+ 
+--- PAGE 11 ---
+11 
+ 
+In the UK, the markets for EW, cyber-security and data science capabilities, in which Roke is a leading 
+participant, have remained buoyant in the period. Roke delivered double digit growth in orders, revenue 
+and underlying operating profit and has maintained strong margins despite increased investment in people, 
+infrastructure and product development. This includes the establishment of a Roke presence in the North 
+West of England to align with customers establishing a hub for national security in that area and aligns with 
+Roke’s strategy to grow talent and develop new hubs across the UK. 
+ 
+The acquisition of the Cubica Group in June 2021 is an excellent strategic and cultural fit for our Roke 
+business. It offers leading edge capability in machine augmented intelligence and autonomy, where Roke’s 
+customers require an exponential increase in capability to achieve digital advantage against complex 
+threats. Roke plans to invest c.£1m in Cubica to support accelerated growth. This investment will be focused 
+on research and development, infrastructure and security. Cubica has added further market-leading 
+capabilities to Roke’s technology portfolio. The integration has progressed to plan and the business is 
+performing well. Tackling harmful content and activity online remains a key priority in the UK and worldwide 
+and Cubica’s ground-breaking work in the digital and internet policing domains means we are well 
+positioned to capitalise on opportunities with a number of high-profile programmes. 
+ 
+In the US our Sensors business continued to focus on both the delivery phase of the HMDS Program of 
+Record and on the engineering and manufacturing development (“EMD”) and testing phases of the 
+biological and chemical detection Programs of Record. 
+ 
+Key developments in the period on the major US Programs of Record are summarised below. 
+ 
+The US DoD’s Explosive Hazard Detection HMDS program, which encompasses concurrent development, 
+trialling and manufacturing, continues to progress as expected. Further delivery orders of $69m were 
+received during the year under the previously awarded $200m IDIQ contract, providing visibility on this 
+Program of Record well into FY22. The production phase is progressing as planned and customer deliveries 
+were made on schedule throughout the year.  
+ 
+We expect this program to run for the next decade, providing a recurring level of business as the US Army 
+moves to its objective of growing and upgrading its HMDS fleet. The new fleet will comprise both 
+refurbished and new HMDS and this activity will run alongside technology upgrade programs. 
+ 
+The sole source Joint Biological Tactical Detection System (“JBTDS”) program is progressing as planned 
+through the EMD phase and a customer procurement decision is expected in FY22.  
+ 
+The second biological program is the Enhanced Maritime Biological Detection System (“EMBD”), an 
+automated sensor to rapidly detect, collect, identify and sample airborne biological warfare agents, where 
+the customer is the US Navy. In October 2021, following the successful completion of the low rate initial 
+production (“LRIP”) contract that was awarded in May 2020, the US DoD approved and awarded a full rate 
+production contract. The value of this sole source framework contract is up to $99m with an estimated 
+completion date of December 2027. An initial delivery order of $16m will see deliveries being made in the 
+final quarter of FY22 and FY23. 
+ 
+The Aerosol and Vapor Chemical Agent Detector program (“AVCAD”) is also progressing through its EMD 
+phase. The next customer procurement decision point is still expected to be at the conclusion of the EMD 
+phase in FY22. Chemring remains one of two contractors currently selected for this competitive program, 
+expected to be worth up to $800m. 
+ 
+We are increasingly focusing our efforts within the US market through Roke USA, Inc. Following the first EW 
+order to the US DoD that was secured in 2020, our Resolve and Perceive products are currently on trial with 
+a number of different US Army divisions where customer feedback has been excellent. Roke USA continues 
+to support the customer with a view to securing further orders from this potentially significant market. 
+ 
+--- PAGE 12 ---
+12 
+ 
+Opportunities and outlook 
+ 
+The focus for Sensors & Information continues to be on expanding the Group’s product, service and 
+capability offerings in the areas of national security, artificial intelligence and machine learning, tactical 
+electronic warfare and information security, and securing positions on the US DoD Programs of Record.  
+ 
+In the UK, the national security and defence markets continue to grow with a focus on emerging 
+technologies in connectivity, cyber, automation and data analytics. Roke will continue to focus its efforts 
+on growing across all its business areas, delivering research, design, engineering and advisory services using 
+its high quality people and capabilities. 
+ 
+We will continue to actively explore opportunities to expand and accelerate the Sensors & Information 
+sector capabilities and offerings, both by leveraging opportunities in adjacent markets and through further 
+bolt-on acquisitions. However any acquisition must meet a strict set of criteria, enhance shareholder value 
+and fit in with our wider growth plans.  
+ 
+In the US, the HMDS and EMBD programs provide good medium-term visibility and the focus continues to 
+be on ensuring that the Virginia and North Carolina facilities are mobilised and resourced to maximise 
+Chemring’s opportunity to convert current and potential chemical and biological detection Programs of 
+Record and the EW opportunity. We will also invest in next-generation product development and in 
+modifying existing technologies to enable them to be deployed on a wider number of platforms including 
+autonomous systems and UAVs. 
+ 
+The order book for Sensors & Information at 31 October 2021 was £113.6m (2020: £87.3m), of which 
+£103m is expected to be delivered in 2022, providing 65% cover of expected 2022 revenue. 2022 trading 
+performance for Sensors & Information is expected to show a continuation of the levels of business seen in 
+2021, with medium-term growth opportunities driven by the chemical and biological detection Programs 
+of Record moving into full rate production and continued demand for Roke’s products and services. 
+ 
+Segmental review – Countermeasures & Energetics 
+ 
+Performance 
+ 
+Order intake in the year was lower at £255.1m (2020: £287.8m), primarily driven by the impact of a weaker 
+US dollar and a strong comparator in 2020 when our Australian business received its $107m two-year order 
+for the supply of countermeasures for the F-35 under a five-year IDIQ contract. 
+ 
+Following the change of administration in the US and the continuation of CV-19 working restrictions, the 
+process of doing business with some government departments has, on occasion, slowed and as a result 
+some Countermeasures & Energetics orders that were expected in the first half were delayed until the 
+second half of FY21. 
+ 
+Nonetheless, during the year Chemring Countermeasures USA received multiple orders totalling $111m, 
+including a five-year IDIQ contract for the supply of M206 and MJU-7A/B infra-red decoy flares. Deliveries 
+under these contracts started in 2021 and run through to 2024 giving improved visibility and strengthening 
+our positions in key markets. 
+ 
+In the UK, Chemring Energetics secured a long-term partnering agreement with Martin Baker Aircraft 
+Company. This 15-year agreement will see Chemring supply propellant material and pyro-mechanical 
+devices for use in a wide range of Martin Baker’s ejection seats (including those on the F-35 Joint Strike 
+Fighter) and is valued at up to £160m. 
+ 
+ 
+--- PAGE 13 ---
+13 
+ 
+Revenue for Countermeasures & Energetics decreased by 7% to £246.7m (2020: £265.3m), driven by a 
+foreign currency headwind as well as some timing delays on customer acceptance in the space market and 
+the impact of CV-19 on the commercial metron market, both within the niche energetics businesses. The 
+segment reported an underlying operating profit of £40.0m (2020: £39.9m) as underlying operating margin 
+improved to 16.2% (2020: 15.0%) driven by improved operational execution, in particular at the UK 
+countermeasures facility. On a constant currency basis revenue would have decreased by 3% to £256.5m 
+and operating profit would have been up 5% to £41.9m. 
+ 
+The statutory operating profit for the year was £37.9m (2020: £37.4m). 
+ 
+The investment in the expansion and automation of our Tennessee facility to meet the expected demand 
+for F-35 countermeasures has continued during the year. Construction work of buildings was completed 
+and despite a delay in the supply of complex manufacturing equipment to site due to suppliers being 
+impacted by CV-19, the new facility began its commissioning process in October 2021. During the year £6m 
+was spent on the facility, bringing the total spend to date to £43m. The expected total cost of the 
+programme remains approximately £50m. The facility will now go through a period of characterisation and 
+testing as production gradually ramps up. We still do not expect to generate revenue from the new facility 
+until the second half of our 2022 financial year. 
+ 
+The specialised and niche nature of our energetic devices products was demonstrated in February 2021 
+when the Perseverance Rover landed on the surface of Mars with 233 Chemring devices on board. These 
+were designed, developed and manufactured at our Chicago facility and were all critical to the success of 
+the mission. 
+ 
+Opportunities and outlook 
+ 
+The focus for Countermeasures & Energetics remains on safeguarding and growing the Group’s market-
+leading positions in niche markets. 
+ 
+We will continue the process of modernisation and automation across our sites, and in improving our 
+competitiveness through investment in lean manufacturing capabilities. We will also invest in new product 
+development to ensure that our product portfolio remains highly relevant to our customers and will 
+continue the process of operational alignment to share technology and manufacturing excellence across 
+the Group. 
+ 
+We will continue the process of expanding our capacity at our countermeasures manufacturing operations 
+in the US in response to the continuing demand for airborne countermeasures driven by air platform sales 
+including the F-35 and in the important special material decoy market. 
+ 
+The Group’s niche propellant and devices businesses in Scotland and Chicago are increasingly securing long-
+term contracts with customers, supporting greater short and medium-term visibility and providing a 
+framework for long-term planning and investment decisions. Similarly, demand for high quality high 
+explosives has enabled Chemring Nobel in Norway to work proactively with its customer base on long-term 
+contracting models, providing much improved visibility. 
+ 
+The Countermeasures & Energetics order book at 31 October 2021 was £387.2m (2020: £388.7m). The 
+slight decrease compared to the 2020 year end closing order book is partly attributable to foreign exchange; 
+on a constant currency basis using the 2020 closing exchange rates the order book would be £397.3m. The 
+remaining movement is largely attributable to the delivery of a substantial part of the $107m F-35 two-year 
+countermeasures contract by our Australian business that was received in April 2020, offset by increased 
+order intake in our US countermeasures businesses. Of the 31 October 2021 order book, approximately 
+£255m is currently expected to be delivered in 2022, representing 95% coverage of expected 2022 revenue. 
+ 
+ 
+--- PAGE 14 ---
+14 
+ 
+Net debt and cash flow 
+ 
+The Group’s net debt at 31 October 2021 was £26.6m (2020: £48.2m), representing a net debt to underlying 
+EBITDA ratio of 0.35x (2020: 0.65x). The financial health of the Group has continued to improve in a number 
+of aspects during the year. Disciplined working capital practices have been maintained to reduce intra-
+period volatility. The Group is working to achieve further improvements over the medium term.  
+ 
+No defined benefit pension contributions were required in the year and none are expected in 2022, 2023 
+or 2024.  
+ 
+Underlying operating activities generated cash of £80.0m (2020: £82.4m). Underlying cash conversion was 
+105% (2020: 110%) of underlying EBITDA, and an average of 108% on a rolling 24-month basis (2020: 108%). 
+The Group has replaced its existing facility with a new £150m revolving credit facility in 2021, which runs to 
+December 2024 and has an option to extend for a further three years at the lenders’ discretion. 
+ 
+Working capital 
+ 
+Working capital was £84.4m (2020: £85.1m), a decrease of £0.7m. As a percentage of revenue, working 
+capital has remained consistent at 21% at 31 October 2021. We continued with our focus on commercial 
+contracting, inventory levels and cash management.  
+ 
+In absolute terms inventory and payables have fallen, reflecting the timing of customer orders in 
+Countermeasures & Energetics, and trade receivables have remained flat. Year end trade receivable days 
+of 25 (2020: 30) and trade payable days of 18 (2020: 26) demonstrate that working capital has been 
+managed in a balanced and sustainable manner. 
+ 
+Tax 
+ 
+The underlying tax charge totalled £8.3m (2020: £9.1m) on an underlying profit before tax of £55.9m (2020: 
+£51.7m). The effective tax rate on underlying profit before tax for the year was a charge of 14.8% (2020: 
+17.6%). The reduction in rate is due to the recognition of a deferred tax asset in respect of future US interest 
+deductions of £4m, offset by the increase in the UK corporation tax rate from 19% to 25% which increased 
+our deferred tax liability by £2m.  
+ 
+Looking forward into 2022 we expect the Group effective tax rate to remain in the mid-teens. After which 
+the change to the UK Corporation Tax rate will impact the annual current tax charge and this is expected to 
+increase the Group effective tax rate to approximately 20%. 
+ 
+The continuing statutory tax charge totalled £7.3m (2020: £8.6m) on a statutory profit before tax of £48.8m 
+(2020: £43.3m). 
+ 
+Retirement benefit obligations 
+ 
+The surplus on the Group’s defined benefit pension schemes was £13.7m (2020: £7.6m), measured in 
+accordance with IAS 19 (Revised) Employee Benefits. The surplus relates to the Chemring Group Staff 
+Pension Scheme (the “Scheme”), a UK defined benefit scheme whose assets are held in a separately 
+administered fund. The Scheme was closed to future accrual in April 2012. The increase in the surplus has 
+been driven by growth in the return seeking assets. The resilience of the Scheme’s investment strategy has 
+limited the impact of increased inflation expectations given the liability driven investment hedging strategy. 
+An updated triennial valuation was completed as at 6 April 2021 and showed a technical provisions surplus 
+of £3.8m, which represented a funding level of 104% of liabilities. The Group agreed with the trustees that 
+no further deficit recovery payments are required. The next actuarial valuation is due as at 6 April 2024 
+after which the future funding requirements will be reassessed. 
+ 
+--- PAGE 15 ---
+15 
+ 
+Contingent liabilities 
+ 
+The Group is, from time to time, party to legal proceedings and claims, and is involved in correspondence 
+relating to potential claims, which arise in the ordinary course of business.  
+ 
+In addition, the following matters remain open at year end: 
+ 
+ The Serious Fraud Office (the “SFO”) investigation  
+ The incident that occurred at the Group’s countermeasures site in Salisbury on 10 August 2018. 
+ 
+Full details of these are included in note 11. 
+ 
+Dividends 
+ 
+The Board continues to recognise that dividends are an important component of total shareholder returns. 
+The Board’s objective is for a growing and sustainable dividend and now believes it is appropriate for the 
+Group to target a medium-term dividend cover of c.2.5 times underlying EPS, subject inter alia to 
+maintaining a strong financial position. 
+ 
+The Board is recommending a final dividend in respect of the year ended 31 October 2021 of 3.2p (2020: 
+2.6p) per ordinary share. With the interim dividend of 1.6p per share (2020: 1.3p), this results in a total 
+dividend of 4.8p (2020: 3.9p) per share, an increase of 23% on the prior year. 
+ 
+If approved, the final dividend will be paid on 31 March 2022 to shareholders on the register on 11 March 
+2022. In accordance with accounting standards, this final dividend has not been recorded as a liability as at 
+31 October 2021. 
+ 
+Board of Directors 
+ 
+Stephen King, Chairman of the Audit Committee, accepted a second three-year appointment as a non-
+executive director in November 2021. Andrew Davies and Carl-Peter Forster will complete their second 
+three-year terms as non-executive directors in April 2022 and May 2022 respectively, and have both 
+accepted the Board’s offer to take up a third and final three-year appointment. 
+ 
+Current trading and outlook 
+ 
+Trading since the start of the current financial year has been in line with expectations. 
+ 
+The Board’s expectations for the Group’s 2022 performance are unchanged, with the balance of its trading 
+performance in 2022 expected to be similar to 2021 with a slight bias towards the second half of the 
+financial year. 
+ 
+The Group order book as at 31 October 2021 was £501m, of which £358m is currently expected to be 
+recognised as revenue in 2022, giving excellent visibility for the full year. 
+ 
+Whilst there may be some macro-economic uncertainty surrounding the level and timing of defence 
+spending as a result of the CV-19 pandemic, our multiple market-leading positions across different 
+geographies and sectors, together with our investment in high technology niches, provide attractive long-
+term growth opportunities. This, together with the Group’s strong balance sheet, gives the Board 
+confidence that Chemring’s long-term prospects remain strong. 
+ 
+  
+--- PAGE 16 ---
+16 
+ 
+Going concern  
+ 
+The directors believe that the Group is well placed to manage its business risks successfully, despite the 
+current uncertain economic outlook. The Group’s forecasts and projections, taking account of reasonably 
+possible changes in trading performance, show that the Group should be able to operate within the level of 
+its current committed facilities.  
+ 
+Key financial metrics 
+ 2021 Covenant 
+Revolving credit facility and overdraft £157.3m  
+Undrawn committed borrowing facilities £128.1m  
+Leverage ratio 0.37x Less than 3x 
+Interest cover ratio 54x Greater than 4x 
+ 
+The revolving credit facility and overdraft run to December 2024 with three “one-year” options to extend at 
+the lenders’ discretion. The Group was in compliance with the covenants throughout the year. 
+ 
+Assessment of near-term prospects 
+As part of a regular assessment of the Group’s working capital and financing position, the directors have 
+prepared a detailed bottom-up two-year trading budget and cash flow forecast for the period through to 
+October 2023, being at least twelve months after the date of approval of the financial statements. This is in 
+addition to the Group’s longer-term strategic planning process. In assessing the forecast, the directors have 
+considered: 
+- trading risks presented by the current economic conditions in the defence market, particularly in 
+relation to government budgets and expenditure; 
+- the impact of macro-economic factors, particularly interest rates and foreign exchange rates;  
+- the status of the Group’s existing financial arrangements and associated covenant requirements;  
+- progress made in developing and implementing cost reduction programmes and operational 
+improvements; 
+- the availability of mitigating actions should business activities fall behind current expectations, 
+including the deferral of discretionary overheads and restricting cash flows; and 
+- the long-term nature of the Group’s business which, taken together with the Group’s order book, 
+provides a satisfactory level of confidence to the Board in respect of trading.  
+ 
+Sensitivity analysis 
+Additional detailed sensitivity analysis has been performed on the forecasts to consider the impact of severe, 
+but plausible, reasonable worst case scenarios on the covenant requirements. These scenarios, which 
+sensitised the forecasts for specific identified risks, modelled the reduction in anticipated levels of 
+underlying EBITDA and the associated increase in net debt. These scenarios included significant delays to 
+major contracts and considered the principle risks and uncertainties discussed in the strategic report. These 
+sensitised scenarios show headroom on all covenant test dates for the foreseeable future. 
+ 
+In addition to the above, the directors continue to monitor developments with, and potential impact of, CV-
+19 in the short and medium term and are in particular focused on the key risks of delays by customers in 
+testing and acceptance of products, disruption to production capacity and efficiency as a result of 
+government legislation on social distancing measures and the impact of the current situation on the Group’s 
+supply chain. The CV-19 outbreak is not currently having any material impact in relation to these risks or any 
+other potential impacts, however, the directors are monitoring the situation closely. 
+ 
+Confirmation of going concern 
+After consideration of the above, the Directors have a reasonable expectation that the Group and Company 
+will have sufficient funds to continue to meet its liabilities as they fall due for at least 12 months from the 
+date of approval of the financial statements and therefore have prepared the financial statements on a going 
+concern basis. 
+--- PAGE 17 ---
+17 
+ 
+ 
+Long-term viability statement 
+ 
+The directors have assessed the Group’s viability over a three-year period to October 2024 based on the 
+above assessment, combined with the Group’s strategic planning process, which gives greater certainty over 
+the forecasting assumptions used. Based on this assessment, the directors have a reasonable expectation 
+that the Group will be able to continue in operation and meet all its liabilities as they fall due up to October 
+2024. 
+ 
+The directors have chosen a three-year period to assess viability to reflect the characteristics of the Group’s 
+end markets. These range from multi-year contracts such as the US programs of record to shorter-term 
+orders, such as those awarded to Roke. 
+ 
+Principal risks 
+In considering our viability statements we have considered the principal risks and uncertainties discussed in 
+the strategic report and assessed the impact. The impact of CV-19 on viability is clearly a consideration for 
+all companies at this time. Chemring’s operations have been designated as critical to the defence and 
+national security industrial base in all territories that we operate in. All our businesses remain open with 
+business continuity plans mobilised at every location.  
+ 
+Sensitivity analysis 
+Sensitivity analyses were run to model the financial and operational impact of plausible downside scenarios 
+of these risk events occurring individually or in combination. These included the impacts of a further 
+deterioration in the macroeconomic environment including how CV-19 may impact the economy and future 
+government policy and spending, under-performance in executing the Group’s strategy, failure to achieve 
+operational improvement and material movements in foreign exchange rates. Consideration was also given 
+to the plausibility of the occurrence of other individual events that in their own right could have a material 
+impact on the Group’s viability. 
+ 
+Confirmation of viability 
+Based on the consolidated financial impact of the sensitivity analyses and associated mitigating internal 
+controls and risk management actions that are either now in place or could be implemented, the Board has 
+been able to conclude that the Group will be able to maintain sufficient bank facilities to meet its funding 
+needs over the three-year period and those forecasts show compliance with covenants under the revolving 
+credit facility.  
+ 
+  
+--- PAGE 18 ---
+18 
+ 
+Principal risks and uncertainties 
+The principal risks and uncertainties which could have a material impact on the Group’s performance and 
+could cause actual results to differ materially from expected and historical results have not changed 
+significantly from those set out in the Group’s 2020 annual report and accounts and the 2021 interim report,  
+except for the inclusion of CV-19 and the increase in operational risk due to the US Government’s proposed 
+mandatory CV-19 vaccination requirement for employees of US Government Contractors, which has the 
+potential to significantly impact our US businesses.  A detailed description of the Group’s principal risks and 
+uncertainties and the ways they are mitigated can be found on pages 64 to 71 of the Group’s 2021 annual 
+report and accounts.  In summary, the principal risks relate to: 
+ 
+ Health, safety, and environmental risks 
+ Strategic risks 
+ Financial risks 
+ Operational risks 
+ People risks 
+ Legal and compliance risks 
+ Reputational risks 
+ 
+Management have detailed mitigation plans and assurance processes to manage and monitor these risks. 
+ 
+RESPONSIBILITY STATEMENT OF THE DIRECTORS ON THE ANNUAL REPORT AND ACCOUNTS 
+ 
+The responsibility statement below has been prepared in connection with the Company’s full annual report 
+and accounts for the year ended 31 October 2021. Certain parts thereof are not included within this 
+announcement. 
+ 
+We confirm to the best of our knowledge: 
+ 
+1. the financial statements, prepared in accordance with the applicable set of accounting 
+standards, give a true and fair view of the assets, liabilities, financial position and profit or loss 
+of the Company and the undertakings included in the consolidation taken as a whole; and 
+2. the strategic report and directors’ report includes a fair review of the development and 
+performance of the business and the position of the issuer and the undertakings included in the 
+consolidation taken as a whole, together with a description of the principal risks and 
+uncertainties that they face. 
+ 
+We consider the annual report and accounts, taken as a whole, is fair, balanced and understandable, and 
+provides the information necessary for shareholders to assess the Group’s position and performance, 
+business model and strategy. 
+ 
+This responsibility statement was approved by the Board of directors on 14 December 2021, and has been 
+signed on its behalf by Michael Ord and Andrew Lewis. 
+ 
+  
+--- PAGE 19 ---
+19 
+ 
+CONSOLIDATED INCOME STATEMENT 
+for the year ended 31 October 2021 
+ 
+ 2021 2020 
+       
+ Underlying Non-underlying  Underlying Non-underlying  
+ performance* items* Total performance* items *  Total 
+ £m £m £m £m £m £m 
+Continuing operations       
+Revenue 393.3 - 393.3 402.5 - 402.5 
+       
+Operating profit 57.5 (7.1) 50.4 54.7 (8.4) 46.3 
+       
+Finance expense (1.6) - (1.6) (3.0) - (3.0) 
+       
+Profit before tax 55.9 (7.1) 48.8 51.7 (8.4) 43.3 
+Taxation (8.3) 1.0 (7.3) (9.1) 0.5 (8.6) 
+       
+Profit after tax 47.6 (6.1) 41.5 42.6 (7.9) 34.7 
+       
+Discontinued operations       
+(Loss)/profit after tax from 
+discontinued operations (note 4) - - - (0.1) 0.1 - 
+       
+Profit after tax 47.6 (6.1) 41.5 42.5 (7.8) 34.7 
+       
+       
+Earnings per ordinary share       
+Continuing operations       
+Basic 16.9p  14.7p 15.1p  12.3p 
+Diluted 16.5p  14.4p 14.8p   12.0p 
+       
+Continuing and discontinued operations     
+Basic 16.9p  14.7p 15.1p  12.3p 
+Diluted 16.5p  14.4p 14.7p   12.0p 
+ 
+* Further information about continuing non-underlying items is set out in note 3.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+--- PAGE 20 ---
+20 
+ 
+CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME 
+for the year ended 31 October 2021 
+ 2021 2020 
+ £m £m 
+   
+Profit after tax attributable to equity holders of the parent as reported 41.5 34.7 
+   
+Items that will not be reclassified subsequently to profit or loss   
+Actuarial gains/(losses) on defined benefit pension schemes 6.2 (1.9) 
+Movement on deferred tax relating to pension schemes (2.2) 0.7 
+   
+ 4.0 (1.2) 
+Items that may be reclassified subsequently to profit or loss   
+Exchange differences on translation of foreign operations (8.3) (0.2) 
+Exchange difference reclassified to income statement on disposal of foreign 
+operation - (1.4) 
+Tax on exchange differences on translation of foreign operations 0.1 0.5 
+   
+ (8.2) (1.1) 
+Total comprehensive income attributable to equity holders of the parent 37.3 32.4 
+ 
+--- PAGE 21 ---
+21 
+ 
+CONSOLIDATED STATEMENT OF CHANGES IN EQUITY 
+for the year ended 31 October 2021 
+ 
+ 
+Share 
+Share 
+premium 
+Special 
+capital Revaluation Translation Retained Own  
+ capital account reserve reserve reserve earnings shares Total 
+ £m £m £m £m £m £m £m £m 
+         
+At 1 November 2020 2.8 306.7 12.9 1.0 (18.9) 28.0 (2.9) 329.6 
+Profit after tax - - - - - 41.5 - 41.5  
+Other comprehensive 
+(loss)/income - - - - (8.3) 6.2 - (2.1)  
+Tax relating to components 
+of other comprehensive 
+(loss)/income - - - - 0.1 (2.2) - (2.1)  
+Total comprehensive 
+income  - - - - (8.2) 45.5 - 37.3  
+Ordinary shares issued - 0.4 - - - - - 0.4  
+Share-based payments (net 
+of settlement) - - - - - 4.5 - 4.5  
+Dividends paid - - - - - (11.9) - (11.9) 
+Purchase of shares by 
+employee share ownership 
+plan trust - - - - - (7.1) - (7.1) 
+Transactions in own shares - - - - - (2.9) 2.9 - 
+Transfer between reserves - - - (0.1) - 0.1 - -  
+At 31 October 2021 2.8 307.1 12.9 0.9 (27.1) 56.2 - 352.8 
+ 
+ 
+ 
+Share 
+Share 
+premium 
+Special 
+capital Revaluation Translation Retained Own  
+ capital account reserve reserve reserve earnings shares Total 
+ £m £m £m £m £m £m £m £m 
+         
+At 1 November 2019 2.8 306.2 12.9 1.0 (17.8) 8.5 (7.8) 305.8 
+Profit after tax - - - - - 34.7 - 34.7 
+Other comprehensive loss - - - - (1.6) (1.9) - (3.5) 
+Tax relating to components 
+of other comprehensive loss - - - - 0.5 0.7 - 1.2 
+Total comprehensive 
+income  - - - - (1.1) 33.5 - 32.4 
+Ordinary shares issued - 0.5 - - - - - 0.5 
+Share-based payments (net 
+of settlement) - - - - - 3.6 - 3.6 
+Dividends paid - - - - - (10.4) - (10.4) 
+Purchase of shares by 
+employee share ownership 
+plan trust - - - - - (2.3) - (2.3) 
+Transactions in own shares - - - - - (4.9) 4.9 - 
+At 31 October 2020 2.8 306.7 12.9 1.0 (18.9) 28.0 (2.9) 329.6 
+ 
+  
+--- PAGE 22 ---
+22 
+ 
+CONSOLIDATED BALANCE SHEET 
+as at 31 October 2021 
+  2021  2020 
+ £m £m £m £m 
+Non-current assets     
+Goodwill 108.7  108.5  
+Development costs 30.0  29.8  
+Other intangible assets 14.1  16.6  
+Property, plant and equipment 198.7  194.0  
+Retirement benefit surplus 13.7  7.6  
+Deferred tax 18.2  15.7  
+  383.4  372.2 
+Current assets     
+Inventories 80.7  91.3  
+Trade and other receivables 60.6  62.8  
+Cash and cash equivalents 5.8  14.7  
+Derivative financial instruments 1.0  0.4  
+  148.1  169.2 
+Total assets  531.5  541.4 
+     
+Current liabilities     
+Borrowings (0.4)  -  
+Lease liabilities (1.4)  (1.5)  
+Trade and other payables (85.7)  (97.2)  
+Provisions (2.6)  (3.3)  
+Current tax (12.0)  (9.1)  
+Derivative financial instruments (0.4)  (0.7)  
+  (102.5)  (111.8) 
+     
+Non-current liabilities     
+Borrowings (28.1)  (57.5)  
+Lease liabilities (2.4)  (3.8)  
+Provisions (14.9)  (15.7)  
+Deferred tax (30.7)  (22.9)  
+Preference shares (0.1)  (0.1)  
+  (76.2)  (100.0) 
+     
+Total liabilities  (178.7)  (211.8) 
+     
+Net assets  352.8  329.6 
+     
+Equity     
+Share capital  2.8  2.8 
+Share premium account  307.1  306.7 
+Special capital reserve  12.9  12.9 
+Revaluation reserve  0.9  1.0 
+Translation reserve  (27.1)  (18.9) 
+Retained earnings  56.2  28.0 
+  352.8  332.5 
+Own shares  -  (2.9) 
+     
+Total equity  352.8  329.6 
+ 
+  
+--- PAGE 23 ---
+23 
+ 
+ 
+CONSOLIDATED CASH FLOW STATEMENT 
+for the year ended 31 October 2021 
+ 
+ 2021 2020 
+ £m £m 
+   
+Cash flows from operating activities   
+Cash generated from continuing underlying operations 80.0 82.4 
+Cash impact of continuing non-underlying items (1.3) (3.6) 
+Cash utilised in discontinued underlying operations - (2.6) 
+Cash impact of discontinued non-underlying items (0.4) (1.3) 
+Cash flows from operating activities 78.3 74.9 
+Tax (paid)/received (2.6) 1.0 
+   
+Net cash inflow from operating activities  75.7 75.9 
+   
+Cash flows from investing activities    
+Purchases of intangible assets (2.2) (5.2) 
+Purchases of property, plant and equipment (28.0) (35.6) 
+Customer funding for capital programmes - 0.9 
+Acquisition of subsidiary net of cash acquired (5.1) - 
+Proceeds on disposal of subsidiary 0.4 14.5 
+   
+Net cash outflow from investing activities (34.9) (25.4) 
+   
+Cash flows from financing activities   
+Dividends paid (11.9) (10.4) 
+Purchase of own shares (7.1) (2.4) 
+Proceeds from issue of shares 0.4 0.5 
+Finance expense paid (2.6) (3.0) 
+Capitalised facility fees paid (1.1) - 
+Drawdown of borrowings 29.2 108.0 
+Repayments of borrowings (55.7) (123.1) 
+Repayments of lease liabilities (1.6) (1.7) 
+   
+Net cash outflow from financing activities (50.4) (32.1) 
+   
+(Decrease)/increase in cash and cash equivalents (9.6) 18.4 
+Cash and cash equivalents at beginning of the year (including bank overdraft) 14.7 (3.3) 
+Effect of foreign exchange rate changes 0.3 (0.4) 
+   
+Cash and cash equivalents at end of the year (including bank overdraft) 5.4 14.7 
+ 
+ 
+ 
+  
+--- PAGE 24 ---
+24 
+ 
+Notes 
+ 
+1. ACCOUNTS AND AUDITOR’S REPORT 
+ 
+The financial information set out above does not constitute the Company’s statutory accounts for the year ended 
+31 October 2021 or 31 October 2020 but is derived from those accounts. Statutory accounts for 2020 have been 
+delivered to the Registrar of Companies, and those for 2021 will be delivered following the Company’s Annual 
+General Meeting. The auditor has reported on these accounts; their reports were unqualified, did not draw 
+attention to any matters by way of emphasis without qualifying their report, and did not contain any statements 
+required under either section 498(2) or section 498(3) of the Companies Act 2006. 
+ 
+This announcement has been prepared on the basis of the accounting policies set out in the Company’s financial 
+statements for the year ended 31 October 2021. 
+ 
+Whilst the financial information included in this announcement has been computed in accordance with International 
+Financial Reporting Standards (“IFRSs”), this announcement does not itself contain sufficient information to comply 
+with IFRSs. The Company expects to post full financial statements that comply with IFRSs on its website on 
+14 December 202 1 (see note 14 below). 
+ 
+Recent accounting developments 
+ 
+The following International Financial Reporting Committee (“IFRIC”) interpretations, amendments to existing 
+standards and new standards were adopted in the year ended 31 October 2021 but have not materially impacted 
+the reported results or the financial position: 
+ 
+ Amendments to IFRS 3 Business Combinations; 
+ Amendments to IFRS 7, 9 and IAS 39 Financial Instruments; 
+ Amendments to IFRS 16 Leases; 
+ Amendments to IAS 1 Presentation of Financial Statements; and 
+ Amendments to IAS 8 Accounting Policies, Changes in Accounting Estimates and Errors; 
+ Amendments to IAS 16 Property, Plant and Equipment - Proceeds before Intended Use (early adopted). 
+ 
+ 
+ 
+  
+--- PAGE 25 ---
+25 
+ 
+2. SEGMENTAL ANALYSIS – CONTINUING OPERATIONS 
+ 
+ 
+  
+ 
+Year ended 31 October 2021 
+ 
+Sensors & 
+Information 
+Countermeasures & 
+Energetics 
+Unallocated Group 
+  £m £m £m £m 
+ 
+Revenue 146.6 246.7 - 393.3      
+Segment result before depreciation, amortisation, non-
+underlying items and discontinued operations 
+34.4 56.1 (14.1) 76.4 
+Depreciation  (2.7) (15.5) - (18.2) 
+Amortisation  (0.1) (0.6) - (0.7) 
+Segmental underlying operating profit 31.6 40.0 (14.1) 57.5 
+Amortisation of acquired intangibles (4.1) (2.1) - (6.2) 
+Non-underlying items (1.6) - 0.7 (0.9) 
+Segmental operating profit 25.9 37.9 (13.4) 50.4 
+ 
+ 
+ 
+ 
+Year ended 31 October 2020 
+ 
+Sensors & 
+Information 
+ 
+Countermeasures & 
+Energetics 
+ 
+Unallocated Group 
+  £m £m £m £m 
+ 
+Revenue 137.2 265.3 - 402.5      
+Segment result before depreciation, amortisation, non-
+underlying items and discontinued operations 
+30.7 56.5 (12.6) 74.6 
+Depreciation  (2.8) (15.7) - (18.5) 
+Amortisation  (0.5) (0.9) - (1.4) 
+Segmental underlying operating profit 27.4 39.9 (12.6) 54.7 
+Amortisation of acquired intangibles (6.4) (2.5) - (8.9) 
+Non-underlying items - - 0.5 0.5 
+Segmental operating profit 21.0 37.4 (12.1) 46.3 
+--- PAGE 26 ---
+26 
+ 
+3. ALTERNATIVE PERFORMANCE MEASURES 
+ 
+The principal Alternative Performance Measures (“APMs”) presented are the underlying measures of earnings which 
+exclude discontinued operations, exceptional items, gain or loss on the movement on the fair value of derivative 
+financial instruments, and the amortisation of acquired intangibles. The directors believe that these APMs improve 
+the comparability of information between reporting periods. The term underlying is not defined under IFRS and may 
+not be comparable with similarly titled measures used by other companies.  
+ 
+ 2021 2020 
+ £m £m 
+   
+Gain on the movement in the fair value of derivative financial instruments 0.7 0.5 
+Acquisition expenses (1.6) - 
+Impact of non-underlying items on EBITDA (0.9) 0.5 
+Intangible amortisation arising from business combinations (6.2) (8.9) 
+Impact of non-underlying items on profit before tax  (7.1) (8.4) 
+Tax impact of non-underlying items  1.0 0.5 
+Impact of non-underlying items on continuing profit after tax (6.1) (7.9) 
+Non-underlying discontinued operations after tax - 0.1 
+Impact of non-underlying items on profit after tax (6.1) (7.8) 
+Underlying profit after tax 47.6 42.5 
+Statutory profit after tax 41.5 34.7 
+ 
+Amortisation of acquired intangibles  
+Included in non-underlying items is the amortisation charge arising from business combinations of £6.2m (2020: 
+£8.9m). Amortisation of acquired intangibles arising from business combinations is associated with acquisition 
+accounting under IFRS 3 Business Combinations. IFRS requires intangibles to be recognised on acquisition that would 
+not have been capitalised had the business grown organically under Chemring’s ownership. As such, these costs 
+are not reflective of the underlying costs of the Group and therefore, in order to provide an explanation of results 
+that is not distorted by the history of business units being acquired rather than organically developed, have been 
+excluded from the underlying measures.  
+ 
+Derivative financial instruments  
+Included in non-underlying items is a £0.7m gain (2020: £0.5m gain) on the movement in fair value of derivative 
+financial instruments. This is excluded from underlying earnings to ensure the recognition of the gain or loss on the 
+derivative matches the timing of the underlying transaction.  
+ 
+Acquisition expenses 
+Included in non-underlying items is £1.6m (2020: £nil) of acquisition expenses. This includes £0.4m (2020: £nil) 
+relating to deferred consideration contingent on continued employment of the former owners of Cubica, which has 
+been accounted for as equity-settled share-based payments under IFRS 2 Share-based Payments. We have classified 
+this cost as a non-underlying item as it is a non-recurring cost relating to an acquisition. See note 4 for further 
+details. The acquisition expenses are not reflective of the underlying costs of the Group and therefore, in order to 
+provide an explanation of results that is not distorted by the costs of acquiring a business rather than organically 
+developed, these costs have been excluded from the underlying measures. 
+ 
+Tax  
+In the year ended 31 October 2021, the tax impact of continuing non-underlying items comprises a £1.0m credit 
+(2020: £0.5m credit) on the above non-underlying items. 
+ 
+Discontinued operations 
+Further details on the results of discontinued operations are presented in note 4. 
+ 
+ 
+ 
+  
+--- PAGE 27 ---
+27 
+ 
+4.  ACQUISITIONS AND DISCONTINUED OPERATIONS 
+ 
+ACQUISITION OF THE CUBICA GROUP 
+On 2 June 2021, Chemring Group PLC acquired 100% of the issued shares in Cubica Technology Limited and Q6 
+Holdings Limited, collectively the “Cubica Group”. The Cubica Group specialises in machine learning, data fusion and 
+autonomous systems. The acquisition has strong synergies to Roke and will expand the Group’s existing capabilities 
+and product offerings. 
+ 
+The acquisition has been completed for an initial cash consideration of £7.0m, funded from Chemring’s existing bank 
+facilities. Further deferred consideration of up to £2.0m is payable in Chemring 1p ordinary shares in two tranches 
+(subject to the former owners remaining employed in the Chemring Group) on the second and third anniversary of 
+completion. The operating results and assets and liabilities of the acquired company have been consolidated from 3 
+June 2021. 
+ 
+The deferred consideration of £2.0m is contingent on continued employment of the former owners. In accordance 
+with IFRS 3 these costs have been treated as post-acquisition expenses and accounted for as equity-settled share-
+based payments under IFRS 2. See note 3 for further details. 
+ 
+Acquisition-related costs of £1.6m have been classified as non-underlying costs in the statement of profit or loss in 
+the reporting period ended 31 October 2021. 
+ 
+Since acquisition to 31 October 2021, the Cubica Group contributed revenue of £0.6m and an operating profit of £0.3m 
+to the Group’s results. If the acquisition had occurred on 1 November 2020, we estimate that its revenue would have 
+been £1.4m, and operating profit for the year would have been £0.8m. In determining these amounts, we have 
+assumed that the fair value adjustments, determined provisionally, that arose on the date of acquisition would have 
+been the same if the acquisition had occurred on 1 November 2020. 
+ 
+Details of the consideration transferred are: 
+ 
+ £m 
+Cash paid 7.0 
+Total purchase consideration 7.0 
+Less cash acquired (1.9) 
+Net cash outflow 5.1 
+ 
+ 
+ 
+The provisionally determined fair values of the assets and liabilities of the Cubica Group as at the date of acquisition 
+are as follows: 
+ 
+ Fair value 
+ £m 
+Cash and cash equivalents 1.9 
+Trade and other receivables 0.4 
+Trade and other payables (1.4) 
+Current tax (0.5) 
+Intangible assets: customer relationships 2.1 
+Intangible assets: technology 2.5 
+Deferred tax liability (1.1) 
+Net identifiable assets 3.9 
+Less: non-controlling interests - 
+Add: Goodwill 3.1 
+Net assets acquired 7.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 28 ---
+28 
+ 
+DISCONTINUED OPERATIONS 
+ 
+A strategic review of the Group’s energetics portfolio was conducted during the year ended 31 October 2018. The 
+Board concluded that the future focus within the energetics segment should be on the energetic devices businesses. 
+It therefore made the decision to exit the commoditised energetics businesses. 
+ 2021 2020 
+ £m £m 
+   
+Revenue - 9.5 
+   
+Underlying operating loss from discontinued operations - (0.1) 
+Tax on underlying operating loss from discontinued operations - - 
+Loss after tax from underlying discontinued operations - (0.1) 
+Loss after tax is analysed as:   
+Before exceptional items - (0.1) 
+Exceptional items - 0.1 
+Tax on exceptional items - - 
+ - 0.1 
+Loss for the year from discontinued operations - - 
+ 
+In the year ended 31 October 2020, the loss related to the continued trading activity of Chemring Ordnance, Inc. On 
+7 May 2020 the Group sold its US subsidiary Chemring Ordnance, Inc. to Nammo Defense Systems Inc., concluding 
+the Group’s exit from its commoditised energetics businesses.  
+ 
+ 
+ 
+5.  EARNINGS PER SHARE 
+ 
+Earnings per share is based on the average number of shares in issue, excluding own shares held, of 281,555,716 
+(2020: 281,447,284). Diluted earnings per share has been calculated using a diluted average number of shares in 
+issue, excluding own shares held, of 287,985,451 (2020: 288,416,915).   
+ 
+The earnings used in the calculations of the various measures of earnings per share are as follows: 
+ 
+   2021   2020 
+ 
+£m 
+Basic EPS 
+(Pence)  
+Diluted 
+EPS 
+(Pence) £m 
+ 
+Basic EPS 
+(Pence) 
+Diluted 
+EPS 
+(Pence) 
+       
+Underlying profit after tax 47.6 16.9 16.5 42.6 15.1 14.8 
+Non-underlying items  (6.1)   (7.9)   
+Total profit after tax 41.5 14.7 14.4 34.7 12.3 12.0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- PAGE 29 ---
+29 
+ 
+6. CASH GENERATED FROM OPERATING ACTIVITIES 
+ 
+ 2021 2020 
+ £m £m 
+   
+Operating profit from continuing operations 50.4 46.3 
+Amortisation of development costs 0.6 1.4 
+Amortisation of intangible assets arising from business combinations 6.2 8.9 
+Amortisation of patents and licenses 0.1 - 
+Loss on disposal of non-current assets 0.1 0.3 
+Depreciation of property, plant and equipment 18.2 18.5 
+Non-cash movement of non-underlying items 0.9 (0.5) 
+Share-based payment expense 5.3 4.0 
+Operating cash flows before movements in working capital 81.8 78.9 
+   
+Decrease/(increase) in inventories 7.9 (12.2) 
+Decrease/(increase) in trade and other receivables 0.9 (9.9) 
+(Decrease)/increase in trade and other payables (10.3) 25.2 
+(Decrease)/increase in provisions (0.3) 0.4 
+Operating cash flow from continuing underlying operations 80.0 82.4 
+   
+   
+Discontinued operations:   
+Operating cash flow from discontinued underlying operations - (2.6) 
+Cash impact of non-underlying items from discontinued operations (0.4) (1.3) 
+Net cash outflow from discontinued operating activities (0.4) (3.9) 
+Net cash inflow from discontinued investing activities 0.4 14.0 
+Net cash inflow from discontinued operations - 10.1 
+ 
+ 
+7. RECONCILIATION OF NET CASH FLOW TO MOVEMENT IN NET DEBT 
+ 
+ 2021 2020 
+ £m £m 
+   
+(Decrease)/increase in cash and cash equivalents  (9.6) 18.4 
+Decrease in debt and lease financing due to cash flows 29.2 16.8 
+Decrease in net debt resulting from cash flows 19.6 35.2 
+Effect of foreign exchange rate changes 2.7 (0.6) 
+New leases entered into, lease interest and other non-cash movements (0.1) (0.4) 
+Amortisation of debt finance costs (0.6) (0.2) 
+Movement in net debt 21.6 34.0 
+Adoption of IFRS 16 Leases - (6.5) 
+Net debt at beginning of the year (48.2) (75.7) 
+Net debt at end of the year (26.6) (48.2) 
+ 
+ 
+  
+--- PAGE 30 ---
+30 
+ 
+8. ANALYSIS OF NET DEBT 
+ 
+ As at  
+1 Nov  
+2020 
+Cash 
+flows 
+Non-cash 
+changes 
+Exchange 
+rate 
+effects 
+As at 
+31 Oct 
+2021 
+ £m £m £m £m £m 
+      
+Cash and cash equivalents (including bank 
+overdraft) 
+14.7 (9.6) - 0.3 5.4 
+Debt due after one year (57.5) 27.6 (0.6) 2.4 (28.1) 
+Lease liabilities (5.3) 1.6 (0.1) - (3.8) 
+Preference shares (0.1) - - - (0.1) 
+ (48.2) 19.6 (0.7) 2.7 (26.6) 
+ 
+The revolving credit facility is with a syndicate of six banks and was established in July 2021 and runs until December 
+2024 with three “one-year” options to extend.  
+ 
+The Group had £128.1m (2020: £86.4m) of undrawn borrowing facilities as at 31 October 2021. 
+ 
+The Group is subject to two key financial covenants, which are tested quarterly. These covenants relate to the 
+leverage ratio between “underlying EBITDA” and net debt; and the interest cover ratio between underlying EBITDA 
+and finance costs. The calculation of these ratios involves the translation of non-sterling denominated debt using 
+average, rather than closing, rates of exchange, and therefore the leverage ratio of 0.37 times differs to the ratio of 
+0.35 times that is disclosed elsewhere in this document, which is calculated using the closing rates of exchange. The 
+Group was in compliance with the covenants throughout the period. 
+ 
+ 
+9. DIVIDEND 
+ 
+At the Annual General Meeting on 4 March 2021 the shareholders approved a final dividend in respect of the year 
+ended 31 October 2020 of 2.6p per ordinary share. This was paid on 23 April 2021 to shareholders on the register on 
+6 April 2021. 
+ 
+An interim dividend in respect of 2021 of 1.6p per ordinary share was paid on 10 September 2021 to shareholders 
+on the register on 20 August 2021. 
+ 
+The Board is recommending a final dividend in respect of the year to 31 October 2021 of 3.2p (2020: 2.6p) per 
+ordinary share. The estimated cash value of this dividend is £9.0m. With the interim dividend of 1.6p per share 
+(2020: 1.3p), this results in a total dividend of 4.8p (2020: 3.9p) per ordinary share. If approved, the final dividend 
+will be paid on 31 March 2022 to shareholders on the register on 11 March 2022. In accordance with accounting 
+standards, this final dividend has not been recorded as a liability as at 31 October 2021.  
+ 
+ 
+ 
+10. EXCHANGE RATES 
+ 
+The following exchange rates applied during the year: 
+ 
+ 
+For the year ended 31 October 2021 a 10 cent strengthening in the US dollar exchange rate would have increased 
+reported net debt by approximately £2.6m (2020: £4.5m) and underlying operating profit by £2.8m (2020: £2.6m). 
+ 
+ 
+  
+ Average rate 
+2021 
+Closing rate 
+2021 
+Average rate 
+2020 
+Closing rate 
+2020 
+     
+US dollar 1.38 1.37 1.28 1.29 
+AU dollar 1.82 1.83 1.84 1.84 
+--- PAGE 31 ---
+31 
+ 
+11.  CONTINGENT LIABILITIES 
+ 
+The Group is, from time to time, party to legal proceedings and claims, and is involved in correspondence relating to 
+potential claims, which arise in the ordinary course of business. In addition, the following matters remain open at 
+year end: 
+ 
+In accordance with the Serious Fraud Office (“SFO”) News Release dated 18 January 2018, an investigation was 
+opened by the SFO into Chemring Group PLC (“CHG”) and its subsidiary, Chemring Technology Solutions Limited 
+(“CTSL”), following a self-report made by CTSL. The investigation relates to bribery, corruption and money 
+laundering arising from the conduct of business by CHG and CTSL including any officers, employees, agents and 
+persons associated with them. It is too early to predict the outcome of the SFO’s investigation, with which the Group 
+continues to cooperate fully.  
+ 
+On 10 August 2018 an incident occurred at our countermeasures facility in Salisbury. The Group responded 
+immediately to support those who were injured, and maintains appropriate employers’ liability insurance that we 
+expect will provide full compensation in due course. We continue to fully support the Health and Safety Executive 
+(“HSE”) as it undertakes its investigation. Whilst provisions have been recorded for costs that have been identified 
+(included within “legal provisions”), it is possible that additional uninsured costs and, depending on the outcome of 
+the HSE investigation, financial penalties may be incurred. At this stage these costs are not anticipated to be 
+material in the context of the Group’s financial statements. 
+ 
+12.  EVENTS AFTER THE BALANCE SHEET DATE 
+ 
+There were no events after the balance sheet date requiring disclosure. 
+ 
+13. RELATED PARTY TRANSACTIONS 
+ 
+Transactions between the Company and its subsidiaries, which are related parties, have been eliminated on 
+consolidation and are not disclosed. The directors of the Company had no material transactions with the Company 
+during the year, other than in connection with their service agreements. 
+ 
+ 
+14. 2021 ANNUAL REPORT AND ACCOUNTS 
+ 
+The annual report and accounts for the year ended 31 October 2021 will be posted on the Company’s website, 
+www.chemring.co.uk, on 14 December 2021 and a copy will be posted to shareholders, as required, in advance of 
+the Company’s Annual General Meeting on 3 March 2022. 

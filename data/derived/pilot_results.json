@@ -1,0 +1,86 @@
+{
+  "status": "retrospective exploratory pilot; not a blind backtest",
+  "prediction_date": "2021-12-31",
+  "horizon_end": "2023-06-30",
+  "model_version": "exploratory-0.1.0",
+  "predictions": {
+    "Chemring": {
+      "probability": 0.148,
+      "confidence": 0.626,
+      "evidence_sum": -0.271
+    },
+    "Vesuvius": {
+      "probability": 0.747,
+      "confidence": 0.618,
+      "evidence_sum": 1.828
+    },
+    "Bodycote": {
+      "probability": 0.261,
+      "confidence": 0.61,
+      "evidence_sum": 0.255
+    }
+  },
+  "labels": {
+    "Chemring": 1,
+    "Vesuvius": 1,
+    "Bodycote": 0
+  },
+  "metrics": {
+    "PIOTW operational": {
+      "brier": 0.286,
+      "precision_at_0.5": 1.0,
+      "recall_at_0.5": 0.5,
+      "probabilities": {
+        "Chemring": 0.148,
+        "Vesuvius": 0.747,
+        "Bodycote": 0.261
+      }
+    },
+    "Margin deterioration": {
+      "brier": 0.44,
+      "precision_at_0.5": 0,
+      "recall_at_0.5": 0.0,
+      "probabilities": {
+        "Chemring": 0.2,
+        "Vesuvius": 0.2,
+        "Bodycote": 0.2
+      }
+    },
+    "Inventory/revenue divergence": {
+      "brier": 0.268,
+      "precision_at_0.5": 1.0,
+      "recall_at_0.5": 0.5,
+      "probabilities": {
+        "Chemring": 0.2,
+        "Vesuvius": 0.65,
+        "Bodycote": 0.2
+      }
+    },
+    "Financial stress count": {
+      "brier": 0.347,
+      "precision_at_0.5": 0,
+      "recall_at_0.5": 0.0,
+      "probabilities": {
+        "Chemring": 0.2,
+        "Vesuvius": 0.4,
+        "Bodycote": 0.2
+      }
+    },
+    "Leave-one-out base rate": {
+      "brier": 0.5,
+      "precision_at_0.5": 0.667,
+      "recall_at_0.5": 1.0,
+      "probabilities": {
+        "Chemring": 0.5,
+        "Vesuvius": 0.5,
+        "Bodycote": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "n=3",
+    "outcomes were inspected during implementation after protocol freeze",
+    "one retained pre-cutoff disclosure per company",
+    "no statistical or proprietary-alpha claim permitted"
+  ]
+}
