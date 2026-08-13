@@ -1,0 +1,29 @@
+[
+  {
+    "company_id": "chemring",
+    "company_name": "Chemring Group plc",
+    "provider": "unknown",
+    "identifier": "chemring-group",
+    "careers_url": "https://www.chemring.com/careers",
+    "access_mode": "structured_page",
+    "enabled": false
+  },
+  {
+    "company_id": "vesuvius",
+    "company_name": "Vesuvius plc",
+    "provider": "unknown",
+    "identifier": "vesuvius",
+    "careers_url": "https://www.vesuvius.com/en/careers.html",
+    "access_mode": "structured_page",
+    "enabled": false
+  },
+  {
+    "company_id": "bodycote",
+    "company_name": "Bodycote plc",
+    "provider": "teamtailor",
+    "identifier": "bodycote",
+    "careers_url": "https://careers.bodycote.com/jobs",
+    "access_mode": "structured_page",
+    "enabled": false
+  }
+]

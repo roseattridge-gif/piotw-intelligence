@@ -9,6 +9,8 @@ An auditable, outside-in operational-intelligence research MVP. Phase 0 is imple
 - Deterministic weighted scoring and confidence calculation.
 - Backtest cutoff enforcement using public `available_at`.
 - Source and extractor interfaces, ontology seed, assumption/backtest/methodology documents and unit tests.
+- Public careers collection for Greenhouse, Lever, Ashby, SmartRecruiters and Recruitee, ATS discovery, and point-in-time job snapshots.
+- Official public-data clients for Companies House, ONS, Contracts Finder and SEC EDGAR.
 - AI disabled by default; no secrets; no paid service required.
 
 ## Run locally
@@ -22,3 +24,5 @@ The frontend is a conventional static Vite application. A manual GitHub Pages wo
 ## Scientific status
 
 The repository now includes a real, three-company retrospective feasibility pilot. It retained seven official disclosures, manually checked 24 evidence observations and ran deterministic predictions against simple baselines. The result is negative at Gate 4: the operational model did not beat the best simple comparator. See `docs/research/PILOT_REPORT.md`. This is not a statistically powered or genuinely blind backtest.
+
+The broadened outside-in source plan, access boundaries and initial weights are documented in `docs/research/PUBLIC_DATA_APIS.md` and `docs/research/SIGNAL_FRAMEWORK_V02.md`.
