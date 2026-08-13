@@ -1,0 +1,120 @@
+company,ticker,sector,stratum,stable_id
+AB Dynamics,ABDP,Automotive testing,aerospace_auto_defence,gb-abdp
+Avon Technologies,AVON,Defence protection,aerospace_auto_defence,gb-avon
+BAE Systems,BA.,Aerospace and defence,aerospace_auto_defence,gb-ba
+Babcock International,BAB,Defence engineering,aerospace_auto_defence,gb-bab
+Chemring Group,CHG,Aerospace and defence,aerospace_auto_defence,gb-chg
+Cohort,CHRT,Aerospace and defence,aerospace_auto_defence,gb-chrt
+Dowlais Group,DWL,Automotive components,aerospace_auto_defence,gb-dwl
+Melrose Industries,MRO,Aerospace engineering,aerospace_auto_defence,gb-mro
+QinetiQ Group,QQ.,Aerospace and defence,aerospace_auto_defence,gb-qq
+Ricardo,RCDO,Automotive engineering,aerospace_auto_defence,gb-rcdo
+Senior,SNR,Aerospace and automotive,aerospace_auto_defence,gb-snr
+Rolls-Royce Holdings,RR.,Aerospace engineering,aerospace_auto_defence,gb-rr
+MS International,MSI,Defence equipment,aerospace_auto_defence,gb-msi
+Avingtrans,AVG,Aerospace engineering,aerospace_auto_defence,gb-avg
+TT Electronics,TTG,Aerospace electronics,aerospace_auto_defence,gb-ttg
+XP Power,XPP,Power electronics,aerospace_auto_defence,gb-xpp
+Renishaw,RSW,Precision engineering,aerospace_auto_defence,gb-rsw
+Spectris,SXS,Precision instrumentation,aerospace_auto_defence,gb-sxs
+Gooch and Housego,GHH,Photonics and aerospace,aerospace_auto_defence,gb-ghh
+Concurrent Technologies,CNC,Defence computing,aerospace_auto_defence,gb-cnc
+SDI Group,SDI,Scientific instrumentation,aerospace_auto_defence,gb-sdi
+Solid State,SOLI,Electronic components,aerospace_auto_defence,gb-soli
+Volex,VLX,Electronic manufacturing,aerospace_auto_defence,gb-vlx
+Oxford Instruments,OXIG,Scientific instrumentation,aerospace_auto_defence,gb-oxig
+Oxford Metrics,OMG,Measurement technology,aerospace_auto_defence,gb-omg
+Judges Scientific,JDG,Scientific instrumentation,aerospace_auto_defence,gb-jdg
+discoverIE Group,DSCV,Industrial electronics,aerospace_auto_defence,gb-dscv
+Dialight,DIA,Industrial lighting,aerospace_auto_defence,gb-dia
+Kromek Group,KMK,Detection technology,aerospace_auto_defence,gb-kmk
+LPA Group,LPA,Transport electronics,aerospace_auto_defence,gb-lpa
+Coats Group,COA,Industrial materials,materials_building,gb-coa
+Elementis,ELM,Specialty materials,materials_building,gb-elm
+James Cropper,CRPR,Advanced materials,materials_building,gb-crpr
+Victrex,VCT,Advanced materials,materials_building,gb-vct
+Morgan Advanced Materials,MGAM,Advanced materials,materials_building,gb-mgam
+Vesuvius,VSVS,Industrial materials,materials_building,gb-vsvs
+Croda International,CRDA,Specialty chemicals,materials_building,gb-crda
+Johnson Matthey,JMAT,Specialty chemicals,materials_building,gb-jmat
+Synthomer,SYNT,Specialty chemicals,materials_building,gb-synt
+Treatt,TET,Specialty ingredients,materials_building,gb-tet
+Zotefoams,ZTF,Advanced materials,materials_building,gb-ztf
+Forterra,FORT,Building materials,materials_building,gb-fort
+Hill and Smith,HILS,Infrastructure products,materials_building,gb-hils
+Ibstock,IBST,Building materials,materials_building,gb-ibst
+Genuit Group,GEN,Building products,materials_building,gb-gen
+Marshalls,MSLH,Building products,materials_building,gb-mslh
+SIG,SHI,Building products distribution,materials_building,gb-shi
+Alumasc Group,ALU,Building products,materials_building,gb-alu
+SigmaRoc,SRC,Construction materials,materials_building,gb-src
+Breedon Group,BREE,Construction materials,materials_building,gb-bree
+Epwin Group,EPWN,Building products,materials_building,gb-epwn
+Brickability Group,BRCK,Building products distribution,materials_building,gb-brck
+Keller Group,KLR,Ground engineering,materials_building,gb-klr
+Severfield,SFR,Structural engineering,materials_building,gb-sfr
+Balfour Beatty,BBY,Infrastructure construction,materials_building,gb-bby
+Costain Group,COST,Infrastructure engineering,materials_building,gb-cost
+Kier Group,KIE,Infrastructure construction,materials_building,gb-kie
+Galliford Try,GFRD,Infrastructure construction,materials_building,gb-gfrd
+Travis Perkins,TPK,Building products distribution,materials_building,gb-tpk
+Wickes Group,WIX,Building products distribution,materials_building,gb-wix
+IMI,IMI,Industrial engineering,engineering_equipment,gb-imi
+Spirax Group,SPX,Thermal engineering,engineering_equipment,gb-spx
+Porvair,PRV,Filtration technology,engineering_equipment,gb-prv
+Rotork,ROR,Flow control,engineering_equipment,gb-ror
+Weir Group,WEIR,Mining equipment,engineering_equipment,gb-weir
+Smiths Group,SMIN,Industrial technology,engineering_equipment,gb-smin
+Halma,HLMA,Safety technology,engineering_equipment,gb-hlma
+Diploma,DPLM,Industrial distribution,engineering_equipment,gb-dplm
+Goodwin,GDWN,Mechanical engineering,engineering_equipment,gb-gdwn
+Bodycote,BOY,Industrial services,engineering_equipment,gb-boy
+Hunting,HTG,Energy equipment,engineering_equipment,gb-htg
+John Wood Group,WG.,Engineering services,engineering_equipment,gb-wg
+Pressure Technologies,PRES,Pressure systems,engineering_equipment,gb-pres
+Mpac Group,MPAC,Packaging machinery,engineering_equipment,gb-mpac
+Renold,RNO,Industrial chains,engineering_equipment,gb-rno
+Castings,CGS,Industrial castings,engineering_equipment,gb-cgs
+Trifast,TRI,Industrial fasteners,engineering_equipment,gb-tri
+Flowtech Fluidpower,FLO,Fluid power,engineering_equipment,gb-flo
+Volution Group,FAN,Ventilation equipment,engineering_equipment,gb-fan
+Macfarlane Group,MACF,Industrial packaging,engineering_equipment,gb-macf
+Somero Enterprises,SOM,Construction equipment,engineering_equipment,gb-som
+RHI Magnesita,RHIM,Industrial refractory systems,engineering_equipment,gb-rhim
+Transense Technologies,TRT,Sensor technology,engineering_equipment,gb-trt
+Tekmar Group,TGP,Offshore engineering,engineering_equipment,gb-tgp
+DWHT Holdings,DWHT,Industrial components,engineering_equipment,gb-dwht
+Haydale Graphene Industries,HAYD,Advanced manufacturing,engineering_equipment,gb-hayd
+FW Thorpe,FWT,Industrial lighting,engineering_equipment,gb-fwt
+Tristel,TSTL,Industrial infection control,engineering_equipment,gb-tstl
+Luceco,LUCE,Electrical equipment,engineering_equipment,gb-luce
+Ashtead Group,AHT,Equipment rental,industrial_services_technology,gb-aht
+Bunzl,BNZL,Industrial distribution,industrial_services_technology,gb-bnzl
+Rentokil Initial,RTO,Business services,industrial_services_technology,gb-rto
+RS Group,RS1,Industrial distribution,industrial_services_technology,gb-rs1
+Computacenter,CCC,Technology services,industrial_services_technology,gb-ccc
+Softcat,SCT,Technology services,industrial_services_technology,gb-sct
+Gamma Communications,GAMA,Communications technology,industrial_services_technology,gb-gama
+Kainos Group,KNOS,Technology services,industrial_services_technology,gb-knos
+Bytes Technology Group,BYIT,Technology services,industrial_services_technology,gb-byit
+NCC Group,NCC,Cyber technology,industrial_services_technology,gb-ncc
+GB Group,GBG,Identity technology,industrial_services_technology,gb-gbg
+iomart Group,IOM,Cloud infrastructure,industrial_services_technology,gb-iom
+FD Technologies,FDP,Industrial data technology,industrial_services_technology,gb-fdp
+Science Group,SAG,Technical consultancy,industrial_services_technology,gb-sag
+Renew Holdings,RNWH,Engineering services,industrial_services_technology,gb-rnwh
+Ashtead Technology Holdings,AT.,Subsea equipment services,industrial_services_technology,gb-at
+Speedy Hire,SDY,Equipment rental,industrial_services_technology,gb-sdy
+Vp,VP.,Equipment rental,industrial_services_technology,gb-vp
+HSS Hire,HSS,Equipment rental,industrial_services_technology,gb-hss
+Mitie Group,MTO,Facilities engineering,industrial_services_technology,gb-mto
+Serco Group,SRP,Public service operations,industrial_services_technology,gb-srp
+Capita,CPI,Business process services,industrial_services_technology,gb-cpi
+Restore,RST,Information management services,industrial_services_technology,gb-rst
+Franchise Brands,FRAN,Commercial services,industrial_services_technology,gb-fran
+Robert Walters,RWA,Recruitment services,industrial_services_technology,gb-rwa
+PageGroup,PAGE,Recruitment services,industrial_services_technology,gb-page
+Staffline Group,STAF,Workforce services,industrial_services_technology,gb-staf
+Empresaria Group,EMR,Workforce services,industrial_services_technology,gb-emr
+Water Intelligence,WATR,Infrastructure services,industrial_services_technology,gb-watr
+Aukett Swanke Group,AUK,Design engineering services,industrial_services_technology,gb-auk

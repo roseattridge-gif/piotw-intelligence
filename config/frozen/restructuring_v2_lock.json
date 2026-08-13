@@ -1,0 +1,23 @@
+{
+  "baseline_set_version": "restructuring-baselines-v2.0.0",
+  "baseline_specification_sha256": "d0f0f9548cbe4d5824b2c108ed783a602f071fc85342f77c90857dc4f9760e00",
+  "document_sha256": {
+    "docs/restructuring-cohort-v2.md": "eb28de3a1aa5aafe89c33df8c07612863457b8c22d6603fc30a92e99b2a3aab8",
+    "docs/restructuring-outcome-protocol-v2.md": "e0b67481bf7418153ed9f281506b2e741f2f7a4c2337f7f73e14e4c579fef661",
+    "docs/restructuring-validation-gate-v2.md": "7188eb04fe5f9d685cc3903bccc982c7bf38fe186563e305fe361f0b336e4959",
+    "docs/restructuring-validation-v2-plan.md": "d0dc3acc57629de0f99c546b08ceb3f14b85bffdf623b4d49f7f930a39bf5d28"
+  },
+  "frozen_at": "2026-08-13T20:15:00+01:00",
+  "generated_at_note": "Timestamp fixed as part of the protocol; regeneration is deterministic except recorded_from_git_commit.",
+  "lock_version": "restructuring-validation-v2.0.0",
+  "manifest_sha256": {
+    "data/manifests/restructuring_development.csv": "b2615f08c6c686019b8ed70d42d50711124d3f4faaaf07ca780e76955fecb885",
+    "data/manifests/restructuring_holdout.csv": "5b4ac1ad9ab39ac625fcd323fa886a7c6a22a4debbb2e53224d382aea064079d",
+    "data/manifests/restructuring_validation.csv": "7dc60da1e0143891eadd20341580338982d2eae2c7bad17169c817e60e126b88",
+    "research/restructuring_v2_candidate_universe.csv": "e90cadc772bc88b5c056820b025f90cd5f32846675553b28eef35b67989962a4"
+  },
+  "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+  "model_version": "restructuring-rules-1.0.0",
+  "outcomes_inspected_for_v2": false,
+  "recorded_from_git_commit": "9ef109b386d59cf98391d408865ccb8ab890b437"
+}

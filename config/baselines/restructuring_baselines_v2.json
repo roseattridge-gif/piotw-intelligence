@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.0",
+  "baseline_set_version": "restructuring-baselines-v2.0.0",
+  "status": "frozen_before_v2_outcomes",
+  "created_at": "2026-08-13T20:15:00+01:00",
+  "development_dataset": "v1_known_20",
+  "evaluation": {
+    "classification_threshold": 0.5,
+    "calibration_bin_edges": [0.0, 0.1, 0.2, 0.3, 0.4, 1.0000001],
+    "risk_group": "top_quintile_ties_inclusive",
+    "risk_fraction": 0.2,
+    "bootstrap": {
+      "unit": "company",
+      "replicates": 2000,
+      "seed": 20260813,
+      "interval": 0.95,
+      "minimum_unique_companies": 20
+    }
+  },
+  "comparators": {
+    "constant_prior": {
+      "version": "constant-prior-0.12-v1",
+      "inputs": [],
+      "probability": 0.12,
+      "missing": "not_applicable"
+    },
+    "leave_one_company_out_development_rate": {
+      "version": "loco-development-rate-v2",
+      "source_partition": "development",
+      "formula": "mean binary outcome among scored development occasions excluding every row for the prediction company",
+      "unseen_company": "mean binary outcome across all scored development occasions",
+      "zero_remaining_rows": "error",
+      "uncertain_labels": "exclude",
+      "holdout_or_validation_outcomes_used": false
+    },
+    "financial_stress_rule": {
+      "version": "financial-stress-count-v2",
+      "inputs": ["margin_pressure", "cash_pressure"],
+      "transforms": {
+        "margin_flag": "1 if margin_pressure >= 0.60 else 0",
+        "cash_flag": "1 if cash_pressure >= 0.60 else 0"
+      },
+      "probability_formula": "(margin_flag + cash_flag + 1) / 5",
+      "possible_probabilities": [0.2, 0.4, 0.6],
+      "missing": "error",
+      "provenance": "mapping inherited from the pre-v1 pilot preregistration; v2 thresholds frozen before new outcomes"
+    },
+    "disclosure_language_rule": {
+      "version": "disclosure-language-v2",
+      "input": "eligible pre-cutoff primary-source text",
+      "case_sensitive": false,
+      "normalisation": "Unicode NFKC then lowercase and collapse whitespace",
+      "terms": ["restructur", "redundan", "consultation", "site closure", "plant closure", "consolidat", "cost reduction", "cost saving", "cost programme", "efficien", "simplif", "right-size", "rightsiz", "footprint", "operating model", "reorganis", "reorganiz"],
+      "excluded_context": ["historical", "completed", "previously announced", "already announced"],
+      "scoring": "trigger if at least one term occurs outside a 120-character excluded-context window",
+      "probability_if_triggered": 0.2,
+      "probability_if_not_triggered": 0.12,
+      "missing": "0.12 only when eligible source coverage is documented complete; otherwise error"
+    },
+    "financial_only_logistic": {
+      "version": "financial-only-logistic-development-v2",
+      "training_partition": "v1_known_20_development_only",
+      "inputs": ["margin_pressure", "cash_pressure"],
+      "standardisation": {
+        "margin_pressure": {"mean": 0.34249999999999997, "population_std": 0.2689214569349199},
+        "cash_pressure": {"mean": 0.2425, "population_std": 0.1832177666057525}
+      },
+      "coefficients": {
+        "intercept": -1.6559048296714853,
+        "margin_pressure_standardised": 0.28097630782163463,
+        "cash_pressure_standardised": 0.8546439432848713
+      },
+      "fit": "deterministic full-batch logistic gradient descent; 20000 iterations; learning_rate=0.05; L2=1.0 on slopes divided by n; unpenalised intercept",
+      "probability": "sigmoid(intercept + coefficient dot standardised inputs)",
+      "missing": "error",
+      "future_refit": "forbidden for validation v2"
+    }
+  }
+}

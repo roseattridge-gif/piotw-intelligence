@@ -1,0 +1,1 @@
+evidence_id,occasion_id,company,ticker,available_at,source_title,source_url,retrieved_at,raw_path,raw_sha256,preservation_status,parser_version,source_location,observation,direction,already_announced_exclusion,extraction_sha256,review_status

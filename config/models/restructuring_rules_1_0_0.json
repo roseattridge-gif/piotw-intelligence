@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "model_version": "restructuring-rules-1.0.0",
+  "status": "frozen_candidate",
+  "created_at": "2026-08-13T18:39:48.763547+00:00",
+  "origin_git_commit": "a4ca5b8077e88235abe49bc1bfc5723385a2be5d",
+  "target": {
+    "name": "restructuring_announced",
+    "definition": "first public announcement of a previously unannounced material restructuring",
+    "horizon_days": 365,
+    "window_start_inclusive": false,
+    "window_end_inclusive": true,
+    "already_announced_programmes": "exclude"
+  },
+  "inputs": {
+    "pressure_language": {"type": "number", "minimum": 0.0, "maximum": 1.0, "missing": "error", "weight": 1.4},
+    "margin_pressure": {"type": "number", "minimum": 0.0, "maximum": 1.0, "missing": "error", "weight": 0.9},
+    "cash_pressure": {"type": "number", "minimum": 0.0, "maximum": 1.0, "missing": "error", "weight": 0.7},
+    "contrary_strength": {"type": "number", "minimum": 0.0, "maximum": 1.0, "missing": "error", "weight": -0.8}
+  },
+  "feature_definition": {
+    "common_scale": {
+      "range": "0.00 to 1.00 in increments of 0.05",
+      "rule": "score the latest eligible disclosure set as a whole; use the lower anchor when evidence falls between anchors; record supporting and contradictory evidence",
+      "missing": "error; insufficient coverage excludes the occasion under the predeclared data-quality rule"
+    },
+    "pressure_language": {
+      "0.00_to_0.15": "no pressure language or only routine risk boilerplate",
+      "0.20_to_0.35": "specific but contained inflation, supply, labour, delivery, utilisation or efficiency pressure",
+      "0.40_to_0.55": "repeated or quantified operational pressure, explicit self-help or cost-control language",
+      "0.60_to_0.75": "multiple persistent pressures or explicit cost, footprint, simplification or restructuring activity not itself an eligible future outcome",
+      "0.80_to_1.00": "severe, pervasive and quantified intervention pressure"
+    },
+    "margin_pressure": {
+      "0.00_to_0.15": "margin improving materially with no credible deterioration",
+      "0.20_to_0.35": "stable/slightly weaker margin or unquantified headwind",
+      "0.40_to_0.55": "clear deterioration below 100 basis points or substantial offsetting pressure",
+      "0.60_to_0.75": "deterioration around 100 to 200 basis points or major quantified headwinds",
+      "0.80_to_1.00": "deterioration above 200 basis points, loss-making unit or withdrawn margin expectation"
+    },
+    "cash_pressure": {
+      "0.00_to_0.15": "strong positive cash generation/conversion and improving liquidity",
+      "0.20_to_0.35": "positive but weaker cash or contained working-capital absorption",
+      "0.40_to_0.55": "material cash-conversion decline, leverage increase or inventory/receivables absorption",
+      "0.60_to_0.75": "weak/negative free cash flow or substantial working-capital divergence",
+      "0.80_to_1.00": "acute liquidity, covenant, refinancing or sustained negative-cash pressure"
+    },
+    "contrary_strength": {
+      "0.00_to_0.15": "no material contrary evidence",
+      "0.20_to_0.35": "limited offset such as orders, pricing or liquidity",
+      "0.40_to_0.55": "credible mixed evidence or recovery indicators",
+      "0.60_to_0.75": "strong growth, order visibility, margin/cash resilience or completed intervention",
+      "0.80_to_1.00": "multiple strong quantified contrary indicators with no unresolved pressure"
+    }
+  },
+  "transform": {
+    "type": "logistic_log_odds_offset",
+    "prior_probability": 0.12,
+    "formula": "sigmoid(log(0.12 / 0.88) + sum(input * weight))",
+    "probability_output_rounding_decimals": 6,
+    "contribution_output": "unrounded_input_times_weight"
+  },
+  "aggregation": {
+    "entity_level": "one feature vector per listed parent and cutoff",
+    "evidence_order": "input row order",
+    "duplicate_evidence": "forbidden within an occasion",
+    "event_deduplication": "one underlying programme regardless of repeated disclosures"
+  },
+  "confidence": {
+    "probability_separate": true,
+    "v1_value": 0.48,
+    "v1_basis": "one manually checked primary disclosure",
+    "v2_missing_or_partial_coverage": "retain 0.48 only when the same evidence pattern is satisfied; otherwise report lower coverage confidence without changing probability"
+  },
+  "evidence": {
+    "publication_date_must_be_on_or_before_cutoff": true,
+    "reporting_period_is_not_publication_date": true,
+    "full_source_required_when_legally_and_technically_permitted": true,
+    "snapshot_hash_fields": ["available_at", "source_url", "observation", "features", "already_announced_exclusion"],
+    "snapshot_hash_algorithm": "sha256_canonical_json",
+    "prediction_snapshot_hash_fields": ["ordered_evidence_ids", "ordered_snapshot_hashes"],
+    "extraction_method": "manual_primary_source"
+  },
+  "prediction_identity": "rv2-{ticker}-{cutoff}-restructuring-rules-1.0.0"
+}
