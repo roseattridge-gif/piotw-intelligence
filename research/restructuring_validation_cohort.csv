@@ -1,0 +1,11 @@
+stratum,company,ticker,subsector,selection_key,selection_hash,cutoff_1,cutoff_2
+aerospace_auto,Senior,SNR,Aerospace and automotive,SNR,1af26b38ed68a29e586fc55ed73238bb04930568536ff560a844e194dd72c8b1,2021-12-31,2022-12-31
+aerospace_auto,Cohort,CHRT,Aerospace and defence,CHRT,1f5032f703fa88e2a36e5957e0b198aeed8cd35b01fb34f485704c22c4470c37,2021-12-31,2022-12-31
+aerospace_auto,Melrose Industries,MRO,Aerospace and engineering,MRO,be010380f2f2df14c5aa43043de00ac067601a35a1aed4f02dacfb7e14595edb,2021-12-31,2022-12-31
+materials,Elementis,ELM,Specialty materials,ELM,1863c9a1b9cca505a51e5ca532fde3453d1cc0e09213746fabbef1959a1f27c8,2021-12-31,2022-12-31
+materials,James Cropper,CRPR,Advanced materials,CRPR,206a82d3be1dce19449cbd47061b6fa3a54a1135b196703efdcd2f70ea9d020c,2021-12-31,2022-12-31
+materials,Victrex,VCT,Advanced materials,VCT,2321a7f821750bc6d06e20410f32cf70e4e57093e9eb68a79e2d0be146904b95,2021-12-31,2022-12-31
+engineering_tech,Ricardo,RCDO,Engineering consultancy,RCDO,0992bb0c9dce4c28fb490f48c1cb4233b0054b8b669ad2398719e6453396d121,2021-12-31,2022-12-31
+engineering_tech,IMI,IMI,Industrial engineering,IMI,12ec68b3eb6eab514ee1f22e6d82fa2d14b9e161a537254ab44b2b18ac60c820,2021-12-31,2022-12-31
+engineering_tech,Spirax Group,SPX,Thermal engineering,SPX,39455d21ad2e6ba990dd8dc34b3b433b3d6da9883177bc91a0e9544ffda4140e,2021-12-31,2022-12-31
+engineering_tech,Porvair,PRV,Filtration technology,PRV,432ddab37451a576dd278c003ac600cc75011ede4aa7a05ef68a220a6c1e9c88,2021-12-31,2022-12-31
