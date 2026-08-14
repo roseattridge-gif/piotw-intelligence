@@ -1756,6 +1756,283 @@
       "report_year": 2019,
       "status": "retrieval_failed",
       "ticker": "HILS"
+    },
+    "rv2-HILS-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2021.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "HILS"
+    },
+    "rv2-HILS-2024-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 208,
+      "raw_path": "data/raw/restructuring_v2/gb-hils/annual-report-2023.pdf",
+      "raw_sha256": "0064afd009130f26108f89311df299a158f11f9c9aefaf2bb4810baaff8d18d4",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:38:41.476142+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-hils/annual-report-2023.txt",
+      "text_sha256": "76d1b651a8cfa1c09d3897cb8ad8b75689cf9ebdbf59ad0698114b883e822d2c",
+      "ticker": "HILS",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2023.pdf"
+    },
+    "rv2-HSS-2020-12-31": {
+      "approval_date_candidates": [
+        "26 May 2020"
+      ],
+      "page_count": 128,
+      "raw_path": "data/raw/restructuring_v2/gb-hss/annual-report-2019.pdf",
+      "raw_sha256": "e4e613504fe804d05c401610246dc8278bd0a3315b7837ad457af9c238786894",
+      "report_year": 2019,
+      "retrieved_at": "2026-08-14T12:39:56.755673+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-hss/annual-report-2019.txt",
+      "text_sha256": "aa229c023feb00c8522940ea2748618f3c4eb8c5ae5266c89f526995cd735900",
+      "ticker": "HSS",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2019.pdf"
+    },
+    "rv2-HSS-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2021.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "HSS"
+    },
+    "rv2-HSS-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2023.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "HSS"
+    },
+    "rv2-HTG-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "HTG"
+    },
+    "rv2-HTG-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2021.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "HTG"
+    },
+    "rv2-HTG-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "HTG"
+    },
+    "rv2-IBST-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST_2019.pdf"
+        },
+        {
+          "reason": "HTTP 404",
+          "status": "not_found",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "IBST"
+    },
+    "rv2-IBST-2022-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 188,
+      "raw_path": "data/raw/restructuring_v2/gb-ibst/annual-report-2021.pdf",
+      "raw_sha256": "232bcfa788244769df05cb99c6f37e17f7c76d29f7b2e2ae6bfca0a292dd4ad2",
+      "report_year": 2021,
+      "retrieved_at": "2026-08-14T12:40:10.382632+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ibst/annual-report-2021.txt",
+      "text_sha256": "6c0e4f3a0f3790bf5c6f4d2d1aa3662493e28ff73fb748ec2fb581c106d61cfb",
+      "ticker": "IBST",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST_2021.pdf"
+    },
+    "rv2-IBST-2024-12-31": {
+      "approval_date_candidates": [
+        "2 November 2023"
+      ],
+      "page_count": 192,
+      "raw_path": "data/raw/restructuring_v2/gb-ibst/annual-report-2023.pdf",
+      "raw_sha256": "2b05e63815abba31c986cafbeaed854ed7e5f7eea1c91c8b0376da0f3160de05",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:40:18.033564+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ibst/annual-report-2023.txt",
+      "text_sha256": "1f6e30d9852fdafd930db03efb0554f039a7a6d49115a0b44fc84f89cb8f7b94",
+      "ticker": "IBST",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST_2023.pdf"
+    },
+    "rv2-IMI-2020-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 182,
+      "raw_path": "data/raw/restructuring_v2/gb-imi/annual-report-2019.pdf",
+      "raw_sha256": "41df0b14e322f75a658ed00d9a082b09d83f27f20d5fde55080486303237e6db",
+      "report_year": 2019,
+      "retrieved_at": "2026-08-14T12:40:25.493976+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-imi/annual-report-2019.txt",
+      "text_sha256": "c3d25149e4c61790458f7485088eff0ed22de1848e07828fafbde808c389418e",
+      "ticker": "IMI",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IMI_2019.pdf"
+    },
+    "rv2-IMI-2024-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 139,
+      "raw_path": "data/raw/restructuring_v2/gb-imi/annual-report-2023.pdf",
+      "raw_sha256": "50c8ccc744d4b99858b381ea5f74a9e2c85b39fdbe90934450a8cc8075992019",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:40:29.939038+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-imi/annual-report-2023.txt",
+      "text_sha256": "e243567bd03a9496de709e40a62cb88addfbf48431af431017a5e5c106f4e00d",
+      "ticker": "IMI",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IMI_2023.pdf"
+    },
+    "rv2-JDG-2020-12-31": {
+      "approval_date_candidates": [
+        "17 March 2020",
+        "17 March 2020"
+      ],
+      "page_count": 80,
+      "raw_path": "data/raw/restructuring_v2/gb-jdg/annual-report-2019.pdf",
+      "raw_sha256": "208fcb4bd4146274bbf344dd5bfe19311a62ab4329e070a42bbc6a2b478735af",
+      "report_year": 2019,
+      "retrieved_at": "2026-08-14T12:40:34.382742+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-jdg/annual-report-2019.txt",
+      "text_sha256": "5d32956d68fee645a6dc57103f3c17642c79b8b0c80f8d838c3c2b16cfae20f8",
+      "ticker": "JDG",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JDG_2019.pdf"
+    },
+    "rv2-JDG-2022-12-31": {
+      "approval_date_candidates": [
+        "22 March 2022",
+        "22 March 2022"
+      ],
+      "page_count": 93,
+      "raw_path": "data/raw/restructuring_v2/gb-jdg/annual-report-2021.pdf",
+      "raw_sha256": "6e3570a890e2a062d836b7320d890276a26a365eefdbd78b768b23d025378097",
+      "report_year": 2021,
+      "retrieved_at": "2026-08-14T12:40:43.463823+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-jdg/annual-report-2021.txt",
+      "text_sha256": "6dbb8507248ebefb91d29470c25966a8d1269e21568e504f8cb1c3b51cd28557",
+      "ticker": "JDG",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JDG_2021.pdf"
+    },
+    "rv2-JDG-2024-12-31": {
+      "approval_date_candidates": [
+        "20 March 2024",
+        "20 March 2024"
+      ],
+      "page_count": 106,
+      "raw_path": "data/raw/restructuring_v2/gb-jdg/annual-report-2023.pdf",
+      "raw_sha256": "860ef0d27d8b0b02e342984c5657177a2a5ba23f57018e539a63cb3b4753f545",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:40:54.331851+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-jdg/annual-report-2023.txt",
+      "text_sha256": "ab96be88db46ded35a4275e105a4f20a87553cbf4836c6f8d40ba8838b8364ed",
+      "ticker": "JDG",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JDG_2023.pdf"
     }
   }
 }
