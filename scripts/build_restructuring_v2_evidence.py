@@ -47,6 +47,8 @@ def validate_review(row: dict[str, str], source: Path) -> None:
             raise ValueError(f"invalid 0.05-grid score at {occasion_id}:{field}")
     if not row["reviewer"] or not row["review_note"]:
         raise ValueError(f"review attribution missing: {occasion_id}")
+    if "reviewed_at" in row and not row["reviewed_at"]:
+        raise ValueError(f"review timestamp missing: {occasion_id}")
 
 
 def reviewed_scores() -> dict[str, dict[str, str]]:

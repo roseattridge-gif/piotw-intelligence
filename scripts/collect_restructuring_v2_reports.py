@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import fcntl
 import hashlib
 import json
 import re
@@ -22,6 +23,7 @@ MANIFESTS = [ROOT / "data/manifests/restructuring_validation.csv",
 RAW_ROOT = ROOT / "data/raw/restructuring_v2"
 TEXT_ROOT = ROOT / "data/parsed/restructuring_v2"
 INDEX = ROOT / "data/derived/restructuring_v2_source_index.json"
+INDEX_LOCK = Path("/tmp/piotw-restructuring-v2-source-index.lock")
 OFFICIAL_REGISTRY = ROOT / "data/restructuring_v2/official_source_registry.csv"
 REPORT_YEAR = {"2020-12-31": 2019, "2022-12-31": 2021, "2024-12-31": 2023}
 USER_AGENT = "PIOTW-Research/2.0 (+noncommercial validation; contact=operator)"
@@ -67,6 +69,26 @@ def retrieve(url: str, timeout: float, attempts: int) -> tuple[str, bytes | None
 def extract_text(path: Path) -> tuple[str, int]:
     reader = PdfReader(path)
     return "\n\n".join(page.extract_text() or "" for page in reader.pages), len(reader.pages)
+
+
+def read_sources() -> dict[str, dict[str, object]]:
+    document = json.loads(INDEX.read_text()) if INDEX.exists() else {"sources": {}}
+    return document.get("sources", {})
+
+
+def record_source(occasion_id: str, result: dict[str, object]) -> None:
+    """Merge one result under a cross-process lock; never overwrite unrelated fresh results."""
+    INDEX.parent.mkdir(parents=True, exist_ok=True)
+    with INDEX_LOCK.open("w") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        sources = read_sources()
+        current = sources.get(occasion_id, {})
+        # A late timeout from an older worker must never downgrade preserved bytes.
+        if current.get("status") != "preserved" or result.get("status") == "preserved":
+            sources[occasion_id] = result
+        INDEX.write_text(json.dumps(
+            {"schema_version": "1", "sources": sources}, indent=2, sort_keys=True
+        ) + "\n")
 
 
 def collect_one(occasion_id: str, row: dict[str, str], timeout: float,
@@ -139,8 +161,7 @@ def main() -> None:
     official_urls = ({row["occasion_id"]: row["source_url"]
                       for row in csv.DictReader(OFFICIAL_REGISTRY.open())}
                      if OFFICIAL_REGISTRY.exists() else {})
-    existing = json.loads(INDEX.read_text()) if INDEX.exists() else {"sources": {}}
-    sources = existing.get("sources", {})
+    sources = read_sources()
     pending = [(occasion_id, row) for occasion_id, row in sorted(occasions.items())
                if occasion_id not in sources]
     if arguments.retry_existing:
@@ -157,11 +178,9 @@ def main() -> None:
                    for occasion_id, row in pending}
         for number, future in enumerate(as_completed(futures), 1):
             occasion_id, result = future.result()
-            sources[occasion_id] = result
-            INDEX.parent.mkdir(parents=True, exist_ok=True)
-            INDEX.write_text(json.dumps({"schema_version": "1", "sources": sources}, indent=2, sort_keys=True) + "\n")
+            record_source(occasion_id, result)
             print(f"{number}/{len(pending)} {occasion_id}: {result['status']}", flush=True)
-    INDEX.write_text(json.dumps({"schema_version": "1", "sources": sources}, indent=2, sort_keys=True) + "\n")
+    sources = read_sources()
     preserved = sum(row.get("status") == "preserved" for row in sources.values())
     print(f"preserved {preserved}/{len(occasions)} sources")
 
