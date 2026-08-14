@@ -2455,6 +2455,258 @@
       "report_year": 2023,
       "status": "retrieval_failed",
       "ticker": "MGAM"
+    },
+    "rv2-MPAC-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "MPAC"
+    },
+    "rv2-MPAC-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "MPAC"
+    },
+    "rv2-MPAC-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "MPAC"
+    },
+    "rv2-MRO-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "MRO"
+    },
+    "rv2-MRO-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "MRO"
+    },
+    "rv2-MSI-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "MSI"
+    },
+    "rv2-MSI-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "MSI"
+    },
+    "rv2-MSI-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "MSI"
+    },
+    "rv2-MSLH-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "MSLH"
+    },
+    "rv2-MSLH-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2021.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2021.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2021.pdf"
+      ],
+      "report_year": 2021,
+      "status": "retrieval_failed",
+      "ticker": "MSLH"
+    },
+    "rv2-MSLH-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2023.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2023.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2023.pdf"
+      ],
+      "report_year": 2023,
+      "status": "retrieval_failed",
+      "ticker": "MSLH"
+    },
+    "rv2-MTO-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "MTO"
     }
   }
 }
