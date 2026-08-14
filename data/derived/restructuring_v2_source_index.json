@@ -568,67 +568,45 @@
       "ticker": "CCC"
     },
     "rv2-CGS-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "2 October 2017"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2019.pdf"
-      ],
+      "page_count": 68,
+      "raw_path": "data/raw/restructuring_v2/gb-cgs/annual-report-2019.pdf",
+      "raw_sha256": "46fc6ee8961307f261ac90ca19aefcba76af806654ec29d440744b8f79f9e153",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "CGS"
+      "retrieved_at": "2026-08-14T19:19:19.061554+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cgs/annual-report-2019.txt",
+      "text_sha256": "574db07f4620d321e0bb35879c00118a1988d1b514217d13b6adc53a23b885b9",
+      "ticker": "CGS",
+      "url": "https://castings.plc.uk/media/2pwpo5a5/castings-ar2019.pdf"
     },
     "rv2-CGS-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 74,
+      "raw_path": "data/raw/restructuring_v2/gb-cgs/annual-report-2021.pdf",
+      "raw_sha256": "4922327a4ba344cd477722c46257bfd0d096ca3de4993ea8d28f3bd5d7cb1e12",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "CGS"
+      "retrieved_at": "2026-08-14T19:19:19.790064+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cgs/annual-report-2021.txt",
+      "text_sha256": "b869c79e0640c216712543eb3e153aaa806a6a68b60e086437b3a39fe1c8040b",
+      "ticker": "CGS",
+      "url": "https://castings.plc.uk/media/2bgbawci/annual-report-2021.pdf"
     },
     "rv2-CGS-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 77,
+      "raw_path": "data/raw/restructuring_v2/gb-cgs/annual-report-2023.pdf",
+      "raw_sha256": "a51fe43f43f995281551e56e5294df36d0d98760cff9dd53a3e96c1c9a39aa49",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "CGS"
+      "retrieved_at": "2026-08-14T19:19:20.493345+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cgs/annual-report-2023.txt",
+      "text_sha256": "f03350b02df051e7a3b2c67ef19ace1c8d9c8d5ffc0ae8c05154474475a64c29",
+      "ticker": "CGS",
+      "url": "https://www.castings.plc.uk/media/vzyfikgn/castings-ar2023.pdf"
     },
     "rv2-CHG-2020-12-31": {
       "approval_date_candidates": [
