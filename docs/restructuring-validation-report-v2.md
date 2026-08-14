@@ -2,6 +2,6 @@
 
 Status: **INCOMPLETE — no v2 performance result is reported.**
 
-The protocol requires 291 new occasions. Evidence exists for 66, features for 66, and reconciled blinded outcomes for 0. Immutable predictions have been generated for 0. The runner fails closed rather than evaluating a convenient subset.
+The protocol requires 291 new occasions. Evidence exists for 69, features for 69, and reconciled blinded outcomes for 0. Immutable predictions have been generated for 0. The runner fails closed rather than evaluating a convenient subset.
 
 Next action: **Complete and review pre-cutoff evidence and frozen-rubric feature rows.**
