@@ -26,7 +26,7 @@ INDEX = ROOT / "data/derived/restructuring_v2_source_index.json"
 INDEX_LOCK = Path("/tmp/piotw-restructuring-v2-source-index.lock")
 OFFICIAL_REGISTRY = ROOT / "data/restructuring_v2/official_source_registry.csv"
 REPORT_YEAR = {"2020-12-31": 2019, "2022-12-31": 2021, "2024-12-31": 2023}
-USER_AGENT = "PIOTW-Research/2.0 (+noncommercial validation; contact=operator)"
+USER_AGENT = "Mozilla/5.0 (compatible; PIOTW-Research/2.0; noncommercial validation)"
 REQUEST_LOCK = threading.Lock()
 LAST_REQUEST = 0.0
 

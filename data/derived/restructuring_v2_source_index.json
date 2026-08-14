@@ -803,67 +803,43 @@
       "url": "https://www.diplomaplc.com/media/rkej2axs/diploma_2023-annual-report.pdf"
     },
     "rv2-DSCV-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 180,
+      "raw_path": "data/raw/restructuring_v2/gb-dscv/annual-report-2019.pdf",
+      "raw_sha256": "8893aeeec11ff95ab62392a2b4a6d92ea0a60f7a5a85297800d0250d2fc43bc2",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "DSCV"
+      "retrieved_at": "2026-08-14T12:04:09.575828+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dscv/annual-report-2019.txt",
+      "text_sha256": "74ee1354aa864766c042a3ea5a63d4df73cc1f535450f88e6fd2ad96cf778a0f",
+      "ticker": "DSCV",
+      "url": "https://companiesmarketcap.com/annual-reports/116175.ar.en.2019.pdf"
     },
     "rv2-DSCV-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 194,
+      "raw_path": "data/raw/restructuring_v2/gb-dscv/annual-report-2021.pdf",
+      "raw_sha256": "f54d94d25463b980794abe7cd698252f526e2d9747ea07e75a2be51850fe639d",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "DSCV"
+      "retrieved_at": "2026-08-14T12:04:11.818644+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dscv/annual-report-2021.txt",
+      "text_sha256": "9966a2f50a5040507946db4c9dbb7482724c66b4f94ca8cd198b72c365939a22",
+      "ticker": "DSCV",
+      "url": "https://companiesmarketcap.com/annual-reports/116175.ar.en.2021.pdf"
     },
     "rv2-DSCV-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DSCV.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 228,
+      "raw_path": "data/raw/restructuring_v2/gb-dscv/annual-report-2023.pdf",
+      "raw_sha256": "752fa99a6e737eca7b52afe5e6b7617320a21129bd8375e7182ed9afb90d57d8",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "DSCV"
+      "retrieved_at": "2026-08-14T12:04:26.665093+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dscv/annual-report-2023.txt",
+      "text_sha256": "797ef3bcc9be3be87d4b7705f7268bd98ec107284be714f91be694b4a3d6a63e",
+      "ticker": "DSCV",
+      "url": "https://companiesmarketcap.com/annual-reports/116175.ar.en.2023.pdf"
     },
     "rv2-DWHT-2020-12-31": {
       "attempt_results": [
@@ -1137,6 +1113,47 @@
       "report_year": 2021,
       "status": "retrieval_failed",
       "ticker": "EPWN"
+    },
+    "rv2-FAN-2020-12-31": {
+      "approval_date_candidates": [
+        "15 December 2017"
+      ],
+      "page_count": 164,
+      "raw_path": "data/raw/restructuring_v2/gb-fan/annual-report-2019.pdf",
+      "raw_sha256": "b0ea310deb8d214c47cd95a9d1924c7e0489099e6ef482653936d8c40d852e58",
+      "report_year": 2019,
+      "retrieved_at": "2026-08-14T12:15:07.706764+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fan/annual-report-2019.txt",
+      "text_sha256": "14cf4eb0bd6f5db51fa0410938f86f8d8d848fd58b2c31e144d52af3edd4384b",
+      "ticker": "FAN",
+      "url": "https://companiesmarketcap.com/annual-reports/116107.ar.en.2019.pdf"
+    },
+    "rv2-FAN-2022-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 188,
+      "raw_path": "data/raw/restructuring_v2/gb-fan/annual-report-2021.pdf",
+      "raw_sha256": "77676d08335304bc839fd7ecfc337550a32e1d308bfb6a31dc36ad4e840d3e2c",
+      "report_year": 2021,
+      "retrieved_at": "2026-08-14T12:14:59.474351+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fan/annual-report-2021.txt",
+      "text_sha256": "b3f80f2e41d33e37e4b3c7c32fca33c01d1d5f22d167701c8892396fac3de36e",
+      "ticker": "FAN",
+      "url": "https://companiesmarketcap.com/annual-reports/116107.ar.en.2021.pdf"
+    },
+    "rv2-FAN-2024-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 236,
+      "raw_path": "data/raw/restructuring_v2/gb-fan/annual-report-2023.pdf",
+      "raw_sha256": "f36c48180619792a3e0bf89d48b7cb2af9c8e9eeb891ad4728ce9837981cc9d6",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:15:57.980649+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fan/annual-report-2023.txt",
+      "text_sha256": "cd28d1c52843a095f0074c59e93a34a5827c8348cd417ee3e261d23260f0e6c1",
+      "ticker": "FAN",
+      "url": "https://companiesmarketcap.com/annual-reports/116107.ar.en.2023.pdf"
     }
   }
 }
