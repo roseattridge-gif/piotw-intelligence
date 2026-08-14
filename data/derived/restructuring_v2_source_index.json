@@ -422,46 +422,32 @@
       "ticker": "BREE"
     },
     "rv2-BREE-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 165,
+      "raw_path": "data/raw/restructuring_v2/gb-bree/annual-report-2021.pdf",
+      "raw_sha256": "8e95d19f0dd778a357ec3ba35737996f0af2104831efa9a6c77ae6afc845d0ab",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "BREE"
+      "retrieved_at": "2026-08-14T19:02:03.240210+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-bree/annual-report-2021.txt",
+      "text_sha256": "a4341d86258b5c9098f8ab9eda3d6ebe74e87a3afa2bd8e77c2be76968e6b870",
+      "ticker": "BREE",
+      "url": "https://www.breedongroup.com/content/dam/breedon/corporate/documents/investors/results-reports-presentations/annual-reports/ANNUAL%20REPORT%202021.pdf"
     },
     "rv2-BREE-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "6 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2023.pdf"
-      ],
+      "page_count": 234,
+      "raw_path": "data/raw/restructuring_v2/gb-bree/annual-report-2023.pdf",
+      "raw_sha256": "67b04c94c4ee7bcc542f105d873e86dca45537ccd11f19fa42d4ac19b1b1ac6b",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "BREE"
+      "retrieved_at": "2026-08-14T19:02:07.517087+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-bree/annual-report-2023.txt",
+      "text_sha256": "e844509f4415ec1e19c707f9234f06d6a415e3adf346817e904f8f2af1ed18ad",
+      "ticker": "BREE",
+      "url": "https://www.breedongroup.com/content/dam/breedon/corporate/documents/investors/results-reports-presentations/annual-reports/Breedon_ARA2023.pdf"
     },
     "rv2-BYIT-2020-12-31": {
       "attempt_results": [
@@ -485,46 +471,32 @@
       "ticker": "BYIT"
     },
     "rv2-BYIT-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "25 May 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2021.pdf"
-      ],
+      "page_count": 220,
+      "raw_path": "data/raw/restructuring_v2/gb-byit/annual-report-2021.pdf",
+      "raw_sha256": "b10bcbb2789a416b18b6f681051d1f184126e8e3dcb2be2ebda9533ba5c15225",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "BYIT"
+      "retrieved_at": "2026-08-14T19:02:09.956173+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-byit/annual-report-2021.txt",
+      "text_sha256": "966500b5f616ed9383aff9281db53a955e52f5782d3f6ce01b8837020c57e2ff",
+      "ticker": "BYIT",
+      "url": "https://www.bytesplc.com/media/r24n2mki/annual_report_and_accounts_2021.pdf"
     },
     "rv2-BYIT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 182,
+      "raw_path": "data/raw/restructuring_v2/gb-byit/annual-report-2023.pdf",
+      "raw_sha256": "716c8ced923d720ca6c7d026d469ad79b06978e4094aee00cb2fc7f421940df1",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "BYIT"
+      "retrieved_at": "2026-08-14T19:02:12.938013+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-byit/annual-report-2023.txt",
+      "text_sha256": "8c9a1a1c9ddb3e6a52692c6cd6521d0b4b27d7b8fd7b00d9f2fd4ddc826c622f",
+      "ticker": "BYIT",
+      "url": "https://www.bytesplc.com/media/2cufr5tx/btg_annual_report_and_accounts_fy23.pdf"
     },
     "rv2-CCC-2020-12-31": {
       "attempt_results": [
