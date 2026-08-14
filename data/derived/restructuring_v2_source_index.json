@@ -1114,6 +1114,19 @@
       "status": "retrieval_failed",
       "ticker": "EPWN"
     },
+    "rv2-EPWN-2024-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 67,
+      "raw_path": "data/raw/restructuring_v2/gb-epwn/annual-report-2023.pdf",
+      "raw_sha256": "225badfe7ab495afbb6b34832e7b4210fec4242057b736c1c3540644c9db338c",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:19:03.837619+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-epwn/annual-report-2023.txt",
+      "text_sha256": "7964e4df8c0e2edfd0f38a17a7f4db9239983668ba4845011fb2ca44c5c434cc",
+      "ticker": "EPWN",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2023.pdf"
+    },
     "rv2-FAN-2020-12-31": {
       "approval_date_candidates": [
         "15 December 2017"
@@ -1154,6 +1167,45 @@
       "text_sha256": "cd28d1c52843a095f0074c59e93a34a5827c8348cd417ee3e261d23260f0e6c1",
       "ticker": "FAN",
       "url": "https://companiesmarketcap.com/annual-reports/116107.ar.en.2023.pdf"
+    },
+    "rv2-FDP-2020-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 120,
+      "raw_path": "data/raw/restructuring_v2/gb-fdp/annual-report-2019.pdf",
+      "raw_sha256": "c7c40761bd1e1603c4480feec9b91331e11370d6f3c340371464d5ec635fb552",
+      "report_year": 2019,
+      "retrieved_at": "2026-08-14T12:19:08.609331+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fdp/annual-report-2019.txt",
+      "text_sha256": "278ca4ae9fd01199af690b9c46501fdb87babdcb76109c58fe78c288eceea82a",
+      "ticker": "FDP",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FDP_2019.pdf"
+    },
+    "rv2-FDP-2022-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 136,
+      "raw_path": "data/raw/restructuring_v2/gb-fdp/annual-report-2021.pdf",
+      "raw_sha256": "802cd6f12d09671bc0bb83f882530e4067b5bd90a168d5ec72c8ba99428b0ed2",
+      "report_year": 2021,
+      "retrieved_at": "2026-08-14T12:19:09.195359+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fdp/annual-report-2021.txt",
+      "text_sha256": "72680c6992708f005e2944501aa6bd12b135c697802adeb0e42bda39c7ce4616",
+      "ticker": "FDP",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FDP_2021.pdf"
+    },
+    "rv2-FDP-2024-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 130,
+      "raw_path": "data/raw/restructuring_v2/gb-fdp/annual-report-2023.pdf",
+      "raw_sha256": "f9a7dd7a4d6fcbff5fe069a06cf1e7e622ad3ae0839574df700b079264133039",
+      "report_year": 2023,
+      "retrieved_at": "2026-08-14T12:19:10.252704+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fdp/annual-report-2023.txt",
+      "text_sha256": "b3da4852bb86c8dd7c6e00fed0ebf2bf7d0d9a614f08cabab24b930702b044cd",
+      "ticker": "FDP",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FDP_2023.pdf"
     }
   }
 }
