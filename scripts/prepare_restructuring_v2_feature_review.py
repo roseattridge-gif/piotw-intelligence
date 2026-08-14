@@ -1,6 +1,7 @@
 """Prepare pre-cutoff-only excerpts for manual frozen-rubric scoring."""
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import re
@@ -44,6 +45,11 @@ def excerpts(pages: list[str], terms: list[str], limit: int = 8) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--occasion-id", action="append", default=[],
+                        help="prepare only these occasions while retaining the existing queue")
+    args = parser.parse_args()
+    selected = set(args.occasion_id)
     source_index = json.loads(INDEX.read_text())["sources"]
     manifests = {}
     for name in ("validation", "holdout"):
@@ -51,9 +57,12 @@ def main() -> None:
             manifests[row["occasion_id"]] = row
     existing = ({row["occasion_id"]: row for row in csv.DictReader(OUTPUT.open())}
                 if OUTPUT.exists() else {})
-    rows = []
+    rows = ([row for occasion_id, row in existing.items() if occasion_id not in selected]
+            if selected else [])
     for occasion_id, source in sorted(source_index.items()):
         if source.get("status") != "preserved" or occasion_id not in manifests:
+            continue
+        if selected and occasion_id not in selected:
             continue
         manifest = manifests[occasion_id]
         reader = PdfReader(ROOT / source["raw_path"])
@@ -67,6 +76,7 @@ def main() -> None:
                 "pressure_language", "margin_pressure", "cash_pressure",
                 "contrary_strength", "reviewer", "review_note")},
         })
+    rows.sort(key=lambda row: row["occasion_id"])
     with OUTPUT.open("w", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=FIELDS, lineterminator="\n")
         writer.writeheader()

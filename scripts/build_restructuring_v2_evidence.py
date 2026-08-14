@@ -24,6 +24,7 @@ FEATURES = ROOT / "data/restructuring_v2/features.csv"
 ISSUES = ROOT / "data/derived/restructuring_v2_evidence_issues.json"
 OVERRIDES = ROOT / "data/restructuring_v2/source_availability_overrides.csv"
 SCORE_FIELDS = ("pressure_language", "margin_pressure", "cash_pressure", "contrary_strength")
+WEB_REVIEW_GLOB = "web_feature_reviews_batch_*.csv"
 EVIDENCE_FIELDS = [
     "evidence_id", "occasion_id", "company", "ticker", "available_at", "availability_basis",
     "availability_evidence", "source_title", "source_url", "retrieved_at", "raw_path",
@@ -38,19 +39,50 @@ def load_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(stream))
 
 
+def validate_review(row: dict[str, str], source: Path) -> None:
+    occasion_id = row["occasion_id"]
+    for field in SCORE_FIELDS:
+        value = float(row[field])
+        if not 0 <= value <= 1 or round(value * 20) != value * 20:
+            raise ValueError(f"invalid 0.05-grid score at {occasion_id}:{field}")
+    if not row["reviewer"] or not row["review_note"]:
+        raise ValueError(f"review attribution missing: {occasion_id}")
+
+
 def reviewed_scores() -> dict[str, dict[str, str]]:
     rows: dict[str, dict[str, str]] = {}
     for path in sorted((ROOT / "data/restructuring_v2").glob("feature_reviews_batch_*.csv")):
         for row in load_rows(path):
             if row["occasion_id"] in rows:
                 raise ValueError(f"duplicate feature review: {row['occasion_id']}")
-            for field in SCORE_FIELDS:
-                value = float(row[field])
-                if not 0 <= value <= 1 or round(value * 20) != value * 20:
-                    raise ValueError(f"invalid 0.05-grid score at {row['occasion_id']}:{field}")
-            if not row["reviewer"] or not row["review_note"]:
-                raise ValueError(f"review attribution missing: {row['occasion_id']}")
+            validate_review(row, path)
             rows[row["occasion_id"]] = row
+    return rows
+
+
+def web_reviews(existing_ids: set[str]) -> dict[str, dict[str, str]]:
+    rows: dict[str, dict[str, str]] = {}
+    required = {
+        "occasion_id", "company", "ticker", "cutoff", "source_title", "source_url",
+        "available_at", "availability_basis", "availability_evidence", "source_location",
+        "observation", *SCORE_FIELDS, "already_announced_exclusion", "reviewer", "review_note",
+    }
+    for path in sorted((ROOT / "data/restructuring_v2").glob(WEB_REVIEW_GLOB)):
+        for row in load_rows(path):
+            occasion_id = row["occasion_id"]
+            missing = sorted(name for name in required if not row.get(name))
+            # Exclusion text is allowed to be empty when no prior announcement was identified.
+            missing = [name for name in missing if name != "already_announced_exclusion"]
+            if missing:
+                raise ValueError(f"web review fields missing at {occasion_id}: {missing}")
+            if occasion_id in existing_ids or occasion_id in rows:
+                raise ValueError(f"duplicate feature review: {occasion_id}")
+            validate_review(row, path)
+            if not re.search(r"(?:^|\|)p\.\d+(?:\||$)", row["source_location"]):
+                raise ValueError(f"web review page reference missing: {occasion_id}")
+            if date.fromisoformat(row["available_at"]) > date.fromisoformat(row["cutoff"]):
+                raise ValueError(f"web review availability is after cutoff: {occasion_id}")
+            rows[occasion_id] = row
     return rows
 
 
@@ -104,6 +136,7 @@ def main() -> None:
     sources = json.loads(INDEX.read_text())["sources"]
     queue = {row["occasion_id"]: row for row in load_rows(QUEUE)}
     reviews = reviewed_scores()
+    web = web_reviews(set(reviews))
     overrides = ({row["occasion_id"]: row for row in load_rows(OVERRIDES)}
                  if OVERRIDES.exists() else {})
     evidence_rows = []
@@ -146,6 +179,36 @@ def main() -> None:
             "source_location": page_locations(packet),
             "observation": f"{review['review_note']} Supporting extracts: {excerpts}",
             "direction": "mixed", "already_announced_exclusion": exclusion,
+            "extraction_sha256": "", "review_status": f"manual_primary_source:{review['reviewer']}",
+        }
+        evidence["extraction_sha256"] = extraction_hash(evidence)
+        evidence_rows.append(evidence)
+        feature_rows.append({"occasion_id": occasion_id,
+                             **{field: review[field] for field in SCORE_FIELDS},
+                             "evidence_ids": evidence_id,
+                             "feature_review_status": f"manual:{review['reviewer']}"})
+    for occasion_id, review in sorted(web.items()):
+        if occasion_id not in queue:
+            issues.append({"occasion_id": occasion_id, "reason": "manifest review packet missing"})
+            continue
+        packet = queue[occasion_id]
+        if any(review[field] != packet[field] for field in ("company", "ticker", "cutoff")):
+            issues.append({"occasion_id": occasion_id, "reason": "web review does not match manifest"})
+            continue
+        evidence_id = f"ev-{occasion_id}-annual-report"
+        evidence = {
+            "evidence_id": evidence_id, "occasion_id": occasion_id,
+            "company": review["company"], "ticker": review["ticker"],
+            "available_at": review["available_at"],
+            "availability_basis": review["availability_basis"],
+            "availability_evidence": review["availability_evidence"],
+            "source_title": review["source_title"], "source_url": review["source_url"],
+            "retrieved_at": "", "raw_path": "", "raw_sha256": "",
+            "preservation_status": "unavailable_documented",
+            "parser_version": "web-primary-extract-manual-1",
+            "source_location": review["source_location"], "observation": review["observation"],
+            "direction": "mixed",
+            "already_announced_exclusion": review["already_announced_exclusion"],
             "extraction_sha256": "", "review_status": f"manual_primary_source:{review['reviewer']}",
         }
         evidence["extraction_sha256"] = extraction_hash(evidence)

@@ -599,30 +599,58 @@
       "ticker": "CNC"
     },
     "rv2-COA-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "COA"
     },
     "rv2-COA-2022-12-31": {
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 212,
+      "raw_path": "data/raw/restructuring_v2/gb-coa/annual-report-2021.pdf",
+      "raw_sha256": "3c726bdfa360d58e05541e3cbf2586abe6a0aa43b8d6afd745aa397a9759d07d",
       "report_year": 2021,
-      "status": "not_found",
-      "ticker": "COA"
+      "retrieved_at": "2026-08-14T11:29:30.564262+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-coa/annual-report-2021.txt",
+      "text_sha256": "a7f10ce76300700ecab4f9c6cd9653b05ca301db4a988041b3e5bdacfe221993",
+      "ticker": "COA",
+      "url": "https://cdn.coats.com/wp-content/uploads/Coats_Annual_Report_2021.pdf"
     },
     "rv2-COA-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "COA"
     },
     "rv2-COST-2020-12-31": {
@@ -690,6 +718,27 @@
       "report_year": 2023,
       "status": "retrieval_failed",
       "ticker": "CPI"
+    },
+    "rv2-CRPR-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error timed out>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2019.pdf"
+        }
+      ],
+      "attempted_urls": [
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2019.pdf",
+        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2019.pdf"
+      ],
+      "report_year": 2019,
+      "status": "retrieval_failed",
+      "ticker": "CRPR"
     }
   }
 }
