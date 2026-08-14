@@ -1,4 +1,4 @@
-.PHONY: demo test build api
+.PHONY: demo test build api validate-restructuring-v2
 
 PYTHON ?= .venv/bin/python3
 
@@ -13,3 +13,6 @@ build:
 
 api:
 	$(PYTHON) scripts/serve_api.py
+
+validate-restructuring-v2:
+	$(PYTHON) scripts/validate_restructuring_v2.py

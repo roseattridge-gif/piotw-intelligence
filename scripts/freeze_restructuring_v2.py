@@ -1,6 +1,7 @@
 """Hash and validate every v2 specification before new outcome review."""
 from __future__ import annotations
 
+import argparse
 import json
 import subprocess
 import sys
@@ -60,5 +61,25 @@ def build() -> dict:
     return result
 
 
+def verify() -> dict:
+    locked = json.loads(OUTPUT.read_text())
+    actual_model = specification_hash(MODEL_PATH)
+    actual_baselines = specification_hash(BASELINES_PATH)
+    if locked["model_specification_sha256"] != actual_model:
+        raise ValueError("frozen model specification hash mismatch")
+    if locked["baseline_specification_sha256"] != actual_baselines:
+        raise ValueError("frozen baseline specification hash mismatch")
+    for group, paths in (("document_sha256", DOCUMENTS), ("manifest_sha256", MANIFESTS)):
+        for path in paths:
+            key = str(path.relative_to(ROOT))
+            if locked[group].get(key) != sha256_bytes(path):
+                raise ValueError(f"frozen hash mismatch: {key}")
+    print(f"verified frozen v2 lock {locked['model_specification_sha256'][:12]}")
+    return locked
+
+
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--create-lock", action="store_true")
+    arguments = parser.parse_args()
+    build() if arguments.create_lock else verify()

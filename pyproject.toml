@@ -2,7 +2,7 @@
 name = "piotw-intelligence"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["pydantic>=2", "pyyaml>=6"]
+dependencies = ["pydantic>=2", "pyyaml>=6", "pypdf>=6"]
 
 [project.optional-dependencies]
 research = ["pandas", "numpy", "duckdb", "scikit-learn", "statsmodels", "matplotlib"]

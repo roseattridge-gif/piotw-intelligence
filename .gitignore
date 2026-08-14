@@ -50,3 +50,5 @@ next-env.d.ts
 /work/
 *.sqlite3
 /data/raw/pages/
+/data/raw/restructuring_v2/
+/data/parsed/restructuring_v2/

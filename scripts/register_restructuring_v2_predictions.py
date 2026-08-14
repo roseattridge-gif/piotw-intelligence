@@ -16,10 +16,14 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("partition", choices=["validation", "holdout"])
     args = parser.parse_args()
+    manifest = read_csv(ROOT / f"data/manifests/restructuring_{args.partition}.csv")
+    occasion_ids = {row["occasion_id"] for row in manifest}
     result = register_predictions(
-        read_csv(ROOT / f"data/manifests/restructuring_{args.partition}.csv"),
-        read_csv(ROOT / "data/restructuring_v2/evidence.csv"),
-        read_csv(ROOT / "data/restructuring_v2/features.csv"), ROOT,
+        manifest,
+        [row for row in read_csv(ROOT / "data/restructuring_v2/evidence.csv")
+         if row["occasion_id"] in occasion_ids],
+        [row for row in read_csv(ROOT / "data/restructuring_v2/features.csv")
+         if row["occasion_id"] in occasion_ids], ROOT,
         ROOT / "data/derived/restructuring_validation_v2.sqlite3",
         ROOT / "config/models/restructuring_rules_1_0_0.json",
     )
