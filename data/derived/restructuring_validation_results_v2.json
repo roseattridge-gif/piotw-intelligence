@@ -5,8 +5,8 @@
       "holdout": 100,
       "validation": 191
     },
-    "evidence_complete": 45,
-    "features_complete": 45,
+    "evidence_complete": 46,
+    "features_complete": 46,
     "missing_evidence": [
       "rv2-AUK-2024-12-31",
       "rv2-BRCK-2022-12-31",
@@ -71,7 +71,6 @@
       "rv2-GEN-2020-12-31",
       "rv2-GEN-2022-12-31",
       "rv2-GEN-2024-12-31",
-      "rv2-HAYD-2020-12-31",
       "rv2-HAYD-2022-12-31",
       "rv2-HAYD-2024-12-31",
       "rv2-HILS-2020-12-31",
@@ -319,7 +318,6 @@
       "rv2-GEN-2020-12-31",
       "rv2-GEN-2022-12-31",
       "rv2-GEN-2024-12-31",
-      "rv2-HAYD-2020-12-31",
       "rv2-HAYD-2022-12-31",
       "rv2-HAYD-2024-12-31",
       "rv2-HILS-2020-12-31",
