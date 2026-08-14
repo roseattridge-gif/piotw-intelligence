@@ -83,12 +83,12 @@
     "rv2-AUK-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK.L_2023.pdf"
         }
@@ -361,12 +361,12 @@
     "rv2-BRCK-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2021.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2021.pdf"
         }
@@ -382,12 +382,12 @@
     "rv2-BRCK-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2023.pdf"
         }
@@ -401,111 +401,255 @@
       "ticker": "BRCK"
     },
     "rv2-BREE-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BREE"
     },
     "rv2-BREE-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BREE"
     },
     "rv2-BREE-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BREE"
     },
     "rv2-BYIT-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BYIT"
     },
     "rv2-BYIT-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BYIT"
     },
     "rv2-BYIT-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "BYIT"
     },
     "rv2-CCC-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CCC"
     },
     "rv2-CCC-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CCC"
     },
     "rv2-CCC-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CCC"
     },
     "rv2-CGS-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CGS"
     },
     "rv2-CGS-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CGS"
     },
     "rv2-CGS-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CGS.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CGS"
     },
     "rv2-CHG-2020-12-31": {
@@ -554,59 +698,119 @@
       "url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/docs/annual-report-and-accounts-jan-2024.pdf"
     },
     "rv2-CHRT-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CHRT"
     },
     "rv2-CHRT-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CHRT"
     },
     "rv2-CNC-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CNC"
     },
     "rv2-CNC-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CNC"
     },
     "rv2-CNC-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CNC.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CNC"
     },
     "rv2-COA-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2019.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2019.pdf"
         }
@@ -635,12 +839,12 @@
     "rv2-COA-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2023.pdf"
         }
@@ -654,59 +858,119 @@
       "ticker": "COA"
     },
     "rv2-COST-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "COST"
     },
     "rv2-COST-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "COST"
     },
     "rv2-COST-2024-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2023.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2023.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST_2023.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COST.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "COST"
     },
     "rv2-CPI-2020-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2019.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2019.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2019.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CPI"
     },
     "rv2-CPI-2022-12-31": {
+      "attempt_results": [
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2021.pdf"
+        },
+        {
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2021.pdf"
+        }
+      ],
       "attempted_urls": [
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "CPI"
     },
     "rv2-CPI-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2023.pdf"
         }
@@ -722,12 +986,12 @@
     "rv2-CRPR-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2019.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2019.pdf"
         }
@@ -743,12 +1007,12 @@
     "rv2-CRPR-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2023.pdf"
         }
@@ -844,12 +1108,12 @@
     "rv2-DWHT-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2019.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2019.pdf"
         }
@@ -865,13 +1129,13 @@
     "rv2-DWHT-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2021.pdf"
         }
       ],
@@ -886,13 +1150,13 @@
     "rv2-DWHT-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2023.pdf"
         }
       ],
@@ -907,13 +1171,13 @@
     "rv2-DWL-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL.L_2019.pdf"
         }
       ],
@@ -928,13 +1192,13 @@
     "rv2-DWL-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL.L_2021.pdf"
         }
       ],
@@ -949,12 +1213,12 @@
     "rv2-DWL-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL_2023.pdf"
         },
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL.L_2023.pdf"
         }
@@ -970,12 +1234,12 @@
     "rv2-ELM-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_ELM_2019.pdf"
         },
         {
-          "reason": "The read operation timed out",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_ELM.L_2019.pdf"
         }
@@ -991,12 +1255,12 @@
     "rv2-ELM-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_ELM_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_ELM.L_2023.pdf"
         }
@@ -1012,12 +1276,12 @@
     "rv2-EMR-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2019.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2019.pdf"
         }
@@ -1033,12 +1297,12 @@
     "rv2-EMR-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2021.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2021.pdf"
         }
@@ -1054,12 +1318,12 @@
     "rv2-EMR-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2023.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2023.pdf"
         }
@@ -1075,12 +1339,12 @@
     "rv2-EPWN-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2019.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2019.pdf"
         }
@@ -1096,12 +1360,12 @@
     "rv2-EPWN-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2021.pdf"
         },
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2021.pdf"
         }
@@ -1249,13 +1513,13 @@
     "rv2-FORT-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2019.pdf"
         }
       ],
@@ -1264,19 +1528,19 @@
         "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2019.pdf"
       ],
       "report_year": 2019,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "FORT"
     },
     "rv2-FORT-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2021.pdf"
         }
       ],
@@ -1285,19 +1549,19 @@
         "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "FORT"
     },
     "rv2-FORT-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2023.pdf"
         }
       ],
@@ -1306,7 +1570,7 @@
         "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "FORT"
     },
     "rv2-FRAN-2020-12-31": {
@@ -1327,13 +1591,13 @@
     "rv2-FRAN-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2021.pdf"
         }
       ],
@@ -1348,13 +1612,13 @@
     "rv2-FRAN-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2023.pdf"
         }
       ],
@@ -1369,13 +1633,13 @@
     "rv2-FWT-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2019.pdf"
         }
       ],
@@ -1390,13 +1654,13 @@
     "rv2-FWT-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2021.pdf"
         }
       ],
@@ -1405,19 +1669,19 @@
         "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2021.pdf"
       ],
       "report_year": 2021,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "FWT"
     },
     "rv2-FWT-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2023.pdf"
         }
       ],
@@ -1426,18 +1690,18 @@
         "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2023.pdf"
       ],
       "report_year": 2023,
-      "status": "not_found",
+      "status": "retrieval_failed",
       "ticker": "FWT"
     },
     "rv2-GAMA-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2019.pdf"
         }
@@ -1453,12 +1717,12 @@
     "rv2-GAMA-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2021.pdf"
         }
@@ -1474,12 +1738,12 @@
     "rv2-GAMA-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2023.pdf"
         }
@@ -1495,12 +1759,12 @@
     "rv2-GBG-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2019.pdf"
         }
@@ -1516,12 +1780,12 @@
     "rv2-GBG-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2021.pdf"
         }
@@ -1537,12 +1801,12 @@
     "rv2-GBG-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2023.pdf"
         }
@@ -1558,12 +1822,12 @@
     "rv2-GDWN-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2019.pdf"
         }
@@ -1579,12 +1843,12 @@
     "rv2-GDWN-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2021.pdf"
         }
@@ -1600,12 +1864,12 @@
     "rv2-GDWN-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2023.pdf"
         }
@@ -1621,12 +1885,12 @@
     "rv2-GEN-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2019.pdf"
         }
@@ -1642,13 +1906,13 @@
     "rv2-GEN-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2021.pdf"
         }
       ],
@@ -1663,13 +1927,13 @@
     "rv2-GEN-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2023.pdf"
         }
       ],
@@ -1697,12 +1961,12 @@
     "rv2-HAYD-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HAYD_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HAYD.L_2021.pdf"
         }
@@ -1718,13 +1982,13 @@
     "rv2-HAYD-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HAYD_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HAYD.L_2023.pdf"
         }
       ],
@@ -1739,13 +2003,13 @@
     "rv2-HILS-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2019.pdf"
         }
       ],
@@ -1760,13 +2024,13 @@
     "rv2-HILS-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2021.pdf"
         }
       ],
@@ -1809,13 +2073,13 @@
     "rv2-HSS-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2021.pdf"
         }
       ],
@@ -1830,13 +2094,13 @@
     "rv2-HSS-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HSS.L_2023.pdf"
         }
       ],
@@ -1851,13 +2115,13 @@
     "rv2-HTG-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2019.pdf"
         }
       ],
@@ -1872,13 +2136,13 @@
     "rv2-HTG-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2021.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2021.pdf"
         }
       ],
@@ -1893,13 +2157,13 @@
     "rv2-HTG-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2023.pdf"
         }
       ],
@@ -1914,13 +2178,13 @@
     "rv2-IBST-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST_2019.pdf"
         },
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/LSE_IBST.L_2019.pdf"
         }
       ],
@@ -2048,11 +2312,15 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JMAT_2019.pdf"
     },
     "rv2-JMAT-2022-12-31": {
+      "approval_date_candidates": [],
+      "page_count": 280,
       "raw_path": "data/raw/restructuring_v2/gb-jmat/annual-report-2021.pdf",
       "raw_sha256": "01cef0002ea02a4841a889f75cb255a6056aedac62756f1e106d235725255860",
-      "reason": "cryptography>=3.1 is required for AES algorithm",
       "report_year": 2021,
-      "status": "parse_failed",
+      "retrieved_at": "2026-08-14T18:51:02.587067+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-jmat/annual-report-2021.txt",
+      "text_sha256": "3b6aae9200d35a8bb390a82510661a148f7c3e5cbed364fdf04328b0092bdd38",
       "ticker": "JMAT",
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/j/LSE_JMAT_2021.pdf"
     },
@@ -2158,12 +2426,12 @@
     "rv2-KNOS-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2019.pdf"
         },
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2019.pdf"
         }
@@ -2179,12 +2447,12 @@
     "rv2-KNOS-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2021.pdf"
         },
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2021.pdf"
         }
@@ -2200,12 +2468,12 @@
     "rv2-KNOS-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2023.pdf"
         },
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2023.pdf"
         }
@@ -2270,12 +2538,12 @@
     "rv2-LUCE-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2019.pdf"
         }
@@ -2291,12 +2559,12 @@
     "rv2-LUCE-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 404",
-          "status": "not_found",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
+          "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2021.pdf"
         }
@@ -2312,12 +2580,12 @@
     "rv2-LUCE-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2023.pdf"
         }
@@ -2333,12 +2601,12 @@
     "rv2-MACF-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "HTTP 429",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2019.pdf"
         }
@@ -2354,12 +2622,12 @@
     "rv2-MACF-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "The read operation timed out",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2021.pdf"
         }
@@ -2375,12 +2643,12 @@
     "rv2-MACF-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2023.pdf"
         }
@@ -2396,12 +2664,12 @@
     "rv2-MGAM-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2019.pdf"
         }
@@ -2417,12 +2685,12 @@
     "rv2-MGAM-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2021.pdf"
         }
@@ -2438,12 +2706,12 @@
     "rv2-MGAM-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2023.pdf"
         }
@@ -2459,12 +2727,12 @@
     "rv2-MPAC-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2019.pdf"
         }
@@ -2480,12 +2748,12 @@
     "rv2-MPAC-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2021.pdf"
         }
@@ -2501,12 +2769,12 @@
     "rv2-MPAC-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2023.pdf"
         }
@@ -2522,12 +2790,12 @@
     "rv2-MRO-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2019.pdf"
         }
@@ -2543,12 +2811,12 @@
     "rv2-MRO-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2023.pdf"
         }
@@ -2564,12 +2832,12 @@
     "rv2-MSI-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2019.pdf"
         }
@@ -2585,12 +2853,12 @@
     "rv2-MSI-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2021.pdf"
         }
@@ -2606,12 +2874,12 @@
     "rv2-MSI-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2023.pdf"
         }
@@ -2627,12 +2895,12 @@
     "rv2-MSLH-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2019.pdf"
         }
@@ -2648,12 +2916,12 @@
     "rv2-MSLH-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2021.pdf"
         }
@@ -2669,12 +2937,12 @@
     "rv2-MSLH-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2023.pdf"
         }
@@ -2690,12 +2958,12 @@
     "rv2-MTO-2020-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2019.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2019.pdf"
         }
@@ -2711,12 +2979,12 @@
     "rv2-MTO-2022-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2021.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2021.pdf"
         }
@@ -2732,12 +3000,12 @@
     "rv2-MTO-2024-12-31": {
       "attempt_results": [
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2023.pdf"
         },
         {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+          "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2023.pdf"
         }
