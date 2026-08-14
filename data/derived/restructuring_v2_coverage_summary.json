@@ -7,16 +7,16 @@
   "schema_version": "1",
   "source_status_counts": {
     "not_found": 27,
-    "not_started": 126,
+    "not_started": 115,
     "parse_failed": 1,
     "preserved": 66,
-    "retrieval_failed": 71
+    "retrieval_failed": 82
   },
   "status_counts": {
     "evidence_complete_prediction_eligible": 60,
-    "not_started": 126,
+    "not_started": 115,
     "source_captured_pending_processing": 6,
     "source_not_found_pending_alternative": 27,
-    "technically_unavailable_pending_resolution": 72
+    "technically_unavailable_pending_resolution": 83
   }
 }
