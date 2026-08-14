@@ -1,0 +1,2 @@
+occasion_id,available_at,basis,evidence_url,source_url,raw_path,raw_sha256,note
+rv2-BOY-2020-12-31,2020-03-12,official_issuer_publication,https://www.bodycote.com/wp-content/uploads/2020/03/Bodycote-Full-year-results-2019-Press-Release.pdf,https://www.bodycote.com/wp-content/annual-report-2019.pdf,data/raw/restructuring_v2/gb-boy/annual-report-2019-official.pdf,b97a2f530d2101602f4f66abe1feac53138cc3fd2e86904a4b995ceff4a83d11,"Issuer full-year results and annual report were public on 12 March 2020; official annual-report bytes preserved."

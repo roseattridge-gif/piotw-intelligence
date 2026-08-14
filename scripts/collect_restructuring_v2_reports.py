@@ -1,6 +1,7 @@
 """Collect conservative pre-cutoff annual-report sources without outcome access."""
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -8,6 +9,7 @@ import re
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -20,6 +22,7 @@ MANIFESTS = [ROOT / "data/manifests/restructuring_validation.csv",
 RAW_ROOT = ROOT / "data/raw/restructuring_v2"
 TEXT_ROOT = ROOT / "data/parsed/restructuring_v2"
 INDEX = ROOT / "data/derived/restructuring_v2_source_index.json"
+OFFICIAL_REGISTRY = ROOT / "data/restructuring_v2/official_source_registry.csv"
 REPORT_YEAR = {"2020-12-31": 2019, "2022-12-31": 2021, "2024-12-31": 2023}
 USER_AGENT = "PIOTW-Research/2.0 (+noncommercial validation; contact=operator)"
 REQUEST_LOCK = threading.Lock()
@@ -33,32 +36,32 @@ def candidate_urls(ticker: str, year: int) -> list[str]:
     return [f"{base}/LSE_{clean}_{year}.pdf", f"{base}/LSE_{clean}.L_{year}.pdf"]
 
 
-def retrieve(url: str) -> bytes | None:
+def retrieve(url: str, timeout: float, attempts: int) -> tuple[str, bytes | None, str]:
     global LAST_REQUEST
     request = Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/pdf"})
-    for attempt in range(4):
+    for attempt in range(attempts):
         try:
             with REQUEST_LOCK:
                 delay = 0.6 - (time.monotonic() - LAST_REQUEST)
                 if delay > 0:
                     time.sleep(delay)
-                with urlopen(request, timeout=45) as response:
+                with urlopen(request, timeout=timeout) as response:
                     body = response.read()
                 LAST_REQUEST = time.monotonic()
             if not body.startswith(b"%PDF"):
-                return None
-            return body
+                return "invalid_content", None, "response was not a PDF"
+            return "preserved", body, ""
         except HTTPError as exc:
             if exc.code == 404:
-                return None
-            if exc.code not in {429, 500, 502, 503, 504} or attempt == 3:
-                return None
+                return "not_found", None, "HTTP 404"
+            if exc.code not in {429, 500, 502, 503, 504} or attempt == attempts - 1:
+                return "retrieval_failed", None, f"HTTP {exc.code}"
             time.sleep(2 ** attempt)
-        except (URLError, TimeoutError):
-            if attempt == 3:
-                return None
+        except (URLError, TimeoutError) as exc:
+            if attempt == attempts - 1:
+                return "retrieval_failed", None, str(exc)
             time.sleep(2 ** attempt)
-    return None
+    return "retrieval_failed", None, "retry budget exhausted"
 
 
 def extract_text(path: Path) -> tuple[str, int]:
@@ -66,22 +69,31 @@ def extract_text(path: Path) -> tuple[str, int]:
     return "\n\n".join(page.extract_text() or "" for page in reader.pages), len(reader.pages)
 
 
-def collect_one(occasion_id: str, row: dict[str, str]) -> tuple[str, dict[str, object]]:
+def collect_one(occasion_id: str, row: dict[str, str], timeout: float,
+                attempts: int, official_url: str = "") -> tuple[str, dict[str, object]]:
     year = REPORT_YEAR[row["cutoff"]]
     raw_path = RAW_ROOT / row["stable_id"] / f"annual-report-{year}.pdf"
     body = raw_path.read_bytes() if raw_path.exists() else None
     selected_url = ""
+    attempted = []
+    failures = []
     if body is None:
-        for url in candidate_urls(row["ticker"], year):
-            body = retrieve(url)
-            if body:
+        urls = ([official_url] if official_url else []) + candidate_urls(row["ticker"], year)
+        for url in urls:
+            status, body, reason = retrieve(url, timeout, attempts)
+            attempted.append(url)
+            if status == "preserved":
                 selected_url = url
                 break
+            failures.append({"url": url, "status": status, "reason": reason})
     else:
-        selected_url = candidate_urls(row["ticker"], year)[0]
+        selected_url = official_url or candidate_urls(row["ticker"], year)[0]
     if not body:
-        return occasion_id, {"status": "not_found", "ticker": row["ticker"],
-                             "report_year": year, "attempted_urls": candidate_urls(row["ticker"], year)}
+        status = "not_found" if failures and all(
+            item["status"] == "not_found" for item in failures) else "retrieval_failed"
+        return occasion_id, {"status": status, "ticker": row["ticker"],
+                             "report_year": year, "attempted_urls": attempted,
+                             "attempt_results": failures}
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_bytes(body)
     text_path = TEXT_ROOT / row["stable_id"] / f"annual-report-{year}.txt"
@@ -104,20 +116,44 @@ def collect_one(occasion_id: str, row: dict[str, str]) -> tuple[str, dict[str, o
         "text_path": str(text_path.relative_to(ROOT)),
         "text_sha256": hashlib.sha256(text.encode()).hexdigest(),
         "page_count": page_count, "approval_date_candidates": approval_dates[:10],
+        "retrieved_at": datetime.now(UTC).isoformat(),
     }
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=0,
+                        help="maximum unresolved occasions to probe; zero means all")
+    parser.add_argument("--workers", type=int, default=1)
+    parser.add_argument("--timeout", type=float, default=15.0)
+    parser.add_argument("--attempts", type=int, default=2)
+    parser.add_argument("--retry-existing", action="store_true",
+                        help="retry occasions already recorded as unavailable or failed")
+    parser.add_argument("--occasion-id", action="append", default=[],
+                        help="collect only the named occasion; repeat for multiple occasions")
+    arguments = parser.parse_args()
     occasions = {}
     for manifest in MANIFESTS:
         for row in csv.DictReader(manifest.open()):
             occasions[row["occasion_id"]] = row
+    official_urls = ({row["occasion_id"]: row["source_url"]
+                      for row in csv.DictReader(OFFICIAL_REGISTRY.open())}
+                     if OFFICIAL_REGISTRY.exists() else {})
     existing = json.loads(INDEX.read_text()) if INDEX.exists() else {"sources": {}}
     sources = existing.get("sources", {})
     pending = [(occasion_id, row) for occasion_id, row in sorted(occasions.items())
-               if sources.get(occasion_id, {}).get("status") != "preserved"]
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        futures = {executor.submit(collect_one, occasion_id, row): occasion_id
+               if occasion_id not in sources]
+    if arguments.retry_existing:
+        pending.extend((occasion_id, occasions[occasion_id]) for occasion_id in sorted(sources)
+                       if occasion_id in occasions and sources[occasion_id].get("status") != "preserved")
+    if arguments.occasion_id:
+        requested = set(arguments.occasion_id)
+        pending = [(occasion_id, row) for occasion_id, row in pending if occasion_id in requested]
+    if arguments.limit:
+        pending = pending[:arguments.limit]
+    with ThreadPoolExecutor(max_workers=arguments.workers) as executor:
+        futures = {executor.submit(collect_one, occasion_id, row, arguments.timeout,
+                                   arguments.attempts, official_urls.get(occasion_id, "")): occasion_id
                    for occasion_id, row in pending}
         for number, future in enumerate(as_completed(futures), 1):
             occasion_id, result = future.result()

@@ -15,4 +15,5 @@ api:
 	$(PYTHON) scripts/serve_api.py
 
 validate-restructuring-v2:
+	$(PYTHON) scripts/build_restructuring_v2_evidence.py
 	$(PYTHON) scripts/validate_restructuring_v2.py
