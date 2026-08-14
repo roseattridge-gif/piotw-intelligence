@@ -12,6 +12,8 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "data/derived/restructuring_v2_source_index.json"
 OUTPUT = ROOT / "data/derived/restructuring_v2_feature_review_queue.csv"
+OFFICIAL_REGISTRY = ROOT / "data/restructuring_v2/official_source_registry.csv"
+REPORT_YEAR = {"2020-12-31": 2019, "2022-12-31": 2021, "2024-12-31": 2023}
 FIELDS = ["occasion_id", "company", "ticker", "cutoff", "source_url", "report_year",
           "pressure_excerpts", "margin_excerpts", "cash_excerpts", "contrary_excerpts",
           "pressure_language", "margin_pressure", "cash_pressure", "contrary_strength",
@@ -57,6 +59,9 @@ def main() -> None:
             manifests[row["occasion_id"]] = row
     existing = ({row["occasion_id"]: row for row in csv.DictReader(OUTPUT.open())}
                 if OUTPUT.exists() else {})
+    official_urls = ({row["occasion_id"]: row["source_url"]
+                      for row in csv.DictReader(OFFICIAL_REGISTRY.open())}
+                     if OFFICIAL_REGISTRY.exists() else {})
     rows = ([row for occasion_id, row in existing.items() if occasion_id not in selected]
             if selected else [])
     for occasion_id, source in sorted(source_index.items()):
@@ -72,6 +77,26 @@ def main() -> None:
             "occasion_id": occasion_id, "company": manifest["company"], "ticker": manifest["ticker"],
             "cutoff": manifest["cutoff"], "source_url": source["url"], "report_year": source["report_year"],
             **{name: excerpts(pages, terms) for name, terms in TERMS.items()},
+            **{name: prior.get(name, "") for name in (
+                "pressure_language", "margin_pressure", "cash_pressure",
+                "contrary_strength", "reviewer", "review_note")},
+        })
+    # A full official PDF may be inspectable through a public web archive while direct
+    # byte preservation is technically blocked. Keep a manifest packet so the audited
+    # web-review path can record page-level evidence and the preservation limitation.
+    for occasion_id in sorted(selected):
+        if any(row["occasion_id"] == occasion_id for row in rows):
+            continue
+        manifest = manifests.get(occasion_id)
+        if not manifest or occasion_id not in official_urls:
+            continue
+        prior = existing.get(occasion_id, {})
+        rows.append({
+            "occasion_id": occasion_id, "company": manifest["company"],
+            "ticker": manifest["ticker"], "cutoff": manifest["cutoff"],
+            "source_url": official_urls[occasion_id],
+            "report_year": REPORT_YEAR[manifest["cutoff"]],
+            **{name: "" for name in TERMS},
             **{name: prior.get(name, "") for name in (
                 "pressure_language", "margin_pressure", "cash_pressure",
                 "contrary_strength", "reviewer", "review_note")},

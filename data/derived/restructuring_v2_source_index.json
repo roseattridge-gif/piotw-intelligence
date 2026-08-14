@@ -522,6 +522,11 @@
     "rv2-CCC-2022-12-31": {
       "attempt_results": [
         {
+          "reason": "The read operation timed out",
+          "status": "retrieval_failed",
+          "url": "https://investors.computacenter.com/static-files/50960b8b-7543-4003-b0a2-bb7ebd2f9fc1"
+        },
+        {
           "reason": "<urlopen error [Errno 61] Connection refused>",
           "status": "retrieval_failed",
           "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2021.pdf"
@@ -533,6 +538,7 @@
         }
       ],
       "attempted_urls": [
+        "https://investors.computacenter.com/static-files/50960b8b-7543-4003-b0a2-bb7ebd2f9fc1",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC_2021.pdf",
         "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CCC.L_2021.pdf"
       ],
