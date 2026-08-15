@@ -4460,67 +4460,43 @@
       "ticker": "WG."
     },
     "rv2-WIX-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 200,
+      "raw_path": "data/raw/restructuring_v2/gb-wix/annual-report-2019.pdf",
+      "raw_sha256": "efecb235f2458dd1384a71bd73383b3de920e968e8b780447ce58c210b3cc003",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "WIX"
+      "retrieved_at": "2026-08-15T12:28:51.176316+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-wix/annual-report-2019.txt",
+      "text_sha256": "5ab675348c66c53c4e733e0a008f0ef5bf1b2de6912e60fff298364522d1e58e",
+      "ticker": "WIX",
+      "url": "https://www.travisperkinsplc.co.uk/media/ixlp2qle/travisperkins-annual-report-19-1.pdf"
     },
     "rv2-WIX-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 167,
+      "raw_path": "data/raw/restructuring_v2/gb-wix/annual-report-2021.pdf",
+      "raw_sha256": "3e38c5961302bbd6601562f43f24aa64a755fbc25441aef82b0a6d8254d331f8",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "WIX"
+      "retrieved_at": "2026-08-15T12:28:48.805328+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-wix/annual-report-2021.txt",
+      "text_sha256": "a09cc237267ef6d7f25bf190d33fdcf58d8f46e2bc62e5d382815585f8f338f1",
+      "ticker": "WIX",
+      "url": "https://www.wickesplc.co.uk/investors/investors-overview/results-reports-and-presentations/2022/annual-report-2021/"
     },
     "rv2-WIX-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WIX.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 180,
+      "raw_path": "data/raw/restructuring_v2/gb-wix/annual-report-2023.pdf",
+      "raw_sha256": "07314a711af115ffe4c090083aee4c51a3b59f6260150f792b548a30e73fdb44",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "WIX"
+      "retrieved_at": "2026-08-15T12:28:50.405822+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-wix/annual-report-2023.txt",
+      "text_sha256": "b1e46f1fddaf81e134021ce2f8988d4370344f717338889a1c45de0528449b73",
+      "ticker": "WIX",
+      "url": "https://www.wickesplc.co.uk/media/20iimwnd/ara-23-final-low-res.pdf"
     },
     "rv2-XPP-2020-12-31": {
       "approval_date_candidates": [
