@@ -1448,46 +1448,34 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2019.pdf"
     },
     "rv2-FRAN-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 91,
+      "raw_path": "data/raw/restructuring_v2/gb-fran/annual-report-2021.pdf",
+      "raw_sha256": "d3da783dc10a355bc45cabfe3c7471bb04b174e30198452610536c62c7fbfde3",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "FRAN"
+      "retrieved_at": "2026-08-15T08:16:37.014198+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fran/annual-report-2021.txt",
+      "text_sha256": "42fcd62a1d4ca206f64b988e2e054f766421b6bb166289f2939542b23ac08552",
+      "ticker": "FRAN",
+      "url": "https://franchisebrands.co.uk/wp-content/uploads/38301-Fran-Bran-AR21_WEB.pdf"
     },
     "rv2-FRAN-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "19 June 2024",
+        "19 June 2024",
+        "19 June 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FRAN.L_2023.pdf"
-      ],
+      "page_count": 180,
+      "raw_path": "data/raw/restructuring_v2/gb-fran/annual-report-2023.pdf",
+      "raw_sha256": "f8e5e3c96209dc367577f489bff85f79b9b4b958cbfcd2eb25e11d9805b2745f",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "FRAN"
+      "retrieved_at": "2026-08-15T08:16:37.848615+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fran/annual-report-2023.txt",
+      "text_sha256": "b25c2e683618c732e7ba919bca03bc392af3152930015dbc7d39508ac389ea27",
+      "ticker": "FRAN",
+      "url": "https://franchisebrands.co.uk/wp-content/uploads/Franchise-Brands-plc-%E2%80%93-Annual-Report-2023_web50.pdf"
     },
     "rv2-FWT-2020-12-31": {
       "attempt_results": [
