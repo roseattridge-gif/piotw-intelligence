@@ -2729,67 +2729,52 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PAGE_2023.pdf"
     },
     "rv2-PRES-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "17 December 2019",
+        "17 December 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2019.pdf"
-      ],
+      "page_count": 100,
+      "raw_path": "data/raw/restructuring_v2/gb-pres/annual-report-2019.pdf",
+      "raw_sha256": "a316247940256d3a118547cd2479adfe771c0e5d749373466448901b23da9e54",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "PRES"
+      "retrieved_at": "2026-08-15T11:42:55.619909+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-pres/annual-report-2019.txt",
+      "text_sha256": "852d5d3c9b317e718305782422e5c2111350205799e220c480b4af00504f27b0",
+      "ticker": "PRES",
+      "url": "https://www.csc-holdings.com/wp-content/uploads/2020/01/PT-plc-Annual-Report-2019.pdf"
     },
     "rv2-PRES-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "17 January 2022",
+        "17 January 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2021.pdf"
-      ],
+      "page_count": 108,
+      "raw_path": "data/raw/restructuring_v2/gb-pres/annual-report-2021.pdf",
+      "raw_sha256": "03792a477860bb2cd45704b5214efe2dc95bf9f28ccf0f466adf312237cc5d8d",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "PRES"
+      "retrieved_at": "2026-08-15T11:42:56.052721+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-pres/annual-report-2021.txt",
+      "text_sha256": "2ed872a95c3a125f2847cba5901f5548b2cdfd6f4ed5b8ca20ae0d07740217b8",
+      "ticker": "PRES",
+      "url": "https://www.csc-holdings.com/wp-content/uploads/2022/02/AR.pdf"
     },
     "rv2-PRES-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "29 January 2024",
+        "29 January 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/p/LSE_PRES.L_2023.pdf"
-      ],
+      "page_count": 100,
+      "raw_path": "data/raw/restructuring_v2/gb-pres/annual-report-2023.pdf",
+      "raw_sha256": "ab640e2f7f03c46cdbdc771ea15f2bfa63a24d4921f6b5a04c836b591a42c529",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "PRES"
+      "retrieved_at": "2026-08-15T11:42:56.033370+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-pres/annual-report-2023.txt",
+      "text_sha256": "04c489151706ebd60ce38b2c66429fab15904dfa4b2639d2e9c32fee1b94e29d",
+      "ticker": "PRES",
+      "url": "https://www.csc-holdings.com/wp-content/uploads/2024/01/Pressure-Technologies-plc-Annual-Report-and-Accounts-FY23.pdf"
     },
     "rv2-PRV-2020-12-31": {
       "attempt_results": [
