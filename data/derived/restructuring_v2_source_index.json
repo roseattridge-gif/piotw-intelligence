@@ -915,46 +915,30 @@
       "url": "https://www.capita.com/sites/g/files/nginej291/files/2024-03/Capita-plc-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-CRPR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 63,
+      "raw_path": "data/raw/restructuring_v2/gb-crpr/annual-report-2019.pdf",
+      "raw_sha256": "64ab9819a4031ec10e7c046f7724df049fe153666ebcbb88bb37f533af69debc",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "CRPR"
+      "retrieved_at": "2026-08-15T08:14:27.821174+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-crpr/annual-report-2019.txt",
+      "text_sha256": "35790fef7a94126b129beadc99be3338d8cb7ffc813b744b02a4285fa1f319cd",
+      "ticker": "CRPR",
+      "url": "https://jamescropper.com/wp-content/uploads/2024/07/James-Cropper-Annual-Report-2019.pdf"
     },
     "rv2-CRPR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CRPR.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 61,
+      "raw_path": "data/raw/restructuring_v2/gb-crpr/annual-report-2023.pdf",
+      "raw_sha256": "f34afa894c1bbdad96e4021c338c77ab32967383122cae2f12cb4b935dbf72dd",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "CRPR"
+      "retrieved_at": "2026-08-15T08:14:28.060578+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-crpr/annual-report-2023.txt",
+      "text_sha256": "a4cfbc62ce433a90965a57052221bb4ea08430b144e3763dd79fea08022f0bcf",
+      "ticker": "CRPR",
+      "url": "https://jamescropper.com/wp-content/uploads/2024/07/James-Cropper-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-DPLM-2020-12-31": {
       "approval_date_candidates": [
