@@ -2643,67 +2643,45 @@
       "url": "https://oxfordmetrics.com/file/oxfordmetrics/2023-om-annual-report-41062.pdf"
     },
     "rv2-OXIG-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 173,
+      "raw_path": "data/raw/restructuring_v2/gb-oxig/annual-report-2019.pdf",
+      "raw_sha256": "0d2dbea636e3d018b79346fdeab7201a00619c3d5db2b58da75e623861cfa3c0",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "OXIG"
+      "retrieved_at": "2026-08-15T08:36:22.125319+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-oxig/annual-report-2019.txt",
+      "text_sha256": "6f254fa44681998e0a9d04a8b0b13b7118dd7f72d10955cbb6b4fc953dde921e",
+      "ticker": "OXIG",
+      "url": "https://www.oxinst.com/assets/uploads/assets/repos/Investors/Oxford%20Instruments%20Annual%20Report%202019.pdf"
     },
     "rv2-OXIG-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 192,
+      "raw_path": "data/raw/restructuring_v2/gb-oxig/annual-report-2021.pdf",
+      "raw_sha256": "31e4e2da0287d21c9381bdb461775159f2edd04daf128c78d2b1f07ea4cd404c",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "OXIG"
+      "retrieved_at": "2026-08-15T08:36:24.755370+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-oxig/annual-report-2021.txt",
+      "text_sha256": "d3588daed54ea75a16f759fe8daacd7f0180e2f65fa0e5e3b6e808747917511c",
+      "ticker": "OXIG",
+      "url": "https://www.oxinst.com/assets/uploads/assets/repos/Investors/Oxford%20Instruments%20AR%202021.pdf"
     },
     "rv2-OXIG-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "14 July 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OXIG.L_2023.pdf"
-      ],
+      "page_count": 123,
+      "raw_path": "data/raw/restructuring_v2/gb-oxig/annual-report-2023.pdf",
+      "raw_sha256": "48791140c77f7dd0718f029b88d12d416c0349dc692c78d94317495625d77a06",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "OXIG"
+      "retrieved_at": "2026-08-15T08:36:22.281145+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-oxig/annual-report-2023.txt",
+      "text_sha256": "dd76d7517d491b23238a67a6ccba42c7aeaf87312dfb46500e0dda28c20e0ca5",
+      "ticker": "OXIG",
+      "url": "https://www.oxinst.com/assets/uploads/documents/annual-report/Oxford%20Instruments%20plc%20AR23.pdf"
     },
     "rv2-PAGE-2020-12-31": {
       "approval_date_candidates": [
