@@ -1,17 +1,17 @@
 {
-  "extraction_complete": 262,
-  "feature_ready": 262,
-  "manual_scoring_complete": 262,
+  "extraction_complete": 263,
+  "feature_ready": 263,
+  "manual_scoring_complete": 263,
   "occasion_count": 291,
   "outcomes_researched": 0,
   "schema_version": "1",
   "source_status_counts": {
     "parse_failed": 1,
-    "preserved": 247,
-    "retrieval_failed": 43
+    "preserved": 248,
+    "retrieval_failed": 42
   },
   "status_counts": {
-    "evidence_complete_prediction_eligible": 262,
-    "technically_unavailable_pending_resolution": 29
+    "evidence_complete_prediction_eligible": 263,
+    "technically_unavailable_pending_resolution": 28
   }
 }
