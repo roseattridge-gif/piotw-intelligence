@@ -1676,67 +1676,43 @@
       "url": "https://www.goodwin.co.uk/wp-content/uploads/2023/08/64434-Goodwin-Directors-Report-2023-final.pdf"
     },
     "rv2-GEN-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 158,
+      "raw_path": "data/raw/restructuring_v2/gb-gen/annual-report-2019.pdf",
+      "raw_sha256": "5b9313dcb934ea56a4ad422c2ef3d281cfba8bf252746d56c672c06e29aba56b",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "GEN"
+      "retrieved_at": "2026-08-15T08:19:30.320797+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gen/annual-report-2019.txt",
+      "text_sha256": "0b3aaa853796aea773ba623b31b01c23e0e6dc0a1bb0da5de49e7857a264b30c",
+      "ticker": "GEN",
+      "url": "https://www.genuitgroup.com/wp-content/uploads/2020/04/Annual-report-2019.pdf"
     },
     "rv2-GEN-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 174,
+      "raw_path": "data/raw/restructuring_v2/gb-gen/annual-report-2021.pdf",
+      "raw_sha256": "2ccbf1d20afe16f6bfd416a9c599f16cbdf166d6bac7f10bc07b8fb911babcfb",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "GEN"
+      "retrieved_at": "2026-08-15T08:19:30.631984+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gen/annual-report-2021.txt",
+      "text_sha256": "7f142cad424f560ccbbe384520e1d231f0f45d0c5521fbadb234dac6a30ab432",
+      "ticker": "GEN",
+      "url": "https://www.genuitgroup.com/wp-content/uploads/2022/04/20.-Final-Interactive-AR-2021.pdf"
     },
     "rv2-GEN-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GEN.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 208,
+      "raw_path": "data/raw/restructuring_v2/gb-gen/annual-report-2023.pdf",
+      "raw_sha256": "f7dea49893e40a63aac948d03ec8af2bed99920dbfe760f6d0c7fc67022bf84a",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "GEN"
+      "retrieved_at": "2026-08-15T08:19:28.780615+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gen/annual-report-2023.txt",
+      "text_sha256": "c847a3dd12c9db8c003594203bfb84fb13f4358e4abc93568a755374fc3959f2",
+      "ticker": "GEN",
+      "url": "https://www.genuitgroup.com/wp-content/uploads/2024/04/Final-Genuit_AR23_Interactive_compressed.pdf"
     },
     "rv2-HAYD-2020-12-31": {
       "approval_date_candidates": [],
