@@ -3538,67 +3538,43 @@
       "ticker": "SNR"
     },
     "rv2-SOLI-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 102,
+      "raw_path": "data/raw/restructuring_v2/gb-soli/annual-report-2019.pdf",
+      "raw_sha256": "923e47a4c5c35ec1ccd553d554faef5610f9d54193c40fe0b2b51938bafb9319",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SOLI"
+      "retrieved_at": "2026-08-15T10:56:05.119379+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-soli/annual-report-2019.txt",
+      "text_sha256": "ef7598cdf56460bcf98a73a90336da6a011fb249fd4d51350f1ab313a04087a5",
+      "ticker": "SOLI",
+      "url": "https://solidstateplc.com/wp-content/uploads/2024/07/SSPLC-ANNUAL-REPORT-AND-ACCOUNTS-2019-v10-clean.pdf"
     },
     "rv2-SOLI-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 132,
+      "raw_path": "data/raw/restructuring_v2/gb-soli/annual-report-2021.pdf",
+      "raw_sha256": "1fe12b45f64a57f0a2e8a36c21b03de102b2a96a1d2eeb1d5a9a894e3258eedc",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SOLI"
+      "retrieved_at": "2026-08-15T10:56:05.310784+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-soli/annual-report-2021.txt",
+      "text_sha256": "eb6b568008ad4d5844240fe6e0331b6cf312fe65121c7830779cadb209b52bb4",
+      "ticker": "SOLI",
+      "url": "https://solidstateplc.com/wp-content/uploads/2024/07/2021-07-11-SSPLC-ANNUAL-REPORT-AND-ACCOUNTS-2021-V12.pdf"
     },
     "rv2-SOLI-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOLI.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 132,
+      "raw_path": "data/raw/restructuring_v2/gb-soli/annual-report-2023.pdf",
+      "raw_sha256": "af681a01058fd677e2dcfec40f28d1d0d10715c3b93a90f8d276ae88ae0f14e4",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SOLI"
+      "retrieved_at": "2026-08-15T10:56:06.387033+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-soli/annual-report-2023.txt",
+      "text_sha256": "6268eb291a5602794660d1c61a608271b4265b80fd464b606abfa31c8d6e13f0",
+      "ticker": "SOLI",
+      "url": "https://solidstateplc.com/wp-content/uploads/2024/07/31612-Solid-State-plc-AR-2023-webready-V2-1.pdf"
     },
     "rv2-SOM-2020-12-31": {
       "attempt_results": [
