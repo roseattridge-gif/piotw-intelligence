@@ -353,46 +353,26 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2019.pdf"
     },
     "rv2-BRCK-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 115,
+      "raw_path": "data/raw/restructuring_v2/gb-brck/annual-report-2021.pdf",
+      "raw_sha256": "0eea5e22320b7e00f38868ed5e60ca3449326ce2fc258110b6d74892ea2266eb",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "BRCK"
+      "retrieved_at": "2026-08-15T14:08:43.528334+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-brck/annual-report-2021.txt",
+      "text_sha256": "af5df5d602e143786ad1cd57bc599ca26d2e1379f77527be4ee94e3748f18952",
+      "ticker": "BRCK",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11123804/filing-history/MzMxMzY1Njc0NGFkaXF6a2N4/document?format=pdf&download=0"
     },
     "rv2-BRCK-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BRCK.L_2023.pdf"
-      ],
+      "raw_path": "data/raw/restructuring_v2/gb-brck/annual-report-2023.pdf",
+      "raw_sha256": "b47d0b3d6f990d91bf0bb98f77b8e9dbe872a455c1fb15925956a5b88ac03888",
+      "reason": "Invalid object in /Pages",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "BRCK"
+      "status": "parse_failed",
+      "ticker": "BRCK",
+      "url": "https://brckgroup.com/uploads/documents/Brickability-Annual-Report-2023.pdf"
     },
     "rv2-BREE-2020-12-31": {
       "approval_date_candidates": [],
