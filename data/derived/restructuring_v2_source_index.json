@@ -2586,172 +2586,110 @@
       "url": "https://mpac-group.com/wp-content/uploads/2026/06/Mpac-2023ARA_web.pdf"
     },
     "rv2-MRO-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 200,
+      "raw_path": "data/raw/restructuring_v2/gb-mro/annual-report-2019.pdf",
+      "raw_sha256": "e69daf1821b2cd2c7c0dbcd83efddd4a3bf201994a948cd79b3b95cab983c164",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MRO"
+      "retrieved_at": "2026-08-15T07:01:15.993006+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mro/annual-report-2019.txt",
+      "text_sha256": "c0c435bf44f8d0395677c638f752c552147fdda3991504df9f8f0d50defc6685",
+      "ticker": "MRO",
+      "url": "https://www.melroseplc.net/media/oztifni2/melrose-ar2019.pdf"
     },
     "rv2-MRO-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MRO.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 256,
+      "raw_path": "data/raw/restructuring_v2/gb-mro/annual-report-2023.pdf",
+      "raw_sha256": "c1464171ba34ae52040a36b34f1d7cc6f736fef6adc192bb4616fba7ce878a34",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MRO"
+      "retrieved_at": "2026-08-15T07:01:16.059289+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mro/annual-report-2023.txt",
+      "text_sha256": "e67d5c33e520b5543541c48b9013d2e1846bc279e48af885cd7679c25c996b0e",
+      "ticker": "MRO",
+      "url": "https://www.melroseplc.net/media/wjul3vmv/melrose_ar23.pdf"
     },
     "rv2-MSI-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 142,
+      "raw_path": "data/raw/restructuring_v2/gb-msi/annual-report-2019.pdf",
+      "raw_sha256": "0ecec88290c72c9dd3e293e502a8dadc3d5cc3d87f3eaf0bb746421c117350e6",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MSI"
+      "retrieved_at": "2026-08-15T07:01:13.001048+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-msi/annual-report-2019.txt",
+      "text_sha256": "25284093683783a7cf52d2b8f15e17ab9a117b87237e68f22d88dc0d52f667f1",
+      "ticker": "MSI",
+      "url": "https://msiplc.com/static/ec9c2673a84798f1dbd42d1f384af66b/2019%20Annual%20Report%20and%20Accounts.pdf"
     },
     "rv2-MSI-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 88,
+      "raw_path": "data/raw/restructuring_v2/gb-msi/annual-report-2021.pdf",
+      "raw_sha256": "56b3b31387ebe3cd718e7f9951655e0517f6e33a2d8bc3a7365508714aefcd1e",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MSI"
+      "retrieved_at": "2026-08-15T07:01:08.686302+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-msi/annual-report-2021.txt",
+      "text_sha256": "c121cc0526ebd15c2245912855f16d79f0da43942ff8fcb26f63581472aa24ef",
+      "ticker": "MSI",
+      "url": "https://msiplc.com/static/e5bc331bee1d9b7de968ddfcf93d774e/Annual%20Report%202021.pdf"
     },
     "rv2-MSI-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSI.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 80,
+      "raw_path": "data/raw/restructuring_v2/gb-msi/annual-report-2023.pdf",
+      "raw_sha256": "edbfa437846dfad30883438a7932eebb5f2ceac1f7f243325403355c7513e5e2",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MSI"
+      "retrieved_at": "2026-08-15T07:01:06.655611+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-msi/annual-report-2023.txt",
+      "text_sha256": "95cd1962680135d4222f90ea4a55e0f8735a984259bd2bd6b8276539ce47cf87",
+      "ticker": "MSI",
+      "url": "https://msiplc.com/static/ed8b7703b12ddd08653114e7cb643a45/Annual%20Report%202023.pdf"
     },
     "rv2-MSLH-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "6 August 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2019.pdf"
-      ],
+      "page_count": 152,
+      "raw_path": "data/raw/restructuring_v2/gb-mslh/annual-report-2019.pdf",
+      "raw_sha256": "3b2222035963590bf4eb1220c0536222167199b683f669f612dbe58b84eca688",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MSLH"
+      "retrieved_at": "2026-08-15T07:01:06.693137+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mslh/annual-report-2019.txt",
+      "text_sha256": "fd658d3f30b091851b2c9f24a842aaf35c05667f91ef08992b12a52f0307785e",
+      "ticker": "MSLH",
+      "url": "https://www.marshalls.co.uk/media/tx1jo0cb/marshalls-plc-annual-report-and-accounts-2019.pdf"
     },
     "rv2-MSLH-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 180,
+      "raw_path": "data/raw/restructuring_v2/gb-mslh/annual-report-2021.pdf",
+      "raw_sha256": "9c3b24fdbc78b677bd12dcba2d23ca34bd500a4fa2c969d8661ad527c81a7d72",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MSLH"
+      "retrieved_at": "2026-08-15T07:01:09.711382+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mslh/annual-report-2021.txt",
+      "text_sha256": "1af4fa1f9b520f04931634d5167156d828b3ee060ce4951a1d746f19b85d9b8a",
+      "ticker": "MSLH",
+      "url": "https://www.marshalls.co.uk/media/r3sjj0co/marshalls-plc-annual-report-and-accounts-2021-website-copy.pdf"
     },
     "rv2-MSLH-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MSLH.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 168,
+      "raw_path": "data/raw/restructuring_v2/gb-mslh/annual-report-2023.pdf",
+      "raw_sha256": "266c92ef18acae0046ac2fdf430d6bad0aa7552d2740b6c5cd21d4a6a8c87cec",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MSLH"
+      "retrieved_at": "2026-08-15T07:01:10.515496+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mslh/annual-report-2023.txt",
+      "text_sha256": "1294b220056f1627ec00b7c128e365aa90d75d88aee3d7b071439764ad671d75",
+      "ticker": "MSLH",
+      "url": "https://www.marshalls.co.uk/media/qnhfk4xw/marshalls-plc-annual-report-and-accounts-2023.pdf"
     },
     "rv2-MTO-2020-12-31": {
       "attempt_results": [
