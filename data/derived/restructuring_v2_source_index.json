@@ -3577,67 +3577,39 @@
       "url": "https://solidstateplc.com/wp-content/uploads/2024/07/31612-Solid-State-plc-AR-2023-webready-V2-1.pdf"
     },
     "rv2-SOM-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2019.pdf"
-      ],
+      "raw_path": "data/raw/restructuring_v2/gb-som/annual-report-2019.pdf",
+      "raw_sha256": "eac81017e3c8c9ee45cccf7f47e9a029fc1f5e96c91fe94ed7f63b39d9ba1a92",
+      "reason": "Stream has ended unexpectedly",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SOM"
+      "status": "parse_failed",
+      "ticker": "SOM",
+      "url": "https://investors.somero.com/~/media/Files/S/Somero-IR/documents/2019-annual-results.pdf"
     },
     "rv2-SOM-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 56,
+      "raw_path": "data/raw/restructuring_v2/gb-som/annual-report-2021.pdf",
+      "raw_sha256": "ec9bae92a8f85e0c3e05a9e458af23b1801f9d1875a8450019dd5388c21205e5",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SOM"
+      "retrieved_at": "2026-08-15T11:05:49.086446+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-som/annual-report-2021.txt",
+      "text_sha256": "1e336a13008e53b204e2c1d215a363144352f6adc0766a53071db9a780e828f3",
+      "ticker": "SOM",
+      "url": "https://investors.somero.com/~/media/Files/S/Somero-IR/documents/somero-annual-report-2021.pdf"
     },
     "rv2-SOM-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SOM.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 60,
+      "raw_path": "data/raw/restructuring_v2/gb-som/annual-report-2023.pdf",
+      "raw_sha256": "f52689003f39f02eaed13cf1221bec9131af6de99f84dab03f71f8e2508449ea",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SOM"
+      "retrieved_at": "2026-08-15T11:05:48.935087+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-som/annual-report-2023.txt",
+      "text_sha256": "4e6f19942d0d4540626e875e05b1f199f369c5d5dde0cd99e23e74c08214cfb2",
+      "ticker": "SOM",
+      "url": "https://investors.somero.com/~/media/Files/S/Somero-IR/documents/2024/somero-annual-report-2023.pdf"
     },
     "rv2-SPX-2020-12-31": {
       "attempt_results": [
