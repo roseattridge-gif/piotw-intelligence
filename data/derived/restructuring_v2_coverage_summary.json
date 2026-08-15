@@ -1,18 +1,18 @@
 {
-  "extraction_complete": 181,
-  "feature_ready": 181,
-  "manual_scoring_complete": 181,
+  "extraction_complete": 183,
+  "feature_ready": 183,
+  "manual_scoring_complete": 183,
   "occasion_count": 291,
   "outcomes_researched": 0,
   "schema_version": "1",
   "source_status_counts": {
     "not_found": 2,
-    "preserved": 170,
-    "retrieval_failed": 119
+    "preserved": 172,
+    "retrieval_failed": 117
   },
   "status_counts": {
-    "evidence_complete_prediction_eligible": 181,
+    "evidence_complete_prediction_eligible": 183,
     "source_not_found_pending_alternative": 2,
-    "technically_unavailable_pending_resolution": 108
+    "technically_unavailable_pending_resolution": 106
   }
 }
