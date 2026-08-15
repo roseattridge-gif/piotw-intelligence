@@ -3464,46 +3464,34 @@
       "url": "https://www.sigplc.com/~/media/Files/S/SIG-PLC/documents/reports-and-presentations/2024/sig-annual-reports-and-accounts-2023.pdf"
     },
     "rv2-SNR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "28 February 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR.L_2019.pdf"
-      ],
+      "page_count": 132,
+      "raw_path": "data/raw/restructuring_v2/gb-snr/annual-report-2019.pdf",
+      "raw_sha256": "261dc490510eedd7358e383220ba216d52f25a06780e6e4a9756ebb7d297c00f",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SNR"
+      "retrieved_at": "2026-08-15T12:50:01.543083+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-snr/annual-report-2019.txt",
+      "text_sha256": "f3a04b7fb4660e06b2db37741aa175b42deeb99ac109c75eadfec1212a6ea0e7",
+      "ticker": "SNR",
+      "url": "https://www.seniorplc.com/~/media/Files/S/Senior-PLC/reports-and-presentations/senior-annual-report-2019-v1.pdf"
     },
     "rv2-SNR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "1 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SNR.L_2023.pdf"
-      ],
+      "page_count": 200,
+      "raw_path": "data/raw/restructuring_v2/gb-snr/annual-report-2023.pdf",
+      "raw_sha256": "e0c8a61ec752135d3bbda096ec9f9037e1ad5fd3598d71812a09c557ca29d334",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SNR"
+      "retrieved_at": "2026-08-15T12:50:02.372816+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-snr/annual-report-2023.txt",
+      "text_sha256": "9e113ae0453c397d73a3ed5494bc2cb31ea592e41a9815831d0c50c68ca49cfd",
+      "ticker": "SNR",
+      "url": "https://www.seniorplc.com/~/media/Files/S/Senior-PLC/reports-and-presentations/annual-report-2023.pdf"
     },
     "rv2-SOLI-2020-12-31": {
       "approval_date_candidates": [],
