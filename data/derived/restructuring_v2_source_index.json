@@ -1478,67 +1478,49 @@
       "url": "https://franchisebrands.co.uk/wp-content/uploads/Franchise-Brands-plc-%E2%80%93-Annual-Report-2023_web50.pdf"
     },
     "rv2-FWT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2019.pdf"
-        },
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "18 October 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2019.pdf"
-      ],
+      "page_count": 120,
+      "raw_path": "data/raw/restructuring_v2/gb-fwt/annual-report-2019.pdf",
+      "raw_sha256": "805c2da8fd822876bb7e75376202cd816519852c84c2b4bad9694997b686873b",
       "report_year": 2019,
-      "status": "not_found",
-      "ticker": "FWT"
+      "retrieved_at": "2026-08-15T08:30:09.617194+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fwt/annual-report-2019.txt",
+      "text_sha256": "7c6d3245208655f9a53231e6aeb425cb863aa7f57f5c540269d6eadddf1a5b89",
+      "ticker": "FWT",
+      "url": "https://www.fwthorpe.co.uk/pdf/fw-thorpe-annual-report-2019.pdf"
     },
     "rv2-FWT-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2021.pdf"
-        },
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "5 October 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2021.pdf"
-      ],
+      "page_count": 136,
+      "raw_path": "data/raw/restructuring_v2/gb-fwt/annual-report-2021.pdf",
+      "raw_sha256": "c3e043d98234bacefdff7234e403991bf30d9b7b4ef102e3d3dd7fa87af21443",
       "report_year": 2021,
-      "status": "not_found",
-      "ticker": "FWT"
+      "retrieved_at": "2026-08-15T08:30:10.540339+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fwt/annual-report-2021.txt",
+      "text_sha256": "041b45e1949f7ad7eb9fd4e7ebe4cbe84181539d3953dbc7a4749fd42eb88ee8",
+      "ticker": "FWT",
+      "url": "https://www.fwthorpe.co.uk/pdf/fw-thorpe-annual-report-2021.pdf"
     },
     "rv2-FWT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2023.pdf"
-        },
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "12 October 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FWT.L_2023.pdf"
-      ],
+      "page_count": 170,
+      "raw_path": "data/raw/restructuring_v2/gb-fwt/annual-report-2023.pdf",
+      "raw_sha256": "3f565aed9bf30a4c664780706b798c5fa6e4bf4e156c97defc618e1237fc1b2b",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "FWT"
+      "retrieved_at": "2026-08-15T08:30:11.131205+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fwt/annual-report-2023.txt",
+      "text_sha256": "86d2a250bf8a44cd7769dbf37335f78aa4409f391062afa3a7d6f33b7715a922",
+      "ticker": "FWT",
+      "url": "https://www.fwthorpe.co.uk/pdf/fw-thorpe-annual-report-2023.pdf"
     },
     "rv2-GAMA-2020-12-31": {
       "approval_date_candidates": [
