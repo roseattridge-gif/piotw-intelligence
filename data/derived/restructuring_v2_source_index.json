@@ -3405,67 +3405,48 @@
       "url": "https://assets.speedyhire.com/download/assets/2023+Annual+Report.pdf/a70115bea1d211ef972c1205d4abfe97"
     },
     "rv2-SFR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "4 September 2018",
+        "4 September 2018"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2019.pdf"
-      ],
+      "page_count": 196,
+      "raw_path": "data/raw/restructuring_v2/gb-sfr/annual-report-2019.pdf",
+      "raw_sha256": "0d9d27482b6f8fd511fb1317a0280d1c0f0dbb9aaf703e3dd5ea273a4860d732",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SFR"
+      "retrieved_at": "2026-08-15T10:50:50.276373+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sfr/annual-report-2019.txt",
+      "text_sha256": "a38058545f7954f75a29df79e4645a4ed401b9636f72bf2bbbe24457f6edb326",
+      "ticker": "SFR",
+      "url": "https://cultured-aardwolf.files.svdcdn.com/production/2019-Annual-Report.pdf"
     },
     "rv2-SFR-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "3 September 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2021.pdf"
-      ],
+      "page_count": 220,
+      "raw_path": "data/raw/restructuring_v2/gb-sfr/annual-report-2021.pdf",
+      "raw_sha256": "9347a86e8c98fd2b97c428b0442419c0896774766961bea9c0740790b7977f2c",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SFR"
+      "retrieved_at": "2026-08-15T10:50:49.179173+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sfr/annual-report-2021.txt",
+      "text_sha256": "caa0776ab7c1af685613b110c55d3c50aeb598e14470684c90a5daa8c0c6f446",
+      "ticker": "SFR",
+      "url": "https://cultured-aardwolf.files.svdcdn.com/production/2021-Annual-Report.pdf"
     },
     "rv2-SFR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SFR.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 234,
+      "raw_path": "data/raw/restructuring_v2/gb-sfr/annual-report-2023.pdf",
+      "raw_sha256": "1208b3b6ad5ca86433f7b13ad39a465957eb778061e5fa11ee4099abf9182301",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SFR"
+      "retrieved_at": "2026-08-15T10:50:49.144788+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sfr/annual-report-2023.txt",
+      "text_sha256": "c52c0a1876e41e611e56e7bf846ee1c95dc226f71b78d6dfd2728656a9b79ca8",
+      "ticker": "SFR",
+      "url": "https://cultured-aardwolf.files.svdcdn.com/production/contentMatrix/company-reports/Annual-Report-2023.pdf"
     },
     "rv2-SHI-2020-12-31": {
       "attempt_results": [
