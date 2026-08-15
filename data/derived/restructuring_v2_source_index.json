@@ -3891,67 +3891,47 @@
       "url": "https://www.spectris.com/assets/Spectris-2023-Annual-Report.pdf"
     },
     "rv2-SYNT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 160,
+      "raw_path": "data/raw/restructuring_v2/gb-synt/annual-report-2019.pdf",
+      "raw_sha256": "5a3487ab6448c5f6f5badb3ff5ccac80225aa0c523f56629fdd0735c788b49d7",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SYNT"
+      "retrieved_at": "2026-08-15T11:36:24.052252+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-synt/annual-report-2019.txt",
+      "text_sha256": "7611f2d199d5830511fc75aaec98c42a2ffe7303590411ed7cf5376d35d0e488",
+      "ticker": "SYNT",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/S/LSE_SYNT_2019.pdf"
     },
     "rv2-SYNT-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "29 September 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2021.pdf"
-      ],
+      "page_count": 192,
+      "raw_path": "data/raw/restructuring_v2/gb-synt/annual-report-2021.pdf",
+      "raw_sha256": "65444d620c24d95a2b3cbfd0cf8747b82d7e2af2524322d7fe31b6c5b812f8bd",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SYNT"
+      "retrieved_at": "2026-08-15T11:36:26.454611+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-synt/annual-report-2021.txt",
+      "text_sha256": "07759a874a69de6a23d746c57199d20a05fcc56e6b4c09a1950e8cabf177b7ed",
+      "ticker": "SYNT",
+      "url": "https://www.synthomer.com/media/c1qnu4pn/synthomer_ar21.pdf"
     },
     "rv2-SYNT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "12 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SYNT.L_2023.pdf"
-      ],
+      "page_count": 206,
+      "raw_path": "data/raw/restructuring_v2/gb-synt/annual-report-2023.pdf",
+      "raw_sha256": "495b17f316dc12ddacd2b17df939263313344e75d9271c2f77864a5d577d1aba",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SYNT"
+      "retrieved_at": "2026-08-15T11:36:26.420617+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-synt/annual-report-2023.txt",
+      "text_sha256": "cc137defcd7568bfad3862a44dc7ed50e343b13e45e1e9726cfb5f75483aa33e",
+      "ticker": "SYNT",
+      "url": "https://www.synthomer.com/media/po3drac4/synt-ar23-full-interactive-report.pdf"
     },
     "rv2-TGP-2020-12-31": {
       "attempt_results": [
