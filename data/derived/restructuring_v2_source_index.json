@@ -3843,67 +3843,52 @@
       "ticker": "STAF"
     },
     "rv2-SXS-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "19 February 2020",
+        "19 February 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2019.pdf"
-      ],
+      "page_count": 176,
+      "raw_path": "data/raw/restructuring_v2/gb-sxs/annual-report-2019.pdf",
+      "raw_sha256": "3bd32df82ec402c5f96c3dee3bfe751416035b0ac614909f73d85260765f98dc",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SXS"
+      "retrieved_at": "2026-08-15T11:22:33.539351+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sxs/annual-report-2019.txt",
+      "text_sha256": "470baa52cb70e09d52e714029c0bae6bed6ec8b84f79192780c49b5520d318e3",
+      "ticker": "SXS",
+      "url": "https://www.spectris.com/assets/Uploads/Results-reports-and-presentations/Annual-report-2019.pdf"
     },
     "rv2-SXS-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "23 February 2022",
+        "23 February 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2021.pdf"
-      ],
+      "page_count": 208,
+      "raw_path": "data/raw/restructuring_v2/gb-sxs/annual-report-2021.pdf",
+      "raw_sha256": "62af6faef1de87f85f722fb5ca20d426013e93a0c6beed2b1f84f93dc7813c72",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SXS"
+      "retrieved_at": "2026-08-15T11:22:35.159347+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sxs/annual-report-2021.txt",
+      "text_sha256": "c9b4f97ae0b9e23176c1946ab79568efac3f4167aa7dea5904d8b38fcd01269e",
+      "ticker": "SXS",
+      "url": "https://www.spectris.com/assets/Uploads/Documents/Annual-Reports/2021/Spectris-AR21.pdf"
     },
     "rv2-SXS-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "28 February 2024",
+        "28 February 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SXS.L_2023.pdf"
-      ],
+      "page_count": 208,
+      "raw_path": "data/raw/restructuring_v2/gb-sxs/annual-report-2023.pdf",
+      "raw_sha256": "a5716eeb9f5335cd36844aa699bebcaf27191179e9c7b6111b99ce5433f4dab4",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SXS"
+      "retrieved_at": "2026-08-15T11:22:35.732449+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sxs/annual-report-2023.txt",
+      "text_sha256": "4a8d46b175ca404a69b36cd0eb2b3b76533c71bef1e7dd005d39290f65d80dde",
+      "ticker": "SXS",
+      "url": "https://www.spectris.com/assets/Spectris-2023-Annual-Report.pdf"
     },
     "rv2-SYNT-2020-12-31": {
       "attempt_results": [
