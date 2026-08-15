@@ -3303,25 +3303,22 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDI_2023.pdf"
     },
     "rv2-SDY-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "14 May 2019",
+        "14 May 2019",
+        "14 May 2019",
+        "14 May 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2019.pdf"
-      ],
+      "page_count": 152,
+      "raw_path": "data/raw/restructuring_v2/gb-sdy/annual-report-2019.pdf",
+      "raw_sha256": "e3157ba93efd8bba003bddd1750d94a3e1c136b893aeed086b5c29560863ebc8",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SDY"
+      "retrieved_at": "2026-08-15T12:52:54.884973+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sdy/annual-report-2019.txt",
+      "text_sha256": "57a8d374e199560f1cc3a05a218b12debf3d4ed81f06107af8bb55584a02d9e2",
+      "ticker": "SDY",
+      "url": "https://www.speedyservices.com/uploads/file/f6be3fbf59d5491dbcb5d932b0e13673/SpeedyAR2019_ART_-_website_-_12Jun19.pdf"
     },
     "rv2-SDY-2022-12-31": {
       "approval_date_candidates": [
