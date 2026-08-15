@@ -2314,67 +2314,43 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KMK_2023.pdf"
     },
     "rv2-KNOS-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 94,
+      "raw_path": "data/raw/restructuring_v2/gb-knos/annual-report-2019.pdf",
+      "raw_sha256": "e5e99d49314653fb1031e780640bb1151eea3cdb6fd3c3e47e0b58b89a5baf4d",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "KNOS"
+      "retrieved_at": "2026-08-15T06:31:23.142663+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-knos/annual-report-2019.txt",
+      "text_sha256": "62284dd2b790450fae24a112a7bbc36a2b9a070d34f51daf34c596e72ac37daf",
+      "ticker": "KNOS",
+      "url": "https://get.kainos.com/rs/935-JPR-705/images/2019-Annual-Report.pdf"
     },
     "rv2-KNOS-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 136,
+      "raw_path": "data/raw/restructuring_v2/gb-knos/annual-report-2021.pdf",
+      "raw_sha256": "210eda11e8c2e1647cffa0d77646bc12d8cdd36a14fca7ecea51e56b6c236a3c",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "KNOS"
+      "retrieved_at": "2026-08-15T06:31:23.997409+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-knos/annual-report-2021.txt",
+      "text_sha256": "a62644592b43ed0b217577baea8f41a3256fe25870064e93f04b549012b1478a",
+      "ticker": "KNOS",
+      "url": "https://get.kainos.com/rs/935-JPR-705/images/Kainos-Annual-Report-2021.pdf"
     },
     "rv2-KNOS-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/k/LSE_KNOS.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 161,
+      "raw_path": "data/raw/restructuring_v2/gb-knos/annual-report-2023.pdf",
+      "raw_sha256": "8440ef0c9d782016aeafb7e89effeec137a2e349d40266203e59b667852070ec",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "KNOS"
+      "retrieved_at": "2026-08-15T06:31:25.520360+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-knos/annual-report-2023.txt",
+      "text_sha256": "d109913bb0a2153be7b592a7d3b4834cc915e6eeaf4a700730a6d65f6897e477",
+      "ticker": "KNOS",
+      "url": "https://get.kainos.com/rs/935-JPR-705/images/Kainos%20Group%20plc%20Annual%20Report%20%28PDF%29Final.pdf"
     },
     "rv2-LPA-2020-12-31": {
       "approval_date_candidates": [
