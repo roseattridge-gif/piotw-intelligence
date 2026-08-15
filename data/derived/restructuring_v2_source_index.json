@@ -2542,67 +2542,48 @@
       "url": "https://www.morganadvancedmaterials.com/media/zihpydbw/mam_ar23_online.pdf"
     },
     "rv2-MPAC-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 114,
+      "raw_path": "data/raw/restructuring_v2/gb-mpac/annual-report-2019.pdf",
+      "raw_sha256": "5476a3a869838f84f41e64cb56966811ad80b23789008737d07c05729b4f01d9",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MPAC"
+      "retrieved_at": "2026-08-15T06:54:34.760162+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mpac/annual-report-2019.txt",
+      "text_sha256": "de646a994edf380d116ed26e4f9baab9a1d294973d93dbd41f350d00ec69f725",
+      "ticker": "MPAC",
+      "url": "https://mpac-group.com/wp-content/uploads/2026/06/MPAC_Annual-Report-2019-1.pdf"
     },
     "rv2-MPAC-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "16 March 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2021.pdf"
-      ],
+      "page_count": 116,
+      "raw_path": "data/raw/restructuring_v2/gb-mpac/annual-report-2021.pdf",
+      "raw_sha256": "d0b4997d7a90de6c1cd85217d8d1d365a148d04f1d7855e4738b13b2b1b265ba",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MPAC"
+      "retrieved_at": "2026-08-15T06:54:33.174685+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mpac/annual-report-2021.txt",
+      "text_sha256": "88703c93e25b5728c4ae7d13ea18c5da5ac36f811b02700b2eb65222b573b6a0",
+      "ticker": "MPAC",
+      "url": "https://mpac-group.com/wp-content/uploads/2026/06/Mpac-Group_2021ARA_web2-04042022.pdf"
     },
     "rv2-MPAC-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "17 May 2023",
+        "19 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MPAC.L_2023.pdf"
-      ],
+      "page_count": 112,
+      "raw_path": "data/raw/restructuring_v2/gb-mpac/annual-report-2023.pdf",
+      "raw_sha256": "c280462ee95fdbd344ae40aae9f113bf34e0a87d2378cc29f7785052f427497d",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MPAC"
+      "retrieved_at": "2026-08-15T06:54:33.077602+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mpac/annual-report-2023.txt",
+      "text_sha256": "0efbbb6f46a699df626133847b3d3d72a0231e113c7ecf1c2c6418e9e9698760",
+      "ticker": "MPAC",
+      "url": "https://mpac-group.com/wp-content/uploads/2026/06/Mpac-2023ARA_web.pdf"
     },
     "rv2-MRO-2020-12-31": {
       "attempt_results": [
