@@ -2902,67 +2902,52 @@
       "ticker": "RCDO"
     },
     "rv2-RHIM-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "31 March 2020",
+        "31 March 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2019.pdf"
-      ],
+      "page_count": 232,
+      "raw_path": "data/raw/restructuring_v2/gb-rhim/annual-report-2019.pdf",
+      "raw_sha256": "daf4eee19bc505ddb05db586ff7d871d62ac505e3eed8113c9edd86d6bf6c06e",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "RHIM"
+      "retrieved_at": "2026-08-15T11:46:14.345889+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rhim/annual-report-2019.txt",
+      "text_sha256": "df484071d656053d43d8ae69235c94fa66cb01bda10f8a8711842afb427edcfa",
+      "ticker": "RHIM",
+      "url": "https://ir.rhimagnesita.com/wp-content/uploads/2020/04/2019-annual-report-rhi-magnesita.pdf"
     },
     "rv2-RHIM-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "27 February 2022",
+        "25 February 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2021.pdf"
-      ],
+      "page_count": 217,
+      "raw_path": "data/raw/restructuring_v2/gb-rhim/annual-report-2021.pdf",
+      "raw_sha256": "2987843a82f0933c353b36712780f915398fcadc0f643b0ad978ad1baf1a6a4b",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "RHIM"
+      "retrieved_at": "2026-08-15T11:46:15.935216+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rhim/annual-report-2021.txt",
+      "text_sha256": "8a987695683c88c9eb3163bbb7b1f639eabcd50651a7cc9aed01bff6fd3ca315",
+      "ticker": "RHIM",
+      "url": "https://ir.rhimagnesita.com/wp-content/uploads/2022/02/rhi-ar21-web-ready-high-res.pdf"
     },
     "rv2-RHIM-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "28 February 2024",
+        "28 February 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RHIM.L_2023.pdf"
-      ],
+      "page_count": 270,
+      "raw_path": "data/raw/restructuring_v2/gb-rhim/annual-report-2023.pdf",
+      "raw_sha256": "ca1ceffb3be8f0c6ab3d7f4c04b8a10ed8ab858a5e85a02c2c2f5606d0484cf6",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "RHIM"
+      "retrieved_at": "2026-08-15T11:46:18.256835+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rhim/annual-report-2023.txt",
+      "text_sha256": "032396b9e82c233a2ab7e5bac107378fc51d5c755ea3e7a09706ec308e7d7644",
+      "ticker": "RHIM",
+      "url": "https://ir.rhimagnesita.com/wp-content/uploads/2024/02/rhim-ar-fy-2023-compressed.pdf"
     },
     "rv2-RNO-2020-12-31": {
       "attempt_results": [
