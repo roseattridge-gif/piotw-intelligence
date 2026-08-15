@@ -1656,67 +1656,49 @@
       "ticker": "FWT"
     },
     "rv2-GAMA-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "29 August 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2019.pdf"
-      ],
+      "page_count": 122,
+      "raw_path": "data/raw/restructuring_v2/gb-gama/annual-report-2019.pdf",
+      "raw_sha256": "e54b8b3776d5cee4154540c50be84783976799d9be1614bb518b6b38aa243d10",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "GAMA"
+      "retrieved_at": "2026-08-15T06:03:54.849006+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gama/annual-report-2019.txt",
+      "text_sha256": "bb155aed829f6d1135f61322ce4cba9eaf95f2abbab519be16a83a1e5c0245f6",
+      "ticker": "GAMA",
+      "url": "https://gammagroup.co/wp-content/uploads/2024/03/Annual-Report-and-Accounts-2019.pdf"
     },
     "rv2-GAMA-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "3 September 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2021.pdf"
-      ],
+      "page_count": 136,
+      "raw_path": "data/raw/restructuring_v2/gb-gama/annual-report-2021.pdf",
+      "raw_sha256": "6e1429c395ed9767d999cd235aa988640a6ec79e28e78b303cb1acd79d734136",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "GAMA"
+      "retrieved_at": "2026-08-15T06:03:48.448625+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gama/annual-report-2021.txt",
+      "text_sha256": "5ff4c9452858478d8505bd29ddd262e3672bc3182f4cd9fb1a87b19cdcb7aa15",
+      "ticker": "GAMA",
+      "url": "https://gammagroup.co/wp-content/uploads/2024/03/Gamma-Annual-Report-and-Accounts-2021-Web-plus-Online.pdf"
     },
     "rv2-GAMA-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "31 August 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GAMA.L_2023.pdf"
-      ],
+      "page_count": 166,
+      "raw_path": "data/raw/restructuring_v2/gb-gama/annual-report-2023.pdf",
+      "raw_sha256": "d882f0ef193e36b3cfda178b1dee218f7b55d37853895304bbefd183bc138a86",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "GAMA"
+      "retrieved_at": "2026-08-15T06:03:57.135628+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gama/annual-report-2023.txt",
+      "text_sha256": "d1175b738b1ff99c9b7a61d7f645ebf8bba142a3f45f8b911243743c438df0d4",
+      "ticker": "GAMA",
+      "url": "https://gammagroup.co/wp-content/uploads/2024/03/Gamma-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-GBG-2020-12-31": {
       "attempt_results": [
