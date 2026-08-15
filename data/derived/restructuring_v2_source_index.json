@@ -1770,46 +1770,30 @@
       "ticker": "HAYD"
     },
     "rv2-HILS-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 189,
+      "raw_path": "data/raw/restructuring_v2/gb-hils/annual-report-2019.pdf",
+      "raw_sha256": "83f506792cbcd262e4c4bdaf4e6d3548cbff7c2183e9f5cfe6b0abb15ce9c5ee",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "HILS"
+      "retrieved_at": "2026-08-15T08:25:02.439446+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-hils/annual-report-2019.txt",
+      "text_sha256": "7da71ab9124cfde0a8df3aa273fdac7a18246e353d13d1bfae5be6c2764eeedf",
+      "ticker": "HILS",
+      "url": "https://hsgroup.com/media/ccfofvf3/annual-report-2019.pdf"
     },
     "rv2-HILS-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HILS.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 196,
+      "raw_path": "data/raw/restructuring_v2/gb-hils/annual-report-2021.pdf",
+      "raw_sha256": "bf398619550f66b92a3925689b261044cd00636fe517683c21b0f23c61374104",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "HILS"
+      "retrieved_at": "2026-08-15T08:25:03.168441+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-hils/annual-report-2021.txt",
+      "text_sha256": "1481656250f252c1ead1290127f6398880f762bde0eccb1b5741c0661f99f299",
+      "ticker": "HILS",
+      "url": "https://hsgroup.com/media/e1zjtid4/hill-and-smith-ar2021.pdf"
     },
     "rv2-HILS-2024-12-31": {
       "approval_date_candidates": [],
