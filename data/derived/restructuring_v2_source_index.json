@@ -743,25 +743,17 @@
       "ticker": "CNC"
     },
     "rv2-COA-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 190,
+      "raw_path": "data/raw/restructuring_v2/gb-coa/annual-report-2019.pdf",
+      "raw_sha256": "0c8402fa6fec087532a5cf1e15bfd37af675f33c0a31ef105e6cb688ce7cf1b5",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "COA"
+      "retrieved_at": "2026-08-15T05:46:44.665044+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-coa/annual-report-2019.txt",
+      "text_sha256": "b766bdfe4a85f55736b671d4678b2e461a10f556b82ab95a87ec0ec6aec02add",
+      "ticker": "COA",
+      "url": "https://cdn.coats.com/wp-content/uploads/Coats-Annual_Report_2019.pdf"
     },
     "rv2-COA-2022-12-31": {
       "approval_date_candidates": [],
@@ -777,25 +769,19 @@
       "url": "https://cdn.coats.com/wp-content/uploads/Coats_Annual_Report_2021.pdf"
     },
     "rv2-COA-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "18 May 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_COA.L_2023.pdf"
-      ],
+      "page_count": 207,
+      "raw_path": "data/raw/restructuring_v2/gb-coa/annual-report-2023.pdf",
+      "raw_sha256": "4feef5da25fdad9975f2e04f6043ab1277c66d7fa0185df9e42ed027b2a881c4",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "COA"
+      "retrieved_at": "2026-08-15T05:46:50.699707+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-coa/annual-report-2023.txt",
+      "text_sha256": "accb13ec1809a576f019b98ceff778e2c5b9ed6e75490a4e8dfd7607bc613682",
+      "ticker": "COA",
+      "url": "https://cdn.coats.com/wp-content/uploads/Coats-2023-Annual-Report.pdf"
     },
     "rv2-COST-2020-12-31": {
       "attempt_results": [
