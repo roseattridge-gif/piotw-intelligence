@@ -3954,67 +3954,43 @@
       "ticker": "TGP"
     },
     "rv2-TPK-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2019.pdf"
-        },
-        {
-          "reason": "The read operation timed out",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 200,
+      "raw_path": "data/raw/restructuring_v2/gb-tpk/annual-report-2019.pdf",
+      "raw_sha256": "efecb235f2458dd1384a71bd73383b3de920e968e8b780447ce58c210b3cc003",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "TPK"
+      "retrieved_at": "2026-08-15T12:06:26.067013+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tpk/annual-report-2019.txt",
+      "text_sha256": "5ab675348c66c53c4e733e0a008f0ef5bf1b2de6912e60fff298364522d1e58e",
+      "ticker": "TPK",
+      "url": "https://www.travisperkinsplc.co.uk/media/ixlp2qle/travisperkins-annual-report-19-1.pdf"
     },
     "rv2-TPK-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 181,
+      "raw_path": "data/raw/restructuring_v2/gb-tpk/annual-report-2021.pdf",
+      "raw_sha256": "6f401d52abfa42070fe6e0941f5b4d1c36813382f5532777c4723f5ce6711c22",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "TPK"
+      "retrieved_at": "2026-08-15T12:06:24.213839+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tpk/annual-report-2021.txt",
+      "text_sha256": "563cef2a0186fd1de73e7f10267ec2ab4d4c403daa0b2426fe1c351f4ebc2d5a",
+      "ticker": "TPK",
+      "url": "https://www.travisperkinsplc.co.uk/media/ntpnlwkh/travis-perkins-annual-report-2021.pdf"
     },
     "rv2-TPK-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TPK.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 72,
+      "raw_path": "data/raw/restructuring_v2/gb-tpk/annual-report-2023.pdf",
+      "raw_sha256": "4fee53d9f230027b90f828dc6fccf8dd2ea3d3ddbb44bd470ad13b7fd75eb004",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "TPK"
+      "retrieved_at": "2026-08-15T12:06:19.230814+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tpk/annual-report-2023.txt",
+      "text_sha256": "3ab45dfb13268d8c99b39df237087872b0b469fc6ac1ae99d017142cf61a5f3c",
+      "ticker": "TPK",
+      "url": "https://www.travisperkinsplc.co.uk/media/dkqjjm5t/travis-perkins-financial-statements.pdf"
     },
     "rv2-TRT-2020-12-31": {
       "approval_date_candidates": [],
