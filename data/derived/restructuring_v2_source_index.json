@@ -4547,67 +4547,47 @@
       "ticker": "WIX"
     },
     "rv2-XPP-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "31 December 2018"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2019.pdf"
-      ],
+      "page_count": 174,
+      "raw_path": "data/raw/restructuring_v2/gb-xpp/annual-report-2019.pdf",
+      "raw_sha256": "4a1cf75b2311fed0b86217d64af0fa2861fae4f72be115d8b4a1608371eb2fe1",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "XPP"
+      "retrieved_at": "2026-08-15T12:18:55.515635+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-xpp/annual-report-2019.txt",
+      "text_sha256": "26701fc286cb3ee26e145effae08e0048ea2dd801f6b766936a027ee307412bf",
+      "ticker": "XPP",
+      "url": "https://corporate.xppower.com/storage/reports/ar2019.pdf"
     },
     "rv2-XPP-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 194,
+      "raw_path": "data/raw/restructuring_v2/gb-xpp/annual-report-2021.pdf",
+      "raw_sha256": "67a9ff62d8cd285595c98922fac55dd4582c5692d38a963f69988b4de81e9850",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "XPP"
+      "retrieved_at": "2026-08-15T12:18:58.463447+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-xpp/annual-report-2021.txt",
+      "text_sha256": "00741b2f55b1abd6864ab8a2215f7f8834c84a96b72ea099ac48370e8bf81d83",
+      "ticker": "XPP",
+      "url": "https://corporate.xppower.com/storage/reports/ar2021.pdf"
     },
     "rv2-XPP-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "4 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/x/LSE_XPP.L_2023.pdf"
-      ],
+      "page_count": 115,
+      "raw_path": "data/raw/restructuring_v2/gb-xpp/annual-report-2023.pdf",
+      "raw_sha256": "e28e89b7175e72bddcbad3fe4f83d1347c6c01ae445c0aa2ac80974af9d97e9a",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "XPP"
+      "retrieved_at": "2026-08-15T12:18:55.922079+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-xpp/annual-report-2023.txt",
+      "text_sha256": "9e5845af20542bc19c2a1851923d060504106ff133c780eb69a11975ab331331",
+      "ticker": "XPP",
+      "url": "https://corporate.xppower.com/storage/reports/ar2023.pdf"
     },
     "rv2-ZTF-2020-12-31": {
       "attempt_results": [
