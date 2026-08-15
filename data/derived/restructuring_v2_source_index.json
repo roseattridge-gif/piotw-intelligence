@@ -2489,67 +2489,57 @@
       "url": "https://www.macfarlanegroup.com/wp-content/uploads/2024/04/Macfarlane-Group-Ltd-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-MGAM-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "25 February 2020",
+        "26 September 2018",
+        "15 December 2007",
+        "25 February 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2019.pdf"
-      ],
+      "page_count": 168,
+      "raw_path": "data/raw/restructuring_v2/gb-mgam/annual-report-2019.pdf",
+      "raw_sha256": "e16da2fe6b9990c6a268ff28181350855bc576662f040f2d63fbbc1edecfdc7b",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MGAM"
+      "retrieved_at": "2026-08-15T06:49:26.929846+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mgam/annual-report-2019.txt",
+      "text_sha256": "0e385f73e00dbdfffaf4a9b9277b5b9ee82cb1c0b29b1f6e1a92c2d000f1fcf1",
+      "ticker": "MGAM",
+      "url": "https://www.morganadvancedmaterials.com/media/ifmnxvcm/morgan-ar2019-web.pdf"
     },
     "rv2-MGAM-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "3 March 2022",
+        "26 September 2018",
+        "27 October 2016",
+        "3 March 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2021.pdf"
-      ],
+      "page_count": 97,
+      "raw_path": "data/raw/restructuring_v2/gb-mgam/annual-report-2021.pdf",
+      "raw_sha256": "31180ef9778c11caa132de30bcd2624d72519ab3684c90a9f55910eedc68fcb2",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MGAM"
+      "retrieved_at": "2026-08-15T06:49:26.890710+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mgam/annual-report-2021.txt",
+      "text_sha256": "decb69858219363909c4a2d65db1fef4a97cc598c361fe9d6ce227ead1c4f1d8",
+      "ticker": "MGAM",
+      "url": "https://www.morganadvancedmaterials.com/media/o2jh4gyk/morgan-ar-2021-web.pdf"
     },
     "rv2-MGAM-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "18 November 2022",
+        "27 October 2016",
+        "16 June 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MGAM.L_2023.pdf"
-      ],
+      "page_count": 113,
+      "raw_path": "data/raw/restructuring_v2/gb-mgam/annual-report-2023.pdf",
+      "raw_sha256": "3ab7127ca3f07ade026c6f0d544f50d41a0390bd1dc3b133f18faef674abe40c",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MGAM"
+      "retrieved_at": "2026-08-15T06:49:28.248027+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mgam/annual-report-2023.txt",
+      "text_sha256": "d0984a55a7db4599edf64e76346643ef564709b1839d58d47fce2ed735985f50",
+      "ticker": "MGAM",
+      "url": "https://www.morganadvancedmaterials.com/media/zihpydbw/mam_ar23_online.pdf"
     },
     "rv2-MPAC-2020-12-31": {
       "attempt_results": [
