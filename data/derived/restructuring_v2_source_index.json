@@ -3449,67 +3449,51 @@
       "url": "https://cultured-aardwolf.files.svdcdn.com/production/contentMatrix/company-reports/Annual-Report-2023.pdf"
     },
     "rv2-SHI-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "24 February 2020",
+        "24 February 2020",
+        "24 February 2020",
+        "24 February 2020",
+        "24 February \n2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2019.pdf"
-      ],
+      "page_count": 250,
+      "raw_path": "data/raw/restructuring_v2/gb-shi/annual-report-2019.pdf",
+      "raw_sha256": "bcaa3e92cf149b38ade5a580ad6533fc38eb4c3b1164affa1c2319266e22b281",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "SHI"
+      "retrieved_at": "2026-08-15T10:53:53.921365+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-shi/annual-report-2019.txt",
+      "text_sha256": "f73001ef568c7d3e4dff83c4b0be1dd43884ed6df88922a3a0b76ff71d775167",
+      "ticker": "SHI",
+      "url": "https://www.sigplc.com/~/media/Files/S/SIG-PLC/documents/reports-and-presentations/2020/sig-annual-report-2019.pdf"
     },
     "rv2-SHI-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "31 January 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2021.pdf"
-      ],
+      "page_count": 236,
+      "raw_path": "data/raw/restructuring_v2/gb-shi/annual-report-2021.pdf",
+      "raw_sha256": "8a159500446390f0424df4c134c966b5571fc2bd8a0b0cf0bf3ed749022af62d",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SHI"
+      "retrieved_at": "2026-08-15T10:53:55.559738+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-shi/annual-report-2021.txt",
+      "text_sha256": "9436d141d5e996520b13000a7931b0aff7484a75948faa1b57072011589f0919",
+      "ticker": "SHI",
+      "url": "https://www.sigplc.com/~/media/Files/S/SIG-PLC/documents/reports-and-presentations/2022/annual-reports-and-accounts-2021.pdf"
     },
     "rv2-SHI-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SHI.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 212,
+      "raw_path": "data/raw/restructuring_v2/gb-shi/annual-report-2023.pdf",
+      "raw_sha256": "95b9965a8731e483fb58d3673ca4e4b2ebe8ca403b97da911993904ff409e812",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SHI"
+      "retrieved_at": "2026-08-15T10:53:54.995818+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-shi/annual-report-2023.txt",
+      "text_sha256": "2f282738e554cfbba5e1a602bf1d18fc0a140acf256d3889ebc19b7bc09ea529",
+      "ticker": "SHI",
+      "url": "https://www.sigplc.com/~/media/Files/S/SIG-PLC/documents/reports-and-presentations/2024/sig-annual-reports-and-accounts-2023.pdf"
     },
     "rv2-SNR-2020-12-31": {
       "attempt_results": [
