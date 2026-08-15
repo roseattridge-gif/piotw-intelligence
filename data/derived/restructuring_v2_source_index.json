@@ -1700,46 +1700,38 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2019.pdf"
     },
     "rv2-GBG-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "14 June 2021",
+        "14 June 2021",
+        "14 June 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2021.pdf"
-      ],
+      "page_count": 98,
+      "raw_path": "data/raw/restructuring_v2/gb-gbg/annual-report-2021.pdf",
+      "raw_sha256": "2ec9a56c0ab15cd381031b107104c73d557297da79253e18532f8e0cb3628846",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "GBG"
+      "retrieved_at": "2026-08-15T06:11:18.658421+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gbg/annual-report-2021.txt",
+      "text_sha256": "251cacea1b60566869e6fcb150eef581645d90eaee627d9776851611162705d6",
+      "ticker": "GBG",
+      "url": "https://www.gbgplc.com/media/o4yhe3j2/gbg-2021-annual-report-final.pdf"
     },
     "rv2-GBG-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "14 June 2023",
+        "14 June 2023",
+        "14 June 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GBG.L_2023.pdf"
-      ],
+      "page_count": 94,
+      "raw_path": "data/raw/restructuring_v2/gb-gbg/annual-report-2023.pdf",
+      "raw_sha256": "e5557ecac355cef16aa2f4d79b339f3d944672ca2886a89a602df83de837c216",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "GBG"
+      "retrieved_at": "2026-08-15T06:11:21.437700+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gbg/annual-report-2023.txt",
+      "text_sha256": "dc7e12af13418eff12b84115850ea89317398a90def0093c17bd04642d5991ae",
+      "ticker": "GBG",
+      "url": "https://www.gbgplc.com/media/ttsjoyyr/gbg_annual_report_2023_hyperlink.pdf"
     },
     "rv2-GDWN-2020-12-31": {
       "attempt_results": [
