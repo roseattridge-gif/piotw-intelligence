@@ -4397,67 +4397,45 @@
       "ticker": "WATR"
     },
     "rv2-WEIR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 229,
+      "raw_path": "data/raw/restructuring_v2/gb-weir/annual-report-2019.pdf",
+      "raw_sha256": "c16841d09c01990b04a035db40a90fdf13618ffee36350ff9c62388ebc692a8d",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "WEIR"
+      "retrieved_at": "2026-08-15T12:09:28.096416+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-weir/annual-report-2019.txt",
+      "text_sha256": "92e3c05de7730fd085d943e5fffbf6374c102e4dfdc5bae745cf0d6ca1d12498",
+      "ticker": "WEIR",
+      "url": "https://www.global.weir/globalassets/investors/reporting-centre/2020/the-weir-group-2019-annual-report.pdf"
     },
     "rv2-WEIR-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 256,
+      "raw_path": "data/raw/restructuring_v2/gb-weir/annual-report-2021.pdf",
+      "raw_sha256": "147b36f795e7891eb9a2b654fb34faf14b45ab0727e30b727d89061e53f305a9",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "WEIR"
+      "retrieved_at": "2026-08-15T12:09:27.616633+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-weir/annual-report-2021.txt",
+      "text_sha256": "e6529770828cb32407f0373c83448893b9290587ed35d466967b06db41bfc6ab",
+      "ticker": "WEIR",
+      "url": "https://www.global.weir/siteassets/pdfs/weir-group-annual-report-2021-web-version.pdf"
     },
     "rv2-WEIR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "30 November 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WEIR.L_2023.pdf"
-      ],
+      "page_count": 240,
+      "raw_path": "data/raw/restructuring_v2/gb-weir/annual-report-2023.pdf",
+      "raw_sha256": "4c9dfbbe8a20688d64894ab295644dbc5732d6c26c72909b70f7f5371a897c19",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "WEIR"
+      "retrieved_at": "2026-08-15T12:09:30.813591+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-weir/annual-report-2023.txt",
+      "text_sha256": "534a7dd62fb1c430b964d561693f63027a11f9ca0a5653c52284d04bab40e8b3",
+      "ticker": "WEIR",
+      "url": "https://www.global.weir/globalassets/investors/reporting-centre/2024/2023-annual-report/weir-group-2023-annual-report.pdf"
     },
     "rv2-WG.-2020-12-31": {
       "attempt_results": [
