@@ -4034,67 +4034,55 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TRT_2023.pdf"
     },
     "rv2-TSTL-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 404",
-          "status": "not_found",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "31 OCTOBER 2019",
+        "31 October 2019",
+        "31 October 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2019.pdf"
-      ],
+      "page_count": 84,
+      "raw_path": "data/raw/restructuring_v2/gb-tstl/annual-report-2019.pdf",
+      "raw_sha256": "43e95b7f9b58acd40848d2543b5fe5582fd65cc3881fafb26c17ac32d35e870c",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "TSTL"
+      "retrieved_at": "2026-08-15T12:44:13.890663+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tstl/annual-report-2019.txt",
+      "text_sha256": "614c12647048b33e6253b947cd15aba292f410d9f221b00b36e323bbeda796fb",
+      "ticker": "TSTL",
+      "url": "https://investors.tristel.com/wp-content/uploads/2023/07/Tristel-Annual-Report-2018-2019.pdf"
     },
     "rv2-TSTL-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "18 October 2021",
+        "10 November 2021",
+        "10 November 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2021.pdf"
-      ],
+      "page_count": 87,
+      "raw_path": "data/raw/restructuring_v2/gb-tstl/annual-report-2021.pdf",
+      "raw_sha256": "b942f51d8205c90fd0ed8ab9a99372a8f6e1a8831624c89ccda07528931c7b95",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "TSTL"
+      "retrieved_at": "2026-08-15T12:44:13.950540+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tstl/annual-report-2021.txt",
+      "text_sha256": "3a22e8001afd5085800b47638045f58e913d2c34f45206d1e401483f920718fe",
+      "ticker": "TSTL",
+      "url": "https://investors.tristel.com/wp-content/uploads/2023/07/Tristel-Annual-Report-2020-2021.pdf"
     },
     "rv2-TSTL-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "13 October 2023",
+        "13 October 2023",
+        "13 October 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TSTL.L_2023.pdf"
-      ],
+      "page_count": 108,
+      "raw_path": "data/raw/restructuring_v2/gb-tstl/annual-report-2023.pdf",
+      "raw_sha256": "f9894a7c8b31729770436dd1ca0a351673ed0c883d1b0cf2f633036ecbcaa61c",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "TSTL"
+      "retrieved_at": "2026-08-15T12:44:14.108869+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tstl/annual-report-2023.txt",
+      "text_sha256": "e30a8887c47b50bea2409e456eb54aac6da136ade2f85f14a71f496a4737203e",
+      "ticker": "TSTL",
+      "url": "https://investors.tristel.com/wp-content/uploads/2023/11/Tristel-Annual-Report-2022-2023-1.pdf"
     },
     "rv2-TTG-2020-12-31": {
       "approval_date_candidates": [
