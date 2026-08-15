@@ -3760,67 +3760,43 @@
       "url": "https://www.synthomer.com/media/po3drac4/synt-ar23-full-interactive-report.pdf"
     },
     "rv2-TGP-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 65,
+      "raw_path": "data/raw/restructuring_v2/gb-tgp/annual-report-2019.pdf",
+      "raw_sha256": "df4fcded82a2c423313ddcad153d499a69041e43ae5a2a5136a54b4c242838c8",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "TGP"
+      "retrieved_at": "2026-08-15T14:26:01.273202+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tgp/annual-report-2019.txt",
+      "text_sha256": "de0dd3fe66959a2d9edcfb112088377ba08a1d2ea39cc3aaf6287febb68b5e8a",
+      "ticker": "TGP",
+      "url": "https://investors.tekmar.co.uk/wp-content/uploads/2026/06/Tekmar-Group-AR-FY19-website-download-compressed.pdf"
     },
     "rv2-TGP-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 68,
+      "raw_path": "data/raw/restructuring_v2/gb-tgp/annual-report-2021.pdf",
+      "raw_sha256": "c3f03cc117e2ff8c204533bff9244bbca77d61a01fe1ffa258a846b2b77e3b82",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "TGP"
+      "retrieved_at": "2026-08-15T14:26:03.065389+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tgp/annual-report-2021.txt",
+      "text_sha256": "98d497ad4d3473f74882b92037d81283ef27ed396cb3a6c989191f6792cb10e7",
+      "ticker": "TGP",
+      "url": "https://investors.tekmar.co.uk/wp-content/uploads/2026/06/TGP-MAR-E-PLC-TGP-AR-FY21_website_FINAL.pdf"
     },
     "rv2-TGP-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TGP.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 123,
+      "raw_path": "data/raw/restructuring_v2/gb-tgp/annual-report-2023.pdf",
+      "raw_sha256": "20a34c3994e92fabfbb09e165d14aafe65113528929757fc1fd0e15dd5dc8083",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "TGP"
+      "retrieved_at": "2026-08-15T14:27:33.356173+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-tgp/annual-report-2023.txt",
+      "text_sha256": "db94a54779c4ebb9654ea4f61cede0410c2afdd27f76c7636495974b6cc07103",
+      "ticker": "TGP",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/11383143/filing-history/MzQxNzM1MjYxMGFkaXF6a2N4/document?download=0&format=pdf"
     },
     "rv2-TPK-2020-12-31": {
       "approval_date_candidates": [],
