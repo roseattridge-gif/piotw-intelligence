@@ -81,25 +81,19 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK_2021.pdf"
     },
     "rv2-AUK-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "27 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/a/LSE_AUK.L_2023.pdf"
-      ],
+      "page_count": 127,
+      "raw_path": "data/raw/restructuring_v2/gb-auk/annual-report-2023.pdf",
+      "raw_sha256": "e1b8f1f209acf91178e53b035241f6c00b6ae3e32c9a642ada8fd3f42624ab31",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "AUK"
+      "retrieved_at": "2026-08-15T08:04:57.198502+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-auk/annual-report-2023.txt",
+      "text_sha256": "8b377c8d8529345ddb8843bc94524892fd9998ef9f37efe6bd21e6a45de730ef",
+      "ticker": "AUK",
+      "url": "https://aukettswankeplc.com/wp-content/uploads/sites/4/2024/03/ASG-annual-report-2023_FINAL_website.pdf"
     },
     "rv2-AVG-2020-12-31": {
       "approval_date_candidates": [
