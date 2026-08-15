@@ -1,7 +1,7 @@
 {
-  "extraction_complete": 84,
-  "feature_ready": 84,
-  "manual_scoring_complete": 84,
+  "extraction_complete": 90,
+  "feature_ready": 90,
+  "manual_scoring_complete": 90,
   "occasion_count": 291,
   "outcomes_researched": 0,
   "schema_version": "1",
@@ -10,7 +10,7 @@
     "retrieval_failed": 210
   },
   "status_counts": {
-    "evidence_complete_prediction_eligible": 84,
-    "technically_unavailable_pending_resolution": 207
+    "evidence_complete_prediction_eligible": 90,
+    "technically_unavailable_pending_resolution": 201
   }
 }

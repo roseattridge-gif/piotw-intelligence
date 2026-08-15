@@ -137,6 +137,10 @@ def page_locations(row: dict[str, str]) -> str:
 def main() -> None:
     sources = json.loads(INDEX.read_text())["sources"]
     queue = {row["occasion_id"]: row for row in load_rows(QUEUE)}
+    manifests = {}
+    for partition in ("validation", "holdout"):
+        manifests.update({row["occasion_id"]: row for row in load_rows(
+            ROOT / f"data/manifests/restructuring_{partition}.csv")})
     reviews = reviewed_scores()
     web = web_reviews(set(reviews))
     overrides = ({row["occasion_id"]: row for row in load_rows(OVERRIDES)}
@@ -190,10 +194,14 @@ def main() -> None:
                              "evidence_ids": evidence_id,
                              "feature_review_status": f"manual:{review['reviewer']}"})
     for occasion_id, review in sorted(web.items()):
-        if occasion_id not in queue:
-            issues.append({"occasion_id": occasion_id, "reason": "manifest review packet missing"})
+        # Web-only reviews are grounded directly in the frozen cohort manifest.  The
+        # feature-review queue is a disposable preparation aid and may be regenerated
+        # from locally preserved PDFs, so it must not be the authoritative identity
+        # check for an audited web fallback.
+        if occasion_id not in manifests:
+            issues.append({"occasion_id": occasion_id, "reason": "frozen manifest row missing"})
             continue
-        packet = queue[occasion_id]
+        packet = manifests[occasion_id]
         if any(review[field] != packet[field] for field in ("company", "ticker", "cutoff")):
             issues.append({"occasion_id": occasion_id, "reason": "web review does not match manifest"})
             continue
