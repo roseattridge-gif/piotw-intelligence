@@ -1473,67 +1473,49 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FLO_2023.pdf"
     },
     "rv2-FORT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "10 July \n2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2019.pdf"
-      ],
+      "page_count": 138,
+      "raw_path": "data/raw/restructuring_v2/gb-fort/annual-report-2019.pdf",
+      "raw_sha256": "144c13a8828d9c037771bfea0c379888a4c5f40ca2bb14b9c2247d54da94636b",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "FORT"
+      "retrieved_at": "2026-08-15T06:06:01.567907+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fort/annual-report-2019.txt",
+      "text_sha256": "803aff1e23811df8d0b1b1c6268fdf2420603dc2a9ee8c340e3912564f97eb8a",
+      "ticker": "FORT",
+      "url": "https://www.forterra.co.uk/wp-content/uploads/2021/12/Annual_Report__Accounts_2019.pdf"
     },
     "rv2-FORT-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "8 March \n2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2021.pdf"
-      ],
+      "page_count": 99,
+      "raw_path": "data/raw/restructuring_v2/gb-fort/annual-report-2021.pdf",
+      "raw_sha256": "82040d74181353590743bc7dd7823b7bd59afd488a1979c522be73b80371b713",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "FORT"
+      "retrieved_at": "2026-08-15T06:06:36.290981+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fort/annual-report-2021.txt",
+      "text_sha256": "66be8eb2edadc5d0b6f43692fd4afc97b1dce3e3fc819c40b82d5ef1c58471dc",
+      "ticker": "FORT",
+      "url": "https://www.forterra.co.uk/wp-content/uploads/2022/03/Forterra-Annual-Report-2021-interactive.pdf"
     },
     "rv2-FORT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "18 July 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/f/LSE_FORT.L_2023.pdf"
-      ],
+      "page_count": 110,
+      "raw_path": "data/raw/restructuring_v2/gb-fort/annual-report-2023.pdf",
+      "raw_sha256": "8ca58f7046db7b8752dc286b194d8d410997e27a941428159bd260596e19582e",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "FORT"
+      "retrieved_at": "2026-08-15T06:06:04.585688+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-fort/annual-report-2023.txt",
+      "text_sha256": "bdfb8297d66077e09011c2603e822d94dad535cd8f5ea204c7874f0255deec31",
+      "ticker": "FORT",
+      "url": "https://www.forterra.co.uk/wp-content/uploads/2024/04/Forterra_AR2023_Interactive.pdf"
     },
     "rv2-FRAN-2020-12-31": {
       "approval_date_candidates": [
