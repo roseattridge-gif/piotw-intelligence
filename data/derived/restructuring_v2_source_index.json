@@ -2692,193 +2692,132 @@
       "url": "https://www.marshalls.co.uk/media/qnhfk4xw/marshalls-plc-annual-report-and-accounts-2023.pdf"
     },
     "rv2-MTO-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "31 August 2018",
+        "31 July 2018"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2019.pdf"
-      ],
+      "page_count": 170,
+      "raw_path": "data/raw/restructuring_v2/gb-mto/annual-report-2019.pdf",
+      "raw_sha256": "682052a7ce9887faec359ed4c65bdd9c6fdeb8ba5768d3f88d3ce53fcd7eef21",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MTO"
+      "retrieved_at": "2026-08-15T07:11:48.664257+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mto/annual-report-2019.txt",
+      "text_sha256": "111a4eb51e803c13e732cd114e4c4406d8c05414d7dab0cb60c4766272b86f68",
+      "ticker": "MTO",
+      "url": "https://www.mitie.com/wp-content/uploads/2026/06/Mitie_FY18-19_ARA_28Jun19-1-3.pdf"
     },
     "rv2-MTO-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 218,
+      "raw_path": "data/raw/restructuring_v2/gb-mto/annual-report-2021.pdf",
+      "raw_sha256": "c1b8ac9316d000e576c3fb6a15dd78cb84b3b4e3764d8a6bc4486c205c57a3f5",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MTO"
+      "retrieved_at": "2026-08-15T07:11:53.399179+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mto/annual-report-2021.txt",
+      "text_sha256": "729a47ae3587f6a24e5d888f15706d75e2efa9310d1319818a66d8fae89b6da5",
+      "ticker": "MTO",
+      "url": "https://www.mitie.com/wp-content/uploads/2026/06/Mitie-Group-_ARA-2021.pdf"
     },
     "rv2-MTO-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MTO.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 220,
+      "raw_path": "data/raw/restructuring_v2/gb-mto/annual-report-2023.pdf",
+      "raw_sha256": "7ffdf161713b6ac1286c2903f274eeb50c7d3e05a4b0dc0cd1710e7d9121aba9",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MTO"
+      "retrieved_at": "2026-08-15T07:11:52.436031+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-mto/annual-report-2023.txt",
+      "text_sha256": "56c59db62c0439fafa01aa142fc3fc154182741c13bbafdc17a9c17834048124",
+      "ticker": "MTO",
+      "url": "https://www.mitie.com/wp-content/uploads/2026/06/Mitie-Annual-Report-2023.pdf"
     },
     "rv2-NCC-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "21 September \n2010",
+        "24 July 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2019.pdf"
-      ],
+      "page_count": 164,
+      "raw_path": "data/raw/restructuring_v2/gb-ncc/annual-report-2019.pdf",
+      "raw_sha256": "fad46e801df29735264038d5252d5f4a4c8c1d4f7318ecaafcb750bae4694513",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "NCC"
+      "retrieved_at": "2026-08-15T07:11:38.107327+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ncc/annual-report-2019.txt",
+      "text_sha256": "7e5fbe5896278e24629240c11e54447a9466a0dc601d43caceb20439659f4b1d",
+      "ticker": "NCC",
+      "url": "https://www.nccgroupplc.com/media/p4qdjc4j/ncc-group-annual-report-aug-2019-1.pdf"
     },
     "rv2-NCC-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "25 September \n2019",
+        "14 September 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2021.pdf"
-      ],
+      "page_count": 196,
+      "raw_path": "data/raw/restructuring_v2/gb-ncc/annual-report-2021.pdf",
+      "raw_sha256": "a0e2421b941eb3407f169616a3258f2102954eed8f7ae9ec9a61db4766c46da0",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "NCC"
+      "retrieved_at": "2026-08-15T07:11:43.312463+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ncc/annual-report-2021.txt",
+      "text_sha256": "d3f51c072dece3491433446080bdc3159baeab9d195253cbdac90dc18b3e53f0",
+      "ticker": "NCC",
+      "url": "https://www.nccgroupplc.com/media/rbaovq0g/ncc-group-plc-annual-report-and-accounts-for-the-year-ended-31-may-2021.pdf"
     },
     "rv2-NCC-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "25 September 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/n/LSE_NCC.L_2023.pdf"
-      ],
+      "page_count": 222,
+      "raw_path": "data/raw/restructuring_v2/gb-ncc/annual-report-2023.pdf",
+      "raw_sha256": "e2c9d29050215a5aef16e7e7cc2bb7b7089f629cb2a1b4694e15145509a73529",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "NCC"
+      "retrieved_at": "2026-08-15T07:11:52.160569+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ncc/annual-report-2023.txt",
+      "text_sha256": "8840f55144fc9753209fe517343ff47887cb645c81a0feae3c975d541141a142",
+      "ticker": "NCC",
+      "url": "https://www.nccgroupplc.com/media/5dkl3r3j/ncc-group-plc-annual-report-and-accounts-for-the-year-ended-31-may-2023.pdf"
     },
     "rv2-OMG-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 78,
+      "raw_path": "data/raw/restructuring_v2/gb-omg/annual-report-2019.pdf",
+      "raw_sha256": "c1c2610974c72737eaf68a401184a31994688d976ba9b329103a963d68367863",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "OMG"
+      "retrieved_at": "2026-08-15T07:11:31.068630+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-omg/annual-report-2019.txt",
+      "text_sha256": "118a770262f9976523c8b010c8bb75f89e23d50468c8cca7e305671a85492c7e",
+      "ticker": "OMG",
+      "url": "https://oxfordmetrics.com/file/oxfordmetrics/oxford-metrics-2019-annual-report-13644.pdf"
     },
     "rv2-OMG-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 80,
+      "raw_path": "data/raw/restructuring_v2/gb-omg/annual-report-2021.pdf",
+      "raw_sha256": "b62d87286a06fb34532ada7a6f1682e826494689f248ad2dbe174cdb41480f4e",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "OMG"
+      "retrieved_at": "2026-08-15T07:11:34.427938+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-omg/annual-report-2021.txt",
+      "text_sha256": "29e44f1bfcd8f3352eb577b4ba18747ed63bc02d1f843edca4bf42b792d0e7a8",
+      "ticker": "OMG",
+      "url": "https://oxfordmetrics.com/file/oxfordmetrics/2021-oxford-metrics-annual-report-96413.pdf"
     },
     "rv2-OMG-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/o/LSE_OMG.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 81,
+      "raw_path": "data/raw/restructuring_v2/gb-omg/annual-report-2023.pdf",
+      "raw_sha256": "8824c10b41f41965a99e3924c60f8d2b7cc772c6f1e9954bcc0546851103419a",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "OMG"
+      "retrieved_at": "2026-08-15T07:11:32.020929+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-omg/annual-report-2023.txt",
+      "text_sha256": "d7beaec3adf9a9ad4851a81aa32365c3b319bb81e75f76dc8025348f9d74da20",
+      "ticker": "OMG",
+      "url": "https://oxfordmetrics.com/file/oxfordmetrics/2023-om-annual-report-41062.pdf"
     },
     "rv2-OXIG-2020-12-31": {
       "attempt_results": [
