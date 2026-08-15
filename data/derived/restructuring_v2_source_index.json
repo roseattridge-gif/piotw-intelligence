@@ -1948,67 +1948,45 @@
       "ticker": "HSS"
     },
     "rv2-HTG-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 196,
+      "raw_path": "data/raw/restructuring_v2/gb-htg/annual-report-2019.pdf",
+      "raw_sha256": "d09640000faa95a5e26e4192fa510ee8e8e7c8b548d1335e6cd07d02768dfc0b",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "HTG"
+      "retrieved_at": "2026-08-15T07:52:43.738201+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-htg/annual-report-2019.txt",
+      "text_sha256": "38aab07018189d5d8759c4dc4b68431adfcfd4cffb1e25ea904dfe5516743bae",
+      "ticker": "HTG",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2019.pdf"
     },
     "rv2-HTG-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "7 February 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2021.pdf"
-      ],
+      "page_count": 236,
+      "raw_path": "data/raw/restructuring_v2/gb-htg/annual-report-2021.pdf",
+      "raw_sha256": "85e07832213e60908cf5f2c2384099457c1ec5deab70e66f8c09644092ed6d57",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "HTG"
+      "retrieved_at": "2026-08-15T07:52:41.040819+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-htg/annual-report-2021.txt",
+      "text_sha256": "2873d625e89c91ee36e4988f532ef60fd4132b6abaa92c4cff6c4552374e55ca",
+      "ticker": "HTG",
+      "url": "https://media.huntingplc.com/investors/results-and-reports/2021/hunting-annual-report-and-accounts-2021.pdf"
     },
     "rv2-HTG-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 256,
+      "raw_path": "data/raw/restructuring_v2/gb-htg/annual-report-2023.pdf",
+      "raw_sha256": "7c8fdc5ce31c98097441fa0f9aab4c6f31e10d8abf00619d2707c47d0585cd5a",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "HTG"
+      "retrieved_at": "2026-08-15T07:52:41.229148+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-htg/annual-report-2023.txt",
+      "text_sha256": "5e1a0348a52e6bca5f71d61a4f61d626c40660b8dba474a38b438fb251b1144a",
+      "ticker": "HTG",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/h/LSE_HTG_2023.pdf"
     },
     "rv2-IBST-2020-12-31": {
       "attempt_results": [
@@ -3187,67 +3165,53 @@
       "ticker": "RNO"
     },
     "rv2-RNWH-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "26 November 2019",
+        "26 November 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2019.pdf"
-      ],
+      "page_count": 116,
+      "raw_path": "data/raw/restructuring_v2/gb-rnwh/annual-report-2019.pdf",
+      "raw_sha256": "b32a1a085f88aedd8bf11adb1f51946bbfa1ca0e50621a767decb142baddd946",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "RNWH"
+      "retrieved_at": "2026-08-15T07:52:25.753359+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rnwh/annual-report-2019.txt",
+      "text_sha256": "cd782ed9379ef3a5499260f329914e72341606c94f19094e8caf48d6efa4463e",
+      "ticker": "RNWH",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2019.pdf"
     },
     "rv2-RNWH-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "9 December 2021",
+        "9 December 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2021.pdf"
-      ],
+      "page_count": 148,
+      "raw_path": "data/raw/restructuring_v2/gb-rnwh/annual-report-2021.pdf",
+      "raw_sha256": "1f91d6171425e512e63d29b047b00f72f45e6a051c82e78b16f58f636d70a6cb",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "RNWH"
+      "retrieved_at": "2026-08-15T07:52:28.645239+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rnwh/annual-report-2021.txt",
+      "text_sha256": "bfc01d0fff31cb97c583bd7cf2477d40ab1ea2fcba4888b1aa989eb92449a662",
+      "ticker": "RNWH",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2021.pdf"
     },
     "rv2-RNWH-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "27 November 2023",
+        "10 March 2022",
+        "27 November 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH.L_2023.pdf"
-      ],
+      "page_count": 158,
+      "raw_path": "data/raw/restructuring_v2/gb-rnwh/annual-report-2023.pdf",
+      "raw_sha256": "4216557366a5af543b6cada10fc7660f1896105243d83de54cf566b2f39e9d09",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "RNWH"
+      "retrieved_at": "2026-08-15T07:52:34.367692+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rnwh/annual-report-2023.txt",
+      "text_sha256": "c8fbf3ea015081663e820d2b9cd349fd4a8b1e83a0bea9d5afe8ccee7e211af0",
+      "ticker": "RNWH",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNWH_2023.pdf"
     },
     "rv2-RR.-2020-12-31": {
       "approval_date_candidates": [
@@ -3361,67 +3325,45 @@
       "ticker": "RST"
     },
     "rv2-RTO-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 188,
+      "raw_path": "data/raw/restructuring_v2/gb-rto/annual-report-2019.pdf",
+      "raw_sha256": "e98cce2878b6309a495b17afdf2ee8488ffa46c170220fc8f01887302b45192d",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "RTO"
+      "retrieved_at": "2026-08-15T07:52:42.472683+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rto/annual-report-2019.txt",
+      "text_sha256": "e7143b420d071e8b9e7e24eae429d1b521605cbb5421d19e0307ed20617a8fab",
+      "ticker": "RTO",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2019.pdf"
     },
     "rv2-RTO-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 224,
+      "raw_path": "data/raw/restructuring_v2/gb-rto/annual-report-2021.pdf",
+      "raw_sha256": "bb9f55c24987e5d0d0233d54c42eb685a9815851603d6c651cccb89e00eb7634",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "RTO"
+      "retrieved_at": "2026-08-15T07:52:45.071317+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rto/annual-report-2021.txt",
+      "text_sha256": "4020d75a821113360271d086feabba34e3e6b9482641fae6a6e6b8b6cdaa48e7",
+      "ticker": "RTO",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2021.pdf"
     },
     "rv2-RTO-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "10 May 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO.L_2023.pdf"
-      ],
+      "page_count": 252,
+      "raw_path": "data/raw/restructuring_v2/gb-rto/annual-report-2023.pdf",
+      "raw_sha256": "32672d1bcd24a2f65b8bbb8dca8eee89115f34fd7ced7cf7af1ec596361c25d3",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "RTO"
+      "retrieved_at": "2026-08-15T07:52:46.212062+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rto/annual-report-2023.txt",
+      "text_sha256": "f42962d16156e8d98720998d3501993e925251ec647fc9454d54df017dae2782",
+      "ticker": "RTO",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RTO_2023.pdf"
     },
     "rv2-SAG-2020-12-31": {
       "attempt_results": [
