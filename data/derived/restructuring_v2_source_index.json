@@ -4208,67 +4208,43 @@
       "ticker": "VLX"
     },
     "rv2-VP.-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 102,
+      "raw_path": "data/raw/restructuring_v2/gb-vp/annual-report-2019.pdf",
+      "raw_sha256": "6bf6f453793c11a60d91bacfaa25e3683d1e6e97b24323eee1668366e850d15c",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "VP."
+      "retrieved_at": "2026-08-15T12:23:29.149386+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vp/annual-report-2019.txt",
+      "text_sha256": "67a78a88c007504de2ef79b19756b4a9a8ed470fbb7da8fce16218934640f01a",
+      "ticker": "VP.",
+      "url": "https://www.vpplc.com/media/extldb43/vpplc-annualreport-2019.pdf"
     },
     "rv2-VP.-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 116,
+      "raw_path": "data/raw/restructuring_v2/gb-vp/annual-report-2021.pdf",
+      "raw_sha256": "3cceda95e5d70c21044d12aa89863c77f223cdf4e4f2705feb56839a0f36786a",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "VP."
+      "retrieved_at": "2026-08-15T12:23:28.952251+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vp/annual-report-2021.txt",
+      "text_sha256": "9bb58865ea9768b6d0af17c30ccb371a84a6e455a4cedc45e4f2f41c497a9a31",
+      "ticker": "VP.",
+      "url": "https://www.vpplc.com/media/qvam3kt5/vp-plc-2021-annual-report.pdf"
     },
     "rv2-VP.-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VP.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 133,
+      "raw_path": "data/raw/restructuring_v2/gb-vp/annual-report-2023.pdf",
+      "raw_sha256": "2b2cc3aa4e87266f7dabb48021a80604464678c2759623ead7a9e5be6c7f3058",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "VP."
+      "retrieved_at": "2026-08-15T12:23:27.385523+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vp/annual-report-2023.txt",
+      "text_sha256": "fe5091276c8977b02896d8ee28082224e0e1a66e6f67b9a39e5204be2dd009b9",
+      "ticker": "VP.",
+      "url": "https://www.vpplc.com/media/l2cakwbt/vp-annual-report-and-accounts-2023.pdf"
     },
     "rv2-VSVS-2020-12-31": {
       "approval_date_candidates": [
