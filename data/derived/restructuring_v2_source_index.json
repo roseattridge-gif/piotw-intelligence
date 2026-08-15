@@ -3746,67 +3746,58 @@
       "ticker": "SRP"
     },
     "rv2-STAF-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "24 April 2020",
+        "31 January 2020",
+        "26 April 2020",
+        "31 January 2020",
+        "23 April 2020",
+        "24 April 2020",
+        "24 April 2020",
+        "31 January \n2020",
+        "17 September 2019",
+        "23 April 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2019.pdf"
-      ],
+      "page_count": 112,
+      "raw_path": "data/raw/restructuring_v2/gb-staf/annual-report-2019.pdf",
+      "raw_sha256": "1b0fd7ca709437527eab18030c6c6aa9fdc09db203b132559c8116077f88c1fe",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "STAF"
+      "retrieved_at": "2026-08-15T11:59:40.039657+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-staf/annual-report-2019.txt",
+      "text_sha256": "553a3b3b327dd758a1a4176143ae48a5724dbbaa0498e2fa6676ff1a4626ccb0",
+      "ticker": "STAF",
+      "url": "https://www.stafflinegroupplc.co.uk/media/1247/staffline_ar19.pdf"
     },
     "rv2-STAF-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "26 April 2020",
+        "24 April 2020",
+        "31 January 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2021.pdf"
-      ],
+      "page_count": 128,
+      "raw_path": "data/raw/restructuring_v2/gb-staf/annual-report-2021.pdf",
+      "raw_sha256": "268209b5281c508defdc5359697f136d6ce00d5f3d8947ca3186d0aa4de636c6",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "STAF"
+      "retrieved_at": "2026-08-15T11:59:39.533163+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-staf/annual-report-2021.txt",
+      "text_sha256": "06bc3cb55bf36ac7bf971a35058cc90b14d620aeecfb5112bee5b0b71a0fe6cd",
+      "ticker": "STAF",
+      "url": "https://www.stafflinegroupplc.co.uk/media/1319/staffline-annual-report-2021.pdf"
     },
     "rv2-STAF-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_STAF.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 148,
+      "raw_path": "data/raw/restructuring_v2/gb-staf/annual-report-2023.pdf",
+      "raw_sha256": "655dd8f6eafd91f1998d7316ce314d17cb0af85e265ad57614f10be342f4bbd0",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "STAF"
+      "retrieved_at": "2026-08-15T11:59:40.193674+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-staf/annual-report-2023.txt",
+      "text_sha256": "708ec4c504a077d4febe5260054c99588826d4b549364cbae21aeee7e1fa824e",
+      "ticker": "STAF",
+      "url": "https://www.stafflinegroupplc.co.uk/media/1396/43800-staffline-ar23-web.pdf"
     },
     "rv2-SXS-2020-12-31": {
       "approval_date_candidates": [
