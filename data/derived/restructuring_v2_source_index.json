@@ -4257,67 +4257,43 @@
       "url": "https://report2023.vesuvius.com/media/vjidh3pq/veusvius_ar23_online.pdf"
     },
     "rv2-WATR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 69,
+      "raw_path": "data/raw/restructuring_v2/gb-watr/annual-report-2019.pdf",
+      "raw_sha256": "96c0901b5addd3ffa8683655a63e936d44a1d6e306a225e0549fd87e83b65254",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "WATR"
+      "retrieved_at": "2026-08-15T12:46:17.082095+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-watr/annual-report-2019.txt",
+      "text_sha256": "d676efecf561df2588b23fe46720999348df8175fd32070b545f14e6a4e3f549",
+      "ticker": "WATR",
+      "url": "https://www.waterintelligence.co.uk/wp-content/uploads/2020/06/WI-2019-Accounts-Final-Release.pdf"
     },
     "rv2-WATR-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 72,
+      "raw_path": "data/raw/restructuring_v2/gb-watr/annual-report-2021.pdf",
+      "raw_sha256": "8b8ded6ddc1969be9e001ea0c4241c1a31cc899dbeb0a7bb2f26950bbcf02ad0",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "WATR"
+      "retrieved_at": "2026-08-15T12:46:17.082439+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-watr/annual-report-2021.txt",
+      "text_sha256": "581a81c39b1d3e249154a3ae37d0c46dba4457839a086e1b6b610bc7c29bf773",
+      "ticker": "WATR",
+      "url": "https://waterintelligence.co.uk/wp-content/uploads/2022/06/WI-2021-FINAL-FOR-PRINTING.pdf"
     },
     "rv2-WATR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/w/LSE_WATR.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 77,
+      "raw_path": "data/raw/restructuring_v2/gb-watr/annual-report-2023.pdf",
+      "raw_sha256": "40a0d04e3054cedbabbfd9eb10427df5f8ba31cd9b24eb0897d5273be7015a9c",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "WATR"
+      "retrieved_at": "2026-08-15T12:46:17.082211+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-watr/annual-report-2023.txt",
+      "text_sha256": "c72ce475ded7be42653018bf2f4cbc70dde81437df91fb90c3fa5c75c4a968d2",
+      "ticker": "WATR",
+      "url": "https://waterintelligence.co.uk/wp-content/uploads/2024/06/WI-2023-Final-Annual-Report.pdf"
     },
     "rv2-WEIR-2020-12-31": {
       "approval_date_candidates": [],
