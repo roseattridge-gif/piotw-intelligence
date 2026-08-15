@@ -4145,67 +4145,43 @@
       "url": "https://www.ttelectronics.com/getmedia/681069e2-134f-4da8-897c-e45a440d29a6/2023AR_website.pdf"
     },
     "rv2-VLX-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 132,
+      "raw_path": "data/raw/restructuring_v2/gb-vlx/annual-report-2019.pdf",
+      "raw_sha256": "468530826ccd2cc8d413ab30babfb84e7085c7e9dfd914c5f13a7d39c22823f0",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "VLX"
+      "retrieved_at": "2026-08-15T12:39:38.288540+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vlx/annual-report-2019.txt",
+      "text_sha256": "0c2f6cfac91bb2b1d8f71e615da9338d7e67013fdbdbdec190dd18db25346bfb",
+      "ticker": "VLX",
+      "url": "https://www.volex.com/media/qadda5ko/volex-ar2019_web.pdf"
     },
     "rv2-VLX-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 168,
+      "raw_path": "data/raw/restructuring_v2/gb-vlx/annual-report-2021.pdf",
+      "raw_sha256": "e0d42021c0b7266bccc484f30f7dc4fc11e460b32427980ba62ef1d6c6b09ca9",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "VLX"
+      "retrieved_at": "2026-08-15T12:39:42.117343+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vlx/annual-report-2021.txt",
+      "text_sha256": "ca84afb3b67ca959af36c959af747f63c660be0486a82d1ff473f7e2346060a6",
+      "ticker": "VLX",
+      "url": "https://www.volex.com/media/xwmac1y5/volex-ar21-web.pdf"
     },
     "rv2-VLX-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VLX.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 196,
+      "raw_path": "data/raw/restructuring_v2/gb-vlx/annual-report-2023.pdf",
+      "raw_sha256": "b3d0902ee0ff54a9298ad9643216f1ebc44a2a3999c73a9d8bebf8f00c856206",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "VLX"
+      "retrieved_at": "2026-08-15T12:39:43.379725+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vlx/annual-report-2023.txt",
+      "text_sha256": "b22e87f51915a2ed64c00dc0311d17f4d431ff754564abb9ae03624e156658a6",
+      "ticker": "VLX",
+      "url": "https://www.volex.com/media/hjgp05ea/volex-annual-report-2023.pdf"
     },
     "rv2-VP.-2020-12-31": {
       "approval_date_candidates": [],
