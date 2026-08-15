@@ -3364,46 +3364,45 @@
       "ticker": "SDY"
     },
     "rv2-SDY-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "24 May 2021",
+        "24 May 2021",
+        "24 May 2021",
+        "24 May 2021",
+        "24 May 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2021.pdf"
-      ],
+      "page_count": 160,
+      "raw_path": "data/raw/restructuring_v2/gb-sdy/annual-report-2021.pdf",
+      "raw_sha256": "6958e1b30abb9cc58705a6d99ea8b21a18045a4517d9a35004421b69ecec60b0",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "SDY"
+      "retrieved_at": "2026-08-15T10:28:42.910492+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sdy/annual-report-2021.txt",
+      "text_sha256": "a00ff52c318acacb847c6b4d29020395056a869e0c315040c9ae5ec7a74d3987",
+      "ticker": "SDY",
+      "url": "https://assets.speedyhire.com/download/assets/2021+Annual+Report.pdf/ab475adea1d211ef905752c7bfad36fe"
     },
     "rv2-SDY-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "30 June 2023",
+        "30 June 2023",
+        "30 June 2023",
+        "27 May 2022",
+        "30 June 2023",
+        "30 June 2023",
+        "30 June 2023",
+        "30 June 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/s/LSE_SDY.L_2023.pdf"
-      ],
+      "page_count": 192,
+      "raw_path": "data/raw/restructuring_v2/gb-sdy/annual-report-2023.pdf",
+      "raw_sha256": "80977cc98b940a4f6bf13c40e51ab39676bd85b7c442dcbdbea776471c4d2be8",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "SDY"
+      "retrieved_at": "2026-08-15T10:28:43.327029+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-sdy/annual-report-2023.txt",
+      "text_sha256": "fd6bea4e5f2b3b74bdbaa2d4c7159093fc874c659c03493305b87acd8dcb0f42",
+      "ticker": "SDY",
+      "url": "https://assets.speedyhire.com/download/assets/2023+Annual+Report.pdf/a70115bea1d211ef972c1205d4abfe97"
     },
     "rv2-SFR-2020-12-31": {
       "attempt_results": [
