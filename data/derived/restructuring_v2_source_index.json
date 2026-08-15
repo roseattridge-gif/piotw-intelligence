@@ -3140,67 +3140,43 @@
       "url": "https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/annual-report/2024/2023-annual-report.pdf"
     },
     "rv2-RST-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 118,
+      "raw_path": "data/raw/restructuring_v2/gb-rst/annual-report-2019.pdf",
+      "raw_sha256": "1d66fbcce6b845d0e0cad4786b67b132bb20227e91090421dd3e1330b4bed1c0",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "RST"
+      "retrieved_at": "2026-08-15T10:17:24.539657+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rst/annual-report-2019.txt",
+      "text_sha256": "9ff0a7a87314b05e00c002f1ce841bf58f10cdcf9488f40b3a5f3ef309415feb",
+      "ticker": "RST",
+      "url": "https://www.restoreplc.com/wp-content/uploads/2025/02/FY_2019_AR_Latest.pdf"
     },
     "rv2-RST-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 126,
+      "raw_path": "data/raw/restructuring_v2/gb-rst/annual-report-2021.pdf",
+      "raw_sha256": "3d18650b8a6672fccaf3c988dc7512b5b3ff38f1eeceb5f24f3db742aeaf4753",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "RST"
+      "retrieved_at": "2026-08-15T10:17:25.272711+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rst/annual-report-2021.txt",
+      "text_sha256": "b4d63b44a935976fbb7c8d0dbd6a01649758e31f4bf7a263966799fbb123b3c5",
+      "ticker": "RST",
+      "url": "https://www.restoreplc.com/wp-content/uploads/2025/02/2021-Restore-plc-Annual-Report-16-March-2022.pdf"
     },
     "rv2-RST-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RST.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 152,
+      "raw_path": "data/raw/restructuring_v2/gb-rst/annual-report-2023.pdf",
+      "raw_sha256": "35e2de27873923573319626e548645b19bf3591a6bea6faf4632f9d224c91d39",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "RST"
+      "retrieved_at": "2026-08-15T10:17:25.359216+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rst/annual-report-2023.txt",
+      "text_sha256": "49f09c3b1059dee15fcdf9ec55baf8aaefac2f4bc1ca9661cb4d87cf0adfdafe",
+      "ticker": "RST",
+      "url": "https://www.restoreplc.com/wp-content/uploads/2025/02/267430-Restore-RA-2023_FINAL-1.pdf"
     },
     "rv2-RTO-2020-12-31": {
       "approval_date_candidates": [],
