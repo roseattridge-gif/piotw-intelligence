@@ -395,25 +395,17 @@
       "ticker": "BRCK"
     },
     "rv2-BREE-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BREE.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 144,
+      "raw_path": "data/raw/restructuring_v2/gb-bree/annual-report-2019.pdf",
+      "raw_sha256": "e341069854154fde5c36fbdee30b7258b5acd922c0c7ac4e4d0c3aa8f4feb704",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "BREE"
+      "retrieved_at": "2026-08-15T08:12:25.839182+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-bree/annual-report-2019.txt",
+      "text_sha256": "fd95bf1ec4a65b075e18fdd1d29eaaed846d7f3ae18bf99d9444d95fc5177f91",
+      "ticker": "BREE",
+      "url": "https://www.breedongroup.com/content/dam/breedon/corporate/documents/investors/results-reports-presentations/annual-reports/ANNUAL%20REPORT%202019.pdf.downloadasset.pdf"
     },
     "rv2-BREE-2022-12-31": {
       "approval_date_candidates": [],
