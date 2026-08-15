@@ -4303,67 +4303,43 @@
       "url": "https://corporate.xppower.com/storage/reports/ar2023.pdf"
     },
     "rv2-ZTF-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 137,
+      "raw_path": "data/raw/restructuring_v2/gb-ztf/annual-report-2019.pdf",
+      "raw_sha256": "b7b388876123358c8f4bff77bc6e8dcfcb4b9ea20d5f28a1aabc0dedcc86908f",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "ZTF"
+      "retrieved_at": "2026-08-15T14:58:30.901567+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ztf/annual-report-2019.txt",
+      "text_sha256": "7beef9cf256019f208459c57ce19e74fa52a7553ba04ca09a6f4b98a12d6bf3b",
+      "ticker": "ZTF",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02714645/filing-history/MzI2NzIzMzA2NWFkaXF6a2N4/document?download=0&format=pdf"
     },
     "rv2-ZTF-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 165,
+      "raw_path": "data/raw/restructuring_v2/gb-ztf/annual-report-2021.pdf",
+      "raw_sha256": "3c8287c3201d06b35bb0ec860f02fff6d33d524515c549fc6fd6641ed07391e2",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "ZTF"
+      "retrieved_at": "2026-08-15T14:58:29.264893+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ztf/annual-report-2021.txt",
+      "text_sha256": "d9d8b3764e01c6c44bd32f4b6566a49c4e91dace1069ca9d7ce408540ea5b599",
+      "ticker": "ZTF",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02714645/filing-history/MzM0MTgxNzkyOGFkaXF6a2N4/document?download=0&format=pdf"
     },
     "rv2-ZTF-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/z/LSE_ZTF.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 167,
+      "raw_path": "data/raw/restructuring_v2/gb-ztf/annual-report-2023.pdf",
+      "raw_sha256": "acd1837535ef1316e3ee20a47b0a5cc6bd418ef7212322262176f8417da0e36c",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "ZTF"
+      "retrieved_at": "2026-08-15T14:58:32.574924+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ztf/annual-report-2023.txt",
+      "text_sha256": "d54a043f464eb3b0071f7ca571f86880f496cbcff8c304f14d00f754a53f07bb",
+      "ticker": "ZTF",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02714645/filing-history/MzQyNDU4ODM0N2FkaXF6a2N4/document?download=0&format=pdf"
     }
   }
 }
