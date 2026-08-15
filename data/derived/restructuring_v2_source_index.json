@@ -4271,67 +4271,50 @@
       "ticker": "VP."
     },
     "rv2-VSVS-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "27 February 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2019.pdf"
-      ],
+      "page_count": 208,
+      "raw_path": "data/raw/restructuring_v2/gb-vsvs/annual-report-2019.pdf",
+      "raw_sha256": "9ea218d1582e802afef6a99842aed351a9b951419c7671259f9fd942c6f24454",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "VSVS"
+      "retrieved_at": "2026-08-15T12:13:52.260735+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vsvs/annual-report-2019.txt",
+      "text_sha256": "38ce8e372cb885bb1067822e06b31bf9fddfad7dd65c97497badc19449e03576",
+      "ticker": "VSVS",
+      "url": "https://www.vesuvius.com/content/dam/vesuvius/corporate/investors/results-reports-and-presentations/results/2020/Vesuvius_AR19_single.pdf.downloadasset.pdf"
     },
     "rv2-VSVS-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "3 March 2022",
+        "5 July 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2021.pdf"
-      ],
+      "page_count": 123,
+      "raw_path": "data/raw/restructuring_v2/gb-vsvs/annual-report-2021.pdf",
+      "raw_sha256": "867bdd283f1846b7fab8105a1c3f3064a48169aebfad0465eea7cab7d7409b15",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "VSVS"
+      "retrieved_at": "2026-08-15T12:13:52.536626+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vsvs/annual-report-2021.txt",
+      "text_sha256": "b84ae88b640e1c0658f1105c70f33fc061a637cbaf2b2ce807bd42aad5f38a86",
+      "ticker": "VSVS",
+      "url": "https://report2021.vesuvius.com/media/1268/vesuvius_ar21_online-spread.pdf"
     },
     "rv2-VSVS-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "28 February \n2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/v/LSE_VSVS.L_2023.pdf"
-      ],
+      "page_count": 226,
+      "raw_path": "data/raw/restructuring_v2/gb-vsvs/annual-report-2023.pdf",
+      "raw_sha256": "6a09803d91beb5bef6d521ab43a96114dab9ff7822027046e53509d291387ccc",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "VSVS"
+      "retrieved_at": "2026-08-15T12:13:48.133419+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-vsvs/annual-report-2023.txt",
+      "text_sha256": "b66544d731caaac4bf915be857d7c335e63a482cd148519ff261aa5f0ee07a8a",
+      "ticker": "VSVS",
+      "url": "https://report2023.vesuvius.com/media/vjidh3pq/veusvius_ar23_online.pdf"
     },
     "rv2-WATR-2020-12-31": {
       "attempt_results": [
