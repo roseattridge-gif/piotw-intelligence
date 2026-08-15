@@ -1734,67 +1734,43 @@
       "url": "https://www.gbgplc.com/media/ttsjoyyr/gbg_annual_report_2023_hyperlink.pdf"
     },
     "rv2-GDWN-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 96,
+      "raw_path": "data/raw/restructuring_v2/gb-gdwn/annual-report-2019.pdf",
+      "raw_sha256": "557b3fed372e93fcaea83e277be19789cbc6658f31304adb5f95c5e247433cfa",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "GDWN"
+      "retrieved_at": "2026-08-15T06:14:35.928685+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gdwn/annual-report-2019.txt",
+      "text_sha256": "44d0e1f9c9ee264e914d894ffbbcc9d53940c757e623fc84b8b0e91dfd11ac7a",
+      "ticker": "GDWN",
+      "url": "https://www.goodwin.co.uk/wp-content/uploads/2020/07/AR_2019.pdf"
     },
     "rv2-GDWN-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 99,
+      "raw_path": "data/raw/restructuring_v2/gb-gdwn/annual-report-2021.pdf",
+      "raw_sha256": "8152227bed39a0600494d10499b4dbd604ea966d3a478fc2f0be2e4e83300eea",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "GDWN"
+      "retrieved_at": "2026-08-15T06:14:38.348488+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gdwn/annual-report-2021.txt",
+      "text_sha256": "137fa6a848821255c6953feac570df796fe747d55c8370f8f12a9b4a17950569",
+      "ticker": "GDWN",
+      "url": "https://www.goodwin.co.uk/wp-content/uploads/2021/08/Unsecure-Goodwin-Directors-Report-2021.pdf"
     },
     "rv2-GDWN-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/g/LSE_GDWN.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 107,
+      "raw_path": "data/raw/restructuring_v2/gb-gdwn/annual-report-2023.pdf",
+      "raw_sha256": "ad8dcd3ee605bac917d6f1b0040eac3b843b35f9c2cdb6d23eec2c747317a454",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "GDWN"
+      "retrieved_at": "2026-08-15T06:14:38.263986+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-gdwn/annual-report-2023.txt",
+      "text_sha256": "1e8ec8bff5ea2f01fc197fe5d1c8185e84165de4cf855abf5c5169de1373986c",
+      "ticker": "GDWN",
+      "url": "https://www.goodwin.co.uk/wp-content/uploads/2023/08/64434-Goodwin-Directors-Report-2023-final.pdf"
     },
     "rv2-GEN-2020-12-31": {
       "attempt_results": [
