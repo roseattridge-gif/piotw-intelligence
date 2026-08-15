@@ -654,46 +654,30 @@
       "url": "https://www.chemring.com/~/media/Files/C/Chemring-V3/docs/annual-report-and-accounts-jan-2024.pdf"
     },
     "rv2-CHRT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 116,
+      "raw_path": "data/raw/restructuring_v2/gb-chrt/annual-report-2019.pdf",
+      "raw_sha256": "f0503ba14dd744dd39892bd0f5148b5ad65fefed78a87e0c6eb3ee9d3fe5389d",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "CHRT"
+      "retrieved_at": "2026-08-14T19:26:25.739231+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-chrt/annual-report-2019.txt",
+      "text_sha256": "4ec5f36b3a7c30392736a4f68c2d6a58642fdc3925ed5fb50436288556b34fa5",
+      "ticker": "CHRT",
+      "url": "https://www.cohortplc.com/download_file/force/262/241"
     },
     "rv2-CHRT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CHRT.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 122,
+      "raw_path": "data/raw/restructuring_v2/gb-chrt/annual-report-2023.pdf",
+      "raw_sha256": "9fbebdc7937c75ec40a7686efd0a688fb71847a7656eb578882d6f3be4765313",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "CHRT"
+      "retrieved_at": "2026-08-14T19:26:27.682488+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-chrt/annual-report-2023.txt",
+      "text_sha256": "06c5e64434c1ffac093040e1cff62fd507c15c6e25cd9dcdc2d78d1a1147eece",
+      "ticker": "CHRT",
+      "url": "https://www.cohortplc.com/application/files/9616/9277/0406/Cohort_plc_Annual_Report_and_Accounts_2023.pdf"
     },
     "rv2-CNC-2020-12-31": {
       "attempt_results": [
