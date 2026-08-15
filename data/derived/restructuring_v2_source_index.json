@@ -1206,46 +1206,30 @@
       "url": "https://irp.cdn-website.com/ea085650/files/uploaded/Empresaria%20Annual%20Report%202023.pdf"
     },
     "rv2-EPWN-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 104,
+      "raw_path": "data/raw/restructuring_v2/gb-epwn/annual-report-2019.pdf",
+      "raw_sha256": "d4ae19e9eb2aa5ebc9a8378d04188171323d1aadfb5472165357b1404fafd241",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "EPWN"
+      "retrieved_at": "2026-08-15T13:54:36.732931+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-epwn/annual-report-2019.txt",
+      "text_sha256": "125ec6ad698c9494a18761bb3af03f4a11afa7990fe8a00aca29c6b15980d152",
+      "ticker": "EPWN",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07742256/filing-history/MzI2ODAyMzE1MWFkaXF6a2N4/document?format=pdf&download=0"
     },
     "rv2-EPWN-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EPWN.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 120,
+      "raw_path": "data/raw/restructuring_v2/gb-epwn/annual-report-2021.pdf",
+      "raw_sha256": "1b3e21a4b9c5b68b4864f0a86cbf2ae20f561ace83ecc5e0bc903567211002d0",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "EPWN"
+      "retrieved_at": "2026-08-15T13:54:38.026999+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-epwn/annual-report-2021.txt",
+      "text_sha256": "8c4e8cceaaeaaafa99a34d40ceaab2d1b7d12e83e8a6eec0042d5f7040d56e0c",
+      "ticker": "EPWN",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/07742256/filing-history/MzM0MjUwODM4NGFkaXF6a2N4/document?format=pdf&download=0"
     },
     "rv2-EPWN-2024-12-31": {
       "approval_date_candidates": [],
