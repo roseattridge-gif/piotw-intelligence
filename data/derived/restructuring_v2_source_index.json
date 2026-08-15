@@ -4121,67 +4121,52 @@
       "ticker": "TSTL"
     },
     "rv2-TTG-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "3 March 2020",
+        "3 March 2020",
+        "3 March 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2019.pdf"
-      ],
+      "page_count": 180,
+      "raw_path": "data/raw/restructuring_v2/gb-ttg/annual-report-2019.pdf",
+      "raw_sha256": "cb7a324fbd7b97cc38638a69fbb2a02a1d6362d0bccb8615128177e7299e41d2",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "TTG"
+      "retrieved_at": "2026-08-15T12:02:34.863563+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ttg/annual-report-2019.txt",
+      "text_sha256": "2a76c937e0946f7982c033b2554c6b2171761d7a4896def80cc5730377ca4bbb",
+      "ticker": "TTG",
+      "url": "https://www.ttelectronics.com/getattachment/6df88cea-cf19-4f32-a54e-07bd041029b7/2019_annual_report.pdf?lang=en-US"
     },
     "rv2-TTG-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "8 March 2022",
+        "8 March 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2021.pdf"
-      ],
+      "page_count": 218,
+      "raw_path": "data/raw/restructuring_v2/gb-ttg/annual-report-2021.pdf",
+      "raw_sha256": "9571200bf7a2ea5850d125e60eb0f464ee8915b328a8a3934cff7d4cd8755233",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "TTG"
+      "retrieved_at": "2026-08-15T12:02:38.918747+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ttg/annual-report-2021.txt",
+      "text_sha256": "17416087f20d95daa1f7afde97281619602f63b076b32faad0134ef2db2ca9a0",
+      "ticker": "TTG",
+      "url": "https://www.ttelectronics.com/getattachment/56ec899a-f47d-4d5b-a458-2d86a5f040a3/TT-AR-2021_for-web.pdf?lang=en-US"
     },
     "rv2-TTG-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "HTTP 429",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "6 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/t/LSE_TTG.L_2023.pdf"
-      ],
+      "page_count": 188,
+      "raw_path": "data/raw/restructuring_v2/gb-ttg/annual-report-2023.pdf",
+      "raw_sha256": "2721fb0c5723a76f2197b964aab3979626cae08e1edb910692a1d0251bc818bd",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "TTG"
+      "retrieved_at": "2026-08-15T12:02:38.922519+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-ttg/annual-report-2023.txt",
+      "text_sha256": "ef250197cec746b2dcfb7e8dd19d05a7a2f70aeb7e3989caf7985633683736df",
+      "ticker": "TTG",
+      "url": "https://www.ttelectronics.com/getmedia/681069e2-134f-4da8-897c-e45a440d29a6/2023AR_website.pdf"
     },
     "rv2-VLX-2020-12-31": {
       "attempt_results": [
