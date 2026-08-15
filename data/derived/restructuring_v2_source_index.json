@@ -2950,67 +2950,65 @@
       "url": "https://ir.rhimagnesita.com/wp-content/uploads/2024/02/rhim-ar-fy-2023-compressed.pdf"
     },
     "rv2-RNO-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "23 August 2019",
+        "28 May 2019",
+        "23 August 2019",
+        "28 May \n2019",
+        "23 August 2019",
+        "23 August 2019",
+        "28 May 2019",
+        "28 May 2019",
+        "23 August 2019"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2019.pdf"
-      ],
+      "page_count": 154,
+      "raw_path": "data/raw/restructuring_v2/gb-rno/annual-report-2019.pdf",
+      "raw_sha256": "bc68345e4703a73d0e459565617fe0117eec0e1407b041da5ebd98895b3048e1",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "RNO"
+      "retrieved_at": "2026-08-15T11:50:14.925267+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rno/annual-report-2019.txt",
+      "text_sha256": "c9a7b682e0b4e83e7306cbc1750f1e851480068c75c15f1816e970cd56b212da",
+      "ticker": "RNO",
+      "url": "https://investors.renold.com/~/media/Files/R/Renold-IR/documents/company-reports/company-reports/annual-report-2019.pdf"
     },
     "rv2-RNO-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "16 July 2021",
+        "12 November 2019",
+        "16 July 2021",
+        "16 July 2021",
+        "16 July 2021",
+        "16 July 2021"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2021.pdf"
-      ],
+      "page_count": 176,
+      "raw_path": "data/raw/restructuring_v2/gb-rno/annual-report-2021.pdf",
+      "raw_sha256": "ab0f116cce2dccc0e2f820711c9b03a96bcb141e1b0b089602d065ae3c678ed9",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "RNO"
+      "retrieved_at": "2026-08-15T11:50:12.891780+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rno/annual-report-2021.txt",
+      "text_sha256": "11c7261fbbd0e0f2b8cbce413ac91c017803a8bf892e750d25edb6a610ccf048",
+      "ticker": "RNO",
+      "url": "https://investors.renold.com/~/media/Files/R/Renold-IR/documents/company-reports/company-reports/30376-Renold-AR-2021.pdf"
     },
     "rv2-RNO-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "11 July 2023",
+        "11 July 2023",
+        "11 July 2023",
+        "11 July 2023"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/LSE_RNO.L_2023.pdf"
-      ],
+      "page_count": 172,
+      "raw_path": "data/raw/restructuring_v2/gb-rno/annual-report-2023.pdf",
+      "raw_sha256": "17ca2542ed28e7c22c69c603fde911d4897942029992a6fc8e0fec9b3f154d91",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "RNO"
+      "retrieved_at": "2026-08-15T11:50:13.736954+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-rno/annual-report-2023.txt",
+      "text_sha256": "9f0d6a94a00034150bdea41879fde5557ef5e3f3f20d33d861b14b2afcc7b3f3",
+      "ticker": "RNO",
+      "url": "https://investors.renold.com/~/media/Files/R/Renold-IR/documents/company-presentations/31437-renold-ar-2023-webready.pdf"
     },
     "rv2-RNWH-2020-12-31": {
       "approval_date_candidates": [
