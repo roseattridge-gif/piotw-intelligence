@@ -2402,67 +2402,43 @@
       "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LPA_2023.pdf"
     },
     "rv2-LUCE-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 156,
+      "raw_path": "data/raw/restructuring_v2/gb-luce/annual-report-2019.pdf",
+      "raw_sha256": "dbac769e0f518164718ebee075ce37b37576421aca56378e95dca839ba1a11a3",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "LUCE"
+      "retrieved_at": "2026-08-15T06:36:33.020883+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-luce/annual-report-2019.txt",
+      "text_sha256": "2ef5b5f9ac7357d97848b5c1bcab585112b595e3e1f62c4e8146fe6dd5a1f2f2",
+      "ticker": "LUCE",
+      "url": "https://www.lucecoplc.com/wp-content/uploads/2021/08/Web_01_Luceco_AR19.pdf"
     },
     "rv2-LUCE-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 168,
+      "raw_path": "data/raw/restructuring_v2/gb-luce/annual-report-2021.pdf",
+      "raw_sha256": "7778712611998da643d4fa2c95aea790d4758fbe13fde9d6f9c8964738cfac42",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "LUCE"
+      "retrieved_at": "2026-08-15T06:36:35.160963+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-luce/annual-report-2021.txt",
+      "text_sha256": "f3d6683f29bc6142f0d7890435ab911a56a9d73aa2d40bf524ba7f54547b1490",
+      "ticker": "LUCE",
+      "url": "https://www.lucecoplc.com/wp-content/uploads/2022/04/Luceco-PLC-FY-2021-Annual-Report-March-2022.pdf"
     },
     "rv2-LUCE-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/l/LSE_LUCE.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 184,
+      "raw_path": "data/raw/restructuring_v2/gb-luce/annual-report-2023.pdf",
+      "raw_sha256": "46dca2d40895fcbae251242985c2f6987d21249fce6fc7be37441c79f7087d38",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "LUCE"
+      "retrieved_at": "2026-08-15T06:36:37.886270+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-luce/annual-report-2023.txt",
+      "text_sha256": "f3c39621ae249a6263e72d8809729f874f18298b563b406b0c2e3a7ccfaf1a33",
+      "ticker": "LUCE",
+      "url": "https://www.lucecoplc.com/wp-content/uploads/2024/04/Luceco-PLC-Full-Year-2023-ARA.pdf"
     },
     "rv2-MACF-2020-12-31": {
       "attempt_results": [
