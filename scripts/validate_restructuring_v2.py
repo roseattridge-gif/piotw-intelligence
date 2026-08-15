@@ -38,11 +38,16 @@ def completeness() -> dict[str, Any]:
     evidence = read_csv(ROOT / "data/restructuring_v2/evidence.csv")
     features = read_csv(ROOT / "data/restructuring_v2/features.csv")
     reconciled = read_csv(ROOT / "data/restructuring_v2/adjudications_reconciled.csv")
+    exclusions_path = ROOT / "data/restructuring_v2/occasion_exclusions.csv"
+    excluded = ({row["occasion_id"] for row in read_csv(exclusions_path)}
+                if exclusions_path.exists() else set())
     required = []
     by_partition = {}
     for partition in PARTITIONS:
         manifest = read_csv(ROOT / f"data/manifests/restructuring_{partition}.csv")
-        included = {row["occasion_id"] for row in manifest if row["inclusion_status"].startswith("included")}
+        included = {row["occasion_id"] for row in manifest
+                    if row["inclusion_status"].startswith("included")
+                    and row["occasion_id"] not in excluded}
         required.extend(included)
         by_partition[partition] = len(included)
     evidence_coverage = {row["occasion_id"] for row in evidence}
@@ -59,7 +64,9 @@ def completeness() -> dict[str, Any]:
             json.loads(path.read_text()).get("prediction_count", 0) if path.exists() else 0
         )
     return {
-        "required": len(required_set), "by_partition": by_partition,
+        "required": len(required_set), "manifest_occasions": len(required_set | excluded),
+        "excluded": len(excluded), "excluded_occasions": sorted(excluded),
+        "by_partition": by_partition,
         "evidence_complete": len(required_set & evidence_coverage),
         "features_complete": len(required_set & feature_coverage),
         "outcomes_complete": len(required_set & outcome_coverage),
@@ -85,7 +92,9 @@ def write_pending(lock: dict[str, Any], coverage: dict[str, Any]) -> None:
     REPORT.write_text(
         "# PIOTW restructuring validation report v2\n\n"
         "Status: **INCOMPLETE — no v2 performance result is reported.**\n\n"
-        f"The protocol requires {coverage['required']} new occasions. Evidence exists for "
+        f"The frozen manifests retain {coverage['manifest_occasions']} occasions: "
+        f"{coverage['required']} are prediction-eligible and {coverage['excluded']} are retained "
+        f"frozen-rule exclusions. Evidence exists for "
         f"{coverage['evidence_complete']}, features for {coverage['features_complete']}, and reconciled "
         f"blinded outcomes for {coverage['outcomes_complete']}. Immutable predictions have been generated "
         f"for {predictions}. The runner fails closed rather than evaluating a convenient subset.\n\n"

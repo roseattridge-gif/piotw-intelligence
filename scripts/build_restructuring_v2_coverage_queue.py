@@ -12,6 +12,7 @@ OUTPUT = ROOT / "data/derived/restructuring_v2_coverage_queue.csv"
 SUMMARY = ROOT / "data/derived/restructuring_v2_coverage_summary.json"
 INDEX = ROOT / "data/derived/restructuring_v2_source_index.json"
 DATA = ROOT / "data/restructuring_v2"
+EXCLUSIONS = DATA / "occasion_exclusions.csv"
 FIELDS = [
     "occasion_id", "company", "ticker", "stable_id", "dataset_partition", "cutoff",
     "required_evidence_categories", "sources_attempted", "sources_successfully_captured",
@@ -52,6 +53,8 @@ def main() -> None:
         "web_feature_reviews_batch_*.csv")
     evidence = {row["occasion_id"] for row in read_csv(DATA / "evidence.csv")}
     features = {row["occasion_id"] for row in read_csv(DATA / "features.csv")}
+    exclusions = ({row["occasion_id"]: row for row in read_csv(EXCLUSIONS)}
+                  if EXCLUSIONS.exists() else {})
     rows = []
     for manifest in sorted(manifests, key=lambda row: row["occasion_id"]):
         occasion_id = manifest["occasion_id"]
@@ -61,7 +64,8 @@ def main() -> None:
         if not attempted and source.get("url"):
             attempted = [source["url"]]
         captured = source.get("url", "") if source_status == "preserved" else ""
-        exclusion = manifest.get("exclusion_reason", "")
+        exclusion_row = exclusions.get(occasion_id, {})
+        exclusion = manifest.get("exclusion_reason", "") or exclusion_row.get("reason", "")
         if occasion_id in evidence and occasion_id in features:
             coverage = "evidence_complete_prediction_eligible"
         elif exclusion:
@@ -84,7 +88,8 @@ def main() -> None:
             "sources_unavailable": unavailable_detail(source),
             "extraction_status": "complete" if occasion_id in evidence else (
                 "packet_ready" if occasion_id in packets else "not_started"),
-            "manual_scoring_status": "complete" if occasion_id in reviewed else "not_started",
+            "manual_scoring_status": "complete" if occasion_id in reviewed else (
+                "not_applicable_excluded" if exclusion else "not_started"),
             "feature_ready": "yes" if occasion_id in features else "no",
             "exclusion_reason": exclusion,
             "evidence_completeness_status": coverage,

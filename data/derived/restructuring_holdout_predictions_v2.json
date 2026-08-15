@@ -1,0 +1,3307 @@
+{
+  "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+  "model_version": "restructuring-rules-1.0.0",
+  "prediction_count": 100,
+  "predictions": [
+    {
+      "company": "Alumasc Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.63,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-ALU-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "02bb69e1479ab778df655dee2548b84d2db4ae50b412486a372ddb5ad6b9acd1",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.7,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "33aad839e848d0d0471d6311ed009b80b24b2c6bcd9e70de1edc33203dbb5553",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-ALU-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-ALU-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.234616,
+      "sector": "Building products",
+      "stable_id": "gb-alu",
+      "stratum": "materials_building",
+      "ticker": "ALU",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Avingtrans",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-AVG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e62d0bb11e56ccb3d6820a174a6a428c0c93e98085ee3c4a770bbaaa98d5cd81",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "0384107684d7de4182aa8b9239bc7c463c87dc53c21dd0023e96f42fe999fb4d",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-AVG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-AVG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.12,
+      "sector": "Aerospace engineering",
+      "stable_id": "gb-avg",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "AVG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Avon Technologies",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.5249999999999999,
+        "contrary_strength": -0.27999999999999997,
+        "margin_pressure": 0.675,
+        "pressure_language": 0.9099999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-AVON-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "ad9691b976188dabf9d694f305b0b59ac18831f3abd79e8b445b41ef071c0bc8",
+      "features": {
+        "cash_pressure": 0.75,
+        "contrary_strength": 0.35,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.65
+      },
+      "manifest_row_sha256": "5df96b8f8431f059ef9c53cac7e9248b5516c296a0a92f5327c1ddd8980a456a",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-AVON-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-AVON-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.459482,
+      "sector": "Defence protection",
+      "stable_id": "gb-avon",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "AVON",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "BAE Systems",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BA.-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "0b0ef2957a79d48037a6402f91abe340f9014a08cece29dc36205292ec2f3525",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "af90a2648f7169cfa3d03e958493e379cb6e3da3133a0e9d314030f0890a6738",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BA.-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BA.-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.073616,
+      "sector": "Aerospace and defence",
+      "stable_id": "gb-ba",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "BA.",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Balfour Beatty",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.315,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BBY-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e7b33dc199cdedf0114e265bdec80dac38abab952f8a612d149946fb58c72cf6",
+      "features": {
+        "cash_pressure": 0.15,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.35,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "92e957f6e0b2bfdd5cf08ee504ee8b7e1f81f564681aeb593d11086131e907ba",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BBY-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BBY-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.123204,
+      "sector": "Infrastructure construction",
+      "stable_id": "gb-bby",
+      "stratum": "materials_building",
+      "ticker": "BBY",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Bunzl",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BNZL-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "aaea9608d5574ac7c0b47f7a0065782cdbe7284da73dde617e456ee780389950",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "54884ce6223697bea1c914c26d756e42c48017be703b3c5ed380b2721410b5be",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BNZL-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BNZL-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.078897,
+      "sector": "Industrial distribution",
+      "stable_id": "gb-bnzl",
+      "stratum": "industrial_services_technology",
+      "ticker": "BNZL",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Bodycote",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BOY-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "26bc23606e1757a5cb587caedd0c99e701bbbfcbbc7ae9065cc52b813d5b5814",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "e3053d0e286ab65d75d77b16989e2e35a61868ed0e1385d14ddc8cfc968f16e3",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BOY-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BOY-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.076391,
+      "sector": "Industrial services",
+      "stable_id": "gb-boy",
+      "stratum": "engineering_equipment",
+      "ticker": "BOY",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Breedon Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.36000000000000004,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BREE-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4b8fe6a0d3ba2f51a22b117efb15b2b6fc55ff6e4a0d00a9b0365b47c0e92222",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.4,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "79e81315a05aa99912146ea8fa2741ac57b926f5cba078f17fc21833a6ecf9d1",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BREE-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BREE-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.195851,
+      "sector": "Construction materials",
+      "stable_id": "gb-bree",
+      "stratum": "materials_building",
+      "ticker": "BREE",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Bytes Technology Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.27999999999999997,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BYIT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "364b41418b1025ca01bc9418ea421a02b9952f99a69fd0ff3442a1ab6944abe9",
+      "features": {
+        "cash_pressure": 0.4,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "2ffab95e0648422c03ea9a09711d843ca9eae2e691879ed21ddef486368d7744",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BYIT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BYIT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.125381,
+      "sector": "Technology services",
+      "stable_id": "gb-byit",
+      "stratum": "industrial_services_technology",
+      "ticker": "BYIT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Castings",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.36000000000000004,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CGS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "78c96280a9de20c73700ab6a1ed8140882ba3114fb6dec061f2956435792a355",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.4,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "1d1e9c3556017c839987517d9ac765f86b8b12e2260bb3e6fa8aef5d53b01a0b",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CGS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CGS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.177638,
+      "sector": "Industrial castings",
+      "stable_id": "gb-cgs",
+      "stratum": "engineering_equipment",
+      "ticker": "CGS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Chemring Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CHG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "f4f679a5910c3069951c63c3da8e7a5c4e1f7764eb4ed20967e99c1ad09b7893",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "b2de926cd22199ebcde9fcfda1bf69674b5289d4c0132ef7b0bb14bef9b5e7ee",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CHG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CHG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.086083,
+      "sector": "Aerospace and defence",
+      "stable_id": "gb-chg",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "CHG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Cohort",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.7200000000000001,
+        "pressure_language": 0.7
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CHRT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4cde5d8731aaec06098f260ccb32d7a3d4aa226755339bb9040e9f0c81f5c163",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.8,
+        "pressure_language": 0.5
+      },
+      "manifest_row_sha256": "64b7fe45574cec88a67cf30edac1a60fa79a9312477bf38eb461e15fe573bf06",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CHRT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CHRT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.235515,
+      "sector": "Aerospace and defence",
+      "stable_id": "gb-chrt",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "CHRT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Coats Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-COA-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a4302a4e4adc39bad11f9336324d949638ac6e7d2e4397c433d5c2dae91bdccf",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "45c9c771d2deb19c23b89d8656b3bf23dd9f8d238fd7e8c903f4e5463712d5a5",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-COA-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-COA-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.17837,
+      "sector": "Industrial materials",
+      "stable_id": "gb-coa",
+      "stratum": "materials_building",
+      "ticker": "COA",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Diploma",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.0,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-DPLM-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4fbd2b420d2e45e9dfb320ab8f95a76819eed9c4a34015b561dddb3f6d71a4b5",
+      "features": {
+        "cash_pressure": 0.0,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "b60e69476795cae68d4cc7c0b6df8711078d0c72a42c6c6e762e1f34e401019f",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-DPLM-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-DPLM-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.081478,
+      "sector": "Industrial distribution",
+      "stable_id": "gb-dplm",
+      "stratum": "engineering_equipment",
+      "ticker": "DPLM",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "discoverIE Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.0,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-DSCV-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "0341b5af8b5cba0681244e055b39cae28631ffe5d900949fa842b49117fc27d7",
+      "features": {
+        "cash_pressure": 0.0,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "b5ad8e8896a6bf0b6cfea84ac558adf5dde16efeb90e373304bbd140bcf93bdc",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-DSCV-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-DSCV-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.081478,
+      "sector": "Industrial electronics",
+      "stable_id": "gb-dscv",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "DSCV",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Epwin Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.0,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-EPWN-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a855507e38e59a204d54686e113fe75613b27035247bf5f5d7c4f8a9a1f3749f",
+      "features": {
+        "cash_pressure": 0.0,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "02e90728a5d9d7d2b7b908fadf459052f4b9f4298cf38ba1e03aa421d969d2f9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-EPWN-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-EPWN-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.128708,
+      "sector": "Building products",
+      "stable_id": "gb-epwn",
+      "stratum": "materials_building",
+      "ticker": "EPWN",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Volution Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.0,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FAN-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "6cf489b442b12f64ced786bcbca9128b76906618418143903be544029a902be5",
+      "features": {
+        "cash_pressure": 0.0,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.0,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "b04b445e702928738d413fd4a70482c6cafa1dfefa28e935f32fb211b6b54f07",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FAN-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FAN-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.086873,
+      "sector": "Ventilation equipment",
+      "stable_id": "gb-fan",
+      "stratum": "engineering_equipment",
+      "ticker": "FAN",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "FD Technologies",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.0,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FDP-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "521dba5ed5bf630c20267afc0a6e9b97502ac1172b26affa34d70e4b09b2fe59",
+      "features": {
+        "cash_pressure": 0.0,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "2b778bd03a07498a01b7fb50521718bfcae60b780d8c34896d32187297f5e876",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FDP-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FDP-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.150277,
+      "sector": "Industrial data technology",
+      "stable_id": "gb-fdp",
+      "stratum": "industrial_services_technology",
+      "ticker": "FDP",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Flowtech Fluidpower",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.405,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FLO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "2cc0fa8e59ede9fc1812dc44e8d74146c36f0d10ed4af25f752e11276dec8b05",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.45,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "e098c3484493e943c5a6262264aea66414162fa9b8027fa9fd64d0e70b40a2c4",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FLO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FLO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.294749,
+      "sector": "Fluid power",
+      "stable_id": "gb-flo",
+      "stratum": "engineering_equipment",
+      "ticker": "FLO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Hill and Smith",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-HILS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4c363d96136d20c71d1ce945fd59fcd7af46509085d92cab97e7241c2ce7b035",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "01179424b3b23ec2c551e600581b6fa6f055cf3931be9a09112f39f4f44b7bcd",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-HILS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-HILS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.073616,
+      "sector": "Infrastructure products",
+      "stable_id": "gb-hils",
+      "stratum": "materials_building",
+      "ticker": "HILS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Ibstock",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.48999999999999994,
+        "contrary_strength": -0.27999999999999997,
+        "margin_pressure": 0.7200000000000001,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-IBST-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "70eac20d7040af66557c656b692cec7ae43fa798f14464463c8c0c8470256d49",
+      "features": {
+        "cash_pressure": 0.7,
+        "contrary_strength": 0.35,
+        "margin_pressure": 0.8,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "9610b19e328a8a1130bedcf989553d854b18c053b0efaa3e162f47b642c769bf",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-IBST-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-IBST-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.531849,
+      "sector": "Building materials",
+      "stable_id": "gb-ibst",
+      "stratum": "materials_building",
+      "ticker": "IBST",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "IMI",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-IMI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "48f2eb8ad3da197e02ad029a74370e25f0195a5a5952356846982ac42d6c265a",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "aaf8902337edc3cdf4032780e0741d7ab1847e2cf8e38f9a952c9992f52c83ea",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-IMI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-IMI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.086873,
+      "sector": "Industrial engineering",
+      "stable_id": "gb-imi",
+      "stratum": "engineering_equipment",
+      "ticker": "IMI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Judges Scientific",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-JDG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "29bbf92dfe8e9cf1b3ec3b19a2f851837bc4f0f9532a0f5879115c9a3176895a",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "73e48d2e2666d51e4a5627f4debca7ca3a1197b0645ae9ccfe8d38aab89f9c27",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-JDG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-JDG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.093432,
+      "sector": "Scientific instrumentation",
+      "stable_id": "gb-jdg",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "JDG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Johnson Matthey",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.675,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-JMAT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "c6922276e55cfea00138e884f0c68c88b276f7b5e57853d2ddd3813c3dbd54ff",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "b76d64d764778fd442b7ef8dde9e6b079bb97b2790f8e112eb4a426781257cd9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-JMAT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-JMAT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.36995,
+      "sector": "Specialty chemicals",
+      "stable_id": "gb-jmat",
+      "stratum": "materials_building",
+      "ticker": "JMAT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Keller Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-KLR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "fb2f6ed740de5d76fc76ad1759a0a204cbecab177156eacbddc684d448b7a2c0",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "1bdab3da9455d220385024d2993c0acab729a72e6933863afd21de4d18c0d4e8",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-KLR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-KLR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.109347,
+      "sector": "Ground engineering",
+      "stable_id": "gb-klr",
+      "stratum": "materials_building",
+      "ticker": "KLR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Kromek Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.5599999999999999,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.84
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-KMK-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a083ca7da632f0b395cfbc6d0b0f45e1a45a1d0d08dce2f8acb74658e91f4b7b",
+      "features": {
+        "cash_pressure": 0.8,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.6
+      },
+      "manifest_row_sha256": "e884e2660a96f14934e0dbb47a5dd1002d3315dbd8ca1e44c72d5d7b15f63a13",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-KMK-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-KMK-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.255892,
+      "sector": "Detection technology",
+      "stable_id": "gb-kmk",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "KMK",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "LPA Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-LPA-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4912d70f94a8ad5f81288c44a9c151bd784d10867e98d9dd38f625a630512a4d",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "f9cb4654d5c19ba1bf10fcd90aa248f40a8b3c13c20b8a63a4f1907247ebf95c",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-LPA-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-LPA-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.166946,
+      "sector": "Transport electronics",
+      "stable_id": "gb-lpa",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "LPA",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Transense Technologies",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-TRT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "3ce64dc5f27ffbd0f11a6941e1bc3490362dafc78e24d072084dd045f5a9a4fe",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "aab9fe78ff839f171c3d8fc8911f8b2c8986da83696b4ede4c89cb6c754e98cf",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-TRT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-TRT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.078897,
+      "sector": "Sensor technology",
+      "stable_id": "gb-trt",
+      "stratum": "engineering_equipment",
+      "ticker": "TRT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Aukett Swanke Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.5249999999999999,
+        "contrary_strength": -0.4,
+        "margin_pressure": 0.5850000000000001,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-AUK-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "6a052e665a350ccbce5420104bcce1c3f5149d85677640514873133a60da5065",
+      "features": {
+        "cash_pressure": 0.75,
+        "contrary_strength": 0.5,
+        "margin_pressure": 0.65,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "a754cd0a5b7e3378f0b926286b557a28a46420a45852125ae5cdb537465b97af",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-AUK-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-AUK-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.442153,
+      "sector": "Design engineering services",
+      "stable_id": "gb-auk",
+      "stratum": "industrial_services_technology",
+      "ticker": "AUK",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Brickability Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.42
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-BRCK-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "820fee46220adb9fdbf4d480544d86dce91ac45ce3cafe3cecfd83e8a874db2d",
+      "features": {
+        "cash_pressure": 0.3,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.3
+      },
+      "manifest_row_sha256": "ccf7a726191c259efd02a4557bbf77f6d8f6b8438eb1221d96e409843271a07c",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-BRCK-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-BRCK-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.12,
+      "sector": "Building products distribution",
+      "stable_id": "gb-brck",
+      "stratum": "materials_building",
+      "ticker": "BRCK",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Computacenter",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.7200000000000001,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CCC-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "02e88b862409572b77fe70c019447f247d4ad5d1805df6c3f3280a6561d9f542",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.8,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "85c51c5c5a983d9d4a3c12508723f16a718a9a42eebcffa186237f8c3ff97be8",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CCC-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CCC-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.206291,
+      "sector": "Technology services",
+      "stable_id": "gb-ccc",
+      "stratum": "industrial_services_technology",
+      "ticker": "CCC",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Concurrent Technologies",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.42
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CNC-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e4a4b60da4b6046c3f612421c2548c874a621e402bb6240aee37b1c3b2f30600",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.3
+      },
+      "manifest_row_sha256": "688bfa535142b281fa02cc09edbbf9466056e29d9209aa00c09971c71329be75",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CNC-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CNC-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.101796,
+      "sector": "Defence computing",
+      "stable_id": "gb-cnc",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "CNC",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Costain Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.84
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-COST-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "97dbc4b34bae0830d3df31adf53f6564d81e28dda04a1324dfb71498b2bb0657",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.6
+      },
+      "manifest_row_sha256": "5746567ce78c77da912ee9b08da47252223ba667c57febb702b57da1bf379aa4",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-COST-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-COST-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.153497,
+      "sector": "Infrastructure engineering",
+      "stable_id": "gb-cost",
+      "stratum": "materials_building",
+      "ticker": "COST",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Capita",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.6649999999999999,
+        "contrary_strength": -0.32000000000000006,
+        "margin_pressure": 0.54,
+        "pressure_language": 1.26
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CPI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "dbbe72a115b4a06d737a747d0d97c4da4d4873528c4679bd2b500486948f7fea",
+      "features": {
+        "cash_pressure": 0.95,
+        "contrary_strength": 0.4,
+        "margin_pressure": 0.6,
+        "pressure_language": 0.9
+      },
+      "manifest_row_sha256": "83ac893ec8a92da3d978d3f0f0aab4485b44d7d5db4b39af9507431b7e10a0c5",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CPI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CPI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.538069,
+      "sector": "Business process services",
+      "stable_id": "gb-cpi",
+      "stratum": "industrial_services_technology",
+      "ticker": "CPI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "James Cropper",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.42,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.675,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-CRPR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "9feb40d5c058ddbb7075fb141975d57424e26bdfcef33f6ee3acde55b6ead6ca",
+      "features": {
+        "cash_pressure": 0.6,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "64ff0381599e7fd2349a66740cbada535ee61b75c1633289da887e0e803560f1",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-CRPR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-CRPR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.40193,
+      "sector": "Advanced materials",
+      "stable_id": "gb-crpr",
+      "stratum": "materials_building",
+      "ticker": "CRPR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "DWHT Holdings",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.36000000000000004,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-DWHT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "8c47a861d58d8b1a5e017721c8f00c17e7c56fece340c35e16cf5778ac235b3b",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.4,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "39515eb677f3aafe10321bf07f03371b9f6cde4dc8b195647f004f16abf44c12",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-DWHT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-DWHT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.148372,
+      "sector": "Industrial components",
+      "stable_id": "gb-dwht",
+      "stratum": "engineering_equipment",
+      "ticker": "DWHT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Dowlais Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.315,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.77
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-DWL-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "ce0de9c10e3d008dfef60545118a9ca1eae1a8065cbd2cd117bfda2e31263998",
+      "features": {
+        "cash_pressure": 0.45,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.55
+      },
+      "manifest_row_sha256": "7d695cfa56e42899dbabc8d8e0fbd8d5cebbbdf5d75f1923eba32ed91fcd76c7",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-DWL-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-DWL-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.19664,
+      "sector": "Automotive components",
+      "stable_id": "gb-dwl",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "DWL",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Elementis",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-ELM-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a343ab87150ab10688acadb6ed1ceab648209c08b4345dd26c825b224f73a98e",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "a106565263b4486773db247b8880afd0dcdc7841cb6d8f15ab5363a74acce908",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-ELM-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-ELM-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.217137,
+      "sector": "Specialty materials",
+      "stable_id": "gb-elm",
+      "stratum": "materials_building",
+      "ticker": "ELM",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Empresaria Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.42,
+        "contrary_strength": -0.32000000000000006,
+        "margin_pressure": 0.765,
+        "pressure_language": 1.26
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-EMR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "81d9cc5eb1a60ad27f5634b5c8fac7631df89734978f3c1366f20c2fccedbf85",
+      "features": {
+        "cash_pressure": 0.6,
+        "contrary_strength": 0.4,
+        "margin_pressure": 0.85,
+        "pressure_language": 0.9
+      },
+      "manifest_row_sha256": "632c07ddf97e268f0a6932da8a41d5f20bfae0f6b38138eb101f4d0e87c0bb1f",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-EMR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-EMR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.533094,
+      "sector": "Workforce services",
+      "stable_id": "gb-emr",
+      "stratum": "industrial_services_technology",
+      "ticker": "EMR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Forterra",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.6649999999999999,
+        "contrary_strength": -0.08000000000000002,
+        "margin_pressure": 0.855,
+        "pressure_language": 1.3299999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FORT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "7efc9b3c4e0e5e951579f6f2422be879b236c0a7e6962a3f209cb5aa08b0e7bb",
+      "features": {
+        "cash_pressure": 0.95,
+        "contrary_strength": 0.1,
+        "margin_pressure": 0.95,
+        "pressure_language": 0.95
+      },
+      "manifest_row_sha256": "f3286e5843d67b55264baf3f96fb4d323d191db03c07444b1509bade016a1927",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FORT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FORT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.685156,
+      "sector": "Building materials",
+      "stable_id": "gb-fort",
+      "stratum": "materials_building",
+      "ticker": "FORT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Franchise Brands",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.385,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.27,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FRAN-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e1391300302a833788018f0dac2559aba4c4e7fab714dfe79d01bf305d3b937b",
+      "features": {
+        "cash_pressure": 0.55,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.3,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "f45b2b32069711e59a798b402975942c8228808e5176969bac466d4bb9e6d5f8",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FRAN-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FRAN-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.201422,
+      "sector": "Commercial services",
+      "stable_id": "gb-fran",
+      "stratum": "industrial_services_technology",
+      "ticker": "FRAN",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "FW Thorpe",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.42
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-FWT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "fc74809ada292edcd45768e57df26e68dadc230702ecd422ff38b64ef4aa998e",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.3
+      },
+      "manifest_row_sha256": "ba72b49de9356c6688656e31e5336d430ecd3d3424177f50458eac5f9414649b",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-FWT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-FWT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.11584,
+      "sector": "Industrial lighting",
+      "stable_id": "gb-fwt",
+      "stratum": "engineering_equipment",
+      "ticker": "FWT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Gamma Communications",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-GAMA-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "14926f6fb0b415203ca35003de2e8888b69d353bc2273aee8e6eb960cf45ec05",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "f6b6c9226314a958dde3c611ec158f5bb43f88b766b5a9010d9d71862fef01c6",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-GAMA-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-GAMA-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.155457,
+      "sector": "Communications technology",
+      "stable_id": "gb-gama",
+      "stratum": "industrial_services_technology",
+      "ticker": "GAMA",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "GB Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.63,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-GBG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "fef9b023faad7732180949814fa4008897d1c8ab992f524dcf466b0b551b8474",
+      "features": {
+        "cash_pressure": 0.35,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.7,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "5eb49e9f03fd1f6faf43feaf90c1527331e67367b79c0aa1de8ecff42304e7a3",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-GBG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-GBG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.357225,
+      "sector": "Identity technology",
+      "stable_id": "gb-gbg",
+      "stratum": "industrial_services_technology",
+      "ticker": "GBG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Goodwin",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.49500000000000005,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-GDWN-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a649f43152e0e987a7bd4ac59d6a5d0773e1bccc35069ccb4a10a73016c7eb83",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.55,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "ef627ed1c81372e8acca1cec6b78fe5bb3f9a60dd33344d31108a65e1a53e824",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-GDWN-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-GDWN-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.142164,
+      "sector": "Mechanical engineering",
+      "stable_id": "gb-gdwn",
+      "stratum": "engineering_equipment",
+      "ticker": "GDWN",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Genuit Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.36000000000000004,
+        "pressure_language": 0.9099999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-GEN-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "908cb92ad70c20eedee00fbf3f3cc3a9dceb9380e2e80c3ac8537e3624ecb128",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.4,
+        "pressure_language": 0.65
+      },
+      "manifest_row_sha256": "ff453f3afcd36e3162bfcb03358b5f2e2d9be0039f89fca8e77c53db4b78d553",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-GEN-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-GEN-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.234616,
+      "sector": "Building products",
+      "stable_id": "gb-gen",
+      "stratum": "materials_building",
+      "ticker": "GEN",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Haydale Graphene Industries",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.5599999999999999,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.49500000000000005,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-HAYD-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "9af2384ef6f4f0812dd10867fd7b236fd58d8a893695362b1af32c7bea948e4d",
+      "features": {
+        "cash_pressure": 0.8,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.55,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "e15e877c2c4c5b549e5cbea6d482281a0477babcd3366d92f066f668d280f168",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-HAYD-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-HAYD-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.453279,
+      "sector": "Advanced manufacturing",
+      "stable_id": "gb-hayd",
+      "stratum": "engineering_equipment",
+      "ticker": "HAYD",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "HSS Hire",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.385,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.5850000000000001,
+        "pressure_language": 0.9099999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-HSS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "cec70797cd5c50ba43a530d99875f388d96c558f80a56d12ffa661941469cc59",
+      "features": {
+        "cash_pressure": 0.55,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.65,
+        "pressure_language": 0.65
+      },
+      "manifest_row_sha256": "06059ac2208081d0280d2b4402e1fd949337856f231f348c3bd1a49f4b484cd9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-HSS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-HSS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.34696,
+      "sector": "Equipment rental",
+      "stable_id": "gb-hss",
+      "stratum": "industrial_services_technology",
+      "ticker": "HSS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Hunting",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.135,
+        "pressure_language": 0.35
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-HTG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "03691990b8736d500698e31b0d8e0f8aafe5cfd630f37416e0f8c57f978c45de",
+      "features": {
+        "cash_pressure": 0.3,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.15,
+        "pressure_language": 0.25
+      },
+      "manifest_row_sha256": "e10c8241a5013648fb445caf90e181e9ea7270f23aa2aa4d2ac9375af6cd3bda",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-HTG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-HTG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.121593,
+      "sector": "Energy equipment",
+      "stable_id": "gb-htg",
+      "stratum": "engineering_equipment",
+      "ticker": "HTG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Kainos Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-KNOS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "8a4997f1993b6dd02ee96d18204bcfd2f6535ba148be050916c9ae1081fe7dd7",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "9f3b3f28639c0474c83184121ce1289868fc0689bc076160799f77059592479e",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-KNOS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-KNOS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.081853,
+      "sector": "Technology services",
+      "stable_id": "gb-knos",
+      "stratum": "industrial_services_technology",
+      "ticker": "KNOS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Luceco",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-LUCE-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "81d1ed6901cea60400c78838664737c22ed59f0be6da3a0f5d81e10a97472efe",
+      "features": {
+        "cash_pressure": 0.3,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "bdd415f001b016aa9e25b4682dae8c7f2ee88f095928b36bd896c61410699a74",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-LUCE-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-LUCE-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.139743,
+      "sector": "Electrical equipment",
+      "stable_id": "gb-luce",
+      "stratum": "engineering_equipment",
+      "ticker": "LUCE",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Macfarlane Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MACF-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "f7babbe119fe8f41bd95410c660b790fee7ad02ab2b06f36a316ac972ee18bf5",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "b3ee0bc5407f057d20ca39788eebe092abf0e8b43466843ec077270d82244b58",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MACF-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MACF-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.123204,
+      "sector": "Industrial packaging",
+      "stable_id": "gb-macf",
+      "stratum": "engineering_equipment",
+      "ticker": "MACF",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Morgan Advanced Materials",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.5850000000000001,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MGAM-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "34b0e22560d48fd215590d51db23a896cce6a49bc0b3c12016e72a8d0b1ca84e",
+      "features": {
+        "cash_pressure": 0.35,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.65,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "f18a51d35fe4b3a7aa7d173bd297a15728469f133140f3988486bca5fec4aeab",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MGAM-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MGAM-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.34696,
+      "sector": "Advanced materials",
+      "stable_id": "gb-mgam",
+      "stratum": "materials_building",
+      "ticker": "MGAM",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Mpac Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MPAC-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "58c277e554f41a5198c107771b942656bbbd4d72c5519ea6f9c1022539ece7d8",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "06dc2d62d917a7dd12791c1430cd0a409c654613cbfb11aa97a363767b5d36d5",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MPAC-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MPAC-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.083752,
+      "sector": "Packaging machinery",
+      "stable_id": "gb-mpac",
+      "stratum": "engineering_equipment",
+      "ticker": "MPAC",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Melrose Industries",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.77
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MRO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "b3e284eda33be3b02be86e0e1eb97c4eb75ae6a743f735276fd6c01be63f5259",
+      "features": {
+        "cash_pressure": 0.3,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.55
+      },
+      "manifest_row_sha256": "a959679433005227fe861d907245770fad054a28444fe553ea1dc6c311036a39",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MRO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MRO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.161457,
+      "sector": "Aerospace engineering",
+      "stable_id": "gb-mro",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "MRO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "MS International",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MSI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "49d693282cf52b17f30cfdcd733c9d942158fb38596278de89a39ebdd3204b8d",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "c7833203b7aa53be69fb074149cd7f7833877ba30681709664e1b656a04d6200",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MSI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MSI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.167642,
+      "sector": "Defence equipment",
+      "stable_id": "gb-msi",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "MSI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Marshalls",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.315,
+        "contrary_strength": -0.36000000000000004,
+        "margin_pressure": 0.7200000000000001,
+        "pressure_language": 1.3299999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MSLH-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "67bbdf86193008bbf43ea3972968b910e5cb8e4524b1121f6d8f412bddf5782b",
+      "features": {
+        "cash_pressure": 0.45,
+        "contrary_strength": 0.45,
+        "margin_pressure": 0.8,
+        "pressure_language": 0.95
+      },
+      "manifest_row_sha256": "b166b962517587cc8d7ad1a32f539f0d64f1bca74c484f34b93b9a1190f1e9fb",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MSLH-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MSLH-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.503142,
+      "sector": "Building products",
+      "stable_id": "gb-mslh",
+      "stratum": "materials_building",
+      "ticker": "MSLH",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Mitie Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-MTO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "33d939813f3abfe2feb0b4d1ece7ff2165308bd1a850b538f291ffad025e0e66",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "c0fb6e53c2a74948dae5c96f2e83e2d5f3955076438a773c0d93ec1df8f84cf0",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-MTO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-MTO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.12,
+      "sector": "Facilities engineering",
+      "stable_id": "gb-mto",
+      "stratum": "industrial_services_technology",
+      "ticker": "MTO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "NCC Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.48999999999999994,
+        "contrary_strength": -0.27999999999999997,
+        "margin_pressure": 0.81,
+        "pressure_language": 1.3299999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-NCC-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "6908e68da42e8ca0037f9b14c1e8a77389c2130a350dc9d9010eba1f3dccfdf5",
+      "features": {
+        "cash_pressure": 0.7,
+        "contrary_strength": 0.35,
+        "margin_pressure": 0.9,
+        "pressure_language": 0.95
+      },
+      "manifest_row_sha256": "bc37f0131af494c7253a62e3ec254630639f6235a1e040d5ded9041909ea8367",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-NCC-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-NCC-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.588452,
+      "sector": "Cyber technology",
+      "stable_id": "gb-ncc",
+      "stratum": "industrial_services_technology",
+      "ticker": "NCC",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Oxford Metrics",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.42
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-OMG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "cca70638ca2062d30c7e31f18c4100dc44ac1c9b35818c4943a8d56ef3fbbcd2",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.3
+      },
+      "manifest_row_sha256": "eece861055bc514ff426637b9a1f62be93de46cc410fccb5bbd9ffb94724cc9f",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-OMG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-OMG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.107414,
+      "sector": "Measurement technology",
+      "stable_id": "gb-omg",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "OMG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Oxford Instruments",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.135,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-OXIG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "00874ed7092f4d3e137ac79db1fbbe4993a155e41752a037312e7c9be42bfdd0",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.15,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "1cf3af08ee729561c1ba8b9baa78204240d2dcc978b6d8cb54fec8f21a7c20b0",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-OXIG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-OXIG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.109835,
+      "sector": "Scientific instrumentation",
+      "stable_id": "gb-oxig",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "OXIG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "PageGroup",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.765,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-PAGE-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "fa0082daeec50aaa2496f1b130b5614094b88e89e8081f6a6e4fa9ebbc5d1e3e",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.85,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "e6187d9385135ef91aa143afddba667bdfc23545bb2c9e010efa7eab1716ed22",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-PAGE-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-PAGE-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.416434,
+      "sector": "Recruitment services",
+      "stable_id": "gb-page",
+      "stratum": "industrial_services_technology",
+      "ticker": "PAGE",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Pressure Technologies",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.27999999999999997,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-PRES-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a65c42576c6f3130bcd95bb7358f392105fa661cef92951ee11cf65ad1281a97",
+      "features": {
+        "cash_pressure": 0.4,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "8af528a62990f9546294c7be5a148e1731c217aebc9fa190f4962d461f3587e9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-PRES-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-PRES-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.140345,
+      "sector": "Pressure systems",
+      "stable_id": "gb-pres",
+      "stratum": "engineering_equipment",
+      "ticker": "PRES",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Porvair",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-PRV-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "c9c1886e972ae3236258dfc81760646b73c36f9242e068b08b84a2b50bd09fff",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "e6dd51f6d5d30d336a4ad079054c9e60037b7188ca446d9749de2500f6c1d44d",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-PRV-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-PRV-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.084522,
+      "sector": "Filtration technology",
+      "stable_id": "gb-prv",
+      "stratum": "engineering_equipment",
+      "ticker": "PRV",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "QinetiQ Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.21,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-QQ.-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "45009992fcff22da8d62df9a8b4d6cb27ffa9af6f459fcee060e9429ac1af0e0",
+      "features": {
+        "cash_pressure": 0.3,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "c5b9ec71fb68f7d460d22f3bc495d8f744343b49834e45a48d693c90e05d5c35",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-QQ.-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-QQ.-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.099532,
+      "sector": "Aerospace and defence",
+      "stable_id": "gb-qq",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "QQ.",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Ricardo",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.45499999999999996,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.54,
+        "pressure_language": 1.1199999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RCDO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "3a41cc34b6be2233c6498fa5849783073cb20dcbed23557ffe52c5093f0946d1",
+      "features": {
+        "cash_pressure": 0.65,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.6,
+        "pressure_language": 0.8
+      },
+      "manifest_row_sha256": "4bcb78f075e433fbe2bbf4d884ce768ecdcd1591524977f89a5728a3d1b2f686",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RCDO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RCDO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.411582,
+      "sector": "Automotive engineering",
+      "stable_id": "gb-rcdo",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "RCDO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "RHI Magnesita",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.63
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RHIM-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "56c31112cefd151033eec07068f3be8f7fa1d6e23fbc2119aee02cbe05ff05d4",
+      "features": {
+        "cash_pressure": 0.15,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.45
+      },
+      "manifest_row_sha256": "a639a70bdd0e22bdf2379da75b4add288381a49c073956f6b723b56f63985c01",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RHIM-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RHIM-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.152849,
+      "sector": "Industrial refractory systems",
+      "stable_id": "gb-rhim",
+      "stratum": "engineering_equipment",
+      "ticker": "RHIM",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Renold",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RNO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "322e21fd2e16fc68c5f5a9cbebc2aae70db6d195cf149117424e7b270a50e805",
+      "features": {
+        "cash_pressure": 0.15,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "39065e724b045cf91a7d1323d5677b12fb6e675fc5921a909fc001a142dc4a19",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RNO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RNO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.083752,
+      "sector": "Industrial chains",
+      "stable_id": "gb-rno",
+      "stratum": "engineering_equipment",
+      "ticker": "RNO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Renew Holdings",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RNWH-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "8f22691aa11625d3ee670d1a2e17daa43cbc9b3904e183ceeb1cd53b6188b74d",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "254de18fc25ab72dfa17cff264c82e9781613a6739069d4d758ca3f3597066fc",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RNWH-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RNWH-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.088877,
+      "sector": "Engineering services",
+      "stable_id": "gb-rnwh",
+      "stratum": "industrial_services_technology",
+      "ticker": "RNWH",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Rolls-Royce Holdings",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.35
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RR.-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "2a49fe3daee098568281bea48b5150a1475ae5edeffafa1a43261cd553097c05",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.25
+      },
+      "manifest_row_sha256": "cbb1e7660722cad6ceb7bd45330bbe48191d388f3a4e542120d04efb369eac55",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RR.-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RR.-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.101339,
+      "sector": "Aerospace engineering",
+      "stable_id": "gb-rr",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "RR.",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Restore",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.675,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RST-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "f778aab3b8d2a605cd737a6549ad826a65dcd18b940e7adca3638e6473670e22",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "6ee5a2ca4068ffa0fdd38838562f4d906d772c3f8619a94f6308949cd3cd26b8",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RST-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RST-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.39474,
+      "sector": "Information management services",
+      "stable_id": "gb-rst",
+      "stratum": "industrial_services_technology",
+      "ticker": "RST",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Rentokil Initial",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.13999999999999999,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-RTO-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "73896c82a30ec60c1e7f2b22c66a9ad43068508f5b7807cedbdb66b37ae810f8",
+      "features": {
+        "cash_pressure": 0.2,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "cbc658d810e72e29edf01387fde8961a114dcf92564bd7134ebe72c36d787a27",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-RTO-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-RTO-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.13442,
+      "sector": "Business services",
+      "stable_id": "gb-rto",
+      "stratum": "industrial_services_technology",
+      "ticker": "RTO",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Science Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.6400000000000001,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.5599999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SAG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "08b5237a13f59e78b57ed79c535bdf7115ded974b8a2f07487d33e67b5e69132",
+      "features": {
+        "cash_pressure": 0.15,
+        "contrary_strength": 0.8,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.4
+      },
+      "manifest_row_sha256": "989db32a13bb18d36fcc216b26ac2363dd3d0f2fac079e460b034960cb2719ee",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SAG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SAG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.149005,
+      "sector": "Technical consultancy",
+      "stable_id": "gb-sag",
+      "stratum": "industrial_services_technology",
+      "ticker": "SAG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Softcat",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.135,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SCT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "61bdc0d90beb2125cf97c04b66c2730e857a83f8133a0c34c2c8b071f1f6a51c",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.15,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "abde02f20ddad170f215e36e6ffe6ada1be603be921f424ab9bcacbdee878faa",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SCT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SCT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.113807,
+      "sector": "Technology services",
+      "stable_id": "gb-sct",
+      "stratum": "industrial_services_technology",
+      "ticker": "SCT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "SDI Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.315,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.45,
+        "pressure_language": 0.77
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SDI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "5d1d93acfaf3efb84ab08798789787d27f7f71cb7485046e8d84fad10bb4d1f7",
+      "features": {
+        "cash_pressure": 0.45,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.5,
+        "pressure_language": 0.55
+      },
+      "manifest_row_sha256": "9cfb80c8114c0f9cfda3165ec82367fff70c98225266cb816a404f1a4dd502d9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SDI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SDI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.257801,
+      "sector": "Scientific instrumentation",
+      "stable_id": "gb-sdi",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "SDI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Speedy Hire",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.52,
+        "margin_pressure": 0.49500000000000005,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SDY-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "ad867a71ed5bf878bab2ecf549662711a3221b3d90b1971698b09ae373ab33f8",
+      "features": {
+        "cash_pressure": 0.35,
+        "contrary_strength": 0.65,
+        "margin_pressure": 0.55,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "91c77430bc387428140b2552c104e18f311840ff270628c6b4b0ebe898daaee6",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SDY-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SDY-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.326858,
+      "sector": "Equipment rental",
+      "stable_id": "gb-sdy",
+      "stratum": "industrial_services_technology",
+      "ticker": "SDY",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Severfield",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.35
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SFR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e71ad524ae9ee99bf28951caf97ec98d597dd7261f2304d83dec3a394b5d9715",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.25
+      },
+      "manifest_row_sha256": "75bb72cd8b30545396f5116bd27e02d67c65759b6a4a5d665be7cc295eeb5ea1",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SFR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SFR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.100885,
+      "sector": "Structural engineering",
+      "stable_id": "gb-sfr",
+      "stratum": "materials_building",
+      "ticker": "SFR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "SIG",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.45499999999999996,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.765,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SHI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "ca88aee0df28394db311c525d5dc43effe141a1e0f41ff4cfc22a3b58cec703f",
+      "features": {
+        "cash_pressure": 0.65,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.85,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "6f68914f03b89c82d620dbf558cc6676e9ea98a60b2acdeb85937813065d9244",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SHI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SHI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.494393,
+      "sector": "Building products distribution",
+      "stable_id": "gb-shi",
+      "stratum": "materials_building",
+      "ticker": "SHI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Senior",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.27999999999999997,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.48999999999999994
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SNR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "87d58a062ce7d63230b3cbf13c367441a9497c0965e2af3df5bb93ec4501d074",
+      "features": {
+        "cash_pressure": 0.4,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.35
+      },
+      "manifest_row_sha256": "4a3a9a177da6bd08c4bad72d377bf617d613af22861594c7134b6b76cf7550b9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SNR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SNR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.151558,
+      "sector": "Aerospace and automotive",
+      "stable_id": "gb-snr",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "SNR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Solid State",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SOLI-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "927979cfd8d174041437f533cad53da45c495ddeea805e67487df815f7ff969e",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "e43333371c57df9f62e1fbbe6191065dfec34aff45295f9b7a4349b3d519ea58",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SOLI-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SOLI-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.083752,
+      "sector": "Electronic components",
+      "stable_id": "gb-soli",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "SOLI",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Somero Enterprises",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.675,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SOM-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e15aa738322ee2578362717b94dd028530dc1e4203917c3b7fd0dc943ab5fbda",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "42d4dd7945be0d3445a7d13897cb6377dae9c4ca543507454fc3eceaade9d1b6",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SOM-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SOM-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.27241,
+      "sector": "Construction equipment",
+      "stable_id": "gb-som",
+      "stratum": "engineering_equipment",
+      "ticker": "SOM",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Spirax Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.385,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.63,
+        "pressure_language": 1.0499999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SPX-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "a6d58c90d270bcd665bd51642dd345afbb04e085c4bb12b2ce20c3060584dcaa",
+      "features": {
+        "cash_pressure": 0.55,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.7,
+        "pressure_language": 0.75
+      },
+      "manifest_row_sha256": "0d8e335c2911f7f0a099d7bd0031e28f7285b565b17bb7ebcae81e0c5ad7dcf4",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SPX-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SPX-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.399528,
+      "sector": "Thermal engineering",
+      "stable_id": "gb-spx",
+      "stratum": "engineering_equipment",
+      "ticker": "SPX",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "SigmaRoc",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SRC-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "01b2dd750ae936d64ba717452ffe329a6869982b76cdbbc3dc79605b1da5de8d",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "c3ebe7f7907d3e8fa2ecef31549366993fbd0e7da2c578ab536a6219c004f365",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SRC-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SRC-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.09514,
+      "sector": "Construction materials",
+      "stable_id": "gb-src",
+      "stratum": "materials_building",
+      "ticker": "SRC",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Serco Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SRP-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "813de2ab861bbf88efbb40bf9da0ffc4aef6ed6af24b70c0ab5f0085b8871500",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "f83a8dabf54a41d0605ec92767d28b2dfbc5d998a55edc841099db779ad240ca",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SRP-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SRP-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.076744,
+      "sector": "Public service operations",
+      "stable_id": "gb-srp",
+      "stratum": "industrial_services_technology",
+      "ticker": "SRP",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Staffline Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.105,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.49500000000000005,
+        "pressure_language": 0.7
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-STAF-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "e5b5463eed164c8157760a6c560b0ec60ee4ae2de355a73219200e91f6cddd07",
+      "features": {
+        "cash_pressure": 0.15,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.55,
+        "pressure_language": 0.5
+      },
+      "manifest_row_sha256": "4a663ace1e3dd60eb3a16add45c7cfc7f8c76c8efbe8bbc40cf054a30a590046",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-STAF-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-STAF-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.215442,
+      "sector": "Workforce services",
+      "stable_id": "gb-staf",
+      "stratum": "industrial_services_technology",
+      "ticker": "STAF",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Spectris",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SXS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "c7e638fd01736f887b9668b120c414df23d4e6ba6d74c80f8b976c956d49a11f",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "df5d96165c093462c7b4c235197597db01022c363cdd2c0bdf9728b3e45ef00e",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SXS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SXS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.073616,
+      "sector": "Precision instrumentation",
+      "stable_id": "gb-sxs",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "SXS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Synthomer",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.45499999999999996,
+        "contrary_strength": -0.44000000000000006,
+        "margin_pressure": 0.765,
+        "pressure_language": 1.3299999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-SYNT-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "d217ee0b05d1c6ceb57bfdf82aa7982c390918c46f31995456f12e6e0f6d2f70",
+      "features": {
+        "cash_pressure": 0.65,
+        "contrary_strength": 0.55,
+        "margin_pressure": 0.85,
+        "pressure_language": 0.95
+      },
+      "manifest_row_sha256": "33ca8fb18dc666ac98c0091ef4572f111cd2cfd472710a38cde8013bed303230",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-SYNT-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-SYNT-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.529359,
+      "sector": "Specialty chemicals",
+      "stable_id": "gb-synt",
+      "stratum": "materials_building",
+      "ticker": "SYNT",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Tekmar Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.595,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.675,
+        "pressure_language": 1.19
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-TGP-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "5d0a141ae3f6cb547f673faec0091460f9aa03217a622b2e7dbda754ccbcc634",
+      "features": {
+        "cash_pressure": 0.85,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.85
+      },
+      "manifest_row_sha256": "217a4633db4f710d0e10b9264aa7634fc169fdbb73f4c5650ac0dea9366d70d9",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-TGP-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-TGP-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.496892,
+      "sector": "Offshore engineering",
+      "stable_id": "gb-tgp",
+      "stratum": "engineering_equipment",
+      "ticker": "TGP",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Travis Perkins",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.385,
+        "contrary_strength": -0.27999999999999997,
+        "margin_pressure": 0.765,
+        "pressure_language": 1.26
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-TPK-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "ebf5cbe0e0800432b9ddfdef86b99f90e0351c5a41eaf0e9efa93f0472ae5858",
+      "features": {
+        "cash_pressure": 0.55,
+        "contrary_strength": 0.35,
+        "margin_pressure": 0.85,
+        "pressure_language": 0.9
+      },
+      "manifest_row_sha256": "b97d9a52343bdd090cdea6ef36f917c3013a7336c0efcba5970bc64ee0a403eb",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-TPK-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-TPK-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.534338,
+      "sector": "Building products distribution",
+      "stable_id": "gb-tpk",
+      "stratum": "materials_building",
+      "ticker": "TPK",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Tristel",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-TSTL-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "453e315173181950aca84ae42fbdf0a6daf878823bc6ce4b757d63d4b1698398",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "550a59c3b5bcf911f0e749053c3a63d1453f5bdb59f8e7a722281bc6a94cc96b",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-TSTL-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-TSTL-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.073616,
+      "sector": "Industrial infection control",
+      "stable_id": "gb-tstl",
+      "stratum": "engineering_equipment",
+      "ticker": "TSTL",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "TT Electronics",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.21
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-TTG-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "4bbff3feb5e1d993032df17492557fd6699329e1531e0e14ee4ce127fe8d5b84",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.15
+      },
+      "manifest_row_sha256": "4d1d16af82fda5ae7f14f3128e0e6d47bf902031f71fcbf6b3e0da940426cc81",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-TTG-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-TTG-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.078534,
+      "sector": "Aerospace electronics",
+      "stable_id": "gb-ttg",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "TTG",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Volex",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-VLX-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "b1ee34d7613aec329edd438ac833a5f321965de220b933d5cdab2948f580272e",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "41b9d0476a840ee5263943d6e43d751c76005520824c82f1ca3472b8c89dbae3",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-VLX-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-VLX-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.08727,
+      "sector": "Electronic manufacturing",
+      "stable_id": "gb-vlx",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "VLX",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Vp",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.68,
+        "margin_pressure": 0.18000000000000002,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-VP.-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "72d5849ddf45b9cab10b092de6b60b4b943bdc635213563ea933305066cc6eea",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.85,
+        "margin_pressure": 0.2,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "0b91bdd012710b3d7c0a36819db9ab3cd03647c21d3de50dadf2d73b517b4fce",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-VP.-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-VP.-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.115329,
+      "sector": "Equipment rental",
+      "stable_id": "gb-vp",
+      "stratum": "industrial_services_technology",
+      "ticker": "VP.",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Vesuvius",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.06999999999999999,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.405,
+        "pressure_language": 0.77
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-VSVS-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "9627159c438299349b634713c2f16d562873a1ddfe548a4c08fdb0d90c04d634",
+      "features": {
+        "cash_pressure": 0.1,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.45,
+        "pressure_language": 0.55
+      },
+      "manifest_row_sha256": "a14988ea33daa1bfd2430aec7719a67669edad0b1d1ee75d7637ed1104b67bc3",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-VSVS-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-VSVS-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.206291,
+      "sector": "Industrial materials",
+      "stable_id": "gb-vsvs",
+      "stratum": "materials_building",
+      "ticker": "VSVS",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Water Intelligence",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.7200000000000001,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.35
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-WATR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "300f5f09020a1476af753c54bcb7803935156d6c2c7be39cd616081542dae72f",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.9,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.25
+      },
+      "manifest_row_sha256": "c657a72921235cdc9f078b17e206ab2ce0788953f1a3bcbea8123ec717b5a537",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-WATR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-WATR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.105041,
+      "sector": "Infrastructure services",
+      "stable_id": "gb-watr",
+      "stratum": "industrial_services_technology",
+      "ticker": "WATR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Weir Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.034999999999999996,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.045000000000000005,
+        "pressure_language": 0.13999999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-WEIR-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "b0010237fa481cb83cc2851d3b8d539c4829b078f0d523a70eeefac176429f9c",
+      "features": {
+        "cash_pressure": 0.05,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.05,
+        "pressure_language": 0.1
+      },
+      "manifest_row_sha256": "31d962a82e53cc905f66c63d56750a378c6c503ac737cb26ba6aec9e9b02b8be",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-WEIR-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-WEIR-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.073616,
+      "sector": "Mining equipment",
+      "stable_id": "gb-weir",
+      "stratum": "engineering_equipment",
+      "ticker": "WEIR",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "John Wood Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.5249999999999999,
+        "contrary_strength": -0.6000000000000001,
+        "margin_pressure": 0.225,
+        "pressure_language": 0.84
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-WG.-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "93f20805c2320bd88e40acfec2063cc08dc81f39709aee0dd23a8c039550cfd9",
+      "features": {
+        "cash_pressure": 0.75,
+        "contrary_strength": 0.75,
+        "margin_pressure": 0.25,
+        "pressure_language": 0.6
+      },
+      "manifest_row_sha256": "d328cd93fc50a5a168671ad08d0178748facb6023b210cec33cab408ebe0b17f",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-WG.-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-WG.-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.268464,
+      "sector": "Engineering services",
+      "stable_id": "gb-wg",
+      "stratum": "engineering_equipment",
+      "ticker": "WG.",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Wickes Group",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.175,
+        "contrary_strength": -0.48,
+        "margin_pressure": 0.675,
+        "pressure_language": 0.9799999999999999
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-WIX-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "8aba6851f85b916b5b21f7d52f7473f9d1da8dba33967e48b7cd5087098d87da",
+      "features": {
+        "cash_pressure": 0.25,
+        "contrary_strength": 0.6,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.7
+      },
+      "manifest_row_sha256": "6bebb7ed2ccfe77f20022dbb84ac81eecd96952f2cc7b0bffb36a752e3d55533",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-WIX-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-WIX-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.344697,
+      "sector": "Building products distribution",
+      "stable_id": "gb-wix",
+      "stratum": "materials_building",
+      "ticker": "WIX",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "XP Power",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.63,
+        "contrary_strength": -0.2,
+        "margin_pressure": 0.675,
+        "pressure_language": 1.3299999999999998
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-XPP-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "98c485ada9a9a8852b9004b505bcac073815314dc780d21c98666a0ffebb0ae3",
+      "features": {
+        "cash_pressure": 0.9,
+        "contrary_strength": 0.25,
+        "margin_pressure": 0.75,
+        "pressure_language": 0.95
+      },
+      "manifest_row_sha256": "4438329fed8a03786904fe683c0805f099f35c8c55f27ca80e36a2ece21cd642",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-XPP-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-XPP-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.608871,
+      "sector": "Power electronics",
+      "stable_id": "gb-xpp",
+      "stratum": "aerospace_auto_defence",
+      "ticker": "XPP",
+      "window_end": "2025-12-31"
+    },
+    {
+      "company": "Zotefoams",
+      "confidence": 0.48,
+      "contributions": {
+        "cash_pressure": 0.24499999999999997,
+        "contrary_strength": -0.76,
+        "margin_pressure": 0.09000000000000001,
+        "pressure_language": 0.27999999999999997
+      },
+      "cutoff": "2024-12-31",
+      "evidence_ids": [
+        "ev-rv2-ZTF-2024-12-31-annual-report"
+      ],
+      "evidence_snapshot_sha256": "004b50ef6a0e1db90765ff78a03e0be879ce7cecd45ad6c2fca8f49272a6022e",
+      "features": {
+        "cash_pressure": 0.35,
+        "contrary_strength": 0.95,
+        "margin_pressure": 0.1,
+        "pressure_language": 0.2
+      },
+      "manifest_row_sha256": "f49ce80e38223a8d9c7e2e77bba0a140d1eba31cd42ac82254cc4c9039315dfa",
+      "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+      "model_version": "restructuring-rules-1.0.0",
+      "occasion_id": "rv2-ZTF-2024-12-31",
+      "partition": "holdout",
+      "prediction_id": "rv2-ZTF-2024-12-31-restructuring-rules-1.0.0",
+      "probability": 0.105512,
+      "sector": "Advanced materials",
+      "stable_id": "gb-ztf",
+      "stratum": "materials_building",
+      "ticker": "ZTF",
+      "window_end": "2025-12-31"
+    }
+  ]
+}

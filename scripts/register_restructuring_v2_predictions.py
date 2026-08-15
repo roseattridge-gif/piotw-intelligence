@@ -17,6 +17,10 @@ def main() -> None:
     parser.add_argument("partition", choices=["validation", "holdout"])
     args = parser.parse_args()
     manifest = read_csv(ROOT / f"data/manifests/restructuring_{args.partition}.csv")
+    exclusions_path = ROOT / "data/restructuring_v2/occasion_exclusions.csv"
+    excluded = ({row["occasion_id"] for row in read_csv(exclusions_path)}
+                if exclusions_path.exists() else set())
+    manifest = [row for row in manifest if row["occasion_id"] not in excluded]
     occasion_ids = {row["occasion_id"] for row in manifest}
     result = register_predictions(
         manifest,

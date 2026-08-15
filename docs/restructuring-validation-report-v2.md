@@ -2,6 +2,6 @@
 
 Status: **INCOMPLETE — no v2 performance result is reported.**
 
-The protocol requires 291 new occasions. Evidence exists for 70, features for 70, and reconciled blinded outcomes for 0. Immutable predictions have been generated for 0. The runner fails closed rather than evaluating a convenient subset.
+The frozen manifests retain 291 occasions: 289 are prediction-eligible and 2 are retained frozen-rule exclusions. Evidence exists for 289, features for 289, and reconciled blinded outcomes for 0. Immutable predictions have been generated for 289. The runner fails closed rather than evaluating a convenient subset.
 
-Next action: **Complete and review pre-cutoff evidence and frozen-rubric feature rows.**
+Next action: **Complete blinded outcome adjudication, then reconcile the labels.**

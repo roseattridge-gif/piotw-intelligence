@@ -1074,25 +1074,20 @@
       "ticker": "DWL"
     },
     "rv2-DWL-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "20 March 2024",
+        "20 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWL.L_2023.pdf"
-      ],
+      "page_count": 202,
+      "raw_path": "data/raw/restructuring_v2/gb-dwl/annual-report-2023.pdf",
+      "raw_sha256": "f5fc315922107a330c568a9db122deb5ab62b6d29bc8643ed8d85f775bb9bb8b",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "DWL"
+      "retrieved_at": "2026-08-15T15:04:57.060438+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dwl/annual-report-2023.txt",
+      "text_sha256": "4f4a640409933c0a3a7e2efb7861fc46cf86e83956c3184971790766797da015",
+      "ticker": "DWL",
+      "url": "https://www.dowlais.com/files/investors/reports/2024/annual-report-2024/Dowlais-Annual-Report-2023.pdf"
     },
     "rv2-ELM-2020-12-31": {
       "attempt_results": [

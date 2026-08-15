@@ -28,3 +28,8 @@ def test_coverage_queue_dispositions_every_frozen_occasion():
     assert all(row["evidence_completeness_status"] for row in queue)
     assert summary["outcomes_researched"] == 0
     assert sum(summary["status_counts"].values()) == 291
+    excluded = [row for row in queue
+                if row["evidence_completeness_status"] == "excluded_frozen_rule"]
+    assert {row["occasion_id"] for row in excluded} == {
+        "rv2-DWL-2020-12-31", "rv2-DWL-2022-12-31"}
+    assert all(row["exclusion_reason"] for row in excluded)
