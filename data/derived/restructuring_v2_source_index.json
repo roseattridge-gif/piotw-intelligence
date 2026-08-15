@@ -883,67 +883,50 @@
       "ticker": "COST"
     },
     "rv2-CPI-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "4 March 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2019.pdf"
-      ],
+      "page_count": 192,
+      "raw_path": "data/raw/restructuring_v2/gb-cpi/annual-report-2019.pdf",
+      "raw_sha256": "1bf67b4a6c29fbc0d6c732a34435601e0f0ede61163e0df78abd7aaf51eccec8",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "CPI"
+      "retrieved_at": "2026-08-15T07:24:07.132644+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cpi/annual-report-2019.txt",
+      "text_sha256": "97e17d01e2e05cca2b2da4c62360a8de42d9e1a544b711762719d235dcdc5099",
+      "ticker": "CPI",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2019.pdf"
     },
     "rv2-CPI-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "11 January 2021",
+        "9 March 2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2021.pdf"
-      ],
+      "page_count": 226,
+      "raw_path": "data/raw/restructuring_v2/gb-cpi/annual-report-2021.pdf",
+      "raw_sha256": "f1eba9ce0678c7eb9bb5d0eea6c13dd5aa42b54d9f36fa6344cbd9226924a495",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "CPI"
+      "retrieved_at": "2026-08-15T07:24:10.009790+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cpi/annual-report-2021.txt",
+      "text_sha256": "49124380fbf864404e88994842a5b5558b94fcac12a75f3eafa6eff537ea2fc4",
+      "ticker": "CPI",
+      "url": "https://www.capita.com/sites/g/files/nginej291/files/2022-04/Capita-investors-annual-report-2021.pdf"
     },
     "rv2-CPI-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "5 March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/c/LSE_CPI.L_2023.pdf"
-      ],
+      "page_count": 238,
+      "raw_path": "data/raw/restructuring_v2/gb-cpi/annual-report-2023.pdf",
+      "raw_sha256": "1364dde49f935c74622945b37158686505253ccdbecd59e61c14406b7db25a8e",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "CPI"
+      "retrieved_at": "2026-08-15T07:24:07.637163+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-cpi/annual-report-2023.txt",
+      "text_sha256": "3bc9ee8f770e830fc456fd23d2a6c2c99ed1270cc7a305dcfce19fbcd3f9d86a",
+      "ticker": "CPI",
+      "url": "https://www.capita.com/sites/g/files/nginej291/files/2024-03/Capita-plc-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-CRPR-2020-12-31": {
       "attempt_results": [
@@ -1068,67 +1051,43 @@
       "url": "https://companiesmarketcap.com/annual-reports/116175.ar.en.2023.pdf"
     },
     "rv2-DWHT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 56,
+      "raw_path": "data/raw/restructuring_v2/gb-dwht/annual-report-2019.pdf",
+      "raw_sha256": "9f79be28d566233327f156cd301327b20194e9357be67aa104bef79c0df35782",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "DWHT"
+      "retrieved_at": "2026-08-15T07:23:53.909652+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dwht/annual-report-2019.txt",
+      "text_sha256": "46b7653bc53ec33d8ef58a8fa94f72d4f4a113cf529584e1fb3749de83f7cbeb",
+      "ticker": "DWHT",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/dewhurst-plc1_2019.pdf"
     },
     "rv2-DWHT-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2021.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2021.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 60,
+      "raw_path": "data/raw/restructuring_v2/gb-dwht/annual-report-2021.pdf",
+      "raw_sha256": "ade841f8231ad7a52af31174214143542f445bd5e750ff066579218084578801",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "DWHT"
+      "retrieved_at": "2026-08-15T07:23:52.128756+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dwht/annual-report-2021.txt",
+      "text_sha256": "5d58a7bb44b3a69f2a954fa187cb7ad07530ac5fe38470f1f1ee0d0069c034b3",
+      "ticker": "DWHT",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2021.pdf"
     },
     "rv2-DWHT-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2023.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT.L_2023.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 68,
+      "raw_path": "data/raw/restructuring_v2/gb-dwht/annual-report-2023.pdf",
+      "raw_sha256": "fe58c77ac353b8187cf709d264a0d41a6711134bee04a890abe3feb9915b3d36",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "DWHT"
+      "retrieved_at": "2026-08-15T07:23:56.355898+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-dwht/annual-report-2023.txt",
+      "text_sha256": "e95f62af0ad917c6f6d7507833b6d71c5f1c9e66cc62bb338a8ef2e7d380483d",
+      "ticker": "DWHT",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/d/LSE_DWHT_2023.pdf"
     },
     "rv2-DWL-2020-12-31": {
       "attempt_results": [
@@ -1236,67 +1195,53 @@
       "ticker": "ELM"
     },
     "rv2-EMR-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "26 June 2019",
+        "26 June 2019",
+        "26 June 2019",
+        "26 June 2019",
+        "17 March 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2019.pdf"
-      ],
+      "page_count": 112,
+      "raw_path": "data/raw/restructuring_v2/gb-emr/annual-report-2019.pdf",
+      "raw_sha256": "bfa05dfad80cec56c03fe752033164f9a08755102c1275f1ab0b52f03e0ebc77",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "EMR"
+      "retrieved_at": "2026-08-15T07:24:02.188408+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-emr/annual-report-2019.txt",
+      "text_sha256": "2c4b60162c6741a197caad6c01109aef4331bfe32b93c028d3fbfaed8c2143a9",
+      "ticker": "EMR",
+      "url": "https://irp.cdn-website.com/ea085650/files/uploaded/Empresaria%20Annual%20Report%202019.pdf"
     },
     "rv2-EMR-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "16 March \n2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2021.pdf"
-      ],
+      "page_count": 108,
+      "raw_path": "data/raw/restructuring_v2/gb-emr/annual-report-2021.pdf",
+      "raw_sha256": "a064449b7500b6541ad4f6cece4fcbaf1248a49e2f31f9e4c38980fd94c6597d",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "EMR"
+      "retrieved_at": "2026-08-15T07:24:03.585606+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-emr/annual-report-2021.txt",
+      "text_sha256": "d765fbfa7bf9ee1fc9a88bd4adfabca4a92f4b955463f517036421a1aa571938",
+      "ticker": "EMR",
+      "url": "https://irp.cdn-website.com/ea085650/files/uploaded/Empresaria_AR21_Web.pdf"
     },
     "rv2-EMR-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "25\u00a0March 2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/e/LSE_EMR.L_2023.pdf"
-      ],
+      "page_count": 106,
+      "raw_path": "data/raw/restructuring_v2/gb-emr/annual-report-2023.pdf",
+      "raw_sha256": "46f07a533a75bf1dab5898d2f54aae97a07b17e874874a519cfbe4765a7a3d31",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "EMR"
+      "retrieved_at": "2026-08-15T07:24:05.259395+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-emr/annual-report-2023.txt",
+      "text_sha256": "588d8d3261db3c7d614bea5208a9b32d665f92bcc96a5a5e7285bdd556ea34a7",
+      "ticker": "EMR",
+      "url": "https://irp.cdn-website.com/ea085650/files/uploaded/Empresaria%20Annual%20Report%202023.pdf"
     },
     "rv2-EPWN-2020-12-31": {
       "attempt_results": [
