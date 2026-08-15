@@ -436,25 +436,17 @@
       "url": "https://www.breedongroup.com/content/dam/breedon/corporate/documents/investors/results-reports-presentations/annual-reports/Breedon_ARA2023.pdf"
     },
     "rv2-BYIT-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2019.pdf"
-        }
-      ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/b/LSE_BYIT.L_2019.pdf"
-      ],
+      "approval_date_candidates": [],
+      "page_count": 243,
+      "raw_path": "data/raw/restructuring_v2/gb-byit/annual-report-2019.pdf",
+      "raw_sha256": "9a682c2b0a16b11d3da66e53a4e84e236c0cbe3de47f74333aac1e832b264156",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "BYIT"
+      "retrieved_at": "2026-08-15T12:54:22.274162+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-byit/annual-report-2019.txt",
+      "text_sha256": "91a99dcc28b792baa4f104afd49f2be2b2b87bae590f85c5b5af1c05b7d094bb",
+      "ticker": "BYIT",
+      "url": "https://www.bytesplc.com/media/xwhlxdki/5-prospectus-1-december-2020-published.pdf"
     },
     "rv2-BYIT-2022-12-31": {
       "approval_date_candidates": [
