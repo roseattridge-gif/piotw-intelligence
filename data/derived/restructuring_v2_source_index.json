@@ -2441,67 +2441,52 @@
       "url": "https://www.lucecoplc.com/wp-content/uploads/2024/04/Luceco-PLC-Full-Year-2023-ARA.pdf"
     },
     "rv2-MACF-2020-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2019.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2019.pdf"
-        }
+      "approval_date_candidates": [
+        "27 February 2020",
+        "27 February 2020"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2019.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2019.pdf"
-      ],
+      "page_count": 112,
+      "raw_path": "data/raw/restructuring_v2/gb-macf/annual-report-2019.pdf",
+      "raw_sha256": "5fa6500be80cf43c42455463ebe82a050dc24f5c1b3bbdf6358d16e1246b0714",
       "report_year": 2019,
-      "status": "retrieval_failed",
-      "ticker": "MACF"
+      "retrieved_at": "2026-08-15T06:42:22.650894+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-macf/annual-report-2019.txt",
+      "text_sha256": "63f3964a67f4bf40470cb1afc141b5e630e6c76b896df4da684b1ed1216b0d67",
+      "ticker": "MACF",
+      "url": "https://www.macfarlanegroup.com/wp-content/uploads/2020/04/Macfarlane-AR-2019.pdf"
     },
     "rv2-MACF-2022-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2021.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2021.pdf"
-        }
+      "approval_date_candidates": [
+        "24 February 2022",
+        "24 February \n2022"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2021.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2021.pdf"
-      ],
+      "page_count": 136,
+      "raw_path": "data/raw/restructuring_v2/gb-macf/annual-report-2021.pdf",
+      "raw_sha256": "872e7d48b715b15dfeb502396d68c72185704d087281d0215f5304e25900561c",
       "report_year": 2021,
-      "status": "retrieval_failed",
-      "ticker": "MACF"
+      "retrieved_at": "2026-08-15T06:42:25.102048+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-macf/annual-report-2021.txt",
+      "text_sha256": "1bfffebeeef402aaf61c4b614d10bcaf24c24575c3928499c40a2dc1ed6a7e57",
+      "ticker": "MACF",
+      "url": "https://www.macfarlanegroup.com/wp-content/uploads/2022/03/Annual-Report-2021.pdf"
     },
     "rv2-MACF-2024-12-31": {
-      "attempt_results": [
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2023.pdf"
-        },
-        {
-          "reason": "<urlopen error [Errno 61] Connection refused>",
-          "status": "retrieval_failed",
-          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2023.pdf"
-        }
+      "approval_date_candidates": [
+        "29\tFebruary\t2024",
+        "29\tFebruary\t2024"
       ],
-      "attempted_urls": [
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF_2023.pdf",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/m/LSE_MACF.L_2023.pdf"
-      ],
+      "page_count": 68,
+      "raw_path": "data/raw/restructuring_v2/gb-macf/annual-report-2023.pdf",
+      "raw_sha256": "07e615e3255fd0b95da930eeb8e211e461452d3e0a2468f014f6ff1ab5842fdb",
       "report_year": 2023,
-      "status": "retrieval_failed",
-      "ticker": "MACF"
+      "retrieved_at": "2026-08-15T06:42:27.966176+00:00",
+      "status": "preserved",
+      "text_path": "data/parsed/restructuring_v2/gb-macf/annual-report-2023.txt",
+      "text_sha256": "fcd3cc841552d14586d5bf81e20816522ef9acfcf03d58ceb658a01a150083d7",
+      "ticker": "MACF",
+      "url": "https://www.macfarlanegroup.com/wp-content/uploads/2024/04/Macfarlane-Group-Ltd-Annual-Report-and-Accounts-2023.pdf"
     },
     "rv2-MGAM-2020-12-31": {
       "attempt_results": [
