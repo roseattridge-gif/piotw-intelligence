@@ -1,0 +1,23 @@
+{
+  "candidate_manifest_sha256": "a98cf3d827a9b5931eba15b718f8fe716b13a229a30e8e5b65ddadf33dda3bc4",
+  "candidates": 156,
+  "companies": 5,
+  "documents": 10,
+  "freeze_version": "evidence-engine-v0.3.5-fresh-source-candidate-v1",
+  "frozen_at": "2026-08-18",
+  "manifest_sha256": "b31ea6ea192c4f6ebf2a0b98b51713f17bb5bcdf9ef9902afc8d23d1a680e7b9",
+  "outcomes_accessed": false,
+  "semantic_v035_executed": false,
+  "source_hashes": {
+    "ee035-fresh-01-pep": "7b93bbae6ad51b622e028281184f3756c9420ff87e03b2ebebc4a44ec51df22a",
+    "ee035-fresh-02-pep": "2cb737ee8df287390d261d9729889d1a3e17fe54dc2732b9d6256c444edf5701",
+    "ee035-fresh-03-rtx": "9a8c294d9979aee2fc58ff3bcc039afadef57157b0cd5aff8e49f7c422361209",
+    "ee035-fresh-04-rtx": "9f013f79edcb3e5eba91055c1da62413a58f51ba47e7380d33744949362f3ec2",
+    "ee035-fresh-05-csco": "c63d07c5ceca03b9854bb42270dc157b707ee8983ea31de2668974495301da1a",
+    "ee035-fresh-06-csco": "016be1731042fde0b5c89e794bc4e60e1af8fd3dc6f358edbcc59436814ef50f",
+    "ee035-fresh-07-lmt": "252829a67a8ce7821a595295a9a20353f8a05c18a2ff989a9b21983a1ea51b32",
+    "ee035-fresh-08-lmt": "7121f63fab05dffe810d0af345200622bef247486ca538dc25a1380a6adddee1",
+    "ee035-fresh-09-nke": "6dd837804f1ede7b42ea6511402f3d01e59331ed3a362a88e1e4fc7269d7d41a",
+    "ee035-fresh-10-nke": "1a5958d0a896849e8bb23035d7f2a938d5c60ab2a1a2e0be6393d9e5ff2b5206"
+  }
+}

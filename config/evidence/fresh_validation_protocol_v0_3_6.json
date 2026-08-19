@@ -1,0 +1,35 @@
+{
+  "protocol_version": "evidence-engine-v0.3.6-fresh-gate-v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "selection": {
+    "companies": {"minimum": 7, "maximum": 14, "must_be_unused": true},
+    "documents": {"minimum": 14, "maximum": 28, "must_be_unused": true},
+    "per_family_candidate_opportunities": {"supported_minimum": 12, "difficult_negative_minimum": 12, "ambiguous_minimum": 6},
+    "families": ["restructuring_cost_action", "workforce", "delivery_capacity_sites", "demand_growth", "supply_chain_resilience", "quality_regulatory", "leadership_change_execution"],
+    "required_traps": ["attribution", "temporal", "polarity", "hypothetical", "historical", "fragment", "heading_only", "accounting_only"],
+    "excluded_sources": ["all_0.3.4_sets", "all_0.3.5_sets", "all_0.3.6_development", "all_blinded_reviewer_packs", "all_ai_review_sets"]
+  },
+  "annotation": {
+    "source_first": true,
+    "labels_frozen_before_model_execution": true,
+    "reviewer_cannot_see_model_output": true,
+    "allowed_labels": ["supported", "unsupported", "ambiguous"],
+    "formal_human_gold": false,
+    "purpose": "technical semantic quality gate before later cross-review"
+  },
+  "frozen_thresholds": {
+    "accepted_event_precision_minimum": 0.90,
+    "supported_event_retention_minimum": 0.80,
+    "severe_false_positives_maximum": 0,
+    "attribution_errors_maximum": 0,
+    "provenance_completeness_minimum": 1.0,
+    "provider_schema_contract_completeness_minimum": 0.99
+  },
+  "execution": {
+    "single_run_only": true,
+    "no_tuning_after_results": true,
+    "stop_on_failure": true,
+    "fresh_gate_executed_in_current_task": false
+  },
+  "scientific_boundaries": {"outcomes_accessed": false, "model2_training": false, "scores_created": false}
+}

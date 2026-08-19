@@ -1,0 +1,147 @@
+{
+  "schema_version": "company-intelligence-snapshot-v1",
+  "company_id": "anduril",
+  "display_name": "Anduril",
+  "observation_date": "2026-08-19T08:12:42.063261Z",
+  "dimensions": [
+    {
+      "dimension_id": "demand_growth",
+      "name": "Demand & Growth",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "delivery_capacity",
+      "name": "Delivery & Capacity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cost_productivity",
+      "name": "Cost & Productivity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cash_working_capital",
+      "name": "Cash & Working Capital",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "workforce_capability",
+      "name": "Workforce & Capability",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "supply_chain_resilience",
+      "name": "Supply Chain & Resilience",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "quality_customer",
+      "name": "Quality & Customer",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "change_execution",
+      "name": "Change & Execution",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    }
+  ],
+  "source_freshness": [
+    {
+      "source_family": "careers_ats",
+      "source_adapter": "lever",
+      "last_successful_fetch": null,
+      "next_due_collection": "2026-08-19T21:23:38.215420+00:00",
+      "consecutive_failures": 2,
+      "health": "fetch_failed"
+    },
+    {
+      "source_family": "contracts_procurement",
+      "health": "COLLECTING_UNRESOLVED",
+      "company_attachment": "NO_APPROVED_ENTITY_MATCH"
+    }
+  ],
+  "data_coverage": {
+    "careers_snapshots": 0,
+    "new": 0,
+    "absent": 0,
+    "closed": 0,
+    "reopened": 0,
+    "procurement_company_records": 0,
+    "source_families_missing": [
+      "careers_ats",
+      "issuer_reporting"
+    ],
+    "stale_sources": 0,
+    "failed_sources": 1,
+    "coverage_note": "Careers collection failed; procurement suppliers remain unresolved."
+  },
+  "prediction": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "overall_score": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "benchmark": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "pressure": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "expansion": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "careers_history": []
+}

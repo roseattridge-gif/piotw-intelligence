@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "piotw-human-observation-review-response-v1",
+  "title": "PIOTW blinded atomic-observation review response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "factual_observation",
+    "subject",
+    "action_or_state",
+    "object",
+    "timing",
+    "polarity",
+    "scope",
+    "entity_relationship",
+    "exact_evidence_span",
+    "reviewer_confidence",
+    "reviewer_notes"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^HRV1-[0-9]{3}$"},
+    "factual_observation": {"enum": ["YES", "NO", "AMBIGUOUS", ""]},
+    "subject": {"type": "string"},
+    "action_or_state": {"type": "string"},
+    "object": {"type": "string"},
+    "timing": {"enum": ["CURRENT", "ONGOING", "PLANNED_COMMITTED", "COMPLETED_RECENT", "HISTORICAL", "HYPOTHETICAL", "UNCLEAR", ""]},
+    "polarity": {"enum": ["INCREASE", "DECREASE", "POSITIVE", "NEGATIVE", "NEUTRAL", "MIXED", "NOT_APPLICABLE", "UNCLEAR", ""]},
+    "scope": {"type": "string"},
+    "entity_relationship": {"enum": ["ISSUER", "SUBSIDIARY", "CUSTOMER", "SUPPLIER", "COMPETITOR", "INDUSTRY", "OTHER", "UNCLEAR", ""]},
+    "exact_evidence_span": {"type": "string"},
+    "reviewer_confidence": {"enum": ["HIGH", "MEDIUM", "LOW", ""]},
+    "reviewer_notes": {"type": "string"}
+  }
+}

@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function NorthStarNav(){return <><div className="northstar-banner">SYNTHETIC NORTH STAR DEMO — VALUES ARE ILLUSTRATIVE AND NOT VALIDATED PIOTW OUTPUTS</div><nav className="mode-switch" aria-label="Data mode"><Link href="/intelligence/brief">Observed data</Link><Link href="/north-star" aria-current="page">North Star demo</Link><Link href="/lab">Real Company Lab</Link><span>Separate synthetic fixture store</span></nav></>}

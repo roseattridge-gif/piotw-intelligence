@@ -1,0 +1,9 @@
+{
+  "admissible_for_model2_gate": false,
+  "benchmark_version": "0.3.1",
+  "formal_gold": false,
+  "rows": 78,
+  "sha256": "ad41a6baa7c4bc640760703d51c5ace36f7e2b0ffabab518f5c38f4793b87e69",
+  "source": "Evidence Engine 0.3 AI finance/operations diagnostic comparison",
+  "status": "frozen_development_diagnostic"
+}

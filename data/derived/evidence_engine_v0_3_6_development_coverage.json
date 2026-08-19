@@ -1,0 +1,202 @@
+{
+  "version": "evidence-engine-v0.3.6-development-coverage-v2",
+  "status": "DEVELOPMENT_ONLY_NOT_VALIDATION",
+  "synthetic_cases": 123,
+  "synthetic_by_family": {
+    "delivery_capacity_sites": {
+      "supported_accepts": 14,
+      "cases": 22,
+      "correct_rejects": 6,
+      "correct_ambiguous": 2
+    },
+    "quality_regulatory": {
+      "supported_accepts": 8,
+      "cases": 12,
+      "correct_rejects": 3,
+      "correct_ambiguous": 1
+    },
+    "supply_chain_resilience": {
+      "supported_accepts": 13,
+      "cases": 21,
+      "correct_rejects": 6,
+      "correct_ambiguous": 2
+    },
+    "restructuring_cost_action": {
+      "supported_accepts": 12,
+      "cases": 24,
+      "correct_ambiguous": 4,
+      "correct_rejects": 8
+    },
+    "demand_growth": {
+      "supported_accepts": 4,
+      "cases": 14,
+      "correct_rejects": 8,
+      "correct_ambiguous": 2
+    },
+    "workforce": {
+      "supported_accepts": 6,
+      "cases": 14,
+      "correct_ambiguous": 2,
+      "correct_rejects": 6
+    },
+    "leadership_change_execution": {
+      "supported_accepts": 5,
+      "cases": 16,
+      "correct_ambiguous": 4,
+      "correct_rejects": 7
+    }
+  },
+  "contaminated_diagnostics_by_family": {
+    "supply_chain_resilience": {
+      "cases": 16,
+      "true_rejection": 6,
+      "true_positive": 10
+    },
+    "workforce": {
+      "cases": 8,
+      "true_positive": 2,
+      "true_rejection": 6
+    },
+    "restructuring_cost_action": {
+      "cases": 32,
+      "true_rejection": 14,
+      "true_positive": 18
+    },
+    "leadership_change_execution": {
+      "cases": 6,
+      "true_positive": 6
+    },
+    "demand_growth": {
+      "cases": 86,
+      "true_positive": 73,
+      "true_rejection": 13
+    },
+    "delivery_capacity_sites": {
+      "cases": 2,
+      "true_positive": 2
+    }
+  },
+  "severe_synthetic_failures": 0,
+  "attribution_synthetic_failures": 0,
+  "provenance_completeness": {
+    "complete": 123,
+    "total": 123
+  },
+  "event_family_development_readiness": {
+    "demand_growth": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "restructuring_cost_action": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "workforce": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "delivery_capacity_sites": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "supply_chain_resilience": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "quality_regulatory": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": false,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    },
+    "leadership_change_execution": {
+      "status": "READY_FOR_FRESH_VALIDATION",
+      "reason": "Development checklist complete and no preserved known diagnostic defect.",
+      "checklist": {
+        "positive_cases": true,
+        "negative_cases": true,
+        "ambiguous_cases": true,
+        "attribution_adversary": true,
+        "polarity_adversary": true,
+        "temporal_adversary": true,
+        "cross_family_adversary": true,
+        "provenance_complete": true,
+        "synthetic_contract_mismatches": true,
+        "unresolved_contaminated_failure": false
+      }
+    }
+  },
+  "fresh_gate_executed": false,
+  "outcomes_accessed": false,
+  "official_model2_readiness": "NOT READY"
+}

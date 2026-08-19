@@ -1,0 +1,14 @@
+[
+  {
+    "issue_id": "EE03-SOURCE-001",
+    "document_id": "ee03-alb-0000915913-24-000156",
+    "classification": "review_pack_source_completeness_defect",
+    "confirmed": true,
+    "primary_html_contains_exhibit_link": true,
+    "reviewer_pdf_contains_exhibit_body": false,
+    "piotw_primary_document_numeric_facts": 0,
+    "comparison_methodologically_fair": false,
+    "evidence": "Primary HTML links to a3q24earningsreleaseex991.htm; reviewer PDF renders only the 8-K wrapper.",
+    "recommended_action": "Issue a versioned corrected blinded pack before formal human review; preserve the original pack."
+  }
+]

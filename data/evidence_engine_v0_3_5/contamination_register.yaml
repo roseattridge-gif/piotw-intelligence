@@ -1,0 +1,13 @@
+version: 0.3.5-development
+status: DEVELOPMENT_CONTAMINATED — NOT VALIDATION
+entered_development_at: 2026-08-17
+sources:
+  - batch_id: batch_6a832dbf3d2c81909c2ff50f828be0da
+    material: all inspected GM/Honeywell/HP scientific rows
+    permitted_use: regression_development_only
+  - material: six-document AI-assisted diagnostic including Boeing event-009 and event-010
+    permitted_use: regression_development_only
+  - material: all 0.3.x semantic benchmarks, prior unseen sets and inspected samples
+    permitted_use: regression_development_only
+prohibited_claims: [unseen, independent_validation, scientific_precision]
+

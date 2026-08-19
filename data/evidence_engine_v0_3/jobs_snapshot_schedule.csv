@@ -1,0 +1,4 @@
+scheduled_sequence,minimum_day_offset,purpose,status
+1,0,baseline,ready
+2,1,repeat appearance and temporary absence,pending elapsed time
+3,2,closure confirmation after two healthy misses,pending elapsed time

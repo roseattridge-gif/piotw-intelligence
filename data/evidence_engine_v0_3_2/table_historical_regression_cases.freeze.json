@@ -1,0 +1,7 @@
+{
+  "version": "0.3.2",
+  "rows": 35,
+  "sha256": "82f38aba44f85e4a496b9ca0060e9c1e5ec60e48385b699f5686e0804b919722",
+  "formal_gold": false,
+  "admissible_for_model2_gate": false
+}

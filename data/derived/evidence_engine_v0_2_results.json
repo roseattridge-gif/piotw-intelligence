@@ -1,0 +1,425 @@
+{
+  "ambiguity_handling": {
+    "correct": 7,
+    "failed_cases": [],
+    "rate": 1.0,
+    "total": 7
+  },
+  "boundary": {
+    "bad_partition_rows": 0,
+    "frozen_ticker_overlap": [],
+    "hash_failures": 0,
+    "missing_files": 0
+  },
+  "corpus": {
+    "companies": 25,
+    "difficulty": {
+      "difficult": 63,
+      "ordinary": 12
+    },
+    "documents": 75,
+    "gold_event_cases": 284,
+    "gold_numerical_facts": 363,
+    "periods": 75,
+    "report_types": {
+      "annual_report": 50,
+      "interim_report": 13,
+      "regulatory_results_announcement": 12
+    }
+  },
+  "cost_and_scale": {
+    "average_gold_observations_per_report": 4.84,
+    "average_raw_bytes_per_report": 3737798,
+    "compute_median_seconds_per_report": 0.012823,
+    "jobs_failure_frequency": {
+      "correct": 1,
+      "rate": 0.083333,
+      "total": 12
+    },
+    "jobs_runtime_seconds": 29.488631,
+    "llm_cost_usd": 0,
+    "raw_storage_bytes": 280334817,
+    "source_api_cost_usd": 0
+  },
+  "engine_version": "evidence_engine_v0_2",
+  "evaluation_config_version": "0.2.0",
+  "event_extraction": {
+    "by_event_type": {
+      "capacity_expansion": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2
+      },
+      "cost_reduction": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 18
+      },
+      "demand_weakness": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 3
+      },
+      "growth_language": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 23
+      },
+      "labour_constraint": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 6
+      },
+      "new_facility": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 4
+      },
+      "redundancy": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 3
+      },
+      "refinancing": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 27
+      },
+      "restructuring": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 123
+      },
+      "simplification": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 6
+      },
+      "site_closure": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 11
+      },
+      "supply_chain_constraint": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 35
+      }
+    },
+    "by_taxonomy_group": {
+      "contrary_strength": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 23
+      },
+      "expansion": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 6
+      },
+      "financial_pressure": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 27
+      },
+      "intervention": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 161
+      },
+      "operational_pressure": {
+        "fn": 0,
+        "fp": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 44
+      }
+    },
+    "f1": 1.0,
+    "false_negative_examples": [],
+    "false_negatives": 0,
+    "false_positive_examples": [],
+    "false_positives": 0,
+    "gold_negative_context": 23,
+    "gold_positive": 261,
+    "precision": 1.0,
+    "predicted": 261,
+    "recall": 1.0,
+    "true_positives": 261,
+    "wrong_context_count": 0
+  },
+  "frozen_guard": {
+    "all_unchanged": true,
+    "protected_files": 12
+  },
+  "jobs": {
+    "companies_attempted": 12,
+    "companies_succeeded": 11,
+    "duplicate_rate": {
+      "correct": 0,
+      "rate": 0.0,
+      "total": 2540
+    },
+    "failed_sources": [
+      {
+        "company_id": "anduril",
+        "duration_seconds": 0.668426,
+        "error": "SourceUnavailable: GET failed (404) for https://api.lever.co/v0/postings/anduril?mode=json",
+        "job_count": 0,
+        "provider": "lever",
+        "success": false
+      }
+    ],
+    "false_closure_rate": {
+      "correct": null,
+      "rate": null,
+      "reason": "Single live snapshot; outage logic tested by fixtures",
+      "total": null
+    },
+    "function_accuracy": {
+      "correct": 110,
+      "rate": 1.0,
+      "total": 110
+    },
+    "gold_postings_found": {
+      "correct": 110,
+      "rate": 1.0,
+      "total": 110
+    },
+    "gold_sample": 110,
+    "jobs_collected": 2540,
+    "location_accuracy": {
+      "correct": 110,
+      "rate": 1.0,
+      "total": 110
+    },
+    "platforms": [
+      "ashby",
+      "greenhouse",
+      "lever"
+    ],
+    "runtime_seconds": 29.488631,
+    "seniority_accuracy": {
+      "correct": 110,
+      "rate": 1.0,
+      "total": 110
+    },
+    "vacancy_discovery_precision": {
+      "correct": null,
+      "rate": null,
+      "reason": "No independent exhaustive site listing",
+      "total": null
+    },
+    "vacancy_discovery_recall": {
+      "correct": null,
+      "rate": null,
+      "reason": "No independent exhaustive site listing",
+      "total": null
+    }
+  },
+  "longitudinal_features": {
+    "by_feature": {
+      "capex": {
+        "correct": 19,
+        "rate": 1.0,
+        "total": 19
+      },
+      "impairment_charges": {
+        "correct": 4,
+        "rate": 1.0,
+        "total": 4
+      },
+      "inventory": {
+        "correct": 23,
+        "rate": 1.0,
+        "total": 23
+      },
+      "operating_cash_flow": {
+        "correct": 25,
+        "rate": 1.0,
+        "total": 25
+      },
+      "operating_profit": {
+        "correct": 19,
+        "rate": 1.0,
+        "total": 19
+      },
+      "receivables": {
+        "correct": 18,
+        "rate": 1.0,
+        "total": 18
+      },
+      "restructuring_charges": {
+        "correct": 9,
+        "rate": 1.0,
+        "total": 9
+      },
+      "revenue": {
+        "correct": 24,
+        "rate": 1.0,
+        "total": 24
+      }
+    },
+    "overall": {
+      "correct": 141,
+      "rate": 1.0,
+      "total": 141
+    }
+  },
+  "model2_readiness": {
+    "gate": "docs/evidence-engine-v0.2-model2-readiness-gate.md",
+    "reasons": [
+      "jobs discovery recall not measured",
+      "real false-closure rate not measured",
+      "manual review timing and visually independent table transcription not completed",
+      "event gold uses the same frozen pattern lexicon and is not an independent exhaustive annotation",
+      "jobs classification gold is not independent and only one live snapshot exists",
+      "ordinary reports contain no numerical gold facts in this corpus"
+    ],
+    "status": "NOT READY"
+  },
+  "numerical_extraction": {
+    "accounting_basis": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "complete_observation_accuracy": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "currency": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "current_comparative_role": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "difficult_report_accuracy": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "metric_identity": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "ordinary_report_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "total": 0
+    },
+    "provenance_span": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "reporting_period": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "runtime": {
+      "median_seconds_per_report": 0.012823,
+      "reports": 75,
+      "total_seconds": 0.985253
+    },
+    "scale": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "severe_errors": {
+      "by_type": {},
+      "count": 0,
+      "rate": 0.0,
+      "total": 363
+    },
+    "sign": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "unit": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    },
+    "value": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    }
+  },
+  "outcomes_used": false,
+  "predictive_model_trained": false,
+  "pressure_or_expansion_built": false,
+  "provenance": {
+    "complete": 363,
+    "rate": 1.0,
+    "total": 363
+  },
+  "review_workload": {
+    "limitation": "Gold created from independent iXBRL source facts but manual review timing was not captured",
+    "manual_acceptance": {
+      "correct": null,
+      "rate": null,
+      "total": null
+    },
+    "manual_corrections": {
+      "correct": null,
+      "rate": null,
+      "total": null
+    },
+    "manual_rejections": {
+      "correct": null,
+      "rate": null,
+      "total": null
+    },
+    "median_seconds_per_document": null,
+    "median_seconds_per_observation": null,
+    "most_common_corrections": [],
+    "structured_fact_match": {
+      "correct": 363,
+      "rate": 1.0,
+      "total": 363
+    }
+  }
+}

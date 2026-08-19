@@ -1,0 +1,223 @@
+{
+  "schema_version": "company-intelligence-snapshot-v1",
+  "company_id": "cloudflare",
+  "display_name": "Cloudflare",
+  "observation_date": "2026-08-19T08:12:42.050951Z",
+  "dimensions": [
+    {
+      "dimension_id": "demand_growth",
+      "name": "Demand & Growth",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "delivery_capacity",
+      "name": "Delivery & Capacity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cost_productivity",
+      "name": "Cost & Productivity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cash_working_capital",
+      "name": "Cash & Working Capital",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "workforce_capability",
+      "name": "Workforce & Capability",
+      "coverage_status": "OBSERVED",
+      "observations": [
+        {
+          "observation_id": "63c67336a711903a2eea68e1",
+          "observation_type": "open_vacancies",
+          "state": 297,
+          "change": -8,
+          "velocity": -3.6663903745906077,
+          "novelty": true,
+          "persistence": 2,
+          "unit": "postings",
+          "validation_status": "DETERMINISTIC_OBSERVATION_NOT_PREDICTIVE",
+          "provenance": [
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243",
+              "source_hash": "7104bd3666afe3d860c5b55d128486cde1a7c023a5112802c7cf913828d207ec",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6528593?gh_jid=6528593",
+              "source_hash": "1c22eb5bc5b93e41954fbeaac295d95f124a669105b1a2b0d489e2ed24797fa0",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6540163?gh_jid=6540163",
+              "source_hash": "2e34926390b67942d9fcaabad5e3aca028b4ddb146a7bb8cdd47dee43bb83fb1",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6557318?gh_jid=6557318",
+              "source_hash": "d0a271d7eca0889221e11e9cbb1b26fd193e9f08373547d7358d5448ae5bbadb",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726",
+              "source_hash": "fafdcdb54670505ef65f275bb878c8e616e5d4e20ea4365bc185a9aeab5d1ec0",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            }
+          ]
+        }
+      ],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "supply_chain_resilience",
+      "name": "Supply Chain & Resilience",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "quality_customer",
+      "name": "Quality & Customer",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "change_execution",
+      "name": "Change & Execution",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    }
+  ],
+  "source_freshness": [
+    {
+      "source_family": "careers_ats",
+      "source_adapter": "greenhouse",
+      "last_successful_fetch": "2026-08-17T21:23:38.215420+00:00",
+      "next_due_collection": "2026-08-19T21:23:38.215420+00:00",
+      "consecutive_failures": 0,
+      "health": "healthy"
+    },
+    {
+      "source_family": "contracts_procurement",
+      "health": "COLLECTING_UNRESOLVED",
+      "company_attachment": "NO_APPROVED_ENTITY_MATCH"
+    }
+  ],
+  "data_coverage": {
+    "careers_snapshots": 2,
+    "new": 8,
+    "absent": 16,
+    "closed": 0,
+    "reopened": 0,
+    "procurement_company_records": 0,
+    "source_families_missing": [
+      "issuer_reporting"
+    ],
+    "stale_sources": 0,
+    "failed_sources": 0,
+    "coverage_note": "Procurement records are not attached without approved entity resolution."
+  },
+  "prediction": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "overall_score": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "benchmark": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "pressure": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "expansion": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "careers_history": [
+    {
+      "observed_at": "2026-08-15T17:01:34.918831Z",
+      "open_roles": 305,
+      "new_roles": 305,
+      "persistent_roles": 0,
+      "absent_once_roles": 0,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "58a49813d14a2f87ed4ab6c06f813ccb4d9ef5e0b4720a1976255a3351d91292",
+      "collector_version": "careers-longitudinal-v1"
+    },
+    {
+      "observed_at": "2026-08-17T21:23:38.215420Z",
+      "open_roles": 297,
+      "new_roles": 8,
+      "persistent_roles": 289,
+      "absent_once_roles": 16,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "7965f9e124259afc61cf5a164bb121d4987ceaaba2b817e9678abc031d58aa4c",
+      "collector_version": "careers-longitudinal-v1"
+    }
+  ]
+}

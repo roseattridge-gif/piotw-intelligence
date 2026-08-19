@@ -1,0 +1,10 @@
+version: 0.1.0
+effective_from: 2026-08-15
+features:
+  - {feature_id: revenue_yoy_change_pct, name: Revenue year-on-year change, version: 0.1.0, definition: Percentage change between the latest two comparable revenue observations, required_observation_types: [revenue], calculation: "(current / previous - 1) * 100", unit: percent, missing_data: null, lookback_periods: 2}
+  - {feature_id: operating_margin_change_bps, name: Operating margin change, version: 0.1.0, definition: Latest comparable operating margin minus previous margin, required_observation_types: [operating_margin], calculation: "(current - previous) * 100", unit: basis_points, missing_data: null, lookback_periods: 2}
+  - {feature_id: free_cash_flow_change_pct, name: Free cash flow change, version: 0.1.0, definition: Percentage change in comparable free cash flow, required_observation_types: [free_cash_flow], calculation: "(current / previous - 1) * 100", unit: percent, missing_data: null, lookback_periods: 2}
+  - {feature_id: net_debt_change_pct, name: Net debt change, version: 0.1.0, definition: Percentage change in comparable net debt, required_observation_types: [net_debt], calculation: "(current / previous - 1) * 100", unit: percent, missing_data: null, lookback_periods: 2}
+  - {feature_id: cash_conversion_change_bps, name: Cash conversion change, version: 0.1.0, definition: Latest cash conversion minus previous value, required_observation_types: [cash_conversion], calculation: "(current - previous) * 100", unit: basis_points, missing_data: null, lookback_periods: 2}
+  - {feature_id: capex_growth_pct, name: Capex change, version: 0.1.0, definition: Percentage change in comparable capital expenditure, required_observation_types: [capex], calculation: "(current / previous - 1) * 100", unit: percent, missing_data: null, lookback_periods: 2}
+

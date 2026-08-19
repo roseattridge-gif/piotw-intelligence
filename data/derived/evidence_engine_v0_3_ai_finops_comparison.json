@@ -1,0 +1,180 @@
+{
+  "events": {
+    "ai_reviewed_denominator": 15,
+    "classifications": {
+      "AI_REVIEW_MISSING": {
+        "count": 40,
+        "rate": 0.5128205128205128,
+        "total": 78
+      },
+      "AMBIGUOUS": {
+        "count": 1,
+        "rate": 0.01282051282051282,
+        "total": 78
+      },
+      "DUPLICATE_EVENT": {
+        "count": 2,
+        "rate": 0.02564102564102564,
+        "total": 78
+      },
+      "PIOTW_FALSE_POSITIVE": {
+        "count": 21,
+        "rate": 0.2692307692307692,
+        "total": 78
+      },
+      "PIOTW_MISSED_EVENT": {
+        "count": 14,
+        "rate": 0.1794871794871795,
+        "total": 78
+      }
+    },
+    "diagnostic_counts": {
+      "ai_review_omission_candidates": 40,
+      "ambiguous": 1,
+      "duplicate_events": 2,
+      "event_agreement": 0,
+      "piotw_false_positives": 21,
+      "piotw_missed_events": 14,
+      "taxonomy_disagreements": 0,
+      "timing_context_disagreements": 0
+    },
+    "row_comparisons": 78,
+    "severe_disagreements": {
+      "count": 12,
+      "total": 78
+    }
+  },
+  "metadata": {
+    "admissible_for_model2_gate": false,
+    "formal_gold": false,
+    "formal_human_gold_unchanged": true,
+    "namespace": "ai_finops_first_pass",
+    "reviewer_identity": "OpenAI GPT-5.6 Sol",
+    "reviewer_type": "AI_ASSISTED_FINOPS_FIRST_PASS",
+    "source_drive_folder": "https://drive.google.com/drive/folders/1_uv_LDU5E1AndGuBBOWLb5piP5MVmfnQ",
+    "source_files": {
+      "piotw_ai_finops_first_pass_events.csv": {
+        "bytes": 6417,
+        "sha256": "d65854d3ae2c17391c249e206140c4e8c7df39bb3be538558695134b9b55cdff"
+      },
+      "piotw_ai_finops_first_pass_numerical.csv": {
+        "bytes": 6966,
+        "sha256": "7d08d059680e9dab22d7499cf846a7036251141c5b47e3dfc2a55e8f56507ca7"
+      },
+      "piotw_ai_finops_first_pass_readme.md": {
+        "bytes": 1211,
+        "sha256": "ad7aac9934b262e2beb9294a56695e260a1657789d0899accbf50fe3e4f1d92f"
+      }
+    },
+    "status": "exploratory_diagnostic"
+  },
+  "methodological_boundary": "AI-assisted reviewer diagnostic agreement; not independent extraction accuracy",
+  "model2_trained": false,
+  "numerical": {
+    "ai_reviewed_denominator": 24,
+    "classifications": {
+      "ACCOUNTING_BASIS_DISAGREEMENT": {
+        "count": 2,
+        "rate": 0.05128205128205128,
+        "total": 39
+      },
+      "AI_REVIEW_MISSING": {
+        "count": 15,
+        "rate": 0.38461538461538464,
+        "total": 39
+      },
+      "PIOTW_MISSING": {
+        "count": 9,
+        "rate": 0.23076923076923078,
+        "total": 39
+      },
+      "SEMANTIC_AGREEMENT": {
+        "count": 11,
+        "rate": 0.28205128205128205,
+        "total": 39
+      },
+      "VALUE_DISAGREEMENT": {
+        "count": 2,
+        "rate": 0.05128205128205128,
+        "total": 39
+      }
+    },
+    "diagnostic_counts": {
+      "accounting_basis_disagreements": 2,
+      "ai_review_omission_candidates": 15,
+      "exact_agreement": 0,
+      "metric_identity_disagreements": 0,
+      "period_disagreements": 0,
+      "piotw_omissions": 9,
+      "semantic_agreement": 11,
+      "unit_scale_currency_disagreements": 0,
+      "value_disagreements": 2
+    },
+    "row_comparisons": 39,
+    "severe_disagreements": {
+      "count": 2,
+      "total": 39
+    }
+  },
+  "official_readiness_status": "NOT READY",
+  "outcomes_accessed": false,
+  "scope": {
+    "ai_event_annotations": 15,
+    "ai_numerical_annotations": 24,
+    "companies": 3,
+    "document_ids": [
+      "ee03-aapl-0000320193-23-000106",
+      "ee03-aapl-0000320193-24-000081",
+      "ee03-alb-0000915913-23-000039",
+      "ee03-alb-0000915913-24-000156",
+      "ee03-ba-0000012927-23-000007",
+      "ee03-ba-0000012927-24-000082"
+    ],
+    "documents": 6,
+    "event_labels": [
+      "capacity_expansion",
+      "cost_reduction",
+      "demand_weakness",
+      "growth",
+      "investment",
+      "labour_constraint",
+      "liquidity_concern",
+      "margin_pressure",
+      "operational_disruption",
+      "recovery",
+      "supply_chain_constraint",
+      "workforce_reduction"
+    ],
+    "metric_names": [
+      "adjusted_EBITDA",
+      "capex",
+      "cash_and_cash_equivalents",
+      "gross_margin",
+      "net_income",
+      "operating_cash_flow",
+      "operating_profit",
+      "revenue",
+      "total_debt",
+      "unused_borrowing_capacity"
+    ],
+    "report_types": {
+      "annual_report": 3,
+      "interim_report": 2,
+      "regulatory_results_announcement": 1
+    }
+  },
+  "source_pack_issues": [
+    {
+      "classification": "review_pack_source_completeness_defect",
+      "comparison_methodologically_fair": false,
+      "confirmed": true,
+      "document_id": "ee03-alb-0000915913-24-000156",
+      "evidence": "Primary HTML links to a3q24earningsreleaseex991.htm; reviewer PDF renders only the 8-K wrapper.",
+      "issue_id": "EE03-SOURCE-001",
+      "piotw_primary_document_numeric_facts": 0,
+      "primary_html_contains_exhibit_link": true,
+      "recommended_action": "Issue a versioned corrected blinded pack before formal human review; preserve the original pack.",
+      "reviewer_pdf_contains_exhibit_body": false
+    }
+  ]
+}

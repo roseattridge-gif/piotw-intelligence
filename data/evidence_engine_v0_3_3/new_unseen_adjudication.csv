@@ -1,0 +1,31 @@
+row_index,classification,severe,failure_class,notes
+1,supported,false,,Current supply-chain effect on company results is stated.
+2,false_positive,false,hypothetical_risk,Increased risk of a strike is not an actual labour event.
+3,false_positive,true,wrong_context,Legal-litigation wording does not establish a company restructuring event.
+4,supported,false,,Company explicitly experienced production interruption from supply disruption.
+5,supported,false,,Ongoing disruption is explicitly linked to company vehicle sales.
+6,supported,false,,Actual company sales increase.
+7,supported,false,,Explicit planned refinancing activity.
+8,ambiguous,false,customer_or_dealer_context,Dealer restructuring charges do not clearly establish a target-company operational programme.
+9,false_positive,false,hypothetical_risk,Increased risk of a strike is not an actual labour event.
+10,false_positive,true,wrong_context,Legal-litigation wording does not establish a company restructuring event.
+11,supported,false,,Actual company sales growth.
+12,ambiguous,false,malformed_fragment,Joined infographic text does not provide reliable direct event support.
+13,supported,false,,Year-in-review sales growth is factual.
+14,false_positive,false,malformed_fragment,Raw-material/risk-section join does not directly support a current company event.
+15,ambiguous,false,cross_reference,A risk-section cross-reference alone does not establish the event.
+16,false_positive,false,industry_context,Global-economy disruption is not explicitly a target-company condition in this span.
+17,supported,false,,Labour shortages are explicitly straining company operations.
+18,supported,false,,Ongoing constraint and implemented company response are directly stated.
+19,ambiguous,false,industry_context,Global conflict context lacks sufficiently direct company attribution.
+20,ambiguous,false,cross_reference,A segment-review cross-reference alone does not establish the event.
+21,false_positive,false,accounting_definition,Definition of structural cost savings is not a current intervention.
+22,supported,false,,Company explicitly reports experienced margin decline.
+23,ambiguous,false,fragment,Isolated bullet lacks sufficient subject and timing context.
+24,false_positive,false,generic_risk,Generic lower-demand scenario is not an actual current condition.
+25,supported,false,,Company explicitly identifies its restructuring plans.
+26,supported,false,,Company reports achievement of an actual cost-saving target.
+27,supported,false,,Named company restructuring plan is explicitly referenced.
+28,false_positive,false,taxonomy_mismatch,FX impact on revenue growth is not positive growth evidence.
+29,false_positive,false,taxonomy_mismatch,Operating-expense percentage increase is not company revenue growth.
+30,false_positive,false,heading_only,A cost-savings-plan heading alone is not an event.

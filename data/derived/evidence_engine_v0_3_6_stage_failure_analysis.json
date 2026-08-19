@@ -1,0 +1,38 @@
+{
+  "ambiguous_decisions": 68,
+  "candidate_generation_recall_caveat": "All frozen labels were selected from surfaced candidates; unsurfaced source facts were not independently annotated.",
+  "candidate_generation_recall_measurable": false,
+  "failure_rows": 107,
+  "false_positive_stage_counts": {
+    "joint_contract_and_semantic": 9
+  },
+  "false_positive_stage_rates": {
+    "joint_contract_and_semantic": 1.0
+  },
+  "false_positives": 9,
+  "family_routing_mismatches_in_failure_rows": 0,
+  "miss_stage_counts": {
+    "family_contract": 57,
+    "provider_execution": 2,
+    "semantic_adjudication": 8,
+    "shared_safety_rules": 10
+  },
+  "miss_stage_rates": {
+    "family_contract": 0.7402597402597403,
+    "provider_execution": 0.025974025974025976,
+    "semantic_adjudication": 0.1038961038961039,
+    "shared_safety_rules": 0.12987012987012986
+  },
+  "missed_supported_events": 77,
+  "model2_trained": false,
+  "outcomes_accessed": false,
+  "scientific_status": "SPENT_0_3_6_CORPUS_DEVELOPMENT_ONLY",
+  "supported_label_timing": {
+    "current": 2,
+    "historical": 45,
+    "hypothetical": 4,
+    "ongoing": 29,
+    "planned": 4
+  },
+  "supported_with_historical_or_hypothetical_flag": 68
+}

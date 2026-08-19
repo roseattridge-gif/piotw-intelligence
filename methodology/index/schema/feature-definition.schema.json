@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piotw.example/methodology/index/v0.1/feature-definition.schema.json",
+  "title": "PIOTW FeatureDefinition v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["feature_id","name","dimension","description","source_observation_types","unit_raw_representation","polarity","health_index_eligible","pressure_index_eligible","context_dependent","recency_required","persistence_required","evidence_confidence_required","minimum_evidence_count","normalisation_method_candidate","missing_data_policy","candidate_financial_linkages","candidate_predictive_outcomes","status","notes"],
+  "properties": {
+    "feature_id": {"type":"string","pattern":"^[a-z][a-z0-9_]*$"},
+    "name": {"type":"string","minLength":1},
+    "dimension": {"enum":["cost_efficiency","capacity_footprint","people_organisation","supply_chain_delivery","technology_execution","growth_investment"]},
+    "description": {"type":"string","minLength":1},
+    "source_observation_types": {"type":"string","minLength":1},
+    "unit_raw_representation": {"type":"string","minLength":1},
+    "polarity": {"enum":["positive","negative","neutral/context","bidirectional"]},
+    "health_index_eligible": {"type":"boolean"},
+    "pressure_index_eligible": {"type":"boolean"},
+    "context_dependent": {"type":"boolean"},
+    "recency_required": {"type":"boolean"},
+    "persistence_required": {"type":"boolean"},
+    "evidence_confidence_required": {"type":"boolean"},
+    "minimum_evidence_count": {"type":"integer","minimum":1},
+    "normalisation_method_candidate": {"type":"string","minLength":1},
+    "missing_data_policy": {"type":"string","minLength":1},
+    "candidate_financial_linkages": {"type":"string"},
+    "candidate_predictive_outcomes": {"type":"string"},
+    "status": {"enum":["candidate","provisional","excluded","needs-validation"]},
+    "notes": {"type":"string"}
+  }
+}

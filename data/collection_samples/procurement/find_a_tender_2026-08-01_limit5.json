@@ -1,0 +1,784 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updatedFrom=2026-08-01T00:00:00&updatedTo=2026-08-01T23:59:59&limit=5",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-08-01T20:22:44+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06d974",
+            "id": "072960-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-08-01T20:22:44+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "West Northamptonshire Council",
+                    "id": "GB-PPON-PGDV-8944-CMBP",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGDV-8944-CMBP"
+                    },
+                    "address": {
+                        "streetAddress": "West Northamptonshire Council",
+                        "locality": "Northampton",
+                        "postalCode": "NN1 1ED",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF24"
+                    },
+                    "contactPoint": {
+                        "name": "Tom Callaghan",
+                        "email": "tcallaghan@northamptonshire.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.westnorthants.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "H2S Cars Ltd",
+                    "id": "GB-FTS-119928",
+                    "address": {
+                        "streetAddress": "15 Waverley Road",
+                        "locality": "Northampton",
+                        "postalCode": "NN2 7DA",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF24"
+                    },
+                    "contactPoint": {
+                        "name": "Gofur Miah",
+                        "email": "h2s.cars@yahoo.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PGDV-8944-CMBP",
+                "name": "West Northamptonshire Council"
+            },
+            "tender": {
+                "id": "SA1381039",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Passenger Transport Services 2026 - Route Based (1-8 Seat Provision)",
+                "description": "Passenger Transport Services 2026 - Route Based (1-8 Seat Provision) : SN2482 \nWith PA \nOutbound - Monday AM\n07:38  The Kennels, Leicester Lane, Daventry, NN11 3QD\n08:50 - Dorothy Goodman School - Dorothy Goodman School, Stoke Road, Hinckley, LE10 0EA\nReturn - Monday PM\n15:10 - Dorothy Goodman School - Dorothy Goodman School, Stoke Road, Hinckley, LE10 0EA\n16:22 The Kennels, Leicester Lane, Daventry, NN11 3QD\n* West Northants Council will set a starting price on this contract. *\nOB - Social, emotional difficulties and non Verbal - Booster Seat",
+                "status": "complete",
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Below threshold - limited competition",
+                "specialRegime": [
+                    "lightTouch"
+                ],
+                "lots": [
+                    {
+                        "id": "2755",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "mainProcurementCategory": "services",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-119928",
+                            "name": "H2S Cars Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "2755",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60000000",
+                                    "description": "Transport services (excl. Waste transport)"
+                                }
+                            ],
+                            "relatedLot": "2755"
+                        }
+                    ],
+                    "relatedLots": [
+                        "2755"
+                    ]
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "1",
+                    "awardID": "1",
+                    "title": "Passenger Transport Services 2026 - Route Based (1-8 Seat Provision)",
+                    "status": "active",
+                    "period": {
+                        "startDate": "2026-09-02T00:00:00Z",
+                        "endDate": "2028-07-23T23:59:59Z"
+                    },
+                    "value": {
+                        "amountGross": 90000,
+                        "amount": 90000,
+                        "currency": "GBP"
+                    },
+                    "aboveThreshold": false,
+                    "dateSigned": "2026-08-01T00:00:00Z",
+                    "documents": [
+                        {
+                            "id": "072960-2026",
+                            "documentType": "contractNotice",
+                            "noticeType": "UK7",
+                            "description": "Contract details notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/072960-2026",
+                            "datePublished": "2026-08-01T20:22:44+01:00",
+                            "format": "text/html"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-06d973",
+            "buyerID": [],
+            "id": "072959-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-08-01T19:24:00+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "NPL Management Limited",
+                    "id": "GB-COH-02937881",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "02937881"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PYDB-8862-JBYM"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "National Physical Laboratory",
+                        "locality": "Teddington",
+                        "postalCode": "TW11 0LW",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI75"
+                    },
+                    "contactPoint": {
+                        "email": "etenders@npl.co.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.npl.co.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicUndertaking",
+                                "description": "Public undertaking"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Scotchem Consultancy Services Ltd",
+                    "id": "GB-PPON-PMWW-2158-RXVM",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PMWW-2158-RXVM"
+                    },
+                    "address": {
+                        "streetAddress": "6 Crawford Square, Airth",
+                        "locality": "FALKIRK",
+                        "postalCode": "FK2 8LL",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKM76"
+                    },
+                    "contactPoint": {
+                        "email": "info@scotchem.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-COH-02937881",
+                "name": "NPL Management Limited"
+            },
+            "tender": {
+                "id": "PO00023862",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Evaluation and monitoring framework and baseline study for the UK Materials Verification Programme",
+                "description": "To develop an evaluation and monitoring framework and baseline study for the UK Materials Verification Programme",
+                "status": "complete",
+                "procurementMethodDetails": "Below threshold - unknown",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "mainProcurementCategory": "services",
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PMWW-2158-RXVM",
+                            "name": "Scotchem Consultancy Services Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "79311410",
+                                    "description": "Economic impact assessment"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "relatedLots": [
+                        "1"
+                    ]
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "1",
+                    "awardID": "1",
+                    "status": "active",
+                    "period": {
+                        "startDate": "2026-07-07T00:00:00+01:00",
+                        "endDate": "2026-07-07T23:59:59+01:00"
+                    },
+                    "value": {
+                        "amountGross": 3411000,
+                        "amount": 3411000,
+                        "currency": "GBP"
+                    },
+                    "aboveThreshold": false,
+                    "dateSigned": "2026-07-07T00:00:00+01:00",
+                    "statusDetails": null,
+                    "documents": [
+                        {
+                            "id": "072959-2026",
+                            "documentType": "contractNotice",
+                            "noticeType": "UK7",
+                            "description": "Contract details notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/072959-2026",
+                            "datePublished": "2026-08-01T19:24:00+01:00",
+                            "format": "text/html"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-06d972",
+            "buyerID": [],
+            "id": "072958-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-08-01T18:49:02+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "NPL Management Limited",
+                    "id": "GB-COH-02937881",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "02937881"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PYDB-8862-JBYM"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "National Physical Laboratory",
+                        "locality": "Teddington",
+                        "postalCode": "TW11 0LW",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI75"
+                    },
+                    "contactPoint": {
+                        "email": "etenders@npl.co.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.npl.co.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicUndertaking",
+                                "description": "Public undertaking"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "KEYSIGHT TECHNOLOGIES UK LIMITED",
+                    "id": "GB-COH-03809903",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "03809903"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PRYX-2841-YQVR"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "610 Wharfedale Road",
+                        "locality": "Wokingham",
+                        "postalCode": "RG41 5TP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ11"
+                    },
+                    "contactPoint": {
+                        "email": "contactcenter_uk@keysight.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.keysight.com",
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-COH-02937881",
+                "name": "NPL Management Limited"
+            },
+            "tender": {
+                "id": "PO00024149",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Keysight N7788C Optical Component Analyzer with Accessories, Support and Professional Services",
+                "description": "Purchase of a Keysight N7788C Optical Component Analyzer, connector interfaces, first-year manufacturer support, and professional engineering services for setup and operational support.",
+                "status": "complete",
+                "procurementMethodDetails": "Below threshold - unknown",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "mainProcurementCategory": "goods",
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-03809903",
+                            "name": "KEYSIGHT TECHNOLOGIES UK LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "38540000",
+                                    "description": "Machines and apparatus for testing and measuring"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "relatedLots": [
+                        "1"
+                    ]
+                }
+            ],
+            "contracts": [
+                {
+                    "id": "1",
+                    "awardID": "1",
+                    "status": "active",
+                    "period": {
+                        "startDate": "2026-07-14T00:00:00+01:00",
+                        "endDate": "2026-07-14T23:59:59+01:00"
+                    },
+                    "value": {
+                        "amountGross": 5728238,
+                        "amount": 4773532,
+                        "currency": "GBP"
+                    },
+                    "aboveThreshold": false,
+                    "dateSigned": "2026-07-14T00:00:00+01:00",
+                    "statusDetails": null,
+                    "documents": [
+                        {
+                            "id": "072958-2026",
+                            "documentType": "contractNotice",
+                            "noticeType": "UK7",
+                            "description": "Contract details notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/072958-2026",
+                            "datePublished": "2026-08-01T18:49:02+01:00",
+                            "format": "text/html"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-06d971",
+            "id": "072957-2026",
+            "tag": [
+                "tender"
+            ],
+            "date": "2026-08-01T11:25:55+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "Layer De La Haye Parish Council",
+                    "id": "GB-PPON-PQRZ-6555-BTQZ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PQRZ-6555-BTQZ"
+                    },
+                    "address": {
+                        "streetAddress": "Queen Elizabeth Hall, New Cut",
+                        "locality": "Layer De La Haye",
+                        "postalCode": "CO2 0EH",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH34"
+                    },
+                    "contactPoint": {
+                        "email": "parish.clerk@layerdelahayeparishcouncil.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PQRZ-6555-BTQZ",
+                "name": "Layer De La Haye Parish Council"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-06d971",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Recreation Ground Refresh",
+                "description": "Summary: \nUpgrade of facilities on the Layer de la Haye recreation ground, replacing/upgrading some of the existing equipment as well as extending the type of equipment available.  The chosen supplier will be able to supply and install all equipment to appropriate safety standards, as well as ensuring safety during works, removal of all spoils/waste and the provision of safety inspections.  Install within 6 months of contract award is desired, although it is recognised that weather my impact this timeline.  Hence the estimated contract duration is suggested as 12 months to cover all eventualities.\nDetail:\nWe want to engage a single supplier for the entire solution install - Recreation Ground Refresh on New Cut, Layer de la Haye, opposite the Village Hall.\nOut of the existing items, we want to keep the following:\n•\tNest swing\n•\tSpace net\nWe want to remove:\n•\tExisting 2 pairs of swings\n•\tExisting child trim trail\nAnything not mentioned in the keep/remove sections above, we are open to your suggestions (e.g. the existing slide could stay or be removed if replaced by something more modern).\nWe want the following:\n•\tA design proposal that considers best flow and suitable separation between age related elements (don't be constrained by the current layout)\n•\tBasketball/football nets (for the existing basketball courts) - no solid panels and rectangular in shape.  Renew surface.  Consider location - where it is, or should we move it (e.g. to accommodate siting of a zip wire)?\n•\t10 to 12 separate pieces of teen to adult gym equipment (i.e. not built as one unit) \n•\tAccessible carousel for all capabilities (wheelchair/able bodied)\n•\tAccessible trampoline (wheelchair and able bodied alike)\n•\t4-seater see saw (with tyres as bump stops)\n•\tInclusive sensory panels/boards to engage a variety of ages in creative play and/or communication\n•\tTrim trail including stepper platforms, crawl net, spiders web climber, curved traverse net\n•\tSwings - 5 in total - 2 normal, 2 baby 1 inclusive (if can be used by abled child too)\n•\t4 tower junior multi-play \n•\tPreschool junior play ship \n•\tTeen pod with normal seating, wind break side covering and no table\n•\tColoured wet pour where appropriate (quote for just under kit or an entire area), advise what is best for maintenance\n•\tGrass matting where needed\n•\tFor gym - all in a line or square, what is the best surface?\n•\tZip wire - but where? (placement to take into account any potential resident concerns...)\nAll quotes must include:\n•\tSignage for all kit as appropriate plus additional CCTV/general warning signs (enough to cover whole recreation area so will depend on design)\n•\tRecommended annual plan for routine maintenance and independent inspection regime\n•\tInsurance cover for product left on site before install and secure storage (i.e. supplier retains responsibility in the case of vandalism/theft until fully installed)\n•\tRemoval of all spoils\n•\tDelivery/Install and Harris Fencing or other security measures\n•\tWelfare provision\n•\tLength of warranty period\n•\tLead time to deliver and install",
+                "status": "active",
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "37535200",
+                                "description": "Playground equipment"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKH3",
+                                "country": "GB",
+                                "countryName": "United Kingdom"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "value": {
+                    "amountGross": 192000,
+                    "amount": 160000,
+                    "currency": "GBP"
+                },
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Below threshold - open competition",
+                "mainProcurementCategory": "goods",
+                "aboveThreshold": false,
+                "submissionMethodDetails": "Send tender responses to parish.clerk@layerdelahayeparishcouncil.gov.uk arrange alternative transmission if files are too large by contacting the same email address.",
+                "submissionTerms": {
+                    "electronicSubmissionPolicy": "notAllowed"
+                },
+                "tenderPeriod": {
+                    "endDate": "2026-08-30T23:59:59+01:00"
+                },
+                "otherRequirements": {
+                    "reservedParticipationLocation": {
+                        "gazetteer": {
+                            "scheme": "GB-ONS",
+                            "identifiers": [
+                                "K02000001"
+                            ]
+                        },
+                        "description": null
+                    }
+                },
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "active",
+                        "value": {
+                            "amountGross": 192000,
+                            "amount": 160000,
+                            "currency": "GBP"
+                        },
+                        "contractPeriod": {
+                            "startDate": "2026-10-01T00:00:00+01:00",
+                            "endDate": "2027-09-30T23:59:59+01:00"
+                        },
+                        "awardCriteria": {
+                            "description": "Layer de la Haye Parish Council is looking for responses that cover the full scope, including a proposed design and flow for how new and existing equipment will fit together, providing flow for individual age groups, as well as separation for different age groups (toddlers to adult). \nThe most advantageous proposal for the community will be chosen based on several factors:\n- Variety of equipment for the various age ranges to promote and inspire learning, fitness and play\n- Structural strength and sustainability to support different age groups and abilities\n- Signage (re CCTV cover, standard usage warnings etc.) and UK playground standards\n- Playground surfacing compliance\n- Independent inspections\n- Design/layout proposed\n- Design that best enhances wellbeing, safety and accessibility\n- Lead time to supply and install\n- Membership of key trade bodies and safety organisations\n- Examples of previous installs\n- Price is a factor but not the deciding factor"
+                        }
+                    }
+                ],
+                "documents": [
+                    {
+                        "id": "A-20014",
+                        "documentType": "biddingDocuments",
+                        "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-20014",
+                        "format": "application/pdf"
+                    },
+                    {
+                        "id": "A-20015",
+                        "documentType": "biddingDocuments",
+                        "url": "https://www.find-tender.service.gov.uk/Notice/Attachment/A-20015",
+                        "format": "application/pdf"
+                    },
+                    {
+                        "id": "072957-2026",
+                        "documentType": "tenderNotice",
+                        "noticeType": "UK4",
+                        "description": "Tender notice on Find a Tender",
+                        "url": "https://www.find-tender.service.gov.uk/Notice/072957-2026",
+                        "datePublished": "2026-08-01T11:25:55+01:00",
+                        "format": "text/html"
+                    }
+                ]
+            },
+            "language": "en"
+        },
+        {
+            "ocid": "ocds-h6vhtk-06d970",
+            "id": "072956-2026",
+            "tag": [
+                "planning"
+            ],
+            "date": "2026-08-01T09:53:33+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "Royal Armouries Museum",
+                    "id": "GB-PPON-PCCZ-9656-MDZP",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PCCZ-9656-MDZP"
+                    },
+                    "address": {
+                        "streetAddress": "Armouries Drive",
+                        "locality": "Leeds",
+                        "postalCode": "LS10 1LT",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE42"
+                    },
+                    "contactPoint": {
+                        "name": "Procurement Department",
+                        "email": "procurement@armouries.org.uk",
+                        "telephone": "+441132201946"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PCCZ-9656-MDZP",
+                "name": "Royal Armouries Museum"
+            },
+            "planning": {
+                "milestones": [
+                    {
+                        "id": "engagement",
+                        "type": "engagement",
+                        "description": "The key purpose of this notice is to alert the market to the Tender and to flag the new social value criteria and outcomes that are being proposed for it, and thus to obtain feedback from suppliers.\nThe social value outcomes that will form 10% of the quality evaluation criteria will consist of the following:\n1.Fair work – Create and retain high quality jobs\nSuppliers will need to demonstrate that they are providing opportunities for, and measuring and monitoring of, staff workforce conditions over time, including employee engagement, involvement in decision-making and satisfaction and adapting to any changes in the results, with clear processes for acting on issues identified\n2.Fair work - Fair pay practices\nSuppliers will need to demonstrate that they provide payment of more than the National Minimum Wage or National Living Wage (as appropriate) to the contract workforce.\nSuppliers wishing to participate must email the Estates Team at Kieran.jones@armouries.org.uk to request the supplier questionnaire by 07 August 2026 at 12:00 and return it completed no later than 17 August 2026 at 17:00.",
+                        "dueDate": "2026-08-17T23:59:59+01:00",
+                        "status": "scheduled"
+                    }
+                ],
+                "documents": [
+                    {
+                        "id": "072956-2026",
+                        "documentType": "marketEngagementNotice",
+                        "noticeType": "UK2",
+                        "description": "Preliminary market engagement notice on Find a Tender",
+                        "url": "https://www.find-tender.service.gov.uk/Notice/072956-2026",
+                        "datePublished": "2026-08-01T09:53:33+01:00",
+                        "format": "text/html"
+                    }
+                ]
+            },
+            "tender": {
+                "id": "RA-0213",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Window Cleaning Services",
+                "description": "PROCUREMENT DESCRIPTION\nTo carry out window cleaning on all glazing and specified building areas at the Royal Armouries Museum and New Dock Hall in Leeds. Complying with all Health & Safety regulations (inc. Working at Height) and following industrial best practices.\nCURRENT SERVICE SCOPE\nFortnightly Visits\n•   Ground floor building entrance areas including auto doors (inside and outside including the fold back glass inner doors)\n•   Dockside Ground floor frontage including the RA shop and Masters Restaurant Windows (Inside and outside)\n•   New Dock Hall: All of frontage glazing inside and outside\nQuarterly Visits – Jan – Apr – Jul – Oct\n•   Regular windows and glazing – both internal and external surfaces \n•   Slit windows – both internal and external surfaces \n•   Triangular viewing windows – both internal and external surfaces \n•   Regular recessed windows – both internal and external surfaces\n•   Juliette windows (can be fully opened) – both internal and external surfaces \n•   Internal Doors/windows to street from shop and restaurant\n•   Office skylights 5th Floor – both internal and external surfaces \n•   Internal balconies, glazed bridges, window internal balconies and stairwell glazing - both sides \n•   Facia of ‘Street’ – both internal and external surfaces\n•   Hall of Steel’ internal and external surfaces and both sides of all stairway glazing\n•   To include internal glazing of all four galleries\nAnnual and 6 monthly Tasks (Apr/Oct)\n•   Panoramic glass lifts – by appointment and under the direct control of our lift maintenance service provider (internally). (Yearly task) \n•   External canopy over the Tiltyard (Annually- April)\n•   Hall of Steel ground and 1st floor building frontage, including brickwork (6 Monthly Apr/Oct)\n•   Street’ skylights - external surfaces (6 Monthly Apr/Oct)\n•   Craft Court Windows (1st Floor, smoking, shelter canopy, Cycle Storage (6 Monthly April/Oct)\n•   External balcony of ‘Pearl’ Suite’ Both sides\nESTIMATED CONTRACT VALUE (INCL. VAT): £400,000\n•   Initial term: £240,000\n•   Optional extensions: £160,000",
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "90911300",
+                                "description": "Window-cleaning services"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "value": {
+                    "amountGross": 400000.00,
+                    "currency": "GBP"
+                },
+                "mainProcurementCategory": "services",
+                "aboveThreshold": true,
+                "lots": [
+                    {
+                        "id": "1",
+                        "contractPeriod": {
+                            "startDate": "2027-05-01T00:00:00+01:00",
+                            "endDate": "2030-04-30T23:59:59+01:00",
+                            "maxExtentDate": "2032-04-30T23:59:59+01:00"
+                        },
+                        "hasRenewal": true,
+                        "status": "planning"
+                    }
+                ],
+                "status": "planning"
+            },
+            "language": "en"
+        }
+    ],
+    "links": {
+        "next": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updatedFrom=2026-08-01T00:00:00&updatedTo=2026-08-01T23:59:59&limit=5&cursor=dXBkYXRlZEZyb209MjAyNi0wOC0wMVQwMDowMDowMHx1cGRhdGVkVG89MjAyNi0wOC0wMVQyMzo1OTo1OXxuZXh0Q3Vyc29yPTU3OTgyNg=="
+    }
+}

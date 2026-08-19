@@ -1,0 +1,96 @@
+{
+  "attribution_errors": 0,
+  "cases": [
+    {
+      "actual": "reject",
+      "case_id": "gm-risk-2023",
+      "expected": "reject",
+      "passed": true,
+      "reason": "GENERIC_RISK"
+    },
+    {
+      "actual": "reject",
+      "case_id": "gm-legal-restructuring",
+      "expected": "reject",
+      "passed": true,
+      "reason": "LEGAL_REFERENCE"
+    },
+    {
+      "actual": "reject",
+      "case_id": "gm-risk-2024",
+      "expected": "reject",
+      "passed": true,
+      "reason": "GENERIC_RISK"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hon-malformed",
+      "expected": "reject",
+      "passed": true,
+      "reason": "INSUFFICIENT_SUPPORT"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hon-global",
+      "expected": "reject",
+      "passed": true,
+      "reason": "THIRD_PARTY_ONLY"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hp-definition",
+      "expected": "reject",
+      "passed": true,
+      "reason": "ACCOUNTING_DEFINITION"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hp-fx-growth",
+      "expected": "reject",
+      "passed": true,
+      "reason": "WRONG_CONTEXT"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hp-expense-growth",
+      "expected": "reject",
+      "passed": true,
+      "reason": "WRONG_CONTEXT"
+    },
+    {
+      "actual": "reject",
+      "case_id": "hp-heading",
+      "expected": "reject",
+      "passed": true,
+      "reason": "HEADING_ONLY"
+    },
+    {
+      "actual": "accept",
+      "case_id": "boeing-pricing",
+      "expected": "accept",
+      "passed": true,
+      "reason": "DIRECT_CURRENT_EVENT"
+    },
+    {
+      "actual": "accept",
+      "case_id": "boeing-backlog",
+      "expected": "accept",
+      "passed": true,
+      "reason": "DIRECT_SEGMENT_EVENT"
+    }
+  ],
+  "engine_version": "0.3.5-development",
+  "fixture_sha256": "9ed9321d962267c394b0b3cf6b947466ea50dfa9a67e3f031ab8a39c765e8580",
+  "protected_artifacts": 12,
+  "provenance": {
+    "complete": 11,
+    "total": 11
+  },
+  "regressions": {
+    "passed": 11,
+    "total": 11
+  },
+  "scientific_validation": false,
+  "severe_false_positives": 0,
+  "status": "DEVELOPMENT_GATE_PASSED"
+}

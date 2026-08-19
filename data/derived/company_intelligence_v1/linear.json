@@ -1,0 +1,223 @@
+{
+  "schema_version": "company-intelligence-snapshot-v1",
+  "company_id": "linear",
+  "display_name": "Linear",
+  "observation_date": "2026-08-19T08:12:42.055326Z",
+  "dimensions": [
+    {
+      "dimension_id": "demand_growth",
+      "name": "Demand & Growth",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "delivery_capacity",
+      "name": "Delivery & Capacity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cost_productivity",
+      "name": "Cost & Productivity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cash_working_capital",
+      "name": "Cash & Working Capital",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "workforce_capability",
+      "name": "Workforce & Capability",
+      "coverage_status": "OBSERVED",
+      "observations": [
+        {
+          "observation_id": "ea7dd2308fde88c615f6f3f4",
+          "observation_type": "open_vacancies",
+          "state": 33,
+          "change": 0,
+          "velocity": 0.0,
+          "novelty": false,
+          "persistence": 2,
+          "unit": "postings",
+          "validation_status": "DETERMINISTIC_OBSERVATION_NOT_PREDICTIVE",
+          "provenance": [
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://jobs.ashbyhq.com/linear/069c4628-88d7-4e4d-b393-c996fc7f3076",
+              "source_hash": "a55e6b718414db5cd9dd66120524cd3e1e3fab4b209c1e0ee6a9f7a46e39706a",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b",
+              "source_hash": "0f094f31cb98cbe9adadfe1b79af9ff9f9a78e216526749e44cb52d0d11d4b25",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
+              "source_hash": "f36d45abddd02a546b8fcfd19bb74dd0fca328a483c338683ea06e4bf4df9b30",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://jobs.ashbyhq.com/linear/1aa6f672-5917-49aa-b015-70ebff901923",
+              "source_hash": "79841ddee2f038e630a81ce0652a3ee2ed18e53171750b654ff184129bac4099",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://jobs.ashbyhq.com/linear/1bfdcabe-aa5f-4999-9a6d-b8a824dd779b",
+              "source_hash": "fd6699f71cdcc419f648e0d72374f4d418bebe0495c3cde7796941c68a48305e",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            }
+          ]
+        }
+      ],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "supply_chain_resilience",
+      "name": "Supply Chain & Resilience",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "quality_customer",
+      "name": "Quality & Customer",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "change_execution",
+      "name": "Change & Execution",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    }
+  ],
+  "source_freshness": [
+    {
+      "source_family": "careers_ats",
+      "source_adapter": "ashby",
+      "last_successful_fetch": "2026-08-17T21:23:38.215420+00:00",
+      "next_due_collection": "2026-08-19T21:23:38.215420+00:00",
+      "consecutive_failures": 0,
+      "health": "healthy"
+    },
+    {
+      "source_family": "contracts_procurement",
+      "health": "COLLECTING_UNRESOLVED",
+      "company_attachment": "NO_APPROVED_ENTITY_MATCH"
+    }
+  ],
+  "data_coverage": {
+    "careers_snapshots": 2,
+    "new": 0,
+    "absent": 0,
+    "closed": 0,
+    "reopened": 0,
+    "procurement_company_records": 0,
+    "source_families_missing": [
+      "issuer_reporting"
+    ],
+    "stale_sources": 0,
+    "failed_sources": 0,
+    "coverage_note": "Procurement records are not attached without approved entity resolution."
+  },
+  "prediction": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "overall_score": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "benchmark": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "pressure": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "expansion": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "careers_history": [
+    {
+      "observed_at": "2026-08-15T17:01:34.918831Z",
+      "open_roles": 33,
+      "new_roles": 33,
+      "persistent_roles": 0,
+      "absent_once_roles": 0,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "5dc9dc49afa60943ea13b7e68d4548d48ba8bcf53aa705cb1a119ae38e0728c0",
+      "collector_version": "careers-longitudinal-v1"
+    },
+    {
+      "observed_at": "2026-08-17T21:23:38.215420Z",
+      "open_roles": 33,
+      "new_roles": 0,
+      "persistent_roles": 33,
+      "absent_once_roles": 0,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "5dc9dc49afa60943ea13b7e68d4548d48ba8bcf53aa705cb1a119ae38e0728c0",
+      "collector_version": "careers-longitudinal-v1"
+    }
+  ]
+}

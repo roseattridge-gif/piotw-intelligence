@@ -1,0 +1,167 @@
+ontology_id: piotw_operational_ontology
+version: 1.0.0-candidate
+status: CANDIDATE PRODUCT ONTOLOGY — NOT YET EMPIRICALLY VALIDATED
+effective_from: 2026-08-17
+principles:
+  - dimensions_are_conceptual_areas_not_scores
+  - observations_are_source_supported_facts
+  - signals_are_versioned_transformations
+  - outcomes_are_future_events_with_explicit_horizons
+  - no_predictive_weights_in_ontology
+
+dimension_definitions:
+  - dimension_id: demand_growth
+    name: Demand & Growth
+    definition: Strength, weakness and composition of demand for the organisation's products or services.
+    inclusion_rules: [orders, backlog, volumes, customer demand, revenue growth attributable to demand, market entry]
+    exclusion_rules: [pure accounting growth assumptions, expense growth, generic macroeconomic scenarios]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: delivery_capacity
+    name: Delivery & Capacity
+    definition: Ability to deliver required output and changes in productive capacity or utilisation.
+    inclusion_rules: [throughput, utilisation, delivery delay, operational disruption, capacity additions, capacity reductions, site openings, site closures]
+    exclusion_rules: [demand alone, unimplemented hypothetical capacity risks]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: cost_productivity
+    name: Cost & Productivity
+    definition: Efficiency with which operating resources are converted into output and margin.
+    inclusion_rules: [operating margin, gross margin, cost base, productivity, efficiency programmes, inflation absorbed by operations]
+    exclusion_rules: [financing costs, definitions of cost-saving measures without an actual programme]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: cash_working_capital
+    name: Cash & Working Capital
+    definition: Conversion of operations into cash and management of inventory, receivables, liquidity and operating funding needs.
+    inclusion_rules: [operating cash flow, free cash flow, cash conversion, inventory, receivables, working capital, liquidity, leverage]
+    exclusion_rules: [revenue or margin without a cash relationship]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: workforce_capability
+    name: Workforce & Capability
+    definition: Availability, retention and development of people, leadership and skills required to execute.
+    inclusion_rules: [vacancies, hiring mix, labour shortages, strikes, workforce reduction, redundancy, skills investment, leadership capability]
+    exclusion_rules: [biographies, prior-employer events, generic labour-market risks]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: supply_chain_resilience
+    name: Supply Chain & Resilience
+    definition: Stability and resilience of suppliers, sourcing, materials, logistics and critical operating dependencies.
+    inclusion_rules: [supplier disruption, material shortages, logistics constraints, sourcing concentration, recovery actions]
+    exclusion_rules: [global disruption without target-company exposure, audit procedures that merely mention supply chains]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: quality_customer
+    name: Quality & Customer
+    definition: Consistency of outcomes for customers and regulators, including defects, recalls, service quality and customer health.
+    inclusion_rules: [quality failures, warranty burden, recalls, customer complaints, customer weakness, regulatory operating intervention]
+    exclusion_rules: [unrelated litigation lists, generic product-risk boilerplate]
+    applicability: universal
+    version: 1.0.0-candidate
+  - dimension_id: change_execution
+    name: Change & Execution
+    definition: Initiation, scope and execution of material operational change.
+    inclusion_rules: [restructuring, transformation, simplification, footprint change, investment programme, implementation progress]
+    exclusion_rules: [accounting definitions, legal references, management aspiration without action, historical programmes represented as current]
+    applicability: universal
+    version: 1.0.0-candidate
+
+observation_definitions:
+  - {observation_type: revenue, dimension_ids: [demand_growth], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: ebitda, dimension_ids: [cost_productivity], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: operating_profit, dimension_ids: [cost_productivity], data_type: number, unit: currency, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: operating_margin, dimension_ids: [cost_productivity], data_type: number, unit: percent, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: gross_margin, dimension_ids: [cost_productivity], data_type: number, unit: percent, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: operating_cash_flow, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: free_cash_flow, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: cash_conversion, dimension_ids: [cash_working_capital], data_type: number, unit: percent, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: net_debt, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: lower_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: net_cash, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: leverage, dimension_ids: [cash_working_capital], data_type: number, unit: ratio, directionality: lower_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: working_capital, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: inventory, dimension_ids: [cash_working_capital, supply_chain_resilience], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: receivables, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: liquidity, dimension_ids: [cash_working_capital], data_type: number, unit: currency, directionality: higher_generally_favourable, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: capex, dimension_ids: [delivery_capacity, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures, physical_footprint_capacity]}
+  - {observation_type: investment_commitments, dimension_ids: [delivery_capacity, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_commitment_period_span, source_compatibility: [issuer_disclosures, physical_footprint_capacity]}
+  - {observation_type: restructuring_provisions, dimension_ids: [change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: restructuring_charges, dimension_ids: [change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: exceptional_costs, dimension_ids: [cost_productivity, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: impairment_charges, dimension_ids: [cost_productivity, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: redundancy_costs, dimension_ids: [workforce_capability, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: site_closure_costs, dimension_ids: [delivery_capacity, change_execution], data_type: number, unit: currency, directionality: context_dependent, evidence_requirements: exact_period_value_basis_span, source_compatibility: [issuer_disclosures]}
+  - {observation_type: job_posting, dimension_ids: [workforce_capability], data_type: record, unit: posting, directionality: none, evidence_requirements: stable_url_or_external_id_and_snapshot, source_compatibility: [careers_ats]}
+
+event_observation_mappings:
+  loss_making_unit: [cost_productivity]
+  margin_deterioration: [cost_productivity]
+  cash_deterioration: [cash_working_capital]
+  leverage_increase: [cash_working_capital]
+  working_capital_pressure: [cash_working_capital]
+  liquidity_concern: [cash_working_capital]
+  refinancing: [cash_working_capital, change_execution]
+  covenant_concern: [cash_working_capital]
+  demand_weakness: [demand_growth]
+  supply_chain_constraint: [supply_chain_resilience, delivery_capacity]
+  labour_constraint: [workforce_capability, delivery_capacity]
+  inflation_pressure: [cost_productivity, supply_chain_resilience]
+  destocking: [demand_growth, cash_working_capital]
+  customer_weakness: [quality_customer, demand_growth]
+  operational_disruption: [delivery_capacity]
+  capacity_mismatch: [delivery_capacity]
+  cost_reduction: [cost_productivity, change_execution]
+  restructuring: [change_execution]
+  efficiency_programme: [cost_productivity, change_execution]
+  simplification: [change_execution]
+  transformation: [change_execution]
+  footprint_reduction: [delivery_capacity, change_execution]
+  site_closure: [delivery_capacity, change_execution]
+  capacity_reduction: [delivery_capacity, change_execution]
+  redundancy: [workforce_capability, change_execution]
+  workforce_reduction: [workforce_capability, change_execution]
+  hiring: [workforce_capability]
+  capex_growth: [delivery_capacity, change_execution]
+  new_facility: [delivery_capacity, change_execution]
+  capacity_expansion: [delivery_capacity, change_execution]
+  geographic_expansion: [demand_growth, delivery_capacity]
+  major_investment: [delivery_capacity, change_execution]
+  skills_investment: [workforce_capability, change_execution]
+  margin_improvement: [cost_productivity]
+  cash_improvement: [cash_working_capital]
+  deleveraging: [cash_working_capital]
+  order_book_strength: [demand_growth]
+  demand_growth: [demand_growth]
+  liquidity_strength: [cash_working_capital]
+  recovery_language: [demand_growth, change_execution]
+  growth_language: [demand_growth]
+
+signal_definitions:
+  - {signal_id: revenue_yoy_change_pct, input_observations: [revenue], transformation_formula: '(current / previous - 1) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [profit_warning, material_margin_deterioration], validation_status: implemented_not_predictively_validated}
+  - {signal_id: operating_margin_change_bps, input_observations: [operating_margin], transformation_formula: '(current - previous) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [material_margin_deterioration, restructuring], validation_status: implemented_not_predictively_validated}
+  - {signal_id: free_cash_flow_change_pct, input_observations: [free_cash_flow], transformation_formula: '(current / previous - 1) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [restructuring, profit_warning], validation_status: implemented_not_predictively_validated}
+  - {signal_id: net_debt_change_pct, input_observations: [net_debt], transformation_formula: '(current / previous - 1) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [refinancing, restructuring], validation_status: implemented_not_predictively_validated}
+  - {signal_id: cash_conversion_change_bps, input_observations: [cash_conversion], transformation_formula: '(current - previous) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [profit_warning, material_margin_deterioration], validation_status: implemented_not_predictively_validated}
+  - {signal_id: capex_growth_pct, input_observations: [capex], transformation_formula: '(current / previous - 1) * 100', window: two_comparable_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [capacity_expansion, major_investment], validation_status: implemented_not_predictively_validated}
+  - {signal_id: event_count, input_observations: [atomic_event], transformation_formula: count_current_period, window: reporting_period, signal_class: state, minimum_history: 1, applicable_sector: all, candidate_prediction_relationships: [restructuring, site_closure, capacity_expansion], validation_status: implemented_template_not_predictively_validated}
+  - {signal_id: event_mentions_change, input_observations: [atomic_event], transformation_formula: current_count_minus_previous_count, window: two_reporting_periods, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [restructuring, site_closure, capacity_expansion], validation_status: implemented_template_not_predictively_validated}
+  - {signal_id: event_new_flag, input_observations: [atomic_event], transformation_formula: one_if_absent_in_previous_period, window: two_reporting_periods, signal_class: novelty, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [restructuring, site_closure, capacity_expansion], validation_status: implemented_template_not_predictively_validated}
+  - {signal_id: event_persistence_periods, input_observations: [atomic_event], transformation_formula: count_distinct_periods_present, window: available_history, signal_class: persistence, minimum_history: 1, applicable_sector: all, candidate_prediction_relationships: [restructuring, operational_disruption], validation_status: implemented_template_not_predictively_validated}
+  - {signal_id: open_vacancy_count, input_observations: [job_posting], transformation_formula: count_open_deduplicated_postings, window: snapshot, signal_class: state, minimum_history: 1, applicable_sector: all, candidate_prediction_relationships: [workforce_reduction, capacity_expansion], validation_status: implemented_not_predictively_validated}
+  - {signal_id: vacancy_count_change, input_observations: [job_posting], transformation_formula: current_open_minus_previous_open, window: two_snapshots, signal_class: change, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [workforce_reduction, capacity_expansion], validation_status: implemented_not_predictively_validated}
+  - {signal_id: vacancy_velocity_new, input_observations: [job_posting], transformation_formula: count_new_posting_ids_since_previous_snapshot, window: two_snapshots, signal_class: velocity, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [capacity_expansion, major_investment], validation_status: implemented_not_predictively_validated}
+  - {signal_id: functional_hiring_share, input_observations: [job_posting], transformation_formula: function_open_count_divided_by_all_open_count, window: snapshot, signal_class: state, minimum_history: 1, applicable_sector: all, candidate_prediction_relationships: [leadership_intervention, capacity_expansion], validation_status: implemented_not_predictively_validated}
+  - {signal_id: geographic_hiring_expansion, input_observations: [job_posting], transformation_formula: count_new_locations_since_previous_snapshot, window: two_snapshots, signal_class: novelty, minimum_history: 2, applicable_sector: all, candidate_prediction_relationships: [capacity_expansion, geographic_expansion], validation_status: implemented_not_predictively_validated}
+
+outcome_definitions:
+  - {outcome_id: restructuring, precise_event_definition: material_company_operational_or_organisational_restructuring, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_dated_event}
+  - {outcome_id: profit_warning, precise_event_definition: issuer_or_regulator_confirmed_material_downward_guidance_revision, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_dated_event}
+  - {outcome_id: material_margin_deterioration, precise_event_definition: predefined_comparable_margin_decline_threshold, horizon_options: [6_months, 12_months], adjudication_requirements: independently_verified_comparable_financials}
+  - {outcome_id: workforce_reduction, precise_event_definition: announced_or_confirmed_material_workforce_reduction, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_scope_and_date}
+  - {outcome_id: site_closure, precise_event_definition: announced_or_completed_material_operating_site_closure, horizon_options: [6_months, 12_months, 24_months], adjudication_requirements: independently_sourced_site_scope_and_date}
+  - {outcome_id: leadership_intervention, precise_event_definition: material_executive_or_operational_leadership_change, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_role_and_date}
+  - {outcome_id: capacity_expansion, precise_event_definition: committed_or_completed_material_productive_capacity_increase, horizon_options: [6_months, 12_months, 24_months], adjudication_requirements: independently_sourced_capacity_scope_and_date}
+  - {outcome_id: major_investment, precise_event_definition: announced_or_committed_material_operational_investment, horizon_options: [6_months, 12_months, 24_months], adjudication_requirements: independently_sourced_amount_scope_and_date}
+  - {outcome_id: geographic_expansion, precise_event_definition: material_entry_into_new_operating_geography, horizon_options: [6_months, 12_months, 24_months], adjudication_requirements: independently_sourced_geography_scope_and_date}
+  - {outcome_id: operational_disruption, precise_event_definition: material interruption_to_delivery_or_production, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_scope_duration_and_date}
+  - {outcome_id: refinancing, precise_event_definition: announced_or_completed_material_debt_refinancing, horizon_options: [3_months, 6_months, 12_months], adjudication_requirements: independently_sourced_terms_scope_and_date}

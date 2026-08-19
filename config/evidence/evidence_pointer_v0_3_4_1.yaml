@@ -1,0 +1,19 @@
+version: evidence-pointer-v0.3.4.1
+effective_date: 2026-08-17
+pointer_format: span_<sha256>
+none_pointer: span_none
+source_text_in_provider_schema: false
+mapping_fields:
+  - exact_source_text
+  - exact_source_sha256
+  - source_start
+  - source_end
+  - occurrence_count
+  - source_evidence_id
+duplicate_policy: one pointer per unique candidate span using the lowest exact offset
+unknown_pointer_policy: fail_closed
+cross_candidate_resolution: forbidden
+max_output_tokens: 2000
+scientific_semantics_changed: false
+outcomes_accessed: false
+model2_trained: false

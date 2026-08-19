@@ -1,0 +1,190 @@
+[
+  {
+    "schema_version": "piotw-operational-condition-qualification-v0.1",
+    "qualification_id": "qualification-61963f78d99509be",
+    "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+    "scientifically_validated": false,
+    "company_id": "cloudflare",
+    "entity_scope": "cloudflare",
+    "analysis_cutoff": "2026-08-19T00:00:00Z",
+    "condition_candidate_type": "hiring_contraction",
+    "supporting_observation_ids": [
+      "obs-80388569f44c4823ce934a51",
+      "obs-4bdf0bc59fc462b70a06a2d7"
+    ],
+    "supporting_evidence_ids": [
+      "ev-80388569f44c4823ce934a51",
+      "ev-4bdf0bc59fc462b70a06a2d7"
+    ],
+    "dimensions": [
+      "Workforce & Capability"
+    ],
+    "evidence_families": [
+      "careers_ats"
+    ],
+    "history": {
+      "snapshot_count": 2,
+      "observation_period_days": 2.1819825994097224,
+      "interval_days": [
+        2.1819825994097224
+      ],
+      "interval_consistency": "NOT_ASSESSED",
+      "missing_periods": null,
+      "history_depth": "SHALLOW"
+    },
+    "denominator": {
+      "available": true,
+      "value": 305.0,
+      "unit": "open_postings",
+      "evidence_ids": [
+        "ev-80388569f44c4823ce934a51"
+      ],
+      "quality": "HIGH"
+    },
+    "magnitude": {
+      "absolute_change": -8.0,
+      "relative_change": -0.02622950819672131,
+      "unit": "open_postings"
+    },
+    "persistence": {
+      "status": "ONE_OFF",
+      "consistent_intervals": 1,
+      "total_intervals": 1
+    },
+    "corroboration": {
+      "status": "SAME_SOURCE_ONLY",
+      "independent_source_families": [
+        "careers_ats"
+      ],
+      "related_observation_count": 2,
+      "duplicate_observation_count": 0
+    },
+    "data_quality": {
+      "status": "GOOD",
+      "source_health": [
+        "healthy"
+      ],
+      "stale": false,
+      "coverage_limitations": [
+        "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+      ]
+    },
+    "entity_scope_valid": true,
+    "historical_context_status": "INSUFFICIENT_EVIDENCE",
+    "peer_context_status": "UNAVAILABLE",
+    "materiality_status": "UNSUPPORTED",
+    "operational_mechanism_status": "SUPPORTED",
+    "qualification_status": "INSUFFICIENT_EVIDENCE",
+    "direction": "UNKNOWN",
+    "materiality": "UNKNOWN",
+    "confidence": "NOT_ASSESSED",
+    "tests": [
+      {
+        "test_id": "references",
+        "status": "PASS",
+        "required": true,
+        "observed": "unknown observations=[]; unknown evidence=[]",
+        "requirement": "all references resolve",
+        "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+      },
+      {
+        "test_id": "duplicate_evidence",
+        "status": "PASS",
+        "required": true,
+        "observed": "0 duplicate evidence reference(s); corroboration=SAME_SOURCE_ONLY",
+        "requirement": "no duplicate-only corroboration",
+        "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+      },
+      {
+        "test_id": "entity_scope",
+        "status": "PASS",
+        "required": true,
+        "observed": "True",
+        "requirement": "one legitimate entity scope",
+        "explanation": "Supporting observations must apply to the same operational entity scope."
+      },
+      {
+        "test_id": "source_health",
+        "status": "PASS",
+        "required": true,
+        "observed": "GOOD",
+        "requirement": "GOOD",
+        "explanation": "Failed or degraded collection cannot establish an operational condition."
+      },
+      {
+        "test_id": "history_depth",
+        "status": "FAIL",
+        "required": true,
+        "observed": "2 snapshots",
+        "requirement": ">=4 snapshots",
+        "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+      },
+      {
+        "test_id": "denominator",
+        "status": "PASS",
+        "required": true,
+        "observed": "305.0",
+        "requirement": "available denominator",
+        "explanation": "Quantitative materiality requires an evidenced scale denominator."
+      },
+      {
+        "test_id": "magnitude",
+        "status": "FAIL",
+        "required": true,
+        "observed": "-0.02622950819672131",
+        "requirement": ">=0.1 absolute relative change",
+        "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+      },
+      {
+        "test_id": "persistence",
+        "status": "FAIL",
+        "required": true,
+        "observed": "1 consistent intervals",
+        "requirement": ">=3 consistent intervals",
+        "explanation": "A one-period movement is not a persistent operational condition."
+      },
+      {
+        "test_id": "contradiction",
+        "status": "PASS",
+        "required": true,
+        "observed": "False",
+        "requirement": "no contradictory direction",
+        "explanation": "Reversing observations cannot support a single directional condition."
+      },
+      {
+        "test_id": "operational_mechanism",
+        "status": "PASS",
+        "required": true,
+        "observed": "Published open-role inventory contraction",
+        "requirement": "traceable factual mechanism",
+        "explanation": "The condition must describe an operational state without narrative invention."
+      },
+      {
+        "test_id": "peer_context",
+        "status": "UNAVAILABLE",
+        "required": false,
+        "observed": "UNAVAILABLE",
+        "requirement": "future strengthening evidence",
+        "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+      }
+    ],
+    "failed_tests": [
+      "history_depth",
+      "magnitude",
+      "persistence"
+    ],
+    "missing_information": [
+      "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval.",
+      "The development policy requires a minimum relative movement; this is not a scientifically validated threshold.",
+      "A one-period movement is not a persistent operational condition.",
+      "The generic peer engine is not built and peer-relative materiality is not inferred.",
+      "No independent source-family corroboration is available; same-source observations are not treated as independent."
+    ],
+    "observed_explanation": "Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%).",
+    "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published open-role inventory contraction.",
+    "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=FAIL; denominator=PASS; magnitude=FAIL; persistence=FAIL; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+    "what_is_unknown": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval. The development policy requires a minimum relative movement; this is not a scientifically validated threshold. A one-period movement is not a persistent operational condition. The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+    "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+    "human_readable_explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+  }
+]

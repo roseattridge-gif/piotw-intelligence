@@ -1,0 +1,119 @@
+registry_id: piotw_source_registry
+version: 1.0.0-candidate
+status: CANDIDATE PRODUCT ARCHITECTURE — NOT YET EMPIRICALLY VALIDATED
+cadence_units: [hour, day, week, month, event_driven]
+source_families:
+  - source_family: issuer_disclosures
+    jurisdiction: multi_jurisdiction
+    access_method: public_web_and_regulatory_feeds
+    production_readiness: development_partial
+    examples: [annual_reports, interim_reports, results_releases, regulatory_announcements, investor_presentations, company_press_releases]
+    boundary: issuer_reported
+    default_cadence: {value: 1, unit: event_driven}
+    natural_update_frequency: event_driven_quarterly_or_annual
+    point_in_time_reconstruction_quality: strong
+    backfill_quality: strong
+    likely_cost: low
+    legal_access_risk: low
+    implementation_difficulty: medium
+    signal_latency: event_publication
+    likely_commercial_relevance: high
+    current_support_status: implemented_reports_partial_announcements
+    observable_facts: [financial_metrics, operational_events, management_interventions, capacity, cash, working_capital]
+    candidate_outcomes: [restructuring, profit_warning, material_margin_deterioration, site_closure, capacity_expansion, major_investment]
+    mvp_priority: build_now_existing
+  - source_family: careers_ats
+    jurisdiction: multi_jurisdiction
+    access_method: documented_public_ats_api_or_public_structured_page
+    production_readiness: development_longitudinal_foundation
+    examples: [company_careers_pages, greenhouse, lever, ashby]
+    boundary: outside_in
+    default_cadence: {value: 2, unit: day}
+    natural_update_frequency: daily
+    point_in_time_reconstruction_quality: weak_without_owned_snapshots
+    backfill_quality: weak
+    likely_cost: low
+    legal_access_risk: medium
+    implementation_difficulty: medium
+    signal_latency: one_to_three_days
+    likely_commercial_relevance: high
+    current_support_status: implemented_single_live_baseline
+    observable_facts: [open_vacancies, job_function, seniority, geography, first_seen, last_seen, posting_status]
+    candidate_outcomes: [workforce_reduction, leadership_intervention, capacity_expansion, geographic_expansion, major_investment]
+    mvp_priority: build_now
+  - source_family: contracts_procurement
+    examples: [find_a_tender, contracts_finder, public_award_notices, public_procurement_notices]
+    jurisdiction: United_Kingdom
+    access_method: public_ocds_api
+    production_readiness: proof_of_concept_adapter
+    boundary: outside_in
+    default_cadence: {value: 1, unit: day}
+    natural_update_frequency: daily
+    point_in_time_reconstruction_quality: strong
+    backfill_quality: strong
+    likely_cost: low
+    legal_access_risk: low
+    implementation_difficulty: medium
+    signal_latency: one_to_seven_days
+    likely_commercial_relevance: high
+    current_support_status: specified_not_built
+    observable_facts: [contract_award, award_value, buyer_activity, supplier_activity, notice_status]
+    candidate_outcomes: [capacity_expansion, major_investment, profit_warning]
+    mvp_priority: build_now
+  - source_family: regulatory_operating_notices
+    jurisdiction: United_Kingdom_initial
+    access_method: public_search_pages_and_feeds
+    production_readiness: feasibility_only
+    examples: [product_recalls, safety_enforcement, environmental_enforcement, operating_restrictions]
+    boundary: outside_in
+    default_cadence: {value: 1, unit: day}
+    natural_update_frequency: daily
+    point_in_time_reconstruction_quality: strong
+    backfill_quality: strong
+    likely_cost: low
+    legal_access_risk: low
+    implementation_difficulty: medium
+    signal_latency: one_day
+    likely_commercial_relevance: high
+    current_support_status: specified_not_built
+    observable_facts: [recall, enforcement_action, restriction, affected_site, affected_product, severity]
+    candidate_outcomes: [operational_disruption, site_closure, profit_warning, leadership_intervention]
+    mvp_priority: build_now
+  - source_family: physical_footprint_capacity
+    jurisdiction: jurisdiction_specific
+    access_method: public_planning_and_permit_registers
+    production_readiness: not_built
+    examples: [planning_applications, permit_notices, site_openings, site_closures, warehouse_factory_expansion]
+    boundary: outside_in
+    default_cadence: {value: 1, unit: week}
+    natural_update_frequency: weekly_to_monthly
+    point_in_time_reconstruction_quality: partial
+    backfill_quality: partial
+    likely_cost: medium
+    legal_access_risk: low
+    implementation_difficulty: high
+    signal_latency: one_to_four_weeks
+    likely_commercial_relevance: medium_high
+    current_support_status: specified_not_built
+    observable_facts: [planning_application, permit_status, floor_area, site_use, construction_stage, closure_notice]
+    candidate_outcomes: [site_closure, capacity_expansion, geographic_expansion, major_investment]
+    mvp_priority: build_next
+  - source_family: company_newsrooms
+    jurisdiction: multi_jurisdiction
+    access_method: public_web_or_feed
+    production_readiness: collector_contract_only
+    examples: [company_newsroom, press_release_feed]
+    boundary: issuer_reported
+    default_cadence: {value: 1, unit: day}
+    natural_update_frequency: irregular
+    point_in_time_reconstruction_quality: partial
+    backfill_quality: partial
+    likely_cost: low
+    legal_access_risk: low
+    implementation_difficulty: low
+    signal_latency: one_day
+    likely_commercial_relevance: medium
+    current_support_status: collector_contract_only
+    observable_facts: [announced_investment, facility_event, leadership_change, contract_announcement]
+    candidate_outcomes: [major_investment, capacity_expansion, leadership_intervention]
+    mvp_priority: build_next

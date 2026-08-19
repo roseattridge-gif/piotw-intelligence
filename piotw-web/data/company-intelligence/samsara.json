@@ -1,0 +1,223 @@
+{
+  "schema_version": "company-intelligence-snapshot-v1",
+  "company_id": "samsara",
+  "display_name": "Samsara",
+  "observation_date": "2026-08-19T08:12:42.060746Z",
+  "dimensions": [
+    {
+      "dimension_id": "demand_growth",
+      "name": "Demand & Growth",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "delivery_capacity",
+      "name": "Delivery & Capacity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cost_productivity",
+      "name": "Cost & Productivity",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "cash_working_capital",
+      "name": "Cash & Working Capital",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "workforce_capability",
+      "name": "Workforce & Capability",
+      "coverage_status": "OBSERVED",
+      "observations": [
+        {
+          "observation_id": "05c9953ec7371dc6763d255e",
+          "observation_type": "open_vacancies",
+          "state": 269,
+          "change": 45,
+          "velocity": 20.62344585707217,
+          "novelty": true,
+          "persistence": 2,
+          "unit": "postings",
+          "validation_status": "DETERMINISTIC_OBSERVATION_NOT_PREDICTIVE",
+          "provenance": [
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://www.samsara.com/company/careers/roles/5868615?gh_jid=5868615",
+              "source_hash": "b404fba13a9c615995ef54b7dec625cfb836b04efb98b9586e31cca7befeeabb",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://www.samsara.com/company/careers/roles/6605599?gh_jid=6605599",
+              "source_hash": "875ad5db27d41f5d484fe51686b7eff4150aa394dfbb9dd2226e2365224b16ed",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://www.samsara.com/company/careers/roles/6605601?gh_jid=6605601",
+              "source_hash": "e85cf0ffbac68f9274d984097b8804899244852813e542349f3fed75f4da3634",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://www.samsara.com/company/careers/roles/6605602?gh_jid=6605602",
+              "source_hash": "acf1e4dbc62fefb63857f153fd79a96fcf53ed327873692621cc2c1cb62bc734",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            },
+            {
+              "source_family": "careers_ats",
+              "source_url": "https://www.samsara.com/company/careers/roles/6605604?gh_jid=6605604",
+              "source_hash": "863f83153d8b3b01efc39dd794594b29d339ecbe1d49e399245dfa8f2d4c0c5f",
+              "observed_at": "2026-08-17T21:23:38.215420Z",
+              "effective_at": "2026-08-17T21:23:38.215420Z",
+              "collector_version": "careers-longitudinal-v1"
+            }
+          ]
+        }
+      ],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "supply_chain_resilience",
+      "name": "Supply Chain & Resilience",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "quality_customer",
+      "name": "Quality & Customer",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    },
+    {
+      "dimension_id": "change_execution",
+      "name": "Change & Execution",
+      "coverage_status": "INSUFFICIENT_SOURCE_COVERAGE",
+      "observations": [],
+      "accepted_events": [],
+      "score": {
+        "status": "NOT_YET_VALIDATED",
+        "value": null
+      }
+    }
+  ],
+  "source_freshness": [
+    {
+      "source_family": "careers_ats",
+      "source_adapter": "greenhouse",
+      "last_successful_fetch": "2026-08-17T21:23:38.215420+00:00",
+      "next_due_collection": "2026-08-19T21:23:38.215420+00:00",
+      "consecutive_failures": 0,
+      "health": "healthy"
+    },
+    {
+      "source_family": "contracts_procurement",
+      "health": "COLLECTING_UNRESOLVED",
+      "company_attachment": "NO_APPROVED_ENTITY_MATCH"
+    }
+  ],
+  "data_coverage": {
+    "careers_snapshots": 2,
+    "new": 50,
+    "absent": 5,
+    "closed": 0,
+    "reopened": 0,
+    "procurement_company_records": 0,
+    "source_families_missing": [
+      "issuer_reporting"
+    ],
+    "stale_sources": 0,
+    "failed_sources": 0,
+    "coverage_note": "Procurement records are not attached without approved entity resolution."
+  },
+  "prediction": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "overall_score": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "benchmark": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "pressure": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "expansion": {
+    "status": "NOT_YET_VALIDATED",
+    "value": null
+  },
+  "careers_history": [
+    {
+      "observed_at": "2026-08-15T17:01:34.918831Z",
+      "open_roles": 224,
+      "new_roles": 224,
+      "persistent_roles": 0,
+      "absent_once_roles": 0,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "f26050457f582b9f45f0b88a9c6a2248d455f4c656c47f180b6f1300095114fd",
+      "collector_version": "careers-longitudinal-v1"
+    },
+    {
+      "observed_at": "2026-08-17T21:23:38.215420Z",
+      "open_roles": 269,
+      "new_roles": 50,
+      "persistent_roles": 219,
+      "absent_once_roles": 5,
+      "confirmed_closed_roles": 0,
+      "reopened_roles": 0,
+      "source_hash": "86eec147dbc19bb2c1c7bf39a087efd6d9b876308e08d58d1fd967c780530b3b",
+      "collector_version": "careers-longitudinal-v1"
+    }
+  ]
+}

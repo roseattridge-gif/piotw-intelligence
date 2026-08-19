@@ -1,0 +1,18 @@
+version: 0.3.4.1
+scientific_prompt_version: semantic-event-v0.3.4
+transport_version: semantic-batch-v0.3.4.1
+schema_version: semantic-batch-schema-v0.3.4.1
+provider: openai
+model: gpt-5-mini
+batch_size: 20
+temperature: null
+batch_max_output_tokens: 16000
+candidate_context_max_characters: 2400
+candidate_isolation: true
+candidate_level_evidence_span_validation: true
+candidate_level_fail_closed: true
+cache_namespace: evidence_engine_v0_3_4_1_openai_batch
+formal_gold: false
+outcomes_accessed: false
+model2_trained: false
+official_model2_readiness: NOT READY

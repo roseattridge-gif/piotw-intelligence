@@ -1,0 +1,25 @@
+version: 0.3.0
+frozen_before_scoring: true
+numerical_matching:
+  monetary: {tolerance: exact_after_scale_normalization}
+  percentage: {absolute_tolerance: 0.05}
+  basis_points: {absolute_tolerance: 5}
+  period: strict
+  currency: strict
+  accounting_basis: strict
+  current_vs_comparative: strict
+severe_errors:
+  - wrong_sign
+  - wrong_reporting_period
+  - scale_error_1000x_or_more
+  - net_cash_as_net_debt
+  - adjusted_as_statutory
+  - wrong_free_cash_flow_definition
+  - prior_year_as_current
+  - wrong_currency
+  - materially_duplicated_event
+  - historical_event_as_current
+event_matching:
+  ambiguous_is_neither_positive_nor_negative: true
+  exact_evidence_span_required: true
+  duplicate_span_event_pair_suppressed: true

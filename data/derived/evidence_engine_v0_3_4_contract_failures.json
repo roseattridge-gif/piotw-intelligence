@@ -1,0 +1,3276 @@
+{
+  "admissible_for_model2_gate": false,
+  "failure_counts": {
+    "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT": {
+      "count": 72,
+      "rate": 0.3673469387755102,
+      "total": 196
+    },
+    "ACCEPT_REASON_CODE_INCONSISTENT": {
+      "count": 32,
+      "rate": 0.16326530612244897,
+      "total": 196
+    },
+    "AMBIGUOUS_REASON_CODE_INCONSISTENT": {
+      "count": 13,
+      "rate": 0.0663265306122449,
+      "total": 196
+    },
+    "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG": {
+      "count": 37,
+      "rate": 0.18877551020408162,
+      "total": 196
+    },
+    "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT": {
+      "count": 32,
+      "rate": 0.16326530612244897,
+      "total": 196
+    },
+    "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS": {
+      "count": 8,
+      "rate": 0.04081632653061224,
+      "total": 196
+    },
+    "UNSUPPORTED_EVENT_REMAP": {
+      "count": 2,
+      "rate": 0.01020408163265306,
+      "total": 196
+    }
+  },
+  "failures": [
+    {
+      "candidate_id": "c6c2f1a3be82c97f502b",
+      "custom_id": "piotw-0003-c6c2f1a3be82c97f502b",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 563,
+      "output_tokens": 664,
+      "raw_response_hash": "8f56df656692698433e4e5f362bb5206ff3e03f39bb05c09474c5281783318d1",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "693358ce9b923b89b9c7",
+      "custom_id": "piotw-0005-693358ce9b923b89b9c7",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 712,
+      "output_tokens": 1600,
+      "raw_response_hash": "ffb2159a06c02a3a65274e3228ede61ecdafc3d296f403cc000e24add816a2bd",
+      "reasoning_tokens": 1344,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7bb379dba083e8d68fe6",
+      "custom_id": "piotw-0008-7bb379dba083e8d68fe6",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 605,
+      "output_tokens": 719,
+      "raw_response_hash": "0d788b7c2a5ce9c77353201bd470a4eea27f0b24c108213936561055664054e5",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ad92811ead09ac71f609",
+      "custom_id": "piotw-0011-ad92811ead09ac71f609",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 647,
+      "output_tokens": 952,
+      "raw_response_hash": "89fe84a0bf5befc1892dd760946f53fcdb7188f03ce763748baf710568cdee09",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "19f5523eb1126d797516",
+      "custom_id": "piotw-0024-19f5523eb1126d797516",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 579,
+      "output_tokens": 701,
+      "raw_response_hash": "896d7651f589b78d12a9a9d7f5110ce8f1ae81793244b934ca6cd8fe9461cd2c",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "e4c428e0592266319c2e",
+      "custom_id": "piotw-0029-e4c428e0592266319c2e",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 559,
+      "output_tokens": 808,
+      "raw_response_hash": "cd29cca676a09f301a8aed9d776afeb0484bd190e40dbdd1542b83e10de3d00d",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4ec1172d59ad8c3896f9",
+      "custom_id": "piotw-0035-4ec1172d59ad8c3896f9",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 621,
+      "output_tokens": 827,
+      "raw_response_hash": "f69e109a41751dadf3688c9ec7118d4a60c53aea36ff2137f339ff59146b1842",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7837294c57ac3e6ec74f",
+      "custom_id": "piotw-0036-7837294c57ac3e6ec74f",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 727,
+      "output_tokens": 1420,
+      "raw_response_hash": "29ac2b414cfc02db82ade21f8e4a220d21ba77ceafdc5798bbde59b68b09c848",
+      "reasoning_tokens": 1280,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4873e6227f41f1213ac6",
+      "custom_id": "piotw-0045-4873e6227f41f1213ac6",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 609,
+      "output_tokens": 1305,
+      "raw_response_hash": "24d255765b2d47342227119f1090537fb3f1de574ca1fecb2436da1b6ea6c640",
+      "reasoning_tokens": 1088,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1499681ca262912c3f55",
+      "custom_id": "piotw-0046-1499681ca262912c3f55",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 596,
+      "output_tokens": 431,
+      "raw_response_hash": "d0caccc2566333c7a8200143983170732065f7df4454d2f8cb9823674ce168ba",
+      "reasoning_tokens": 256,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "6a28b36d3f9e2b992fd7",
+      "custom_id": "piotw-0048-6a28b36d3f9e2b992fd7",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 538,
+      "output_tokens": 1199,
+      "raw_response_hash": "887d894ff0d120ef3b67122d08615f2e56a2083ef0fb992f12d4b10c7946f3fe",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "31201b42f0071c2ce01c",
+      "custom_id": "piotw-0049-31201b42f0071c2ce01c",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 528,
+      "output_tokens": 663,
+      "raw_response_hash": "f8920a16b1223e0c5e3b9f0f6a020f6a07537159bbeaa30f1bb2a030275619b7",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8c9e4457228950557eaf",
+      "custom_id": "piotw-0050-8c9e4457228950557eaf",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 525,
+      "output_tokens": 820,
+      "raw_response_hash": "62ba0475ebf873584d8056cee8ef7580f28531b4802d6e77de6e8c2b18392f0d",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "df0932f31c5f4e26e674",
+      "custom_id": "piotw-0052-df0932f31c5f4e26e674",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 556,
+      "output_tokens": 553,
+      "raw_response_hash": "b1cfcec3eb7f8c245b1ac9a453453df4534f747d83f94954eeda334f2b88c6d5",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "630ba59b0f133631e7a3",
+      "custom_id": "piotw-0055-630ba59b0f133631e7a3",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 510,
+      "output_tokens": 795,
+      "raw_response_hash": "4c7bd555e1a04ef9e325b071f2ea2ea0964702d47b9af8f4afdeb0d407003256",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "06921ad4926357347120",
+      "custom_id": "piotw-0059-06921ad4926357347120",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 529,
+      "output_tokens": 744,
+      "raw_response_hash": "a2c1d7de6572696a9adf2c4addb57fb3caf7f76b560989c6dfd0e9f81a352a39",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "cd0b610bfa73a7da176d",
+      "custom_id": "piotw-0065-cd0b610bfa73a7da176d",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 549,
+      "output_tokens": 826,
+      "raw_response_hash": "03a06a2a956f73c139ad43eb9323de7da0af5355149857ab7bb93d06cfaeaef9",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "74000b460066bd6e306a",
+      "custom_id": "piotw-0066-74000b460066bd6e306a",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 543,
+      "output_tokens": 684,
+      "raw_response_hash": "43757e4909442a5ca2678f720e47e9ef930bbbe11223c25460273bfdf857a88a",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "bb9eb7b621f2d35f880b",
+      "custom_id": "piotw-0068-bb9eb7b621f2d35f880b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 541,
+      "output_tokens": 1100,
+      "raw_response_hash": "1698df0fa201bcf504fd959bc0d575263efca63dcd5ced1a24b142e3e55282d3",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "85aeb321dd49dd3592cd",
+      "custom_id": "piotw-0069-85aeb321dd49dd3592cd",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 511,
+      "output_tokens": 1906,
+      "raw_response_hash": "701bb172b7983cde6526019a7eccee9391ab69f178a2e996a232596ad9e4511d",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "6465e297972d87b96797",
+      "custom_id": "piotw-0070-6465e297972d87b96797",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 525,
+      "output_tokens": 1137,
+      "raw_response_hash": "79fcb548c5b72ad56952d447216499b9fea0ccdf08589d071a54c11e98433a25",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7d24c39a0dbb21148ce7",
+      "custom_id": "piotw-0073-7d24c39a0dbb21148ce7",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 2265 (char 2264)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 519,
+      "output_tokens": 2000,
+      "raw_response_hash": "00c0eb8ad4d82a1eb4019ef2bfc129e468f518fe84a9777744e02a916c68a40d",
+      "reasoning_tokens": 512,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "2baa29c9505cde723325",
+      "custom_id": "piotw-0074-2baa29c9505cde723325",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 525,
+      "output_tokens": 563,
+      "raw_response_hash": "9856b7f98aff24ff24829b04c83ba9d4ba2e3adc0e72b4a626c2a8d759925da6",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "343b619f2455e2c5d6e7",
+      "custom_id": "piotw-0077-343b619f2455e2c5d6e7",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 519,
+      "output_tokens": 472,
+      "raw_response_hash": "e415086f8a7b9dc4934b1323a93f8210c9adb65ff08f4bbcf4932adf0093f849",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3336395ec1459ebf57c2",
+      "custom_id": "piotw-0078-3336395ec1459ebf57c2",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 491,
+      "output_tokens": 887,
+      "raw_response_hash": "0abbbd5f592a96f0b67d5723ef02646cd3e835661ae3e234fd0ad437d01879fd",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c08147dc1a20cdc683fa",
+      "custom_id": "piotw-0079-c08147dc1a20cdc683fa",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 513,
+      "output_tokens": 1943,
+      "raw_response_hash": "5cf43881451df1ef4440f3c8a1377e571810472630de0adfe08e156dc416d195",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "0b53c7b3aa00b4c3c78c",
+      "custom_id": "piotw-0080-0b53c7b3aa00b4c3c78c",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 509,
+      "output_tokens": 468,
+      "raw_response_hash": "6b966a64ed066184c857315e85990ee5b3cf4e19fffba613489611c34d2e55d2",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "47f44f6d4530f6ce2406",
+      "custom_id": "piotw-0087-47f44f6d4530f6ce2406",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 491,
+      "output_tokens": 748,
+      "raw_response_hash": "8abae9c7d28ed6f0bc9784d59d26bc0fb016f77964453147b877f09b30d8117e",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "45f71c10dde53818f986",
+      "custom_id": "piotw-0100-45f71c10dde53818f986",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 550,
+      "output_tokens": 723,
+      "raw_response_hash": "bc5ed2dd5a7295deceb2bb23c0deb1305a271282c861f6813272da6f479cc9c9",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d4bb5434c165123260e8",
+      "custom_id": "piotw-0101-d4bb5434c165123260e8",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 582,
+      "output_tokens": 1031,
+      "raw_response_hash": "307c29389ed61556ff374f258009b963644df3185fb7d9f62f35ed87bd40ffd0",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "efe8c3ca664bc4e76a89",
+      "custom_id": "piotw-0119-efe8c3ca664bc4e76a89",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 580,
+      "output_tokens": 971,
+      "raw_response_hash": "b60076bb4cc15f212f06d8a2d1b20101c4eef194f9715d8a734a8e2996202f19",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a1287ca31d61d0e260a7",
+      "custom_id": "piotw-0120-a1287ca31d61d0e260a7",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 603,
+      "output_tokens": 846,
+      "raw_response_hash": "fa243f4cad79e3a2ebd1ff3c6f3de4714e8a2fcd5e9254d5455b679461455f79",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "2f4bbe330c13072b9467",
+      "custom_id": "piotw-0121-2f4bbe330c13072b9467",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 525,
+      "output_tokens": 792,
+      "raw_response_hash": "67dcbaf402928589d6e2c6d6bbae69c2b5ffabffe1a3cec4c6ef67e40c4a48fb",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3ef62bffeae628a1bd3a",
+      "custom_id": "piotw-0125-3ef62bffeae628a1bd3a",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 557,
+      "output_tokens": 922,
+      "raw_response_hash": "daa04406e0be3208da892a583051faacd973dd4f3dd3c74c24b60cdb13ee4fb3",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8aca2e16e5fb536addd8",
+      "custom_id": "piotw-0126-8aca2e16e5fb536addd8",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 556,
+      "output_tokens": 1018,
+      "raw_response_hash": "d7f3cd6614a3deb9c7d149c1bf514de7a1dcdc3d879dd26e2666a155b93952a2",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ee61d9b6eeeb7d1d48e2",
+      "custom_id": "piotw-0127-ee61d9b6eeeb7d1d48e2",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 633,
+      "output_tokens": 685,
+      "raw_response_hash": "288a54f24a77e2c7b25357954fc7b2e359e12ca2d820e3f1ad0ccaf9c6351625",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "61139b56e73788406c3e",
+      "custom_id": "piotw-0128-61139b56e73788406c3e",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 619,
+      "output_tokens": 948,
+      "raw_response_hash": "3c690a29019e9f2d8a533c8b3455ee0dc8f34e08e871fc486013dc261e700857",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "65c7e09ed43388c40541",
+      "custom_id": "piotw-0129-65c7e09ed43388c40541",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 547,
+      "output_tokens": 1135,
+      "raw_response_hash": "ce8cbe927d26a40f5b12134dbc408fa8c04ed6a2e761429d5629c6d0c633cb45",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8944896d4a06f353f6b8",
+      "custom_id": "piotw-0132-8944896d4a06f353f6b8",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 504,
+      "output_tokens": 985,
+      "raw_response_hash": "642252543859c6d80bf99d6312c259f57a5642b77a3d9ca692d50ce31afb5116",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d37145955a9ec7327ddc",
+      "custom_id": "piotw-0145-d37145955a9ec7327ddc",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 528,
+      "output_tokens": 1284,
+      "raw_response_hash": "7c6a2cb7e7df4cf99ceb09f14520265af7aff39a60832016517a43344bdf067a",
+      "reasoning_tokens": 1088,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4530648062e74f5599f2",
+      "custom_id": "piotw-0146-4530648062e74f5599f2",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 593,
+      "output_tokens": 737,
+      "raw_response_hash": "2a768f94d88479218348d6203e0f267073d6fc368a30984b62e50b6c05d72d2f",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "0b5901d145169da5cf92",
+      "custom_id": "piotw-0147-0b5901d145169da5cf92",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 679,
+      "output_tokens": 685,
+      "raw_response_hash": "2df45fbd551b00cce525fa35b0eda619737eb8e019a3cc42ff09d98ab4639c62",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7d49e3e1d9e0375beb3b",
+      "custom_id": "piotw-0148-7d49e3e1d9e0375beb3b",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 532,
+      "output_tokens": 692,
+      "raw_response_hash": "1fdf1fce1f66f1f2302d53b0bb7c86500a90fadf4803723f8185a8387fe8485c",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "da0a1cbc72601dadaad6",
+      "custom_id": "piotw-0154-da0a1cbc72601dadaad6",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 535,
+      "output_tokens": 829,
+      "raw_response_hash": "82e855fe69d92aae9ca5580f684d5746691cffba1b2184cc11a87a900521fa84",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8db7dcdefbe523902423",
+      "custom_id": "piotw-0156-8db7dcdefbe523902423",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 643,
+      "output_tokens": 965,
+      "raw_response_hash": "79f38eca8fcb0c64a887abc2f93784667d88d1430b792fc3cc8c7d11003da116",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "eb0834e7973015a566ad",
+      "custom_id": "piotw-0157-eb0834e7973015a566ad",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 613,
+      "output_tokens": 1147,
+      "raw_response_hash": "7be1ce7b170bfb5ccf7b27e5370a112ea3691692ddf0ba4f7d57c249ba2da73f",
+      "reasoning_tokens": 960,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "17063a4cdd6563bc52f0",
+      "custom_id": "piotw-0161-17063a4cdd6563bc52f0",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 689,
+      "output_tokens": 753,
+      "raw_response_hash": "75bf766096882b8abbd0d5256cb25eac07caca5226feedc740b002c8086b1448",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "6b14687368569a81f46b",
+      "custom_id": "piotw-0165-6b14687368569a81f46b",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 531,
+      "output_tokens": 874,
+      "raw_response_hash": "befdc51d87b41dfaf4e24e19974e8ccfc07e71831bf7dd1dcbec7fe1316f8c50",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ca522317117ff5e47907",
+      "custom_id": "piotw-0167-ca522317117ff5e47907",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 506,
+      "output_tokens": 1158,
+      "raw_response_hash": "7bdec399757ec812ffd5265384d010fceb5be6f7e51f526b8b1321dea5509187",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "0293226996dccf0b447a",
+      "custom_id": "piotw-0174-0293226996dccf0b447a",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 513,
+      "output_tokens": 1500,
+      "raw_response_hash": "cdd9d3344e6c5fc64bdb6344888178be56c2a993e993c1fc7a41da21e7bd19d4",
+      "reasoning_tokens": 1344,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a3a0ee6b3832514460fd",
+      "custom_id": "piotw-0179-a3a0ee6b3832514460fd",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 576,
+      "output_tokens": 1269,
+      "raw_response_hash": "2fc2101fc6313e26665669c12cf3f3a56449748b1ecdc1f7a6e5ea4e578423f2",
+      "reasoning_tokens": 1088,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "e5dbb2ef5e731830ce5e",
+      "custom_id": "piotw-0181-e5dbb2ef5e731830ce5e",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 730,
+      "output_tokens": 933,
+      "raw_response_hash": "3369a0904ddb6147d1e58238e5a8e0ffa39ca8e35f2effe121cbace3c37129d2",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8601ee60c91b2af0cab9",
+      "custom_id": "piotw-0182-8601ee60c91b2af0cab9",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 718,
+      "output_tokens": 1162,
+      "raw_response_hash": "d137447e8c3b583c8df4b070ad05f761682db11a44f74dc09c0be23ecc2b0f54",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4ba456c34e5ef2dc9af8",
+      "custom_id": "piotw-0184-4ba456c34e5ef2dc9af8",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 747,
+      "output_tokens": 626,
+      "raw_response_hash": "a899e917dbe49f90389279977ff4d84bf9cb06ed75cdc50c3b69ef917be88ee7",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a757b76e411aad9a09eb",
+      "custom_id": "piotw-0185-a757b76e411aad9a09eb",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 540,
+      "output_tokens": 548,
+      "raw_response_hash": "532255246b127e52c22a126a994d73188377927c34806f044fa7292e5212421e",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "b60e420cd1419818bc0f",
+      "custom_id": "piotw-0186-b60e420cd1419818bc0f",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 502,
+      "output_tokens": 902,
+      "raw_response_hash": "b1ee8128e5c5eeb34f2b449fd63a6086129ee8914c5761439049547baf18e39f",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a03e0b5dc71456875435",
+      "custom_id": "piotw-0201-a03e0b5dc71456875435",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 536,
+      "output_tokens": 788,
+      "raw_response_hash": "8a8c0557777bdb3a626630a35c7e2f0f5d01af71c9ac0abb0b7c1bae44685d55",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "46b2b26a9d14c993627e",
+      "custom_id": "piotw-0202-46b2b26a9d14c993627e",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 727,
+      "output_tokens": 773,
+      "raw_response_hash": "6eb94f600b9ab2371c2a56e3da0f5373a899ba0218d6ea5c6eef31e2965439c7",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a0d80ba76e27558f06e3",
+      "custom_id": "piotw-0206-a0d80ba76e27558f06e3",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 593,
+      "output_tokens": 530,
+      "raw_response_hash": "e40744177458eff5b97892de6d4ac7c39762726134e8394424c875eac41c7ba4",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3ee2732f9288edfb667b",
+      "custom_id": "piotw-0209-3ee2732f9288edfb667b",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 508,
+      "output_tokens": 632,
+      "raw_response_hash": "50bc21296845b034d7d230c919ab779a964ab5fc9cadec818cc2822ac11d1bae",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "184cb0f8c57405902802",
+      "custom_id": "piotw-0211-184cb0f8c57405902802",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 489,
+      "output_tokens": 993,
+      "raw_response_hash": "0b365d5226c994a6d5216bf00fa2eb989bb56b175195035d4fa5c9483d72fccc",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "2f14f9752e1555fbaed0",
+      "custom_id": "piotw-0224-2f14f9752e1555fbaed0",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 497,
+      "output_tokens": 975,
+      "raw_response_hash": "276df9778751591edf6e82a3ae24380f0159be02958f738e45c8f2c7af250b9a",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c0168041eb566149e2b3",
+      "custom_id": "piotw-0225-c0168041eb566149e2b3",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 477,
+      "output_tokens": 483,
+      "raw_response_hash": "fd577da89c3ad7d1821c0f69fdafad87856858e5dc85d763b62bf2418f18f759",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "716f6e5a7973a90aa4c9",
+      "custom_id": "piotw-0227-716f6e5a7973a90aa4c9",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 6 column 1808 (char 1932)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 769,
+      "output_tokens": 2000,
+      "raw_response_hash": "82903e7751886aff755fc4c5309d42f82bff5d0657fffb6ed574ca5abdd1fdd8",
+      "reasoning_tokens": 704,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "00b422aae64ac457a30d",
+      "custom_id": "piotw-0228-00b422aae64ac457a30d",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 687,
+      "output_tokens": 760,
+      "raw_response_hash": "af3d85c4d2a32a9dd0110f710238e0e34b53c369d6e028efb92dfdeecc723f62",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ed6c3634e427a3d1d306",
+      "custom_id": "piotw-0239-ed6c3634e427a3d1d306",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 616,
+      "output_tokens": 1261,
+      "raw_response_hash": "bff01b715789e2e7e6b0362fc16dc0321ee22191ecd5041b1f5da536afcecb77",
+      "reasoning_tokens": 1088,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "569a24d616299938bc46",
+      "custom_id": "piotw-0259-569a24d616299938bc46",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 672,
+      "output_tokens": 871,
+      "raw_response_hash": "7911ac48428d332b752f8cfd9ecfa555e158d986eac365fcc725f1d80abd30b2",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f754e4c9535438ec6dda",
+      "custom_id": "piotw-0272-f754e4c9535438ec6dda",
+      "error": {
+        "message": "unsupported event remap",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "UNSUPPORTED_EVENT_REMAP",
+      "incomplete_reason": null,
+      "input_tokens": 754,
+      "output_tokens": 978,
+      "raw_response_hash": "40c3272f22522436c11f919653960e621d1a9038e53926795a7db803eed67e17",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f62407f92d17f4a58a5e",
+      "custom_id": "piotw-0280-f62407f92d17f4a58a5e",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 611,
+      "output_tokens": 1153,
+      "raw_response_hash": "dfc9bc6d6f4dc7d2f3319ec672d8555d5054ba4c0e3b38482098c9dcad56825a",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c6c92260307f33fdd7cd",
+      "custom_id": "piotw-0283-c6c92260307f33fdd7cd",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 624,
+      "output_tokens": 1028,
+      "raw_response_hash": "d3570a8308345a26c54b139fcf9a81b03b9bab88a73f1b46ff31adf7b5348a00",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "efe8c3ca664bc4e76a89",
+      "custom_id": "piotw-0289-efe8c3ca664bc4e76a89",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 810,
+      "output_tokens": 962,
+      "raw_response_hash": "946914db551b1b1ee8f7420bd00216e405d9c5fa095deb6d46b15cc8209bb137",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a1287ca31d61d0e260a7",
+      "custom_id": "piotw-0290-a1287ca31d61d0e260a7",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 744,
+      "output_tokens": 935,
+      "raw_response_hash": "3c2eb0476a8d3ebbb73e7508f8d10c06d3d023f47bd370f6b28c43ee6900303b",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3ef62bffeae628a1bd3a",
+      "custom_id": "piotw-0296-3ef62bffeae628a1bd3a",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 6 column 2859 (char 2986)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 718,
+      "output_tokens": 2000,
+      "raw_response_hash": "a88d084039bbb0f51058cd864a8f56491e7410d64b549f89a6cd1598ab628122",
+      "reasoning_tokens": 512,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "8aca2e16e5fb536addd8",
+      "custom_id": "piotw-0297-8aca2e16e5fb536addd8",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 717,
+      "output_tokens": 1132,
+      "raw_response_hash": "70c62b5bbf5a838fdaa820f7c68c89291febc3783a934548539ef316eb41a0de",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ee61d9b6eeeb7d1d48e2",
+      "custom_id": "piotw-0298-ee61d9b6eeeb7d1d48e2",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 782,
+      "output_tokens": 839,
+      "raw_response_hash": "2263769f19e74e61f4cdaa30bbd06331e8854e6d6f3abace2f199de5b42a5793",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "61139b56e73788406c3e",
+      "custom_id": "piotw-0299-61139b56e73788406c3e",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 767,
+      "output_tokens": 936,
+      "raw_response_hash": "dad2a41b64d611c1ba754165cf5aaec4b5489f86a4472f609caa3905f00b04f2",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "65c7e09ed43388c40541",
+      "custom_id": "piotw-0300-65c7e09ed43388c40541",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 701,
+      "output_tokens": 1094,
+      "raw_response_hash": "c0be0a405b2c4c78da9d040e02a1c83ff6ae78040fa719e41c0420822cf69fa4",
+      "reasoning_tokens": 960,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d05103e0e592ba59c222",
+      "custom_id": "piotw-0310-d05103e0e592ba59c222",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 896,
+      "output_tokens": 971,
+      "raw_response_hash": "a3da21f79b3394fee70c614950b52c0016e2dfda52d95dac179bf3dbb987c122",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d37145955a9ec7327ddc",
+      "custom_id": "piotw-0318-d37145955a9ec7327ddc",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 648,
+      "output_tokens": 904,
+      "raw_response_hash": "4927148f7fb8e614d338faa4ac406ecf339a990bd8114dbc445ca34bee535087",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4ec1172d59ad8c3896f9",
+      "custom_id": "piotw-0325-4ec1172d59ad8c3896f9",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 862,
+      "output_tokens": 754,
+      "raw_response_hash": "8c17a1c335c552e04563e2c9bf160046862ef0b6d7b4bd1a5f80a3f195f5db43",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "eaeaa28000c55679be34",
+      "custom_id": "piotw-0332-eaeaa28000c55679be34",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 632,
+      "output_tokens": 608,
+      "raw_response_hash": "f6eea9f7a39828e45ccd2ba707f40346b1f9c37869044b37a756c0385827aa64",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4ff60a1d64ee0c890066",
+      "custom_id": "piotw-0333-4ff60a1d64ee0c890066",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 664,
+      "output_tokens": 1262,
+      "raw_response_hash": "bb832b7e4f91fc1ed03f239cc4038de03fda738402df08128d6aa543e4ec2e7c",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c4174e4808d978e44a40",
+      "custom_id": "piotw-0337-c4174e4808d978e44a40",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 659,
+      "output_tokens": 1047,
+      "raw_response_hash": "363e7ad1f943980bf12641087d0cdbc5c4afd29e28ffc358d88fe12b539684ca",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7d39d3dde115c9e5067b",
+      "custom_id": "piotw-0338-7d39d3dde115c9e5067b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 668,
+      "output_tokens": 612,
+      "raw_response_hash": "99725f88544dbe92894eae2b976a7ecc58c2ace3b4ccc2bbc94907353ee75f8e",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "00b9dfce6aa66168e3a0",
+      "custom_id": "piotw-0340-00b9dfce6aa66168e3a0",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 598,
+      "output_tokens": 647,
+      "raw_response_hash": "f967b8547ade808a92668dd4dc3a14cd9cdc56b952d749ec290eaf93e340c34f",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "81e5003e3fd0e7e426c9",
+      "custom_id": "piotw-0341-81e5003e3fd0e7e426c9",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 650,
+      "output_tokens": 833,
+      "raw_response_hash": "4e821a25ddd74447f3e52e2756dd49afe5245a86b953e21bff9007c86295dbd8",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d86d3c8a617d18eec436",
+      "custom_id": "piotw-0343-d86d3c8a617d18eec436",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 630,
+      "output_tokens": 786,
+      "raw_response_hash": "1d8f1b520e9b5e8d0080d9daee3f0723421ef99e3d15551766b43d31cb2650a6",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "bbc050e81c04798ac6e4",
+      "custom_id": "piotw-0344-bbc050e81c04798ac6e4",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 618,
+      "output_tokens": 452,
+      "raw_response_hash": "cd77eab67769338884ce9add6944843d411620cae4b9aebae40036a785fb51ab",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9aa32ad4a755362bcc76",
+      "custom_id": "piotw-0345-9aa32ad4a755362bcc76",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 589,
+      "output_tokens": 390,
+      "raw_response_hash": "608040a0c5c1dc93feb60c054e571d74173568786648ca4e467788f32bda0083",
+      "reasoning_tokens": 256,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8c9e4457228950557eaf",
+      "custom_id": "piotw-0351-8c9e4457228950557eaf",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 650,
+      "output_tokens": 788,
+      "raw_response_hash": "e489831f17574d5b1932e19e8eed1da6c140a58b7a387717299719697f064ecc",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "df0932f31c5f4e26e674",
+      "custom_id": "piotw-0353-df0932f31c5f4e26e674",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 687,
+      "output_tokens": 515,
+      "raw_response_hash": "29b682b83d3ce65e41a749570bca8c1678fc69acf3382d8ba58005b133fc4f2f",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "957021f5986c3c38442e",
+      "custom_id": "piotw-0359-957021f5986c3c38442e",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 681,
+      "output_tokens": 1169,
+      "raw_response_hash": "e82f85b4068b2d8394cbe3d141e59ed9102838c4ce937aa6abb4a6d4402a820b",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "80ee28d5141bc923c72f",
+      "custom_id": "piotw-0360-80ee28d5141bc923c72f",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 1002,
+      "output_tokens": 935,
+      "raw_response_hash": "39dc061369bdb15661f2012d5a51c264884989ab9bc4512914401e4c0de7834d",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "35f95282dad3afc9ee9f",
+      "custom_id": "piotw-0361-35f95282dad3afc9ee9f",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 607,
+      "output_tokens": 752,
+      "raw_response_hash": "c5404c48bb920d2bfbf3dfcbc6623324a4b6e73431ec32d3c23817b135420785",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "191af59ac4e5ba9f64a9",
+      "custom_id": "piotw-0363-191af59ac4e5ba9f64a9",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 656,
+      "output_tokens": 1027,
+      "raw_response_hash": "2aed6726ffffad0b178b33426ad930205681d726942915132ae71533ea94500e",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "069086a603e2973b91b9",
+      "custom_id": "piotw-0364-069086a603e2973b91b9",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 648,
+      "output_tokens": 1382,
+      "raw_response_hash": "d71f0615e08d3b66fa523c5f0aa8366952af308bed73fc4fc7c8d1c3e44ac64c",
+      "reasoning_tokens": 1216,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c6c2f1a3be82c97f502b",
+      "custom_id": "piotw-0373-c6c2f1a3be82c97f502b",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 679,
+      "output_tokens": 736,
+      "raw_response_hash": "589d98a7a22ea92038fe6d239f01ef62ebff4c2f2a84869cef6399f66edb8e25",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5df9174f65397aeb9c1a",
+      "custom_id": "piotw-0379-5df9174f65397aeb9c1a",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 656,
+      "output_tokens": 1613,
+      "raw_response_hash": "bde28f68b00421355b0463101be6c0b6ae65630cec1d347b6115aa6968117f56",
+      "reasoning_tokens": 1408,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "193a9f9c0b14864de593",
+      "custom_id": "piotw-0380-193a9f9c0b14864de593",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 700,
+      "output_tokens": 784,
+      "raw_response_hash": "8adb1595b51d20b37ae0c87a7f4de406435a39e23b15e19e5885bc557bcac23c",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ce778a13e86c243d15d7",
+      "custom_id": "piotw-0387-ce778a13e86c243d15d7",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 768,
+      "output_tokens": 719,
+      "raw_response_hash": "a7baa0d14af5cdf50b6a38b8337b51b1e86ccd4130ccdc035aabaabd97249471",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f792470ee6efd2c96fc6",
+      "custom_id": "piotw-0389-f792470ee6efd2c96fc6",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 652,
+      "output_tokens": 1256,
+      "raw_response_hash": "ae2fc4277aa672d6a70ad923859a9a1fce8c646a9cfb757c67bf117eff3d7635",
+      "reasoning_tokens": 1088,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7bb379dba083e8d68fe6",
+      "custom_id": "piotw-0398-7bb379dba083e8d68fe6",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 720,
+      "output_tokens": 842,
+      "raw_response_hash": "05d5417240967c030fe3684c8d194ff16e0732f1c6d3535e4cb4cedba50fede2",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "ad92811ead09ac71f609",
+      "custom_id": "piotw-0401-ad92811ead09ac71f609",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 782,
+      "output_tokens": 889,
+      "raw_response_hash": "ade92bc20143b7d246846b7450b8b006fc6887367e83e7876eadbfa2ff782218",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f3fb535fb135af2411b8",
+      "custom_id": "piotw-0406-f3fb535fb135af2411b8",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 679,
+      "output_tokens": 642,
+      "raw_response_hash": "b994912ae3ca208434db152bc8779ad47826c05c82b682c92ac5d8379771847f",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "0b3208142f7f7c7ac9fa",
+      "custom_id": "piotw-0409-0b3208142f7f7c7ac9fa",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 703,
+      "output_tokens": 926,
+      "raw_response_hash": "a46bcff9bbf671af4150785978e81bb2625edd75abd2c8c77898a1b02dda8001",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4b9b2b28062da920921c",
+      "custom_id": "piotw-0411-4b9b2b28062da920921c",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 816,
+      "output_tokens": 814,
+      "raw_response_hash": "afcd4d019a420ab9511fd9fea7a269c43608123222e1682d3f7fe226dd1afddc",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f5e3aa965694f612e95c",
+      "custom_id": "piotw-0414-f5e3aa965694f612e95c",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1031,
+      "output_tokens": 798,
+      "raw_response_hash": "142fd4e70360b7b094f81334fd5bae438f0e4c081023653441d3c30233a1a5d1",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "36d8af10b99d2d06458a",
+      "custom_id": "piotw-0415-36d8af10b99d2d06458a",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1032,
+      "output_tokens": 884,
+      "raw_response_hash": "b2d8ec3f003d57985dd25c36672aad8245d82e3cf18e8b07c7a68115350b8f4a",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "55baa65aabe4039b011b",
+      "custom_id": "piotw-0416-55baa65aabe4039b011b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1087,
+      "output_tokens": 714,
+      "raw_response_hash": "806bc20c2912940e0779ededc46ff168140e51cf34c8bda21dbf185e05fe1eae",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "cdf20fd8012417ed3cf7",
+      "custom_id": "piotw-0417-cdf20fd8012417ed3cf7",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 760,
+      "output_tokens": 836,
+      "raw_response_hash": "760d7fd383a84a988fa86ca7660699e86a43bef27b87616190b1c68b0e06d976",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1e80a76b5ac6c9844c62",
+      "custom_id": "piotw-0424-1e80a76b5ac6c9844c62",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 856,
+      "output_tokens": 1504,
+      "raw_response_hash": "7fde512be57e95d8aa084761850cfc8e21612ed70d251c2a8e55298dd72303d3",
+      "reasoning_tokens": 256,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9dc13f8bb24ca0fd9c7e",
+      "custom_id": "piotw-0425-9dc13f8bb24ca0fd9c7e",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 856,
+      "output_tokens": 762,
+      "raw_response_hash": "91e3e31a9bff798996ef2fe277b285e7fc5949bb5fd2642ae4ac09d7bca40644",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "237090b825fba9f13416",
+      "custom_id": "piotw-0427-237090b825fba9f13416",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 656,
+      "output_tokens": 1023,
+      "raw_response_hash": "3ff96b6e213e18bb57d65e6907659a678b7bc4282f3fd0c3e09d688fff952322",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1ae758efe0d3d05bb2bb",
+      "custom_id": "piotw-0428-1ae758efe0d3d05bb2bb",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 658,
+      "output_tokens": 1846,
+      "raw_response_hash": "56eb1c2e8df83375425878981401a9006d81795cd59801b7213fe2b524d0d454",
+      "reasoning_tokens": 1728,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "49d39385fcc26a7c1146",
+      "custom_id": "piotw-0432-49d39385fcc26a7c1146",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 720,
+      "output_tokens": 1033,
+      "raw_response_hash": "0677afcc276de21cecc2f5a9a5c4370aa969ef7ebfd1fba54e38311938165e5d",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "e805f4b1d0d1fbcff022",
+      "custom_id": "piotw-0433-e805f4b1d0d1fbcff022",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 749,
+      "output_tokens": 722,
+      "raw_response_hash": "f8dbc84d2db1faf67f831919f254334c559b37bb5d5c328507ed10918df4b38a",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "03f422a5387a5880cd69",
+      "custom_id": "piotw-0435-03f422a5387a5880cd69",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 809,
+      "output_tokens": 1056,
+      "raw_response_hash": "b4394d6d67b8a189c555536364bfbd231ac11b4b3b6543efafdf9fb815eb01f2",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "754ebe72ea22b97ee124",
+      "custom_id": "piotw-0436-754ebe72ea22b97ee124",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 594,
+      "output_tokens": 707,
+      "raw_response_hash": "2f8252801a1cc93f4f9bcdf1c33ff62d2f8b154c246586708f665dfb16d01d5e",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "0bf4ca8f6846c6cc7d84",
+      "custom_id": "piotw-0437-0bf4ca8f6846c6cc7d84",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 579,
+      "output_tokens": 1082,
+      "raw_response_hash": "a404f1f08e3d76d086487f1ab4036645cdf297d7aaf48947de26def4dcbb5e8f",
+      "reasoning_tokens": 960,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "92a1f7ed5ff5e45fadb9",
+      "custom_id": "piotw-0440-92a1f7ed5ff5e45fadb9",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 633,
+      "output_tokens": 553,
+      "raw_response_hash": "b86b6649944968b28ca6e3a0157a55852abdb2606cbfdc698d70564ed6d5b891",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a7fd6d47158ab5be8779",
+      "custom_id": "piotw-0443-a7fd6d47158ab5be8779",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 803,
+      "output_tokens": 643,
+      "raw_response_hash": "5f81f3ac1e3a1379099c3380195f2a18e174a7c76b765e2b08b68b8a25d818b1",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "b09344c6c720f78318d4",
+      "custom_id": "piotw-0445-b09344c6c720f78318d4",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1085,
+      "output_tokens": 1195,
+      "raw_response_hash": "e42e642beea388fdebc0d3caf03d5f289d6759b80652ff0f10865e9fc907a03a",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "760ddc578faa931ecb06",
+      "custom_id": "piotw-0447-760ddc578faa931ecb06",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1068,
+      "output_tokens": 823,
+      "raw_response_hash": "aca4faf30ed5ba8d0594002e810eae1057260512fa559940a83f792dfdecf5f8",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "b3742644990ba069df02",
+      "custom_id": "piotw-0452-b3742644990ba069df02",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 834,
+      "output_tokens": 776,
+      "raw_response_hash": "1a824f5ba8a8e86170ba85f496fc092c3cd1d43ff0342ac617d7edf3808d3f6d",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9925234460c9962ecdcf",
+      "custom_id": "piotw-0453-9925234460c9962ecdcf",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 834,
+      "output_tokens": 568,
+      "raw_response_hash": "b64217f43188fc22c4b699e49d952edb3332684be3a0b216d4da0d89e157a802",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "fcfb5fd53cdc28f5d65b",
+      "custom_id": "piotw-0454-fcfb5fd53cdc28f5d65b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 807,
+      "output_tokens": 1244,
+      "raw_response_hash": "809cee3aa44e96b87bdecc750ac14c824ef6b3813d2d2d0680401a26c5a394c2",
+      "reasoning_tokens": 1024,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5c676a3d5366aabca88d",
+      "custom_id": "piotw-0456-5c676a3d5366aabca88d",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 654,
+      "output_tokens": 1681,
+      "raw_response_hash": "523b458e3dd2cbad013bf02471aa5b6c6e1c59afed53e34f2f9ced40eba0e51b",
+      "reasoning_tokens": 1472,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5c676a3d5366aabca88d",
+      "custom_id": "piotw-0459-5c676a3d5366aabca88d",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 743,
+      "output_tokens": 1365,
+      "raw_response_hash": "b37e7173b7a3146743b158a50f86605d1fe14ceb33f60b43c5135953c04ca876",
+      "reasoning_tokens": 1216,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f411febe68d8290e5084",
+      "custom_id": "piotw-0462-f411febe68d8290e5084",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 754,
+      "output_tokens": 493,
+      "raw_response_hash": "c4061e653584270d90d744744970e760bd9c079e07dcfeb55cc1021581ca0e64",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3a1d7ed171896e384a83",
+      "custom_id": "piotw-0467-3a1d7ed171896e384a83",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1098,
+      "output_tokens": 1145,
+      "raw_response_hash": "836a55b42f225c6852e7a4f9868a25c61a25819e08a2ddf85a9821aa97c04d16",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "dc86880b470646475be0",
+      "custom_id": "piotw-0470-dc86880b470646475be0",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1185,
+      "output_tokens": 977,
+      "raw_response_hash": "eb6614c3357bf17cd5cef4d7fdf2e4bf292271374cda5d4db647bdc5633e8e73",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1a58e8a7d57fa9303ac2",
+      "custom_id": "piotw-0475-1a58e8a7d57fa9303ac2",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 633,
+      "output_tokens": 758,
+      "raw_response_hash": "45b72035947bfb64e4d43cdda18107d7b3e6fd944f36817c79381fbf73d06dea",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "30d70102c99b96014c44",
+      "custom_id": "piotw-0476-30d70102c99b96014c44",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 661,
+      "output_tokens": 827,
+      "raw_response_hash": "2a723da5e8e99ebba1571c45c9bfa213d528984af87ef29ccec7dbce717ed676",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "19f5523eb1126d797516",
+      "custom_id": "piotw-0479-19f5523eb1126d797516",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 766,
+      "output_tokens": 810,
+      "raw_response_hash": "2e17504bce0795dcfffc5f5e8ee76b76991e24e19653dbe523700c7735bc0afc",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5335ae4bb21949b78c27",
+      "custom_id": "piotw-0484-5335ae4bb21949b78c27",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 674,
+      "output_tokens": 1302,
+      "raw_response_hash": "5328b27f17c7190d1748eda6098f94e146e2e08a076184c5fdb54a8081467fec",
+      "reasoning_tokens": 1152,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "30d70102c99b96014c44",
+      "custom_id": "piotw-0487-30d70102c99b96014c44",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 661,
+      "output_tokens": 847,
+      "raw_response_hash": "679d03a8009b158ff728d9c480aaf2f7a65dd93a3b5e4acdaa0e116ead923e88",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "e3a05053f9e93f8bb687",
+      "custom_id": "piotw-0488-e3a05053f9e93f8bb687",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 678,
+      "output_tokens": 530,
+      "raw_response_hash": "0cd1d1d436dca5acbb4d645471b489ff9606f8253a1332a606727a1b849390ea",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5335ae4bb21949b78c27",
+      "custom_id": "piotw-0498-5335ae4bb21949b78c27",
+      "error": {
+        "message": "ambiguous decision requires an ambiguous reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "AMBIGUOUS_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 674,
+      "output_tokens": 964,
+      "raw_response_hash": "d0c0c8ac20c1e736621dc3cf3084f54bfa05b1a5cfae4a0894fd3897dcc4c042",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9e8a37ad5e9fc8b04efa",
+      "custom_id": "piotw-0499-9e8a37ad5e9fc8b04efa",
+      "error": {
+        "message": "unsupported event remap",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "UNSUPPORTED_EVENT_REMAP",
+      "incomplete_reason": null,
+      "input_tokens": 733,
+      "output_tokens": 863,
+      "raw_response_hash": "8af5debd11c523b9527d84de9efbe759c303b450bdd6a94b613b643416bed214",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "05fa94539ff8bd384ca9",
+      "custom_id": "piotw-0511-05fa94539ff8bd384ca9",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 593,
+      "output_tokens": 1261,
+      "raw_response_hash": "73962e69c07dfa012bf6a865adb50ec5bcdf5d32b395d0ec3f2dbc3f658dbd34",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "bc9be042e7fdddfdcb20",
+      "custom_id": "piotw-0518-bc9be042e7fdddfdcb20",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 693,
+      "output_tokens": 746,
+      "raw_response_hash": "980d198f879b9857bdc40229bff09977c0f99d389c1c89c278aad9c7f01973d3",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7531e06df2faf921fb53",
+      "custom_id": "piotw-0524-7531e06df2faf921fb53",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 728,
+      "output_tokens": 748,
+      "raw_response_hash": "710b55569863bcd88e6cbc8384bd93a84fe780a23cae6e9a26112051703b45d1",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "333cbb4bf0e9df3fce26",
+      "custom_id": "piotw-0538-333cbb4bf0e9df3fce26",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 667,
+      "output_tokens": 873,
+      "raw_response_hash": "7bc862ac261aa3090a28109b6e0cfe7bbb42e03f71267625943961652e8e5b9f",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "fa4668689b6e88eb68e3",
+      "custom_id": "piotw-0544-fa4668689b6e88eb68e3",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 879,
+      "output_tokens": 930,
+      "raw_response_hash": "2f91739e05bd2f3e9e0fe8207acccc909d021ad7f6f694cbf0263ca17899efa7",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7dbd8d6ca873e027c671",
+      "custom_id": "piotw-0566-7dbd8d6ca873e027c671",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 674,
+      "output_tokens": 1354,
+      "raw_response_hash": "3048b2f9a992ea5f29da36d7d00990398ab50c0945cfcea4c2eb44d66797ea8a",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d7841700643b212ac687",
+      "custom_id": "piotw-0571-d7841700643b212ac687",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 3160 (char 3159)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 621,
+      "output_tokens": 2000,
+      "raw_response_hash": "31f1f9542f154d2c0c429fd3b2a788a500b05ff5a70526e727663c46718c21e2",
+      "reasoning_tokens": 448,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "5ba42860ca9264789a37",
+      "custom_id": "piotw-0573-5ba42860ca9264789a37",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 640,
+      "output_tokens": 1221,
+      "raw_response_hash": "8f0a8da361f3ed7619fc8ffdf405dfceda2db9f17980fe6384402fd7b8e8b3e3",
+      "reasoning_tokens": 960,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "2d9b2006a38216760035",
+      "custom_id": "piotw-0574-2d9b2006a38216760035",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 731,
+      "output_tokens": 618,
+      "raw_response_hash": "d3e2101566c2856b27aec3b9f52715209ad213b509495a42e81afdf6dfe9536e",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3942b33c511fa535effd",
+      "custom_id": "piotw-0575-3942b33c511fa535effd",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 760,
+      "output_tokens": 1854,
+      "raw_response_hash": "b4abc9ebb966a48506e974b301b52901c8113bf20583d16ee1d65f62f1fa7595",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "56ff0971c5788fe0e10a",
+      "custom_id": "piotw-0578-56ff0971c5788fe0e10a",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 645,
+      "output_tokens": 1721,
+      "raw_response_hash": "01baabe154494da7a8f307e83d39687a995c231b73924d56576c3f5eb6aafa4b",
+      "reasoning_tokens": 896,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f35e7a67e8beb5c7ff28",
+      "custom_id": "piotw-0582-f35e7a67e8beb5c7ff28",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 765,
+      "output_tokens": 960,
+      "raw_response_hash": "3a9f3109dffef9b560089fb1486fd110c73d04ce8b773bbc16068b91801e7f48",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "8790785adc7211f29aed",
+      "custom_id": "piotw-0585-8790785adc7211f29aed",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 670,
+      "output_tokens": 914,
+      "raw_response_hash": "f6d607c053e9bff113e14d893c4be209e170b2b237655675955f74684c4a8d2c",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "06ed49784351767133c4",
+      "custom_id": "piotw-0588-06ed49784351767133c4",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 648,
+      "output_tokens": 807,
+      "raw_response_hash": "85c41788ada47b5dc4e5d67dbc4320e97710d256e425478c0a12641e8489c94b",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "156669561e52e1ddac02",
+      "custom_id": "piotw-0596-156669561e52e1ddac02",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 1155,
+      "output_tokens": 985,
+      "raw_response_hash": "9199bfdac532820cfbc2159b6b096d7ed946bc04b930c321532cc44904579a34",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "00ea32e6111d484894b3",
+      "custom_id": "piotw-0598-00ea32e6111d484894b3",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 713,
+      "output_tokens": 527,
+      "raw_response_hash": "0866565942fca190300af987b67e175d5b4bfe617465039b9467175a354d6349",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7dbd8d6ca873e027c671",
+      "custom_id": "piotw-0599-7dbd8d6ca873e027c671",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 674,
+      "output_tokens": 664,
+      "raw_response_hash": "9420697242beb13faab61493e9888568b14079a7785e24e2d0789a525c0d462a",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1c4161784e3eb1347401",
+      "custom_id": "piotw-0601-1c4161784e3eb1347401",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 625,
+      "output_tokens": 453,
+      "raw_response_hash": "864cc9553257f3fd7509e1ac7c0fd00d6250111b1eb7d0b55e3d451e806c78ff",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "90e7d2c18f011e651d3c",
+      "custom_id": "piotw-0602-90e7d2c18f011e651d3c",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 624,
+      "output_tokens": 662,
+      "raw_response_hash": "b2941bdd0565a81bd0a953f851824a660ded39af0a82b5715b999adf97731080",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "58be84293d133b548624",
+      "custom_id": "piotw-0604-58be84293d133b548624",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 768,
+      "output_tokens": 772,
+      "raw_response_hash": "17df73bd6bbf9152f40b6544be38d34cbf2d88193aa2eaac4f37eed487b336b1",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "02de7995ccd2f496940d",
+      "custom_id": "piotw-0605-02de7995ccd2f496940d",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 623,
+      "output_tokens": 1606,
+      "raw_response_hash": "f88865b3f414ce4b6dee5477bd4a47ae8eecda5ae5b94ec080e7378cbad84237",
+      "reasoning_tokens": 1472,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "331b2125102cc9ceda20",
+      "custom_id": "piotw-0608-331b2125102cc9ceda20",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 618,
+      "output_tokens": 1184,
+      "raw_response_hash": "3ab89a0bceb14cd4b857c88d30775562aa1f01e2141acfc5f6339b88f1a99832",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "06ed49784351767133c4",
+      "custom_id": "piotw-0611-06ed49784351767133c4",
+      "error": {
+        "message": "non-accepted decision cannot assert direct support",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "NON_ACCEPT_ASSERTS_DIRECT_SUPPORT",
+      "incomplete_reason": null,
+      "input_tokens": 660,
+      "output_tokens": 935,
+      "raw_response_hash": "c4345aa733cfceb18c178ccd71739f5145660d6eeb0c284aa93ad08d5093269a",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d3eb08802dc035d3944b",
+      "custom_id": "piotw-0612-d3eb08802dc035d3944b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 892,
+      "output_tokens": 552,
+      "raw_response_hash": "29a1161ddeec716debca74492a1206cf038cafebf3b9a46a54b2ff249d8489f0",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "be454a489a8a98182070",
+      "custom_id": "piotw-0614-be454a489a8a98182070",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 654,
+      "output_tokens": 972,
+      "raw_response_hash": "c377d65c2f8bf1e587b0c6c0fbe8bf4bec3109e3e9287161634d196fd3e67724",
+      "reasoning_tokens": 768,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "2d3310a2c969c6b29166",
+      "custom_id": "piotw-0616-2d3310a2c969c6b29166",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 2743 (char 2742)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 604,
+      "output_tokens": 2000,
+      "raw_response_hash": "194400d608b108fc96bbabcda84b35bacb1b8cc929e79195d87d9c7eb5896a7d",
+      "reasoning_tokens": 640,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "5ce4777a58ebc3845626",
+      "custom_id": "piotw-0617-5ce4777a58ebc3845626",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 568,
+      "output_tokens": 744,
+      "raw_response_hash": "8ef9bc6e6a3a8c706067e32050813b5915a4f459315ec4761e919a2391cc6f05",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c0bdad3747f5856fde3c",
+      "custom_id": "piotw-0619-c0bdad3747f5856fde3c",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 608,
+      "output_tokens": 721,
+      "raw_response_hash": "36f57fb64c3c8b48452a929af63dd860afbca874f7350dc728c83a575db8bbe7",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "48779ef69dcc5aa3bd99",
+      "custom_id": "piotw-0620-48779ef69dcc5aa3bd99",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 550,
+      "output_tokens": 578,
+      "raw_response_hash": "92b7227757d0c3aa69fe0f2ed2820360a64191e7b542ac483754805e863d5041",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4d9c7d0b69bf065cda7d",
+      "custom_id": "piotw-0626-4d9c7d0b69bf065cda7d",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 758,
+      "output_tokens": 652,
+      "raw_response_hash": "b0506b2d2c98e9f50f8f6f95c8aedabf4dfd3c0a5d1748079d5b19427b0cfc4c",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "3e27d7ccf39a43dc7488",
+      "custom_id": "piotw-0627-3e27d7ccf39a43dc7488",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 591,
+      "output_tokens": 1110,
+      "raw_response_hash": "94d58531750b006daea727b3c8229eb8026db47070dfe9fa34c603a947c95522",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "daaee774ad8c96f7f46a",
+      "custom_id": "piotw-0633-daaee774ad8c96f7f46a",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 654,
+      "output_tokens": 689,
+      "raw_response_hash": "8e68d39380d6270bf066bed6a3254becb7a604287173becb0f0eb8e40dc31091",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "282cfa6e608baa40efd5",
+      "custom_id": "piotw-0634-282cfa6e608baa40efd5",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 623,
+      "output_tokens": 523,
+      "raw_response_hash": "62180ca84acf7a5bf66af8f6a818110f9b83b61b77ba4f99e8b3601bb0cc70f4",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "7f17d7b1388ec01fd0a5",
+      "custom_id": "piotw-0635-7f17d7b1388ec01fd0a5",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 604,
+      "output_tokens": 781,
+      "raw_response_hash": "ff1cf2442ff83a2ca40dc3773c67117234fb4b95e814cf9b31fb16330c085a79",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "6f947b1cf0864d652363",
+      "custom_id": "piotw-0636-6f947b1cf0864d652363",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 568,
+      "output_tokens": 550,
+      "raw_response_hash": "ef467735dc338ac9423c89716dd00d42b67e2e56ad8cb57361d0900a2bb37072",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "c9a9112bd0d65b496f8d",
+      "custom_id": "piotw-0637-c9a9112bd0d65b496f8d",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 591,
+      "output_tokens": 513,
+      "raw_response_hash": "e11e78276bd3f15de91c52ce7ecaa8dfc4f12b44db7e9c718b66883c06d8e426",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "f69d197941baa24e2425",
+      "custom_id": "piotw-0638-f69d197941baa24e2425",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 629,
+      "output_tokens": 952,
+      "raw_response_hash": "eee3fa0b45c383267f032c32cf37df920bc02d7067eaa6e09d07135ea88e1796",
+      "reasoning_tokens": 704,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "42679634cd8fc37eb4bd",
+      "custom_id": "piotw-0640-42679634cd8fc37eb4bd",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 586,
+      "output_tokens": 561,
+      "raw_response_hash": "d744f15e704ee7534b35d81c8d7c9b79c4cacaad499767da42f6f43e68d0097f",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "33cfd170fccf55203da3",
+      "custom_id": "piotw-0641-33cfd170fccf55203da3",
+      "error": {
+        "message": "accept decision requires an accept reason",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_REASON_CODE_INCONSISTENT",
+      "incomplete_reason": null,
+      "input_tokens": 744,
+      "output_tokens": 1034,
+      "raw_response_hash": "50128dc8ea261176546c237b61a52026a4f4631140fade3aa0a77963848762af",
+      "reasoning_tokens": 832,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "63b61f268eacbb556740",
+      "custom_id": "piotw-0648-63b61f268eacbb556740",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 758,
+      "output_tokens": 551,
+      "raw_response_hash": "e207fc430ab966e8a7f348c1d266f4b0258885068232d926c3b05f2d5f232206",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "38009f9b6eb6fd0bbc5c",
+      "custom_id": "piotw-0649-38009f9b6eb6fd0bbc5c",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 3050 (char 3049)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 651,
+      "output_tokens": 2000,
+      "raw_response_hash": "13da5923bde19175001da3a7e9d41d3da408e451ac881d982639050aa1290a5c",
+      "reasoning_tokens": 448,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "21d199025044d17bc353",
+      "custom_id": "piotw-0650-21d199025044d17bc353",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 615,
+      "output_tokens": 636,
+      "raw_response_hash": "349144e697defdcf3f2d590480ed7893953d3fed3e789de6526a8dc40a0fe1b6",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9b67052b0b9ed9cc29f6",
+      "custom_id": "piotw-0655-9b67052b0b9ed9cc29f6",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 591,
+      "output_tokens": 630,
+      "raw_response_hash": "bdc4c7022f272cef0823f0c4d5c27c3668af30f7782f6b78135ea6c3da9b0748",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "98a921b14b15a5af67af",
+      "custom_id": "piotw-0658-98a921b14b15a5af67af",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 586,
+      "output_tokens": 646,
+      "raw_response_hash": "97f01e7c9dbbb7a5cf7da8caaf67d27d49274cb58eddeb4b42f1781c5bc6f3b1",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "4cccaf9c3e0fdc8c3c3b",
+      "custom_id": "piotw-0659-4cccaf9c3e0fdc8c3c3b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 567,
+      "output_tokens": 688,
+      "raw_response_hash": "1db467fa80a6fe90214da622266236edfcac3e1cd51cab8285030cf62fdd5b96",
+      "reasoning_tokens": 448,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "171f32edb73325f0f127",
+      "custom_id": "piotw-0660-171f32edb73325f0f127",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 682,
+      "output_tokens": 733,
+      "raw_response_hash": "9ea23ec4b2a856c5fb4fdeacecce62f2cf67bea8566de85c9685b451e73c4cb7",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "d7c6e031c70fffc7af69",
+      "custom_id": "piotw-0661-d7c6e031c70fffc7af69",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 645,
+      "output_tokens": 656,
+      "raw_response_hash": "72efabe6e4e71459acea864965e59de5b72cb79cd013bf6f26071ad839c5f4da",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "5ce4777a58ebc3845626",
+      "custom_id": "piotw-0662-5ce4777a58ebc3845626",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 570,
+      "output_tokens": 681,
+      "raw_response_hash": "cc8f4e0315f3a36812eb9e305ff37ff989362324ed5a086e79f89ac81b599f60",
+      "reasoning_tokens": 576,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "dc5d3867338d515a74e2",
+      "custom_id": "piotw-0663-dc5d3867338d515a74e2",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 595,
+      "output_tokens": 653,
+      "raw_response_hash": "5861bb3f78f88aae3c8a7ae7d07ad5b0abcd08843ae5a7b9b075adad7bbfecee",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "a0d6c10b1dcdf06455da",
+      "custom_id": "piotw-0664-a0d6c10b1dcdf06455da",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 3079 (char 3078)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 601,
+      "output_tokens": 2000,
+      "raw_response_hash": "5e429e2e6bf226724a441d324158f353235a0484afac9e1f73287a46aca462d7",
+      "reasoning_tokens": 448,
+      "response_status": "incomplete"
+    },
+    {
+      "candidate_id": "0a90cbe1fb30aece22e2",
+      "custom_id": "piotw-0665-0a90cbe1fb30aece22e2",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 575,
+      "output_tokens": 684,
+      "raw_response_hash": "d7ae7e93507660e47df38aab86f60cc2dcd93bc24670f3e85c31c3cd4c030b0d",
+      "reasoning_tokens": 320,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "1b48cf94ea457ce64cb6",
+      "custom_id": "piotw-0666-1b48cf94ea457ce64cb6",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 589,
+      "output_tokens": 790,
+      "raw_response_hash": "20feb38ff5ef3d21189eb85c3a24e7e33570c4532d1629acfc53ae10dd496cb7",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "49786f91c1efa6bf4af4",
+      "custom_id": "piotw-0675-49786f91c1efa6bf4af4",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 779,
+      "output_tokens": 1890,
+      "raw_response_hash": "fbb22b4c95f7b37ddead2204345c3798d0aba75f090811fa73f5748b5497ded3",
+      "reasoning_tokens": 640,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "719258b582eb89d1d720",
+      "custom_id": "piotw-0676-719258b582eb89d1d720",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "ACCEPT_EVIDENCE_SPAN_NOT_IN_CONTEXT",
+      "incomplete_reason": null,
+      "input_tokens": 670,
+      "output_tokens": 558,
+      "raw_response_hash": "1aabfcb57f32098682b79fdd0fa4f93360d9c3708dea9436c20c3788b8f106c3",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "60e9d7f3de887a72ad6b",
+      "custom_id": "piotw-0677-60e9d7f3de887a72ad6b",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 652,
+      "output_tokens": 548,
+      "raw_response_hash": "290df1dfa737392381e0571fb2e244fe78876d0a32b66996c7c4d19438fe69d2",
+      "reasoning_tokens": 384,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "e671b5fd83b2479d8a28",
+      "custom_id": "piotw-0679-e671b5fd83b2479d8a28",
+      "error": {
+        "message": "accepted decision requires an exact supplied evidence span",
+        "type": "ValueError"
+      },
+      "failure_origin": "LOCAL_VALIDATOR_BUG",
+      "failure_type": "LOCAL_UNICODE_EXACT_SPAN_MATCH_BUG",
+      "incomplete_reason": null,
+      "input_tokens": 606,
+      "output_tokens": 1006,
+      "raw_response_hash": "28232cffcef4b166e403a1e6ba2cfe036d631256460131fd899a3174e231de14",
+      "reasoning_tokens": 512,
+      "response_status": "completed"
+    },
+    {
+      "candidate_id": "9883630e8472c38bbe4c",
+      "custom_id": "piotw-0684-9883630e8472c38bbe4c",
+      "error": {
+        "message": "Invalid \\uXXXX escape: line 1 column 2395 (char 2394)",
+        "type": "JSONDecodeError"
+      },
+      "failure_origin": "MODEL_OUTPUT_FAILURE",
+      "failure_type": "OUTPUT_TRUNCATED_MAX_OUTPUT_TOKENS",
+      "incomplete_reason": "max_output_tokens",
+      "input_tokens": 572,
+      "output_tokens": 2000,
+      "raw_response_hash": "b2a87509dbee69ac7854e3fb9f442167b4959aaf117cd9d0c61a3a548f9298ca",
+      "reasoning_tokens": 448,
+      "response_status": "incomplete"
+    }
+  ],
+  "formal_gold": false,
+  "invalid_total": 196,
+  "model2_trained": false,
+  "origin_counts": {
+    "LOCAL_VALIDATOR_BUG": {
+      "count": 37,
+      "rate": 0.18877551020408162,
+      "total": 196
+    },
+    "MODEL_OUTPUT_FAILURE": {
+      "count": 159,
+      "rate": 0.8112244897959183,
+      "total": 196
+    }
+  },
+  "outcomes_accessed": false,
+  "source_batch_id": "batch_6a83017941f481909f300700dd40f935",
+  "token_usage": {
+    "contract_invalid": {
+      "input_tokens": {
+        "count": 188,
+        "max": 1185,
+        "median": 647.5,
+        "p90": 809.3,
+        "p95": 894.6,
+        "total": 125082
+      },
+      "output_tokens": {
+        "count": 188,
+        "max": 1943,
+        "median": 827.0,
+        "p90": 1273.5000000000002,
+        "p95": 1566.4000000000005,
+        "total": 168641
+      },
+      "reasoning_tokens": {
+        "count": 188,
+        "max": 1728,
+        "median": 640.0,
+        "p90": 1024.0,
+        "p95": 1129.6000000000004,
+        "total": 125632
+      }
+    },
+    "truncated": {
+      "input_tokens": {
+        "count": 8,
+        "max": 769,
+        "median": 612.5,
+        "p90": 733.3,
+        "p95": 751.15,
+        "total": 5055
+      },
+      "output_tokens": {
+        "count": 8,
+        "max": 2000,
+        "median": 2000.0,
+        "p90": 2000.0,
+        "p95": 2000.0,
+        "total": 16000
+      },
+      "reasoning_tokens": {
+        "count": 8,
+        "max": 704,
+        "median": 480.0,
+        "p90": 659.2,
+        "p95": 681.5999999999999,
+        "total": 4160
+      }
+    },
+    "valid": {
+      "input_tokens": {
+        "count": 489,
+        "max": 1314,
+        "median": 628,
+        "p90": 790.2,
+        "p95": 875.5999999999999,
+        "total": 316564
+      },
+      "output_tokens": {
+        "count": 489,
+        "max": 1927,
+        "median": 667,
+        "p90": 995.0,
+        "p95": 1097.8,
+        "total": 352108
+      },
+      "reasoning_tokens": {
+        "count": 489,
+        "max": 1792,
+        "median": 512,
+        "p90": 832.0,
+        "p95": 960.0,
+        "total": 277504
+      }
+    }
+  },
+  "version": "0.3.4-contract-diagnosis-1"
+}

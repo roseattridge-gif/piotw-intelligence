@@ -1,0 +1,11 @@
+version: 0.3.0
+cadence: daily
+minimum_snapshots_for_lifecycle_evaluation: 3
+closure:
+  minimum_consecutive_healthy_misses: 2
+  require_successful_fetch: true
+  suppress_on_source_outage: true
+  suspicious_sitewide_drop_fraction: 0.8
+labels:
+  independent_sample_target: 150
+  fields: [function, seniority, location, duplicate_or_repost, lifecycle_status]

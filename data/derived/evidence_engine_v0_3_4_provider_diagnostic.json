@@ -1,0 +1,71 @@
+{
+  "version": "0.3.4-provider-diagnostic",
+  "methodological_status": "infrastructure_debugging_only",
+  "first_gate_attempt_preserved": true,
+  "first_gate_attempt_classification": "MODEL_PROVIDER_EXECUTION_FAILURE",
+  "historic_failures": {
+    "attempts": 646,
+    "http_errors": 596,
+    "http_status_not_captured_by_original_audit": 596,
+    "successful_http_responses_with_shape_error": 50,
+    "usable_semantic_decisions": 0
+  },
+  "safe_root_cause_evidence": {
+    "new_synthetic_smoke_http_status": 429,
+    "new_synthetic_smoke_error_type": "requests",
+    "new_synthetic_smoke_error_code": "rate_limit_exceeded",
+    "new_synthetic_smoke_limit": "requests_per_day",
+    "new_synthetic_smoke_limit_value": 50,
+    "new_synthetic_smoke_used": 50,
+    "old_response_parser": "payload.output[0].content[0].text",
+    "repaired_response_parser": "official_sdk_response.output_text"
+  },
+  "sdk": {
+    "before": null,
+    "before_status": "not_installed",
+    "after": "3.1.0",
+    "pinned": true,
+    "responses_create_supports_text_format": true
+  },
+  "smoke_tests": {
+    "minimal_unstructured": {
+      "passed": false,
+      "http_status": 429,
+      "error_code": "rate_limit_exceeded",
+      "latency_ms": 643
+    },
+    "minimal_structured": {
+      "passed": false,
+      "not_run_because": "minimal_unstructured_must_pass_first"
+    },
+    "piotw_schema_synthetic_accept": {
+      "passed": false,
+      "not_run_because": "minimal_unstructured_must_pass_first"
+    },
+    "piotw_schema_synthetic_reject": {
+      "passed": false,
+      "not_run_because": "minimal_unstructured_must_pass_first"
+    }
+  },
+  "integration_repairs": {
+    "official_sdk_used": true,
+    "structured_output_location": "text.format",
+    "safe_provider_error_capture": true,
+    "response_output_text_parsing": true,
+    "bounded_transient_retry": true,
+    "daily_limit_retry_suppression": true,
+    "provider_preflight_command": "make semantic-provider-preflight"
+  },
+  "provider_preflight": "MODEL_PROVIDER_PREFLIGHT_FAILED",
+  "gate_rerun_technically_eligible": false,
+  "full_gate_rerun_performed": false,
+  "scientific_prompt_changed": false,
+  "semantic_schema_meaning_changed": false,
+  "model_changed": false,
+  "taxonomy_changed": false,
+  "gate_changed": false,
+  "official_technical_status": "NOT TECHNICALLY READY",
+  "official_model2_readiness": "NOT READY",
+  "outcomes_accessed": false,
+  "model2_trained": false
+}

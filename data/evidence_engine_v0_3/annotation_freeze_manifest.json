@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.3.0",
+  "status": "awaiting_independent_human_annotation",
+  "blinded_human_first": true,
+  "frozen": false,
+  "prohibition": "Do not run PIOTW extraction comparison before completed human-first annotations are frozen.",
+  "blank_file_hashes": {
+    "gold_observations.csv": "65144c6f4bf32c31940b91323fea31a05c4b1282be673d3da4e24b4ab6838476",
+    "gold_events.csv": "940532b4294d67036283cd7eb6fb656a161d29d14bdcc189a8402b7e86a26ada",
+    "jobs_gold.csv": "54c2c9f9241a9620568ab676fc43cc266f3ca80dd2fb55dd4ad545467f7a7fb4"
+  }
+}

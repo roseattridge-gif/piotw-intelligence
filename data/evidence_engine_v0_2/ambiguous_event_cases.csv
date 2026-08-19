@@ -1,0 +1,8 @@
+case_id,text,event_type,expected_context_status,expected_current_event,notes
+amb-001,restructuring completed last year,restructuring,historical_or_completed,false,Completed historical action
+amb-002,no restructuring planned,restructuring,negated,false,Explicit negation
+amb-003,following the restructuring announced in 2022,restructuring,historical_or_completed,false,Previously announced programme
+amb-004,capacity expansion reduced unit costs,capacity_expansion,current_or_general,true,Expansion is current factual event and not cost pressure
+amb-005,cost reduction achieved through procurement savings,cost_reduction,current_or_general,true,Valid cost reduction occurrence without inferred distress
+amb-006,transformation programme completed,transformation,historical_or_completed,false,Completed programme
+amb-007,impairment unrelated to operating distress,impairment_charges,current_or_general,false,Financial fact is not an atomic intervention language event

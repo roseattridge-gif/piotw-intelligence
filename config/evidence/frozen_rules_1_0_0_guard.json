@@ -1,0 +1,20 @@
+{
+  "guard_version": "evidence-engine-v0.1.0",
+  "protected_commit": "eac7499a8ea659e126036675f773471a3d3451f6",
+  "model_specification_sha256": "213d13648f4fc8259863decace57eca5caa559c1a8a378c6cc0612a2a8618733",
+  "files": {
+    "config/models/restructuring_rules_1_0_0.json": "f02b89b0da058c1986f69b7a4be09e39e24741fc70f62b800ebc69273f914420",
+    "config/baselines/restructuring_baselines_v2.json": "6dba01e2cfd06ab8643421ccf3669c4c4a2c03a9832ed14336f9f6f33b813648",
+    "config/frozen/restructuring_v2_lock.json": "e5185828b6dbcd44dded571b72ec2bd3e1b3b4b88d1afbde711a33790745d796",
+    "data/manifests/restructuring_development.csv": "b2615f08c6c686019b8ed70d42d50711124d3f4faaaf07ca780e76955fecb885",
+    "data/manifests/restructuring_validation.csv": "7dc60da1e0143891eadd20341580338982d2eae2c7bad17169c817e60e126b88",
+    "data/manifests/restructuring_holdout.csv": "5b4ac1ad9ab39ac625fcd323fa886a7c6a22a4debbb2e53224d382aea064079d",
+    "data/restructuring_v2/evidence.csv": "0557f026a32e28c884c34c76d39d0d76630e375d500cffbbe80f532d682b5b4d",
+    "data/restructuring_v2/features.csv": "43ef0adf4c5490cc81774587e33aeae0df1e5bb5214d873ec6aad37dfe83151f",
+    "data/derived/restructuring_validation_predictions_v2.json": "04e4f58a1e02e9826913c011759a2c566d6968a843feb1996ce8fdbec46e3f74",
+    "data/derived/restructuring_holdout_predictions_v2.json": "2bb8d1828ff8873ff0911beeff605af68a20f9b31e25c3a6120710189f251649",
+    "validation/restructuring_v2.py": "87a563eaeab7023fc137f355d28a9a91df24c3593660213ec9ee1ef0abb151b3",
+    "validation/registry_v2.py": "4306b2315135f5313d02916958eb1a849983e5547f279924f108e44220c63006"
+  }
+}
+

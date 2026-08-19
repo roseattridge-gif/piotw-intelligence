@@ -1,0 +1,57 @@
+{
+  "attribution_candidate_ids": [
+    "8dd70afd69453d89aa0c341c"
+  ],
+  "companies": 5,
+  "documents": 10,
+  "gate_passed": false,
+  "gold_freeze_sha256": "a5c7e03e94533a6184f585d96f5b75d3b0629883d423b28d89c90ac7412619eb",
+  "labels": {
+    "admissible_for_model2_gate": false,
+    "formal_independent_human_gold": false,
+    "reviewer_type": "AI_ASSISTED_FINOPS_REVIEW"
+  },
+  "metrics": {
+    "accepted": 70,
+    "accepted_supported": 50,
+    "attribution_errors": 1,
+    "false_positives": 20,
+    "precision": 0.7142857142857143,
+    "provenance_completeness": 1.0,
+    "retention": 0.45045045045045046,
+    "severe_false_positives": 7,
+    "supported_retained": 50,
+    "supported_total": 111
+  },
+  "model2_trained": false,
+  "official_model2_readiness": "NOT READY",
+  "outcomes_accessed": false,
+  "protected_artifacts_unchanged": true,
+  "provider": {
+    "estimated_batch_cost_usd": 0.19664625,
+    "expected": 156,
+    "failed": 1,
+    "input_tokens": 182898,
+    "model": "gpt-5-mini",
+    "output_tokens": 173784,
+    "provider_completed": 155,
+    "received": 156,
+    "schema_and_contract_valid": 155,
+    "total_tokens": 356682
+  },
+  "provider_batch_id": "batch_6a841f001edc81908f64fb7b47aa647a",
+  "request_manifest_sha256": "fd0461e2a5bd034234798b12589094ac651c830a9149c819f46ad736428cc10f",
+  "severe_candidate_ids": [
+    "6036eda230c1b93edb55bb45",
+    "fb9446ab670a4b499dade11f",
+    "4017487a6d1666dd65c10680",
+    "ba0802bd67067965e0b8f699",
+    "c07b3d38c39a2597d37ed219",
+    "01e245467a73afe75734d700",
+    "8dd70afd69453d89aa0c341c"
+  ],
+  "source_freeze_sha256": "e0ce65ba3b9dc208602c6e2d01dd0f833d367c501dce6a3c3164215335a47a31",
+  "status": "EVIDENCE_ENGINE_0_3_5_FRESH_VALIDATION_FAILED",
+  "total_candidates": 156,
+  "version": "0.3.5"
+}

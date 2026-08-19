@@ -1,0 +1,15 @@
+version: 0.3.5-development
+status: DEVELOPMENT_CONTAMINATED — NOT VALIDATION
+cases:
+  - {id: gm-risk-2023, company: General Motors, event_type: labour_constraint, subject_type: target_company, span: "As a result, we may be subject to an increased risk of strikes, work stoppages or other types of conflicts with labor unions and employees.", expected: reject, failure_class: hypothetical_risk}
+  - {id: gm-legal-restructuring, company: General Motors, event_type: restructuring, subject_type: target_company, span: "Claims and actions arising from restructurings and divestitures of operations and assets.", expected: reject, failure_class: legal_reference}
+  - {id: gm-risk-2024, company: General Motors, event_type: labour_constraint, subject_type: target_company, span: "We may be subject to an increased risk of strikes, work stoppages or other conflicts with labor unions.", expected: reject, failure_class: hypothetical_risk}
+  - {id: hon-malformed, company: Honeywell, event_type: supply_chain_constraint, subject_type: target_company, span: "manufactured products/services 19 % 62 % 53 % 37 % RAW MATERIALS during 2022, we experienced supply chain constraints", expected: reject, failure_class: malformed_fragment}
+  - {id: hon-global, company: Honeywell, event_type: supply_chain_constraint, subject_type: industry_or_third_party, span: "The global economy experienced and continues to experience significant supply chain disruptions.", expected: reject, failure_class: third_party_attribution}
+  - {id: hp-definition, company: HP, event_type: cost_reduction, subject_type: target_company, span: "Structural cost savings represent gross reductions in costs driven by operational efficiency.", expected: reject, failure_class: accounting_definition}
+  - {id: hp-fx-growth, company: HP, event_type: growth_language, subject_type: target_company, span: "Our net revenue growth has been impacted by fluctuations in foreign currency exchange rates.", expected: reject, failure_class: polarity}
+  - {id: hp-expense-growth, company: HP, event_type: growth_language, subject_type: target_company, span: "Operating expenses as a percentage of revenue increased primarily driven by variable compensation.", expected: reject, failure_class: wrong_metric_polarity}
+  - {id: hp-heading, company: HP, event_type: cost_reduction, subject_type: target_company, span: "(5) Cost Savings Plans.", expected: reject, failure_class: heading_only}
+  - {id: boeing-pricing, company: Boeing, event_type: pricing_pressure, subject_type: target_company, span: "This market environment has resulted in intense pressures on pricing, and we expect these pressures to continue.", expected: accept, failure_class: taxonomy_gap}
+  - {id: boeing-backlog, company: Boeing, event_type: demand_weakness, subject_type: target_segment, span: "BGS total backlog decreased by 6% from $20,496 million at December 31, 2021.", expected: accept, failure_class: numeric_direction}
+

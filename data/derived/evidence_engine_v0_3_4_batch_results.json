@@ -1,0 +1,140 @@
+{
+  "benchmark": {
+    "accept": 164,
+    "ambiguous": 25,
+    "cases": 230,
+    "decision_accuracy": 0.4782608695652174,
+    "reject": 41,
+    "supported_retained": 72,
+    "supported_retention": 0.9,
+    "supported_total": 80
+  },
+  "brand_new_unseen": {
+    "accepted": 181,
+    "accepted_inspected": 30,
+    "ambiguous": 1,
+    "ambiguous_labels_accepted": 0,
+    "attribution_errors": 0,
+    "cache_hits": 0,
+    "candidates": 459,
+    "deterministic_rejects": 158,
+    "documents": 9,
+    "false_positive_total": 1,
+    "false_positives": 1,
+    "inspected": 30,
+    "precision": 0.9666666666666667,
+    "provenance_completeness": 1.0,
+    "rejected": 4,
+    "semantic_calls": 0,
+    "severe_false_positives": 0,
+    "supported": 29,
+    "supported_retained": 29,
+    "supported_retention": 1.0,
+    "supported_total": 29
+  },
+  "cross_review_pack_created": false,
+  "execution": "batch-api-execution-v0.3.4",
+  "extractor_frozen": false,
+  "gate": {
+    "passed": false,
+    "technical_status": "NOT TECHNICALLY READY"
+  },
+  "gm_honeywell_hp": {
+    "accepted": 121,
+    "accepted_inspected": 27,
+    "ambiguous": 4,
+    "ambiguous_labels_accepted": 5,
+    "attribution_errors": 1,
+    "cache_hits": 0,
+    "candidates": 363,
+    "deterministic_rejects": 141,
+    "documents": 9,
+    "false_positive_total": 11,
+    "false_positives": 9,
+    "inspected": 30,
+    "precision": 0.5909090909090909,
+    "provenance_completeness": 1.0,
+    "rejected": 4,
+    "semantic_calls": 0,
+    "severe_false_positives": 1,
+    "supported": 13,
+    "supported_retained": 13,
+    "supported_retention": 1.0,
+    "supported_total": 13
+  },
+  "live_costs": {
+    "cost_per_candidate_usd": 0.0008772870437956205,
+    "input_tokens": 717125,
+    "output_tokens": 511301,
+    "reasoning_tokens": 402112,
+    "total_cost_usd": 0.600941625,
+    "total_tokens": 1228426
+  },
+  "model": "gpt-5-mini",
+  "model2_trained": false,
+  "official_model2_readiness": "NOT READY",
+  "outcomes_accessed": false,
+  "previous_unseen": {
+    "accepted": 45,
+    "accepted_inspected": 15,
+    "ambiguous": 0,
+    "ambiguous_labels_accepted": 0,
+    "attribution_errors": 0,
+    "cache_hits": 0,
+    "candidates": 169,
+    "deterministic_rejects": 97,
+    "documents": 3,
+    "false_positive_total": 12,
+    "false_positives": 0,
+    "inspected": 30,
+    "precision": 1.0,
+    "provenance_completeness": 1.0,
+    "rejected": 1,
+    "semantic_calls": 0,
+    "severe_false_positives": 0,
+    "supported": 15,
+    "supported_retained": 15,
+    "supported_retention": 0.8823529411764706,
+    "supported_total": 17
+  },
+  "prompt_version": "semantic-event-v0.3.4",
+  "protected_artifacts": 12,
+  "provider": "openai",
+  "provider_results": {
+    "failed": 0,
+    "incomplete_max_output_tokens": 0,
+    "provider_request_failures": 0,
+    "schema_or_semantic_validation_failures": 0,
+    "successful": 685,
+    "total": 685
+  },
+  "schema_version": "semantic-schema-v0.3.4",
+  "six_document_ai_diagnostic": {
+    "classifications": {
+      "AI_REVIEW_MISSING": {
+        "count": 82,
+        "rate": 0.845360824742268,
+        "total": 97
+      },
+      "AMBIGUOUS": {
+        "count": 1,
+        "rate": 0.010309278350515464,
+        "total": 97
+      },
+      "EVENT_AGREEMENT": {
+        "count": 12,
+        "rate": 0.12371134020618557,
+        "total": 97
+      },
+      "PIOTW_MISSED_EVENT": {
+        "count": 2,
+        "rate": 0.020618556701030927,
+        "total": 97
+      }
+    },
+    "duplicates": 0,
+    "likely_false_positives": 0,
+    "missed_ai_events": 2
+  },
+  "version": "0.3.4"
+}

@@ -1,0 +1,17 @@
+version: 0.3.2
+frozen_before_final_rerun: true
+methodological_status: development_qa_only
+formal_gold: false
+admissible_for_model2_gate: false
+targets:
+  five_document_obvious_false_positive_rate_max: 0.10
+  five_document_severe_false_positives_max: 0
+  duplicate_events_max: 1
+  v0_3_1_missed_ai_events_max: 0
+  v0_3_1_likely_false_positives_max: 0
+  v0_3_1_severe_event_disagreements_max: 0
+  supported_events_must_be_retained: true
+technical_readiness_rule: >-
+  Regression targets pass, the five-document obvious false-positive rate is below
+  10%, the unseen sample contains no severe false positives, and the blinded pack
+  remains intact. This is not Model 2 readiness.
