@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "piotw-evidence-zone-v0.3.7",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["zone_id", "company_id", "source_id", "source_hash", "publication_date", "text", "start", "end", "selection_reasons"],
+  "properties": {
+    "zone_id": {"type": "string"}, "company_id": {"type": "string"}, "source_id": {"type": "string"},
+    "source_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "publication_date": {"type": "string", "format": "date"},
+    "text": {"type": "string", "minLength": 1}, "start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 1},
+    "selection_reasons": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+  }
+}

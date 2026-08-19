@@ -1,0 +1,24 @@
+{
+  "admissible_for_model2_gate": false,
+  "formal_gold": false,
+  "formal_human_gold_unchanged": true,
+  "namespace": "ai_finops_first_pass",
+  "reviewer_identity": "OpenAI GPT-5.6 Sol",
+  "reviewer_type": "AI_ASSISTED_FINOPS_FIRST_PASS",
+  "source_drive_folder": "https://drive.google.com/drive/folders/1_uv_LDU5E1AndGuBBOWLb5piP5MVmfnQ",
+  "source_files": {
+    "piotw_ai_finops_first_pass_events.csv": {
+      "bytes": 6417,
+      "sha256": "d65854d3ae2c17391c249e206140c4e8c7df39bb3be538558695134b9b55cdff"
+    },
+    "piotw_ai_finops_first_pass_numerical.csv": {
+      "bytes": 6966,
+      "sha256": "7d08d059680e9dab22d7499cf846a7036251141c5b47e3dfc2a55e8f56507ca7"
+    },
+    "piotw_ai_finops_first_pass_readme.md": {
+      "bytes": 1211,
+      "sha256": "ad7aac9934b262e2beb9294a56695e260a1657789d0899accbf50fe3e4f1d92f"
+    }
+  },
+  "status": "exploratory_diagnostic"
+}

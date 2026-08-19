@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+**/node_modules/
+/.venv-modern/
+/.pnpm-store/
+/.codex-docs/
 /.pnp
 .pnp.*
 .yarn/*
@@ -15,6 +19,7 @@
 
 # next.js
 /.next/
+**/.next/
 /.vinext/
 /out/
 
@@ -52,3 +57,25 @@ next-env.d.ts
 /data/raw/pages/
 /data/raw/restructuring_v2/
 /data/parsed/restructuring_v2/
+/data/evidence_engine_v0_2/raw/
+/output/pdf/evidence_engine_v0_3/
+/tmp/
+
+# Local evidence stores and externally supplied review/source packs
+/data/collection/
+/data/raw/
+/data/parsed/
+/output/
+/reviewer_pack_human_ambiguity_v1/
+/reviewer_pack_v0_3/
+/reviewer_pack_v0_3_1/
+/reviewer_pack_v0_3_7_independent/
+/reviewer_pack_v0_3_7_independent_blinded/
+
+# Provider request/response caches and call logs may contain prompts or account metadata
+/data/derived/*openai_cache*.json
+/data/derived/*semantic_calls*.jsonl
+/data/derived/evidence_engine_v0_3_4_batch/
+/data/derived/evidence_engine_v0_3_5_fresh_gate/
+/data/derived/evidence_engine_v0_3_6_fresh_gate/
+/data/derived/evidence_engine_v0_3_6_source_first_review/

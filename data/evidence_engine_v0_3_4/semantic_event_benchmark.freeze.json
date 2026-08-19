@@ -1,0 +1,8 @@
+{
+  "admissible_for_model2_gate": false,
+  "formal_gold": false,
+  "methodological_status": "development_only",
+  "rows": 230,
+  "sha256": "74d2bccbc4624af5e8db6387c85b0f1c243aa4a68b36aa4392963943d61f65d6",
+  "version": "0.3.4"
+}

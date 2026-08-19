@@ -1,0 +1,78 @@
+{
+  "methodology_version": "0.1.0",
+  "status": "PROVISIONAL / NOT EMPIRICALLY VALIDATED",
+  "dimensions": [
+    {
+      "dimension_id": "cost_efficiency",
+      "name": "Cost & Efficiency",
+      "purpose": "Assess observable control of the cost base and conversion of inputs into output.",
+      "operational_phenomena": ["cost inflation and recovery", "productivity", "margin pressure", "cost programmes", "operating leverage"],
+      "positive_evidence_examples": ["quantified productivity improvement", "delivered and evidenced cost savings", "improved efficiency without service deterioration"],
+      "negative_evidence_examples": ["persistent margin pressure", "unplanned restructuring cost", "efficiency deterioration"],
+      "ambiguous_evidence_examples": ["a cost-reduction programme before benefits are evidenced", "higher costs caused by deliberate growth investment"],
+      "candidate_financial_linkages": ["gross_margin", "sga", "ebitda_margin", "exceptional_charges"],
+      "candidate_predictive_outcomes": ["margin_deterioration", "major_cost_programme", "profit_warning", "restructuring_announcement"],
+      "status": "candidate"
+    },
+    {
+      "dimension_id": "capacity_footprint",
+      "name": "Capacity & Footprint",
+      "purpose": "Assess alignment of physical capacity and operating footprint with demand.",
+      "operational_phenomena": ["utilisation", "site openings and closures", "footprint consolidation", "fixed-cost absorption", "capacity constraints"],
+      "positive_evidence_examples": ["sustained utilisation improvement", "evidenced removal of bottlenecks", "well-supported footprint optimisation"],
+      "negative_evidence_examples": ["underutilisation", "unplanned site closure", "persistent excess capacity"],
+      "ambiguous_evidence_examples": ["capacity expansion", "site consolidation with both savings and disruption risk"],
+      "candidate_financial_linkages": ["fixed_cost_absorption", "capex", "depreciation", "roce", "impairments"],
+      "candidate_predictive_outcomes": ["site_closure", "impairment", "capacity_expansion", "disposal"],
+      "status": "candidate"
+    },
+    {
+      "dimension_id": "people_organisation",
+      "name": "People & Organisation",
+      "purpose": "Assess organisational capacity, workforce stability and execution continuity.",
+      "operational_phenomena": ["workforce change", "leadership continuity", "organisation redesign", "skills constraints", "labour productivity"],
+      "positive_evidence_examples": ["evidenced workforce productivity improvement", "resolved recruitment constraints", "stable execution leadership"],
+      "negative_evidence_examples": ["material headcount reduction under pressure", "leadership churn", "persistent recruitment constraint"],
+      "ambiguous_evidence_examples": ["planned organisational restructuring", "headcount reduction alongside automation"],
+      "candidate_financial_linkages": ["sga", "employee_costs", "productivity", "restructuring_charges"],
+      "candidate_predictive_outcomes": ["material_headcount_reduction", "executive_departure", "restructuring_announcement", "margin_deterioration"],
+      "status": "candidate"
+    },
+    {
+      "dimension_id": "supply_chain_delivery",
+      "name": "Supply Chain & Delivery",
+      "purpose": "Assess reliability and resilience of sourcing, inventory, logistics and customer delivery.",
+      "operational_phenomena": ["shortages", "supplier quality", "lead times", "inventory pressure", "logistics disruption", "sourcing change"],
+      "positive_evidence_examples": ["normalised lead times", "lower inventory with maintained service", "resolved supplier quality issue"],
+      "negative_evidence_examples": ["persistent shortages", "delivery disruption", "supplier quality failures"],
+      "ambiguous_evidence_examples": ["inventory build for resilience", "supplier diversification with near-term transition costs"],
+      "candidate_financial_linkages": ["inventory", "working_capital", "cogs", "cash_conversion", "revenue_recognition"],
+      "candidate_predictive_outcomes": ["profit_warning", "margin_deterioration", "working_capital_deterioration", "delivery_failure"],
+      "status": "candidate"
+    },
+    {
+      "dimension_id": "technology_execution",
+      "name": "Technology & Execution",
+      "purpose": "Assess delivery of operational transformation and enabling technology change.",
+      "operational_phenomena": ["transformation delivery", "ERP change", "automation", "implementation delay", "digital execution"],
+      "positive_evidence_examples": ["on-time implementation with evidenced benefits", "automation productivity gain", "completed transformation milestone"],
+      "negative_evidence_examples": ["implementation delay", "digital execution failure", "cost overrun or operational disruption"],
+      "ambiguous_evidence_examples": ["launch of a transformation programme", "ERP replacement before delivery evidence"],
+      "candidate_financial_linkages": ["capex", "opex", "implementation_costs", "productivity", "exceptional_charges"],
+      "candidate_predictive_outcomes": ["programme_delay", "impairment", "major_cost_programme", "margin_deterioration"],
+      "status": "candidate"
+    },
+    {
+      "dimension_id": "growth_investment",
+      "name": "Growth & Investment",
+      "purpose": "Assess whether growth investment is being deployed and converted into productive operating capability.",
+      "operational_phenomena": ["growth capex", "capacity investment", "acquisition integration", "investment delay", "investment productivity"],
+      "positive_evidence_examples": ["investment delivering quantified output or returns", "successful integration milestones", "productive growth capacity"],
+      "negative_evidence_examples": ["investment delay", "integration failure", "poor investment productivity"],
+      "ambiguous_evidence_examples": ["growth capex", "acquisition", "capacity expansion before demand is evidenced"],
+      "candidate_financial_linkages": ["capex", "revenue_growth", "roic", "depreciation", "goodwill"],
+      "candidate_predictive_outcomes": ["capacity_expansion", "impairment", "disposal", "revenue_growth", "integration_charge"],
+      "status": "candidate"
+    }
+  ]
+}

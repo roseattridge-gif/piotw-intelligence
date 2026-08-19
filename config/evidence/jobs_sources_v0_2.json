@@ -1,0 +1,14 @@
+[
+  {"company_id":"cloudflare","company_name":"Cloudflare","provider":"greenhouse","identifier":"cloudflare","careers_url":"https://boards.greenhouse.io/cloudflare","access_mode":"public_api","enabled":true},
+  {"company_id":"datadog","company_name":"Datadog","provider":"greenhouse","identifier":"datadog","careers_url":"https://boards.greenhouse.io/datadog","access_mode":"public_api","enabled":true},
+  {"company_id":"samsara","company_name":"Samsara","provider":"greenhouse","identifier":"samsara","careers_url":"https://boards.greenhouse.io/samsara","access_mode":"public_api","enabled":true},
+  {"company_id":"mongodb","company_name":"MongoDB","provider":"greenhouse","identifier":"mongodb","careers_url":"https://boards.greenhouse.io/mongodb","access_mode":"public_api","enabled":true},
+  {"company_id":"duolingo","company_name":"Duolingo","provider":"greenhouse","identifier":"duolingo","careers_url":"https://boards.greenhouse.io/duolingo","access_mode":"public_api","enabled":true},
+  {"company_id":"robinhood","company_name":"Robinhood","provider":"greenhouse","identifier":"robinhood","careers_url":"https://boards.greenhouse.io/robinhood","access_mode":"public_api","enabled":true},
+  {"company_id":"affirm","company_name":"Affirm","provider":"greenhouse","identifier":"affirm","careers_url":"https://boards.greenhouse.io/affirm","access_mode":"public_api","enabled":true},
+  {"company_id":"toast","company_name":"Toast","provider":"greenhouse","identifier":"toast","careers_url":"https://boards.greenhouse.io/toast","access_mode":"public_api","enabled":true},
+  {"company_id":"palantir","company_name":"Palantir","provider":"lever","identifier":"palantir","careers_url":"https://jobs.lever.co/palantir","access_mode":"public_api","enabled":true},
+  {"company_id":"anduril","company_name":"Anduril","provider":"lever","identifier":"anduril","careers_url":"https://jobs.lever.co/anduril","access_mode":"public_api","enabled":true},
+  {"company_id":"notion","company_name":"Notion","provider":"ashby","identifier":"notion","careers_url":"https://jobs.ashbyhq.com/notion","access_mode":"public_api","enabled":true},
+  {"company_id":"linear","company_name":"Linear","provider":"ashby","identifier":"linear","careers_url":"https://jobs.ashbyhq.com/linear","access_mode":"public_api","enabled":true}
+]

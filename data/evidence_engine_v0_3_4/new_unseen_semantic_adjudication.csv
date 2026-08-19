@@ -1,0 +1,31 @@
+classification,severe,failure_class,notes
+supported,false,,Direct segment demand weakness.
+supported,false,,Direct segment growth condition.
+false_positive,false,conditional_future_growth,Revenue growth returning is conditional future wording rather than a factual current growth event.
+supported,false,,Direct planned cost-reduction initiative.
+supported,false,,Announced restructuring actions.
+supported,false,,Direct capacity-expansion programme.
+supported,false,,Actual component shortages affecting the company and customers.
+supported,false,,Direct new-site evidence.
+supported,false,,Direct demand decline.
+supported,false,,Direct demand decline.
+supported,false,,Ongoing company transformation.
+supported,false,,Direct geographic sales growth.
+supported,false,,Direct geographic sales growth.
+supported,false,,Direct product-market sales growth.
+supported,false,,Direct restructuring effect.
+supported,false,,Direct product-market sales growth.
+supported,false,,Direct product-market sales growth.
+supported,false,,Direct restructuring effect.
+supported,false,,Direct product-market sales growth.
+supported,false,,Direct supply-chain constraint effect.
+supported,false,,Direct cloud revenue growth.
+supported,false,,Direct product revenue growth.
+supported,false,,Direct product and subscriber growth.
+supported,false,,Direct LinkedIn revenue growth.
+supported,false,,Direct Dynamics revenue growth.
+supported,false,,Direct server and cloud growth.
+supported,false,,Direct Windows Commercial growth.
+supported,false,,Direct workforce reduction.
+supported,false,,Direct company revenue growth.
+supported,false,,Direct segment revenue growth.

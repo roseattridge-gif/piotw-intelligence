@@ -1,0 +1,87 @@
+{
+  "version": "evidence-engine-v0.3.7-development",
+  "status": "DEVELOPMENT_CONTRACT_REPLAY_NOT_SCIENTIFIC_VALIDATION",
+  "review_type": "AI_ASSISTED_FINOPS_REVIEW",
+  "formal_independent_human_gold": false,
+  "case_count": 36,
+  "review_distribution": {
+    "YES": 33,
+    "AMBIGUOUS": 2,
+    "NO": 1
+  },
+  "factual_yes_agreement": {
+    "correct": 33,
+    "total": 33,
+    "rate": 1.0
+  },
+  "no_agreement": {
+    "correct": 1,
+    "total": 1,
+    "rate": 1.0
+  },
+  "ambiguity_agreement": {
+    "correct": 2,
+    "total": 2,
+    "rate": 1.0
+  },
+  "subject_agreement": {
+    "correct": 33,
+    "total": 33,
+    "rate": 1.0
+  },
+  "action_state_agreement": {
+    "correct": 33,
+    "total": 33,
+    "rate": 1.0
+  },
+  "timing_agreement": {
+    "correct": 36,
+    "total": 36,
+    "rate": 1.0
+  },
+  "entity_relation_agreement": {
+    "correct": 36,
+    "total": 36,
+    "rate": 1.0
+  },
+  "exact_provenance_validity": {
+    "correct": 36,
+    "total": 36,
+    "rate": 1.0
+  },
+  "recovered_factual_observations_rejected_or_ambiguous_by_v036": {
+    "count": 24,
+    "case_ids": [
+      "HRV1-032",
+      "HRV1-013",
+      "HRV1-002",
+      "HRV1-022",
+      "HRV1-034",
+      "HRV1-021",
+      "HRV1-019",
+      "HRV1-005",
+      "HRV1-008",
+      "HRV1-012",
+      "HRV1-016",
+      "HRV1-014",
+      "HRV1-011",
+      "HRV1-015",
+      "HRV1-009",
+      "HRV1-026",
+      "HRV1-003",
+      "HRV1-029",
+      "HRV1-001",
+      "HRV1-010",
+      "HRV1-027",
+      "HRV1-006",
+      "HRV1-033",
+      "HRV1-031"
+    ]
+  },
+  "source_review_sha256": "5ddd2382f07256dde2bf93a4cb5c494e82004a370ec61a766e5ccc35b27ec15f",
+  "caveat": "Agreement reflects replay of the development review through the new contract. It proves integration and validation behaviour, not independent extraction accuracy.",
+  "scientific_gate_run": false,
+  "outcomes_accessed": false,
+  "model2_trained": false,
+  "family_mapper_built": false
+}

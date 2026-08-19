@@ -1,0 +1,32 @@
+{
+  "candidate_pool": 478,
+  "candidate_pool_sha256": "cf9d0aae74edc8268f715a572da493291cb2722454f8a6c0eb1991926d083507",
+  "companies": 7,
+  "contamination": {
+    "candidate_rows": 14,
+    "gate_execution_authorized": false,
+    "overlaps": [],
+    "status": "PASS"
+  },
+  "documents": 14,
+  "freeze_version": "evidence-engine-v0.3.6-fresh-source-pool-v1",
+  "manifest_sha256": "c7e3b760f7b13a3fcc9755de64c92f363243bb8e42d311dad418ece5ea374535",
+  "outcomes_accessed": false,
+  "semantic_v036_executed": false,
+  "source_hashes": {
+    "ee036-fresh-01-jnj": "082f4e489d4c19f585cae4c8b62acea92bd6727576f7b0e450b9dfe8ecd42694",
+    "ee036-fresh-02-jnj": "614b18cdfe1e00232c3d7914c5f266fdc16545b113c71c4034bdc0f07a50fa1f",
+    "ee036-fresh-03-tsla": "90d5d2bc4057df41c645f85dcebe575af9b0953a6a1902d189297bec17fd440a",
+    "ee036-fresh-04-tsla": "8f562b36769e31c93590b7e97d1df69640dee8d7708f330785cd6f40b14c6101",
+    "ee036-fresh-05-amzn": "beb1bfc28558135e76882db0cf36ba72a1ab44e2144fe37534f4da1e120ddb57",
+    "ee036-fresh-06-amzn": "d07b8a88fa442c2c55bd65b3f1d336ca16e7d1e9fda831e1063d24adea60e4eb",
+    "ee036-fresh-07-pfe": "175e07c21ee258eddd9952e443d34df2a297d0c38e2d1312dff0a64a31c401ab",
+    "ee036-fresh-08-pfe": "e7eedee8103786bd6d60b555741a427c8242a972bd5d1458d4e4ca25d02ce141",
+    "ee036-fresh-09-tsn": "0cd48e98cf6747eb56060a9e76d9650ee3bb541569e8d5b89e7e3d8b1ff94694",
+    "ee036-fresh-10-tsn": "f6801e77576f40b254c9d2dcc320133d5fd8504f82a96253933faa4ef9570257",
+    "ee036-fresh-11-tgt": "20bc4552dcb1df7c0bbd837f721de931e2ab4cdd2cb2e3c147f335d41eb68a52",
+    "ee036-fresh-12-tgt": "7222d08799f8f92e35e9fc8e635df1fe89d3133b53a3b874fda90dd5fcef9bab",
+    "ee036-fresh-13-unp": "36169a354ee32c8c314633b2c55de9c3dbf4db24da61db996457f73b0a8e40c0",
+    "ee036-fresh-14-unp": "e2b07afc42ae959169c469236c71c5fed985ba3b945f2e1200194850870aca29"
+  }
+}

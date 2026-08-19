@@ -1,0 +1,25 @@
+version: 0.3.1
+frozen_before_implementation: true
+methodological_status: development_diagnostic_only
+formal_gold: false
+admissible_for_model2_gate: false
+baseline:
+  piotw_missed_ai_events: 14
+  likely_false_positives: 21
+  duplicate_events: 2
+  severe_event_disagreements: 12
+  severe_numerical_disagreements: 2
+  semantic_numerical_agreement: 11
+targets:
+  piotw_missed_ai_events_max: 5
+  likely_false_positives_max: 7
+  duplicate_events_max: 1
+  severe_event_disagreements_max: 5
+  severe_numerical_disagreements_max: 0
+  semantic_numerical_agreement_min: 13
+guardrails:
+  no_existing_semantic_numerical_regression: true
+  provenance_required_for_every_accepted_event: true
+  ambiguous_events_do_not_become_features: true
+  no_outcomes: true
+  no_model2_training: true

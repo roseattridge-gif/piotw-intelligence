@@ -1,0 +1,31 @@
+row_index,classification,severe,failure_class,notes
+1,false_positive,false,third_party_context,Labour shortage describes other employers rather than the target company.
+2,false_positive,false,generic_risk,Automotive industry sensitivity list does not establish a current company constraint.
+3,supported,false,,Current vendor hardship is explicitly affecting a company steel mill.
+4,supported,false,,Company explicitly reports experienced supply-chain disruption.
+5,false_positive,false,generic_risk,Commodity availability risk wording does not establish a current event.
+6,false_positive,false,accounting_or_definition,Facility-closure cost definition does not report a closure event.
+7,false_positive,false,wrong_context,Database redundancy is technical resilience not workforce redundancy.
+8,supported,false,,Actual market decrease is stated.
+9,supported,false,,Actual lower demand contributing to margin decrease is stated.
+10,false_positive,false,malformed_table_fragment,Page/table fragment does not directly support labour constraint.
+11,supported,false,,Company explicitly reports continuing supply-chain disruption.
+12,supported,false,,Industry constraints are explicitly said to affect the company.
+13,supported,false,,Company explicitly reports current shortages and price increases.
+14,supported,false,,Company and its counterparties are explicitly affected.
+15,false_positive,false,third_party_context,R&D cost reductions are benefits for customers not company intervention.
+16,supported,false,,Company explicitly reports experienced supply-chain disruption.
+17,false_positive,false,hypothetical_risk,Weak-demand sentence is generic conditional risk.
+18,false_positive,false,third_party_context,Cost reduction explains customer outsourcing decision.
+19,false_positive,false,hypothetical_risk,Energy-transition sentence describes possible future lower demand.
+20,false_positive,false,generic_risk,Product strategy discussion does not establish current demand weakness.
+21,false_positive,false,third_party_context,New facility is planned by Mura rather than Dow.
+22,supported,false,,Explicit planned company capacity investments.
+23,supported,false,,Explicit company-announced capacity expansion.
+24,supported,false,,Board-approved current restructuring programme.
+25,supported,false,,Programme explicitly includes workforce and spending reductions.
+26,supported,false,,Actual sales increase.
+27,supported,false,,Actual sales increase.
+28,ambiguous,false,accounting_cross_reference,Cross-reference proves accounting disclosure but not operational event by itself.
+29,supported,false,,Actual lower-demand condition.
+30,supported,false,,Company says it is implementing current cost interventions.

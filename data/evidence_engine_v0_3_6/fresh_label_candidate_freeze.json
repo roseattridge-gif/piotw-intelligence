@@ -1,0 +1,58 @@
+{
+  "admissible_for_model2_gate": false,
+  "candidate_count": 210,
+  "candidate_sha256": "3ceb6cadf9a2f5245076d70fbdbdf26362f2768786c3808a678dd8b10d8fec42",
+  "family_contract_sha256": "b67be4487a2ea3f36f574bb5f6575e2845dc739880b1039d1aa088e056cc2085",
+  "family_counts": {
+    "delivery_capacity_sites": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "demand_growth": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "leadership_change_execution": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "quality_regulatory": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "restructuring_cost_action": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "supply_chain_resilience": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    },
+    "workforce": {
+      "ambiguous": 6,
+      "supported": 12,
+      "unsupported": 12
+    }
+  },
+  "formal_independent_human_gold": false,
+  "freeze_version": "evidence-engine-v0.3.6-source-first-label-candidate-v1",
+  "label_sha256": "86b87296102cf8b035a14d6726c5a1755f835cbacf90e2d928a26ff7af29996a",
+  "outcomes_accessed": false,
+  "review_batch_id": "batch_6a8457ed8e608190bcb7db98f657d8a0",
+  "review_completed": 451,
+  "review_incomplete": 27,
+  "review_raw_sha256": "c9056d7e16381680076737c83b2bcd3719b4a8c95a4e8c595624afb03bf71f37",
+  "reviewer_type": "AI_ASSISTED_FINOPS_REVIEW",
+  "semantic_v036_executed": false,
+  "source_pool_freeze_sha256": "f8e9383ac5081d8cafdcff65d58a5afecd13c9f8649bf214ec11adedd6c08db6",
+  "usage": {
+    "input_tokens": 314519,
+    "output_tokens": 494748
+  }
+}

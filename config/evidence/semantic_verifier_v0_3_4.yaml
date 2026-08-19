@@ -1,0 +1,18 @@
+version: 0.3.4
+prompt_version: semantic-event-v0.3.4
+default_provider: openai
+default_model: gpt-5-mini
+temperature: null  # omitted from GPT-5 request; deterministic structured classification prompt
+max_output_tokens: 500
+context_window:
+  preceding_sentences: 1
+  following_sentences: 1
+  max_characters: 2400
+cache_key_fields:
+  - candidate_span_hash
+  - context_hash
+  - taxonomy_version
+  - prompt_version
+  - model_version
+fail_closed: true
+model_backed_unseen_evaluation_required_for_freeze: true

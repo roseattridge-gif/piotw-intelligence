@@ -1,0 +1,163 @@
+{
+  "schema_version": "piotw-company-intelligence-v0.1",
+  "company": {
+    "company_id": "cloudflare",
+    "display_name": "Cloudflare",
+    "legal_name": null,
+    "ticker": null,
+    "geography": null,
+    "activity": null
+  },
+  "as_of": "2026-08-19T00:00:00Z",
+  "generated_at": "2026-08-19T00:00:00Z",
+  "methodology_version": "unknown-company-orchestrator-v0.2-condition-qualification",
+  "scientific_gate_run": false,
+  "coverage": {
+    "status": "LOW",
+    "source_families_present": [
+      "careers_ats"
+    ],
+    "source_families_missing": [
+      "contracts_procurement",
+      "issuer_disclosures",
+      "regulatory_operating_notices"
+    ],
+    "evidence_count": 2,
+    "provenance_complete": true,
+    "caveats": [
+      "No approved supplier-to-company entity match exists for this run.",
+      "No company-agnostic approved issuer collector is wired to this orchestrator.",
+      "Feasibility is documented, but no approved production collector is wired."
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev-80388569f44c4823ce934a51",
+      "source_id": "80388569f44c4823ce934a51",
+      "title": "Careers snapshot — 2026-08-15T17:01:34.918831+00:00",
+      "source_family": "careers_ats",
+      "source_url": "https://boards.greenhouse.io/cloudflare",
+      "source_hash": "58a49813d14a2f87ed4ab6c06f813ccb4d9ef5e0b4720a1976255a3351d91292",
+      "publication_date": "2026-08-15",
+      "information_available_at": "2026-08-15T17:01:34.918831Z",
+      "entity_scope": "cloudflare",
+      "evidence_span": "Approved careers collector observed 305 open postings for Cloudflare.",
+      "collector_or_parser_version": "careers-longitudinal-v1"
+    },
+    {
+      "evidence_id": "ev-4bdf0bc59fc462b70a06a2d7",
+      "source_id": "4bdf0bc59fc462b70a06a2d7",
+      "title": "Careers snapshot — 2026-08-17T21:23:38.215420+00:00",
+      "source_family": "careers_ats",
+      "source_url": "https://boards.greenhouse.io/cloudflare",
+      "source_hash": "7965f9e124259afc61cf5a164bb121d4987ceaaba2b817e9678abc031d58aa4c",
+      "publication_date": "2026-08-17",
+      "information_available_at": "2026-08-17T21:23:38.215420Z",
+      "entity_scope": "cloudflare",
+      "evidence_span": "Approved careers collector observed 297 open postings for Cloudflare.",
+      "collector_or_parser_version": "careers-longitudinal-v1"
+    }
+  ],
+  "condition_qualifications": [
+    {
+      "qualification_id": "qualification-61963f78d99509be",
+      "candidate_type": "hiring_contraction",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "dimension": "Workforce & Capability",
+      "observation_ids": [
+        "obs-80388569f44c4823ce934a51",
+        "obs-4bdf0bc59fc462b70a06a2d7"
+      ],
+      "evidence_ids": [
+        "ev-80388569f44c4823ce934a51",
+        "ev-4bdf0bc59fc462b70a06a2d7"
+      ],
+      "what_observed": "Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%).",
+      "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published open-role inventory contraction.",
+      "evidence_strength": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=FAIL; denominator=PASS; magnitude=FAIL; persistence=FAIL; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "failed_tests": [
+        "history_depth",
+        "magnitude",
+        "persistence"
+      ],
+      "missing_information": [
+        "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval.",
+        "The development policy requires a minimum relative movement; this is not a scientifically validated threshold.",
+        "A one-period movement is not a persistent operational condition.",
+        "The generic peer engine is not built and peer-relative materiality is not inferred.",
+        "No independent source-family corroboration is available; same-source observations are not treated as independent."
+      ],
+      "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+      "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+      "scientifically_validated": false
+    }
+  ],
+  "conditions": [],
+  "comparisons": [],
+  "predictions": [
+    {
+      "prediction_id": "prediction-unknown-company",
+      "status": "NOT_BUILT",
+      "target_event": null,
+      "horizon": null,
+      "probability": null,
+      "confidence": "NOT_ASSESSED",
+      "model_version": null,
+      "historical_pattern": null,
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No validated operational predictive-pattern engine is available."
+    }
+  ],
+  "interventions": [
+    {
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "title": null,
+      "mechanism": null,
+      "investigation_steps": [],
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "evidence_strength": "NOT_ASSESSED",
+      "falsifiers": [],
+      "caveats": [],
+      "withheld_reason": "A factual vacancy count alone does not support a driver-specific intervention."
+    }
+  ],
+  "financial_impacts": [
+    {
+      "impact_id": "impact-unknown-company",
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "mechanism": null,
+      "measure": null,
+      "low": null,
+      "base": null,
+      "high": null,
+      "currency": null,
+      "unit": null,
+      "period": null,
+      "incremental": null,
+      "assumptions": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No evidence-backed intervention or financial mechanism is available."
+    }
+  ],
+  "capabilities": {
+    "detect": "INSUFFICIENT_EVIDENCE",
+    "compare": "INSUFFICIENT_EVIDENCE",
+    "predict": "NOT_BUILT",
+    "prescribe": "WITHHELD",
+    "quantify": "WITHHELD"
+  },
+  "missing_capabilities": [
+    "Scientifically validated operational-condition qualification policy",
+    "Coverage-normalised peer and historical benchmark",
+    "Validated predictive-pattern engine",
+    "Driver-specific intervention engine",
+    "Evidence-backed financial mechanism"
+  ],
+  "overall_confidence": "LOW"
+}

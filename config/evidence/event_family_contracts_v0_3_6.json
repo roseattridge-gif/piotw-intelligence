@@ -1,0 +1,16 @@
+{
+  "version": "0.3.6-development",
+  "status": "DEVELOPMENT_CONTAMINATED_NOT_VALIDATION",
+  "shared_envelope": ["immutable_source_span", "target_attribution", "negation", "actuality", "timing", "provenance"],
+  "families": {
+    "restructuring_cost_action": {"events": ["restructuring", "cost_reduction", "efficiency_programme", "simplification"], "identity": "issuer intervention or indirect cost-base action", "polarity": ["action", "not_cost_increase"], "accepted_time": ["current", "ongoing", "planned"], "third_party": "reject"},
+    "workforce": {"events": ["redundancy", "workforce_reduction", "labour_constraint", "hiring", "skills_investment"], "identity": "issuer workforce state or action", "polarity": ["expansion", "contraction", "constraint"], "accepted_time": ["current", "ongoing", "planned"], "third_party": "reject"},
+    "delivery_capacity_sites": {"events": ["site_closure", "footprint_reduction", "capacity_reduction", "capacity_mismatch", "capacity_expansion", "new_facility", "operational_disruption"], "identity": "physical delivery, site or capacity change", "polarity": ["expansion", "reduction", "disruption"], "accepted_time": ["current", "ongoing", "planned"], "third_party": "reject"},
+    "demand_growth": {"events": ["growth_language", "demand_growth", "demand_weakness", "customer_weakness", "order_book_strength", "recovery_language"], "identity": "observed demand-side measure and direction", "polarity": ["growth", "decline"], "accepted_time": ["current", "ongoing"], "third_party": "reject_unless_direct_target_effect"},
+    "supply_chain_resilience": {"events": ["supply_chain_constraint", "inflation_pressure", "destocking", "supplier_diversification", "procurement_intervention", "inventory_buffer", "supplier_insolvency", "sourcing_concentration", "logistics_disruption"], "identity": "actual supply condition or resilience action affecting issuer operations", "polarity": ["constraint", "recovery", "resilience_action"], "accepted_time": ["current", "ongoing"], "third_party": "reject_unless_direct_target_effect"},
+    "quality_regulatory": {"events": ["quality_failure", "recall", "regulatory_intervention", "safety_issue", "compliance_breach", "warranty_issue", "remediation_programme", "regulatory_investigation"], "identity": "actual quality, safety, warranty, remediation, recall or regulatory event", "polarity": ["adverse", "remediation"], "accepted_time": ["current", "ongoing", "planned"], "third_party": "reject"},
+    "leadership_change_execution": {"events": ["transformation", "leadership_change"], "identity": "issuer change programme or leadership transition", "polarity": ["change"], "accepted_time": ["current", "ongoing", "planned"], "third_party": "reject"}
+  },
+  "unknown_family_behavior": "AMBIGUOUS_FAIL_CLOSED",
+  "fresh_validation_performed": false
+}

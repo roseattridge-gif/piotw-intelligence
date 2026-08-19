@@ -1,0 +1,9 @@
+failure_id,category,severity,description,status
+F-001,gold_independence,high,SEC iXBRL facts are source-grounded but not fully manually transcribed from visual tables,open
+F-002,review_timing,high,Median human review time was not captured,open
+F-003,jobs_history,high,One live snapshot cannot measure discovery recall or false closure,open
+F-004,jobs_source,medium,One configured Lever source returned 404,open
+F-005,event_location,medium,HTML events retain exact sentence but not PDF page number,open
+F-006,event_gold_independence,high,Event gold uses the frozen pattern lexicon and is not an independent exhaustive manual annotation,open
+F-007,jobs_gold_independence,high,Jobs labels reuse deterministic title rules and have only one live snapshot,open
+F-008,ordinary_numeric_coverage,high,Ordinary 8-K reports contain no numerical gold facts,open

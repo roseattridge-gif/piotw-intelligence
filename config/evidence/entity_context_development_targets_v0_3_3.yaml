@@ -1,0 +1,18 @@
+version: 0.3.3
+frozen_before_final_rerun: true
+methodological_status: development_qa_only
+formal_gold: false
+admissible_for_model2_gate: false
+thresholds:
+  new_unseen_precision_min: 0.85
+  preferred_precision: 0.90
+  severe_false_positives_max: 0
+  third_party_attribution_errors_max: 0
+  prior_unseen_false_positives_max: 3
+  prior_benchmark_missed_events_max: 0
+  prior_benchmark_severe_disagreements_max: 0
+  duplicate_events_max: 1
+freeze_rule: >-
+  Freeze only if every mandatory threshold passes without material recall collapse
+  on the protected development benchmarks. This is technical readiness for blinded
+  review, not Model 2 readiness or independent validation.

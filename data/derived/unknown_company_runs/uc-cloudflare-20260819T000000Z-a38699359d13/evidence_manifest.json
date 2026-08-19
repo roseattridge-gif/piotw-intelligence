@@ -1,0 +1,91 @@
+{
+  "schema_version": "piotw-evidence-manifest-v0.1",
+  "run_id": "uc-cloudflare-20260819T000000Z-a38699359d13",
+  "orchestrator_version": "unknown-company-orchestrator-v0.2-condition-qualification",
+  "condition_policy_version": "piotw-condition-qualification-policy-v0.1-development",
+  "condition_policy_hash": "0d4aa9906f94d3422e35bbc87e1909ccc7d21d79fd9fb610e60016661405bf5f",
+  "company": {
+    "input_value": "cloudflare",
+    "company_id": "cloudflare",
+    "display_name": "Cloudflare",
+    "entity_id": "cloudflare",
+    "match_method": "EXACT_COMPANY_ID",
+    "source_registry": "/Users/roseattridge/Documents/ChatGPT/PIOTW MVP CODEX/config/evidence/jobs_sources_v0_2.json"
+  },
+  "as_of": "2026-08-19T00:00:00Z",
+  "source_availability": [
+    {
+      "source_family": "careers_ats",
+      "status": "AVAILABLE",
+      "collector_or_adapter": "greenhouse",
+      "health": "healthy",
+      "record_count": 2,
+      "reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    },
+    {
+      "source_family": "contracts_procurement",
+      "status": "UNAVAILABLE",
+      "collector_or_adapter": null,
+      "health": null,
+      "record_count": 0,
+      "reason": "No approved supplier-to-company entity match exists for this run."
+    },
+    {
+      "source_family": "issuer_disclosures",
+      "status": "UNAVAILABLE",
+      "collector_or_adapter": null,
+      "health": null,
+      "record_count": 0,
+      "reason": "No company-agnostic approved issuer collector is wired to this orchestrator."
+    },
+    {
+      "source_family": "regulatory_operating_notices",
+      "status": "UNAVAILABLE",
+      "collector_or_adapter": null,
+      "health": null,
+      "record_count": 0,
+      "reason": "Feasibility is documented, but no approved production collector is wired."
+    }
+  ],
+  "records": [
+    {
+      "manifest_record_id": "manifest-80388569f44c4823ce934a51",
+      "company_id": "cloudflare",
+      "entity_scope": "cloudflare",
+      "source_family": "careers_ats",
+      "source_record_id": "80388569f44c4823ce934a51",
+      "publication_or_effective_at": "2026-08-15T17:01:34.918831Z",
+      "retrieved_at": "2026-08-15T17:01:34.918831Z",
+      "collector_or_parser_version": "careers-longitudinal-v1",
+      "source_url": "https://boards.greenhouse.io/cloudflare",
+      "source_hash": "58a49813d14a2f87ed4ab6c06f813ccb4d9ef5e0b4720a1976255a3351d91292",
+      "cutoff_eligible": true,
+      "included": true,
+      "inclusion_or_exclusion_reason": "INCLUDED_CUTOFF_SAFE_HEALTHY_SNAPSHOT",
+      "collection_health": "healthy",
+      "observed_value": 305,
+      "observed_unit": "open_postings"
+    },
+    {
+      "manifest_record_id": "manifest-4bdf0bc59fc462b70a06a2d7",
+      "company_id": "cloudflare",
+      "entity_scope": "cloudflare",
+      "source_family": "careers_ats",
+      "source_record_id": "4bdf0bc59fc462b70a06a2d7",
+      "publication_or_effective_at": "2026-08-17T21:23:38.215420Z",
+      "retrieved_at": "2026-08-17T21:23:38.215420Z",
+      "collector_or_parser_version": "careers-longitudinal-v1",
+      "source_url": "https://boards.greenhouse.io/cloudflare",
+      "source_hash": "7965f9e124259afc61cf5a164bb121d4987ceaaba2b817e9678abc031d58aa4c",
+      "cutoff_eligible": true,
+      "included": true,
+      "inclusion_or_exclusion_reason": "INCLUDED_CUTOFF_SAFE_HEALTHY_SNAPSHOT",
+      "collection_health": "healthy",
+      "observed_value": 297,
+      "observed_unit": "open_postings"
+    }
+  ],
+  "included_record_count": 2,
+  "excluded_record_count": 0,
+  "manifest_hash": "a38699359d1367002e20950a84edfdf39b90041b63b2951a71c3640124b93843"
+}

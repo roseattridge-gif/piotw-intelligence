@@ -1,0 +1,144 @@
+{
+  "annotation_manifest": {
+    "blank_file_hashes": {
+      "gold_events.csv": "940532b4294d67036283cd7eb6fb656a161d29d14bdcc189a8402b7e86a26ada",
+      "gold_observations.csv": "65144c6f4bf32c31940b91323fea31a05c4b1282be673d3da4e24b4ab6838476",
+      "jobs_gold.csv": "54c2c9f9241a9620568ab676fc43cc266f3ca80dd2fb55dd4ad545467f7a7fb4"
+    },
+    "blinded_human_first": true,
+    "frozen": false,
+    "prohibition": "Do not run PIOTW extraction comparison before completed human-first annotations are frozen.",
+    "schema_version": "0.3.0",
+    "status": "awaiting_independent_human_annotation"
+  },
+  "corpus": {
+    "companies": 15,
+    "difficult_reports": 30,
+    "reports": 30
+  },
+  "engine_version": "0.3.0",
+  "evaluation_stage": "pre_evaluation_blocked",
+  "frozen_rules_artefacts_verified": 12,
+  "independent_gold": {
+    "events": 0,
+    "frozen": false,
+    "jobs": 0,
+    "jobs_sample_prepared": 150,
+    "numerical_facts": 0
+  },
+  "metrics": {
+    "accounting_basis_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "event_f1": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "event_precision": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "event_recall": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "jobs_classification_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "jobs_lifecycle_reliability": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "longitudinal_feature_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "manual_acceptance_rate": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "manual_correction_rate": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "manual_rejection_rate": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "overall_numerical_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "period_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "provenance_completeness": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "review_time_saved": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "severe_error_rate": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    },
+    "strategic_metric_accuracy": {
+      "correct": 0,
+      "rate": null,
+      "status": "not_scored_before_gold_freeze",
+      "total": 0
+    }
+  },
+  "outcomes_used": false,
+  "predictive_model_trained": false,
+  "prepared_artifacts": {
+    "jobs_snapshots": 1,
+    "reviewer_pdf_bytes": 122417751,
+    "source_bytes": 107862176
+  },
+  "reasons": [
+    "independent gold is not frozen",
+    "independent jobs labels incomplete (0/100 minimum)",
+    "no human review timings recorded"
+  ],
+  "review_burden": {
+    "timed_reports": 0,
+    "total_reports": 30
+  },
+  "status": "NOT READY"
+}

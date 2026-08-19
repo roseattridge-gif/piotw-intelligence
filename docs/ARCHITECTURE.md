@@ -159,3 +159,13 @@ The existing three-company retrospective pilot is only a feasibility test. It di
 - No applicant personal data is collected.
 - No publishing, GitHub push or external deployment occurs without permission.
 - Every automated claim must be reproducible from preserved evidence.
+
+## Current Detect runtime boundary — 19 August 2026
+
+The current product runtime does not execute the provisional scoring architecture above. Its implemented path is evidence → factual observation → condition candidate → explicit qualification tests → qualified condition or `INSUFFICIENT_EVIDENCE`.
+
+Careers snapshot schema v0.1 preserves immutable-derived role rows plus versioned lifecycle, function, seniority, geography, workplace, technology and missingness aggregates. Derivation origin distinguishes live collection, historical reprocessing and legacy-summary-only rows. Source adapters produce factual longitudinal features; a source-agnostic core applies the unchanged development qualification policy.
+
+Corroboration distinguishes repeated evidence, multiple observations within one family, independent families, derivatives and contradiction. Supplier names cannot enter company-level procurement runtime until primary evidence establishes canonical entity identity and relationship. No real cross-source corroboration is currently approved.
+
+The next critical path is legitimate longitudinal accumulation and a preregistered review of persistence/mix behaviour. Compare, Predict, Prescribe and Quantify remain downstream and must not be inferred from shallow Detect evidence.

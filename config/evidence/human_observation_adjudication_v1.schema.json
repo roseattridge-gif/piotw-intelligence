@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "piotw-human-observation-adjudication-v1",
+  "title": "PIOTW blinded atomic-observation adjudication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "resolution", "adjudicated_response", "adjudication_reason"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^HRV1-[0-9]{3}$"},
+    "resolution": {"enum": ["SELECT_A", "SELECT_B", "NEW_ADJUDICATION"]},
+    "adjudicated_response": {"$ref": "human_observation_review_response_v1.schema.json"},
+    "adjudication_reason": {"type": "string", "minLength": 1}
+  }
+}

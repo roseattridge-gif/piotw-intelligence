@@ -1,0 +1,33 @@
+version: 0.2.0
+frozen_before_aggregate_evaluation: true
+identity_rules:
+  reporting_period: exact
+  current_vs_comparative: exact
+  accounting_basis: exact
+  metric_type: canonical_alias_map
+numeric_tolerances:
+  monetary_million: {absolute: 0.01, relative: 0.0001}
+  percent: {absolute: 0.05}
+  basis_points: {absolute: 5}
+  ratio_times: {absolute: 0.01}
+  integer: {absolute: 0}
+strict_fields: [sign, currency, scale, reporting_period, period_role, accounting_basis]
+aliases:
+  revenue: [revenue, revenues, net sales, sales revenue]
+  operating_profit: [operating profit, income from operations, operating income]
+  operating_cash_flow: [operating cash flow, net cash provided by operating activities]
+  capex: [capex, capital expenditure, purchases of property plant and equipment]
+event_match:
+  same_company: true
+  same_document: true
+  same_event_type: true
+  span_overlap_minimum: 0.50
+severe_errors:
+  - wrong_sign
+  - wrong_reporting_period
+  - scale_error_1000x_or_more
+  - adjusted_statutory_confusion
+  - net_cash_net_debt_confusion
+  - historical_or_completed_as_current
+  - duplicate_material_event
+

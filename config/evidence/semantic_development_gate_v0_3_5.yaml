@@ -1,0 +1,11 @@
+version: 0.3.5-development
+status: frozen_before_execution
+requirements:
+  protected_tests_pass: true
+  contamination_regressions_pass_or_justified: 1.0
+  synthetic_adversarial_pass: 1.0
+  provenance_completeness: 1.0
+  severe_false_positives: 0
+  attribution_errors: 0
+scientific_claim_allowed: false
+

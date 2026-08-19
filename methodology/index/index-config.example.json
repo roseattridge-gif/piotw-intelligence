@@ -1,0 +1,35 @@
+{
+  "methodology_id": "piotw-operational-index",
+  "index_methodology_version": "0.1.0",
+  "status": "development-only",
+  "validated": false,
+  "production_scoring_enabled": false,
+  "constructs": {
+    "operational_index": "Peer-relative operational condition and trajectory",
+    "pressure_index": "Accumulation of adverse operational pressure",
+    "momentum": "Direction and rate of change in operational condition",
+    "evidence_confidence": "Strength and completeness of the supporting evidence base"
+  },
+  "feature_weighting": "equal_across_eligible_features_experimental_only",
+  "dimension_weights": {
+    "cost_efficiency": 0.16666666666666666,
+    "capacity_footprint": 0.16666666666666666,
+    "people_organisation": 0.16666666666666666,
+    "supply_chain_delivery": 0.16666666666666666,
+    "technology_execution": 0.16666666666666666,
+    "growth_investment": 0.16666666666666666
+  },
+  "normalisation_method_candidates": ["percentile_rank", "robust_z_median_mad", "empirical_cdf"],
+  "selected_normalisation_method": null,
+  "peer_thresholds": {"preferred": 50, "acceptable": 30, "caution": 20, "precise_percentile_minimum": 20},
+  "missing_dimension_policy": "do_not_impute_peer_median; report missingness and require coverage rule before aggregation",
+  "recency_function": {"selected": null, "candidates": ["step_windows", "exponential_decay", "piecewise_decay"]},
+  "rating_bands": [
+    {"min": 85, "max": 100, "label": "A+"}, {"min": 75, "max": 84, "label": "A"},
+    {"min": 65, "max": 74, "label": "B"}, {"min": 55, "max": 64, "label": "C+"},
+    {"min": 45, "max": 54, "label": "C"}, {"min": 35, "max": 44, "label": "D"},
+    {"min": 20, "max": 34, "label": "E"}, {"min": 0, "max": 19, "label": "F"}
+  ],
+  "rating_bands_status": "PROVISIONAL / NOT EMPIRICALLY CALIBRATED",
+  "methodology_freeze_rule": "A version used in a validation run is immutable; changes require a new version."
+}

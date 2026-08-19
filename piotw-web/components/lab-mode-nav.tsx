@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function LabModeNav(){return <><div className="lab-banner">REAL COMPANY LAB · REAL PUBLIC EVIDENCE + PROTOTYPE NORTH-STAR SYNTHESIS</div><nav className="mode-switch lab-switch" aria-label="Data mode"><Link href="/intelligence/brief">Observed data</Link><Link href="/north-star">North Star demo</Link><Link href="/lab" aria-current="page">Real Company Lab</Link><span>Public evidence only</span></nav></>}

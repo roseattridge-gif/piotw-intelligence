@@ -1,0 +1,454 @@
+{
+  "schema_version": "piotw-condition-qualification-development-results-v0.1",
+  "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+  "scientifically_validated": false,
+  "analysis_cutoff": "2026-08-19T00:00:00+00:00",
+  "companies": [
+    {
+      "company_id": "cloudflare",
+      "source_coverage": {
+        "careers_ats": "AVAILABLE",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 2,
+      "factual_observations": 2,
+      "condition_candidates": 1,
+      "qualifications": [
+        {
+          "candidate_type": "hiring_contraction",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "tests": {
+            "references": "PASS",
+            "duplicate_evidence": "PASS",
+            "entity_scope": "PASS",
+            "source_health": "PASS",
+            "history_depth": "FAIL",
+            "denominator": "PASS",
+            "magnitude": "FAIL",
+            "persistence": "FAIL",
+            "contradiction": "PASS",
+            "operational_mechanism": "PASS",
+            "peer_context": "UNAVAILABLE"
+          },
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 2.1819825994097224,
+            "interval_days": [
+              2.1819825994097224
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "magnitude": {
+            "absolute_change": -8.0,
+            "relative_change": -0.02622950819672131,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-80388569f44c4823ce934a51",
+              "obs-4bdf0bc59fc462b70a06a2d7"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "entity_scope_valid": true,
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+        }
+      ],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    },
+    {
+      "company_id": "affirm",
+      "source_coverage": {
+        "careers_ats": "AVAILABLE",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 2,
+      "factual_observations": 2,
+      "condition_candidates": 1,
+      "qualifications": [
+        {
+          "candidate_type": "hiring_contraction",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "tests": {
+            "references": "PASS",
+            "duplicate_evidence": "PASS",
+            "entity_scope": "PASS",
+            "source_health": "PASS",
+            "history_depth": "FAIL",
+            "denominator": "PASS",
+            "magnitude": "FAIL",
+            "persistence": "FAIL",
+            "contradiction": "PASS",
+            "operational_mechanism": "PASS",
+            "peer_context": "UNAVAILABLE"
+          },
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 2.1819825994097224,
+            "interval_days": [
+              2.1819825994097224
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "magnitude": {
+            "absolute_change": -2.0,
+            "relative_change": -0.010309278350515464,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-16d68a5948202e13e1123654",
+              "obs-ef845f7242cd0a6a81554758"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "entity_scope_valid": true,
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 194 to 192 across 2 stored snapshots (-2; -1.03%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+        }
+      ],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    },
+    {
+      "company_id": "samsara",
+      "source_coverage": {
+        "careers_ats": "AVAILABLE",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 2,
+      "factual_observations": 2,
+      "condition_candidates": 1,
+      "qualifications": [
+        {
+          "candidate_type": "hiring_expansion",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "tests": {
+            "references": "PASS",
+            "duplicate_evidence": "PASS",
+            "entity_scope": "PASS",
+            "source_health": "PASS",
+            "history_depth": "FAIL",
+            "denominator": "PASS",
+            "magnitude": "PASS",
+            "persistence": "FAIL",
+            "contradiction": "PASS",
+            "operational_mechanism": "PASS",
+            "peer_context": "UNAVAILABLE"
+          },
+          "failed_tests": [
+            "history_depth",
+            "persistence"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 2.1819825994097224,
+            "interval_days": [
+              2.1819825994097224
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "magnitude": {
+            "absolute_change": 45.0,
+            "relative_change": 0.20089285714285715,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-b03981a63d000483dea5a2ea",
+              "obs-29e470643cb4fa96a9347dd7"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "entity_scope_valid": true,
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 224 to 269 across 2 stored snapshots (+45; +20.09%). If the movement is persistent and material, it could support the operational state: published open-role inventory expansion. Failed required tests: history_depth, persistence."
+        }
+      ],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    },
+    {
+      "company_id": "anduril",
+      "source_coverage": {
+        "careers_ats": "FAILED",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 0,
+      "factual_observations": 0,
+      "condition_candidates": 0,
+      "qualifications": [],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "Stored cutoff-eligible collection attempts exist but none is a healthy evidence record."
+    },
+    {
+      "company_id": "datadog",
+      "source_coverage": {
+        "careers_ats": "AVAILABLE",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 2,
+      "factual_observations": 2,
+      "condition_candidates": 1,
+      "qualifications": [
+        {
+          "candidate_type": "hiring_contraction",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "tests": {
+            "references": "PASS",
+            "duplicate_evidence": "PASS",
+            "entity_scope": "PASS",
+            "source_health": "PASS",
+            "history_depth": "FAIL",
+            "denominator": "PASS",
+            "magnitude": "FAIL",
+            "persistence": "FAIL",
+            "contradiction": "PASS",
+            "operational_mechanism": "PASS",
+            "peer_context": "UNAVAILABLE"
+          },
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 2.1819825994097224,
+            "interval_days": [
+              2.1819825994097224
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "magnitude": {
+            "absolute_change": -5.0,
+            "relative_change": -0.011764705882352941,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-dede455f0541211099601322",
+              "obs-34a29f871c9783fac6efcec2"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "entity_scope_valid": true,
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 425 to 420 across 2 stored snapshots (-5; -1.18%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+        }
+      ],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    },
+    {
+      "company_id": "mongodb",
+      "source_coverage": {
+        "careers_ats": "AVAILABLE",
+        "contracts_procurement": "UNAVAILABLE",
+        "issuer_disclosures": "UNAVAILABLE",
+        "regulatory_operating_notices": "UNAVAILABLE"
+      },
+      "history_depth": 2,
+      "factual_observations": 2,
+      "condition_candidates": 1,
+      "qualifications": [
+        {
+          "candidate_type": "hiring_contraction",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "tests": {
+            "references": "PASS",
+            "duplicate_evidence": "PASS",
+            "entity_scope": "PASS",
+            "source_health": "PASS",
+            "history_depth": "FAIL",
+            "denominator": "PASS",
+            "magnitude": "FAIL",
+            "persistence": "FAIL",
+            "contradiction": "PASS",
+            "operational_mechanism": "PASS",
+            "peer_context": "UNAVAILABLE"
+          },
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 2.1819825994097224,
+            "interval_days": [
+              2.1819825994097224
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "magnitude": {
+            "absolute_change": -5.0,
+            "relative_change": -0.012224938875305624,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-1e64f87434bb10a5bea51828",
+              "obs-878dcb4b9237c55cf0265206"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "entity_scope_valid": true,
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 409 to 404 across 2 stored snapshots (-5; -1.22%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+        }
+      ],
+      "qualified_conditions": 0,
+      "detect_status": "INSUFFICIENT_EVIDENCE",
+      "source_reason": "2 healthy stored snapshot(s) were available by the cutoff."
+    }
+  ],
+  "summary": {
+    "companies_tested": 6,
+    "candidate_conditions": 5,
+    "qualified_conditions": 0,
+    "insufficient_evidence": 5
+  }
+}

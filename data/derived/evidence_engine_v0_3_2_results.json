@@ -1,0 +1,106 @@
+{
+  "admissible_for_model2_gate": false,
+  "extractor": {
+    "context_rule_hash": "6134384654bf33721181b3b7b4ca40253eff7d19e076eedf860eda950c546154",
+    "extraction_engine_hash": "5a3d3550f690407ea220971c0f03d285eaf5c8e71c597868d19ce0501dc707ab",
+    "git_commit": null,
+    "parser_hash": "9ce4c9104ca87e9f77e476434d3df5207667fc9434cd81ef56e60a70a3862978",
+    "parser_version": "evidence_engine_v0_2_ixbrl",
+    "release_frozen": false,
+    "table_rule_version": "0.3.2",
+    "target_config_hash": "db0dd1706caf276a22b0db37105d7cfb2ba441298cab519172620724fee50801",
+    "taxonomy_hash": "d304d385649b341ba5d2394f77fd8dfc91fccce9822fb34b54372a791a372d6c"
+  },
+  "five_document_after": {
+    "accepted_events": 28,
+    "accepted_inspected": 28,
+    "ambiguous": 0,
+    "ambiguous_events": 29,
+    "candidates": 165,
+    "deduplication_links": 13,
+    "diagnostic_precision": 1.0,
+    "event_rejections": 95,
+    "obvious_false_positives": 0,
+    "supported": 28,
+    "table_context_ambiguous": 2,
+    "table_context_rejections": 31
+  },
+  "five_document_before": {
+    "accepted_inspected": 61,
+    "ambiguous": 5,
+    "candidates": 165,
+    "duplicate_links_suppressed": 13,
+    "obvious_false_positives": 19,
+    "supported": 37
+  },
+  "formal_gold": false,
+  "historical_table_false_positive_categories": {
+    "accounting_measure_only": 6,
+    "completed_programme": 1,
+    "current_programme": 2,
+    "generic_boilerplate": 2,
+    "historical_table": 11,
+    "hypothetical_risk": 1,
+    "malformed_table_fragment": 7,
+    "narrative_table_mismatch": 3,
+    "repeated_table_heading": 1,
+    "taxonomy_overreach": 1
+  },
+  "methodological_status": "development_qa_only",
+  "model2_trained": false,
+  "official_readiness_status": "NOT READY",
+  "outcomes_accessed": false,
+  "protected_artifacts": 12,
+  "second_unseen_sample": {
+    "accepted_events": 64,
+    "accepted_inspected": 30,
+    "ambiguous": 1,
+    "ambiguous_events": 11,
+    "candidates": 169,
+    "companies": 3,
+    "deduplication_links": 15,
+    "diagnostic_precision": 0.5666666666666667,
+    "documents": 6,
+    "event_rejections": 79,
+    "failure_classes": {
+      "accounting_cross_reference": 1,
+      "accounting_or_definition": 1,
+      "generic_risk": 3,
+      "hypothetical_risk": 2,
+      "malformed_table_fragment": 1,
+      "third_party_context": 4,
+      "wrong_context": 1
+    },
+    "obvious_false_positives": 12,
+    "severe_false_positives": 0,
+    "supported": 17,
+    "table_context_ambiguous": 1,
+    "table_context_rejections": 10
+  },
+  "technical_status": "NOT TECHNICALLY READY FOR HUMAN REVIEW",
+  "v0_3_1_regression": {
+    "classifications": {
+      "AI_REVIEW_MISSING": {
+        "count": 90,
+        "rate": 0.8571428571428571,
+        "total": 105
+      },
+      "AMBIGUOUS": {
+        "count": 1,
+        "rate": 0.009523809523809525,
+        "total": 105
+      },
+      "EVENT_AGREEMENT": {
+        "count": 14,
+        "rate": 0.13333333333333333,
+        "total": 105
+      }
+    },
+    "duplicates": 0,
+    "likely_false_positives": 0,
+    "missed_ai_events": 0,
+    "severe_event_disagreements": 0,
+    "severe_numerical_disagreements": 0
+  },
+  "version": "0.3.2"
+}

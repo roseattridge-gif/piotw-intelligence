@@ -1,0 +1,12 @@
+{
+  "admissible_for_model2_gate": false,
+  "formal_independent_human_gold": false,
+  "method": "source evidence to independent label; 0.3.5 decisions unavailable during annotation",
+  "reviewer_type": "AI_ASSISTED_FINOPS_REVIEW",
+  "statuses": [
+    "supported",
+    "unsupported",
+    "ambiguous"
+  ],
+  "version": "v0.3.5-ai-source-first-v1"
+}

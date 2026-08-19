@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piotw.local/schemas/company-intelligence-v0.1.json",
+  "title": "PIOTW Company Intelligence v0.1",
+  "description": "Canonical Detect-Compare-Predict-Prescribe-Quantify runtime contract. Unavailable stages must be explicit and cannot contain invented outputs.",
+  "type": "object",
+  "required": ["schema_version", "company", "as_of", "generated_at", "methodology_version", "scientific_gate_run", "coverage", "evidence", "conditions", "comparisons", "predictions", "interventions", "financial_impacts", "capabilities", "missing_capabilities", "overall_confidence"],
+  "properties": {
+    "schema_version": {"const": "piotw-company-intelligence-v0.1"},
+    "company": {"type": "object", "required": ["company_id", "display_name"], "properties": {"company_id": {"type": "string"}, "display_name": {"type": "string"}, "legal_name": {"type": ["string", "null"]}, "ticker": {"type": ["string", "null"]}, "geography": {"type": ["string", "null"]}, "activity": {"type": ["string", "null"]}}, "additionalProperties": false},
+    "as_of": {"type": "string", "format": "date-time"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "methodology_version": {"type": "string"},
+    "scientific_gate_run": {"const": false},
+    "coverage": {"type": "object"},
+    "evidence": {"type": "array"},
+    "condition_qualifications": {"type": "array"},
+    "conditions": {"type": "array"},
+    "comparisons": {"type": "array"},
+    "predictions": {"type": "array"},
+    "interventions": {"type": "array"},
+    "financial_impacts": {"type": "array"},
+    "capabilities": {"type": "object", "required": ["detect", "compare", "predict", "prescribe", "quantify"]},
+    "missing_capabilities": {"type": "array", "items": {"type": "string"}},
+    "overall_confidence": {"enum": ["HIGH", "MEDIUM", "LOW", "NOT_ASSESSED"]}
+  },
+  "additionalProperties": false
+}

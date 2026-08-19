@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "piotw-atomic-observation-v0.3.7",
+  "title": "PIOTW canonical atomic factual observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["observation_id", "company_id", "source_id", "source_hash", "evidence_span", "evidence_start", "evidence_end", "subject", "action_or_state", "object", "timing", "polarity", "scope", "entity_relationship", "publication_date", "effective_date", "confidence", "decision", "reason_code", "extractor_version", "model_version", "created_at"],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "company_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "source_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "evidence_span": {"type": "string"},
+    "evidence_start": {"type": ["integer", "null"], "minimum": 0},
+    "evidence_end": {"type": ["integer", "null"], "minimum": 0},
+    "subject": {"type": "string"},
+    "action_or_state": {"type": "string"},
+    "object": {"type": "string"},
+    "timing": {"enum": ["CURRENT", "ONGOING", "PLANNED_COMMITTED", "COMPLETED_RECENT", "HISTORICAL", "HYPOTHETICAL", "UNCLEAR"]},
+    "polarity": {"enum": ["INCREASE", "DECREASE", "POSITIVE", "NEGATIVE", "NEUTRAL", "MIXED", "NOT_APPLICABLE", "UNCLEAR"]},
+    "scope": {"type": "string"},
+    "entity_relationship": {"enum": ["ISSUER", "SUBSIDIARY", "CUSTOMER", "SUPPLIER", "COMPETITOR", "INDUSTRY", "OTHER", "UNCLEAR"]},
+    "publication_date": {"type": "string", "format": "date"},
+    "effective_date": {"type": ["string", "null"], "format": "date"},
+    "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+    "decision": {"enum": ["ACCEPT", "REJECT", "AMBIGUOUS"]},
+    "reason_code": {"type": "string"},
+    "extractor_version": {"const": "evidence-engine-v0.3.7-development"},
+    "model_version": {"type": "string"},
+    "created_at": {"type": "string", "format": "date-time"}
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "document_id": "ee037-independent-01-1-adbe",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-01-2-adbe",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-02-1-intu",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-02-2-intu",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-03-1-now",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-03-2-now",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-04-1-lrcx",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-04-2-lrcx",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-05-1-amat",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-05-2-amat",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-06-1-gis",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-06-2-gis",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-07-1-cl",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-07-2-cl",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-08-1-cag",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-08-2-cag",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-09-1-wm",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-09-2-wm",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-10-1-azo",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    },
+    {
+      "document_id": "ee037-independent-10-2-azo",
+      "company_unused": true,
+      "ticker_unused": true,
+      "url_unused": true,
+      "hash_unused": true,
+      "passed": true
+    }
+  ]
+}

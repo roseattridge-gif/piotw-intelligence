@@ -1,0 +1,51 @@
+{
+  "all_passed": true,
+  "credential_present": true,
+  "model": "gpt-5-mini",
+  "provider": "openai",
+  "run_at": "2026-08-17T11:00:51.007200+00:00",
+  "scientific_gate_data_used": false,
+  "status": "MODEL_BACKED_GATE_RERUN_TECHNICALLY_ELIGIBLE",
+  "tests": {
+    "minimal_structured": {
+      "input_tokens": 54,
+      "latency_ms": 2935,
+      "output_tokens": 204,
+      "parsed_fields": [
+        "decision",
+        "reason"
+      ],
+      "passed": true,
+      "response_status": "completed"
+    },
+    "minimal_unstructured": {
+      "input_tokens": 12,
+      "latency_ms": 2295,
+      "output_tokens": 97,
+      "passed": true,
+      "response_status": "completed",
+      "returned_text": "OK"
+    },
+    "piotw_schema_accept": {
+      "decision": "accept",
+      "input_tokens": 514,
+      "latency_ms": 6444,
+      "output_tokens": 510,
+      "passed": true,
+      "provider_error": null,
+      "reason_code": "DIRECT_CURRENT_EVENT",
+      "support_span_valid": true
+    },
+    "piotw_schema_reject": {
+      "decision": "reject",
+      "input_tokens": 503,
+      "latency_ms": 5504,
+      "output_tokens": 475,
+      "passed": true,
+      "provider_error": null,
+      "reason_code": "THIRD_PARTY_ONLY",
+      "support_span_valid": true
+    }
+  },
+  "version": "0.3.4"
+}

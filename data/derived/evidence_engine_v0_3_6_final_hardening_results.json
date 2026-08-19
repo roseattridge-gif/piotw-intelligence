@@ -1,0 +1,17 @@
+{
+  "version": "evidence-engine-v0.3.6-final-development-hardening-v1",
+  "status": "DEVELOPMENT_ONLY_NOT_VALIDATION",
+  "known_failure_cases": 20,
+  "known_false_accepts_before": 5,
+  "known_misses_before": 15,
+  "known_failures_resolved": 20,
+  "known_failures_remaining": 0,
+  "unresolved_case_ids": [],
+  "failure_register_sha256": "36177a35602c7c010e57e2592742987ef45a6a9af106b99d8410e9a52d4f4dba",
+  "fresh_gate_executed": false,
+  "fresh_corpus_constructed": false,
+  "outcomes_accessed": false,
+  "model2_trained": false,
+  "official_model2_readiness": "NOT READY",
+  "fresh_gate_authorisation_status": "EVIDENCE_ENGINE_0_3_6_READY_FOR_FRESH_GATE_AUTHORISATION"
+}

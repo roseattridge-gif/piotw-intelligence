@@ -1,0 +1,604 @@
+{
+  "$defs": {
+    "CorroborationContext": {
+      "properties": {
+        "contradicting_observation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Contradicting Observation Ids",
+          "type": "array"
+        },
+        "duplicate_derivative_groups": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Duplicate Derivative Groups",
+          "type": "array"
+        },
+        "duplicate_observation_count": {
+          "minimum": 0,
+          "title": "Duplicate Observation Count",
+          "type": "integer"
+        },
+        "independent_source_families": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Independent Source Families",
+          "type": "array"
+        },
+        "related_observation_count": {
+          "minimum": 0,
+          "title": "Related Observation Count",
+          "type": "integer"
+        },
+        "status": {
+          "enum": [
+            "INDEPENDENT",
+            "SAME_SOURCE_ONLY",
+            "REPEATED_WITHIN_SOURCE",
+            "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "DUPLICATE_ONLY",
+            "CONTRADICTORY",
+            "NONE"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "supporting_observation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Observation Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status",
+        "independent_source_families",
+        "related_observation_count",
+        "duplicate_observation_count"
+      ],
+      "title": "CorroborationContext",
+      "type": "object"
+    },
+    "DataQualityContext": {
+      "properties": {
+        "coverage_limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Coverage Limitations",
+          "type": "array"
+        },
+        "source_health": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Health",
+          "type": "array"
+        },
+        "stale": {
+          "title": "Stale",
+          "type": "boolean"
+        },
+        "status": {
+          "enum": [
+            "GOOD",
+            "DEGRADED",
+            "FAILED",
+            "UNKNOWN"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "source_health",
+        "stale",
+        "coverage_limitations"
+      ],
+      "title": "DataQualityContext",
+      "type": "object"
+    },
+    "DenominatorContext": {
+      "properties": {
+        "available": {
+          "title": "Available",
+          "type": "boolean"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "quality": {
+          "enum": [
+            "HIGH",
+            "MEDIUM",
+            "LOW",
+            "UNAVAILABLE"
+          ],
+          "title": "Quality",
+          "type": "string"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        }
+      },
+      "required": [
+        "available",
+        "quality"
+      ],
+      "title": "DenominatorContext",
+      "type": "object"
+    },
+    "HistoryContext": {
+      "properties": {
+        "history_depth": {
+          "enum": [
+            "NONE",
+            "SINGLE",
+            "SHALLOW",
+            "SUFFICIENT_FOR_POLICY"
+          ],
+          "title": "History Depth",
+          "type": "string"
+        },
+        "interval_consistency": {
+          "enum": [
+            "CONSISTENT",
+            "IRREGULAR",
+            "NOT_ASSESSED"
+          ],
+          "title": "Interval Consistency",
+          "type": "string"
+        },
+        "interval_days": {
+          "items": {
+            "type": "number"
+          },
+          "title": "Interval Days",
+          "type": "array"
+        },
+        "missing_periods": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Missing Periods"
+        },
+        "observation_period_days": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observation Period Days"
+        },
+        "snapshot_count": {
+          "minimum": 0,
+          "title": "Snapshot Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "snapshot_count",
+        "interval_consistency",
+        "history_depth"
+      ],
+      "title": "HistoryContext",
+      "type": "object"
+    },
+    "MagnitudeContext": {
+      "properties": {
+        "absolute_change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Absolute Change"
+        },
+        "relative_change": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Relative Change"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        }
+      },
+      "title": "MagnitudeContext",
+      "type": "object"
+    },
+    "PersistenceContext": {
+      "properties": {
+        "consistent_intervals": {
+          "minimum": 0,
+          "title": "Consistent Intervals",
+          "type": "integer"
+        },
+        "status": {
+          "enum": [
+            "ONE_OFF",
+            "PERSISTENT",
+            "ACCELERATING",
+            "REVERSED",
+            "STABLE",
+            "NOT_ASSESSED"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "total_intervals": {
+          "minimum": 0,
+          "title": "Total Intervals",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "status",
+        "consistent_intervals",
+        "total_intervals"
+      ],
+      "title": "PersistenceContext",
+      "type": "object"
+    },
+    "QualificationTest": {
+      "properties": {
+        "explanation": {
+          "title": "Explanation",
+          "type": "string"
+        },
+        "observed": {
+          "title": "Observed",
+          "type": "string"
+        },
+        "required": {
+          "title": "Required",
+          "type": "boolean"
+        },
+        "requirement": {
+          "title": "Requirement",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "UNAVAILABLE",
+            "NOT_REQUIRED"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "test_id": {
+          "title": "Test Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "test_id",
+        "status",
+        "required",
+        "observed",
+        "requirement",
+        "explanation"
+      ],
+      "title": "QualificationTest",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "analysis_cutoff": {
+      "format": "date-time",
+      "title": "Analysis Cutoff",
+      "type": "string"
+    },
+    "company_id": {
+      "title": "Company Id",
+      "type": "string"
+    },
+    "condition_candidate_type": {
+      "enum": [
+        "hiring_expansion",
+        "hiring_contraction",
+        "workforce_functional_mix_shift",
+        "procurement_activity_acceleration",
+        "procurement_category_concentration_change"
+      ],
+      "title": "Condition Candidate Type",
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "NOT_ASSESSED"
+      ],
+      "title": "Confidence",
+      "type": "string"
+    },
+    "corroboration": {
+      "$ref": "#/$defs/CorroborationContext"
+    },
+    "data_quality": {
+      "$ref": "#/$defs/DataQualityContext"
+    },
+    "denominator": {
+      "$ref": "#/$defs/DenominatorContext"
+    },
+    "dimensions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Dimensions",
+      "type": "array"
+    },
+    "direction": {
+      "enum": [
+        "INCREASING",
+        "DECREASING",
+        "STABLE",
+        "MIXED",
+        "UNKNOWN"
+      ],
+      "title": "Direction",
+      "type": "string"
+    },
+    "entity_scope": {
+      "title": "Entity Scope",
+      "type": "string"
+    },
+    "entity_scope_valid": {
+      "title": "Entity Scope Valid",
+      "type": "boolean"
+    },
+    "evidence_families": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Families",
+      "type": "array"
+    },
+    "evidence_strength_explanation": {
+      "title": "Evidence Strength Explanation",
+      "type": "string"
+    },
+    "failed_tests": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Failed Tests",
+      "type": "array"
+    },
+    "historical_context_status": {
+      "enum": [
+        "AVAILABLE",
+        "UNAVAILABLE",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "title": "Historical Context Status",
+      "type": "string"
+    },
+    "history": {
+      "$ref": "#/$defs/HistoryContext"
+    },
+    "human_readable_explanation": {
+      "title": "Human Readable Explanation",
+      "type": "string"
+    },
+    "magnitude": {
+      "$ref": "#/$defs/MagnitudeContext"
+    },
+    "materiality": {
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "UNKNOWN"
+      ],
+      "title": "Materiality",
+      "type": "string"
+    },
+    "materiality_status": {
+      "enum": [
+        "SUPPORTED_BY_DEVELOPMENT_POLICY",
+        "UNSUPPORTED",
+        "NOT_ASSESSED"
+      ],
+      "title": "Materiality Status",
+      "type": "string"
+    },
+    "missing_information": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Missing Information",
+      "type": "array"
+    },
+    "observed_explanation": {
+      "title": "Observed Explanation",
+      "type": "string"
+    },
+    "operational_mechanism_status": {
+      "enum": [
+        "SUPPORTED",
+        "UNSUPPORTED",
+        "AMBIGUOUS"
+      ],
+      "title": "Operational Mechanism Status",
+      "type": "string"
+    },
+    "peer_context_status": {
+      "enum": [
+        "AVAILABLE",
+        "UNAVAILABLE",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "title": "Peer Context Status",
+      "type": "string"
+    },
+    "persistence": {
+      "$ref": "#/$defs/PersistenceContext"
+    },
+    "policy_version": {
+      "title": "Policy Version",
+      "type": "string"
+    },
+    "qualification_id": {
+      "title": "Qualification Id",
+      "type": "string"
+    },
+    "qualification_status": {
+      "enum": [
+        "QUALIFIED",
+        "INSUFFICIENT_EVIDENCE",
+        "WITHHELD"
+      ],
+      "title": "Qualification Status",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "piotw-operational-condition-qualification-v0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scientifically_validated": {
+      "const": false,
+      "default": false,
+      "title": "Scientifically Validated",
+      "type": "boolean"
+    },
+    "supporting_evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Supporting Evidence Ids",
+      "type": "array"
+    },
+    "supporting_observation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Supporting Observation Ids",
+      "type": "array"
+    },
+    "tests": {
+      "items": {
+        "$ref": "#/$defs/QualificationTest"
+      },
+      "title": "Tests",
+      "type": "array"
+    },
+    "what_is_unknown": {
+      "title": "What Is Unknown",
+      "type": "string"
+    },
+    "what_would_change_view": {
+      "title": "What Would Change View",
+      "type": "string"
+    },
+    "why_it_might_matter": {
+      "title": "Why It Might Matter",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "qualification_id",
+    "policy_version",
+    "company_id",
+    "entity_scope",
+    "analysis_cutoff",
+    "condition_candidate_type",
+    "supporting_observation_ids",
+    "supporting_evidence_ids",
+    "dimensions",
+    "evidence_families",
+    "history",
+    "denominator",
+    "magnitude",
+    "persistence",
+    "corroboration",
+    "data_quality",
+    "entity_scope_valid",
+    "historical_context_status",
+    "peer_context_status",
+    "materiality_status",
+    "operational_mechanism_status",
+    "qualification_status",
+    "direction",
+    "materiality",
+    "confidence",
+    "tests",
+    "failed_tests",
+    "missing_information",
+    "observed_explanation",
+    "why_it_might_matter",
+    "evidence_strength_explanation",
+    "what_is_unknown",
+    "what_would_change_view",
+    "human_readable_explanation"
+  ],
+  "title": "QualificationResult",
+  "type": "object"
+}

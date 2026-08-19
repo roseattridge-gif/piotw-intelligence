@@ -1,0 +1,365 @@
+{
+  "$defs": {
+    "CareersHistoryPoint": {
+      "properties": {
+        "absent_once_roles": {
+          "title": "Absent Once Roles",
+          "type": "integer"
+        },
+        "collector_version": {
+          "title": "Collector Version",
+          "type": "string"
+        },
+        "confirmed_closed_roles": {
+          "title": "Confirmed Closed Roles",
+          "type": "integer"
+        },
+        "new_roles": {
+          "title": "New Roles",
+          "type": "integer"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "open_roles": {
+          "title": "Open Roles",
+          "type": "integer"
+        },
+        "persistent_roles": {
+          "title": "Persistent Roles",
+          "type": "integer"
+        },
+        "reopened_roles": {
+          "title": "Reopened Roles",
+          "type": "integer"
+        },
+        "source_hash": {
+          "title": "Source Hash",
+          "type": "string"
+        }
+      },
+      "required": [
+        "observed_at",
+        "open_roles",
+        "new_roles",
+        "persistent_roles",
+        "absent_once_roles",
+        "confirmed_closed_roles",
+        "reopened_roles",
+        "source_hash",
+        "collector_version"
+      ],
+      "title": "CareersHistoryPoint",
+      "type": "object"
+    },
+    "DimensionView": {
+      "properties": {
+        "accepted_events": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Accepted Events",
+          "type": "array"
+        },
+        "coverage_status": {
+          "title": "Coverage Status",
+          "type": "string"
+        },
+        "dimension_id": {
+          "title": "Dimension Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "observations": {
+          "items": {
+            "$ref": "#/$defs/FactualObservation"
+          },
+          "title": "Observations",
+          "type": "array"
+        },
+        "score": {
+          "$ref": "#/$defs/ValidationPlaceholder"
+        }
+      },
+      "required": [
+        "dimension_id",
+        "name",
+        "coverage_status"
+      ],
+      "title": "DimensionView",
+      "type": "object"
+    },
+    "FactualObservation": {
+      "properties": {
+        "change": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Change"
+        },
+        "novelty": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Novelty"
+        },
+        "observation_id": {
+          "title": "Observation Id",
+          "type": "string"
+        },
+        "observation_type": {
+          "title": "Observation Type",
+          "type": "string"
+        },
+        "persistence": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Persistence"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "state": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "State"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Unit"
+        },
+        "validation_status": {
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "velocity": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Velocity"
+        }
+      },
+      "required": [
+        "observation_id",
+        "observation_type",
+        "state",
+        "change",
+        "velocity",
+        "novelty",
+        "persistence",
+        "unit",
+        "validation_status",
+        "provenance"
+      ],
+      "title": "FactualObservation",
+      "type": "object"
+    },
+    "Provenance": {
+      "properties": {
+        "collector_version": {
+          "title": "Collector Version",
+          "type": "string"
+        },
+        "effective_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Effective At"
+        },
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "source_family": {
+          "title": "Source Family",
+          "type": "string"
+        },
+        "source_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Hash"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "source_family",
+        "source_url",
+        "source_hash",
+        "observed_at",
+        "effective_at",
+        "collector_version"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "ValidationPlaceholder": {
+      "properties": {
+        "status": {
+          "const": "NOT_YET_VALIDATED",
+          "default": "NOT_YET_VALIDATED",
+          "title": "Status",
+          "type": "string"
+        },
+        "value": {
+          "default": null,
+          "title": "Value",
+          "type": "null"
+        }
+      },
+      "title": "ValidationPlaceholder",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "benchmark": {
+      "$ref": "#/$defs/ValidationPlaceholder"
+    },
+    "careers_history": {
+      "items": {
+        "$ref": "#/$defs/CareersHistoryPoint"
+      },
+      "title": "Careers History",
+      "type": "array"
+    },
+    "company_id": {
+      "title": "Company Id",
+      "type": "string"
+    },
+    "data_coverage": {
+      "additionalProperties": true,
+      "title": "Data Coverage",
+      "type": "object"
+    },
+    "dimensions": {
+      "items": {
+        "$ref": "#/$defs/DimensionView"
+      },
+      "title": "Dimensions",
+      "type": "array"
+    },
+    "display_name": {
+      "title": "Display Name",
+      "type": "string"
+    },
+    "expansion": {
+      "$ref": "#/$defs/ValidationPlaceholder"
+    },
+    "observation_date": {
+      "format": "date-time",
+      "title": "Observation Date",
+      "type": "string"
+    },
+    "overall_score": {
+      "$ref": "#/$defs/ValidationPlaceholder"
+    },
+    "prediction": {
+      "$ref": "#/$defs/ValidationPlaceholder"
+    },
+    "pressure": {
+      "$ref": "#/$defs/ValidationPlaceholder"
+    },
+    "schema_version": {
+      "const": "company-intelligence-snapshot-v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_freshness": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Source Freshness",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "company_id",
+    "display_name",
+    "observation_date",
+    "dimensions",
+    "source_freshness",
+    "data_coverage"
+  ],
+  "title": "CompanyIntelligenceSnapshot",
+  "type": "object"
+}

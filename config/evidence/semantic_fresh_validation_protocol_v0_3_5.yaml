@@ -1,0 +1,26 @@
+protocol_id: evidence-engine-v0.3.5-fresh-semantic-gate
+version: 1.0.0-frozen
+frozen_at: 2026-08-17
+status: preregistered_not_run
+selection:
+  company_count: {minimum: 5, target: 8}
+  document_count: {minimum: 10, target: 16}
+  company_rule: listed operating companies absent from every 0.3.x corpus, benchmark, inspection and diagnostic manifest
+  document_rule: genuine annual/interim/results documents absent from every 0.3.x hash and URL registry
+  outcome_blind: true
+  stratification: [risk_sections, legal_or_accounting_notes, tables, multi_column, mixed_current_forward_language]
+inspection:
+  candidate_selection: freeze all deterministic candidates before semantic calls
+  annotation: source-first factual inspection without semantic decision visibility
+  statuses: [supported, unsupported, ambiguous]
+  provenance_check: exact immutable evidence pointer and source hash
+thresholds:
+  precision_minimum: 0.95
+  supported_event_retention_minimum: 0.90
+  severe_false_positives_maximum: 0
+  attribution_errors_maximum: 0
+  provenance_completeness_minimum: 1.0
+stopping_rule: one execution only; preserve pass or failure; no tuning or rerun in this task
+pass_status: EVIDENCE_ENGINE_0_3_5_TECHNICALLY_READY_FOR_CROSS_REVIEW
+fail_status: EVIDENCE_ENGINE_0_3_5_NOT_TECHNICALLY_READY
+

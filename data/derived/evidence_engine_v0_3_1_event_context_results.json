@@ -1,0 +1,89 @@
+{
+  "admissible_for_model2_gate": false,
+  "after": {
+    "duplicate_events": 0,
+    "likely_false_positives": 0,
+    "piotw_missed_ai_events": 0,
+    "semantic_numerical_agreement": 13,
+    "severe_event_disagreements": 0,
+    "severe_numerical_disagreements": 0
+  },
+  "after_event_classifications": {
+    "AI_REVIEW_MISSING": {
+      "count": 93,
+      "rate": 0.8611111111111112,
+      "total": 108
+    },
+    "AMBIGUOUS": {
+      "count": 1,
+      "rate": 0.009259259259259259,
+      "total": 108
+    },
+    "EVENT_AGREEMENT": {
+      "count": 14,
+      "rate": 0.12962962962962962,
+      "total": 108
+    }
+  },
+  "before": {
+    "duplicate_events": 2,
+    "likely_false_positives": 21,
+    "piotw_missed_ai_events": 14,
+    "semantic_numerical_agreement": 11,
+    "severe_event_disagreements": 12,
+    "severe_numerical_disagreements": 2
+  },
+  "development_targets": {
+    "duplicate_events": 1,
+    "likely_false_positives": 7,
+    "piotw_missed_ai_events": 5,
+    "semantic_numerical_agreement": 13,
+    "severe_event_disagreements": 5,
+    "severe_numerical_disagreements": 0
+  },
+  "formal_gold": false,
+  "fresh_sanity_sample": {
+    "accepted_events": 61,
+    "ambiguous_events": 27,
+    "candidates": 165,
+    "companies": 3,
+    "deduplication_links": 13,
+    "document_ids": [
+      "ee03-amd-0000002488-23-000047",
+      "ee03-amd-0000002488-24-000163",
+      "ee03-cat-0000018230-23-000011",
+      "ee03-cat-0000018230-24-000053",
+      "ee03-de-0001558370-23-019812"
+    ],
+    "documents": 5,
+    "event_rejections": 64,
+    "false_positive_root_causes": {
+      "historical_completed_event": 10,
+      "hypothetical_risk": 1,
+      "table_fragment": 6,
+      "taxonomy_overreach": 1,
+      "wrong_context": 1
+    },
+    "manual_classifications": {
+      "ambiguous": 5,
+      "false_positive": 19,
+      "supported": 37
+    },
+    "manual_inspection_status": "complete_development_qa",
+    "manually_inspected": 61
+  },
+  "methodological_status": "development_diagnostic_only",
+  "model2_trained": false,
+  "official_readiness_status": "NOT READY",
+  "outcomes_accessed": false,
+  "protected_artifacts": 12,
+  "targets_met": {
+    "duplicate_events": true,
+    "likely_false_positives": true,
+    "piotw_missed_ai_events": true,
+    "semantic_numerical_agreement": true,
+    "severe_event_disagreements": true,
+    "severe_numerical_disagreements": true
+  },
+  "version": "0.3.1"
+}

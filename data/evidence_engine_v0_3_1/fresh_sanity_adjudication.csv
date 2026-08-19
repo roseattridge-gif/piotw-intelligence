@@ -1,0 +1,62 @@
+row_index,classification,root_cause,notes
+1,supported,,Actual supply-chain constraint.
+2,supported,,Actual disruption affecting company demand/supply chain.
+3,false_positive,hypothetical_risk,Conditional inability to offset possible commodity cost increases.
+4,false_positive,taxonomy_overreach,Manufacturing costs and impairment wording does not itself establish restructuring.
+5,supported,,Explicit forward sales-growth expectation retained as planned.
+6,ambiguous,generic_boilerplate,Monitoring external factors may be generic rather than an experienced condition.
+7,supported,,Actual regional sales increase.
+8,supported,,Actual regional sales increase.
+9,supported,,Actual regional sales increase.
+10,supported,,Actual regional sales increase.
+11,false_positive,historical_completed_event,Prior-year restructuring cost disclosure.
+12,false_positive,historical_completed_event,Prior-year restructuring cost disclosure.
+13,false_positive,historical_completed_event,Prior-year restructuring cost description.
+14,supported,,Actual regional sales increase.
+15,supported,,Actual regional sales increase.
+16,supported,,Actual sales increase.
+17,supported,,Actual application sales increase.
+18,supported,,Actual demand increase.
+19,supported,,Actual application sales increase.
+20,false_positive,historical_completed_event,Prior-year restructuring cost contribution.
+21,supported,,Current divestiture action under restructuring section.
+22,supported,,Current-period restructuring cost plan tied to divestiture.
+23,supported,,Explicit planned restructuring actions.
+24,false_positive,historical_completed_event,Benefit attributed to prior restructuring actions.
+25,false_positive,historical_completed_event,Historical multi-year restructuring table.
+26,false_positive,historical_completed_event,Historical programme-cost table note.
+27,false_positive,historical_completed_event,Historical 2022 actions.
+28,false_positive,historical_completed_event,Historical 2022/2021 accounting treatment.
+29,false_positive,table_fragment,Historical segment-profit table fragment.
+30,supported,,Current comparative restructuring table includes current period.
+31,supported,,Current-period restructuring programme cost definition.
+32,supported,,Current-period divestiture restructuring costs.
+33,supported,,Explicit current restructuring-cost outlook.
+34,supported,,Explicit capex outlook retained as planned investment.
+35,ambiguous,generic_boilerplate,Monitoring factors does not establish experienced disruption.
+36,supported,,Actual regional sales increase.
+37,supported,,Actual application sales increase.
+38,supported,,Actual application sales increase.
+39,ambiguous,source_layout_issue,Truncated narrative prevents confident event interpretation.
+40,supported,,Actual regional sales increase.
+41,supported,,Actual regional sales increase.
+42,supported,,Current-period restructuring cost increase.
+43,supported,,Actual regional sales increase.
+44,supported,,Actual application sales increase.
+45,supported,,Actual application sales increase.
+46,supported,,Actual application sales increase.
+47,ambiguous,source_layout_issue,Truncated corporate-cost passage lacks direct support.
+48,supported,,Explicit current restructuring-cost plan.
+49,false_positive,historical_completed_event,Benefit attributed to prior restructuring actions.
+50,supported,,Actual segment backlog decrease.
+51,ambiguous,source_layout_issue,Mixed adjustment footnote combines current and historical items.
+52,false_positive,table_fragment,Malformed adjusted-results table fragment.
+53,false_positive,table_fragment,Tax-rate table fragment with unrelated restructuring token.
+54,false_positive,table_fragment,Tax-rate table fragment with unrelated restructuring token.
+55,false_positive,table_fragment,Production table fragment does not prove labour constraint.
+56,supported,,Direct current manufacturing cost-reduction activity.
+57,supported,,Company says mitigation addresses potential and actual disruptions.
+58,supported,,Actual backlog and demand decline.
+59,supported,,Actual disruption is stated before forward-looking continuation language.
+60,false_positive,table_fragment,Outlook table fragment does not prove supply constraint.
+61,false_positive,wrong_context,Troubled-debt accounting term is not company restructuring.

@@ -1,0 +1,65 @@
+{
+  "version": "evidence-engine-v0.3.6-architecture-phase",
+  "scientific_status": "DEVELOPMENT_CONTAMINATED_NOT_VALIDATION",
+  "source_label_sha256": "4f1f51286a5ca5b3b7dd0cb28fb9d4d61e057e1c7a8d301a44ce140acc87d346",
+  "failure_matrix_sha256": "7cc6cf79fec324fd8c073a7b519c878a030c2b05c6d91fb13507e99626ffd643",
+  "v0_3_5_failure_counts": {
+    "false_positive": 20,
+    "false_negative": 61
+  },
+  "v0_3_5_root_causes": {
+    "actuality_or_timing": 11,
+    "taxonomy_identity_or_insufficient_context": 2,
+    "over_rejection_subject_ambiguous": 33,
+    "over_rejection_wrong_entity": 3,
+    "over_rejection_insufficient_support": 21,
+    "over_rejection_third_party_only": 1,
+    "over_rejection_accounting_definition": 1,
+    "polarity_cost_growth_not_demand_growth": 5,
+    "over_rejection_source_fragment_ambiguous": 1,
+    "over_rejection_provider_failure": 1,
+    "taxonomy_identity_product_or_programme_name": 1,
+    "target_attribution_third_party_customer": 1
+  },
+  "representative_family_proof": {
+    "overall": {
+      "cases": 150,
+      "true_rejection": 39,
+      "true_positive": 111
+    },
+    "by_family": {
+      "supply_chain_resilience": {
+        "cases": 16,
+        "true_rejection": 6,
+        "true_positive": 10
+      },
+      "workforce": {
+        "cases": 8,
+        "true_positive": 2,
+        "true_rejection": 6
+      },
+      "restructuring_cost_action": {
+        "cases": 32,
+        "true_rejection": 14,
+        "true_positive": 18
+      },
+      "leadership_change_execution": {
+        "cases": 6,
+        "true_positive": 6
+      },
+      "demand_growth": {
+        "cases": 86,
+        "true_positive": 73,
+        "true_rejection": 13
+      },
+      "delivery_capacity_sites": {
+        "cases": 2,
+        "true_positive": 2
+      }
+    }
+  },
+  "fresh_validation_run": false,
+  "model2_trained": false,
+  "outcomes_accessed": false,
+  "official_model2_readiness": "NOT READY"
+}

@@ -1,0 +1,142 @@
+{
+  "authorised_calls_ran": true,
+  "benchmark": {
+    "ambiguous": 230,
+    "cases": 230,
+    "decision_accuracy": 0.23478260869565218,
+    "supported_retained": 0,
+    "supported_retention": 0.0,
+    "supported_total": 80
+  },
+  "brand_new_unseen": {
+    "accepted": 0,
+    "accepted_inspected": 0,
+    "ambiguous": 186,
+    "ambiguous_labels_accepted": 0,
+    "attribution_errors": 0,
+    "cache_hits": 15,
+    "candidates": 459,
+    "deterministic_rejects": 158,
+    "documents": 9,
+    "false_positive_total": 1,
+    "false_positives": 0,
+    "inspected": 30,
+    "precision": null,
+    "provenance_completeness": 0.0,
+    "rejected": 0,
+    "semantic_calls": 171,
+    "severe_false_positives": 0,
+    "supported": 0,
+    "supported_retained": 0,
+    "supported_retention": 0.0,
+    "supported_total": 29
+  },
+  "cross_review_pack_created": false,
+  "extractor_frozen": false,
+  "gate": {
+    "dominant_failure_class": "MODEL_PROVIDER_EXECUTION_FAILURE",
+    "passed": false,
+    "technical_status": "NOT TECHNICALLY READY"
+  },
+  "gm_honeywell_hp": {
+    "accepted": 0,
+    "accepted_inspected": 0,
+    "ambiguous": 129,
+    "ambiguous_labels_accepted": 0,
+    "attribution_errors": 0,
+    "cache_hits": 18,
+    "candidates": 363,
+    "deterministic_rejects": 141,
+    "documents": 9,
+    "false_positive_total": 11,
+    "false_positives": 0,
+    "inspected": 30,
+    "precision": null,
+    "provenance_completeness": 0.0,
+    "rejected": 0,
+    "semantic_calls": 111,
+    "severe_false_positives": 0,
+    "supported": 0,
+    "supported_retained": 0,
+    "supported_retention": 0.0,
+    "supported_total": 13
+  },
+  "hashes": {
+    "config": "d04c6ef8d0a527de0729436b8c365c0f5b7781ec680d78924e301ac3adaa8f31",
+    "decision_logic": "629b2b41f45c0bb2091bfcb09aa24efb71b270c041d9f0b24a2147b594b9146d",
+    "prompt": "a243352f9e75a050d9467cf501d9a0ecfa2827d72f94ff0f27a0b872e2092f27",
+    "schema_provider": "3413e257a970ac4a6b5a33efaa21944b6fa8c5d486c6fca5a30b29cf704a1a44",
+    "taxonomy": "d304d385649b341ba5d2394f77fd8dfc91fccce9822fb34b54372a791a372d6c"
+  },
+  "live_costs": {
+    "average_latency_ms_per_call": 912.2337461300309,
+    "average_latency_ms_per_report": 21826.037037037036,
+    "calls": 646,
+    "cost_per_call_usd": 0.0,
+    "cost_per_report_usd": 0.0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_cost_usd": 0.0,
+    "total_tokens": 0
+  },
+  "max_output_tokens": 500,
+  "model": "gpt-5-mini",
+  "model2_trained": false,
+  "model_snapshot": null,
+  "official_model2_readiness": "NOT READY",
+  "outcomes_accessed": false,
+  "previous_unseen": {
+    "accepted": 0,
+    "accepted_inspected": 0,
+    "ambiguous": 46,
+    "ambiguous_labels_accepted": 0,
+    "attribution_errors": 0,
+    "cache_hits": 0,
+    "candidates": 169,
+    "deterministic_rejects": 97,
+    "documents": 3,
+    "false_positive_total": 12,
+    "false_positives": 0,
+    "inspected": 30,
+    "precision": null,
+    "provenance_completeness": 0.0,
+    "rejected": 0,
+    "semantic_calls": 46,
+    "severe_false_positives": 0,
+    "supported": 0,
+    "supported_retained": 0,
+    "supported_retention": 0.0,
+    "supported_total": 17
+  },
+  "prompt_version": "semantic-event-v0.3.4",
+  "protected_artifacts": 12,
+  "provider": "openai",
+  "provider_execution": {
+    "failed_calls": 646,
+    "http_errors": 596,
+    "response_parsing_index_errors": 50,
+    "successful_structured_decisions": 0
+  },
+  "run_completed_at": "2026-08-16T08:35:31.211240+00:00",
+  "run_started_at": "2026-08-16T08:25:34.419962+00:00",
+  "schema_version": "semantic-schema-v0.3.4",
+  "six_document_ai_diagnostic": {
+    "classifications": {
+      "AMBIGUOUS": {
+        "count": 1,
+        "rate": 0.06666666666666667,
+        "total": 15
+      },
+      "PIOTW_MISSED_EVENT": {
+        "count": 14,
+        "rate": 0.9333333333333333,
+        "total": 15
+      }
+    },
+    "duplicates": 0,
+    "likely_false_positives": 0,
+    "missed_ai_events": 14
+  },
+  "temperature": null,
+  "version": "0.3.4"
+}

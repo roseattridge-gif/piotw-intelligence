@@ -1,0 +1,6 @@
+The user message contains an indexed array of independent semantic-event candidates.
+Apply the unchanged evidence-verification rules separately to every candidate.
+Do not use one candidate as evidence or context for another candidate.
+Return exactly one decision for every supplied candidate_index, preserving each index.
+For an accepted item, exact_support_span must be copied from that item's own context.
+Return only the required JSON object containing the decisions array.

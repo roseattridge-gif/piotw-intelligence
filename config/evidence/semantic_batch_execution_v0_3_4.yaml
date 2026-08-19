@@ -1,0 +1,19 @@
+version: batch-api-execution-v0.3.4-output-repair-1
+effective_date: 2026-08-17
+provider: openai
+endpoint: /v1/responses
+model: gpt-5-mini
+completion_window: 24h
+request_unit: one_candidate_per_request
+max_output_tokens: 2000
+previous_max_output_tokens: 500
+change_class: provider_execution_repair
+change_reason: >-
+  The first synthetic Batch API preflight completed both provider requests, but
+  the REJECT response was truncated and could not be parsed as JSON. This change
+  increases only the per-request output ceiling; prompt, schema, model, taxonomy,
+  candidates, rules, thresholds, and scientific samples remain unchanged.
+scientific_batch_cost_guard_usd: 5.0
+formal_gold: false
+outcomes_accessed: false
+model2_trained: false

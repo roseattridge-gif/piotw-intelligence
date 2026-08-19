@@ -1,0 +1,48 @@
+version: 0.1.0
+groups:
+  financial_pressure:
+    loss_making_unit: {patterns: ["loss.making (?:division|business|unit|segment)", "(?:division|business|unit|segment) (?:reported|made) (?:an? )?operating loss"], deterministic_confidence: 0.90}
+    margin_deterioration: {patterns: ["margin (?:declined|fell|reduced|deteriorated)"], deterministic_confidence: 0.90}
+    cash_deterioration: {patterns: ["cash (?:flow|generation|conversion) (?:declined|fell|weakened)"], deterministic_confidence: 0.88}
+    leverage_increase: {patterns: ["leverage (?:increased|rose|higher)"], deterministic_confidence: 0.88}
+    working_capital_pressure: {patterns: ["working.capital (?:pressure|outflow|absorption)"], deterministic_confidence: 0.88}
+    liquidity_concern: {patterns: ["liquidity (?:concern|constraint|pressure)"], deterministic_confidence: 0.90}
+    refinancing: {patterns: ["refinanc(?:e|ed|ing)"], deterministic_confidence: 0.86}
+    covenant_concern: {patterns: ["covenant (?:concern|pressure|breach|waiver)"], deterministic_confidence: 0.92}
+  operational_pressure:
+    demand_weakness: {patterns: ["demand (?:weakened|weakness|declined|fell|softened)", "lower demand"], deterministic_confidence: 0.88}
+    supply_chain_constraint: {patterns: ["supply.chain (?:constraint|disruption|shortage|pressure)"], deterministic_confidence: 0.90}
+    labour_constraint: {patterns: ["labou?r (?:constraint|shortage|scarcity)"], deterministic_confidence: 0.90}
+    inflation_pressure: {patterns: ["inflation(?:ary)? pressure", "cost inflation"], deterministic_confidence: 0.86}
+    destocking: {patterns: ["destocking"], deterministic_confidence: 0.96}
+    customer_weakness: {patterns: ["customer (?:weakness|demand declined|orders declined)"], deterministic_confidence: 0.86}
+    operational_disruption: {patterns: ["operational disruption", "production disruption"], deterministic_confidence: 0.90}
+    capacity_mismatch: {patterns: ["excess capacity", "underutili[sz]ed capacity", "capacity mismatch"], deterministic_confidence: 0.90}
+  intervention:
+    cost_reduction: {patterns: ["cost.reduction", "cost.saving programme"], deterministic_confidence: 0.88}
+    restructuring: {patterns: ["restructur(?:e|ed|ing)"], deterministic_confidence: 0.90}
+    efficiency_programme: {patterns: ["efficiency programme"], deterministic_confidence: 0.92}
+    simplification: {patterns: ["simplification programme", "simplify operations"], deterministic_confidence: 0.88}
+    transformation: {patterns: ["transformation programme", "business transformation"], deterministic_confidence: 0.86}
+    footprint_reduction: {patterns: ["footprint reduction", "reduce(?:d|ing)? (?:the )?footprint"], deterministic_confidence: 0.90}
+    site_closure: {patterns: ["site closure", "clos(?:e|ed|ing) (?:the )?(?:site|plant|factory)"], deterministic_confidence: 0.92}
+    capacity_reduction: {patterns: ["capacity reduction", "reduce(?:d|ing)? capacity"], deterministic_confidence: 0.90}
+    redundancy: {patterns: ["redundan(?:cy|cies|t)"], deterministic_confidence: 0.94}
+    workforce_reduction: {patterns: ["workforce reduction", "reduce(?:d|ing)? headcount"], deterministic_confidence: 0.90}
+  expansion:
+    hiring: {patterns: ["hiring programme", "recruit(?:ed|ing)"], deterministic_confidence: 0.82}
+    capex_growth: {patterns: ["capital expenditure (?:increased|rose)", "capex (?:increased|rose)"], deterministic_confidence: 0.88}
+    new_facility: {patterns: ["new (?:facility|site|plant|factory)"], deterministic_confidence: 0.90}
+    capacity_expansion: {patterns: ["capacity expansion", "expand(?:ed|ing)? capacity"], deterministic_confidence: 0.90}
+    geographic_expansion: {patterns: ["geographic expansion", "entered (?:a )?new market"], deterministic_confidence: 0.86}
+    major_investment: {patterns: ["major investment", "investment programme"], deterministic_confidence: 0.84}
+    skills_investment: {patterns: ["skills investment", "invest(?:ed|ing) in (?:people|skills|training)"], deterministic_confidence: 0.84}
+  contrary_strength:
+    margin_improvement: {patterns: ["margin (?:improved|increased|rose|expanded)"], deterministic_confidence: 0.90}
+    cash_improvement: {patterns: ["cash (?:flow|generation|conversion) (?:improved|increased|rose|strengthened)"], deterministic_confidence: 0.88}
+    deleveraging: {patterns: ["deleverag(?:e|ed|ing)", "net debt (?:declined|fell|reduced)"], deterministic_confidence: 0.90}
+    order_book_strength: {patterns: ["(?:strong|record|growing) order.book"], deterministic_confidence: 0.90}
+    demand_growth: {patterns: ["demand (?:grew|growth|increased|strengthened)"], deterministic_confidence: 0.88}
+    liquidity_strength: {patterns: ["strong liquidity", "liquidity (?:improved|increased)"], deterministic_confidence: 0.90}
+    recovery_language: {patterns: ["recovery (?:continued|strengthened|underway)", "returned to growth"], deterministic_confidence: 0.82}
+    growth_language: {patterns: ["revenue growth", "strong growth"], deterministic_confidence: 0.80}

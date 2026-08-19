@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-08-18",
+  "careers": {
+    "cadence": "P2D",
+    "company_sources": 12,
+    "snapshot_rows": 24,
+    "timepoints_per_company": 2,
+    "healthy_sources": 11,
+    "failed_sources": 1,
+    "open_job_identities": 2619,
+    "persistent_or_current_without_miss": 2560,
+    "absent_once_pending_confirmation": 59,
+    "confirmed_closed": 0,
+    "feature_readiness": "INSUFFICIENT_LONGITUDINAL_DEPTH"
+  },
+  "procurement": {
+    "cadence": "P1D",
+    "successful_collection_runs": 1,
+    "parsed_records": 158,
+    "stable_release_streams": 111,
+    "immutable_release_versions": 157,
+    "named_suppliers_pending_review": 86,
+    "approved_entity_aliases": 0,
+    "feature_readiness": "INSUFFICIENT_HISTORY_AND_UNRESOLVED_ENTITIES"
+  },
+  "predictive_interpretation": false,
+  "official_model2_readiness": "NOT READY"
+}

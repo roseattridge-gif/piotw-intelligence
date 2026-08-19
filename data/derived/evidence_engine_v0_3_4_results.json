@@ -1,0 +1,131 @@
+{
+  "admissible_for_model2_gate": false,
+  "cost": {
+    "actual_api_cost_usd": 0,
+    "estimated_cost_usd_per_call": 0.00039,
+    "estimated_cost_usd_per_report": 0.00806,
+    "estimated_tokens_per_call": {
+      "input": 600,
+      "output": 120
+    },
+    "observed_model_latency_ms": null,
+    "semantic_calls_per_report": 20.666666666666668
+  },
+  "formal_gold": false,
+  "gm_honeywell_hp": {
+    "accepted": 108,
+    "ambiguous": 3,
+    "ambiguous_retained": 3,
+    "before_precision": 0.4333,
+    "candidates": 363,
+    "deterministic_rejects": 141,
+    "documents": 9,
+    "false_positives_retained": 4,
+    "input_tokens": 0,
+    "labelled_rows": 30,
+    "latency_ms": 0,
+    "output_tokens": 0,
+    "retained_rows": 20,
+    "semantic_calls": 129,
+    "semantic_rejected": 18,
+    "supported_retained": 13,
+    "supported_retention": 1.0,
+    "supported_total": 13
+  },
+  "hashes": {
+    "final_decision_logic": "629b2b41f45c0bb2091bfcb09aa24efb71b270c041d9f0b24a2147b594b9146d",
+    "semantic_config": "d04c6ef8d0a527de0729436b8c365c0f5b7781ec680d78924e301ac3adaa8f31",
+    "semantic_prompt": "a243352f9e75a050d9467cf501d9a0ecfa2827d72f94ff0f27a0b872e2092f27",
+    "semantic_schema_and_provider": "87a8f94615e4126e7f99515cab74f4789f4f7f37c2ad022c425aa99d18378c1a",
+    "taxonomy": "d304d385649b341ba5d2394f77fd8dfc91fccce9822fb34b54372a791a372d6c"
+  },
+  "methodological_status": "development_qa_only",
+  "model2_trained": false,
+  "new_unseen_sample": {
+    "accepted": 182,
+    "accepted_inspected": 30,
+    "ambiguous": 0,
+    "candidates": 459,
+    "companies": 3,
+    "deterministic_rejects": 158,
+    "diagnostic_ambiguous": 0,
+    "diagnostic_precision": 0.9666666666666667,
+    "documents": 9,
+    "false_positives": 1,
+    "input_tokens": 0,
+    "latency_ms": 0,
+    "output_tokens": 0,
+    "provenance_completeness": 1.0,
+    "semantic_calls": 186,
+    "semantic_rejected": 4,
+    "severe_false_positives": 0,
+    "supported": 29
+  },
+  "official_readiness_status": "NOT READY",
+  "outcomes_accessed": false,
+  "previous_unseen": {
+    "accepted": 45,
+    "ambiguous": 0,
+    "ambiguous_retained": 0,
+    "before_precision": 0.5667,
+    "candidates": 169,
+    "deterministic_rejects": 97,
+    "documents": 3,
+    "false_positives_retained": 0,
+    "input_tokens": 0,
+    "labelled_rows": 30,
+    "latency_ms": 0,
+    "output_tokens": 0,
+    "retained_rows": 15,
+    "semantic_calls": 46,
+    "semantic_rejected": 1,
+    "supported_retained": 15,
+    "supported_retention": 0.8823529411764706,
+    "supported_total": 17
+  },
+  "protected_artifacts": 12,
+  "release": {
+    "frozen": false,
+    "reason": "No authorised model-backed unseen evaluation was completed"
+  },
+  "semantic_benchmark": {
+    "rows": 230,
+    "sha256": "74d2bccbc4624af5e8db6387c85b0f1c243aa4a68b36aa4392963943d61f65d6"
+  },
+  "semantic_verifier": {
+    "actual_model_calls": 0,
+    "model": "semantic-rules-v0.3.4",
+    "model_backed": false,
+    "prompt_version": "semantic-event-v0.3.4",
+    "provider": "deterministic_semantic_development"
+  },
+  "six_document_ai_diagnostic": {
+    "classifications": {
+      "AI_REVIEW_MISSING": {
+        "count": 84,
+        "rate": 0.8484848484848485,
+        "total": 99
+      },
+      "AMBIGUOUS": {
+        "count": 1,
+        "rate": 0.010101010101010102,
+        "total": 99
+      },
+      "EVENT_AGREEMENT": {
+        "count": 14,
+        "rate": 0.1414141414141414,
+        "total": 99
+      }
+    },
+    "duplicates": 0,
+    "likely_false_positives": 0,
+    "missed_ai_events": 0,
+    "severe_disagreements": 0
+  },
+  "technical_gate": {
+    "model_backed_unseen_required": true,
+    "passed": false
+  },
+  "technical_status": "NOT TECHNICALLY READY",
+  "version": "0.3.4"
+}

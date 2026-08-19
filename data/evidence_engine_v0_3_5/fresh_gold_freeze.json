@@ -1,0 +1,11 @@
+{
+  "admissible_for_model2_gate": false,
+  "formal_independent_human_gold": false,
+  "freeze_version": "evidence-engine-v0.3.5-ai-source-first-gold-v1",
+  "frozen_at": "2026-08-18",
+  "label_sha256": "4f1f51286a5ca5b3b7dd0cb28fb9d4d61e057e1c7a8d301a44ce140acc87d346",
+  "labels": 156,
+  "schema_sha256": "76e891265501e09e200b469c8994f535772698b02936ae4485bd9449e207286f",
+  "semantic_v035_executed_before_label_freeze": false,
+  "source_candidate_freeze_sha256": "e0ce65ba3b9dc208602c6e2d01dd0f833d367c501dce6a3c3164215335a47a31"
+}
