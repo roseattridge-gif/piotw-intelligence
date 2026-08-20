@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 from collections import Counter
 from datetime import UTC, datetime
 from itertools import pairwise
+from pathlib import Path
 from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
@@ -21,6 +22,7 @@ from piotw_conditions.qualification_v01 import (
     PersistenceContext,
     assess_corroboration,
 )
+from piotw_evidence.procurement_reliability_v01 import enforce_feature_roles
 
 AvailabilityState = Literal["AVAILABLE", "UNAVAILABLE", "FAILED", "NO_HISTORY", "STALE"]
 RelationshipType = Literal["INDEPENDENT_SUPPORT", "SAME_SOURCE_REPETITION", "DERIVATIVE_DUPLICATE", "CONTRADICTS"]
@@ -263,7 +265,13 @@ class EstateConditionAdapter(EvidenceFamilyAdapter):
 
 class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
     family_id = "contracts_procurement"
-    adapter_version = "procurement-family-adapter-v0.2"
+    adapter_version = "procurement-family-adapter-v0.3"
+
+    def __init__(self, feature_role_policy: dict[str, object] | None = None) -> None:
+        if feature_role_policy is None:
+            policy_path = Path(__file__).resolve().parents[1] / "config/conditions/procurement_feature_role_policy_v0_1.json"
+            feature_role_policy = json.loads(policy_path.read_text())
+        self.feature_role_policy = feature_role_policy
 
     def adapt(self, *, company_id: str, entity_scope: str, analysis_cutoff: datetime,
               records: list[EvidenceFamilyRecord]) -> EvidenceFamilyEnvelope:
@@ -287,43 +295,39 @@ class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
             unit=str(row.values.get("currency") or "unknown"),statement=f"A public award notice named the resolved company entity for {row.values.get('category','an unspecified category')}.") for row in approved]
         periods=Counter(str(row.values.get("comparison_period") or row.publication_or_effective_at.strftime("%Y-%m")) for row in approved)
         categories=Counter(str(row.values.get("category") or "unknown") for row in approved)
+        buyers=Counter(str(row.values.get("buyer") or "unknown") for row in approved)
         comparable=[row for row in approved if row.values.get("award_value") is not None and row.values.get("currency")]
-        features={"award_count_by_period":dict(sorted(periods.items())),"category_mix":dict(categories),
+        features={"award_count_by_period":dict(sorted(periods.items())),"buyer_breadth":len(buyers),
+                  "buyer_mix":dict(buyers),"category_mix":dict(categories),
                   "disclosed_value_by_currency":dict(Counter()),"new_supplier_appearances":None,"repeat_supplier_count":None,
                   "history_depth_periods":len(periods),"source_policy_ids":sorted(source_policies),
                   "deduplicated_record_count":len(approved),
                   "candidate_relationships":_candidate_relationships(approved)}
         for row in comparable:
             currency=str(row.values["currency"]); features["disclosed_value_by_currency"][currency]=features["disclosed_value_by_currency"].get(currency,0)+float(row.values["award_value"])
+        feature_values = {
+            "raw_award_count": dict(sorted(periods.items())) if periods else None,
+            "buyer_breadth": len(buyers) if buyers else None,
+            "award_category_mix": dict(categories) if categories else None,
+            "disclosed_contract_value": features["disclosed_value_by_currency"] or None,
+            "supplier_concentration_diversification": None,
+            "new_strategic_relationship": None,
+            "persistent_procurement_theme": dict(categories) if any(value >= 2 for value in categories.values()) else None,
+        }
+        features["feature_role_policy_id"] = self.feature_role_policy["policy_id"]
+        features["feature_roles"] = self.feature_role_policy["roles"]
+        features["role_enforcement"] = enforce_feature_roles(
+            feature_values, self.feature_role_policy["roles"], external_candidate_present=False
+        )
+        # The reliability study retired raw publication-count movement as an
+        # independent condition feature. Corroboration-only features are exposed
+        # as facts but require a separately established candidate from another
+        # source family, so this adapter emits no standalone candidate.
         candidates=[]
-        if len(periods)>=2:
-            ordered=sorted(periods.items()); values=[float(value) for _,value in ordered]; change=values[-1]-values[0]
-            if change:
-                changes=[right-left for left,right in pairwise(values)]
-                signs={1 if item>0 else -1 for item in changes if item}
-                consistent_intervals=len([item for item in changes if item]) if len(signs)==1 else 0
-                ctype="procurement_activity_acceleration" if change>0 else "procurement_activity_deceleration"
-                evidence_ids=[eid for item in observations for eid in item.evidence_ids]
-                candidates.append(ConditionCandidate(candidate_id=_id("candidate",[company_id,ctype,evidence_ids]),company_id=company_id,
-                    entity_scope=entity_scope,analysis_cutoff=_utc(analysis_cutoff),candidate_type=ctype,
-                    dimensions=["Supply Chain & Resilience","Change & Execution"],observation_ids=[o.observation_id for o in observations],
-                    evidence_ids=evidence_ids,evidence_families=[self.family_id],factual_summary=f"Resolved public award records moved from {int(values[0])} to {int(values[-1])} across {len(values)} publication periods.",
-                    proposed_mechanism="Published public procurement activity change",history=_history([
-                        _observation(next(row for row in approved if str(row.values.get("comparison_period") or row.publication_or_effective_at.strftime("%Y-%m")) == period),
-                            value=float(value), unit="award_records", statement=f"{value} resolved award record(s) were published in {period}.")
-                        for period, value in ordered
-                    ],4),
-                    denominator=DenominatorContext(available=values[0]>0,value=values[0],unit="award_records",evidence_ids=observations[0].evidence_ids,quality="MEDIUM"),
-                    magnitude=MagnitudeContext(absolute_change=change,relative_change=change/values[0] if values[0] else None,unit="award_records"),
-                    persistence=PersistenceContext(
-                        status="PERSISTENT" if consistent_intervals >= 2 else "REVERSED" if len(signs)>1 else "ONE_OFF",
-                        consistent_intervals=consistent_intervals, total_intervals=len(changes)),corroboration=assess_corroboration(observations),
-                    data_quality=DataQualityContext(status="GOOD",source_health=["healthy"],stale=False,coverage_limitations=["Public awards are a partial view of company commercial activity."]),
-                    historical_context_status="INSUFFICIENT_EVIDENCE",peer_context_status="UNAVAILABLE",entity_scope_consistent=all(o.entity_scope==entity_scope for o in observations),
-                    contradiction_present=False,factual_features=features,adapter_version=self.adapter_version))
         limits=[] if approved else ["No source record has an approved company/entity resolution."]
         if len(periods)<4: limits.append("Fewer than four comparable publication periods are available.")
-        coverage=self._coverage(approved,limitations=limits,qualification_ready=bool(candidates))
+        limits.append("Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.")
+        coverage=self._coverage(approved,limitations=limits,qualification_ready=False)
         return EvidenceFamilyEnvelope(family_id=self.family_id,adapter_version=self.adapter_version,company_id=company_id,entity_scope=entity_scope,
             cutoff=_utc(analysis_cutoff),availability=coverage.availability,source_health=coverage.source_health,raw_evidence_references=[r.source_record_id for r in approved],
             observations=observations,longitudinal_features=features,candidates=candidates,missingness=limits,

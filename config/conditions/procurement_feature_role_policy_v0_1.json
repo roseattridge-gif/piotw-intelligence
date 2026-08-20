@@ -1,0 +1,30 @@
+{
+  "policy_id": "piotw-procurement-feature-role-policy-v0.1-development",
+  "scientifically_validated": false,
+  "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+  "roles": {
+    "raw_award_count": "RETIRED",
+    "buyer_breadth": "CORROBORATION ONLY",
+    "award_category_mix": "CORROBORATION ONLY",
+    "disclosed_contract_value": "FACTUAL ONLY",
+    "supplier_concentration_diversification": "FACTUAL ONLY",
+    "new_strategic_relationship": "CORROBORATION ONLY",
+    "persistent_procurement_theme": "CORROBORATION ONLY"
+  },
+  "enforcement": {
+    "independent_condition_roles": ["INDEPENDENT CONDITION ELIGIBLE"],
+    "retired_features_must_not_emit_candidates": true,
+    "corroboration_only_requires_independent_external_candidate": true,
+    "factual_only_must_not_emit_candidates_or_corroboration": true,
+    "missing_notices_are_not_zero": true
+  },
+  "rationale": {
+    "raw_award_count": "Retired because buyer-driven publication, incomplete coverage, framework lot multiplication and notice-version behaviour prevent notice count from serving as a company-activity denominator.",
+    "buyer_breadth": "May corroborate an externally established commercial breadth condition when entity resolution and buyer identity are complete; it cannot qualify one alone.",
+    "award_category_mix": "May corroborate an externally established capability or investment theme only when category classification is usable and repeated; it cannot qualify one alone.",
+    "disclosed_contract_value": "Values often describe framework ceilings, whole-lot values or multi-supplier totals and are frequently absent; preserve as source-qualified fact only.",
+    "supplier_concentration_diversification": "The supplier-side study cannot measure the company's own purchasing concentration; factual only until a buyer-side, denominator-complete dataset exists.",
+    "new_strategic_relationship": "A clearly named relationship may corroborate another source-backed condition, but materiality and company-wide significance are not established by the notice alone.",
+    "persistent_procurement_theme": "Repeated independently awarded themes may corroborate another source-backed condition, subject to deduplication and category coverage; they do not independently establish operational change."
+  }
+}

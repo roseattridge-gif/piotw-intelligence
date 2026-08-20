@@ -101,3 +101,7 @@ Real primary-source histories now exercise all four envelopes across seven devel
 The shared envelope preserved source publication time separately from the operational effective/reporting period. Cutoff eligibility now uses information availability, preventing retrospective annual-report tables from entering an earlier historical run.
 
 The v0.2 extension introduced `piotw-procurement-source-policy-find-a-tender-v0.1-development`: contract-award notices only, exact legal-identifier resolution, calendar publication periods and underlying-award deduplication. This makes the factual record reproducible but does not make notice-count changes a trustworthy operational condition. Procurement remains factual-only pending a coverage-aware policy study.
+
+## Procurement signal reliability decision
+
+The v0.1 reliability study completed that coverage-aware review across six exact-identifier entities. Raw award-count acceleration is retired because buyer-driven publication, missing periods, framework-lot multiplication and notice versions invalidate it as a company-activity denominator. Buyer breadth, category mix, new relationships and persistent themes are permitted only as corroboration of a separately established condition. Disclosed values and supplier concentration/diversification are factual context only. The factual procurement layer remains useful; it is no longer allowed to independently qualify an operational condition.

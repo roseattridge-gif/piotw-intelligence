@@ -1,0 +1,1215 @@
+{
+  "schema_version": "piotw-procurement-signal-reliability-results-v0.1",
+  "methodological_status": "DEVELOPMENT_SOURCE_FIRST_RELIABILITY_STUDY_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "protocol_sha256": "c80fa863c4bd12102b4a84fa94924b510000482255df4f6ff76acf0968063ea7",
+  "policy_id": "piotw-procurement-feature-role-policy-v0.1-development",
+  "selected_entities": [
+    "balfour-beatty",
+    "capita",
+    "kier-group",
+    "mears-group",
+    "mitie",
+    "serco"
+  ],
+  "rejected_entities": [],
+  "company_results": [
+    {
+      "company_id": "balfour-beatty",
+      "legal_name": "Balfour Beatty Civil Engineering Limited",
+      "company_number": "04482405",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-034614-2022",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2022,
+          "buyer": "SCAPE",
+          "category": "civil engineering",
+          "value": 3250000000,
+          "currency": "GBP",
+          "underlying_award_id": "SCAPE-EWNI",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/034614-2022",
+          "source_hash": "e78a19d829c6f97d70d6116ac7542853911b857916ddc8a3c1b46f20c6a51bc9",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-014450-2024",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2024,
+          "buyer": "Southampton City Council",
+          "category": "highways",
+          "value": 60000000,
+          "currency": "GBP",
+          "underlying_award_id": "SOUTHAMPTON-HIGHWAYS",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/014450-2024",
+          "source_hash": "44b9593f44226feb90600cd8edfc66db33547f71aac9d8f983f7377a1a7aa588",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-038656-2024",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2024,
+          "buyer": "SCAPE",
+          "category": "civil engineering",
+          "value": 3250000000,
+          "currency": "GBP",
+          "underlying_award_id": "SCAPE-EWNI",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/038656-2024",
+          "source_hash": "e78a19d829c6f97d70d6116ac7542853911b857916ddc8a3c1b46f20c6a51bc9",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-064713-2025",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2025,
+          "buyer": "Southampton City Council",
+          "category": "highways",
+          "value": 60000000,
+          "currency": "GBP",
+          "underlying_award_id": "SOUTHAMPTON-HIGHWAYS",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/064713-2025",
+          "source_hash": "44b9593f44226feb90600cd8edfc66db33547f71aac9d8f983f7377a1a7aa588",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-006230-2025",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2025,
+          "buyer": "NHS/public framework",
+          "category": "civil engineering",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "CIVIL-FRAMEWORK-2025",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/006230-2025",
+          "source_hash": "1151de521c44bcd5a6bdcac5f03dcf915a089c264d8287b1b86da1180b0dbaac",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-026674-2025",
+          "company_id": "balfour-beatty",
+          "legal_name": "Balfour Beatty Civil Engineering Limited",
+          "company_number": "04482405",
+          "publication_year": 2025,
+          "buyer": "Network Rail",
+          "category": "bridge maintenance",
+          "value": 5492069.53,
+          "currency": "GBP",
+          "underlying_award_id": "FORTH-TAY-2025",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/026674-2025",
+          "source_hash": "532e36d2de12358c367ca4d92e02e1c5db3165cdc3a87a3defab55df8f5038df",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 4,
+        "notice_versions_removed": 2,
+        "deduplication_lineage": {
+          "balfour-beatty:SCAPE-EWNI": [
+            "fts-034614-2022",
+            "fts-038656-2024"
+          ],
+          "balfour-beatty:SOUTHAMPTON-HIGHWAYS": [
+            "fts-014450-2024",
+            "fts-064713-2025"
+          ],
+          "balfour-beatty:CIVIL-FRAMEWORK-2025": [
+            "fts-006230-2025"
+          ],
+          "balfour-beatty:FORTH-TAY-2025": [
+            "fts-026674-2025"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": null,
+          "2022": 1,
+          "2023": null,
+          "2024": 1,
+          "2025": 2
+        },
+        "periods_without_records": [
+          2021,
+          2023
+        ],
+        "buyer_count": 4,
+        "buyer_mix": {
+          "SCAPE": 1,
+          "Southampton City Council": 1,
+          "NHS/public framework": 1,
+          "Network Rail": 1
+        },
+        "dominant_buyer_share": 0.25,
+        "category_mix": {
+          "civil engineering": 2,
+          "highways": 1,
+          "bridge maintenance": 1
+        },
+        "usable_category_count": 4,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 3,
+        "usable_value_proportion": 0.75,
+        "disclosed_value_by_publication_period": {
+          "2022": 3250000000.0,
+          "2024": 60000000.0,
+          "2025": 5492069.53
+        },
+        "largest_award_value_share_by_period": {
+          "2021": null,
+          "2022": 1.0,
+          "2023": null,
+          "2024": 1.0,
+          "2025": 1.0
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": false,
+        "multiple_notice_versions_one_award": true,
+        "mostly_missing_values": false,
+        "one_large_award_dominates_period": true,
+        "volatile_counts_without_broader_change": false,
+        "too_little_coverage": false
+      }
+    },
+    {
+      "company_id": "capita",
+      "legal_name": "Capita Business Services Limited",
+      "company_number": "02299747",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-027716-2021",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2021,
+          "buyer": "Crown Commercial Service",
+          "category": "managed learning",
+          "value": 300000,
+          "currency": "GBP",
+          "underlying_award_id": "MLS-2021",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/027716-2021",
+          "source_hash": "29b910f82535a054e5cef4d7480ab8585a47cd55d64f968ee6231deea80b3e05",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-011745-2022",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2022,
+          "buyer": "Local government partnership",
+          "category": "resourcing",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "LGRP-LOT3",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/011745-2022",
+          "source_hash": "0ce242ac842194cf894c8712281914b7b830931bb7cd766b8481e50b3dc79702",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-028518-2022",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2022,
+          "buyer": "Public framework buyer",
+          "category": "information technology",
+          "value": 1000000000,
+          "currency": "GBP",
+          "underlying_award_id": "IT-FRAMEWORK-2022",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/028518-2022",
+          "source_hash": "4c30b73897578dd944d8e74d54ecab11584c65388068a2631957417e0026a761",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-018105-2023",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2023,
+          "buyer": "City of London Police",
+          "category": "fraud and cyber services",
+          "value": 48000000,
+          "currency": "GBP",
+          "underlying_award_id": "FRAUD-CYBER-2023",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/018105-2023",
+          "source_hash": "3ee869dc38f6eb4b085306cd4d028b89fe1e10fd1299bf2cfc9874da22384a73",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-029748-2023",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2023,
+          "buyer": "Natural Resources Wales",
+          "category": "digital platform",
+          "value": 285000,
+          "currency": "GBP",
+          "underlying_award_id": "OUTSYSTEMS-2023",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/029748-2023",
+          "source_hash": "882b12d57f1ce3ce46081a4996fdbd1ba1f581fcb1eb41e2c2f92a4c7462f374",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-020881-2023",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2023,
+          "buyer": "Department for Education",
+          "category": "student services",
+          "value": 100000000,
+          "currency": "GBP",
+          "underlying_award_id": "DSA-LOT2",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/020881-2023",
+          "source_hash": "cf4c2f416646cc7bb5d1d345066fb0b4dd92d401e6bfe2f8d97c84e0d1562052",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-039075-2024",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2024,
+          "buyer": "Public framework buyer",
+          "category": "professional services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "FRAMEWORK-2024",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/039075-2024",
+          "source_hash": "cce8c4d03dfe764c3bf2df9e662ea72747289ee9f39def813d999716551ccdd5",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-021183-2024",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2024,
+          "buyer": "Public buyer",
+          "category": "business services",
+          "value": 2305845,
+          "currency": "GBP",
+          "underlying_award_id": "BUSINESS-2024",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/021183-2024",
+          "source_hash": "238710fc5a914dcc8bd20b8761055bccc85062099df74b602275bc66bbd924ee",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-044777-2025",
+          "company_id": "capita",
+          "legal_name": "Capita Business Services Limited",
+          "company_number": "02299747",
+          "publication_year": 2025,
+          "buyer": "South Oxfordshire and partners",
+          "category": "customer services",
+          "value": 24736269,
+          "currency": "GBP",
+          "underlying_award_id": "FIVE-COUNCILS-2025",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/044777-2025",
+          "source_hash": "f21e6976597b6a50db9a9d003a6936104a79dade9937cbf2f48b24812159b7e2",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 9,
+        "notice_versions_removed": 0,
+        "deduplication_lineage": {
+          "capita:MLS-2021": [
+            "fts-027716-2021"
+          ],
+          "capita:LGRP-LOT3": [
+            "fts-011745-2022"
+          ],
+          "capita:IT-FRAMEWORK-2022": [
+            "fts-028518-2022"
+          ],
+          "capita:FRAUD-CYBER-2023": [
+            "fts-018105-2023"
+          ],
+          "capita:DSA-LOT2": [
+            "fts-020881-2023"
+          ],
+          "capita:OUTSYSTEMS-2023": [
+            "fts-029748-2023"
+          ],
+          "capita:BUSINESS-2024": [
+            "fts-021183-2024"
+          ],
+          "capita:FRAMEWORK-2024": [
+            "fts-039075-2024"
+          ],
+          "capita:FIVE-COUNCILS-2025": [
+            "fts-044777-2025"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": 1,
+          "2022": 2,
+          "2023": 3,
+          "2024": 2,
+          "2025": 1
+        },
+        "periods_without_records": [],
+        "buyer_count": 8,
+        "buyer_mix": {
+          "Crown Commercial Service": 1,
+          "Local government partnership": 1,
+          "Public framework buyer": 2,
+          "City of London Police": 1,
+          "Department for Education": 1,
+          "Natural Resources Wales": 1,
+          "Public buyer": 1,
+          "South Oxfordshire and partners": 1
+        },
+        "dominant_buyer_share": 0.2222222222222222,
+        "category_mix": {
+          "managed learning": 1,
+          "resourcing": 1,
+          "information technology": 1,
+          "fraud and cyber services": 1,
+          "student services": 1,
+          "digital platform": 1,
+          "business services": 1,
+          "professional services": 1,
+          "customer services": 1
+        },
+        "usable_category_count": 9,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 7,
+        "usable_value_proportion": 0.7777777777777778,
+        "disclosed_value_by_publication_period": {
+          "2021": 300000.0,
+          "2022": 1000000000.0,
+          "2023": 148285000.0,
+          "2024": 2305845.0,
+          "2025": 24736269.0
+        },
+        "largest_award_value_share_by_period": {
+          "2021": 1.0,
+          "2022": 1.0,
+          "2023": 0.6743770442054152,
+          "2024": 1.0,
+          "2025": 1.0
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": false,
+        "multiple_notice_versions_one_award": false,
+        "mostly_missing_values": false,
+        "one_large_award_dominates_period": true,
+        "volatile_counts_without_broader_change": false,
+        "too_little_coverage": false
+      }
+    },
+    {
+      "company_id": "kier-group",
+      "legal_name": "Kier Construction Limited",
+      "company_number": "02099533",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-023949-2021",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2021,
+          "buyer": "SCAPE",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "SCAPE-2021",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/023949-2021",
+          "source_hash": "eff9f78cc8aaf6d2fcf5b23412bda9f5eb6bbfd7a5dfa9d3b629b710b2f40fb5",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-007260-2023",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2023,
+          "buyer": "Public buyer",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "KIER-007260",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/007260-2023",
+          "source_hash": "8f903be28ed02e61d61c9c886212aec2f5a17377e21dd530b915daa55087e977",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-020764-2024",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2024,
+          "buyer": "Public buyer",
+          "category": "major works",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "MAJOR-WORKS-2024",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/020764-2024",
+          "source_hash": "818db40b2a7003e342de0da783b961568d71d26080bf4ba1f5cc9bd27988331a",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-016366-2024",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2024,
+          "buyer": "Public buyer",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "KIER-016366",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/016366-2024",
+          "source_hash": "8f903be28ed02e61d61c9c886212aec2f5a17377e21dd530b915daa55087e977",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-035752-2025",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2025,
+          "buyer": "Public buyer",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "COLINDALE-2025",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/035752-2025",
+          "source_hash": "8f903be28ed02e61d61c9c886212aec2f5a17377e21dd530b915daa55087e977",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-054981-2025",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2025,
+          "buyer": "Public buyer",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "KIER-054981",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/054981-2025",
+          "source_hash": "8f903be28ed02e61d61c9c886212aec2f5a17377e21dd530b915daa55087e977",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-067631-2025",
+          "company_id": "kier-group",
+          "legal_name": "Kier Construction Limited",
+          "company_number": "02099533",
+          "publication_year": 2025,
+          "buyer": "Public buyer",
+          "category": "construction",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "KIER-067631",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/067631-2025",
+          "source_hash": "8f903be28ed02e61d61c9c886212aec2f5a17377e21dd530b915daa55087e977",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 7,
+        "notice_versions_removed": 0,
+        "deduplication_lineage": {
+          "kier-group:SCAPE-2021": [
+            "fts-023949-2021"
+          ],
+          "kier-group:KIER-007260": [
+            "fts-007260-2023"
+          ],
+          "kier-group:KIER-016366": [
+            "fts-016366-2024"
+          ],
+          "kier-group:MAJOR-WORKS-2024": [
+            "fts-020764-2024"
+          ],
+          "kier-group:COLINDALE-2025": [
+            "fts-035752-2025"
+          ],
+          "kier-group:KIER-054981": [
+            "fts-054981-2025"
+          ],
+          "kier-group:KIER-067631": [
+            "fts-067631-2025"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": 1,
+          "2022": null,
+          "2023": 1,
+          "2024": 2,
+          "2025": 3
+        },
+        "periods_without_records": [
+          2022
+        ],
+        "buyer_count": 2,
+        "buyer_mix": {
+          "SCAPE": 1,
+          "Public buyer": 6
+        },
+        "dominant_buyer_share": 0.8571428571428571,
+        "category_mix": {
+          "construction": 6,
+          "major works": 1
+        },
+        "usable_category_count": 7,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 0,
+        "usable_value_proportion": 0.0,
+        "disclosed_value_by_publication_period": {},
+        "largest_award_value_share_by_period": {
+          "2021": null,
+          "2022": null,
+          "2023": null,
+          "2024": null,
+          "2025": null
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": true,
+        "multiple_notice_versions_one_award": false,
+        "mostly_missing_values": true,
+        "one_large_award_dominates_period": false,
+        "volatile_counts_without_broader_change": true,
+        "too_little_coverage": false
+      }
+    },
+    {
+      "company_id": "mears-group",
+      "legal_name": "Mears Limited",
+      "company_number": "02519234",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-019386-2021",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2021,
+          "buyer": "Ministry of Justice",
+          "category": "public services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "CAS3-2021",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/019386-2021",
+          "source_hash": "ddce700461071e9df70f97c2b5ed82238d23dc40a943bf0caf59dae789e31925",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-027265-2022",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2022,
+          "buyer": "Public buyer",
+          "category": "housing services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "MEARS-2022",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/027265-2022",
+          "source_hash": "c1fadae4c39de0302cee3caa14159580a28a075651311912eb42a03af4ec41fb",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-024094-2023",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2023,
+          "buyer": "Public buyer",
+          "category": "responsive repairs",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "REPAIRS-2023",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/024094-2023",
+          "source_hash": "42dec462bcb67f5bb858f95a5f0057a07be4784dd2cf0328c3afebc97747244f",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-036224-2023",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2023,
+          "buyer": "Public buyer",
+          "category": "housing services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "MEARS-036224",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/036224-2023",
+          "source_hash": "c1fadae4c39de0302cee3caa14159580a28a075651311912eb42a03af4ec41fb",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-036854-2024",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2024,
+          "buyer": "Public buyer",
+          "category": "housing services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "ACFL-2024",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/036854-2024",
+          "source_hash": "c1fadae4c39de0302cee3caa14159580a28a075651311912eb42a03af4ec41fb",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-013440-2025",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2025,
+          "buyer": "Public buyer",
+          "category": "housing services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "MEARS-013440",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/013440-2025",
+          "source_hash": "c1fadae4c39de0302cee3caa14159580a28a075651311912eb42a03af4ec41fb",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-015517-2025",
+          "company_id": "mears-group",
+          "legal_name": "Mears Limited",
+          "company_number": "02519234",
+          "publication_year": 2025,
+          "buyer": "Public buyer",
+          "category": "housing services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "MEARS-015517",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/015517-2025",
+          "source_hash": "c1fadae4c39de0302cee3caa14159580a28a075651311912eb42a03af4ec41fb",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 7,
+        "notice_versions_removed": 0,
+        "deduplication_lineage": {
+          "mears-group:CAS3-2021": [
+            "fts-019386-2021"
+          ],
+          "mears-group:MEARS-2022": [
+            "fts-027265-2022"
+          ],
+          "mears-group:REPAIRS-2023": [
+            "fts-024094-2023"
+          ],
+          "mears-group:MEARS-036224": [
+            "fts-036224-2023"
+          ],
+          "mears-group:ACFL-2024": [
+            "fts-036854-2024"
+          ],
+          "mears-group:MEARS-013440": [
+            "fts-013440-2025"
+          ],
+          "mears-group:MEARS-015517": [
+            "fts-015517-2025"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": 1,
+          "2022": 1,
+          "2023": 2,
+          "2024": 1,
+          "2025": 2
+        },
+        "periods_without_records": [],
+        "buyer_count": 2,
+        "buyer_mix": {
+          "Ministry of Justice": 1,
+          "Public buyer": 6
+        },
+        "dominant_buyer_share": 0.8571428571428571,
+        "category_mix": {
+          "public services": 1,
+          "housing services": 5,
+          "responsive repairs": 1
+        },
+        "usable_category_count": 7,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 0,
+        "usable_value_proportion": 0.0,
+        "disclosed_value_by_publication_period": {},
+        "largest_award_value_share_by_period": {
+          "2021": null,
+          "2022": null,
+          "2023": null,
+          "2024": null,
+          "2025": null
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": true,
+        "multiple_notice_versions_one_award": false,
+        "mostly_missing_values": true,
+        "one_large_award_dominates_period": false,
+        "volatile_counts_without_broader_change": false,
+        "too_little_coverage": false
+      }
+    },
+    {
+      "company_id": "mitie",
+      "legal_name": "Mitie Limited",
+      "company_number": "02938041",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-023872-2022",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2022,
+          "buyer": "Sellafield Ltd",
+          "category": "facilities management",
+          "value": 250000000,
+          "currency": "GBP",
+          "underlying_award_id": "ONEAIM-2022",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/023872-2022",
+          "source_hash": "e3222a6bd70174ebd4be58b29efbb959ce605890698f8829a60201f1b3e734d9",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-011867-2023",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2023,
+          "buyer": "National Grid",
+          "category": "facilities management",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "FM-LAND-2023",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/011867-2023",
+          "source_hash": "ab513e588bb1fcf18311622ff95f73d5f72d98e998bc8ab1f7490e48f48ea966",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-001159-2024",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2024,
+          "buyer": "NHS Shared Business Services",
+          "category": "transport consultancy",
+          "value": 25000000,
+          "currency": "GBP",
+          "underlying_award_id": "SBS10235-LOT1",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/001159-2024",
+          "source_hash": "2c35057a27bd7965f47241352760e5e5bae51ec4f82f5e7b1962373e4a8a74e1",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-029687-2025",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2025,
+          "buyer": "NHS Shared Business Services",
+          "category": "security systems",
+          "value": 125000000,
+          "currency": "GBP",
+          "underlying_award_id": "SBS10502-LOT3",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/029687-2025",
+          "source_hash": "8a1f286d36542c28d84051cae83130ed6bbb9926652fa9e51e1a5aad696240e6",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-031282-2025",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2025,
+          "buyer": "NHS Shared Business Services",
+          "category": "grounds maintenance",
+          "value": 100000000,
+          "currency": "GBP",
+          "underlying_award_id": "SBS10501-LOT1",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/031282-2025",
+          "source_hash": "b692e2c9dba0833079d071743a54211d4e842d6697e7e5d7bcecd484eb292a46",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-031282-2025-L5",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2025,
+          "buyer": "NHS Shared Business Services",
+          "category": "pest control",
+          "value": 100000000,
+          "currency": "GBP",
+          "underlying_award_id": "SBS10501-LOT5",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/031282-2025-L5",
+          "source_hash": "c80fe9f36ac9a7f6d8bae03d535f8106ac6fc2e7a3cf5648b856e43228559ad3",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-031282-2025-L6",
+          "company_id": "mitie",
+          "legal_name": "Mitie Limited",
+          "company_number": "02938041",
+          "publication_year": 2025,
+          "buyer": "NHS Shared Business Services",
+          "category": "weed control",
+          "value": 100000000,
+          "currency": "GBP",
+          "underlying_award_id": "SBS10501-LOT6",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/031282-2025-L6",
+          "source_hash": "1d0950b81013ab6d756139fbbb10ca59b195feeae092ad7323b20e1e35890a7f",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 7,
+        "notice_versions_removed": 0,
+        "deduplication_lineage": {
+          "mitie:ONEAIM-2022": [
+            "fts-023872-2022"
+          ],
+          "mitie:FM-LAND-2023": [
+            "fts-011867-2023"
+          ],
+          "mitie:SBS10235-LOT1": [
+            "fts-001159-2024"
+          ],
+          "mitie:SBS10502-LOT3": [
+            "fts-029687-2025"
+          ],
+          "mitie:SBS10501-LOT1": [
+            "fts-031282-2025"
+          ],
+          "mitie:SBS10501-LOT5": [
+            "fts-031282-2025-L5"
+          ],
+          "mitie:SBS10501-LOT6": [
+            "fts-031282-2025-L6"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": null,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 4
+        },
+        "periods_without_records": [
+          2021
+        ],
+        "buyer_count": 3,
+        "buyer_mix": {
+          "Sellafield Ltd": 1,
+          "National Grid": 1,
+          "NHS Shared Business Services": 5
+        },
+        "dominant_buyer_share": 0.7142857142857143,
+        "category_mix": {
+          "facilities management": 2,
+          "transport consultancy": 1,
+          "security systems": 1,
+          "grounds maintenance": 1,
+          "pest control": 1,
+          "weed control": 1
+        },
+        "usable_category_count": 7,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 6,
+        "usable_value_proportion": 0.8571428571428571,
+        "disclosed_value_by_publication_period": {
+          "2022": 250000000.0,
+          "2024": 25000000.0,
+          "2025": 425000000.0
+        },
+        "largest_award_value_share_by_period": {
+          "2021": null,
+          "2022": 1.0,
+          "2023": null,
+          "2024": 1.0,
+          "2025": 0.29411764705882354
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": true,
+        "multiple_notice_versions_one_award": false,
+        "mostly_missing_values": false,
+        "one_large_award_dominates_period": true,
+        "volatile_counts_without_broader_change": false,
+        "too_little_coverage": false
+      }
+    },
+    {
+      "company_id": "serco",
+      "legal_name": "Serco Limited",
+      "company_number": "00242246",
+      "selected": true,
+      "selection_reason": "Exact legal name and company number in primary award notices under the frozen candidate universe.",
+      "records": [
+        {
+          "source_record_id": "fts-024527-2022",
+          "company_id": "serco",
+          "legal_name": "Serco Limited",
+          "company_number": "00242246",
+          "publication_year": 2022,
+          "buyer": "Crown Commercial Service",
+          "category": "apprenticeship framework",
+          "value": 8000000000,
+          "currency": "GBP",
+          "underlying_award_id": "APPRENTICESHIPS-2022",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/024527-2022",
+          "source_hash": "8922e2d895a8924aa52dad34454202ee7ade89ee6bd0f7decf623ed1f6ce2b29",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-004198-2023",
+          "company_id": "serco",
+          "legal_name": "Serco Limited",
+          "company_number": "00242246",
+          "publication_year": 2023,
+          "buyer": "Public buyer",
+          "category": "public services",
+          "value": null,
+          "currency": null,
+          "underlying_award_id": "SERCO-004198",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/004198-2023",
+          "source_hash": "736c3a7273e8010a22458afa6721caae51f0c4d63efa25bb41d945972c8be6a3",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-003646-2024",
+          "company_id": "serco",
+          "legal_name": "Serco Limited",
+          "company_number": "00242246",
+          "publication_year": 2024,
+          "buyer": "UK Health Security Agency",
+          "category": "contact centre",
+          "value": 211876932.5,
+          "currency": "GBP",
+          "underlying_award_id": "SSC-C71078",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/003646-2024",
+          "source_hash": "5829fcb7fe9f113b4c72ee4b800476e4af757650fcba5906d13a2b4a14affe9b",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-013750-2025",
+          "company_id": "serco",
+          "legal_name": "Serco Limited",
+          "company_number": "00242246",
+          "publication_year": 2025,
+          "buyer": "Ministry of Defence",
+          "category": "defence support",
+          "value": 2500000,
+          "currency": "GBP",
+          "underlying_award_id": "SANSON-TWO",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/013750-2025",
+          "source_hash": "4c41918a4e7ec7625373f4fe34f4837651da15a8883c1d7c12e29cfd8fd520e1",
+          "exact_identifier": true
+        },
+        {
+          "source_record_id": "fts-019138-2025",
+          "company_id": "serco",
+          "legal_name": "Serco Limited",
+          "company_number": "00242246",
+          "publication_year": 2025,
+          "buyer": "BBC",
+          "category": "audience services",
+          "value": 40600000,
+          "currency": "GBP",
+          "underlying_award_id": "BBC-AUDIENCE",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/019138-2025",
+          "source_hash": "fe18b563b2767361849816ed1657cbe5f8b191013263d74cd1bed63e101ea189",
+          "exact_identifier": true
+        }
+      ],
+      "coverage_diagnostics": {
+        "retained_unique_awards": 5,
+        "notice_versions_removed": 0,
+        "deduplication_lineage": {
+          "serco:APPRENTICESHIPS-2022": [
+            "fts-024527-2022"
+          ],
+          "serco:SERCO-004198": [
+            "fts-004198-2023"
+          ],
+          "serco:SSC-C71078": [
+            "fts-003646-2024"
+          ],
+          "serco:SANSON-TWO": [
+            "fts-013750-2025"
+          ],
+          "serco:BBC-AUDIENCE": [
+            "fts-019138-2025"
+          ]
+        },
+        "award_count_by_period": {
+          "2021": null,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 2
+        },
+        "periods_without_records": [
+          2021
+        ],
+        "buyer_count": 5,
+        "buyer_mix": {
+          "Crown Commercial Service": 1,
+          "Public buyer": 1,
+          "UK Health Security Agency": 1,
+          "Ministry of Defence": 1,
+          "BBC": 1
+        },
+        "dominant_buyer_share": 0.2,
+        "category_mix": {
+          "apprenticeship framework": 1,
+          "public services": 1,
+          "contact centre": 1,
+          "defence support": 1,
+          "audience services": 1
+        },
+        "usable_category_count": 5,
+        "usable_category_proportion": 1.0,
+        "usable_value_count": 4,
+        "usable_value_proportion": 0.8,
+        "disclosed_value_by_publication_period": {
+          "2022": 8000000000.0,
+          "2024": 211876932.5,
+          "2025": 43100000.0
+        },
+        "largest_award_value_share_by_period": {
+          "2021": null,
+          "2022": 1.0,
+          "2023": null,
+          "2024": 1.0,
+          "2025": 0.9419953596287703
+        },
+        "exact_legal_entity_resolution_rate": 1.0,
+        "source_regime_changes": [],
+        "missingness_rule": "Periods without retained records are unavailable coverage, not zero activity."
+      },
+      "negative_controls": {
+        "one_buyer_repeated_publication": false,
+        "multiple_notice_versions_one_award": false,
+        "mostly_missing_values": false,
+        "one_large_award_dominates_period": true,
+        "volatile_counts_without_broader_change": false,
+        "too_little_coverage": false
+      }
+    }
+  ],
+  "feature_review": [
+    {
+      "feature": "raw_award_count",
+      "role": "RETIRED",
+      "classification": "FEATURE DESIGN FAILURE",
+      "reason": "Counts failed as an activity denominator: publication is buyer-driven, missing years are unknown, and framework lots and notice versions inflate movement."
+    },
+    {
+      "feature": "buyer_breadth",
+      "role": "CORROBORATION ONLY",
+      "classification": "CORRECT CORROBORATION-ONLY",
+      "reason": "Distinct buyers are factual and can independently corroborate breadth, but observed buyer coverage is incomplete."
+    },
+    {
+      "feature": "award_category_mix",
+      "role": "CORROBORATION ONLY",
+      "classification": "CORRECT CORROBORATION-ONLY",
+      "reason": "Repeated source-qualified categories can corroborate another capability theme; framework categories and missing classification prevent standalone use."
+    },
+    {
+      "feature": "disclosed_contract_value",
+      "role": "FACTUAL ONLY",
+      "classification": "CORRECT FACTUAL-ONLY",
+      "reason": "Values frequently represent framework ceilings, whole lots or multi-supplier totals and are not attributable revenue."
+    },
+    {
+      "feature": "supplier_concentration_diversification",
+      "role": "FACTUAL ONLY",
+      "classification": "COVERAGE FAILURE",
+      "reason": "The supplier-side regime does not expose a denominator-complete company purchasing ledger."
+    },
+    {
+      "feature": "new_strategic_relationship",
+      "role": "CORROBORATION ONLY",
+      "classification": "CORRECT CORROBORATION-ONLY",
+      "reason": "A directly named relationship may corroborate another source-backed condition, but the notice alone does not establish strategic materiality."
+    },
+    {
+      "feature": "persistent_procurement_theme",
+      "role": "CORROBORATION ONLY",
+      "classification": "CORRECT CORROBORATION-ONLY",
+      "reason": "Repeated deduplicated themes may corroborate another condition, but incomplete category coverage prevents standalone qualification."
+    }
+  ],
+  "procurement_policy": {
+    "raw_award_count": "RETIRED",
+    "buyer_breadth": "CORROBORATION ONLY",
+    "award_category_mix": "CORROBORATION ONLY",
+    "disclosed_contract_value": "FACTUAL ONLY",
+    "supplier_concentration_diversification": "FACTUAL ONLY",
+    "new_strategic_relationship": "CORROBORATION ONLY",
+    "persistent_procurement_theme": "CORROBORATION ONLY"
+  },
+  "detect_readiness_metrics": {
+    "eligible_preserved_decisions": 11,
+    "qualified_decisions": 9,
+    "correct_qualified_decisions": 9,
+    "qualified_condition_precision": 1.0,
+    "ambiguous_decisions": 0,
+    "ambiguity_rate": 0.0,
+    "factual_accuracy": 1.0,
+    "entity_scope_accuracy": 1.0,
+    "provenance_completeness": 1.0,
+    "severe_false_positives": 0,
+    "unhandled_contradictions": 0,
+    "removed_procurement_count_decisions": 3,
+    "estate_policy_changed": false,
+    "leadership_policy_changed": false
+  },
+  "detect_readiness_status": "READY_FOR_COMPARE",
+  "compare_built": false,
+  "next_p0": "General Peer / Historical Comparison Engine v0.1, beginning with own-history comparison, comparable condition-level features, explicit peer cohorts and coverage-aware normalisation; no headline score."
+}

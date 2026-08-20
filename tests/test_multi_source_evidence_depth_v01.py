@@ -145,15 +145,18 @@ def test_estate_churn_and_net_direction_are_distinct_candidates() -> None:
     assert {item.candidate_type for item in result.candidates} == {"estate_reshaping", "estate_expansion"}
 
 
-def test_procurement_history_counts_comparison_periods() -> None:
+def test_procurement_history_preserves_period_facts_but_retired_count_emits_no_candidate() -> None:
     rows = [_record(f"award-{index}", "contracts_procurement", f"{period}-06-01T00:00:00+00:00",
         record_type="award_notice", values={"entity_resolution": "APPROVED", "award_value": 1,
                                              "currency": "GBP", "comparison_period": period})
         for index, period in enumerate(["2023", "2024", "2024", "2025", "2025", "2025"])]
     result = ProcurementFamilyAdapter().adapt(company_id="test-co", entity_scope="company",
                                                analysis_cutoff=CUTOFF, records=rows)
-    assert result.candidates[0].history.snapshot_count == 3
-    assert result.candidates[0].history.history_depth == "SHALLOW"
+    assert result.longitudinal_features["award_count_by_period"] == {"2023": 1, "2024": 2, "2025": 3}
+    assert result.longitudinal_features["history_depth_periods"] == 3
+    assert result.longitudinal_features["role_enforcement"]["retired_features"] == ["raw_award_count"]
+    assert result.candidates == []
+    assert not result.coverage.qualification_ready
 
 
 def test_procurement_source_policy_excludes_wrong_notice_types_and_deduplicates() -> None:

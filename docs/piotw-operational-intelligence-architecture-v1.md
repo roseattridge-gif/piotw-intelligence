@@ -89,3 +89,8 @@ The preregistered review did not meet its 12-decision minimum (11 observed), so 
 The review now contains 14 decisions and leadership/organisation is development-usable. Procurement gained a versioned Find a Tender source boundary, but source coverage is not a valid activity denominator. One sparse notice-count increase qualified ambiguously, taking combined ambiguity to 21.43% against the frozen 20% maximum.
 
 Detect is `NOT_READY_POLICY_INSTABILITY`. The next architectural P0 is a coverage-aware, source-specific procurement policy study. Compare remains unbuilt.
+# Procurement feature-role boundary — v0.1
+
+UK Find a Tender facts now pass through a versioned feature-role policy before qualification. Raw award-count movement is retired. Buyer breadth, category mix, new relationships and persistent themes are corroboration-only; disclosed values and supplier concentration/diversification are factual-only. The procurement adapter cannot emit a standalone condition until a future version has a source feature explicitly marked `INDEPENDENT CONDITION ELIGIBLE`.
+
+This fail-closed boundary lets Detect advance without pretending that an incomplete source family can independently measure company activity. Compare remains the next unbuilt stage and must start with own-history, explicit cohort construction and coverage-aware normalisation rather than a headline score.

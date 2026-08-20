@@ -186,3 +186,9 @@ Detect remains the P0. The narrow gap is sufficient new leadership/organisation 
 The extension added a direct abrdn operating-model/accountability redesign and same-regime Find a Tender histories for Mears Limited and Kier Construction Limited. Combined review scope is now 14 decisions. Leadership behaved correctly. Procurement produced one correct withhold and one ambiguous qualification.
 
 The frozen ambiguity gate failed at 3/14 (21.43%) against a 20% maximum. Detect status is `NOT_READY_POLICY_INSTABILITY`. The remaining P0 is procurement condition-policy stability and source-coverage completeness; Compare remains unbuilt.
+
+## Procurement reliability resolution — v0.1
+
+The preregistered six-entity Find a Tender study resolved the remaining procurement instability. Raw publication-count acceleration is retired. Buyer breadth, category mix, new relationships and persistent themes may corroborate a condition established elsewhere; disclosed values and concentration/diversification remain factual only. The runtime adapter now enforces those roles and cannot emit an independent procurement condition.
+
+Recomputing the preserved development review after excluding the three retired count decisions leaves 11 eligible decisions, nine correct qualified conditions, 100% qualified precision, 0% ambiguity, complete factual/entity/provenance checks and no severe false positives or contradictions. Detect is now `READY_FOR_COMPARE` at the development product-methodology layer. The next P0 is a general own-history and peer comparison engine; predictive and scientific readiness remain separate and unchanged.
