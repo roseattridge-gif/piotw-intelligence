@@ -269,6 +269,20 @@ class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
               records: list[EvidenceFamilyRecord]) -> EvidenceFamilyEnvelope:
         eligible=self._eligible(records,analysis_cutoff)
         approved=[row for row in eligible if row.values.get("entity_resolution") == "APPROVED"]
+        source_policies={str(row.values.get("source_policy_id")) for row in approved if row.values.get("source_policy_id")}
+        if source_policies:
+            approved=[row for row in approved
+                if row.values.get("source_policy_id") in source_policies
+                and row.values.get("notice_type") == "contract_award_notice"
+                and row.entity_resolution_confidence == "HIGH"]
+        deduplicated: dict[str, EvidenceFamilyRecord] = {}
+        for row in approved:
+            key=str(row.values.get("underlying_award_id") or row.source_record_id)
+            existing=deduplicated.get(key)
+            if existing is None or _utc(row.source_published_at or row.publication_or_effective_at) < _utc(
+                    existing.source_published_at or existing.publication_or_effective_at):
+                deduplicated[key]=row
+        approved=sorted(deduplicated.values(), key=lambda row: row.publication_or_effective_at)
         observations=[_observation(row,value=float(row.values["award_value"]) if row.values.get("award_value") is not None else None,
             unit=str(row.values.get("currency") or "unknown"),statement=f"A public award notice named the resolved company entity for {row.values.get('category','an unspecified category')}.") for row in approved]
         periods=Counter(str(row.values.get("comparison_period") or row.publication_or_effective_at.strftime("%Y-%m")) for row in approved)
@@ -276,7 +290,9 @@ class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
         comparable=[row for row in approved if row.values.get("award_value") is not None and row.values.get("currency")]
         features={"award_count_by_period":dict(sorted(periods.items())),"category_mix":dict(categories),
                   "disclosed_value_by_currency":dict(Counter()),"new_supplier_appearances":None,"repeat_supplier_count":None,
-                  "history_depth_periods":len(periods),"candidate_relationships":_candidate_relationships(approved)}
+                  "history_depth_periods":len(periods),"source_policy_ids":sorted(source_policies),
+                  "deduplicated_record_count":len(approved),
+                  "candidate_relationships":_candidate_relationships(approved)}
         for row in comparable:
             currency=str(row.values["currency"]); features["disclosed_value_by_currency"][currency]=features["disclosed_value_by_currency"].get(currency,0)+float(row.values["award_value"])
         candidates=[]

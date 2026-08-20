@@ -1,0 +1,25 @@
+{
+  "policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+  "scientifically_validated": false,
+  "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+  "allowed_notice_types": ["contract_award_notice"],
+  "comparison_period": "calendar_year_of_publication",
+  "minimum_comparable_periods": 4,
+  "entity_resolution": {
+    "required_status": "APPROVED",
+    "required_confidence": "HIGH",
+    "required_method": "exact_legal_name_and_company_number_in_primary_notice"
+  },
+  "deduplication": {
+    "primary_key": "underlying_award_id",
+    "fallback_key": "source_record_id",
+    "exclude_modification_only": true
+  },
+  "denominator": "deduplicated resolved contract-award notices per calendar publication year",
+  "missingness": "A period with no retained notice is unavailable coverage and cannot be interpreted as zero commercial activity.",
+  "limitations": [
+    "Notice publication frequency depends on public buyers and procurement regime.",
+    "Framework appointment value is not company revenue.",
+    "This source cannot represent private-sector contract activity."
+  ]
+}

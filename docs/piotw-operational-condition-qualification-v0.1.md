@@ -165,3 +165,5 @@ Travis Perkins supplies the first real multi-source runtime case: estate reshapi
 The v0.1 policy was frozen and reviewed unchanged in the 20 August 2026 Multi-Family Condition Policy Review. The run covered careers, estate, procurement and leadership/organisation. It generated 11 candidate decisions (8 qualified; 3 insufficient evidence) but missed the preregistered 12-decision minimum. The result is `NOT_READY_INSUFFICIENT_REVIEW_SCOPE`, not validation.
 
 Estate rules are retained for now. Leadership rules need more cases. Procurement notice-count policies require source-specific treatment and deeper comparable history. Careers still needs longitudinal depth. No thresholds changed.
+
+The v0.2 extension added a third substantive organisational-change case, which qualified correctly under the unchanged leadership policy. Leadership is now development-usable. Procurement has an explicit Find a Tender source boundary but remains unstable as a condition policy: sparse notice-count growth qualified for Kier despite incomplete buyer-driven coverage. Combined Detect status is `NOT_READY_POLICY_INSTABILITY`.

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -153,3 +154,36 @@ def test_procurement_history_counts_comparison_periods() -> None:
                                                analysis_cutoff=CUTOFF, records=rows)
     assert result.candidates[0].history.snapshot_count == 3
     assert result.candidates[0].history.history_depth == "SHALLOW"
+
+
+def test_procurement_source_policy_excludes_wrong_notice_types_and_deduplicates() -> None:
+    common = {"entity_resolution": "APPROVED", "award_value": 1, "currency": "GBP",
+              "comparison_period": "2024", "source_policy_id": "find-a-tender-v1",
+              "notice_type": "contract_award_notice", "underlying_award_id": "award-1"}
+    first = _record("award-original", "contracts_procurement", "2024-06-01T00:00:00+00:00",
+                    record_type="award_notice", values=common).model_copy(
+                        update={"entity_resolution_confidence": "HIGH"})
+    duplicate = _record("award-republication", "contracts_procurement", "2024-06-02T00:00:00+00:00",
+                        record_type="award_notice", values=common).model_copy(
+                            update={"entity_resolution_confidence": "HIGH"})
+    modification = _record("award-modification", "contracts_procurement", "2025-06-01T00:00:00+00:00",
+        record_type="award_notice", values={**common, "comparison_period": "2025",
+                                             "notice_type": "contract_modification_notice",
+                                             "underlying_award_id": "award-2"}).model_copy(
+                                                 update={"entity_resolution_confidence": "HIGH"})
+    result = ProcurementFamilyAdapter().adapt(company_id="test-co", entity_scope="company",
+                                               analysis_cutoff=CUTOFF,
+                                               records=[first, duplicate, modification])
+    assert result.longitudinal_features["deduplicated_record_count"] == 1
+    assert result.raw_evidence_references == ["award-original"]
+    assert result.candidates == []
+
+
+def test_extension_results_apply_every_frozen_gate_dimension() -> None:
+    protocol = json.loads((ROOT / "config/conditions/multifamily_review_extension_protocol_v0_2.json").read_text())
+    results = json.loads((ROOT / "data/derived/piotw_multifamily_condition_review_extension_v0_2_results.json").read_text())
+    assert results["policy_hash"] == protocol["policy"]["sha256_at_freeze"]
+    assert results["scientific_gate_run"] is False
+    assert results["combined_rates"]["ambiguous"] > protocol["readiness_gate"]["ambiguous_case_rate_max"]
+    assert results["summary"]["readiness_status"] == "NOT_READY_POLICY_INSTABILITY"
+    assert results["gate_application_audit"]["condition_engine_rerun"] is False

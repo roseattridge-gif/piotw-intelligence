@@ -83,3 +83,9 @@ The canonical Detect path now uses a common evidence-family envelope with family
 The evidence-family envelope now distinguishes source publication time from the observation/effective period and retains legal-entity resolution metadata. Estate churn and net direction may be represented as separate candidates when both are directly supported. Procurement comparison history is counted by comparable period, not raw notice count.
 
 The preregistered review did not meet its 12-decision minimum (11 observed), so Detect remains before Compare. The next architectural work is evidence-depth expansion within the same boundaries, especially source-specific procurement completeness and additional direct organisation-change cases.
+
+## Decision update — Review Extension v0.2
+
+The review now contains 14 decisions and leadership/organisation is development-usable. Procurement gained a versioned Find a Tender source boundary, but source coverage is not a valid activity denominator. One sparse notice-count increase qualified ambiguously, taking combined ambiguity to 21.43% against the frozen 20% maximum.
+
+Detect is `NOT_READY_POLICY_INSTABILITY`. The next architectural P0 is a coverage-aware, source-specific procurement policy study. Compare remains unbuilt.

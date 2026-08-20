@@ -180,3 +180,9 @@ The preregistered Multi-Family Condition Policy Review v0.1 ran once over seven 
 - The preregistered minimum was 12 candidate decisions, so status is `NOT_READY_INSUFFICIENT_REVIEW_SCOPE`.
 
 Detect remains the P0. The narrow gap is sufficient new leadership/organisation cases and deeper source-homogeneous procurement history, not another adapter abstraction. Compare remains unbuilt.
+
+## v0.2 extension update (20 August 2026)
+
+The extension added a direct abrdn operating-model/accountability redesign and same-regime Find a Tender histories for Mears Limited and Kier Construction Limited. Combined review scope is now 14 decisions. Leadership behaved correctly. Procurement produced one correct withhold and one ambiguous qualification.
+
+The frozen ambiguity gate failed at 3/14 (21.43%) against a 20% maximum. Detect status is `NOT_READY_POLICY_INSTABILITY`. The remaining P0 is procurement condition-policy stability and source-coverage completeness; Compare remains unbuilt.

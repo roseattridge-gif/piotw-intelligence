@@ -59,6 +59,10 @@ Detect is **not yet trustworthy enough to move to Compare**. The narrow blocker 
 
 The next P0 is a preregistered extension using new, development-safe cases selected before evaluation: at least one further direct organisational-change case and deeper, source-homogeneous procurement histories. Re-run the same unchanged policy once the minimum scope is met. Do not build a score or percentile.
 
+## Frozen extension record
+
+The v0.2 extension is recorded separately in `docs/piotw-multifamily-condition-review-extension-results-v0.2.md`. It does not rewrite this result. The extension increased combined scope to 14 decisions but returned `NOT_READY_POLICY_INSTABILITY` because the frozen ambiguity ceiling was exceeded.
+
 ## Primary sources
 
 - Kingfisher annual reports/results: `kingfisher.com`

@@ -1,0 +1,2070 @@
+{
+  "schema_version": "piotw-multifamily-condition-review-extension-results-v0.2",
+  "methodological_status": "DEVELOPMENT_METHODOLOGY_REVIEW_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "analysis_cutoff": "2026-08-19T23:59:59+00:00",
+  "policy_hash": "b5af92d2c913a39e0bd756c0a5e17549fc5f02ec3eaa0c5af871b7f8fa26e97d",
+  "new_company_rows": [
+    {
+      "company_id": "abrdn",
+      "source_records": [
+        {
+          "source_record_id": "abrdn-operating-model-2024",
+          "family_id": "leadership_organisation",
+          "company_id": "abrdn",
+          "entity_scope": "abrdn",
+          "publication_or_effective_at": "2025-03-04T07:00:00Z",
+          "source_published_at": "2025-03-04T07:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://prd-cdn.abrdn.com/-/media/abrdn-jss-app/files/abrdn-plc-annual-report-and-accounts-2024.ashx",
+          "source_hash": "52388096ffc8c0ce0d8cb869ed30129cf04ca8e1b94b2deea2704796443e44e4",
+          "evidence_span": "abrdn reported a new, smaller Group Operating Committee, a broadened Executive Leadership Team with greater client expertise, and scorecards cascaded through each business with ultimate accountability at executive level.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "organisation_change",
+          "values": {
+            "change_type": "reporting_line_redesign",
+            "functions": [
+              "Group Operating Committee",
+              "Executive Leadership Team",
+              "business accountability"
+            ],
+            "factual_statement": "abrdn disclosed a smaller operating committee, a broadened leadership team and revised executive accountability mechanisms."
+          },
+          "scope_kind": "GROUP",
+          "legal_entity_identifier": "SC286832",
+          "entity_resolution_method": "issuer_primary_report",
+          "entity_resolution_confidence": "HIGH"
+        }
+      ],
+      "family_envelopes": [
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "contracts_procurement",
+          "adapter_version": "procurement-family-adapter-v0.2",
+          "company_id": "abrdn",
+          "entity_scope": "abrdn",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "raw_evidence_references": [],
+          "observations": [],
+          "longitudinal_features": {
+            "award_count_by_period": {},
+            "category_mix": {},
+            "disclosed_value_by_currency": {},
+            "new_supplier_appearances": null,
+            "repeat_supplier_count": null,
+            "history_depth_periods": 0,
+            "source_policy_ids": [],
+            "deduplicated_record_count": 0,
+            "candidate_relationships": []
+          },
+          "candidates": [],
+          "corroboration_links": [],
+          "missingness": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "contracts_procurement",
+            "availability": "NO_HISTORY",
+            "source_health": "degraded",
+            "history_depth": 0,
+            "latest_evidence_at": null,
+            "entity_resolution_quality": "UNRESOLVED",
+            "longitudinal_feature_ready": false,
+            "qualification_ready": false,
+            "limitations": [
+              "No source record has an approved company/entity resolution.",
+              "Fewer than four comparable publication periods are available."
+            ]
+          }
+        },
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "leadership_organisation",
+          "adapter_version": "leadership-organisation-adapter-v0.1",
+          "company_id": "abrdn",
+          "entity_scope": "abrdn",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "raw_evidence_references": [
+            "abrdn-operating-model-2024"
+          ],
+          "observations": [
+            {
+              "observation_id": "obs-abrdn-operating-model-2024",
+              "company_id": "abrdn",
+              "entity_scope": "abrdn",
+              "source_family": "leadership_organisation",
+              "observed_at": "2025-03-04T07:00:00Z",
+              "value": 1.0,
+              "unit": "announced_change",
+              "factual_statement": "abrdn disclosed a smaller operating committee, a broadened leadership team and revised executive accountability mechanisms.",
+              "evidence_ids": [
+                "ev-abrdn-operating-model-2024"
+              ],
+              "source_record_ids": [
+                "abrdn-operating-model-2024"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "abrdn-operating-model-2024"
+            }
+          ],
+          "longitudinal_features": {
+            "announced_changes_by_type": {
+              "reporting_line_redesign": 1
+            },
+            "senior_change_count": 1,
+            "functions_affected": [
+              "Executive Leadership Team",
+              "Group Operating Committee",
+              "business accountability"
+            ],
+            "candidate_relationships": []
+          },
+          "candidates": [
+            {
+              "candidate_id": "candidate-6f28f3609c10c0eb",
+              "company_id": "abrdn",
+              "entity_scope": "abrdn",
+              "analysis_cutoff": "2026-08-19T23:59:59Z",
+              "candidate_type": "organisational_restructuring",
+              "dimensions": [
+                "Workforce & Capability",
+                "Change & Execution"
+              ],
+              "observation_ids": [
+                "obs-abrdn-operating-model-2024"
+              ],
+              "evidence_ids": [
+                "ev-abrdn-operating-model-2024"
+              ],
+              "evidence_families": [
+                "leadership_organisation"
+              ],
+              "factual_summary": "1 source-backed operating-structure change(s) were announced.",
+              "proposed_mechanism": "Announced operating-structure and accountability redesign",
+              "history": {
+                "snapshot_count": 1,
+                "observation_period_days": null,
+                "interval_days": [],
+                "interval_consistency": "NOT_ASSESSED",
+                "missing_periods": null,
+                "history_depth": "SINGLE"
+              },
+              "denominator": {
+                "available": false,
+                "value": null,
+                "unit": null,
+                "evidence_ids": [],
+                "quality": "UNAVAILABLE"
+              },
+              "magnitude": {
+                "absolute_change": 1.0,
+                "relative_change": null,
+                "unit": "announced_changes"
+              },
+              "persistence": {
+                "status": "ONE_OFF",
+                "consistent_intervals": 0,
+                "total_intervals": 0
+              },
+              "corroboration": {
+                "status": "REPEATED_WITHIN_SOURCE",
+                "independent_source_families": [
+                  "leadership_organisation"
+                ],
+                "related_observation_count": 1,
+                "duplicate_observation_count": 0,
+                "supporting_observation_ids": [
+                  "obs-abrdn-operating-model-2024"
+                ],
+                "contradicting_observation_ids": [],
+                "duplicate_derivative_groups": []
+              },
+              "data_quality": {
+                "status": "GOOD",
+                "source_health": [
+                  "healthy"
+                ],
+                "stale": false,
+                "coverage_limitations": [
+                  "Public announcements do not provide a complete leadership-change register."
+                ]
+              },
+              "historical_context_status": "UNAVAILABLE",
+              "peer_context_status": "UNAVAILABLE",
+              "entity_scope_consistent": true,
+              "contradiction_present": false,
+              "factual_features": {
+                "announced_changes_by_type": {
+                  "reporting_line_redesign": 1
+                },
+                "senior_change_count": 1,
+                "functions_affected": [
+                  "Executive Leadership Team",
+                  "Group Operating Committee",
+                  "business accountability"
+                ],
+                "candidate_relationships": []
+              },
+              "adapter_version": "leadership-organisation-adapter-v0.1"
+            }
+          ],
+          "corroboration_links": [],
+          "missingness": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "leadership_organisation",
+            "availability": "AVAILABLE",
+            "source_health": "healthy",
+            "history_depth": 1,
+            "latest_evidence_at": "2025-03-04T07:00:00Z",
+            "entity_resolution_quality": "HIGH",
+            "longitudinal_feature_ready": false,
+            "qualification_ready": true,
+            "limitations": [
+              "No inference is made about competence, sentiment or the success of announced changes."
+            ]
+          }
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-cb46203f2ed2bb92",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "abrdn",
+          "entity_scope": "abrdn",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "organisational_restructuring",
+          "supporting_observation_ids": [
+            "obs-abrdn-operating-model-2024"
+          ],
+          "supporting_evidence_ids": [
+            "ev-abrdn-operating-model-2024"
+          ],
+          "dimensions": [
+            "Workforce & Capability",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "leadership_organisation"
+          ],
+          "history": {
+            "snapshot_count": 1,
+            "observation_period_days": null,
+            "interval_days": [],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SINGLE"
+          },
+          "denominator": {
+            "available": false,
+            "value": null,
+            "unit": null,
+            "evidence_ids": [],
+            "quality": "UNAVAILABLE"
+          },
+          "magnitude": {
+            "absolute_change": 1.0,
+            "relative_change": null,
+            "unit": "announced_changes"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 0,
+            "total_intervals": 0
+          },
+          "corroboration": {
+            "status": "REPEATED_WITHIN_SOURCE",
+            "independent_source_families": [
+              "leadership_organisation"
+            ],
+            "related_observation_count": 1,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-abrdn-operating-model-2024"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public announcements do not provide a complete leadership-change register."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "UNAVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=REPEATED_WITHIN_SOURCE",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "1 snapshots",
+              "requirement": ">=1 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": ">=0 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": false,
+              "observed": "0 consistent intervals",
+              "requirement": ">=0 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Announced operating-structure and accountability redesign",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "1 source-backed operating-structure change(s) were announced.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: announced operating-structure and accountability redesign.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: 1 source-backed operating-structure change(s) were announced. The evidence supports announced operating-structure and accountability redesign under the development policy."
+        }
+      ]
+    },
+    {
+      "company_id": "mears-group",
+      "source_records": [
+        {
+          "source_record_id": "fts-019386-2021",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2021-07-01T00:00:00Z",
+          "source_published_at": "2021-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/019386-2021",
+          "source_hash": "aa85dbafe624e713fb30248ce9bbabea2da3ca58e1ad9b0e7e7141e8e3cbdf5c",
+          "evidence_span": "UK Find a Tender contract-award notice fts-019386-2021 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2021",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "CAS3-2021"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-027265-2022",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2022-07-01T00:00:00Z",
+          "source_published_at": "2022-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/027265-2022",
+          "source_hash": "c58f77855b997814cf330aa2a33c638893e26ae73661038fd291f8879eb8dbcb",
+          "evidence_span": "UK Find a Tender contract-award notice fts-027265-2022 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2022",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "MEARS-AWARD-2022"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-024094-2023",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2023-07-01T00:00:00Z",
+          "source_published_at": "2023-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/024094-2023",
+          "source_hash": "779779444148f20958419a20359554ac6814f9c75ea132185e53b10fb17c15a1",
+          "evidence_span": "UK Find a Tender contract-award notice fts-024094-2023 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2023",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "RESPONSIVE-REPAIRS-2023"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-036224-2023",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2023-07-01T00:00:00Z",
+          "source_published_at": "2023-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/036224-2023",
+          "source_hash": "ae23958d701a7c8fdfac78ccf9d755808ed293e90a85d476f812dad8d7cac196",
+          "evidence_span": "UK Find a Tender contract-award notice fts-036224-2023 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2023",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "MEARS-AWARD-036224"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-036854-2024",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2024-07-01T00:00:00Z",
+          "source_published_at": "2024-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/036854-2024",
+          "source_hash": "576809c07a070d20df95618a86881cef987665fd2c2d6202782b8dd00ebd0d0e",
+          "evidence_span": "UK Find a Tender contract-award notice fts-036854-2024 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2024",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "ACFL-V2-2024"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-013440-2025",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2025-07-01T00:00:00Z",
+          "source_published_at": "2025-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/013440-2025",
+          "source_hash": "5f8e651a05ba549e066d7a947168374ce3cf2b93da5f1700d5293c7416ecd963",
+          "evidence_span": "UK Find a Tender contract-award notice fts-013440-2025 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2025",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "MEARS-AWARD-013440"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-015517-2025",
+          "family_id": "contracts_procurement",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "publication_or_effective_at": "2025-07-01T00:00:00Z",
+          "source_published_at": "2025-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/015517-2025",
+          "source_hash": "225abc243219a515049316a2d6b7aad3c30c0837bbcd2d90b21636d84b57c5ef",
+          "evidence_span": "UK Find a Tender contract-award notice fts-015517-2025 names Mears Limited, company number 02519234, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2025",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "MEARS-AWARD-015517"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02519234",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        }
+      ],
+      "family_envelopes": [
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "contracts_procurement",
+          "adapter_version": "procurement-family-adapter-v0.2",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "raw_evidence_references": [
+            "fts-019386-2021",
+            "fts-027265-2022",
+            "fts-024094-2023",
+            "fts-036224-2023",
+            "fts-036854-2024",
+            "fts-013440-2025",
+            "fts-015517-2025"
+          ],
+          "observations": [
+            {
+              "observation_id": "obs-fts-019386-2021",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2021-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-019386-2021"
+              ],
+              "source_record_ids": [
+                "fts-019386-2021"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-019386-2021"
+            },
+            {
+              "observation_id": "obs-fts-027265-2022",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2022-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-027265-2022"
+              ],
+              "source_record_ids": [
+                "fts-027265-2022"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-027265-2022"
+            },
+            {
+              "observation_id": "obs-fts-024094-2023",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2023-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-024094-2023"
+              ],
+              "source_record_ids": [
+                "fts-024094-2023"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-024094-2023"
+            },
+            {
+              "observation_id": "obs-fts-036224-2023",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2023-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-036224-2023"
+              ],
+              "source_record_ids": [
+                "fts-036224-2023"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-036224-2023"
+            },
+            {
+              "observation_id": "obs-fts-036854-2024",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2024-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-036854-2024"
+              ],
+              "source_record_ids": [
+                "fts-036854-2024"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-036854-2024"
+            },
+            {
+              "observation_id": "obs-fts-013440-2025",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2025-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-013440-2025"
+              ],
+              "source_record_ids": [
+                "fts-013440-2025"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-013440-2025"
+            },
+            {
+              "observation_id": "obs-fts-015517-2025",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2025-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-015517-2025"
+              ],
+              "source_record_ids": [
+                "fts-015517-2025"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-015517-2025"
+            }
+          ],
+          "longitudinal_features": {
+            "award_count_by_period": {
+              "2021": 1,
+              "2022": 1,
+              "2023": 2,
+              "2024": 1,
+              "2025": 2
+            },
+            "category_mix": {
+              "public works/services": 7
+            },
+            "disclosed_value_by_currency": {},
+            "new_supplier_appearances": null,
+            "repeat_supplier_count": null,
+            "history_depth_periods": 5,
+            "source_policy_ids": [
+              "piotw-procurement-source-policy-find-a-tender-v0.1-development"
+            ],
+            "deduplicated_record_count": 7,
+            "candidate_relationships": []
+          },
+          "candidates": [
+            {
+              "candidate_id": "candidate-6d11f294bc12fa54",
+              "company_id": "mears-group",
+              "entity_scope": "mears-group",
+              "analysis_cutoff": "2026-08-19T23:59:59Z",
+              "candidate_type": "procurement_activity_acceleration",
+              "dimensions": [
+                "Supply Chain & Resilience",
+                "Change & Execution"
+              ],
+              "observation_ids": [
+                "obs-fts-019386-2021",
+                "obs-fts-027265-2022",
+                "obs-fts-024094-2023",
+                "obs-fts-036224-2023",
+                "obs-fts-036854-2024",
+                "obs-fts-013440-2025",
+                "obs-fts-015517-2025"
+              ],
+              "evidence_ids": [
+                "ev-fts-019386-2021",
+                "ev-fts-027265-2022",
+                "ev-fts-024094-2023",
+                "ev-fts-036224-2023",
+                "ev-fts-036854-2024",
+                "ev-fts-013440-2025",
+                "ev-fts-015517-2025"
+              ],
+              "evidence_families": [
+                "contracts_procurement"
+              ],
+              "factual_summary": "Resolved public award records moved from 1 to 2 across 5 publication periods.",
+              "proposed_mechanism": "Published public procurement activity change",
+              "history": {
+                "snapshot_count": 5,
+                "observation_period_days": 1461.0,
+                "interval_days": [
+                  365.0,
+                  365.0,
+                  366.0,
+                  365.0
+                ],
+                "interval_consistency": "CONSISTENT",
+                "missing_periods": null,
+                "history_depth": "SUFFICIENT_FOR_POLICY"
+              },
+              "denominator": {
+                "available": true,
+                "value": 1.0,
+                "unit": "award_records",
+                "evidence_ids": [
+                  "ev-fts-019386-2021"
+                ],
+                "quality": "MEDIUM"
+              },
+              "magnitude": {
+                "absolute_change": 1.0,
+                "relative_change": 1.0,
+                "unit": "award_records"
+              },
+              "persistence": {
+                "status": "REVERSED",
+                "consistent_intervals": 0,
+                "total_intervals": 4
+              },
+              "corroboration": {
+                "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+                "independent_source_families": [
+                  "contracts_procurement"
+                ],
+                "related_observation_count": 7,
+                "duplicate_observation_count": 0,
+                "supporting_observation_ids": [
+                  "obs-fts-019386-2021",
+                  "obs-fts-027265-2022",
+                  "obs-fts-024094-2023",
+                  "obs-fts-036224-2023",
+                  "obs-fts-036854-2024",
+                  "obs-fts-013440-2025",
+                  "obs-fts-015517-2025"
+                ],
+                "contradicting_observation_ids": [],
+                "duplicate_derivative_groups": []
+              },
+              "data_quality": {
+                "status": "GOOD",
+                "source_health": [
+                  "healthy"
+                ],
+                "stale": false,
+                "coverage_limitations": [
+                  "Public awards are a partial view of company commercial activity."
+                ]
+              },
+              "historical_context_status": "INSUFFICIENT_EVIDENCE",
+              "peer_context_status": "UNAVAILABLE",
+              "entity_scope_consistent": true,
+              "contradiction_present": false,
+              "factual_features": {
+                "award_count_by_period": {
+                  "2021": 1,
+                  "2022": 1,
+                  "2023": 2,
+                  "2024": 1,
+                  "2025": 2
+                },
+                "category_mix": {
+                  "public works/services": 7
+                },
+                "disclosed_value_by_currency": {},
+                "new_supplier_appearances": null,
+                "repeat_supplier_count": null,
+                "history_depth_periods": 5,
+                "source_policy_ids": [
+                  "piotw-procurement-source-policy-find-a-tender-v0.1-development"
+                ],
+                "deduplicated_record_count": 7,
+                "candidate_relationships": []
+              },
+              "adapter_version": "procurement-family-adapter-v0.2"
+            }
+          ],
+          "corroboration_links": [],
+          "missingness": [],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "contracts_procurement",
+            "availability": "AVAILABLE",
+            "source_health": "healthy",
+            "history_depth": 5,
+            "latest_evidence_at": "2025-07-01T00:00:00Z",
+            "entity_resolution_quality": "HIGH",
+            "longitudinal_feature_ready": true,
+            "qualification_ready": true,
+            "limitations": []
+          }
+        },
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "leadership_organisation",
+          "adapter_version": "leadership-organisation-adapter-v0.1",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "raw_evidence_references": [],
+          "observations": [],
+          "longitudinal_features": {
+            "announced_changes_by_type": {},
+            "senior_change_count": 0,
+            "functions_affected": [],
+            "candidate_relationships": []
+          },
+          "candidates": [],
+          "corroboration_links": [],
+          "missingness": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "leadership_organisation",
+            "availability": "NO_HISTORY",
+            "source_health": "degraded",
+            "history_depth": 0,
+            "latest_evidence_at": null,
+            "entity_resolution_quality": "UNRESOLVED",
+            "longitudinal_feature_ready": false,
+            "qualification_ready": false,
+            "limitations": [
+              "No inference is made about competence, sentiment or the success of announced changes."
+            ]
+          }
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-abeb979b079372d4",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "procurement_activity_acceleration",
+          "supporting_observation_ids": [
+            "obs-fts-019386-2021",
+            "obs-fts-027265-2022",
+            "obs-fts-024094-2023",
+            "obs-fts-036224-2023",
+            "obs-fts-036854-2024",
+            "obs-fts-013440-2025",
+            "obs-fts-015517-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-fts-019386-2021",
+            "ev-fts-027265-2022",
+            "ev-fts-024094-2023",
+            "ev-fts-036224-2023",
+            "ev-fts-036854-2024",
+            "ev-fts-013440-2025",
+            "ev-fts-015517-2025"
+          ],
+          "dimensions": [
+            "Supply Chain & Resilience",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "contracts_procurement"
+          ],
+          "history": {
+            "snapshot_count": 5,
+            "observation_period_days": 1461.0,
+            "interval_days": [
+              365.0,
+              365.0,
+              366.0,
+              365.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 1.0,
+            "unit": "award_records",
+            "evidence_ids": [
+              "ev-fts-019386-2021"
+            ],
+            "quality": "MEDIUM"
+          },
+          "magnitude": {
+            "absolute_change": 1.0,
+            "relative_change": 1.0,
+            "unit": "award_records"
+          },
+          "persistence": {
+            "status": "REVERSED",
+            "consistent_intervals": 0,
+            "total_intervals": 4
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "contracts_procurement"
+            ],
+            "related_observation_count": 7,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-fts-019386-2021",
+              "obs-fts-027265-2022",
+              "obs-fts-024094-2023",
+              "obs-fts-036224-2023",
+              "obs-fts-036854-2024",
+              "obs-fts-013440-2025",
+              "obs-fts-015517-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public awards are a partial view of company commercial activity."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "INSUFFICIENT_EVIDENCE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "UNSUPPORTED",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "INSUFFICIENT_EVIDENCE",
+          "direction": "UNKNOWN",
+          "materiality": "UNKNOWN",
+          "confidence": "NOT_ASSESSED",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "5 snapshots",
+              "requirement": ">=4 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": ">=0.25 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "FAIL",
+              "required": true,
+              "observed": "0 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Published public procurement activity change",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [
+            "persistence"
+          ],
+          "missing_information": [
+            "A one-period movement is not a persistent operational condition.",
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Resolved public award records moved from 1 to 2 across 5 publication periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published public procurement activity change.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=FAIL; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "A one-period movement is not a persistent operational condition. The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "INSUFFICIENT_EVIDENCE: Resolved public award records moved from 1 to 2 across 5 publication periods. If the movement is persistent and material, it could support the operational state: published public procurement activity change. Failed required tests: persistence."
+        }
+      ]
+    },
+    {
+      "company_id": "kier-group",
+      "source_records": [
+        {
+          "source_record_id": "fts-023949-2021",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2021-07-01T00:00:00Z",
+          "source_published_at": "2021-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/023949-2021",
+          "source_hash": "57012004b738f919793d0ae1c81d4f4e5992156c2e86221bef16d0662612c5fb",
+          "evidence_span": "UK Find a Tender contract-award notice fts-023949-2021 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2021",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "SCAPE-2021"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-007260-2023",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2023-07-01T00:00:00Z",
+          "source_published_at": "2023-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/007260-2023",
+          "source_hash": "c3bc2cc32b2c3fae54e57603189ad43c625b5e4c0d42caeeca0640649b8036e8",
+          "evidence_span": "UK Find a Tender contract-award notice fts-007260-2023 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2023",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "KIER-AWARD-007260"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-020764-2024",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2024-07-01T00:00:00Z",
+          "source_published_at": "2024-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/020764-2024",
+          "source_hash": "bbe5ea07d634ecf3b16e4c25db857a75a90ba9af9578a21144e53483cb7d409e",
+          "evidence_span": "UK Find a Tender contract-award notice fts-020764-2024 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2024",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "MAJOR-WORKS-2024"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-016366-2024",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2024-07-01T00:00:00Z",
+          "source_published_at": "2024-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/016366-2024",
+          "source_hash": "01272d12121f19b5d4653f698a5f1c042c40006169fa97ef6b59d2033623f201",
+          "evidence_span": "UK Find a Tender contract-award notice fts-016366-2024 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2024",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "KIER-AWARD-016366"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-035752-2025",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2025-07-01T00:00:00Z",
+          "source_published_at": "2025-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/035752-2025",
+          "source_hash": "d99e21f1568227debf1b9e9d8df6ec5dc321ae3f0ea53d942aae3bfafa5033f3",
+          "evidence_span": "UK Find a Tender contract-award notice fts-035752-2025 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2025",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "COLINDALE-2025"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-054981-2025",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2025-07-01T00:00:00Z",
+          "source_published_at": "2025-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/054981-2025",
+          "source_hash": "f3df7fe189433f836e871a5b8d4bdcd443ba40fdd6f12a2bc5c2bc59a5238d44",
+          "evidence_span": "UK Find a Tender contract-award notice fts-054981-2025 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2025",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "KIER-AWARD-054981"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        },
+        {
+          "source_record_id": "fts-067631-2025",
+          "family_id": "contracts_procurement",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "publication_or_effective_at": "2025-07-01T00:00:00Z",
+          "source_published_at": "2025-07-01T00:00:00Z",
+          "retrieved_at": "2026-08-19T23:59:59Z",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/067631-2025",
+          "source_hash": "d08ce00136fd86634ef15a51df289de1e429a63983e2c733627d9468b00d44a1",
+          "evidence_span": "UK Find a Tender contract-award notice fts-067631-2025 names Kier Construction Limited, company number 02099533, as an awarded supplier.",
+          "collector_or_parser_version": "multifamily-extension-primary-source-v0.2",
+          "source_health": "healthy",
+          "derivative_group": null,
+          "record_type": "award_notice",
+          "values": {
+            "entity_resolution": "APPROVED",
+            "award_value": null,
+            "currency": "GBP",
+            "category": "public works/services",
+            "comparison_period": "2025",
+            "source_policy_id": "piotw-procurement-source-policy-find-a-tender-v0.1-development",
+            "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+            "notice_type": "contract_award_notice",
+            "underlying_award_id": "KIER-AWARD-067631"
+          },
+          "scope_kind": "SUBSIDIARY",
+          "legal_entity_identifier": "02099533",
+          "entity_resolution_method": "exact_legal_name_and_company_number_in_primary_notice",
+          "entity_resolution_confidence": "HIGH"
+        }
+      ],
+      "family_envelopes": [
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "contracts_procurement",
+          "adapter_version": "procurement-family-adapter-v0.2",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "raw_evidence_references": [
+            "fts-023949-2021",
+            "fts-007260-2023",
+            "fts-020764-2024",
+            "fts-016366-2024",
+            "fts-035752-2025",
+            "fts-054981-2025",
+            "fts-067631-2025"
+          ],
+          "observations": [
+            {
+              "observation_id": "obs-fts-023949-2021",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2021-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-023949-2021"
+              ],
+              "source_record_ids": [
+                "fts-023949-2021"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-023949-2021"
+            },
+            {
+              "observation_id": "obs-fts-007260-2023",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2023-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-007260-2023"
+              ],
+              "source_record_ids": [
+                "fts-007260-2023"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-007260-2023"
+            },
+            {
+              "observation_id": "obs-fts-020764-2024",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2024-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-020764-2024"
+              ],
+              "source_record_ids": [
+                "fts-020764-2024"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-020764-2024"
+            },
+            {
+              "observation_id": "obs-fts-016366-2024",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2024-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-016366-2024"
+              ],
+              "source_record_ids": [
+                "fts-016366-2024"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-016366-2024"
+            },
+            {
+              "observation_id": "obs-fts-035752-2025",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2025-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-035752-2025"
+              ],
+              "source_record_ids": [
+                "fts-035752-2025"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-035752-2025"
+            },
+            {
+              "observation_id": "obs-fts-054981-2025",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2025-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-054981-2025"
+              ],
+              "source_record_ids": [
+                "fts-054981-2025"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-054981-2025"
+            },
+            {
+              "observation_id": "obs-fts-067631-2025",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "source_family": "contracts_procurement",
+              "observed_at": "2025-07-01T00:00:00Z",
+              "value": null,
+              "unit": "GBP",
+              "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+              "evidence_ids": [
+                "ev-fts-067631-2025"
+              ],
+              "source_record_ids": [
+                "fts-067631-2025"
+              ],
+              "collection_health": "healthy",
+              "derivative_group": "fts-067631-2025"
+            }
+          ],
+          "longitudinal_features": {
+            "award_count_by_period": {
+              "2021": 1,
+              "2023": 1,
+              "2024": 2,
+              "2025": 3
+            },
+            "category_mix": {
+              "public works/services": 7
+            },
+            "disclosed_value_by_currency": {},
+            "new_supplier_appearances": null,
+            "repeat_supplier_count": null,
+            "history_depth_periods": 4,
+            "source_policy_ids": [
+              "piotw-procurement-source-policy-find-a-tender-v0.1-development"
+            ],
+            "deduplicated_record_count": 7,
+            "candidate_relationships": []
+          },
+          "candidates": [
+            {
+              "candidate_id": "candidate-75dd0883552c61d7",
+              "company_id": "kier-group",
+              "entity_scope": "kier-group",
+              "analysis_cutoff": "2026-08-19T23:59:59Z",
+              "candidate_type": "procurement_activity_acceleration",
+              "dimensions": [
+                "Supply Chain & Resilience",
+                "Change & Execution"
+              ],
+              "observation_ids": [
+                "obs-fts-023949-2021",
+                "obs-fts-007260-2023",
+                "obs-fts-020764-2024",
+                "obs-fts-016366-2024",
+                "obs-fts-035752-2025",
+                "obs-fts-054981-2025",
+                "obs-fts-067631-2025"
+              ],
+              "evidence_ids": [
+                "ev-fts-023949-2021",
+                "ev-fts-007260-2023",
+                "ev-fts-020764-2024",
+                "ev-fts-016366-2024",
+                "ev-fts-035752-2025",
+                "ev-fts-054981-2025",
+                "ev-fts-067631-2025"
+              ],
+              "evidence_families": [
+                "contracts_procurement"
+              ],
+              "factual_summary": "Resolved public award records moved from 1 to 3 across 4 publication periods.",
+              "proposed_mechanism": "Published public procurement activity change",
+              "history": {
+                "snapshot_count": 4,
+                "observation_period_days": 1461.0,
+                "interval_days": [
+                  730.0,
+                  366.0,
+                  365.0
+                ],
+                "interval_consistency": "IRREGULAR",
+                "missing_periods": null,
+                "history_depth": "SUFFICIENT_FOR_POLICY"
+              },
+              "denominator": {
+                "available": true,
+                "value": 1.0,
+                "unit": "award_records",
+                "evidence_ids": [
+                  "ev-fts-023949-2021"
+                ],
+                "quality": "MEDIUM"
+              },
+              "magnitude": {
+                "absolute_change": 2.0,
+                "relative_change": 2.0,
+                "unit": "award_records"
+              },
+              "persistence": {
+                "status": "PERSISTENT",
+                "consistent_intervals": 2,
+                "total_intervals": 3
+              },
+              "corroboration": {
+                "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+                "independent_source_families": [
+                  "contracts_procurement"
+                ],
+                "related_observation_count": 7,
+                "duplicate_observation_count": 0,
+                "supporting_observation_ids": [
+                  "obs-fts-023949-2021",
+                  "obs-fts-007260-2023",
+                  "obs-fts-020764-2024",
+                  "obs-fts-016366-2024",
+                  "obs-fts-035752-2025",
+                  "obs-fts-054981-2025",
+                  "obs-fts-067631-2025"
+                ],
+                "contradicting_observation_ids": [],
+                "duplicate_derivative_groups": []
+              },
+              "data_quality": {
+                "status": "GOOD",
+                "source_health": [
+                  "healthy"
+                ],
+                "stale": false,
+                "coverage_limitations": [
+                  "Public awards are a partial view of company commercial activity."
+                ]
+              },
+              "historical_context_status": "INSUFFICIENT_EVIDENCE",
+              "peer_context_status": "UNAVAILABLE",
+              "entity_scope_consistent": true,
+              "contradiction_present": false,
+              "factual_features": {
+                "award_count_by_period": {
+                  "2021": 1,
+                  "2023": 1,
+                  "2024": 2,
+                  "2025": 3
+                },
+                "category_mix": {
+                  "public works/services": 7
+                },
+                "disclosed_value_by_currency": {},
+                "new_supplier_appearances": null,
+                "repeat_supplier_count": null,
+                "history_depth_periods": 4,
+                "source_policy_ids": [
+                  "piotw-procurement-source-policy-find-a-tender-v0.1-development"
+                ],
+                "deduplicated_record_count": 7,
+                "candidate_relationships": []
+              },
+              "adapter_version": "procurement-family-adapter-v0.2"
+            }
+          ],
+          "corroboration_links": [],
+          "missingness": [],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "contracts_procurement",
+            "availability": "AVAILABLE",
+            "source_health": "healthy",
+            "history_depth": 4,
+            "latest_evidence_at": "2025-07-01T00:00:00Z",
+            "entity_resolution_quality": "HIGH",
+            "longitudinal_feature_ready": true,
+            "qualification_ready": true,
+            "limitations": []
+          }
+        },
+        {
+          "schema_version": "piotw-evidence-family-envelope-v0.1",
+          "family_id": "leadership_organisation",
+          "adapter_version": "leadership-organisation-adapter-v0.1",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "cutoff": "2026-08-19T23:59:59Z",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "raw_evidence_references": [],
+          "observations": [],
+          "longitudinal_features": {
+            "announced_changes_by_type": {},
+            "senior_change_count": 0,
+            "functions_affected": [],
+            "candidate_relationships": []
+          },
+          "candidates": [],
+          "corroboration_links": [],
+          "missingness": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ],
+          "provenance_complete": true,
+          "coverage": {
+            "family_id": "leadership_organisation",
+            "availability": "NO_HISTORY",
+            "source_health": "degraded",
+            "history_depth": 0,
+            "latest_evidence_at": null,
+            "entity_resolution_quality": "UNRESOLVED",
+            "longitudinal_feature_ready": false,
+            "qualification_ready": false,
+            "limitations": [
+              "No inference is made about competence, sentiment or the success of announced changes."
+            ]
+          }
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-05851e0497fa51ed",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "procurement_activity_acceleration",
+          "supporting_observation_ids": [
+            "obs-fts-023949-2021",
+            "obs-fts-007260-2023",
+            "obs-fts-020764-2024",
+            "obs-fts-016366-2024",
+            "obs-fts-035752-2025",
+            "obs-fts-054981-2025",
+            "obs-fts-067631-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-fts-023949-2021",
+            "ev-fts-007260-2023",
+            "ev-fts-020764-2024",
+            "ev-fts-016366-2024",
+            "ev-fts-035752-2025",
+            "ev-fts-054981-2025",
+            "ev-fts-067631-2025"
+          ],
+          "dimensions": [
+            "Supply Chain & Resilience",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "contracts_procurement"
+          ],
+          "history": {
+            "snapshot_count": 4,
+            "observation_period_days": 1461.0,
+            "interval_days": [
+              730.0,
+              366.0,
+              365.0
+            ],
+            "interval_consistency": "IRREGULAR",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 1.0,
+            "unit": "award_records",
+            "evidence_ids": [
+              "ev-fts-023949-2021"
+            ],
+            "quality": "MEDIUM"
+          },
+          "magnitude": {
+            "absolute_change": 2.0,
+            "relative_change": 2.0,
+            "unit": "award_records"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 2,
+            "total_intervals": 3
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "contracts_procurement"
+            ],
+            "related_observation_count": 7,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-fts-023949-2021",
+              "obs-fts-007260-2023",
+              "obs-fts-020764-2024",
+              "obs-fts-016366-2024",
+              "obs-fts-035752-2025",
+              "obs-fts-054981-2025",
+              "obs-fts-067631-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public awards are a partial view of company commercial activity."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "INSUFFICIENT_EVIDENCE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "INCREASING",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "4 snapshots",
+              "requirement": ">=4 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "2.0",
+              "requirement": ">=0.25 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "2 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Published public procurement activity change",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Resolved public award records moved from 1 to 3 across 4 publication periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published public procurement activity change.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Resolved public award records moved from 1 to 3 across 4 publication periods. The evidence supports published public procurement activity change under the development policy."
+        }
+      ]
+    }
+  ],
+  "source_first_review": [
+    {
+      "company_id": "abrdn",
+      "candidate_type": "organisational_restructuring",
+      "engine_status": "QUALIFIED",
+      "classification": "CORRECT QUALIFICATION",
+      "factual_observation_correct": true,
+      "entity_scope_correct": true,
+      "provenance_complete": true,
+      "severe_false_positive": false,
+      "false_negative": false,
+      "operationally_worth_investigating": true,
+      "reason": "The issuer directly described operating-committee, leadership-team and accountability redesign; this is not a routine appointment."
+    },
+    {
+      "company_id": "mears-group",
+      "candidate_type": "procurement_activity_acceleration",
+      "engine_status": "INSUFFICIENT_EVIDENCE",
+      "classification": "CORRECT WITHHOLD",
+      "factual_observation_correct": true,
+      "entity_scope_correct": true,
+      "provenance_complete": true,
+      "severe_false_positive": false,
+      "false_negative": false,
+      "operationally_worth_investigating": false,
+      "reason": "The same-regime annual notice counts reverse direction and do not establish persistent movement."
+    },
+    {
+      "company_id": "kier-group",
+      "candidate_type": "procurement_activity_acceleration",
+      "engine_status": "QUALIFIED",
+      "classification": "AMBIGUOUS / NEEDS MORE EVIDENCE",
+      "factual_observation_correct": true,
+      "entity_scope_correct": true,
+      "provenance_complete": true,
+      "severe_false_positive": false,
+      "false_negative": false,
+      "operationally_worth_investigating": true,
+      "reason": "The rule qualified a rise in sparse publication counts, but buyer-driven notice coverage is not complete enough to establish a company operational condition."
+    }
+  ],
+  "combined_metrics": {
+    "factual_observation_accuracy": {
+      "correct": 14,
+      "total": 14
+    },
+    "entity_scope_accuracy": {
+      "correct": 14,
+      "total": 14
+    },
+    "qualified_condition_precision": {
+      "correct": 9,
+      "total": 10
+    },
+    "false_negative_rate": {
+      "false_negatives": 0,
+      "total_expected_positive": 9
+    },
+    "ambiguous_case_rate": {
+      "ambiguous": 3,
+      "total": 14
+    },
+    "provenance_completeness": {
+      "complete": 14,
+      "total": 14
+    },
+    "severe_false_positives": 0,
+    "unhandled_contradictions": 0,
+    "stable_family_policies": [
+      "estate",
+      "leadership_organisation"
+    ],
+    "retired_family_policies": []
+  },
+  "combined_rates": {
+    "factual": 1.0,
+    "entity": 1.0,
+    "precision": 0.9,
+    "false_negative": 0.0,
+    "ambiguous": 0.21428571428571427,
+    "provenance": 1.0
+  },
+  "summary": {
+    "original_decisions": 11,
+    "new_decisions": 3,
+    "combined_decisions": 14,
+    "new_qualified": 2,
+    "new_withheld": 1,
+    "readiness_status": "NOT_READY_POLICY_INSTABILITY",
+    "procurement_policy_status": "SOURCE_SPECIFIC_BOUNDARY_DEFINED_NEEDS_FURTHER_REVIEW"
+  },
+  "gate_application_audit": {
+    "condition_engine_rerun": false,
+    "previous_reported_status": "READY_FOR_COMPARE",
+    "corrected_status": "NOT_READY_POLICY_INSTABILITY",
+    "correction_reason": "The initial reporting code omitted the frozen ambiguous-case-rate check; preserved engine outputs were not rerun or changed.",
+    "ambiguity_observed": 0.21428571428571427,
+    "ambiguity_max": 0.2
+  }
+}
