@@ -1,0 +1,48 @@
+{
+  "protocol_id": "piotw-multifamily-condition-review-v0.1",
+  "frozen_before_evaluation": true,
+  "methodological_status": "DEVELOPMENT_METHODOLOGY_REVIEW_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "analysis_cutoff": "2026-08-19T23:59:59Z",
+  "sample": {
+    "selected_company_ids": [
+      "kingfisher",
+      "howden-joinery",
+      "greggs",
+      "jd-wetherspoon",
+      "kier-group",
+      "mears-group",
+      "cloudflare"
+    ],
+    "minimum_companies": 6,
+    "frozen_restructuring_cohort_overlap_allowed": false,
+    "existing_careers_control_company": "cloudflare"
+  },
+  "policy": {
+    "file": "config/conditions/qualification_policy_v0_1.json",
+    "version": "piotw-condition-qualification-policy-v0.1-development",
+    "sha256_at_freeze": "b5af92d2c913a39e0bd756c0a5e17549fc5f02ec3eaa0c5af871b7f8fa26e97d"
+  },
+  "minimum_review_scope": {
+    "total_candidate_decisions": 12,
+    "estate_companies_with_three_periods": 3,
+    "leadership_companies_with_direct_primary_evidence": 3,
+    "procurement_companies_with_approved_entity_resolution": 2,
+    "families_with_real_candidates": 3
+  },
+  "readiness_gate": {
+    "factual_observation_accuracy_min": 0.95,
+    "entity_scope_accuracy_min": 1.0,
+    "qualified_condition_precision_min": 0.90,
+    "false_negative_rate_max": 0.10,
+    "ambiguous_case_rate_max": 0.20,
+    "provenance_completeness_min": 1.0,
+    "severe_false_positives_max": 0,
+    "unhandled_contradictions_max": 0,
+    "minimum_stable_family_policies": 2,
+    "retired_family_policies_max": 0
+  },
+  "stopping_rule": "Run one frozen review over the selected development-safe set. Do not add companies, change labels, thresholds or policies after aggregate results are visible. If minimum scope is not met, return NOT_READY_INSUFFICIENT_REVIEW_SCOPE.",
+  "ambiguity_rule": "Retain AMBIGUOUS_NEEDS_MORE_EVIDENCE; do not force a positive or negative decision.",
+  "contradiction_rule": "Retain each independently supported observation and require the qualification result to expose contradiction. Shared ontology dimensions alone are not corroboration."
+}
