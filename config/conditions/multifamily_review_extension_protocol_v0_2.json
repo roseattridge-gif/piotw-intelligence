@@ -1,0 +1,66 @@
+{
+  "protocol_id": "piotw-multifamily-condition-review-extension-v0.2",
+  "frozen_before_selection_and_evaluation": true,
+  "methodological_status": "DEVELOPMENT_METHODOLOGY_REVIEW_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "analysis_cutoff": "2026-08-19T23:59:59Z",
+  "original_review": {
+    "protocol": "config/conditions/multifamily_review_protocol_v0_1.json",
+    "results": "data/derived/piotw_multifamily_condition_review_v0_1_results.json",
+    "reviewed_decisions": 11,
+    "frozen_unchanged": true
+  },
+  "selection_rules": {
+    "leadership": "Select the first eligible development-safe issuer found under an alphabetical search of UK-listed issuers outside the original seven-company set and frozen restructuring cohort, where a primary issuer source explicitly describes a completed, ongoing or announced operating-model, accountability, reporting-line, role-creation/removal or business-unit leadership redesign. Routine appointments and vague change language are excluded.",
+    "procurement": "Deepen only the existing Mears Limited and Kier Construction Limited resolved histories using UK Find a Tender contract-award notices from the same notice regime. Include notices whose supplier legal name and company number match exactly. Exclude pipeline, planning, modification-only, prior-information and tender notices; exclude duplicate or republished versions of one underlying award.",
+    "careers": "Collect only if the normal collector cadence says due; careers evidence cannot substitute for the required leadership case.",
+    "minimum_additional_decisions": 1,
+    "minimum_combined_decisions": 12
+  },
+  "procurement_source_policy_boundary": {
+    "source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+    "comparison_period": "calendar_year_of_publication",
+    "denominator": "count_of_deduplicated_entity-resolved_contract-award_notices_in_same_regime",
+    "minimum_periods": 4,
+    "allowed_notice_types": ["contract_award_notice"],
+    "excluded_notice_types": ["pipeline_notice", "planning_notice", "tender_notice", "contract_modification_notice", "prior_information_notice"],
+    "deduplication_key": "underlying_award_or_contract_id_then_canonical_notice_id",
+    "missingness": "no observed notice means unavailable publication coverage, not zero commercial activity"
+  },
+  "policy": {
+    "file": "config/conditions/qualification_policy_v0_1.json",
+    "version": "piotw-condition-qualification-policy-v0.1-development",
+    "sha256_at_freeze": "b5af92d2c913a39e0bd756c0a5e17549fc5f02ec3eaa0c5af871b7f8fa26e97d"
+  },
+  "review_classifications": [
+    "CORRECT QUALIFICATION",
+    "CORRECT WITHHOLD",
+    "FALSE POSITIVE",
+    "FALSE NEGATIVE",
+    "AMBIGUOUS / NEEDS MORE EVIDENCE",
+    "ENTITY-RESOLUTION ERROR",
+    "FEATURE/POLICY ERROR"
+  ],
+  "readiness_gate": {
+    "factual_observation_accuracy_min": 0.95,
+    "entity_scope_accuracy_min": 1.0,
+    "qualified_condition_precision_min": 0.90,
+    "false_negative_rate_max": 0.10,
+    "ambiguous_case_rate_max": 0.20,
+    "provenance_completeness_min": 1.0,
+    "severe_false_positives_max": 0,
+    "unhandled_contradictions_max": 0,
+    "minimum_stable_family_policies": 2,
+    "retired_family_policies_max": 0
+  },
+  "status_precedence": [
+    "NOT_READY_FALSE_POSITIVE_RISK",
+    "NOT_READY_FALSE_NEGATIVE_RISK",
+    "NOT_READY_ENTITY_RESOLUTION",
+    "NOT_READY_POLICY_INSTABILITY",
+    "NOT_READY_INSUFFICIENT_REVIEW_SCOPE",
+    "READY_FOR_COMPARE"
+  ],
+  "stopping_rule": "Freeze this protocol, then select exactly the first eligible new leadership case and all qualifying same-regime procurement award notices found for the two preregistered entities through the cutoff. Run once. Do not add replacement cases, alter labels, thresholds or policy, or rerun after aggregate results are visible.",
+  "post_review_revision_rule": "A source-specific procurement revision may be proposed after the run but cannot be treated as stable or rerun in this sprint."
+}
