@@ -75,3 +75,6 @@ An LLM may locate passages, propose structured candidates and adjudicate bounded
 ## Deliberately absent
 
 This architecture contains no Pressure score, Expansion score, overall company-health score, predictive weights, outcome-derived feature selection, or Model 2. Those require later empirical decisions.
+# Multi-Source Detect v0.1 update
+
+The canonical Detect path now uses a common evidence-family envelope with family-specific payloads. Careers, estate, procurement and leadership adapters emit cutoff-safe factual observations, longitudinal features, controlled condition candidates, missingness and provenance into the source-agnostic qualification engine. Per-company evidence coverage is a matrix, not a score. Cross-family corroboration requires an explicit relationship and never arises merely because two facts share a PIOTW dimension. Deferred technology, supply-chain, customer/quality, regulatory/planning and issuer-context families have design-complete contracts but no shallow runtime collectors.

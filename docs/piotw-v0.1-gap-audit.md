@@ -161,3 +161,11 @@ Operate the approved cadence until at least four healthy snapshots—and at leas
 ## Scientific boundary
 
 `scientific_gate_run=false`. No restructuring, validation or holdout outcomes were accessed. Rules 1.0.0 and frozen Evidence Engine artifacts were not modified. Official Model 2 readiness remains **NOT READY**.
+
+## Multi-Source Evidence Depth v0.1 update
+
+Detect is no longer structurally careers-only. A common evidence-family envelope and reusable careers, estate, procurement and leadership adapters now feed the qualification engine and canonical company object. Travis Perkins exercises three real source-backed families; Cloudflare remains the non-Travis careers regression.
+
+The development policies qualify Travis Perkins estate reshaping and its explicitly announced organisational restructuring. Procurement is held at factual-feature level because only two comparable periods exist. Cloudflare's two-snapshot hiring candidate remains insufficient. These outcomes are development diagnostics, not scientific validation.
+
+The critical P0 is now source-first policy validation and non-Travis coverage. Before Compare, preregister a review of whether estate and leadership policies overstate materiality, add a primary-identifier procurement history, and exercise the same adapters on additional companies without curated answer logic.

@@ -45,7 +45,7 @@ source_families:
     examples: [find_a_tender, contracts_finder, public_award_notices, public_procurement_notices]
     jurisdiction: United_Kingdom
     access_method: public_ocds_api
-    production_readiness: proof_of_concept_adapter
+    production_readiness: development_entity_resolved_adapter
     boundary: outside_in
     default_cadence: {value: 1, unit: day}
     natural_update_frequency: daily
@@ -56,7 +56,7 @@ source_families:
     implementation_difficulty: medium
     signal_latency: one_to_seven_days
     likely_commercial_relevance: high
-    current_support_status: specified_not_built
+    current_support_status: implemented_resolved_awards_shallow_history
     observable_facts: [contract_award, award_value, buyer_activity, supplier_activity, notice_status]
     candidate_outcomes: [capacity_expansion, major_investment, profit_warning]
     mvp_priority: build_now
@@ -82,7 +82,7 @@ source_families:
   - source_family: physical_footprint_capacity
     jurisdiction: jurisdiction_specific
     access_method: public_planning_and_permit_registers
-    production_readiness: not_built
+    production_readiness: development_disclosed_period_adapter
     examples: [planning_applications, permit_notices, site_openings, site_closures, warehouse_factory_expansion]
     boundary: outside_in
     default_cadence: {value: 1, unit: week}
@@ -94,10 +94,29 @@ source_families:
     implementation_difficulty: high
     signal_latency: one_to_four_weeks
     likely_commercial_relevance: medium_high
-    current_support_status: specified_not_built
+    current_support_status: implemented_disclosed_period_series_no_complete_site_register
     observable_facts: [planning_application, permit_status, floor_area, site_use, construction_stage, closure_notice]
     candidate_outcomes: [site_closure, capacity_expansion, geographic_expansion, major_investment]
     mvp_priority: build_next
+  - source_family: leadership_organisation
+    jurisdiction: multi_jurisdiction
+    access_method: primary_company_and_regulatory_announcements
+    production_readiness: development_explicit_change_adapter
+    examples: [senior_appointments, exits, role_creation, operating_structure_announcements]
+    boundary: issuer_reported_and_regulatory
+    default_cadence: {value: 1, unit: event_driven}
+    natural_update_frequency: irregular
+    point_in_time_reconstruction_quality: strong_for_public_announcements
+    backfill_quality: partial
+    likely_cost: low
+    legal_access_risk: low
+    implementation_difficulty: medium
+    signal_latency: event_publication
+    likely_commercial_relevance: medium_high
+    current_support_status: implemented_explicit_announced_changes_no_complete_register
+    observable_facts: [appointment, exit, role_creation_removal, operating_structure_change]
+    candidate_outcomes: [restructuring, leadership_intervention, major_investment]
+    mvp_priority: build_now
   - source_family: company_newsrooms
     jurisdiction: multi_jurisdiction
     access_method: public_web_or_feed

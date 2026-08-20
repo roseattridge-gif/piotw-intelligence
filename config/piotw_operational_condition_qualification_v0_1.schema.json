@@ -362,7 +362,16 @@
         "hiring_contraction",
         "workforce_functional_mix_shift",
         "procurement_activity_acceleration",
-        "procurement_category_concentration_change"
+        "procurement_activity_deceleration",
+        "procurement_category_concentration_change",
+        "estate_expansion",
+        "estate_contraction",
+        "estate_reshaping",
+        "capacity_expansion",
+        "capacity_rationalisation",
+        "organisational_restructuring",
+        "leadership_instability",
+        "capability_build"
       ],
       "title": "Condition Candidate Type",
       "type": "string"

@@ -152,3 +152,11 @@ The result already carries historical- and peer-context statuses. A future bench
 ## Scientific boundary
 
 This work is product/architecture development outside the protected Evidence Engine study. It does not access unseen validation documents, restructuring outcomes or holdout outcomes; alter Rules 1.0.0; run the frozen scientific gate; train Model 2; or introduce Pressure/Expansion.
+
+## Multi-Source Evidence Depth v0.1 update
+
+`piotw_evidence/families_v01.py` now formalises a common envelope around family-specific payloads. It preserves availability, health, cutoff, scope, raw references, observations, longitudinal features, candidates, corroboration/contradiction metadata, missingness and provenance. Careers, estate, procurement and leadership use this boundary in the real orchestrator.
+
+The controlled vocabulary now also includes estate expansion/contraction/reshaping, procurement deceleration and organisational restructuring. Only estate reshaping and organisational restructuring have new development policies. Those policies do not alter the existing careers thresholds and remain subject to source-first review.
+
+Travis Perkins supplies the first real multi-source runtime case: estate reshaping and an explicitly announced organisational restructuring qualify under development rules; two resolved public awards remain factual-only because history is too shallow. Cloudflare remains careers-only and its hiring candidate remains insufficient. Corroboration is relationship-based: sharing a dimension never makes another family independent support, and derivative duplicates or contradictions remain visible.

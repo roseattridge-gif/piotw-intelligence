@@ -20,7 +20,16 @@ CandidateFamily = Literal[
     "hiring_contraction",
     "workforce_functional_mix_shift",
     "procurement_activity_acceleration",
+    "procurement_activity_deceleration",
     "procurement_category_concentration_change",
+    "estate_expansion",
+    "estate_contraction",
+    "estate_reshaping",
+    "capacity_expansion",
+    "capacity_rationalisation",
+    "organisational_restructuring",
+    "leadership_instability",
+    "capability_build",
 ]
 QualificationStatus = Literal["QUALIFIED", "INSUFFICIENT_EVIDENCE", "WITHHELD"]
 TestStatus = Literal["PASS", "FAIL", "UNAVAILABLE", "NOT_REQUIRED"]
@@ -210,7 +219,7 @@ def assess_corroboration(observations: list[FactualObservation], *,
     supporting = [item.observation_id for item in observations if item.observation_id not in contradicting]
     if contradicting:
         status = "CONTRADICTORY"
-    elif observations and duplicates == len(observations) - 1:
+    elif duplicate_groups and duplicates == len(observations) - 1:
         status = "DUPLICATE_ONLY"
     elif len(families) > 1:
         status = "INDEPENDENT"
@@ -458,17 +467,22 @@ class ConditionQualificationEngine:
             self._test("history_depth", candidate.history.snapshot_count >= int(policy["minimum_snapshots"]), True,
                 f"{candidate.history.snapshot_count} snapshots", f">={policy['minimum_snapshots']} snapshots",
                 "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."),
-            self._test("denominator", candidate.denominator.available, bool(policy["denominator_required"]),
+            self._test("denominator", (not policy.get("denominator_required", True)) or candidate.denominator.available,
+                bool(policy.get("denominator_required", True)),
                 str(candidate.denominator.value), "available denominator", "Quantitative materiality requires an evidenced scale denominator."),
-            self._test("magnitude", candidate.magnitude.relative_change is not None and
-                abs(candidate.magnitude.relative_change) >= float(policy["minimum_relative_change"]), True,
+            self._test("magnitude", (not policy.get("magnitude_required", True)) or
+                (candidate.magnitude.relative_change is not None and
+                abs(candidate.magnitude.relative_change) >= float(policy.get("minimum_relative_change", 0))),
+                bool(policy.get("magnitude_required", True)),
                 str(candidate.magnitude.relative_change), f">={policy['minimum_relative_change']} absolute relative change",
                 "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."),
-            self._test("persistence", candidate.persistence.consistent_intervals >= int(policy["minimum_consistent_intervals"]), True,
+            self._test("persistence", (not policy.get("persistence_required", True)) or
+                candidate.persistence.consistent_intervals >= int(policy.get("minimum_consistent_intervals", 0)),
+                bool(policy.get("persistence_required", True)),
                 f"{candidate.persistence.consistent_intervals} consistent intervals",
-                f">={policy['minimum_consistent_intervals']} consistent intervals",
+                f">={policy.get('minimum_consistent_intervals', 0)} consistent intervals",
                 "A one-period movement is not a persistent operational condition."),
-            self._test("contradiction", not candidate.contradiction_present, True,
+            self._test("contradiction", bool(policy.get("contradiction_allowed", False)) or not candidate.contradiction_present, True,
                 str(candidate.contradiction_present), "no contradictory direction",
                 "Reversing observations cannot support a single directional condition."),
             self._test("operational_mechanism", bool(candidate.proposed_mechanism), True,
@@ -486,7 +500,12 @@ class ConditionQualificationEngine:
         materiality = "UNKNOWN"
         confidence = "NOT_ASSESSED"
         if status == "QUALIFIED":
-            direction = "INCREASING" if (candidate.magnitude.relative_change or 0) > 0 else "DECREASING"
+            if candidate.candidate_type in {"estate_reshaping", "organisational_restructuring"}:
+                direction = "MIXED"
+            elif candidate.magnitude.relative_change is None:
+                direction = "STABLE"
+            else:
+                direction = "INCREASING" if candidate.magnitude.relative_change > 0 else "DECREASING"
             materiality = policy["materiality_when_qualified"]
             confidence = "MEDIUM" if candidate.corroboration.status == "INDEPENDENT" else "LOW"
         observed = candidate.factual_summary

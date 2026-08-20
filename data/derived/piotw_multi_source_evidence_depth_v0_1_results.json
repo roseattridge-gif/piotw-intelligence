@@ -1,0 +1,240 @@
+{
+  "schema_version": "piotw-multi-source-evidence-depth-results-v0.1",
+  "generated_at": "2026-08-19T00:00:00+00:00",
+  "scientific_gate_run": false,
+  "scientifically_validated": false,
+  "companies": [
+    {
+      "company_id": "travis-perkins",
+      "run_id": "uc-travis-perkins-20260819T000000Z-fa50fcd94822",
+      "evidence_count": 6,
+      "families_present": [
+        "estate_footprint_capacity",
+        "contracts_procurement",
+        "leadership_organisation"
+      ],
+      "families_missing": [
+        "careers_ats",
+        "technology_transformation",
+        "supply_chain_sourcing",
+        "customer_service_quality",
+        "regulatory_planning",
+        "issuer_financial_context"
+      ],
+      "coverage_matrix": [
+        {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        {
+          "family_id": "estate_footprint_capacity",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 3,
+          "latest_evidence_at": "2026-03-17T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        {
+          "family_id": "contracts_procurement",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 2,
+          "latest_evidence_at": "2025-12-09T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": false,
+          "limitations": [
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        {
+          "family_id": "leadership_organisation",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 1,
+          "latest_evidence_at": "2025-06-09T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": true,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "candidate_type": "estate_reshaping",
+          "status": "QUALIFIED",
+          "failed_tests": [],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ]
+        },
+        {
+          "candidate_type": "organisational_restructuring",
+          "status": "QUALIFIED",
+          "failed_tests": [],
+          "evidence_families": [
+            "leadership_organisation"
+          ]
+        }
+      ],
+      "qualified_conditions": [
+        {
+          "condition_id": "condition-qualification-2a36b87cf55753f7",
+          "title": "Estate Reshaping",
+          "statement": "QUALIFIED: Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s). The evidence supports evidenced estate reshaping under the development policy.",
+          "dimension": "Delivery & Capacity",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "evidence_confidence": "LOW",
+          "state": "Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s).",
+          "change": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "evidence_ids": [
+            "ev-tp-estate-fy2023",
+            "ev-tp-estate-fy2024",
+            "ev-tp-estate-fy2025"
+          ],
+          "caveats": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+            "Development qualification policy; not scientifically validated."
+          ]
+        },
+        {
+          "condition_id": "condition-qualification-50ad21850b42e81f",
+          "title": "Organisational Restructuring",
+          "statement": "QUALIFIED: 1 source-backed operating-structure change(s) were announced. The evidence supports announced operating-structure and accountability redesign under the development policy.",
+          "dimension": "Workforce & Capability",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "evidence_confidence": "LOW",
+          "state": "1 source-backed operating-structure change(s) were announced.",
+          "change": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "evidence_ids": [
+            "ev-tp-leadership-specialists-2025"
+          ],
+          "caveats": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+            "Development qualification policy; not scientifically validated."
+          ]
+        }
+      ],
+      "capabilities": {
+        "detect": "AVAILABLE",
+        "compare": "INSUFFICIENT_EVIDENCE",
+        "predict": "NOT_BUILT",
+        "prescribe": "WITHHELD",
+        "quantify": "WITHHELD"
+      }
+    },
+    {
+      "company_id": "cloudflare",
+      "run_id": "uc-cloudflare-20260819T000000Z-b726b070d160",
+      "evidence_count": 2,
+      "families_present": [
+        "careers_ats"
+      ],
+      "families_missing": [
+        "estate_footprint_capacity",
+        "contracts_procurement",
+        "leadership_organisation",
+        "technology_transformation",
+        "supply_chain_sourcing",
+        "customer_service_quality",
+        "regulatory_planning",
+        "issuer_financial_context"
+      ],
+      "coverage_matrix": [
+        {
+          "family_id": "careers_ats",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 2,
+          "latest_evidence_at": "2026-08-17T21:23:38.215420Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "mix trajectories require at least two snapshots with preserved role-level evidence"
+          ]
+        },
+        {
+          "family_id": "estate_footprint_capacity",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        {
+          "family_id": "leadership_organisation",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      ],
+      "qualifications": [
+        {
+          "candidate_type": "hiring_contraction",
+          "status": "INSUFFICIENT_EVIDENCE",
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "evidence_families": [
+            "careers_ats"
+          ]
+        }
+      ],
+      "qualified_conditions": [],
+      "capabilities": {
+        "detect": "INSUFFICIENT_EVIDENCE",
+        "compare": "INSUFFICIENT_EVIDENCE",
+        "predict": "NOT_BUILT",
+        "prescribe": "WITHHELD",
+        "quantify": "WITHHELD"
+      }
+    }
+  ]
+}

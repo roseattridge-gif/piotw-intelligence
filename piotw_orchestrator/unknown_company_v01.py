@@ -15,6 +15,15 @@ from piotw_conditions import (
     ConditionQualificationEngine,
     QualificationResult,
 )
+from piotw_evidence import (
+    CareersEvidenceFamilyAdapter,
+    EstateConditionAdapter,
+    EvidenceFamilyEnvelope,
+    EvidenceFamilyRecord,
+    LeadershipConditionAdapter,
+    MultiSourceEvidenceEngine,
+    ProcurementFamilyAdapter,
+)
 from piotw_intelligence.company_intelligence_v01 import (
     CompanyIntelligenceV01,
     assemble_company_intelligence,
@@ -26,6 +35,7 @@ DEFAULT_COMPANY_REGISTRY = ROOT / "config/evidence/jobs_sources_v0_2.json"
 DEFAULT_CAREERS_DATABASE = ROOT / "data/collection/careers_v1/careers_longitudinal.sqlite3"
 DEFAULT_RUN_DIRECTORY = ROOT / "data/derived/unknown_company_runs"
 DEFAULT_WEB_DIRECTORY = ROOT / "piotw-web/data/company-intelligence-v01"
+DEFAULT_MULTI_SOURCE_RECORDS = ROOT / "config/evidence/multi_source_records_v0_1.json"
 
 
 class IdentityResolution(BaseModel):
@@ -64,6 +74,7 @@ class ManifestEvidenceRecord(BaseModel):
     observed_value: int | None = None
     observed_unit: str | None = None
     derived_snapshot_features: dict[str, object] | None = None
+    evidence_span: str | None = None
 
 
 class EvidenceManifest(BaseModel):
@@ -79,6 +90,7 @@ class EvidenceManifest(BaseModel):
     included_record_count: int = Field(ge=0)
     excluded_record_count: int = Field(ge=0)
     manifest_hash: str
+    evidence_family_coverage: list[dict[str, object]] = Field(default_factory=list)
 
 
 class OrchestrationResult(BaseModel):
@@ -120,16 +132,23 @@ class UnknownCompanyOrchestrator:
         careers_database: str | Path = DEFAULT_CAREERS_DATABASE,
         run_directory: str | Path = DEFAULT_RUN_DIRECTORY,
         web_directory: str | Path = DEFAULT_WEB_DIRECTORY,
+        multi_source_records: str | Path = DEFAULT_MULTI_SOURCE_RECORDS,
     ) -> None:
         self.company_registry = Path(company_registry)
         self.careers_database = Path(careers_database)
         self.run_directory = Path(run_directory)
         self.web_directory = Path(web_directory)
+        self.multi_source_records = Path(multi_source_records)
         self.condition_adapter = CareersConditionAdapter()
         self.condition_engine = ConditionQualificationEngine()
+        self.multi_source_engine = MultiSourceEvidenceEngine([
+            CareersEvidenceFamilyAdapter(), EstateConditionAdapter(),
+            ProcurementFamilyAdapter(), LeadershipConditionAdapter(),
+        ])
 
     def resolve_identity(self, company: str, explicit_entity_id: str | None = None) -> IdentityResolution:
         sources = [CareerSource.model_validate(row) for row in json.loads(self.company_registry.read_text())]
+        extra_ids = sorted({str(row["company_id"]) for row in self._raw_multi_source_rows()})
         if explicit_entity_id:
             matches = [source for source in sources if source.company_id == explicit_entity_id]
             method = "EXPLICIT_ENTITY_ID"
@@ -138,7 +157,13 @@ class UnknownCompanyOrchestrator:
             matches = exact or [source for source in sources if _normalise(source.company_name) == _normalise(company)]
             method = "EXACT_COMPANY_ID" if exact else "NORMALIZED_COMPANY_NAME"
         if not matches:
-            raise KeyError(f"company is not present in the approved source registry: {company}")
+            extra = next((item for item in extra_ids if item == company or _normalise(item) == _normalise(company)), None)
+            if extra:
+                return IdentityResolution(input_value=company, company_id=extra,
+                    display_name=extra.replace("-", " ").title(), entity_id=extra,
+                    match_method="EXACT_COMPANY_ID" if extra == company else "NORMALIZED_COMPANY_NAME",
+                    source_registry=str(self.multi_source_records))
+            raise KeyError(f"company is not present in an approved source registry: {company}")
         company_ids = {source.company_id for source in matches}
         if len(company_ids) != 1:
             raise ValueError(f"ambiguous company identity: {company}")
@@ -156,10 +181,23 @@ class UnknownCompanyOrchestrator:
         sources = [CareerSource.model_validate(row) for row in json.loads(self.company_registry.read_text())]
         return next(source for source in sources if source.company_id == company_id)
 
+    def _raw_multi_source_rows(self) -> list[dict[str, object]]:
+        if not self.multi_source_records.is_file():
+            return []
+        return list(json.loads(self.multi_source_records.read_text()).get("records", []))
+
+    def _multi_source_family_records(self, company_id: str) -> list[EvidenceFamilyRecord]:
+        return [EvidenceFamilyRecord.model_validate(row) for row in self._raw_multi_source_rows()
+                if row.get("company_id") == company_id]
+
     def _careers_records(
         self, identity: IdentityResolution, as_of: datetime
     ) -> tuple[list[ManifestEvidenceRecord], SourceAvailability]:
-        source = self._configured_source(identity.company_id)
+        try:
+            source = self._configured_source(identity.company_id)
+        except StopIteration:
+            return [], SourceAvailability(source_family="careers_ats", status="UNAVAILABLE", record_count=0,
+                reason="No approved careers source is configured for this company.")
         if not self.careers_database.is_file():
             return [], SourceAvailability(
                 source_family="careers_ats", status="UNAVAILABLE", collector_or_adapter=source.provider,
@@ -205,6 +243,7 @@ class UnknownCompanyOrchestrator:
                 inclusion_or_exclusion_reason=reason, collection_health=health,
                 observed_value=open_count, observed_unit="open_postings",
                 derived_snapshot_features=aggregate,
+                evidence_span=f"Approved careers collector observed {open_count} open postings for {identity.display_name}.",
             ))
         included_count = sum(record.included for record in records)
         current_health = state[0] if state else None
@@ -225,22 +264,56 @@ class UnknownCompanyOrchestrator:
             health=current_health, record_count=included_count, reason=reason,
         )
 
+    def _family_inputs(self, careers_records: list[ManifestEvidenceRecord], company_id: str) -> list[EvidenceFamilyRecord]:
+        rows = self._multi_source_family_records(company_id)
+        rows.extend(EvidenceFamilyRecord(
+            source_record_id=record.source_record_id, family_id="careers_ats", company_id=company_id,
+            entity_scope=record.entity_scope, publication_or_effective_at=record.publication_or_effective_at,
+            retrieved_at=record.retrieved_at, source_url=record.source_url or "local://careers",
+            source_hash=record.source_hash or "", evidence_span=record.evidence_span or "Careers snapshot.",
+            collector_or_parser_version=record.collector_or_parser_version,
+            source_health="healthy" if record.included else "failed", record_type="careers_snapshot",
+            values={"open_count": record.observed_value,
+                    "derived_snapshot_features": record.derived_snapshot_features or {}},
+        ) for record in careers_records)
+        return rows
+
     @staticmethod
-    def _unsupported_sources() -> list[SourceAvailability]:
-        return [
-            SourceAvailability(source_family="contracts_procurement", status="UNAVAILABLE",
-                record_count=0, reason="No approved supplier-to-company entity match exists for this run."),
-            SourceAvailability(source_family="issuer_disclosures", status="UNAVAILABLE",
-                record_count=0, reason="No company-agnostic approved issuer collector is wired to this orchestrator."),
-            SourceAvailability(source_family="regulatory_operating_notices", status="UNAVAILABLE",
-                record_count=0, reason="Feasibility is documented, but no approved production collector is wired."),
-        ]
+    def _deferred_sources() -> list[SourceAvailability]:
+        return [SourceAvailability(source_family=family, status="UNAVAILABLE", record_count=0,
+            reason="Adapter design is documented; no reusable runtime adapter is implemented.") for family in (
+                "technology_transformation", "supply_chain_sourcing", "customer_service_quality",
+                "regulatory_planning", "issuer_financial_context")]
 
     def build(self, *, company: str, as_of: datetime, explicit_entity_id: str | None = None) -> OrchestrationResult:
         as_of = _utc(as_of)
         identity = self.resolve_identity(company, explicit_entity_id)
         records, careers_status = self._careers_records(identity, as_of)
-        source_availability = [careers_status, *self._unsupported_sources()]
+        family_inputs = self._family_inputs(records, identity.company_id)
+        envelopes = self.multi_source_engine.adapt(company_id=identity.company_id,
+            entity_scope=identity.entity_id, analysis_cutoff=as_of, records=family_inputs)
+        existing_ids = {record.source_record_id for record in records}
+        for row in family_inputs:
+            if row.source_record_id in existing_ids or row.family_id == "careers_ats":
+                continue
+            eligible = _utc(row.publication_or_effective_at) <= as_of
+            records.append(ManifestEvidenceRecord(
+                manifest_record_id=f"manifest-{row.source_record_id}", company_id=identity.company_id,
+                entity_scope=row.entity_scope, source_family=row.family_id, source_record_id=row.source_record_id,
+                publication_or_effective_at=row.publication_or_effective_at, retrieved_at=row.retrieved_at,
+                collector_or_parser_version=row.collector_or_parser_version, source_url=row.source_url,
+                source_hash=row.source_hash, cutoff_eligible=eligible, included=eligible and row.source_health == "healthy",
+                inclusion_or_exclusion_reason="INCLUDED_CUTOFF_SAFE_HEALTHY_RECORD" if eligible and row.source_health == "healthy" else "EXCLUDED_AFTER_ANALYSIS_CUTOFF",
+                collection_health=row.source_health, derived_snapshot_features=row.values,
+                evidence_span=row.evidence_span,
+            ))
+        source_availability = [SourceAvailability(source_family=envelope.family_id,
+            status=envelope.availability, collector_or_adapter=envelope.adapter_version,
+            health=envelope.source_health, record_count=len(envelope.raw_evidence_references),
+            reason="; ".join(envelope.missingness) or "Cutoff-safe source records are available.")
+            for envelope in envelopes] + self._deferred_sources()
+        if careers_status.status != "AVAILABLE":
+            source_availability[0] = careers_status
         manifest_material = {
             "orchestrator_version": self.orchestrator_version,
             "condition_policy_version": self.condition_engine.policy["policy_version"],
@@ -259,8 +332,9 @@ class UnknownCompanyOrchestrator:
             as_of=as_of, source_availability=source_availability, records=records,
             included_record_count=sum(item.included for item in records),
             excluded_record_count=sum(not item.included for item in records), manifest_hash=manifest_hash,
+            evidence_family_coverage=[envelope.coverage.model_dump(mode="json") for envelope in envelopes],
         )
-        qualifications = self._qualify(identity, as_of, records)
+        qualifications = self._qualify_envelopes(envelopes, records)
         intelligence = self._assemble(identity, as_of, records, source_availability, qualifications)
         return OrchestrationResult(run_id=run_id, manifest_path=None, intelligence_path=None,
             qualifications_path=None, web_path=None, manifest=manifest,
@@ -286,6 +360,13 @@ class UnknownCompanyOrchestrator:
         return [self.condition_engine.qualify(candidate, observations=adapted.observations,
             valid_evidence_ids=valid_evidence_ids) for candidate in adapted.candidates]
 
+    def _qualify_envelopes(self, envelopes: list[EvidenceFamilyEnvelope],
+                           records: list[ManifestEvidenceRecord]) -> list[QualificationResult]:
+        valid_evidence_ids = {f"ev-{record.source_record_id}" for record in records if record.included}
+        observations = [item for envelope in envelopes for item in envelope.observations]
+        return [self.condition_engine.qualify(candidate, observations=observations,
+            valid_evidence_ids=valid_evidence_ids) for envelope in envelopes for candidate in envelope.candidates]
+
     def _assemble(
         self, identity: IdentityResolution, as_of: datetime,
         records: list[ManifestEvidenceRecord], availability: list[SourceAvailability],
@@ -294,11 +375,11 @@ class UnknownCompanyOrchestrator:
         included = [record for record in records if record.included]
         evidence = [
             {"evidence_id": f"ev-{record.source_record_id}", "source_id": record.source_record_id,
-             "title": f"Careers snapshot — {record.publication_or_effective_at.isoformat()}",
+             "title": f"{record.source_family.replace('_', ' ').title()} — {record.publication_or_effective_at.isoformat()}",
              "source_family": record.source_family, "source_url": record.source_url,
              "source_hash": record.source_hash, "publication_date": record.publication_or_effective_at.date().isoformat(),
              "information_available_at": record.retrieved_at, "entity_scope": record.entity_scope,
-             "evidence_span": f"Approved careers collector observed {record.observed_value} open postings for {identity.display_name}.",
+             "evidence_span": record.evidence_span or f"Approved careers collector observed {record.observed_value} open postings for {identity.display_name}.",
              "collector_or_parser_version": record.collector_or_parser_version}
             for record in included
         ]
@@ -322,12 +403,12 @@ class UnknownCompanyOrchestrator:
         } for result in qualifications]
         comparison = []
         if conditions:
-            comparison = [{"comparison_id":"comparison-careers-state","condition_id":conditions[0]["condition_id"],
-                "status":"INSUFFICIENT_EVIDENCE","basis":"PEER_AND_HISTORY","metric":"Open-vacancy movement",
+            comparison = [{"comparison_id":"comparison-condition-state","condition_id":conditions[0]["condition_id"],
+                "status":"INSUFFICIENT_EVIDENCE","basis":"PEER_AND_HISTORY","metric":"Qualified operational condition",
                 "target_value":None,"comparator_value":None,"gap":None,"unit":None,"percentile":None,
                 "sample_size":None,"peer_set_or_history":None,"method":None,"confidence":"NOT_ASSESSED",
                 "evidence_ids":[],"caveats":[],
-                "withheld_reason":"Only one or two early snapshots exist and no approved size/coverage-normalised peer benchmark is available."}]
+                "withheld_reason":"No approved size-, scope- and coverage-normalised peer benchmark is available for this condition."}]
         predictions = [{"prediction_id":"prediction-unknown-company","status":"NOT_BUILT","target_event":None,
             "horizon":None,"probability":None,"confidence":"NOT_ASSESSED","model_version":None,
             "historical_pattern":None,"supporting_condition_ids":[],"evidence_ids":[],"caveats":[],
@@ -335,7 +416,7 @@ class UnknownCompanyOrchestrator:
         interventions = [{"intervention_id":"intervention-unknown-company","status":"WITHHELD","title":None,
             "mechanism":None,"investigation_steps":[],"supporting_condition_ids":[],"evidence_ids":[],
             "evidence_strength":"NOT_ASSESSED","falsifiers":[],"caveats":[],
-            "withheld_reason":"A factual vacancy count alone does not support a driver-specific intervention."}]
+            "withheld_reason":"Factual observations and development-qualified conditions do not yet support a driver-specific intervention."}]
         impacts = [{"impact_id":"impact-unknown-company","intervention_id":"intervention-unknown-company",
             "status":"WITHHELD","mechanism":None,"measure":None,"low":None,"base":None,"high":None,
             "currency":None,"unit":None,"period":None,"incremental":None,"assumptions":[],"evidence_ids":[],
