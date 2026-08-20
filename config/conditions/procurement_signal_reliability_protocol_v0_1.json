@@ -1,0 +1,133 @@
+{
+  "protocol_id": "piotw-procurement-signal-reliability-study-v0.1",
+  "frozen_before_case_retrieval_and_evaluation": true,
+  "methodological_status": "DEVELOPMENT_SOURCE_FIRST_RELIABILITY_STUDY_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "analysis_cutoff": "2026-08-20T12:00:00Z",
+  "core_source_regime": "UK_FIND_A_TENDER_CONTRACT_AWARD_NOTICE",
+  "selection": {
+    "carried_entities": [
+      {"company_id": "mears-group", "legal_name": "Mears Limited", "company_number": "02519234"},
+      {"company_id": "kier-group", "legal_name": "Kier Construction Limited", "company_number": "02099533"}
+    ],
+    "candidate_group_universe": [
+      "Balfour Beatty plc",
+      "Capita plc",
+      "Mitie Group plc",
+      "Serco Group plc"
+    ],
+    "eligibility": "For each candidate group, retain the first operating legal entity found in primary Find a Tender award records whose exact legal name and UK company number are stated in the primary notice and whose relationship to the listed group is supported by a primary corporate or Companies House record. Reject rather than substitute when either identifier or relationship is not defensible.",
+    "minimum_retained_entities": 4,
+    "maximum_retained_entities": 6,
+    "selection_not_based_on_observed_pattern": true,
+    "excluded": [
+      "entities in frozen Evidence Engine validation or holdout studies",
+      "entities without exact legal identifiers in primary award evidence",
+      "ambiguous parent or subsidiary relationships",
+      "entities represented only by non-award notice types"
+    ]
+  },
+  "source_boundary": {
+    "allowed_notice_types": ["contract_award_notice"],
+    "excluded_notice_types": [
+      "contract_notice",
+      "tender_notice",
+      "modification_notice",
+      "pipeline_notice",
+      "planning_notice",
+      "prior_information_notice"
+    ],
+    "comparison_period": "calendar_year_of_publication",
+    "publication_date_required": true,
+    "entity_resolution": "exact_legal_name_and_company_number_in_primary_notice_plus_traceable_group_relationship",
+    "deduplication": "one retained record per underlying award or lot-supplier relationship; later notice versions and republications are lineage, not new awards",
+    "missingness": "no retained notice is unavailable source coverage, never zero operational activity"
+  },
+  "observation_periods": {
+    "start_year": 2021,
+    "end_at_analysis_cutoff": true,
+    "incomplete_current_period": "diagnostic_only_not_compared_as_full_year"
+  },
+  "feature_candidates": [
+    "raw_award_count",
+    "buyer_breadth",
+    "award_category_mix",
+    "disclosed_contract_value",
+    "supplier_concentration_diversification",
+    "new_strategic_relationship",
+    "persistent_procurement_theme"
+  ],
+  "coverage_diagnostics": [
+    "retained_unique_awards",
+    "notice_versions_removed",
+    "buyer_count",
+    "buyer_concentration",
+    "category_coverage",
+    "disclosed_value_coverage",
+    "periods_without_records",
+    "source_or_regime_changes",
+    "usable_value_proportion",
+    "usable_category_proportion",
+    "exact_legal_entity_resolution_rate"
+  ],
+  "negative_controls": [
+    "one_buyer_repeated_publication",
+    "multiple_notice_versions_one_award",
+    "mostly_missing_values",
+    "one_large_award_dominates_period",
+    "volatile_counts_without_broader_change",
+    "too_little_coverage"
+  ],
+  "permitted_roles": [
+    "INDEPENDENT CONDITION ELIGIBLE",
+    "CORROBORATION ONLY",
+    "FACTUAL ONLY",
+    "RETIRED"
+  ],
+  "role_criteria": {
+    "INDEPENDENT CONDITION ELIGIBLE": "The feature has a valid and sufficiently complete denominator, at least four comparable complete periods or an event-specific factual trigger, stable entity scope, adequate coverage, direct source support, no failed negative control and a defensible operational mechanism.",
+    "CORROBORATION ONLY": "The feature is independently sourced and directionally relevant but source coverage or denominator completeness is insufficient for a standalone condition.",
+    "FACTUAL ONLY": "The record is traceable and useful context, but movement or operational meaning cannot be inferred reliably.",
+    "RETIRED": "The feature design systematically confounds publication behaviour, coverage or duplication with company operational change and must not create or corroborate a condition."
+  },
+  "review_classifications": [
+    "CORRECT QUALIFICATION",
+    "CORRECT WITHHOLD",
+    "CORRECT CORROBORATION-ONLY",
+    "CORRECT FACTUAL-ONLY",
+    "FALSE POSITIVE",
+    "FALSE NEGATIVE",
+    "AMBIGUOUS",
+    "COVERAGE FAILURE",
+    "ENTITY-RESOLUTION FAILURE",
+    "FEATURE DESIGN FAILURE"
+  ],
+  "detect_readiness": {
+    "carried_review_results": "data/derived/piotw_multifamily_condition_review_extension_v0_2_results.json",
+    "estate_policy": "carry_forward_unchanged",
+    "leadership_policy": "carry_forward_unchanged",
+    "procurement_decisions_are_reassessed_only_under_the_frozen_feature_role_policy": true,
+    "required_factual_accuracy": 0.95,
+    "required_entity_scope_accuracy": 1.0,
+    "required_qualified_precision": 0.90,
+    "maximum_ambiguity": 0.20,
+    "required_provenance": 1.0,
+    "maximum_severe_false_positives": 0,
+    "maximum_unhandled_contradictions": 0,
+    "allowed_statuses": [
+      "READY_FOR_COMPARE",
+      "NOT_READY_PROCUREMENT_POLICY",
+      "NOT_READY_AMBIGUITY",
+      "NOT_READY_ENTITY_RESOLUTION",
+      "NOT_READY_OTHER"
+    ],
+    "rule": "Procurement need not support independent conditions. If unreliable procurement candidates are fail-closed by the versioned feature-role policy and the remaining Detect decisions satisfy the frozen reliability criteria, READY_FOR_COMPARE is permitted."
+  },
+  "allowable_conclusions": [
+    "some features are independently condition-eligible",
+    "some features are corroboration-only",
+    "some features are factual-only",
+    "some features including raw award-count acceleration may be retired"
+  ],
+  "stopping_rule": "After this protocol is committed, retrieve and review the fixed carried entities and candidate-group universe once through the cutoff. Do not add replacement groups to improve patterns or aggregate results. Stop after each feature has a role decision, negative controls are assessed and Detect readiness is recomputed once. Do not build Compare in this sprint."
+}
