@@ -169,3 +169,14 @@ Detect is no longer structurally careers-only. A common evidence-family envelope
 The development policies qualify Travis Perkins estate reshaping and its explicitly announced organisational restructuring. Procurement is held at factual-feature level because only two comparable periods exist. Cloudflare's two-snapshot hiring candidate remains insufficient. These outcomes are development diagnostics, not scientific validation.
 
 The critical P0 is now source-first policy validation and non-Travis coverage. Before Compare, preregister a review of whether estate and leadership policies overstate materiality, add a primary-identifier procurement history, and exercise the same adapters on additional companies without curated answer logic.
+# Multi-family policy review update (20 August 2026)
+
+The preregistered Multi-Family Condition Policy Review v0.1 ran once over seven development-safe companies and four evidence families under the unchanged policy hash `b5af92d2c913a39e0bd756c0a5e17549fc5f02ec3eaa0c5af871b7f8fa26e97d`.
+
+- 11 candidate decisions: 8 qualified, 3 insufficient evidence.
+- Factual provenance and entity scope were complete for all 11 reviewed decisions.
+- No severe reviewed false positive, false negative or unhandled contradiction was identified.
+- No genuine cross-family corroboration was established; shared dimensions were correctly ignored.
+- The preregistered minimum was 12 candidate decisions, so status is `NOT_READY_INSUFFICIENT_REVIEW_SCOPE`.
+
+Detect remains the P0. The narrow gap is sufficient new leadership/organisation cases and deeper source-homogeneous procurement history, not another adapter abstraction. Compare remains unbuilt.

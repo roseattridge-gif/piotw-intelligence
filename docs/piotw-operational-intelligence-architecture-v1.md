@@ -78,3 +78,8 @@ This architecture contains no Pressure score, Expansion score, overall company-h
 # Multi-Source Detect v0.1 update
 
 The canonical Detect path now uses a common evidence-family envelope with family-specific payloads. Careers, estate, procurement and leadership adapters emit cutoff-safe factual observations, longitudinal features, controlled condition candidates, missingness and provenance into the source-agnostic qualification engine. Per-company evidence coverage is a matrix, not a score. Cross-family corroboration requires an explicit relationship and never arises merely because two facts share a PIOTW dimension. Deferred technology, supply-chain, customer/quality, regulatory/planning and issuer-context families have design-complete contracts but no shallow runtime collectors.
+# Decision update — Multi-Family Condition Policy Review v0.1
+
+The evidence-family envelope now distinguishes source publication time from the observation/effective period and retains legal-entity resolution metadata. Estate churn and net direction may be represented as separate candidates when both are directly supported. Procurement comparison history is counted by comparable period, not raw notice count.
+
+The preregistered review did not meet its 12-decision minimum (11 observed), so Detect remains before Compare. The next architectural work is evidence-depth expansion within the same boundaries, especially source-specific procurement completeness and additional direct organisation-change cases.

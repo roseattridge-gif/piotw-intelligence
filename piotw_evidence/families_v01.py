@@ -41,6 +41,7 @@ class EvidenceFamilyRecord(BaseModel):
     company_id: str
     entity_scope: str
     publication_or_effective_at: datetime
+    source_published_at: datetime | None = None
     retrieved_at: datetime
     source_url: str
     source_hash: str
@@ -51,6 +52,9 @@ class EvidenceFamilyRecord(BaseModel):
     record_type: str
     values: dict[str, object] = Field(default_factory=dict)
     scope_kind: Literal["GROUP", "SUBSIDIARY", "BUSINESS_UNIT", "SITE", "SUPPLIER", "GEOGRAPHY"] = "GROUP"
+    legal_entity_identifier: str | None = None
+    entity_resolution_method: str | None = None
+    entity_resolution_confidence: Literal["HIGH", "MEDIUM", "LOW", "UNRESOLVED"] | None = None
 
 
 class CorroborationLink(BaseModel):
@@ -112,7 +116,7 @@ class EvidenceFamilyAdapter(ABC):
     def _eligible(self, records: list[EvidenceFamilyRecord], cutoff: datetime) -> list[EvidenceFamilyRecord]:
         return sorted(
             [row for row in records if row.family_id == self.family_id and row.source_health != "failed"
-             and _utc(row.publication_or_effective_at) <= _utc(cutoff)],
+             and _utc(row.source_published_at or row.publication_or_effective_at) <= _utc(cutoff)],
             key=lambda row: row.publication_or_effective_at,
         )
 
@@ -238,6 +242,17 @@ class EstateConditionAdapter(EvidenceFamilyAdapter):
                 historical_context_status="AVAILABLE", peer_context_status="UNAVAILABLE",
                 entity_scope_consistent=all(item.entity_scope==entity_scope for item in observations),
                 contradiction_present=False, factual_features=features, adapter_version=self.adapter_version))
+            # Portfolio churn and net footprint direction are distinct factual candidates.
+            # Preserve both when the source reports openings and closures rather than
+            # allowing a mixed-movement label to hide a material net change.
+            if candidate_type == "estate_reshaping" and change:
+                directional_type = "estate_expansion" if change > 0 else "estate_contraction"
+                candidates.append(candidates[-1].model_copy(update={
+                    "candidate_id": _id("candidate", [company_id, directional_type, evidence_ids]),
+                    "candidate_type": directional_type,
+                    "factual_summary": f"Reported site count moved from {int(values[0])} to {int(values[-1])} across {len(values)} disclosed periods.",
+                    "proposed_mechanism": f"Evidenced {directional_type.replace('_',' ')}",
+                }))
         limits=["No complete site-level register; openings, closures and relocations are disclosure-dependent."]
         coverage=self._coverage(eligible,limitations=limits,qualification_ready=bool(candidates))
         return EvidenceFamilyEnvelope(family_id=self.family_id,adapter_version=self.adapter_version,company_id=company_id,
@@ -256,7 +271,7 @@ class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
         approved=[row for row in eligible if row.values.get("entity_resolution") == "APPROVED"]
         observations=[_observation(row,value=float(row.values["award_value"]) if row.values.get("award_value") is not None else None,
             unit=str(row.values.get("currency") or "unknown"),statement=f"A public award notice named the resolved company entity for {row.values.get('category','an unspecified category')}.") for row in approved]
-        periods=Counter(row.publication_or_effective_at.strftime("%Y-%m") for row in approved)
+        periods=Counter(str(row.values.get("comparison_period") or row.publication_or_effective_at.strftime("%Y-%m")) for row in approved)
         categories=Counter(str(row.values.get("category") or "unknown") for row in approved)
         comparable=[row for row in approved if row.values.get("award_value") is not None and row.values.get("currency")]
         features={"award_count_by_period":dict(sorted(periods.items())),"category_mix":dict(categories),
@@ -268,16 +283,25 @@ class ProcurementFamilyAdapter(EvidenceFamilyAdapter):
         if len(periods)>=2:
             ordered=sorted(periods.items()); values=[float(value) for _,value in ordered]; change=values[-1]-values[0]
             if change:
+                changes=[right-left for left,right in pairwise(values)]
+                signs={1 if item>0 else -1 for item in changes if item}
+                consistent_intervals=len([item for item in changes if item]) if len(signs)==1 else 0
                 ctype="procurement_activity_acceleration" if change>0 else "procurement_activity_deceleration"
                 evidence_ids=[eid for item in observations for eid in item.evidence_ids]
                 candidates.append(ConditionCandidate(candidate_id=_id("candidate",[company_id,ctype,evidence_ids]),company_id=company_id,
                     entity_scope=entity_scope,analysis_cutoff=_utc(analysis_cutoff),candidate_type=ctype,
                     dimensions=["Supply Chain & Resilience","Change & Execution"],observation_ids=[o.observation_id for o in observations],
                     evidence_ids=evidence_ids,evidence_families=[self.family_id],factual_summary=f"Resolved public award records moved from {int(values[0])} to {int(values[-1])} across {len(values)} publication periods.",
-                    proposed_mechanism="Published public procurement activity change",history=_history(observations,4),
+                    proposed_mechanism="Published public procurement activity change",history=_history([
+                        _observation(next(row for row in approved if str(row.values.get("comparison_period") or row.publication_or_effective_at.strftime("%Y-%m")) == period),
+                            value=float(value), unit="award_records", statement=f"{value} resolved award record(s) were published in {period}.")
+                        for period, value in ordered
+                    ],4),
                     denominator=DenominatorContext(available=values[0]>0,value=values[0],unit="award_records",evidence_ids=observations[0].evidence_ids,quality="MEDIUM"),
                     magnitude=MagnitudeContext(absolute_change=change,relative_change=change/values[0] if values[0] else None,unit="award_records"),
-                    persistence=PersistenceContext(status="ONE_OFF",consistent_intervals=1,total_intervals=1),corroboration=assess_corroboration(observations),
+                    persistence=PersistenceContext(
+                        status="PERSISTENT" if consistent_intervals >= 2 else "REVERSED" if len(signs)>1 else "ONE_OFF",
+                        consistent_intervals=consistent_intervals, total_intervals=len(changes)),corroboration=assess_corroboration(observations),
                     data_quality=DataQualityContext(status="GOOD",source_health=["healthy"],stale=False,coverage_limitations=["Public awards are a partial view of company commercial activity."]),
                     historical_context_status="INSUFFICIENT_EVIDENCE",peer_context_status="UNAVAILABLE",entity_scope_consistent=all(o.entity_scope==entity_scope for o in observations),
                     contradiction_present=False,factual_features=features,adapter_version=self.adapter_version))

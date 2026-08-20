@@ -94,3 +94,8 @@ These runs do not validate the policies. Compare, Predict, Prescribe and Quantif
 ## Next P0
 
 Preregister a source-first review of the estate and leadership policies, exercise them on non-Travis evidence, and backfill primary-identifier procurement history. Detect should not move to Compare until that review shows the first real qualified conditions are not over-qualified.
+# Multi-family review status
+
+Real primary-source histories now exercise all four envelopes across seven development-safe companies. Estate has three to four comparable periods for four issuers. Leadership has direct evidence for three issuers, including two operating-structure candidates and one routine appointment retained as factual-only. Procurement has exact legal-identifier resolution for Mears Limited (`02519234`) and Kier Construction Limited (`02099533`), but only three comparable annual periods. Cloudflare careers remains two snapshots.
+
+The shared envelope preserved source publication time separately from the operational effective/reporting period. Cutoff eligibility now uses information availability, preventing retrospective annual-report tables from entering an earlier historical run.

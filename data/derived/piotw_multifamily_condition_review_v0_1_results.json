@@ -1,0 +1,3257 @@
+{
+  "schema_version": "piotw-multifamily-condition-review-results-v0.1",
+  "methodological_status": "DEVELOPMENT_METHODOLOGY_REVIEW_NOT_INDEPENDENT_VALIDATION",
+  "scientific_gate_run": false,
+  "analysis_cutoff": "2026-08-19T23:59:59+00:00",
+  "policy_hash": "b5af92d2c913a39e0bd756c0a5e17549fc5f02ec3eaa0c5af871b7f8fa26e97d",
+  "scope_checks": {
+    "total_candidate_decisions": false,
+    "estate_companies_with_three_periods": true,
+    "leadership_companies_with_direct_primary_evidence": true,
+    "procurement_companies_with_approved_entity_resolution": true,
+    "families_with_real_candidates": true
+  },
+  "companies": [
+    {
+      "company_id": "kingfisher",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 3,
+          "latest_evidence_at": "2025-01-31T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 1,
+          "latest_evidence_at": "2024-04-01T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": true,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-kfg-estate-2023",
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2023-01-31T00:00:00Z",
+          "value": 1572.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 1572 sites for 2023.",
+          "evidence_ids": [
+            "ev-kfg-estate-2023"
+          ],
+          "source_record_ids": [
+            "kfg-estate-2023"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kfg-estate-2023"
+        },
+        {
+          "observation_id": "obs-kfg-estate-2024",
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2024-01-31T00:00:00Z",
+          "value": 1638.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 1638 sites for 2024.",
+          "evidence_ids": [
+            "ev-kfg-estate-2024"
+          ],
+          "source_record_ids": [
+            "kfg-estate-2024"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kfg-estate-2024"
+        },
+        {
+          "observation_id": "obs-kfg-estate-2025",
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2025-01-31T00:00:00Z",
+          "value": 1681.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 1681 sites for 2025.",
+          "evidence_ids": [
+            "ev-kfg-estate-2025"
+          ],
+          "source_record_ids": [
+            "kfg-estate-2025"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kfg-estate-2025"
+        },
+        {
+          "observation_id": "obs-kfg-org-france-2024",
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "source_family": "leadership_organisation",
+          "observed_at": "2024-04-01T00:00:00Z",
+          "value": 1.0,
+          "unit": "announced_change",
+          "factual_statement": "Kingfisher disclosed a completed simplification of its French operating structure.",
+          "evidence_ids": [
+            "ev-kfg-org-france-2024"
+          ],
+          "source_record_ids": [
+            "kfg-org-france-2024"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kfg-org-france-2024"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-d64b166dd0e5699c",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_expansion",
+          "supporting_observation_ids": [
+            "obs-kfg-estate-2023",
+            "obs-kfg-estate-2024",
+            "obs-kfg-estate-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-kfg-estate-2023",
+            "ev-kfg-estate-2024",
+            "ev-kfg-estate-2025"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 3,
+            "observation_period_days": 731.0,
+            "interval_days": [
+              365.0,
+              366.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 1572.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-kfg-estate-2023"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": 109.0,
+            "relative_change": 0.0693384223918575,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 2,
+            "total_intervals": 2
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 3,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-kfg-estate-2023",
+              "obs-kfg-estate-2024",
+              "obs-kfg-estate-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "INCREASING",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "1572.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "0.0693384223918575",
+              "requirement": ">=0.05 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "2 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate expansion",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 1572 to 1681; disclosed movements include 0 opening(s) and 0 closure(s).",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate expansion.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 1572 to 1681; disclosed movements include 0 opening(s) and 0 closure(s). The evidence supports evidenced estate expansion under the development policy."
+        },
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-4e469da360b559c6",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "kingfisher",
+          "entity_scope": "kingfisher",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "organisational_restructuring",
+          "supporting_observation_ids": [
+            "obs-kfg-org-france-2024"
+          ],
+          "supporting_evidence_ids": [
+            "ev-kfg-org-france-2024"
+          ],
+          "dimensions": [
+            "Workforce & Capability",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "leadership_organisation"
+          ],
+          "history": {
+            "snapshot_count": 1,
+            "observation_period_days": null,
+            "interval_days": [],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SINGLE"
+          },
+          "denominator": {
+            "available": false,
+            "value": null,
+            "unit": null,
+            "evidence_ids": [],
+            "quality": "UNAVAILABLE"
+          },
+          "magnitude": {
+            "absolute_change": 1.0,
+            "relative_change": null,
+            "unit": "announced_changes"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 0,
+            "total_intervals": 0
+          },
+          "corroboration": {
+            "status": "REPEATED_WITHIN_SOURCE",
+            "independent_source_families": [
+              "leadership_organisation"
+            ],
+            "related_observation_count": 1,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-kfg-org-france-2024"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public announcements do not provide a complete leadership-change register."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "UNAVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=REPEATED_WITHIN_SOURCE",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "1 snapshots",
+              "requirement": ">=1 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": ">=0 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": false,
+              "observed": "0 consistent intervals",
+              "requirement": ">=0 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Announced operating-structure and accountability redesign",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "1 source-backed operating-structure change(s) were announced.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: announced operating-structure and accountability redesign.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: 1 source-backed operating-structure change(s) were announced. The evidence supports announced operating-structure and accountability redesign under the development policy."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "estate_expansion",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        },
+        {
+          "candidate_type": "organisational_restructuring",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "howden-joinery",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 4,
+          "latest_evidence_at": "2025-01-31T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 1,
+          "latest_evidence_at": "2025-01-01T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-hwdn-estate-2022",
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2022-01-31T00:00:00Z",
+          "value": 873.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 873 sites for 2022.",
+          "evidence_ids": [
+            "ev-hwdn-estate-2022"
+          ],
+          "source_record_ids": [
+            "hwdn-estate-2022"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "hwdn-estate-2022"
+        },
+        {
+          "observation_id": "obs-hwdn-estate-2023",
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2023-01-31T00:00:00Z",
+          "value": 915.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 915 sites for 2023.",
+          "evidence_ids": [
+            "ev-hwdn-estate-2023"
+          ],
+          "source_record_ids": [
+            "hwdn-estate-2023"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "hwdn-estate-2023"
+        },
+        {
+          "observation_id": "obs-hwdn-estate-2024",
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2024-01-31T00:00:00Z",
+          "value": 947.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 947 sites for 2024.",
+          "evidence_ids": [
+            "ev-hwdn-estate-2024"
+          ],
+          "source_record_ids": [
+            "hwdn-estate-2024"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "hwdn-estate-2024"
+        },
+        {
+          "observation_id": "obs-hwdn-estate-2025",
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2025-01-31T00:00:00Z",
+          "value": 970.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 970 sites for 2025.",
+          "evidence_ids": [
+            "ev-hwdn-estate-2025"
+          ],
+          "source_record_ids": [
+            "hwdn-estate-2025"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "hwdn-estate-2025"
+        },
+        {
+          "observation_id": "obs-hwdn-board-2025",
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "source_family": "leadership_organisation",
+          "observed_at": "2025-01-01T00:00:00Z",
+          "value": 1.0,
+          "unit": "announced_change",
+          "factual_statement": "Howdens disclosed a Board appointment effective January 2025.",
+          "evidence_ids": [
+            "ev-hwdn-board-2025"
+          ],
+          "source_record_ids": [
+            "hwdn-board-2025"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "hwdn-board-2025"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-eb361c4ea78552e1",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "howden-joinery",
+          "entity_scope": "howden-joinery",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_expansion",
+          "supporting_observation_ids": [
+            "obs-hwdn-estate-2022",
+            "obs-hwdn-estate-2023",
+            "obs-hwdn-estate-2024",
+            "obs-hwdn-estate-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-hwdn-estate-2022",
+            "ev-hwdn-estate-2023",
+            "ev-hwdn-estate-2024",
+            "ev-hwdn-estate-2025"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 4,
+            "observation_period_days": 1096.0,
+            "interval_days": [
+              365.0,
+              365.0,
+              366.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 873.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-hwdn-estate-2022"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": 97.0,
+            "relative_change": 0.1111111111111111,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 3,
+            "total_intervals": 3
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 4,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-hwdn-estate-2022",
+              "obs-hwdn-estate-2023",
+              "obs-hwdn-estate-2024",
+              "obs-hwdn-estate-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "INCREASING",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "4 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "873.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "0.1111111111111111",
+              "requirement": ">=0.05 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate expansion",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 873 to 970; disclosed movements include 0 opening(s) and 0 closure(s).",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate expansion.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 873 to 970; disclosed movements include 0 opening(s) and 0 closure(s). The evidence supports evidenced estate expansion under the development policy."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "estate_expansion",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "greggs",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 3,
+          "latest_evidence_at": "2024-01-31T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-grg-estate-2022",
+          "company_id": "greggs",
+          "entity_scope": "greggs",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2022-01-31T00:00:00Z",
+          "value": 2328.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 2328 sites for 2022.",
+          "evidence_ids": [
+            "ev-grg-estate-2022"
+          ],
+          "source_record_ids": [
+            "grg-estate-2022"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "grg-estate-2022"
+        },
+        {
+          "observation_id": "obs-grg-estate-2023",
+          "company_id": "greggs",
+          "entity_scope": "greggs",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2023-01-31T00:00:00Z",
+          "value": 2473.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 2473 sites for 2023.",
+          "evidence_ids": [
+            "ev-grg-estate-2023"
+          ],
+          "source_record_ids": [
+            "grg-estate-2023"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "grg-estate-2023"
+        },
+        {
+          "observation_id": "obs-grg-estate-2024",
+          "company_id": "greggs",
+          "entity_scope": "greggs",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2024-01-31T00:00:00Z",
+          "value": 2618.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 2618 sites for 2024.",
+          "evidence_ids": [
+            "ev-grg-estate-2024"
+          ],
+          "source_record_ids": [
+            "grg-estate-2024"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "grg-estate-2024"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-1b8c5a4af8e03f1b",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "greggs",
+          "entity_scope": "greggs",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_reshaping",
+          "supporting_observation_ids": [
+            "obs-grg-estate-2022",
+            "obs-grg-estate-2023",
+            "obs-grg-estate-2024"
+          ],
+          "supporting_evidence_ids": [
+            "ev-grg-estate-2022",
+            "ev-grg-estate-2023",
+            "ev-grg-estate-2024"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 3,
+            "observation_period_days": 730.0,
+            "interval_days": [
+              365.0,
+              365.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 2328.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-grg-estate-2022"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": 290.0,
+            "relative_change": 0.12457044673539519,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 2,
+            "total_intervals": 2
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 3,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-grg-estate-2022",
+              "obs-grg-estate-2023",
+              "obs-grg-estate-2024"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "2328.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "0.12457044673539519",
+              "requirement": ">=0.03 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "2 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate reshaping",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 2328 to 2618; disclosed movements include 226 opening(s) and 81 closure(s).",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate reshaping.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 2328 to 2618; disclosed movements include 226 opening(s) and 81 closure(s). The evidence supports evidenced estate reshaping under the development policy."
+        },
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-4d9db883e3505d5f",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "greggs",
+          "entity_scope": "greggs",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_expansion",
+          "supporting_observation_ids": [
+            "obs-grg-estate-2022",
+            "obs-grg-estate-2023",
+            "obs-grg-estate-2024"
+          ],
+          "supporting_evidence_ids": [
+            "ev-grg-estate-2022",
+            "ev-grg-estate-2023",
+            "ev-grg-estate-2024"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 3,
+            "observation_period_days": 730.0,
+            "interval_days": [
+              365.0,
+              365.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 2328.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-grg-estate-2022"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": 290.0,
+            "relative_change": 0.12457044673539519,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 2,
+            "total_intervals": 2
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 3,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-grg-estate-2022",
+              "obs-grg-estate-2023",
+              "obs-grg-estate-2024"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "INCREASING",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "2328.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "0.12457044673539519",
+              "requirement": ">=0.05 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "2 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate expansion",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 2328 to 2618 across 3 disclosed periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate expansion.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 2328 to 2618 across 3 disclosed periods. The evidence supports evidenced estate expansion under the development policy."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "estate_reshaping",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        },
+        {
+          "candidate_type": "estate_expansion",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "jd-wetherspoon",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 4,
+          "latest_evidence_at": "2025-01-31T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-jdw-estate-2022",
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2022-01-31T00:00:00Z",
+          "value": 852.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 852 sites for 2022.",
+          "evidence_ids": [
+            "ev-jdw-estate-2022"
+          ],
+          "source_record_ids": [
+            "jdw-estate-2022"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "jdw-estate-2022"
+        },
+        {
+          "observation_id": "obs-jdw-estate-2023",
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2023-01-31T00:00:00Z",
+          "value": 825.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 825 sites for 2023.",
+          "evidence_ids": [
+            "ev-jdw-estate-2023"
+          ],
+          "source_record_ids": [
+            "jdw-estate-2023"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "jdw-estate-2023"
+        },
+        {
+          "observation_id": "obs-jdw-estate-2024",
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2024-01-31T00:00:00Z",
+          "value": 800.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 800 sites for 2024.",
+          "evidence_ids": [
+            "ev-jdw-estate-2024"
+          ],
+          "source_record_ids": [
+            "jdw-estate-2024"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "jdw-estate-2024"
+        },
+        {
+          "observation_id": "obs-jdw-estate-2025",
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "source_family": "estate_footprint_capacity",
+          "observed_at": "2025-01-31T00:00:00Z",
+          "value": 794.0,
+          "unit": "sites",
+          "factual_statement": "The source reported 794 sites for 2025.",
+          "evidence_ids": [
+            "ev-jdw-estate-2025"
+          ],
+          "source_record_ids": [
+            "jdw-estate-2025"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "jdw-estate-2025"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-6f2a87c17d2035af",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_reshaping",
+          "supporting_observation_ids": [
+            "obs-jdw-estate-2022",
+            "obs-jdw-estate-2023",
+            "obs-jdw-estate-2024",
+            "obs-jdw-estate-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-jdw-estate-2022",
+            "ev-jdw-estate-2023",
+            "ev-jdw-estate-2024",
+            "ev-jdw-estate-2025"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 4,
+            "observation_period_days": 1096.0,
+            "interval_days": [
+              365.0,
+              365.0,
+              366.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 852.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-jdw-estate-2022"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": -58.0,
+            "relative_change": -0.06807511737089202,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 3,
+            "total_intervals": 3
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 4,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-jdw-estate-2022",
+              "obs-jdw-estate-2023",
+              "obs-jdw-estate-2024",
+              "obs-jdw-estate-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "4 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "852.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "-0.06807511737089202",
+              "requirement": ">=0.03 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate reshaping",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 852 to 794; disclosed movements include 3 opening(s) and 9 closure(s).",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate reshaping.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 852 to 794; disclosed movements include 3 opening(s) and 9 closure(s). The evidence supports evidenced estate reshaping under the development policy."
+        },
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-cb4aaf987abd00a8",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "jd-wetherspoon",
+          "entity_scope": "jd-wetherspoon",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "estate_contraction",
+          "supporting_observation_ids": [
+            "obs-jdw-estate-2022",
+            "obs-jdw-estate-2023",
+            "obs-jdw-estate-2024",
+            "obs-jdw-estate-2025"
+          ],
+          "supporting_evidence_ids": [
+            "ev-jdw-estate-2022",
+            "ev-jdw-estate-2023",
+            "ev-jdw-estate-2024",
+            "ev-jdw-estate-2025"
+          ],
+          "dimensions": [
+            "Delivery & Capacity",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "estate_footprint_capacity"
+          ],
+          "history": {
+            "snapshot_count": 4,
+            "observation_period_days": 1096.0,
+            "interval_days": [
+              365.0,
+              365.0,
+              366.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SUFFICIENT_FOR_POLICY"
+          },
+          "denominator": {
+            "available": true,
+            "value": 852.0,
+            "unit": "sites",
+            "evidence_ids": [
+              "ev-jdw-estate-2022"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": -58.0,
+            "relative_change": -0.06807511737089202,
+            "unit": "sites"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 3,
+            "total_intervals": 3
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "estate_footprint_capacity"
+            ],
+            "related_observation_count": 4,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-jdw-estate-2022",
+              "obs-jdw-estate-2023",
+              "obs-jdw-estate-2024",
+              "obs-jdw-estate-2025"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Site definitions and portfolio scope can change between disclosures."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "AVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "DECREASING",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "4 snapshots",
+              "requirement": ">=3 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "852.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "-0.06807511737089202",
+              "requirement": ">=0.05 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "3 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Evidenced estate contraction",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Reported site count moved from 852 to 794 across 4 disclosed periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate contraction.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: Reported site count moved from 852 to 794 across 4 disclosed periods. The evidence supports evidenced estate contraction under the development policy."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "estate_reshaping",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        },
+        {
+          "candidate_type": "estate_contraction",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "kier-group",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 6,
+          "latest_evidence_at": "2025-10-22T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 1,
+          "latest_evidence_at": "2022-06-30T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": true,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-kier-2023-007260",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2023-03-13T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2023-007260"
+          ],
+          "source_record_ids": [
+            "kier-2023-007260"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2023-007260"
+        },
+        {
+          "observation_id": "obs-kier-2024-016366",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2024-06-10T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2024-016366"
+          ],
+          "source_record_ids": [
+            "kier-2024-016366"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2024-016366"
+        },
+        {
+          "observation_id": "obs-kier-2024-020764",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2024-07-15T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2024-020764"
+          ],
+          "source_record_ids": [
+            "kier-2024-020764"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2024-020764"
+        },
+        {
+          "observation_id": "obs-kier-2025-cf-39ae",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2025-05-14T00:00:00Z",
+          "value": 582401.57,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2025-cf-39ae"
+          ],
+          "source_record_ids": [
+            "kier-2025-cf-39ae"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2025-cf-39ae"
+        },
+        {
+          "observation_id": "obs-kier-2025-054981",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2025-09-11T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2025-054981"
+          ],
+          "source_record_ids": [
+            "kier-2025-054981"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2025-054981"
+        },
+        {
+          "observation_id": "obs-kier-2025-067631",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2025-10-22T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-kier-2025-067631"
+          ],
+          "source_record_ids": [
+            "kier-2025-067631"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-2025-067631"
+        },
+        {
+          "observation_id": "obs-kier-risk-structure-2022",
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "source_family": "leadership_organisation",
+          "observed_at": "2022-06-30T00:00:00Z",
+          "value": 1.0,
+          "unit": "announced_change",
+          "factual_statement": "Kier disclosed integration of a revised risk operating structure into its business streams.",
+          "evidence_ids": [
+            "ev-kier-risk-structure-2022"
+          ],
+          "source_record_ids": [
+            "kier-risk-structure-2022"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "kier-risk-structure-2022"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-cd4fe1c6d1c32481",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "procurement_activity_acceleration",
+          "supporting_observation_ids": [
+            "obs-kier-2023-007260",
+            "obs-kier-2024-016366",
+            "obs-kier-2024-020764",
+            "obs-kier-2025-cf-39ae",
+            "obs-kier-2025-054981",
+            "obs-kier-2025-067631"
+          ],
+          "supporting_evidence_ids": [
+            "ev-kier-2023-007260",
+            "ev-kier-2024-016366",
+            "ev-kier-2024-020764",
+            "ev-kier-2025-cf-39ae",
+            "ev-kier-2025-054981",
+            "ev-kier-2025-067631"
+          ],
+          "dimensions": [
+            "Supply Chain & Resilience",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "contracts_procurement"
+          ],
+          "history": {
+            "snapshot_count": 3,
+            "observation_period_days": 793.0,
+            "interval_days": [
+              455.0,
+              338.0
+            ],
+            "interval_consistency": "CONSISTENT",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "denominator": {
+            "available": true,
+            "value": 1.0,
+            "unit": "award_records",
+            "evidence_ids": [
+              "ev-kier-2023-007260"
+            ],
+            "quality": "MEDIUM"
+          },
+          "magnitude": {
+            "absolute_change": 2.0,
+            "relative_change": 2.0,
+            "unit": "award_records"
+          },
+          "persistence": {
+            "status": "PERSISTENT",
+            "consistent_intervals": 2,
+            "total_intervals": 2
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "contracts_procurement"
+            ],
+            "related_observation_count": 6,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-kier-2023-007260",
+              "obs-kier-2024-016366",
+              "obs-kier-2024-020764",
+              "obs-kier-2025-cf-39ae",
+              "obs-kier-2025-054981",
+              "obs-kier-2025-067631"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public awards are a partial view of company commercial activity."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "INSUFFICIENT_EVIDENCE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "UNSUPPORTED",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "INSUFFICIENT_EVIDENCE",
+          "direction": "UNKNOWN",
+          "materiality": "UNKNOWN",
+          "confidence": "NOT_ASSESSED",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "FAIL",
+              "required": true,
+              "observed": "3 snapshots",
+              "requirement": ">=4 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "2.0",
+              "requirement": ">=0.25 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": true,
+              "observed": "2 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Published public procurement activity change",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [
+            "history_depth"
+          ],
+          "missing_information": [
+            "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval.",
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Resolved public award records moved from 1 to 3 across 3 publication periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published public procurement activity change.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=FAIL; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval. The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "INSUFFICIENT_EVIDENCE: Resolved public award records moved from 1 to 3 across 3 publication periods. If the movement is persistent and material, it could support the operational state: published public procurement activity change. Failed required tests: history_depth."
+        },
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-ebd5e334372fa7fb",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "kier-group",
+          "entity_scope": "kier-group",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "organisational_restructuring",
+          "supporting_observation_ids": [
+            "obs-kier-risk-structure-2022"
+          ],
+          "supporting_evidence_ids": [
+            "ev-kier-risk-structure-2022"
+          ],
+          "dimensions": [
+            "Workforce & Capability",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "leadership_organisation"
+          ],
+          "history": {
+            "snapshot_count": 1,
+            "observation_period_days": null,
+            "interval_days": [],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SINGLE"
+          },
+          "denominator": {
+            "available": false,
+            "value": null,
+            "unit": null,
+            "evidence_ids": [],
+            "quality": "UNAVAILABLE"
+          },
+          "magnitude": {
+            "absolute_change": 1.0,
+            "relative_change": null,
+            "unit": "announced_changes"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 0,
+            "total_intervals": 0
+          },
+          "corroboration": {
+            "status": "REPEATED_WITHIN_SOURCE",
+            "independent_source_families": [
+              "leadership_organisation"
+            ],
+            "related_observation_count": 1,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-kier-risk-structure-2022"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public announcements do not provide a complete leadership-change register."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "UNAVAILABLE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "SUPPORTED_BY_DEVELOPMENT_POLICY",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "QUALIFIED",
+          "direction": "MIXED",
+          "materiality": "LOW",
+          "confidence": "LOW",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=REPEATED_WITHIN_SOURCE",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "PASS",
+              "required": true,
+              "observed": "1 snapshots",
+              "requirement": ">=1 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": false,
+              "observed": "None",
+              "requirement": ">=0 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "PASS",
+              "required": false,
+              "observed": "0 consistent intervals",
+              "requirement": ">=0 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Announced operating-structure and accountability redesign",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [],
+          "missing_information": [
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "1 source-backed operating-structure change(s) were announced.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: announced operating-structure and accountability redesign.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "QUALIFIED: 1 source-backed operating-structure change(s) were announced. The evidence supports announced operating-structure and accountability redesign under the development policy."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "procurement_activity_acceleration",
+          "engine_status": "INSUFFICIENT_EVIDENCE",
+          "review_decision": "CORRECT_WITHHOLDING",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": true,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        },
+        {
+          "candidate_type": "organisational_restructuring",
+          "engine_status": "QUALIFIED",
+          "review_decision": "CORRECT_QUALIFICATION",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "mears-group",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "longitudinal vacancy movement requires at least two healthy snapshots"
+          ]
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 4,
+          "latest_evidence_at": "2025-04-15T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": [
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-mears-2023-036224",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2023-12-19T00:00:00Z",
+          "value": 69220000.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-mears-2023-036224"
+          ],
+          "source_record_ids": [
+            "mears-2023-036224"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "mears-2023-036224"
+        },
+        {
+          "observation_id": "obs-mears-2024-036854",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2024-11-14T00:00:00Z",
+          "value": 1.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-mears-2024-036854"
+          ],
+          "source_record_ids": [
+            "mears-2024-036854"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "mears-2024-036854"
+        },
+        {
+          "observation_id": "obs-mears-2025-013440",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2025-04-03T00:00:00Z",
+          "value": 60000000.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-mears-2025-013440"
+          ],
+          "source_record_ids": [
+            "mears-2025-013440"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "mears-2025-013440"
+        },
+        {
+          "observation_id": "obs-mears-2025-015517",
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "source_family": "contracts_procurement",
+          "observed_at": "2025-04-15T00:00:00Z",
+          "value": 22750000.0,
+          "unit": "GBP",
+          "factual_statement": "A public award notice named the resolved company entity for public works/services.",
+          "evidence_ids": [
+            "ev-mears-2025-015517"
+          ],
+          "source_record_ids": [
+            "mears-2025-015517"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "mears-2025-015517"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-68f7dbed4393cb65",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "mears-group",
+          "entity_scope": "mears-group",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "procurement_activity_acceleration",
+          "supporting_observation_ids": [
+            "obs-mears-2023-036224",
+            "obs-mears-2024-036854",
+            "obs-mears-2025-013440",
+            "obs-mears-2025-015517"
+          ],
+          "supporting_evidence_ids": [
+            "ev-mears-2023-036224",
+            "ev-mears-2024-036854",
+            "ev-mears-2025-013440",
+            "ev-mears-2025-015517"
+          ],
+          "dimensions": [
+            "Supply Chain & Resilience",
+            "Change & Execution"
+          ],
+          "evidence_families": [
+            "contracts_procurement"
+          ],
+          "history": {
+            "snapshot_count": 3,
+            "observation_period_days": 471.0,
+            "interval_days": [
+              331.0,
+              140.0
+            ],
+            "interval_consistency": "IRREGULAR",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "denominator": {
+            "available": true,
+            "value": 1.0,
+            "unit": "award_records",
+            "evidence_ids": [
+              "ev-mears-2023-036224"
+            ],
+            "quality": "MEDIUM"
+          },
+          "magnitude": {
+            "absolute_change": 1.0,
+            "relative_change": 1.0,
+            "unit": "award_records"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 2
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "contracts_procurement"
+            ],
+            "related_observation_count": 4,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-mears-2023-036224",
+              "obs-mears-2024-036854",
+              "obs-mears-2025-013440",
+              "obs-mears-2025-015517"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Public awards are a partial view of company commercial activity."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "INSUFFICIENT_EVIDENCE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "UNSUPPORTED",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "INSUFFICIENT_EVIDENCE",
+          "direction": "UNKNOWN",
+          "materiality": "UNKNOWN",
+          "confidence": "NOT_ASSESSED",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "FAIL",
+              "required": true,
+              "observed": "3 snapshots",
+              "requirement": ">=4 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "PASS",
+              "required": true,
+              "observed": "1.0",
+              "requirement": ">=0.25 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "FAIL",
+              "required": true,
+              "observed": "1 consistent intervals",
+              "requirement": ">=2 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Published public procurement activity change",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [
+            "history_depth",
+            "persistence"
+          ],
+          "missing_information": [
+            "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval.",
+            "A one-period movement is not a persistent operational condition.",
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Resolved public award records moved from 1 to 2 across 3 publication periods.",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published public procurement activity change.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=FAIL; denominator=PASS; magnitude=PASS; persistence=FAIL; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval. A one-period movement is not a persistent operational condition. The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "INSUFFICIENT_EVIDENCE: Resolved public award records moved from 1 to 2 across 3 publication periods. If the movement is persistent and material, it could support the operational state: published public procurement activity change. Failed required tests: history_depth, persistence."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "procurement_activity_acceleration",
+          "engine_status": "INSUFFICIENT_EVIDENCE",
+          "review_decision": "CORRECT_WITHHOLDING",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": true,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    },
+    {
+      "company_id": "cloudflare",
+      "source_families": {
+        "careers_ats": {
+          "family_id": "careers_ats",
+          "availability": "AVAILABLE",
+          "source_health": "healthy",
+          "history_depth": 2,
+          "latest_evidence_at": "2026-08-19T00:00:00Z",
+          "entity_resolution_quality": "HIGH",
+          "longitudinal_feature_ready": true,
+          "qualification_ready": true,
+          "limitations": []
+        },
+        "estate_footprint_capacity": {
+          "family_id": "estate_footprint_capacity",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No complete site-level register; openings, closures and relocations are disclosure-dependent."
+          ]
+        },
+        "contracts_procurement": {
+          "family_id": "contracts_procurement",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No source record has an approved company/entity resolution.",
+            "Fewer than four comparable publication periods are available."
+          ]
+        },
+        "leadership_organisation": {
+          "family_id": "leadership_organisation",
+          "availability": "NO_HISTORY",
+          "source_health": "degraded",
+          "history_depth": 0,
+          "latest_evidence_at": null,
+          "entity_resolution_quality": "UNRESOLVED",
+          "longitudinal_feature_ready": false,
+          "qualification_ready": false,
+          "limitations": [
+            "No inference is made about competence, sentiment or the success of announced changes."
+          ]
+        }
+      },
+      "observations": [
+        {
+          "observation_id": "obs-cf-careers-a",
+          "company_id": "cloudflare",
+          "entity_scope": "cloudflare",
+          "source_family": "careers_ats",
+          "observed_at": "2026-08-15T00:00:00Z",
+          "value": 305.0,
+          "unit": "open_postings",
+          "factual_statement": "The approved careers collector observed 305 open postings.",
+          "evidence_ids": [
+            "ev-cf-careers-a"
+          ],
+          "source_record_ids": [
+            "cf-careers-a"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "cf-careers-a"
+        },
+        {
+          "observation_id": "obs-cf-careers-b",
+          "company_id": "cloudflare",
+          "entity_scope": "cloudflare",
+          "source_family": "careers_ats",
+          "observed_at": "2026-08-19T00:00:00Z",
+          "value": 297.0,
+          "unit": "open_postings",
+          "factual_statement": "The approved careers collector observed 297 open postings.",
+          "evidence_ids": [
+            "ev-cf-careers-b"
+          ],
+          "source_record_ids": [
+            "cf-careers-b"
+          ],
+          "collection_health": "healthy",
+          "derivative_group": "cf-careers-b"
+        }
+      ],
+      "qualifications": [
+        {
+          "schema_version": "piotw-operational-condition-qualification-v0.1",
+          "qualification_id": "qualification-b55062ee2fb26205",
+          "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+          "scientifically_validated": false,
+          "company_id": "cloudflare",
+          "entity_scope": "cloudflare",
+          "analysis_cutoff": "2026-08-19T23:59:59Z",
+          "condition_candidate_type": "hiring_contraction",
+          "supporting_observation_ids": [
+            "obs-cf-careers-a",
+            "obs-cf-careers-b"
+          ],
+          "supporting_evidence_ids": [
+            "ev-cf-careers-a",
+            "ev-cf-careers-b"
+          ],
+          "dimensions": [
+            "Workforce & Capability"
+          ],
+          "evidence_families": [
+            "careers_ats"
+          ],
+          "history": {
+            "snapshot_count": 2,
+            "observation_period_days": 4.0,
+            "interval_days": [
+              4.0
+            ],
+            "interval_consistency": "NOT_ASSESSED",
+            "missing_periods": null,
+            "history_depth": "SHALLOW"
+          },
+          "denominator": {
+            "available": true,
+            "value": 305.0,
+            "unit": "open_postings",
+            "evidence_ids": [
+              "ev-cf-careers-a"
+            ],
+            "quality": "HIGH"
+          },
+          "magnitude": {
+            "absolute_change": -8.0,
+            "relative_change": -0.02622950819672131,
+            "unit": "open_postings"
+          },
+          "persistence": {
+            "status": "ONE_OFF",
+            "consistent_intervals": 1,
+            "total_intervals": 1
+          },
+          "corroboration": {
+            "status": "MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+            "independent_source_families": [
+              "careers_ats"
+            ],
+            "related_observation_count": 2,
+            "duplicate_observation_count": 0,
+            "supporting_observation_ids": [
+              "obs-cf-careers-a",
+              "obs-cf-careers-b"
+            ],
+            "contradicting_observation_ids": [],
+            "duplicate_derivative_groups": []
+          },
+          "data_quality": {
+            "status": "GOOD",
+            "source_health": [
+              "healthy"
+            ],
+            "stale": false,
+            "coverage_limitations": [
+              "Careers postings are one source family and do not prove workforce headcount or hiring intent."
+            ]
+          },
+          "entity_scope_valid": true,
+          "historical_context_status": "INSUFFICIENT_EVIDENCE",
+          "peer_context_status": "UNAVAILABLE",
+          "materiality_status": "UNSUPPORTED",
+          "operational_mechanism_status": "SUPPORTED",
+          "qualification_status": "INSUFFICIENT_EVIDENCE",
+          "direction": "UNKNOWN",
+          "materiality": "UNKNOWN",
+          "confidence": "NOT_ASSESSED",
+          "tests": [
+            {
+              "test_id": "references",
+              "status": "PASS",
+              "required": true,
+              "observed": "unknown observations=[]; unknown evidence=[]",
+              "requirement": "all references resolve",
+              "explanation": "Every candidate reference must resolve to a supplied factual observation and canonical evidence record."
+            },
+            {
+              "test_id": "duplicate_evidence",
+              "status": "PASS",
+              "required": true,
+              "observed": "0 duplicate evidence reference(s); corroboration=MULTIPLE_OBSERVATIONS_ONE_FAMILY",
+              "requirement": "no duplicate-only corroboration",
+              "explanation": "Duplicate or derivative evidence cannot be counted as independent support."
+            },
+            {
+              "test_id": "entity_scope",
+              "status": "PASS",
+              "required": true,
+              "observed": "True",
+              "requirement": "one legitimate entity scope",
+              "explanation": "Supporting observations must apply to the same operational entity scope."
+            },
+            {
+              "test_id": "source_health",
+              "status": "PASS",
+              "required": true,
+              "observed": "GOOD",
+              "requirement": "GOOD",
+              "explanation": "Failed or degraded collection cannot establish an operational condition."
+            },
+            {
+              "test_id": "history_depth",
+              "status": "FAIL",
+              "required": true,
+              "observed": "2 snapshots",
+              "requirement": ">=4 snapshots",
+              "explanation": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval."
+            },
+            {
+              "test_id": "denominator",
+              "status": "PASS",
+              "required": true,
+              "observed": "305.0",
+              "requirement": "available denominator",
+              "explanation": "Quantitative materiality requires an evidenced scale denominator."
+            },
+            {
+              "test_id": "magnitude",
+              "status": "FAIL",
+              "required": true,
+              "observed": "-0.02622950819672131",
+              "requirement": ">=0.1 absolute relative change",
+              "explanation": "The development policy requires a minimum relative movement; this is not a scientifically validated threshold."
+            },
+            {
+              "test_id": "persistence",
+              "status": "FAIL",
+              "required": true,
+              "observed": "1 consistent intervals",
+              "requirement": ">=3 consistent intervals",
+              "explanation": "A one-period movement is not a persistent operational condition."
+            },
+            {
+              "test_id": "contradiction",
+              "status": "PASS",
+              "required": true,
+              "observed": "False",
+              "requirement": "no contradictory direction",
+              "explanation": "Reversing observations cannot support a single directional condition."
+            },
+            {
+              "test_id": "operational_mechanism",
+              "status": "PASS",
+              "required": true,
+              "observed": "Published open-role inventory contraction",
+              "requirement": "traceable factual mechanism",
+              "explanation": "The condition must describe an operational state without narrative invention."
+            },
+            {
+              "test_id": "peer_context",
+              "status": "UNAVAILABLE",
+              "required": false,
+              "observed": "UNAVAILABLE",
+              "requirement": "future strengthening evidence",
+              "explanation": "The generic peer engine is not built and peer-relative materiality is not inferred."
+            }
+          ],
+          "failed_tests": [
+            "history_depth",
+            "magnitude",
+            "persistence"
+          ],
+          "missing_information": [
+            "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval.",
+            "The development policy requires a minimum relative movement; this is not a scientifically validated threshold.",
+            "A one-period movement is not a persistent operational condition.",
+            "The generic peer engine is not built and peer-relative materiality is not inferred.",
+            "No independent source-family corroboration is available; same-source observations are not treated as independent."
+          ],
+          "observed_explanation": "Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%).",
+          "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: published open-role inventory contraction.",
+          "evidence_strength_explanation": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=FAIL; denominator=PASS; magnitude=FAIL; persistence=FAIL; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+          "what_is_unknown": "The source-specific policy requires enough longitudinal history to distinguish a movement from one interval. The development policy requires a minimum relative movement; this is not a scientifically validated threshold. A one-period movement is not a persistent operational condition. The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+          "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+          "human_readable_explanation": "INSUFFICIENT_EVIDENCE: Open postings moved from 305 to 297 across 2 stored snapshots (-8; -2.62%). If the movement is persistent and material, it could support the operational state: published open-role inventory contraction. Failed required tests: history_depth, magnitude, persistence."
+        }
+      ],
+      "source_first_review": [
+        {
+          "candidate_type": "hiring_contraction",
+          "engine_status": "INSUFFICIENT_EVIDENCE",
+          "review_decision": "CORRECT_WITHHOLDING",
+          "factual_observation_correct": true,
+          "entity_scope_correct": true,
+          "severe_false_positive": false,
+          "ambiguous": false,
+          "notes": "Development source-first judgement; not independent validation. Procurement publication counts are partial and not business demand."
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "factual_observation_accuracy": {
+      "correct": 11,
+      "total": 11
+    },
+    "entity_scope_accuracy": {
+      "correct": 11,
+      "total": 11
+    },
+    "qualified_condition_precision": {
+      "correct": 8,
+      "total": 8
+    },
+    "false_negative_rate": {
+      "false_negatives": 0,
+      "total_expected_positive": 8
+    },
+    "ambiguous_case_rate": {
+      "ambiguous": 2,
+      "total": 11
+    },
+    "provenance_completeness": {
+      "complete": 11,
+      "total": 11
+    },
+    "severe_false_positives": 0,
+    "unhandled_contradictions": 0
+  },
+  "summary": {
+    "companies": 7,
+    "candidate_decisions": 11,
+    "qualified": 8,
+    "withheld": 3,
+    "families_with_candidates": [
+      "careers",
+      "estate",
+      "leadership",
+      "procurement"
+    ],
+    "readiness_status": "NOT_READY_INSUFFICIENT_REVIEW_SCOPE"
+  }
+}

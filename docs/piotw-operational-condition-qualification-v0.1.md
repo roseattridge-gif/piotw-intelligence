@@ -160,3 +160,8 @@ This work is product/architecture development outside the protected Evidence Eng
 The controlled vocabulary now also includes estate expansion/contraction/reshaping, procurement deceleration and organisational restructuring. Only estate reshaping and organisational restructuring have new development policies. Those policies do not alter the existing careers thresholds and remain subject to source-first review.
 
 Travis Perkins supplies the first real multi-source runtime case: estate reshaping and an explicitly announced organisational restructuring qualify under development rules; two resolved public awards remain factual-only because history is too shallow. Cloudflare remains careers-only and its hiring candidate remains insufficient. Corroboration is relationship-based: sharing a dimension never makes another family independent support, and derivative duplicates or contradictions remain visible.
+# Multi-family development review status
+
+The v0.1 policy was frozen and reviewed unchanged in the 20 August 2026 Multi-Family Condition Policy Review. The run covered careers, estate, procurement and leadership/organisation. It generated 11 candidate decisions (8 qualified; 3 insufficient evidence) but missed the preregistered 12-decision minimum. The result is `NOT_READY_INSUFFICIENT_REVIEW_SCOPE`, not validation.
+
+Estate rules are retained for now. Leadership rules need more cases. Procurement notice-count policies require source-specific treatment and deeper comparable history. Careers still needs longitudinal depth. No thresholds changed.

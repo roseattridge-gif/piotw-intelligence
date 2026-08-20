@@ -119,3 +119,37 @@ def test_cloudflare_run_keeps_missing_families_explicit() -> None:
     assert availability["estate_footprint_capacity"] == "NO_HISTORY"
     assert availability["contracts_procurement"] == "NO_HISTORY"
     assert availability["leadership_organisation"] == "NO_HISTORY"
+
+
+def test_source_publication_time_controls_cutoff() -> None:
+    row = _record("late-report", "estate_footprint_capacity", "2024-01-31T00:00:00+00:00",
+                  record_type="estate_period", values={"period": "2024", "site_count": 10})
+    row = row.model_copy(update={"source_published_at": datetime.fromisoformat("2025-03-01T00:00:00+00:00")})
+    result = EstateConditionAdapter().adapt(company_id="test-co", entity_scope="company",
+        analysis_cutoff=datetime.fromisoformat("2025-02-28T23:59:59+00:00"), records=[row])
+    assert result.availability == "NO_HISTORY"
+
+
+def test_estate_churn_and_net_direction_are_distinct_candidates() -> None:
+    rows = [
+        _record("ea", "estate_footprint_capacity", "2023-01-31T00:00:00+00:00",
+                record_type="estate_period", values={"period": "2023", "site_count": 100}),
+        _record("eb", "estate_footprint_capacity", "2024-01-31T00:00:00+00:00",
+                record_type="estate_period", values={"period": "2024", "site_count": 110}),
+        _record("ec", "estate_footprint_capacity", "2025-01-31T00:00:00+00:00",
+                record_type="estate_period", values={"period": "2025", "site_count": 120, "openings": 15, "closures": 5}),
+    ]
+    result = EstateConditionAdapter().adapt(company_id="test-co", entity_scope="company",
+                                             analysis_cutoff=CUTOFF, records=rows)
+    assert {item.candidate_type for item in result.candidates} == {"estate_reshaping", "estate_expansion"}
+
+
+def test_procurement_history_counts_comparison_periods() -> None:
+    rows = [_record(f"award-{index}", "contracts_procurement", f"{period}-06-01T00:00:00+00:00",
+        record_type="award_notice", values={"entity_resolution": "APPROVED", "award_value": 1,
+                                             "currency": "GBP", "comparison_period": period})
+        for index, period in enumerate(["2023", "2024", "2024", "2025", "2025", "2025"])]
+    result = ProcurementFamilyAdapter().adapt(company_id="test-co", entity_scope="company",
+                                               analysis_cutoff=CUTOFF, records=rows)
+    assert result.candidates[0].history.snapshot_count == 3
+    assert result.candidates[0].history.history_depth == "SHALLOW"
