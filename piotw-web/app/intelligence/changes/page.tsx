@@ -6,8 +6,8 @@ import { allChanges, filterChangesByPeriod, selectedPeriod, sincePreviousChanges
 import { listCompanyIntelligenceSnapshots } from "@/lib/data/company-intelligence";
 
 const TYPES = ["CAREERS_APPEARED","CAREERS_PERSISTED","CAREERS_ABSENT_ONCE","CAREERS_CONFIRMED_CLOSED","CAREERS_REOPENED","ATOMIC_OBSERVATION"];
-export default async function ChangesPage({ searchParams }: { searchParams: Promise<{ company?: string; source?: string; type?: string; period?: string }> }) {
-  const query = await searchParams; const profiles = await listCompanyIntelligenceSnapshots(); const period=selectedPeriod(query.period);
+export default async function ChangesPage() {
+  const query: Record<string, string | undefined> = {}; const profiles = await listCompanyIntelligenceSnapshots(); const period=selectedPeriod(undefined);
   const periodFeed = period === "previous" ? profiles.flatMap(sincePreviousChanges).sort((a,b)=>b.date.localeCompare(a.date)) : filterChangesByPeriod(allChanges(profiles),period);
   const changes = periodFeed.filter((item) => (!query.company || item.company_id === query.company) && (!query.source || item.source_family === query.source) && (!query.type || item.type === query.type));
   return <main className="intelligence-directory change-feed-page"><IntelligenceNav/><header><p className="eyebrow">Cross-company factual feed</p><h1>Recent change</h1><p>Newest factual change first. No importance, risk or predictive meaning is assigned.</p><PeriodSelector period={period}/></header>

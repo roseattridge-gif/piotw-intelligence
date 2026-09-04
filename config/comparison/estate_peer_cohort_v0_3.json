@@ -1,0 +1,20 @@
+{
+  "cohort_id": "uk-trade-facing-branch-networks-fy2025-v0.3-extension-development",
+  "extends": "uk-trade-facing-branch-networks-fy2025-v0.1-development",
+  "status": "DEVELOPMENT_SMALL_COHORT",
+  "feature_id": "estate_net_change_pct",
+  "period": "FY2025",
+  "definition": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+  "candidate_peers": [
+    {"company_id":"travis-perkins","display_name":"Travis Perkins Merchanting","entity_scope":"travis-perkins-merchanting","geography":"UK","business_model":"national general and specialist merchant","start":724,"end":727,"included":true,"exclusion_reason":null,"evidence_id":"ev-tp-estate-fy2025"},
+    {"company_id":"grafton-gb","display_name":"Grafton Great Britain","entity_scope":"grafton-great-britain","geography":"Great Britain","business_model":"trade distribution with adjacent manufacturing","start":122,"end":122,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-grafton-fy2025"},
+    {"company_id":"howdens-uk","display_name":"Howdens UK","entity_scope":"howdens-uk-depot-network","geography":"UK","business_model":"trade-only kitchen and joinery depot network","start":869,"end":891,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-howdens-fy2025"},
+    {"company_id":"lords-merchanting","display_name":"Lords Merchanting","entity_scope":"lords-merchanting","geography":"UK","business_model":"regional building-material merchant","start":29,"end":32,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-lords-fy2025"},
+    {"company_id":"kingfisher-b-and-q","display_name":"B&Q UK & Ireland","entity_scope":"kingfisher-b-and-q-uk-ireland-store-network","geography":"UK and Ireland","business_model":"consumer-led home-improvement retail store network with an embedded trade proposition","start":311,"end":310,"included":false,"exclusion_reason":"Retail-led big-box/compact store economics and customer model do not satisfy the existing trade-facing merchant/depot cohort definition.","evidence_id":"ev-bq-ukie-fy2025"},
+    {"company_id":"sig-uk","display_name":"SIG UK","entity_scope":"sig-uk","geography":"UK","business_model":"specialist interiors and roofing distributor","start":null,"end":170,"included":false,"exclusion_reason":"No comparable FY2025 starting count bridge.","evidence_id":"ev-peer-sig-context"},
+    {"company_id":"stark-jewson","display_name":"STARK / Jewson","entity_scope":"stark-uk","geography":"UK","business_model":"building-material merchant","start":null,"end":null,"included":false,"exclusion_reason":"No sufficiently complete public FY2025 count bridge.","evidence_id":null}
+  ],
+  "evidence": [
+    {"evidence_id":"ev-bq-ukie-fy2025","source_id":"bq-ukie-fy2025","title":"Kingfisher 2024/25 annual report","source_family":"peer_issuer_reporting","source_url":"https://www.kingfisher.com/~/media/Files/K/Kingfisher-Plc/Universal/investors/result-reports-presentation/2025/Kingfisher-Annual-Report-2024-25.pdf","publication_date":"2025-03-25","information_available_at":"2025-03-25T00:00:00Z","entity_scope":"B&Q UK & Ireland","evidence_span":"B&Q store numbers at 31 January 2025: 310; prior comparable count at 31 January 2024: 311.","collector_or_parser_version":"manual-source-verification-v1"}
+  ]
+}

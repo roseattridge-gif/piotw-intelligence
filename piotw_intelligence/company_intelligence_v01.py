@@ -78,7 +78,7 @@ class ConditionQualificationView(BaseModel):
 class Comparison(BaseModel):
     comparison_id: str
     condition_id: str
-    status: StageStatus
+    status: Literal["AVAILABLE", "INSUFFICIENT_EVIDENCE", "NOT_COMPARABLE", "WITHHELD"]
     basis: Literal["PEER", "HISTORY", "PEER_AND_HISTORY"]
     metric: str
     target_value: float | None = None
@@ -93,6 +93,20 @@ class Comparison(BaseModel):
     evidence_ids: list[str] = Field(default_factory=list)
     caveats: list[str] = Field(default_factory=list)
     withheld_reason: str | None = None
+    contract_version: str = "piotw-comparison-v0.1"
+    comparison_type: Literal["OWN_HISTORY", "PEER_COHORT"] | None = None
+    feature_id: str | None = None
+    source_family: str | None = None
+    comparison_window: str | None = None
+    directionality: str | None = None
+    raw_value: float | None = None
+    denominator: float | None = None
+    anomaly_strength: str | None = None
+    coverage: str | None = None
+    missingness: list[str] = Field(default_factory=list)
+    cohort_definition: str | None = None
+    cohort_inclusions: list[str] = Field(default_factory=list)
+    cohort_exclusions: list[str] = Field(default_factory=list)
 
     @model_validator(mode="after")
     def validate_availability(self) -> Comparison:
@@ -100,7 +114,8 @@ class Comparison(BaseModel):
             required = (self.target_value, self.comparator_value, self.unit, self.sample_size, self.method)
             if any(value is None for value in required) or not self.evidence_ids:
                 raise ValueError("available comparison requires values, method, sample and evidence")
-        elif any(value is not None for value in (self.target_value, self.comparator_value, self.gap, self.percentile)):
+        elif any(value is not None for value in (self.target_value, self.comparator_value, self.gap, self.percentile,
+                                                  self.raw_value, self.denominator)):
             raise ValueError("unavailable comparison cannot expose numerical results")
         if self.status != "AVAILABLE" and not self.withheld_reason:
             raise ValueError("unavailable comparison requires withheld_reason")

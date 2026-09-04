@@ -7,9 +7,9 @@ import { getCompanyIntelligenceSnapshot } from "@/lib/data/company-intelligence"
 
 const dateOnly = (value: string) => new Intl.DateTimeFormat("en-GB",{dateStyle:"medium"}).format(new Date(value));
 const dateTime = (value: string) => new Intl.DateTimeFormat("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/London"}).format(new Date(value));
-export default async function CompanyEvidenceBrief({ params, searchParams }: { params: Promise<{ companyId: string }>; searchParams: Promise<{ period?: string }> }) {
+export default async function CompanyEvidenceBrief({ params }: { params: Promise<{ companyId: string }> }) {
   const { companyId } = await params; const profile = await getCompanyIntelligenceSnapshot(companyId); if(!profile) notFound();
-  const query=await searchParams; const period=selectedPeriod(query.period); const complete=profileChanges(profile); const changes=period==="previous"?sincePreviousChanges(profile):filterChangesByPeriod(complete,period);
+  const period=selectedPeriod(undefined); const complete=profileChanges(profile); const changes=period==="previous"?sincePreviousChanges(profile):filterChangesByPeriod(complete,period);
   const current=profile.careers_history?.at(-1); const atomic=(profile.atomic_observations??[]).filter((item)=>item.decision==="ACCEPT");
   return <main className="print-brief"><div className="print-controls"><IntelligenceNav companyId={companyId}/><PeriodSelector period={period}/><span>Use browser Print / Save as PDF</span></div>
     <header><p>PIOTW outside-in factual intelligence — experimental prototype.</p><h1>{profile.display_name}</h1><dl><div><dt>Snapshot generated</dt><dd>{dateTime(profile.observation_date)}</dd></div><div><dt>Selected period</dt><dd>{period==="previous"?"Since previous observation":period==="all"?"All available history":`Latest ${period} days of recorded evidence`}</dd></div><div><dt>Factual changes</dt><dd>{changes.length}</dd></div><div><dt>Prediction</dt><dd>NOT YET VALIDATED</dd></div></dl></header>

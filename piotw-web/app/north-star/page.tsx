@@ -2,8 +2,8 @@ import Link from "next/link";
 import { NorthStarNav } from "@/components/north-star-nav";
 import { northStarCompanies } from "@/lib/data/north-star-fixtures";
 
-export default async function NorthStarPortfolio({searchParams}:{searchParams:Promise<{sort?:string;state?:string}>}){
-  const query=await searchParams; const state=query.state??"All"; const sort=query.sort??"movement";
+export default function NorthStarPortfolio(){
+  const state: string="All"; const sort: string="movement";
   let companies=state==="All"?northStarCompanies:northStarCompanies.filter(c=>c.state===state);
   companies=[...companies].sort(sort==="rating"?(a,b)=>b.rating-a.rating:sort==="confidence"?(a,b)=>a.confidence.localeCompare(b.confidence):(a,b)=>Math.abs(b.rating-b.priorRating)-Math.abs(a.rating-a.priorRating));
   const states=["All",...new Set(northStarCompanies.map(c=>c.state))];

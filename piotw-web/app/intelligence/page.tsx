@@ -28,8 +28,8 @@ function latestSummary(profile: CompanyIntelligenceSnapshot) {
   return history ? `${history.open_roles} open roles observed in the latest careers snapshot.` : "No factual observation attached.";
 }
 
-export default async function IntelligenceDirectory({ searchParams }: { searchParams: Promise<{ sort?: string; careers?: string; issuer?: string; procurement?: string; health?: string; days?: string }> }) {
-  const query = await searchParams; const requested = query.sort;
+export default async function IntelligenceDirectory() {
+  const query: Record<string, string | undefined> = {}; const requested = query.sort;
   const sort: SortKey = ["latest_change", "latest_evidence", "freshness", "observations", "open_roles", "company"].includes(requested ?? "") ? requested as SortKey : "latest_change";
   let profiles = await listCompanyIntelligenceSnapshots();
   const latestRecordedChange = Math.max(...profiles.map((profile) => new Date(latestChangeDate(profile)).getTime()));

@@ -6,8 +6,8 @@ import { allChanges, filterChangesByPeriod, selectedPeriod, sincePreviousChanges
 import { listCompanyIntelligenceSnapshots } from "@/lib/data/company-intelligence";
 
 const readablePeriod = (period: string) => period === "previous" ? "since each company’s previous stored observation" : period === "all" ? "across all available history" : `within the latest ${period}-day evidence window`;
-export default async function PortfolioBrief({ searchParams }: { searchParams: Promise<{ period?: string }> }) {
-  const query = await searchParams; const period = selectedPeriod(query.period); const profiles = await listCompanyIntelligenceSnapshots();
+export default async function PortfolioBrief() {
+  const period = selectedPeriod(undefined); const profiles = await listCompanyIntelligenceSnapshots();
   const complete = period === "previous" ? profiles.flatMap(sincePreviousChanges).sort((a,b)=>b.date.localeCompare(a.date)) : filterChangesByPeriod(allChanges(profiles), period);
   const companies = new Set(complete.map((item)=>item.company_id));
   const count = (type: string) => complete.filter((item)=>item.type===type).reduce((sum,item)=>sum+item.count,0);

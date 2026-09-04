@@ -1,0 +1,47 @@
+{
+  "dataset_version": "piotw-estate-history-v0.3-extension-development",
+  "extends": "piotw-estate-history-v0.2-development",
+  "protocol_sha256": "3a4b035e512f12445c2d597ce0bb6cd84955a5bfd6e746e707c32c64e7ccfd8e",
+  "cutoff": "2026-08-19T00:00:00Z",
+  "series": [
+    {
+      "company_id": "howdens-uk",
+      "display_name": "Howdens UK",
+      "entity_scope": "howdens-uk-depot-network",
+      "business_model": "trade-only kitchen and joinery depot network",
+      "geography": "UK",
+      "periods": [
+        {"period":"FY2022","start":778,"end":808,"openings":30,"closures":null,"publication_date":"2023-02-23","evidence_id":"ev-howdens-uk-fy2022","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2023/230223.asp","basis_note":"Opening count and ending count disclosed; zero closures not assumed."},
+        {"period":"FY2023","start":808,"end":840,"openings":33,"closures":1,"publication_date":"2024-02-29","evidence_id":"ev-howdens-uk-fy2023","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2024/290224.asp","basis_note":"UK openings and one closure explicitly disclosed."},
+        {"period":"FY2024","start":840,"end":869,"openings":29,"closures":null,"publication_date":"2025-02-27","evidence_id":"ev-howdens-uk-fy2024","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2025/270225.asp","basis_note":"Opening and ending counts disclosed; zero closures not assumed."},
+        {"period":"FY2025","start":869,"end":891,"openings":23,"closures":1,"publication_date":"2026-02-26","evidence_id":"ev-howdens-uk-fy2025","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2026/260226.asp","basis_note":"Results state 23 openings and one closure; a separate estate page says 24 openings, so gross-flow comparison carries a disclosure-conflict caveat."}
+      ]
+    },
+    {
+      "company_id": "travis-perkins",
+      "display_name": "Travis Perkins Merchanting",
+      "entity_scope": "travis-perkins-merchanting",
+      "business_model": "national general and specialist merchant",
+      "geography": "UK",
+      "periods": [
+        {"period":"FY2023","start":null,"end":769,"openings":null,"closures":null,"publication_date":"2024-03-05","evidence_id":"ev-tp-estate-fy2023","source_url":"https://www.investegate.co.uk/announcement/eqs/travis-perkins--tpk/travis-perkinsplc-full-year-results-for-the-/8070300","basis_note":"Ending network count retained; incomplete gross bridge."},
+        {"period":"FY2024","start":769,"end":724,"openings":6,"closures":51,"publication_date":"2025-04-01","evidence_id":"ev-tp-estate-fy2024","source_url":"https://www.investegate.co.uk/announcement/eqs/travis-perkins--tpk/travis-perkins-plc-full-year-results-for-th-/8806937","basis_note":"Six openings and 51 closures explicitly disclosed."},
+        {"period":"FY2025","start":724,"end":727,"openings":4,"closures":1,"publication_date":"2026-03-17","evidence_id":"ev-tp-estate-fy2025","source_url":"https://www.travisperkinsplc.co.uk/media/5rgdwalx/travis-perkins-annual-report-2025.pdf","basis_note":"Canonical stored annual-report evidence discloses four openings and one closure, reconciling to net three."}
+      ]
+    },
+    {
+      "company_id": "kingfisher-b-and-q",
+      "display_name": "B&Q UK & Ireland",
+      "entity_scope": "kingfisher-b-and-q-uk-ireland-store-network",
+      "business_model": "consumer-led home-improvement retail store network with an embedded trade proposition",
+      "geography": "UK and Ireland",
+      "periods": [
+        {"period":"FY2021","start":null,"end":301,"openings":null,"closures":null,"publication_date":"2021-03-22","evidence_id":"ev-bq-ukie-fy2021","source_url":"https://www.kingfisher.com/content/dam/kingfisher/Corporate/Images/Other/2021/20210322%202020_21%20Full%20year%20results_RNS_PART%201.pdf.downloadasset.pdf","evidence_span":"Retail banner table: B&Q store numbers at 31 January 2021: 301.","basis_note":"B&Q UK & Ireland banner-level ending count; opening and closure flows not inferred."},
+        {"period":"FY2022","start":301,"end":312,"openings":11,"closures":null,"publication_date":"2022-03-22","evidence_id":"ev-bq-ukie-fy2022","source_url":"https://www.kingfisher.com/media/news/2022/final-results-for-the-year-ended-31-january-2022","evidence_span":"B&Q UK & Ireland: 312 stores at 31 January 2022; issuer states 11 new B&Q stores opened in FY2021/22.","basis_note":"Same banner/geography as FY2021. Zero closures is not assumed despite arithmetic reconciliation."},
+        {"period":"FY2023","start":312,"end":316,"openings":null,"closures":null,"publication_date":"2023-03-21","evidence_id":"ev-bq-ukie-fy2023","source_url":"https://www.kingfisher.com/content/dam/kingfisher/Corporate/Documents/Other/2023/Kingfisher-plc-Annual-Report-2022-23.pdf","evidence_span":"Retail banner table: B&Q store numbers at 31 January 2023: 316.","basis_note":"Same B&Q UK & Ireland banner-level store definition; gross flows unavailable."},
+        {"period":"FY2024","start":316,"end":311,"openings":null,"closures":null,"publication_date":"2024-03-25","evidence_id":"ev-bq-ukie-fy2024","source_url":"https://www.kingfisher.com/content/dam/kingfisher/Corporate/Documents/Other/2024/Kingfisher-Annual-Report-202324.pdf","evidence_span":"Retail banner table: B&Q store numbers at 31 January 2024: 311.","basis_note":"Same B&Q UK & Ireland banner-level store definition; gross flows unavailable."},
+        {"period":"FY2025","start":311,"end":310,"openings":null,"closures":null,"publication_date":"2025-03-25","evidence_id":"ev-bq-ukie-fy2025","source_url":"https://www.kingfisher.com/~/media/Files/K/Kingfisher-Plc/Universal/investors/result-reports-presentation/2025/Kingfisher-Annual-Report-2024-25.pdf","evidence_span":"Retail banner table: B&Q store numbers at 31 January 2025: 310.","basis_note":"Same B&Q UK & Ireland banner-level store definition; gross flows unavailable."}
+      ]
+    }
+  ]
+}

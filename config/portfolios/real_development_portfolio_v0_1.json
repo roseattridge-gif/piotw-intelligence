@@ -1,0 +1,36 @@
+{
+  "schema_version": "piotw-portfolio-configuration-v0.1",
+  "portfolio_id": "real-development-portfolio",
+  "portfolio_name": "Real public-company development portfolio",
+  "mode": "DEVELOPMENT_CUSTOMER_DEMO",
+  "synthetic": false,
+  "thesis": "Exercise outside-in operating review across businesses with different evidence depth; no investment conclusion is implied.",
+  "companies": [
+    {
+      "company_id": "travis-perkins",
+      "aliases": ["Travis Perkins plc", "TPK"],
+      "active": true,
+      "thesis_context": "Estate productivity and organisational execution",
+      "source_families": ["careers_ats", "estate_footprint_capacity", "contracts_procurement", "leadership_organisation"]
+    },
+    {
+      "company_id": "cloudflare",
+      "aliases": ["Cloudflare Inc", "NET"],
+      "active": true,
+      "thesis_context": "Operating capacity and product delivery",
+      "source_families": ["careers_ats", "issuer_document"]
+    },
+    {
+      "company_id": "datadog",
+      "aliases": ["Datadog Inc", "DDOG"],
+      "active": true,
+      "thesis_context": null,
+      "source_families": ["careers_ats"],
+      "development_fault_injection": {
+        "source_family": "careers_ats",
+        "state": "FAILED",
+        "reason": "Development-only source-failure exercise; not a claim about Datadog or its careers site."
+      }
+    }
+  ]
+}

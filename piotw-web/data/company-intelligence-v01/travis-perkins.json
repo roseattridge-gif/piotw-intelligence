@@ -2,53 +2,581 @@
   "schema_version": "piotw-company-intelligence-v0.1",
   "company": {
     "company_id": "travis-perkins",
-    "display_name": "Travis Perkins plc",
-    "legal_name": "Travis Perkins plc",
-    "ticker": "TPK",
-    "geography": "United Kingdom",
-    "activity": "Building-materials distribution and merchanting"
+    "display_name": "Travis Perkins",
+    "legal_name": null,
+    "ticker": null,
+    "geography": null,
+    "activity": null
   },
-  "as_of": "2026-08-19T00:00:00Z",
-  "generated_at": "2026-08-19T15:00:00Z",
-  "methodology_version": "estate-productivity-value-engine-v0.1",
+  "as_of": "2026-09-04T00:00:00Z",
+  "generated_at": "2026-09-04T00:00:00Z",
+  "methodology_version": "unknown-company-orchestrator-v0.2-condition-qualification",
   "scientific_gate_run": false,
   "coverage": {
-    "status": "MEDIUM",
-    "source_families_present": ["issuer_reporting", "peer_issuer_reporting"],
-    "source_families_missing": ["branch_contribution", "occupancy_cost", "customer_retention", "complete_location_history"],
-    "evidence_count": 8,
+    "status": "LOW",
+    "source_families_present": [
+      "estate_footprint_capacity",
+      "contracts_procurement",
+      "leadership_organisation"
+    ],
+    "source_families_missing": [
+      "careers_ats",
+      "technology_transformation",
+      "supply_chain_sourcing",
+      "customer_service_quality",
+      "regulatory_planning",
+      "issuer_financial_context"
+    ],
+    "evidence_count": 9,
     "provenance_complete": true,
-    "caveats": ["Small development peer cohort", "Formats are directionally comparable rather than identical", "Lords opening bridge is inferred from named openings"]
+    "caveats": [
+      "No approved careers source is configured for this company.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented."
+    ]
   },
   "evidence": [
-    {"evidence_id":"ev-tp-2023","source_id":"tp-2023","title":"2023 full-year results","source_family":"issuer_reporting","source_url":"https://www.travisperkinsplc.co.uk/news-and-media/press-releases/2024/full-year-results-2023/","source_hash":"5320c99adc20727ed8d8d346433c1d81843ffe86e80469fc11c634aa78d90765","publication_date":"2024-03-05","information_available_at":"2024-03-05T00:00:00Z","entity_scope":"Travis Perkins Merchanting","evidence_span":"Merchanting ... Revenue £4,036m ... Branch network 769; 2022 branch network 767","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-tp-2024","source_id":"tp-2024","title":"2024 full-year branch table","source_family":"issuer_reporting","source_url":"https://www.travisperkinsplc.co.uk/media/bkwlo2vx/travis-perkins-plc-2024-full-year-results-presentation.pdf","source_hash":"7e09e415fb3f1353c9d37912c051cdb2112d42d2c6f5a58ea1250b3e4274bbb0","publication_date":"2025-04-01","information_available_at":"2025-04-01T00:00:00Z","entity_scope":"Travis Perkins Merchanting","evidence_span":"Merchanting 769; Openings 6; Closures (51); 31 Dec 2024 724","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-tp-impairment","source_id":"tp-2024-impairment","title":"2024 branch impairment review","source_family":"issuer_reporting","source_url":"https://www.investegate.co.uk/announcement/eqs/travis-perkins--tpk/travis-perkins-plc-full-year-results-for-th-/8806937","source_hash":"0706c00daa1fb0e1fe2e0f6e221d5afa5686eaeab36615c406ceb0fe363084d1","publication_date":"2025-04-01","information_available_at":"2025-04-01T00:00:00Z","entity_scope":"Travis Perkins Merchanting","evidence_span":"identified 209 Merchanting branches where the carrying value ... was above ... discounted future cash flows","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-tp-2025","source_id":"tp-2025","title":"2025 annual report","source_family":"issuer_reporting","source_url":"https://www.travisperkinsplc.co.uk/media/5rgdwalx/travis-perkins-annual-report-2025.pdf","source_hash":"233b82f83a119b441568b03ba318c82295bdbb3083bb88c7d3b0e81d4ab86a84","publication_date":"2026-03-17","information_available_at":"2026-03-17T00:00:00Z","entity_scope":"Travis Perkins Merchanting","evidence_span":"Merchanting branches 724; openings 4; closures (1); 727 ... Revenue £3,722m","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-tp-property","source_id":"tp-property","title":"2025 annual report — property","source_family":"issuer_reporting","source_url":"https://www.travisperkinsplc.co.uk/media/5rgdwalx/travis-perkins-annual-report-2025.pdf","source_hash":"02c6c13a33c70fcc68c0834b40864b954b71736f63ac0af0d12fac216d9225c5","publication_date":"2026-03-17","information_available_at":"2026-03-17T00:00:00Z","entity_scope":"Travis Perkins plc","evidence_span":"property profits of £10m ... £51m of cash proceeds; 2024 property profits £11m with £62m cash proceeds","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-peer-howdens","source_id":"peer-howdens","title":"Howdens 2025 annual report","source_family":"peer_issuer_reporting","source_url":"https://www.howdenjoinerygroupplc.com/docs/librariesprovider25/archives/annual-reports/2025-annual-report.pdf","source_hash":"0576335f45c17a67640ab8de0de22ffd49f4b32424435da65bf92097423d33e6","publication_date":"2026-03-05","information_available_at":"2026-03-05T00:00:00Z","entity_scope":"Howden Joinery UK","evidence_span":"2025 970; 2024 947 ... ended 2025 with 22 more depots in the UK","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-peer-grafton","source_id":"peer-grafton","title":"Grafton 2025 annual report","source_family":"peer_issuer_reporting","source_url":"https://www.graftonplc.com/~/media/Files/G/Grafton-Group/2026%20AGM/Grafton-Annual-Report-2025.pdf","source_hash":"d57dd2bca616b0c80c061fc1f48643c829aa53f3000ebfdeaf0885a487d5cb72","publication_date":"2026-03-05","information_available_at":"2026-03-05T00:00:00Z","entity_scope":"Grafton Great Britain","evidence_span":"Great Britain Number of branches/stores 122; 2024: 122; Revenue £765.4m; 2024 £767.0m","collector_or_parser_version":"manual-source-verification-v1"},
-    {"evidence_id":"ev-peer-lords","source_id":"peer-lords","title":"Lords 2025 final results","source_family":"peer_issuer_reporting","source_url":"https://www.investegate.co.uk/announcement/rns/lords-group-trading--lord/final-results-/9576520","source_hash":"eb5fd90a1438822d9dffefaae9d78354b6c2acec4674301d33ddddc343baf8c0","publication_date":"2026-05-01","information_available_at":"2026-05-01T00:00:00Z","entity_scope":"Lords Merchanting","evidence_span":"Three new branch openings during the year ... 32 locations in the UK","collector_or_parser_version":"manual-source-verification-v1"}
+    {
+      "evidence_id": "ev-tp-estate-fy2023",
+      "source_id": "tp-estate-fy2023",
+      "title": "Estate Footprint Capacity — 2024-03-05T00:00:00+00:00",
+      "source_family": "estate_footprint_capacity",
+      "source_url": "https://www.travisperkinsplc.co.uk/news-and-media/press-releases/2024/full-year-results-2023/",
+      "source_hash": "5320c99adc20727ed8d8d346433c1d81843ffe86e80469fc11c634aa78d90765",
+      "publication_date": "2024-03-05",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-merchanting",
+      "evidence_span": "Merchanting ... Revenue £4,036m ... Branch network 769; 2022 branch network 767",
+      "collector_or_parser_version": "migrated-source-backed-lab-evidence-v0.1"
+    },
+    {
+      "evidence_id": "ev-tp-estate-fy2024",
+      "source_id": "tp-estate-fy2024",
+      "title": "Estate Footprint Capacity — 2025-04-01T00:00:00+00:00",
+      "source_family": "estate_footprint_capacity",
+      "source_url": "https://www.travisperkinsplc.co.uk/media/bkwlo2vx/travis-perkins-plc-2024-full-year-results-presentation.pdf",
+      "source_hash": "7e09e415fb3f1353c9d37912c051cdb2112d42d2c6f5a58ea1250b3e4274bbb0",
+      "publication_date": "2025-04-01",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-merchanting",
+      "evidence_span": "Merchanting 769; Openings 6; Closures (51); 31 Dec 2024 724",
+      "collector_or_parser_version": "migrated-source-backed-lab-evidence-v0.1"
+    },
+    {
+      "evidence_id": "ev-tp-estate-fy2025",
+      "source_id": "tp-estate-fy2025",
+      "title": "Estate Footprint Capacity — 2026-03-17T00:00:00+00:00",
+      "source_family": "estate_footprint_capacity",
+      "source_url": "https://www.travisperkinsplc.co.uk/media/5rgdwalx/travis-perkins-annual-report-2025.pdf",
+      "source_hash": "f5c3f33a9f2b9f2256da7f5247407b34914d5d57248ad8d0d3a09c019e639678",
+      "publication_date": "2026-03-17",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-merchanting",
+      "evidence_span": "Merchanting branches 724; openings 4; closures (1); 727",
+      "collector_or_parser_version": "migrated-source-backed-lab-evidence-v0.1"
+    },
+    {
+      "evidence_id": "ev-tp-contract-barcud-2025",
+      "source_id": "tp-contract-barcud-2025",
+      "title": "Contracts Procurement — 2025-09-09T00:00:00+00:00",
+      "source_family": "contracts_procurement",
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/054848-2025",
+      "source_hash": "8eb3c3945ddc32217b3325f89c35190b2021db8a08356fa765fe859e145a05a2",
+      "publication_date": "2025-09-09",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-trading-company-limited",
+      "evidence_span": "Lot 1 General Building Supplies ... Supplier Travis Perkins ... Contract value £1,558,876 excluding VAT",
+      "collector_or_parser_version": "find-a-tender-ocds-adapter-v1"
+    },
+    {
+      "evidence_id": "ev-tp-contract-doncaster-2025",
+      "source_id": "tp-contract-doncaster-2025",
+      "title": "Contracts Procurement — 2025-12-09T00:00:00+00:00",
+      "source_family": "contracts_procurement",
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/081057-2025",
+      "source_hash": "73e2c02cfbfc62e27d72f552cd07f1c347affc8f13225d4b5f396d7439cd2357",
+      "publication_date": "2025-12-09",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-trading-company-limited",
+      "evidence_span": "Supplier Travis Perkins Trading Company Limited ... Contract value £450,000 excluding VAT ... 5 January 2026 to 4 January 2028",
+      "collector_or_parser_version": "find-a-tender-ocds-adapter-v1"
+    },
+    {
+      "evidence_id": "ev-tp-leadership-specialists-2025",
+      "source_id": "tp-leadership-specialists-2025",
+      "title": "Leadership Organisation — 2025-06-09T00:00:00+00:00",
+      "source_family": "leadership_organisation",
+      "source_url": "https://www.travisperkinsplc.co.uk/news-and-media/press-releases/2025/travis-perkins-plc-announces-new-specialist-merchants-operating-structure/",
+      "source_hash": "9f6b0fce0a763f5bc2f5272c622683315f63c44915fde34db3952e2dc5cc554c",
+      "publication_date": "2025-06-09",
+      "information_available_at": "2026-08-19T00:00:00Z",
+      "entity_scope": "travis-perkins-plc",
+      "evidence_span": "new operating structure ... newly created role of Specialist Merchants Managing Director ... new and dedicated leadership teams",
+      "collector_or_parser_version": "company-announcement-structured-record-v0.1"
+    },
+    {
+      "evidence_id": "ev-peer-grafton-fy2025",
+      "source_id": "peer-grafton-fy2025",
+      "title": "Grafton 2025 annual report",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.graftonplc.com/~/media/Files/G/Grafton-Group/2026%20AGM/Grafton-Annual-Report-2025.pdf",
+      "source_hash": "d57dd2bca616b0c80c061fc1f48643c829aa53f3000ebfdeaf0885a487d5cb72",
+      "publication_date": "2026-03-05",
+      "information_available_at": "2026-03-05T00:00:00Z",
+      "entity_scope": "Grafton Great Britain",
+      "evidence_span": "Great Britain Number of branches/stores 122; 2024: 122",
+      "collector_or_parser_version": "manual-source-verification-v1"
+    },
+    {
+      "evidence_id": "ev-peer-howdens-fy2025",
+      "source_id": "peer-howdens-fy2025",
+      "title": "Howdens 2025 annual report",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.howdenjoinerygroupplc.com/docs/librariesprovider25/archives/annual-reports/2025-annual-report.pdf",
+      "source_hash": "0576335f45c17a67640ab8de0de22ffd49f4b32424435da65bf92097423d33e6",
+      "publication_date": "2026-03-05",
+      "information_available_at": "2026-03-05T00:00:00Z",
+      "entity_scope": "Howden Joinery UK",
+      "evidence_span": "UK depots moved from 869 to 891 in 2025",
+      "collector_or_parser_version": "manual-source-verification-v1"
+    },
+    {
+      "evidence_id": "ev-peer-lords-fy2025",
+      "source_id": "peer-lords-fy2025",
+      "title": "Lords 2025 final results",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.investegate.co.uk/announcement/rns/lords-group-trading--lord/final-results-/9576520",
+      "source_hash": "eb5fd90a1438822d9dffefaae9d78354b6c2acec4674301d33ddddc343baf8c0",
+      "publication_date": "2026-05-01",
+      "information_available_at": "2026-05-01T00:00:00Z",
+      "entity_scope": "Lords Merchanting",
+      "evidence_span": "Three new branch openings during the year ... 32 locations in the UK",
+      "collector_or_parser_version": "manual-source-verification-v1"
+    }
+  ],
+  "condition_qualifications": [
+    {
+      "qualification_id": "qualification-2a36b87cf55753f7",
+      "candidate_type": "estate_reshaping",
+      "status": "QUALIFIED",
+      "dimension": "Delivery & Capacity",
+      "observation_ids": [
+        "obs-tp-estate-fy2023",
+        "obs-tp-estate-fy2024",
+        "obs-tp-estate-fy2025"
+      ],
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "what_observed": "Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s).",
+      "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate reshaping.",
+      "evidence_strength": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "failed_tests": [],
+      "missing_information": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred.",
+        "No independent source-family corroboration is available; same-source observations are not treated as independent."
+      ],
+      "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+      "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+      "scientifically_validated": false
+    },
+    {
+      "qualification_id": "qualification-bc9adf4678466fee",
+      "candidate_type": "estate_contraction",
+      "status": "QUALIFIED",
+      "dimension": "Delivery & Capacity",
+      "observation_ids": [
+        "obs-tp-estate-fy2023",
+        "obs-tp-estate-fy2024",
+        "obs-tp-estate-fy2025"
+      ],
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "what_observed": "Reported site count moved from 769 to 727 across 3 disclosed periods.",
+      "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: evidenced estate contraction.",
+      "evidence_strength": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "failed_tests": [],
+      "missing_information": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred.",
+        "No independent source-family corroboration is available; same-source observations are not treated as independent."
+      ],
+      "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+      "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+      "scientifically_validated": false
+    },
+    {
+      "qualification_id": "qualification-50ad21850b42e81f",
+      "candidate_type": "organisational_restructuring",
+      "status": "QUALIFIED",
+      "dimension": "Workforce & Capability",
+      "observation_ids": [
+        "obs-tp-leadership-specialists-2025"
+      ],
+      "evidence_ids": [
+        "ev-tp-leadership-specialists-2025"
+      ],
+      "what_observed": "1 source-backed operating-structure change(s) were announced.",
+      "why_it_might_matter": "If the movement is persistent and material, it could support the operational state: announced operating-structure and accountability redesign.",
+      "evidence_strength": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "failed_tests": [],
+      "missing_information": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred.",
+        "No independent source-family corroboration is available; same-source observations are not treated as independent."
+      ],
+      "what_would_change_view": "Add the missing history, denominator, healthy collection, consistent scope, persistence or independent corroboration identified by the failed tests.",
+      "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+      "scientifically_validated": false
+    }
   ],
   "conditions": [
-    {"condition_id":"condition-estate-reset","title":"Estate reset followed by stabilisation","statement":"Merchanting contracted its branch estate sharply in 2024 and returned to small net growth in 2025.","dimension":"Delivery & Capacity","direction":"MIXED","materiality":"HIGH","evidence_confidence":"HIGH","state":"727 branches at FY2025","change":"-45 net branches in 2024; +3 in 2025","evidence_ids":["ev-tp-2024","ev-tp-2025"],"caveats":[]},
-    {"condition_id":"condition-productivity-proxy","title":"No visible recovery in revenue per location","statement":"The coarse Merchanting revenue-per-branch proxy declined from £5.50m in 2022 to £5.12m in 2025 despite the 2024 estate reset.","dimension":"Cost & Productivity","direction":"DECREASING","materiality":"MEDIUM","evidence_confidence":"MEDIUM","state":"£5.12m revenue per branch proxy","change":"-6.9% from 2022 to 2025","evidence_ids":["ev-tp-2023","ev-tp-2024","ev-tp-2025"],"caveats":["Revenue per branch does not control for branch format, maturity, geography or customer mix"]}
+    {
+      "condition_id": "condition-qualification-2a36b87cf55753f7",
+      "title": "Estate Reshaping",
+      "statement": "QUALIFIED: Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s). The evidence supports evidenced estate reshaping under the development policy.",
+      "dimension": "Delivery & Capacity",
+      "direction": "MIXED",
+      "materiality": "LOW",
+      "evidence_confidence": "LOW",
+      "state": "Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s).",
+      "change": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "caveats": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+        "Development qualification policy; not scientifically validated."
+      ]
+    },
+    {
+      "condition_id": "condition-qualification-bc9adf4678466fee",
+      "title": "Estate Contraction",
+      "statement": "QUALIFIED: Reported site count moved from 769 to 727 across 3 disclosed periods. The evidence supports evidenced estate contraction under the development policy.",
+      "dimension": "Delivery & Capacity",
+      "direction": "DECREASING",
+      "materiality": "LOW",
+      "evidence_confidence": "LOW",
+      "state": "Reported site count moved from 769 to 727 across 3 disclosed periods.",
+      "change": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "caveats": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+        "Development qualification policy; not scientifically validated."
+      ]
+    },
+    {
+      "condition_id": "condition-qualification-50ad21850b42e81f",
+      "title": "Organisational Restructuring",
+      "statement": "QUALIFIED: 1 source-backed operating-structure change(s) were announced. The evidence supports announced operating-structure and accountability redesign under the development policy.",
+      "dimension": "Workforce & Capability",
+      "direction": "MIXED",
+      "materiality": "LOW",
+      "evidence_confidence": "LOW",
+      "state": "1 source-backed operating-structure change(s) were announced.",
+      "change": "references=PASS; duplicate_evidence=PASS; entity_scope=PASS; source_health=PASS; history_depth=PASS; denominator=PASS; magnitude=PASS; persistence=PASS; contradiction=PASS; operational_mechanism=PASS; peer_context=UNAVAILABLE",
+      "evidence_ids": [
+        "ev-tp-leadership-specialists-2025"
+      ],
+      "caveats": [
+        "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+        "Development qualification policy; not scientifically validated."
+      ]
+    }
   ],
   "comparisons": [
-    {"comparison_id":"comparison-estate-change-2025","condition_id":"condition-estate-reset","status":"AVAILABLE","basis":"PEER","metric":"Net estate change","target_value":0.41,"comparator_value":2.53,"gap":-2.12,"unit":"percentage points","percentile":33.3,"sample_size":4,"peer_set_or_history":"Travis Perkins Merchanting, Grafton Great Britain, Howdens UK and Lords Merchanting","method":"Median 2025 net location change; development cohort with explicit eligibility","confidence":"MEDIUM","evidence_ids":["ev-tp-2025","ev-peer-grafton","ev-peer-howdens","ev-peer-lords"],"caveats":["Small sample", "Different merchant and depot formats", "Lords bridge inferred"],"withheld_reason":null},
-    {"comparison_id":"comparison-revenue-per-branch","condition_id":"condition-productivity-proxy","status":"WITHHELD","basis":"PEER","metric":"Revenue per branch","target_value":null,"comparator_value":null,"gap":null,"unit":null,"percentile":null,"sample_size":null,"peer_set_or_history":null,"method":null,"confidence":"NOT_ASSESSED","evidence_ids":[],"caveats":[],"withheld_reason":"Comparable peer segment revenue and consistent branch-format denominators are unavailable."}
+    {
+      "comparison_id": "cmp-98dc5becc20f214a",
+      "condition_id": "condition-qualification-2a36b87cf55753f7",
+      "status": "AVAILABLE",
+      "basis": "HISTORY",
+      "metric": "Net change in a comparable physical location estate over one reporting period.",
+      "target_value": 0.4144,
+      "comparator_value": -5.8518,
+      "gap": 6.2661,
+      "unit": "percent",
+      "percentile": null,
+      "sample_size": 2,
+      "peer_set_or_history": "available annual reporting history",
+      "method": "Current annual net estate change versus median of prior observed annual movements.",
+      "confidence": "MEDIUM",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "caveats": [
+        "Available history is short; this is a range comparison, not a statistical model."
+      ],
+      "withheld_reason": null,
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "OWN_HISTORY",
+      "feature_id": "estate_net_change_pct",
+      "source_family": "estate_footprint_capacity",
+      "comparison_window": "available annual reporting history",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "raw_value": 3.0,
+      "denominator": 724.0,
+      "anomaly_strength": "HISTORICALLY_UNUSUAL",
+      "coverage": "3 comparable periods; 2 movements",
+      "missingness": [],
+      "cohort_definition": null,
+      "cohort_inclusions": [],
+      "cohort_exclusions": []
+    },
+    {
+      "comparison_id": "cmp-859ecd01a2a083af",
+      "condition_id": "condition-qualification-2a36b87cf55753f7",
+      "status": "AVAILABLE",
+      "basis": "PEER",
+      "metric": "Net change in a comparable physical location estate over one reporting period.",
+      "target_value": 0.4144,
+      "comparator_value": 2.5316,
+      "gap": -2.1172,
+      "unit": "percent",
+      "percentile": 33.3,
+      "sample_size": 4,
+      "peer_set_or_history": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+      "method": "Median peer annual net estate change; rank uses (rank-1)/(N-1).",
+      "confidence": "MEDIUM",
+      "evidence_ids": [
+        "ev-tp-estate-fy2025",
+        "ev-peer-grafton-fy2025",
+        "ev-peer-howdens-fy2025",
+        "ev-peer-lords-fy2025"
+      ],
+      "caveats": [
+        "DEVELOPMENT_SMALL_COHORT",
+        "Rank is descriptive, not a robust population percentile.",
+        "Different merchant and depot formats remain a comparability limitation."
+      ],
+      "withheld_reason": null,
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "PEER_COHORT",
+      "feature_id": "estate_net_change_pct",
+      "source_family": "estate_footprint_capacity",
+      "comparison_window": "FY2025",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "raw_value": 3.0,
+      "denominator": 724.0,
+      "anomaly_strength": "BELOW_PEERS",
+      "coverage": "4 included of 6 candidates",
+      "missingness": [],
+      "cohort_definition": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+      "cohort_inclusions": [
+        "Travis Perkins Merchanting",
+        "Grafton Great Britain",
+        "Howdens UK",
+        "Lords Merchanting"
+      ],
+      "cohort_exclusions": [
+        "SIG UK: No comparable FY2025 starting count bridge.",
+        "STARK / Jewson: No sufficiently complete public FY2025 count bridge."
+      ]
+    },
+    {
+      "comparison_id": "cmp-c9fca95799624ca4",
+      "condition_id": "condition-qualification-bc9adf4678466fee",
+      "status": "AVAILABLE",
+      "basis": "HISTORY",
+      "metric": "Net change in a comparable physical location estate over one reporting period.",
+      "target_value": 0.4144,
+      "comparator_value": -5.8518,
+      "gap": 6.2661,
+      "unit": "percent",
+      "percentile": null,
+      "sample_size": 2,
+      "peer_set_or_history": "available annual reporting history",
+      "method": "Current annual net estate change versus median of prior observed annual movements.",
+      "confidence": "MEDIUM",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025"
+      ],
+      "caveats": [
+        "Available history is short; this is a range comparison, not a statistical model."
+      ],
+      "withheld_reason": null,
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "OWN_HISTORY",
+      "feature_id": "estate_net_change_pct",
+      "source_family": "estate_footprint_capacity",
+      "comparison_window": "available annual reporting history",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "raw_value": 3.0,
+      "denominator": 724.0,
+      "anomaly_strength": "HISTORICALLY_UNUSUAL",
+      "coverage": "3 comparable periods; 2 movements",
+      "missingness": [],
+      "cohort_definition": null,
+      "cohort_inclusions": [],
+      "cohort_exclusions": []
+    },
+    {
+      "comparison_id": "cmp-6e522939120012d3",
+      "condition_id": "condition-qualification-bc9adf4678466fee",
+      "status": "AVAILABLE",
+      "basis": "PEER",
+      "metric": "Net change in a comparable physical location estate over one reporting period.",
+      "target_value": 0.4144,
+      "comparator_value": 2.5316,
+      "gap": -2.1172,
+      "unit": "percent",
+      "percentile": 33.3,
+      "sample_size": 4,
+      "peer_set_or_history": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+      "method": "Median peer annual net estate change; rank uses (rank-1)/(N-1).",
+      "confidence": "MEDIUM",
+      "evidence_ids": [
+        "ev-tp-estate-fy2025",
+        "ev-peer-grafton-fy2025",
+        "ev-peer-howdens-fy2025",
+        "ev-peer-lords-fy2025"
+      ],
+      "caveats": [
+        "DEVELOPMENT_SMALL_COHORT",
+        "Rank is descriptive, not a robust population percentile.",
+        "Different merchant and depot formats remain a comparability limitation."
+      ],
+      "withheld_reason": null,
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "PEER_COHORT",
+      "feature_id": "estate_net_change_pct",
+      "source_family": "estate_footprint_capacity",
+      "comparison_window": "FY2025",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "raw_value": 3.0,
+      "denominator": 724.0,
+      "anomaly_strength": "BELOW_PEERS",
+      "coverage": "4 included of 6 candidates",
+      "missingness": [],
+      "cohort_definition": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+      "cohort_inclusions": [
+        "Travis Perkins Merchanting",
+        "Grafton Great Britain",
+        "Howdens UK",
+        "Lords Merchanting"
+      ],
+      "cohort_exclusions": [
+        "SIG UK: No comparable FY2025 starting count bridge.",
+        "STARK / Jewson: No sufficiently complete public FY2025 count bridge."
+      ]
+    },
+    {
+      "comparison_id": "cmp-31061053c990332f",
+      "condition_id": "condition-qualification-50ad21850b42e81f",
+      "status": "NOT_COMPARABLE",
+      "basis": "HISTORY",
+      "metric": "No comparison-eligible feature is registered.",
+      "target_value": null,
+      "comparator_value": null,
+      "gap": null,
+      "unit": "not available",
+      "percentile": null,
+      "sample_size": null,
+      "peer_set_or_history": "not available",
+      "method": null,
+      "confidence": "NOT_ASSESSED",
+      "evidence_ids": [],
+      "caveats": [
+        "Procurement role restrictions and non-standardised leadership events are preserved."
+      ],
+      "withheld_reason": "The qualified condition has no approved comparable feature.",
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "OWN_HISTORY",
+      "feature_id": "no_registered_feature",
+      "source_family": "unsupported",
+      "comparison_window": "not available",
+      "directionality": "NOT_APPLICABLE",
+      "raw_value": null,
+      "denominator": null,
+      "anomaly_strength": "NOT_COMPARABLE",
+      "coverage": "No eligible feature",
+      "missingness": [
+        "The qualified condition has no approved comparable feature."
+      ],
+      "cohort_definition": null,
+      "cohort_inclusions": [],
+      "cohort_exclusions": []
+    }
   ],
   "predictions": [
-    {"prediction_id":"prediction-estate-outcome","status":"NOT_BUILT","target_event":null,"horizon":null,"probability":null,"confidence":"NOT_ASSESSED","model_version":null,"historical_pattern":null,"supporting_condition_ids":[],"evidence_ids":[],"caveats":[],"withheld_reason":"No validated operational prediction model or comparable historical-pattern engine exists."}
+    {
+      "prediction_id": "prediction-unknown-company",
+      "status": "NOT_BUILT",
+      "target_event": null,
+      "horizon": null,
+      "probability": null,
+      "confidence": "NOT_ASSESSED",
+      "model_version": null,
+      "historical_pattern": null,
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No validated operational predictive-pattern engine is available."
+    }
   ],
   "interventions": [
-    {"intervention_id":"intervention-estate-triage","status":"AVAILABLE","title":"Branch-level estate triage and format productivity diligence","mechanism":"Separate genuinely underproductive sites from strategically valuable but cyclically impaired locations, then test reformatting, consolidation, relocation or capital recycling where service density survives.","investigation_steps":["Obtain branch contribution after directly attributable occupancy costs","Measure customer retention and delivery-radius effects after prior consolidations","Compare new and relocated formats with predecessor sites after maturity","Map freehold optionality against local coverage"],"supporting_condition_ids":["condition-estate-reset","condition-productivity-proxy"],"evidence_ids":["ev-tp-2024","ev-tp-impairment","ev-tp-2025","ev-tp-property"],"evidence_strength":"MEDIUM","falsifiers":["Impaired branches are economically healthy through-cycle","New or relocated formats do not outperform predecessor sites","The peer gap disappears after controlling for format and geography","Property disposals create offsetting service or lease costs"],"caveats":["This is a diligence hypothesis, not a closure recommendation"],"withheld_reason":null}
+    {
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "title": null,
+      "mechanism": null,
+      "investigation_steps": [],
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "evidence_strength": "NOT_ASSESSED",
+      "falsifiers": [],
+      "caveats": [],
+      "withheld_reason": "Factual observations and development-qualified conditions do not yet support a driver-specific intervention."
+    }
   ],
   "financial_impacts": [
-    {"impact_id":"impact-property-cash-capacity","intervention_id":"intervention-estate-triage","status":"AVAILABLE","mechanism":"Continuation of historically reported property cash recycling","measure":"Gross property cash proceeds capacity","low":28,"base":42,"high":57,"currency":"GBP","unit":"million","period":"illustrative annual continuation","incremental":false,"assumptions":[{"assumption_id":"assumption-two-year-average","statement":"Two-year average property cash proceeds","value":56.5,"unit":"GBP million","basis":"Average of £62m in 2024 and £51m in 2025","evidence_ids":["ev-tp-property"]},{"assumption_id":"assumption-continuation-low","statement":"Low continuation factor","value":50,"unit":"percent","basis":"Scenario assumption, not company guidance","evidence_ids":[]},{"assumption_id":"assumption-continuation-base","statement":"Base continuation factor","value":75,"unit":"percent","basis":"Scenario assumption, not company guidance","evidence_ids":[]},{"assumption_id":"assumption-continuation-high","statement":"High continuation factor","value":100,"unit":"percent","basis":"Scenario assumption, not company guidance","evidence_ids":[]}],"evidence_ids":["ev-tp-property"],"caveats":["Not incremental value, EBITDA, profit, forecast or company guidance","Branch-level economics are unavailable"],"withheld_reason":null},
-    {"impact_id":"impact-estate-ebitda","intervention_id":"intervention-estate-triage","status":"WITHHELD","mechanism":null,"measure":null,"low":null,"base":null,"high":null,"currency":null,"unit":null,"period":null,"incremental":null,"assumptions":[],"evidence_ids":[],"caveats":[],"withheld_reason":"Branch contribution, occupancy cost and post-transfer customer retention are unavailable."}
+    {
+      "impact_id": "impact-unknown-company",
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "mechanism": null,
+      "measure": null,
+      "low": null,
+      "base": null,
+      "high": null,
+      "currency": null,
+      "unit": null,
+      "period": null,
+      "incremental": null,
+      "assumptions": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No evidence-backed intervention or financial mechanism is available."
+    }
   ],
-  "capabilities": {"detect":"AVAILABLE","compare":"AVAILABLE","predict":"NOT_BUILT","prescribe":"AVAILABLE","quantify":"AVAILABLE"},
-  "missing_capabilities": ["Validated predictive pattern engine", "Comparable branch-level productivity benchmark", "Decision-grade incremental EBITDA bridge", "Automated arbitrary-company source acquisition and entity resolution"],
-  "overall_confidence": "MEDIUM"
+  "capabilities": {
+    "detect": "AVAILABLE",
+    "compare": "AVAILABLE",
+    "predict": "NOT_BUILT",
+    "prescribe": "WITHHELD",
+    "quantify": "WITHHELD"
+  },
+  "missing_capabilities": [
+    "Scientifically validated operational-condition qualification policy",
+    "Broad coverage-normalised peer cohorts beyond registered estate features",
+    "Validated predictive-pattern engine",
+    "Driver-specific intervention engine",
+    "Evidence-backed financial mechanism"
+  ],
+  "overall_confidence": "LOW"
 }

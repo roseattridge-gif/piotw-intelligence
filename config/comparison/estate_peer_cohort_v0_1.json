@@ -1,0 +1,23 @@
+{
+  "cohort_id": "uk-trade-facing-branch-networks-fy2025-v0.1-development",
+  "status": "DEVELOPMENT_SMALL_COHORT",
+  "target_company_id": "travis-perkins",
+  "target_entity_scope": "travis-perkins-merchanting",
+  "feature_id": "estate_net_change_pct",
+  "period": "FY2025",
+  "definition": "UK trade-facing branch or depot distribution networks with public starting and ending FY2025 location counts.",
+  "candidate_peers": [
+    {"company_id":"travis-perkins","display_name":"Travis Perkins Merchanting","entity_scope":"travis-perkins-merchanting","geography":"UK","business_model":"national general and specialist merchant","start":724,"end":727,"included":true,"exclusion_reason":null,"evidence_id":"ev-tp-estate-fy2025"},
+    {"company_id":"grafton-gb","display_name":"Grafton Great Britain","entity_scope":"grafton-great-britain","geography":"Great Britain","business_model":"trade distribution with adjacent manufacturing","start":122,"end":122,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-grafton-fy2025"},
+    {"company_id":"howdens-uk","display_name":"Howdens UK","entity_scope":"howdens-uk-depot-network","geography":"UK","business_model":"trade-only kitchen and joinery depot network","start":869,"end":891,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-howdens-fy2025"},
+    {"company_id":"lords-merchanting","display_name":"Lords Merchanting","entity_scope":"lords-merchanting","geography":"UK","business_model":"regional building-material merchant","start":29,"end":32,"included":true,"exclusion_reason":null,"evidence_id":"ev-peer-lords-fy2025"},
+    {"company_id":"sig-uk","display_name":"SIG UK","entity_scope":"sig-uk","geography":"UK","business_model":"specialist interiors and roofing distributor","start":null,"end":170,"included":false,"exclusion_reason":"No comparable FY2025 starting count bridge.","evidence_id":"ev-peer-sig-context"},
+    {"company_id":"stark-jewson","display_name":"STARK / Jewson","entity_scope":"stark-uk","geography":"UK","business_model":"building-material merchant","start":null,"end":null,"included":false,"exclusion_reason":"No sufficiently complete public FY2025 count bridge.","evidence_id":null}
+  ],
+  "evidence": [
+    {"evidence_id":"ev-peer-grafton-fy2025","source_id":"peer-grafton-fy2025","title":"Grafton 2025 annual report","source_family":"peer_issuer_reporting","source_url":"https://www.graftonplc.com/~/media/Files/G/Grafton-Group/2026%20AGM/Grafton-Annual-Report-2025.pdf","source_hash":"d57dd2bca616b0c80c061fc1f48643c829aa53f3000ebfdeaf0885a487d5cb72","publication_date":"2026-03-05","information_available_at":"2026-03-05T00:00:00Z","entity_scope":"Grafton Great Britain","evidence_span":"Great Britain Number of branches/stores 122; 2024: 122","collector_or_parser_version":"manual-source-verification-v1"},
+    {"evidence_id":"ev-peer-howdens-fy2025","source_id":"peer-howdens-fy2025","title":"Howdens 2025 annual report","source_family":"peer_issuer_reporting","source_url":"https://www.howdenjoinerygroupplc.com/docs/librariesprovider25/archives/annual-reports/2025-annual-report.pdf","source_hash":"0576335f45c17a67640ab8de0de22ffd49f4b32424435da65bf92097423d33e6","publication_date":"2026-03-05","information_available_at":"2026-03-05T00:00:00Z","entity_scope":"Howden Joinery UK","evidence_span":"UK depots moved from 869 to 891 in 2025","collector_or_parser_version":"manual-source-verification-v1"},
+    {"evidence_id":"ev-peer-lords-fy2025","source_id":"peer-lords-fy2025","title":"Lords 2025 final results","source_family":"peer_issuer_reporting","source_url":"https://www.investegate.co.uk/announcement/rns/lords-group-trading--lord/final-results-/9576520","source_hash":"eb5fd90a1438822d9dffefaae9d78354b6c2acec4674301d33ddddc343baf8c0","publication_date":"2026-05-01","information_available_at":"2026-05-01T00:00:00Z","entity_scope":"Lords Merchanting","evidence_span":"Three new branch openings during the year ... 32 locations in the UK","collector_or_parser_version":"manual-source-verification-v1"},
+    {"evidence_id":"ev-peer-sig-context","source_id":"peer-sig-context","title":"SIG results — context-only estate disclosure","source_family":"peer_issuer_reporting","source_url":"https://www.investegate.co.uk/announcement/rns/sig--shi/full-year-results-for-year-ended-31-december-2024/8763481","source_hash":"2b83159025fc172aac1e4830b1d14877075e2f84ace62a7f77a4ae64910dd71c","publication_date":"2025-03-05","information_available_at":"2025-03-05T00:00:00Z","entity_scope":"SIG UK","evidence_span":"UK end locations disclosed without a comparable starting-count bridge","collector_or_parser_version":"manual-source-verification-v1"}
+  ]
+}

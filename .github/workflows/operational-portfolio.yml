@@ -1,0 +1,36 @@
+name: Operational portfolio collection
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  collect-and-assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Collect approved public careers sources
+        run: python scripts/collect_careers_longitudinal_v1.py
+      - name: Assemble isolated company runs and portfolio queue
+        run: python scripts/run_operational_portfolio_v01.py --as-of "$(date -u +%Y-%m-%dT%H:%M:%S+00:00)"
+      - name: Preserve run evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: operational-portfolio-run-${{ github.run_id }}
+          path: |
+            data/collection/careers_v1/
+            data/derived/unknown_company_runs/
+            data/derived/portfolio_runs/
+            piotw-web/data/company-intelligence-v01/
+            piotw-web/data/portfolio-runs/
+          retention-days: 90

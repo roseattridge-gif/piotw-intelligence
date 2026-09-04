@@ -1,0 +1,54 @@
+{
+  "registry_version": "piotw-comparable-feature-registry-v0.1-development",
+  "scientifically_validated": false,
+  "features": [
+    {
+      "feature_id": "estate_net_change_pct",
+      "operational_meaning": "Net change in a comparable physical location estate over one reporting period.",
+      "source_family": "estate_footprint_capacity",
+      "unit": "percent",
+      "denominator": "starting_site_count",
+      "comparable_entity_type": "trade_facing_branch_or_depot_network",
+      "acceptable_observation_window": "annual_reporting_period",
+      "minimum_history": 3,
+      "minimum_peer_count": 4,
+      "robust_percentile_minimum_peer_count": 10,
+      "coverage_requirements": ["healthy_source", "same_geography", "same_period", "same_entity_scope", "starting_and_ending_site_count"],
+      "allowed_normalisation": "100 * (ending_site_count - starting_site_count) / starting_site_count",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "condition_types": ["estate_reshaping", "estate_contraction", "estate_expansion"]
+    },
+    {
+      "feature_id": "estate_gross_opening_rate_pct",
+      "operational_meaning": "Disclosed openings as a percentage of starting locations.",
+      "source_family": "estate_footprint_capacity",
+      "unit": "percent",
+      "denominator": "starting_site_count",
+      "comparable_entity_type": "trade_facing_branch_or_depot_network",
+      "acceptable_observation_window": "annual_reporting_period",
+      "minimum_history": 3,
+      "minimum_peer_count": 4,
+      "robust_percentile_minimum_peer_count": 10,
+      "coverage_requirements": ["healthy_source", "same_period", "disclosed_openings", "starting_site_count"],
+      "allowed_normalisation": "100 * openings / starting_site_count",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "condition_types": ["estate_reshaping", "estate_expansion"]
+    },
+    {
+      "feature_id": "estate_gross_closure_rate_pct",
+      "operational_meaning": "Disclosed closures as a percentage of starting locations.",
+      "source_family": "estate_footprint_capacity",
+      "unit": "percent",
+      "denominator": "starting_site_count",
+      "comparable_entity_type": "trade_facing_branch_or_depot_network",
+      "acceptable_observation_window": "annual_reporting_period",
+      "minimum_history": 3,
+      "minimum_peer_count": 4,
+      "robust_percentile_minimum_peer_count": 10,
+      "coverage_requirements": ["healthy_source", "same_period", "disclosed_closures", "starting_site_count"],
+      "allowed_normalisation": "100 * closures / starting_site_count",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "condition_types": ["estate_reshaping", "estate_contraction"]
+    }
+  ]
+}

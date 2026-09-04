@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { getOperationalPortfolio } from "@/lib/data/operational-portfolio";
+
+export default function PortfolioBriefPage() { const { operating_review_brief: brief } = getOperationalPortfolio(); return <main className="op-subpage"><p className="eyebrow">Evidence-backed agenda input</p><h1>Operating-review brief</h1><p>{brief.summary}</p><Link href="/portfolio">← Attention queue</Link><section><h2>Top attention changes</h2><ol>{brief.top_attention_changes.map(value => <li key={value}>{value}</li>)}</ol></section><section><h2>Management validation questions</h2><ol>{brief.management_validation_questions.map(value => <li key={value}>{value}</li>)}</ol></section><section><h2>Source failures</h2><p>{brief.source_failures.length ? brief.source_failures.join(", ") : "None recorded."}</p></section></main>; }

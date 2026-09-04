@@ -5,9 +5,9 @@ import { listCompanyIntelligenceSnapshots } from "@/lib/data/company-intelligenc
 
 const dateOnly = (value: string) => new Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(new Date(value));
 const value = (item: unknown) => item === null || item === undefined ? "Unavailable" : String(item);
-export default async function ComparePage({ searchParams }: { searchParams: Promise<{ companies?: string | string[] }> }) {
-  const query = await searchParams; const profiles = (await listCompanyIntelligenceSnapshots()).sort((a,b)=>a.display_name.localeCompare(b.display_name));
-  const raw = Array.isArray(query.companies) ? query.companies : (query.companies ?? "").split(",");
+export default async function ComparePage() {
+  const profiles = (await listCompanyIntelligenceSnapshots()).sort((a,b)=>a.display_name.localeCompare(b.display_name));
+  const raw: string[] = [];
   const ids = raw.filter(Boolean).slice(0,4); const selected = (ids.length ? profiles.filter((profile)=>ids.includes(profile.company_id)) : profiles.slice(0,2)).slice(0,4);
   const rows = [
     ["Latest evidence date", (p: typeof selected[number]) => dateOnly(latestEvidenceDate(p))],

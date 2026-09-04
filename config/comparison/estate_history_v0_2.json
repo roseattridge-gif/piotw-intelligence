@@ -1,0 +1,31 @@
+{
+  "dataset_version": "piotw-estate-history-v0.2-development",
+  "cutoff": "2026-08-19T00:00:00Z",
+  "series": [
+    {
+      "company_id": "howdens-uk",
+      "display_name": "Howdens UK",
+      "entity_scope": "howdens-uk-depot-network",
+      "business_model": "trade-only kitchen and joinery depot network",
+      "geography": "UK",
+      "periods": [
+        {"period":"FY2022","start":778,"end":808,"openings":30,"closures":null,"publication_date":"2023-02-23","evidence_id":"ev-howdens-uk-fy2022","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2023/230223.asp","basis_note":"Opening count and ending count disclosed; zero closures not assumed."},
+        {"period":"FY2023","start":808,"end":840,"openings":33,"closures":1,"publication_date":"2024-02-29","evidence_id":"ev-howdens-uk-fy2023","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2024/290224.asp","basis_note":"UK openings and one closure explicitly disclosed."},
+        {"period":"FY2024","start":840,"end":869,"openings":29,"closures":null,"publication_date":"2025-02-27","evidence_id":"ev-howdens-uk-fy2024","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2025/270225.asp","basis_note":"Opening and ending counts disclosed; zero closures not assumed."},
+        {"period":"FY2025","start":869,"end":891,"openings":23,"closures":1,"publication_date":"2026-02-26","evidence_id":"ev-howdens-uk-fy2025","source_url":"https://www.howdenjoinerygroupplc.com/media-centre/archive/2026/260226.asp","basis_note":"Results state 23 openings and one closure; a separate estate page says 24 openings, so gross-flow comparison carries a disclosure-conflict caveat."}
+      ]
+    },
+    {
+      "company_id": "travis-perkins",
+      "display_name": "Travis Perkins Merchanting",
+      "entity_scope": "travis-perkins-merchanting",
+      "business_model": "national general and specialist merchant",
+      "geography": "UK",
+      "periods": [
+        {"period":"FY2023","start":null,"end":769,"openings":null,"closures":null,"publication_date":"2024-03-05","evidence_id":"ev-tp-estate-fy2023","source_url":"https://www.investegate.co.uk/announcement/eqs/travis-perkins--tpk/travis-perkinsplc-full-year-results-for-the-/8070300","basis_note":"Ending network count retained; incomplete gross bridge."},
+        {"period":"FY2024","start":769,"end":724,"openings":6,"closures":51,"publication_date":"2025-04-01","evidence_id":"ev-tp-estate-fy2024","source_url":"https://www.investegate.co.uk/announcement/eqs/travis-perkins--tpk/travis-perkins-plc-full-year-results-for-th-/8806937","basis_note":"Six openings and 51 closures explicitly disclosed."},
+        {"period":"FY2025","start":724,"end":727,"openings":4,"closures":1,"publication_date":"2026-03-17","evidence_id":"ev-tp-estate-fy2025","source_url":"https://www.travisperkinsplc.co.uk/media/5rgdwalx/travis-perkins-annual-report-2025.pdf","basis_note":"Canonical stored annual-report evidence discloses four openings and one closure, reconciling to net three."}
+      ]
+    }
+  ]
+}

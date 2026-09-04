@@ -1,0 +1,267 @@
+{
+  "schema_version": "piotw-company-intelligence-v0.1",
+  "company": {
+    "company_id": "kingfisher-screwfix-ukie",
+    "display_name": "Screwfix UK & Ireland",
+    "legal_name": null,
+    "ticker": null,
+    "geography": "UK and Ireland",
+    "activity": "trade-oriented omnichannel tools and hardware retail counter network"
+  },
+  "as_of": "2026-08-19T00:00:00Z",
+  "generated_at": "2026-08-19T00:00:00Z",
+  "methodology_version": "piotw-compare-second-substrate-v0.4-development",
+  "scientific_gate_run": false,
+  "coverage": {
+    "status": "LOW",
+    "source_families_present": [
+      "estate_footprint_capacity"
+    ],
+    "source_families_missing": [
+      "careers",
+      "contracts_procurement",
+      "leadership_organisation"
+    ],
+    "evidence_count": 5,
+    "provenance_complete": true,
+    "caveats": [
+      "Development-small peer cohort; source-reference hashes preserve this configured evidence snapshot."
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev-screwfix-ukie-fy2025",
+      "source_id": "screwfix-ukie-fy2025",
+      "title": "Kingfisher 2024/25 Annual Report and Accounts",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.kingfisher.com/~/media/Files/K/Kingfisher-Plc/Universal/investors/result-reports-presentation/2025/Kingfisher-Annual-Report-2024-25.pdf",
+      "source_hash": "dd362dfabc16bd99d17271310cf9f896a05345badeb34e73009d7dbb38bbdfca",
+      "publication_date": "2025-03-25",
+      "information_available_at": "2025-03-25T00:00:00Z",
+      "entity_scope": "Screwfix UK & Ireland",
+      "evidence_span": "Store numbers at 31 January 2025: Screwfix 952; prior official FY2023/24 disclosure: 922.",
+      "collector_or_parser_version": "manual-source-verification-v0.4"
+    },
+    {
+      "evidence_id": "ev-toolstation-uk-fy2025",
+      "source_id": "toolstation-uk-fy2025",
+      "title": "Travis Perkins 2025 full-year results",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.travisperkinsplc.co.uk/media/jxjn0ga3/travis-perkins-plc-2025-full-year-results-press-release-final.pdf",
+      "source_hash": "99a89764cadaf4d33ccf2c266894b25686571f094161ff85082de910959da167",
+      "publication_date": "2026-03-17",
+      "information_available_at": "2026-03-17T00:00:00Z",
+      "entity_scope": "Toolstation UK",
+      "evidence_span": "Store network (UK): 590 in 2025 and 587 in 2024; net three stores added.",
+      "collector_or_parser_version": "manual-source-verification-v0.4"
+    },
+    {
+      "evidence_id": "ev-selco-gb-fy2025",
+      "source_id": "selco-gb-fy2025",
+      "title": "Grafton Group Annual Report 2025",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.graftonplc.com/~/media/Files/G/Grafton-Group/2026%20AGM/Grafton-Annual-Report-2025.pdf",
+      "source_hash": "bce46a3a0592c71abaaa3c6da117ab1d0984eb44577c10fc058ac65c76c84b2f",
+      "publication_date": "2026-03-23",
+      "information_available_at": "2026-03-23T00:00:00Z",
+      "entity_scope": "Selco Great Britain",
+      "evidence_span": "Selco branch network: 74 in 2025; prior official annual report disclosed 75 in 2024.",
+      "collector_or_parser_version": "manual-source-verification-v0.4"
+    },
+    {
+      "evidence_id": "ev-leyland-sdm-fy2025",
+      "source_id": "leyland-sdm-fy2025",
+      "title": "Grafton Group Annual Report 2025",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.graftonplc.com/~/media/Files/G/Grafton-Group/2026%20AGM/Grafton-Annual-Report-2025.pdf",
+      "source_hash": "62c27aabf8ff821a67c5f1d94dc8e278cc6b8130de8317ba5305597ca53093b5",
+      "publication_date": "2026-03-23",
+      "information_available_at": "2026-03-23T00:00:00Z",
+      "entity_scope": "Leyland SDM Greater London",
+      "evidence_span": "Leyland SDM opened its 36th store in 2025; prior official annual report disclosed 35 stores in 2024.",
+      "collector_or_parser_version": "manual-source-verification-v0.4"
+    },
+    {
+      "evidence_id": "ev-screwfix-ukie-fy2023",
+      "source_id": "screwfix-ukie-fy2023",
+      "title": "Kingfisher FY2022/23 final results",
+      "source_family": "peer_issuer_reporting",
+      "source_url": "https://www.kingfisher.com/content/dam/kingfisher/Corporate/Documents/Other/2023/20230321-2022_23-Full-year-results_RNS_PART-1.pdf",
+      "source_hash": "e7cab6ba4cf61b8432647623a79edd84e7fa88cfec36add2a906bdd97655040b",
+      "publication_date": "2023-03-21",
+      "information_available_at": "2023-03-21T00:00:00Z",
+      "entity_scope": "Screwfix UK & Ireland",
+      "evidence_span": "Screwfix opened 82 stores and reached 872 stores at 31 January 2023.",
+      "collector_or_parser_version": "manual-source-verification-v0.4"
+    }
+  ],
+  "condition_qualifications": [
+    {
+      "qualification_id": "qualification-kingfisher-screwfix-ukie-estate-v0.1",
+      "candidate_type": "estate_expansion",
+      "status": "QUALIFIED",
+      "dimension": "Delivery & Capacity",
+      "observation_ids": [
+        "obs-kingfisher-screwfix-ukie-1",
+        "obs-kingfisher-screwfix-ukie-2",
+        "obs-kingfisher-screwfix-ukie-3"
+      ],
+      "evidence_ids": [
+        "ev-screwfix-ukie-fy2025",
+        "ev-screwfix-ukie-fy2023"
+      ],
+      "what_observed": "Reported site counts were 872, 922, 952.",
+      "why_it_might_matter": "Persistent estate expansion changes the physical customer-service footprint.",
+      "evidence_strength": "Three consistent annual snapshots; two intervals; cumulative movement 9.17% exceeds the unchanged 5% estate-expansion development threshold.",
+      "failed_tests": [],
+      "missing_information": [
+        "Independent scientific validation and robust peer coverage remain unavailable."
+      ],
+      "what_would_change_view": "A basis break, corrected estate count or contradictory disclosure would change the qualification.",
+      "policy_version": "piotw-condition-qualification-policy-v0.1-development",
+      "scientifically_validated": false
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "condition-kingfisher-screwfix-ukie-estate",
+      "title": "Estate Expansion",
+      "statement": "QUALIFIED under the development policy: the reported network moved from 872 to 952 across three annual snapshots.",
+      "dimension": "Delivery & Capacity",
+      "direction": "INCREASING",
+      "materiality": "LOW",
+      "evidence_confidence": "LOW",
+      "state": "952 reported stores/branches at FY2025 end.",
+      "change": "Three consistent annual snapshots; two intervals; cumulative movement 9.17% exceeds the unchanged 5% estate-expansion development threshold.",
+      "evidence_ids": [
+        "ev-screwfix-ukie-fy2025",
+        "ev-screwfix-ukie-fy2023"
+      ],
+      "caveats": [
+        "Development qualification policy; not scientifically validated."
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison_id": "cmp-398eb9104916b171",
+      "condition_id": "condition-kingfisher-screwfix-ukie-estate",
+      "status": "AVAILABLE",
+      "basis": "PEER",
+      "metric": "Net change in a consistently scoped physical-location estate over one annual reporting period.",
+      "target_value": 3.2538,
+      "comparator_value": 0.5111,
+      "gap": 2.7427,
+      "unit": "percent",
+      "percentile": null,
+      "sample_size": 4,
+      "peer_set_or_history": "UK or UK & Ireland trade-oriented retail-style counter networks providing tools, decorating or building supplies through consistently counted customer-facing branches/stores.",
+      "method": "Excluding-target peer median; leave-one-peer-out sensitivity=STABLE.",
+      "confidence": "LOW",
+      "evidence_ids": [
+        "ev-screwfix-ukie-fy2025",
+        "ev-toolstation-uk-fy2025",
+        "ev-selco-gb-fy2025",
+        "ev-leyland-sdm-fy2025"
+      ],
+      "caveats": [
+        "DEVELOPMENT_SMALL_COHORT",
+        "Rank is descriptive, not a robust population percentile.",
+        "The cohort is development-small and is not a population sample.",
+        "Selco and Leyland SDM share Grafton Group ownership, so those rows are not fully independent strategic decision-makers.",
+        "Screwfix includes Ireland while the other included rows are UK or Great Britain; the geographic basis is stable within the annual bridge but remains a caveat.",
+        "The feature describes estate direction only and does not establish health, productivity or success."
+      ],
+      "withheld_reason": null,
+      "contract_version": "piotw-comparison-v0.1",
+      "comparison_type": "PEER_COHORT",
+      "feature_id": "estate_net_change_pct",
+      "source_family": "estate_footprint_capacity",
+      "comparison_window": "FY2025 annual windows ending between 27 December 2025 and 31 January 2026",
+      "directionality": "CONTEXTUAL_NOT_HEALTH",
+      "raw_value": 30.0,
+      "denominator": 922.0,
+      "anomaly_strength": "ABOVE_PEERS",
+      "coverage": "4 included of 8 candidates",
+      "missingness": [],
+      "cohort_definition": "UK or UK & Ireland trade-oriented retail-style counter networks providing tools, decorating or building supplies through consistently counted customer-facing branches/stores.",
+      "cohort_inclusions": [
+        "Screwfix UK & Ireland",
+        "Toolstation UK",
+        "Selco Great Britain",
+        "Leyland SDM"
+      ],
+      "cohort_exclusions": [
+        "B&Q UK & Ireland: Consumer-led big-box/compact retail purpose is not the selected trade-oriented retail-counter operating format.",
+        "Wickes UK: The audited source set does not provide a sufficiently explicit, reconciled FY2025 ending count on the same basis; openings are not used to infer it.",
+        "Howdens UK: Order-led kitchen depot purpose and account relationship are not the selected retail-style tools/building-supplies counter format.",
+        "Woodie's Ireland: Geography and consumer-led format are outside the selected cohort; no comparable starting bridge is retained."
+      ]
+    }
+  ],
+  "predictions": [
+    {
+      "prediction_id": "prediction-kingfisher-screwfix-ukie",
+      "status": "NOT_BUILT",
+      "target_event": null,
+      "horizon": null,
+      "probability": null,
+      "confidence": "NOT_ASSESSED",
+      "model_version": null,
+      "historical_pattern": null,
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "Predict has not been built."
+    }
+  ],
+  "interventions": [
+    {
+      "intervention_id": "intervention-kingfisher-screwfix-ukie",
+      "status": "WITHHELD",
+      "title": null,
+      "mechanism": null,
+      "investigation_steps": [],
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "evidence_strength": "NOT_ASSESSED",
+      "falsifiers": [],
+      "caveats": [],
+      "withheld_reason": "Comparison does not establish an intervention."
+    }
+  ],
+  "financial_impacts": [
+    {
+      "impact_id": "impact-kingfisher-screwfix-ukie",
+      "intervention_id": "intervention-kingfisher-screwfix-ukie",
+      "status": "WITHHELD",
+      "mechanism": null,
+      "measure": null,
+      "low": null,
+      "base": null,
+      "high": null,
+      "currency": null,
+      "unit": null,
+      "period": null,
+      "incremental": null,
+      "assumptions": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No supported intervention or financial mechanism exists."
+    }
+  ],
+  "capabilities": {
+    "detect": "AVAILABLE",
+    "compare": "AVAILABLE",
+    "predict": "NOT_BUILT",
+    "prescribe": "WITHHELD",
+    "quantify": "WITHHELD"
+  },
+  "missing_capabilities": [
+    "Robust peer cohort",
+    "Validated predictive-pattern engine",
+    "Driver-specific intervention engine",
+    "Evidence-backed financial mechanism"
+  ],
+  "overall_confidence": "LOW"
+}

@@ -1,0 +1,584 @@
+{
+  "as_of": "2026-09-04T00:00:00+00:00",
+  "attention_items": [
+    {
+      "attention_id": "attention-uc-travis-perkins-20260904T000000Z-08d06cc277fa",
+      "attention_state": "INVESTIGATE",
+      "capabilities": {
+        "compare": "AVAILABLE",
+        "detect": "AVAILABLE",
+        "predict": "NOT_BUILT",
+        "prescribe": "WITHHELD",
+        "quantify": "WITHHELD"
+      },
+      "capability_status": "AVAILABLE",
+      "change_velocity": "WITHHELD",
+      "company_brief_href": "/intelligence/travis-perkins/value",
+      "company_id": "travis-perkins",
+      "company_name": "Travis Perkins",
+      "comparison_ids": [
+        "cmp-98dc5becc20f214a",
+        "cmp-859ecd01a2a083af",
+        "cmp-c9fca95799624ca4",
+        "cmp-6e522939120012d3"
+      ],
+      "coverage": {
+        "caveats": [
+          "No approved careers source is configured for this company.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented."
+        ],
+        "evidence_count": 9,
+        "provenance_complete": true,
+        "source_families_missing": [
+          "careers_ats",
+          "technology_transformation",
+          "supply_chain_sourcing",
+          "customer_service_quality",
+          "regulatory_planning",
+          "issuer_financial_context"
+        ],
+        "source_families_present": [
+          "estate_footprint_capacity",
+          "contracts_procurement",
+          "leadership_organisation"
+        ],
+        "status": "LOW"
+      },
+      "direction": "MIXED",
+      "evidence_confidence": "LOW",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025",
+        "ev-tp-contract-barcud-2025",
+        "ev-tp-contract-doncaster-2025",
+        "ev-tp-leadership-specialists-2025",
+        "ev-peer-grafton-fy2025",
+        "ev-peer-howdens-fy2025",
+        "ev-peer-lords-fy2025"
+      ],
+      "missing_information": [
+        "No approved careers source is configured for this company.",
+        "Adapter design is documented; no reusable runtime adapter is implemented.",
+        "Scientifically validated operational-condition qualification policy",
+        "Broad coverage-normalised peer cohorts beyond registered estate features",
+        "Validated predictive-pattern engine",
+        "Driver-specific intervention engine",
+        "Evidence-backed financial mechanism"
+      ],
+      "observed_change": "QUALIFIED: Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s). The evidence supports evidenced estate reshaping under the development policy.",
+      "ordering_factors": {
+        "evidence_confidence": "LOW",
+        "note": "Transparent lexicographic policy; this is not a validated score. Unknown is never treated as zero.",
+        "policy_version": "piotw-portfolio-attention-policy-v0.1",
+        "potential_materiality": "MEDIUM",
+        "priority_band": 1,
+        "qualified_condition_present": true,
+        "source_failure_present": false
+      },
+      "potential_materiality": "MEDIUM",
+      "rank": 1,
+      "thesis_relevance": "Estate productivity and organisational execution",
+      "urgency": "THIS_WEEK",
+      "validation_question": "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent."
+    },
+    {
+      "attention_id": "attention-uc-datadog-20260904T000000Z-e3824e1b6f0a",
+      "attention_state": "VALIDATE",
+      "capabilities": {
+        "compare": "INSUFFICIENT_EVIDENCE",
+        "detect": "INSUFFICIENT_EVIDENCE",
+        "predict": "NOT_BUILT",
+        "prescribe": "WITHHELD",
+        "quantify": "WITHHELD"
+      },
+      "capability_status": "INSUFFICIENT_EVIDENCE",
+      "change_velocity": "WITHHELD",
+      "company_brief_href": "/intelligence/datadog/value",
+      "company_id": "datadog",
+      "company_name": "Datadog",
+      "comparison_ids": [],
+      "coverage": {
+        "caveats": [
+          "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+          "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+          "No inference is made about competence, sentiment or the success of announced changes.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented."
+        ],
+        "evidence_count": 2,
+        "provenance_complete": true,
+        "source_families_missing": [
+          "estate_footprint_capacity",
+          "contracts_procurement",
+          "leadership_organisation",
+          "technology_transformation",
+          "supply_chain_sourcing",
+          "customer_service_quality",
+          "regulatory_planning",
+          "issuer_financial_context"
+        ],
+        "source_families_present": [
+          "careers_ats"
+        ],
+        "status": "LOW"
+      },
+      "direction": "WITHHELD",
+      "evidence_confidence": "LOW",
+      "evidence_ids": [
+        "ev-dede455f0541211099601322",
+        "ev-34a29f871c9783fac6efcec2"
+      ],
+      "missing_information": [
+        "Development-only source-failure exercise; not a claim about Datadog or its careers site.",
+        "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+        "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+        "No inference is made about competence, sentiment or the success of announced changes.",
+        "Adapter design is documented; no reusable runtime adapter is implemented.",
+        "Scientifically validated operational-condition qualification policy",
+        "Broad coverage-normalised peer cohorts beyond registered estate features",
+        "Validated predictive-pattern engine",
+        "Driver-specific intervention engine",
+        "Evidence-backed financial mechanism"
+      ],
+      "observed_change": "Source collection failed for careers_ats.",
+      "ordering_factors": {
+        "evidence_confidence": "LOW",
+        "note": "Transparent lexicographic policy; this is not a validated score. Unknown is never treated as zero.",
+        "policy_version": "piotw-portfolio-attention-policy-v0.1",
+        "potential_materiality": "WITHHELD",
+        "priority_band": 2,
+        "qualified_condition_present": false,
+        "source_failure_present": true
+      },
+      "potential_materiality": "WITHHELD",
+      "rank": 2,
+      "thesis_relevance": "UNKNOWN",
+      "urgency": "VALIDATE_SOURCE",
+      "validation_question": "Restore the failed source and confirm whether evidence changed."
+    },
+    {
+      "attention_id": "attention-uc-cloudflare-20260904T000000Z-8217295b94e8",
+      "attention_state": "MONITOR",
+      "capabilities": {
+        "compare": "INSUFFICIENT_EVIDENCE",
+        "detect": "INSUFFICIENT_EVIDENCE",
+        "predict": "NOT_BUILT",
+        "prescribe": "WITHHELD",
+        "quantify": "WITHHELD"
+      },
+      "capability_status": "INSUFFICIENT_EVIDENCE",
+      "change_velocity": "WITHHELD",
+      "company_brief_href": "/intelligence/cloudflare/value",
+      "company_id": "cloudflare",
+      "company_name": "Cloudflare",
+      "comparison_ids": [],
+      "coverage": {
+        "caveats": [
+          "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+          "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+          "No inference is made about competence, sentiment or the success of announced changes.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "Adapter design is documented; no reusable runtime adapter is implemented."
+        ],
+        "evidence_count": 2,
+        "provenance_complete": true,
+        "source_families_missing": [
+          "estate_footprint_capacity",
+          "contracts_procurement",
+          "leadership_organisation",
+          "technology_transformation",
+          "supply_chain_sourcing",
+          "customer_service_quality",
+          "regulatory_planning",
+          "issuer_financial_context"
+        ],
+        "source_families_present": [
+          "careers_ats"
+        ],
+        "status": "LOW"
+      },
+      "direction": "WITHHELD",
+      "evidence_confidence": "LOW",
+      "evidence_ids": [
+        "ev-80388569f44c4823ce934a51",
+        "ev-4bdf0bc59fc462b70a06a2d7"
+      ],
+      "missing_information": [
+        "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+        "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+        "No inference is made about competence, sentiment or the success of announced changes.",
+        "Adapter design is documented; no reusable runtime adapter is implemented.",
+        "Scientifically validated operational-condition qualification policy",
+        "Broad coverage-normalised peer cohorts beyond registered estate features",
+        "Validated predictive-pattern engine",
+        "Driver-specific intervention engine",
+        "Evidence-backed financial mechanism"
+      ],
+      "observed_change": "No newly qualified operational condition in available evidence.",
+      "ordering_factors": {
+        "evidence_confidence": "LOW",
+        "note": "Transparent lexicographic policy; this is not a validated score. Unknown is never treated as zero.",
+        "policy_version": "piotw-portfolio-attention-policy-v0.1",
+        "potential_materiality": "WITHHELD",
+        "priority_band": 3,
+        "qualified_condition_present": false,
+        "source_failure_present": false
+      },
+      "potential_materiality": "WITHHELD",
+      "rank": 3,
+      "thesis_relevance": "Operating capacity and product delivery",
+      "urgency": "ROUTINE",
+      "validation_question": "What internal evidence would confirm or contradict the currently sparse outside-in view?"
+    }
+  ],
+  "buyer_test": {
+    "logging": "LOCAL_BROWSER_ONLY_NO_ANALYTICS_INFRASTRUCTURE",
+    "questions": [
+      "Which three companies should receive attention?",
+      "Why is the first company ranked first?",
+      "What management action should happen next?",
+      "Which claims are observed, inferred, hypothesised or withheld?",
+      "Does this belong on the next operating-review agenda?"
+    ]
+  },
+  "capability_status": "AVAILABLE",
+  "changes": [
+    {
+      "change_type": "INITIAL_BASELINE",
+      "company_id": "travis-perkins",
+      "evidence_ids": [
+        "ev-tp-estate-fy2023",
+        "ev-tp-estate-fy2024",
+        "ev-tp-estate-fy2025",
+        "ev-tp-contract-barcud-2025",
+        "ev-tp-contract-doncaster-2025",
+        "ev-tp-leadership-specialists-2025",
+        "ev-peer-grafton-fy2025",
+        "ev-peer-howdens-fy2025",
+        "ev-peer-lords-fy2025"
+      ],
+      "statement": "Initial portfolio baseline created; no prior run exists."
+    },
+    {
+      "change_type": "INITIAL_BASELINE",
+      "company_id": "datadog",
+      "evidence_ids": [
+        "ev-dede455f0541211099601322",
+        "ev-34a29f871c9783fac6efcec2"
+      ],
+      "statement": "Initial portfolio baseline created; no prior run exists."
+    },
+    {
+      "change_type": "INITIAL_BASELINE",
+      "company_id": "cloudflare",
+      "evidence_ids": [
+        "ev-80388569f44c4823ce934a51",
+        "ev-4bdf0bc59fc462b70a06a2d7"
+      ],
+      "statement": "Initial portfolio baseline created; no prior run exists."
+    }
+  ],
+  "company_runs": [
+    {
+      "company_id": "travis-perkins",
+      "intelligence_path": "data/derived/unknown_company_runs/uc-travis-perkins-20260904T000000Z-08d06cc277fa/company_intelligence.json",
+      "manifest_path": "data/derived/unknown_company_runs/uc-travis-perkins-20260904T000000Z-08d06cc277fa/evidence_manifest.json",
+      "run_id": "uc-travis-perkins-20260904T000000Z-08d06cc277fa",
+      "source_health": [
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "No approved careers source is configured for this company.",
+          "record_count": 0,
+          "source_family": "careers_ats",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": "estate-condition-feature-adapter-v0.1",
+          "health": "healthy",
+          "reason": "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+          "record_count": 3,
+          "source_family": "estate_footprint_capacity",
+          "status": "AVAILABLE"
+        },
+        {
+          "collector_or_adapter": "procurement-family-adapter-v0.3",
+          "health": "healthy",
+          "reason": "Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+          "record_count": 2,
+          "source_family": "contracts_procurement",
+          "status": "AVAILABLE"
+        },
+        {
+          "collector_or_adapter": "leadership-organisation-adapter-v0.1",
+          "health": "healthy",
+          "reason": "No inference is made about competence, sentiment or the success of announced changes.",
+          "record_count": 1,
+          "source_family": "leadership_organisation",
+          "status": "AVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "technology_transformation",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "supply_chain_sourcing",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "customer_service_quality",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "regulatory_planning",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "issuer_financial_context",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "company_id": "cloudflare",
+      "intelligence_path": "data/derived/unknown_company_runs/uc-cloudflare-20260904T000000Z-8217295b94e8/company_intelligence.json",
+      "manifest_path": "data/derived/unknown_company_runs/uc-cloudflare-20260904T000000Z-8217295b94e8/evidence_manifest.json",
+      "run_id": "uc-cloudflare-20260904T000000Z-8217295b94e8",
+      "source_health": [
+        {
+          "collector_or_adapter": "careers-evidence-family-adapter-v0.1",
+          "health": "healthy",
+          "reason": "mix trajectories require at least two snapshots with preserved role-level evidence",
+          "record_count": 2,
+          "source_family": "careers_ats",
+          "status": "AVAILABLE"
+        },
+        {
+          "collector_or_adapter": "estate-condition-feature-adapter-v0.1",
+          "health": "degraded",
+          "reason": "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+          "record_count": 0,
+          "source_family": "estate_footprint_capacity",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": "procurement-family-adapter-v0.3",
+          "health": "degraded",
+          "reason": "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+          "record_count": 0,
+          "source_family": "contracts_procurement",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": "leadership-organisation-adapter-v0.1",
+          "health": "degraded",
+          "reason": "No inference is made about competence, sentiment or the success of announced changes.",
+          "record_count": 0,
+          "source_family": "leadership_organisation",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "technology_transformation",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "supply_chain_sourcing",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "customer_service_quality",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "regulatory_planning",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "issuer_financial_context",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "company_id": "datadog",
+      "intelligence_path": "data/derived/unknown_company_runs/uc-datadog-20260904T000000Z-e3824e1b6f0a/company_intelligence.json",
+      "manifest_path": "data/derived/unknown_company_runs/uc-datadog-20260904T000000Z-e3824e1b6f0a/evidence_manifest.json",
+      "run_id": "uc-datadog-20260904T000000Z-e3824e1b6f0a",
+      "source_health": [
+        {
+          "collector_or_adapter": "careers-evidence-family-adapter-v0.1",
+          "health": "development_fault_injection",
+          "reason": "Development-only source-failure exercise; not a claim about Datadog or its careers site.",
+          "record_count": 2,
+          "source_family": "careers_ats",
+          "status": "FAILED"
+        },
+        {
+          "collector_or_adapter": "estate-condition-feature-adapter-v0.1",
+          "health": "degraded",
+          "reason": "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+          "record_count": 0,
+          "source_family": "estate_footprint_capacity",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": "procurement-family-adapter-v0.3",
+          "health": "degraded",
+          "reason": "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+          "record_count": 0,
+          "source_family": "contracts_procurement",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": "leadership-organisation-adapter-v0.1",
+          "health": "degraded",
+          "reason": "No inference is made about competence, sentiment or the success of announced changes.",
+          "record_count": 0,
+          "source_family": "leadership_organisation",
+          "status": "NO_HISTORY"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "technology_transformation",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "supply_chain_sourcing",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "customer_service_quality",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "regulatory_planning",
+          "status": "UNAVAILABLE"
+        },
+        {
+          "collector_or_adapter": null,
+          "health": null,
+          "reason": "Adapter design is documented; no reusable runtime adapter is implemented.",
+          "record_count": 0,
+          "source_family": "issuer_financial_context",
+          "status": "UNAVAILABLE"
+        }
+      ],
+      "status": "COMPLETE"
+    }
+  ],
+  "configuration_hash": "95e6d84497a4fd853332d3c5cf4455c7d2456ec9e21e86602f332784870de5df",
+  "latest_evidence_date": "2026-08-17",
+  "latest_successful_run": "portfolio-real-development-portfolio-20260904T000000Z-479fbc8ab919",
+  "mode": "DEVELOPMENT_CUSTOMER_DEMO",
+  "operating_review_brief": {
+    "evidence_links": [
+      {
+        "company_id": "travis-perkins",
+        "href": "/intelligence/travis-perkins/value"
+      },
+      {
+        "company_id": "datadog",
+        "href": "/intelligence/datadog/value"
+      },
+      {
+        "company_id": "cloudflare",
+        "href": "/intelligence/cloudflare/value"
+      }
+    ],
+    "management_validation_questions": [
+      "The generic peer engine is not built and peer-relative materiality is not inferred. No independent source-family corroboration is available; same-source observations are not treated as independent.",
+      "Restore the failed source and confirm whether evidence changed.",
+      "What internal evidence would confirm or contradict the currently sparse outside-in view?"
+    ],
+    "newly_available_evidence": [],
+    "newly_urgent_items": [
+      "travis-perkins",
+      "datadog"
+    ],
+    "source_failures": [
+      "datadog"
+    ],
+    "summary": "3 active companies; 2 require validation or review.",
+    "top_attention_changes": [
+      "QUALIFIED: Reported site count moved from 769 to 727; disclosed movements include 10 opening(s) and 52 closure(s). The evidence supports evidenced estate reshaping under the development policy.",
+      "Source collection failed for careers_ats.",
+      "No newly qualified operational condition in available evidence."
+    ]
+  },
+  "ordering_explanation": "Qualified high-materiality conditions first, then other qualified conditions, isolated source failures, then monitoring cases; ties are alphabetical. No hidden score.",
+  "policy_version": "piotw-portfolio-attention-policy-v0.1",
+  "portfolio_id": "real-development-portfolio",
+  "portfolio_name": "Real public-company development portfolio",
+  "run_id": "portfolio-real-development-portfolio-20260904T000000Z-479fbc8ab919",
+  "schema_version": "piotw-portfolio-run-v0.1",
+  "scientific_gate_run": false,
+  "synthetic": false
+}

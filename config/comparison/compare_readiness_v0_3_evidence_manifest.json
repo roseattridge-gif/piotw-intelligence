@@ -1,0 +1,29 @@
+{
+  "manifest_version": "piotw-compare-readiness-v0.3-frozen-evidence-set",
+  "frozen_at": "2026-08-21T08:31:04Z",
+  "methodology_path": "docs/piotw-compare-readiness-methodology-v0.3.md",
+  "methodology_sha256": "bc3c39b5490e96b2579f841582f954294abbe635ad6d04b570f43d14129212c9",
+  "scientific_gate_run": false,
+  "files": {
+    "docs/piotw-compare-validation-protocol-v0.2.md": "3ed83962fc1a404e60f0560ea320db45fc349f0be621dc2d22ccbbbd160c5929",
+    "docs/piotw-compare-validation-results-v0.2.md": "212c15ca0d96f0bd85a570d8bc18a26ecaa2dedea93ce5180b19f72566beb46c",
+    "data/derived/piotw_compare_validation_v0_2_results.json": "0ecc9a4900259b0a23cd3817e8bb9856b99cdcc1bab90c08deaacede309b9aa2",
+    "data/derived/piotw_compare_validation_extension_v0_3_results.json": "5604ce7adb512ff0bce1d883aedb97a39d08791a3e6d4e03565caec0caab4c33",
+    "data/derived/piotw_compare_second_substrate_v0_4_results.json": "5c727367022065ade354b8a4d11fc81b6e34cf875a6ba8d4704280b792c5a00a",
+    "data/derived/piotw_compare_second_feature_v0_5_results.json": "2270f394585f23c5cf2a66213c87c73038bcfd32fbbb695c59a942c9cc067b73",
+    "data/derived/piotw_compare_closure_v0_6_results.json": "b307e876dd896539f9418c149da7aaf1bd5e2e3bd493fff5f53873c23f83069d",
+    "data/derived/piotw_compare_external_review_v0_7_results.json": "962bd5482740f83afb3a6f923e09ea998d08396adf239b624b2b14b9d51c5486",
+    "config/comparison/comparable_features_v0_2.json": "93493cd06bf674919eae3a91ef855343361564b1185868d39c6b9c0023fac117",
+    "config/comparison/estate_peer_cohort_v0_3.json": "d23e9cb16e7b716d87ffb7c59aa2e05bc1010f1a4509b1287ed8575d3be257ef",
+    "config/comparison/estate_peer_cohort_v0_4.json": "5befd6143751f81357d7b1a7155ff1591b9b55ce1eb6eda9d72f56cc307a6e38",
+    "config/piotw_company_intelligence_v0_1.schema.json": "06b418a48feddf616acb750f84fa67d20f0e41b0c2aa4d8fd4525aa1683428b3",
+    "piotw_compare/engine_v01.py": "8b2729e49d79a5e76b30769b3b984544a19827e04623e98a5cecd593ac02ef6d",
+    "piotw_compare/engine_v02.py": "8d3430b3a50621a88c7025272dd4bc700b5019b8c2e87232495dcfe1b71471a5",
+    "piotw_compare/engine_v04.py": "0c9057c9023130ac95273b978acab5f206491a1180bc1dfeb439658f785e0742",
+    "piotw_compare/engine_v05.py": "8ff2718e82e00c4ce7eda51002de5378e2443983ea289e4ed5773bebd321daae",
+    "piotw_compare/engine_v06.py": "2ed2af067a21e7a2cd5b96978cd3874ab519dd688b59d7bc2f4e66f012ccb0b1",
+    "piotw_compare/external_review_v07.py": "8644472c1064970a12d70ec8796f407feb2a7904cbeb65b921f74f99b1f26f03",
+    "piotw_compare/validation_v03.py": "18e6e68d2843f2b4d2d1162859e5b8873aa5562f685dc2eaea6c64d88d5839e2",
+    "piotw_intelligence/company_intelligence_v01.py": "1ada6aaf532f3bd0ffde14c5d9202e9a6b7f3531777be318580404d62ea7e76c"
+  }
+}

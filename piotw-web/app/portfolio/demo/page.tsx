@@ -1,0 +1,4 @@
+import { PortfolioAttentionQueue } from "@/components/portfolio-attention-queue";
+import { getPortfolioAttentionView } from "@/lib/data/portfolio-attention";
+
+export default function PortfolioDemoPage() { const view = getPortfolioAttentionView(); return <div className="portfolio-attention-shell"><header className="pa-hero"><div><p className="pa-demo-label">{view.label}</p><p className="eyebrow">Isolated synthetic mode</p><h1>Portfolio<br/>prototype <em>fixture.</em></h1></div><div className="pa-hero-brief"><p>This 20-company experience is synthetic and retained only as a separate interface fixture. It is not the operational portfolio.</p><dl><div><dt>Portfolio</dt><dd>20 fictional companies</dd></div><div><dt>As of</dt><dd>{view.asOf}</dd></div><div><dt>Mode</dt><dd>Synthetic</dd></div></dl></div></header><PortfolioAttentionQueue view={view}/></div>; }

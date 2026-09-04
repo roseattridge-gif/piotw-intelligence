@@ -1,0 +1,113 @@
+{
+  "schema_version": "piotw-company-intelligence-v0.1",
+  "company": {
+    "company_id": "datadog",
+    "display_name": "Datadog",
+    "legal_name": null,
+    "ticker": null,
+    "geography": null,
+    "activity": null
+  },
+  "as_of": "2026-09-04T00:00:00Z",
+  "generated_at": "2026-09-04T00:00:00Z",
+  "methodology_version": "unknown-company-orchestrator-v0.2-condition-qualification",
+  "scientific_gate_run": false,
+  "coverage": {
+    "status": "INSUFFICIENT",
+    "source_families_present": [],
+    "source_families_missing": [
+      "careers_ats",
+      "estate_footprint_capacity",
+      "contracts_procurement",
+      "leadership_organisation",
+      "technology_transformation",
+      "supply_chain_sourcing",
+      "customer_service_quality",
+      "regulatory_planning",
+      "issuer_financial_context"
+    ],
+    "evidence_count": 0,
+    "provenance_complete": true,
+    "caveats": [
+      "Configured source exists but the approved careers evidence store is unavailable.",
+      "No complete site-level register; openings, closures and relocations are disclosure-dependent.",
+      "No source record has an approved company/entity resolution.; Fewer than four comparable publication periods are available.; Procurement feature roles are fail-closed: no feature is independently condition-eligible in v0.1.",
+      "No inference is made about competence, sentiment or the success of announced changes.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented.",
+      "Adapter design is documented; no reusable runtime adapter is implemented."
+    ]
+  },
+  "evidence": [],
+  "condition_qualifications": [],
+  "conditions": [],
+  "comparisons": [],
+  "predictions": [
+    {
+      "prediction_id": "prediction-unknown-company",
+      "status": "NOT_BUILT",
+      "target_event": null,
+      "horizon": null,
+      "probability": null,
+      "confidence": "NOT_ASSESSED",
+      "model_version": null,
+      "historical_pattern": null,
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No validated operational predictive-pattern engine is available."
+    }
+  ],
+  "interventions": [
+    {
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "title": null,
+      "mechanism": null,
+      "investigation_steps": [],
+      "supporting_condition_ids": [],
+      "evidence_ids": [],
+      "evidence_strength": "NOT_ASSESSED",
+      "falsifiers": [],
+      "caveats": [],
+      "withheld_reason": "Factual observations and development-qualified conditions do not yet support a driver-specific intervention."
+    }
+  ],
+  "financial_impacts": [
+    {
+      "impact_id": "impact-unknown-company",
+      "intervention_id": "intervention-unknown-company",
+      "status": "WITHHELD",
+      "mechanism": null,
+      "measure": null,
+      "low": null,
+      "base": null,
+      "high": null,
+      "currency": null,
+      "unit": null,
+      "period": null,
+      "incremental": null,
+      "assumptions": [],
+      "evidence_ids": [],
+      "caveats": [],
+      "withheld_reason": "No evidence-backed intervention or financial mechanism is available."
+    }
+  ],
+  "capabilities": {
+    "detect": "INSUFFICIENT_EVIDENCE",
+    "compare": "INSUFFICIENT_EVIDENCE",
+    "predict": "NOT_BUILT",
+    "prescribe": "WITHHELD",
+    "quantify": "WITHHELD"
+  },
+  "missing_capabilities": [
+    "Scientifically validated operational-condition qualification policy",
+    "Broad coverage-normalised peer cohorts beyond registered estate features",
+    "Validated predictive-pattern engine",
+    "Driver-specific intervention engine",
+    "Evidence-backed financial mechanism"
+  ],
+  "overall_confidence": "NOT_ASSESSED"
+}

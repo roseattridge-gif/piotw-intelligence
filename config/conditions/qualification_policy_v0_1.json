@@ -35,11 +35,54 @@
       "healthy_source_required": true,
       "materiality_when_qualified": "LOW"
     },
+    "procurement_activity_deceleration": {
+      "minimum_snapshots": 4,
+      "minimum_consistent_intervals": 2,
+      "minimum_relative_change": 0.25,
+      "denominator_required": true,
+      "healthy_source_required": true,
+      "materiality_when_qualified": "LOW"
+    },
     "procurement_category_concentration_change": {
       "minimum_snapshots": 4,
       "minimum_consistent_intervals": 2,
       "minimum_relative_change": 0.15,
       "denominator_required": true,
+      "healthy_source_required": true,
+      "materiality_when_qualified": "LOW"
+    },
+    "estate_expansion": {
+      "minimum_snapshots": 3,
+      "minimum_consistent_intervals": 2,
+      "minimum_relative_change": 0.05,
+      "denominator_required": true,
+      "healthy_source_required": true,
+      "materiality_when_qualified": "LOW"
+    },
+    "estate_contraction": {
+      "minimum_snapshots": 3,
+      "minimum_consistent_intervals": 2,
+      "minimum_relative_change": 0.05,
+      "denominator_required": true,
+      "healthy_source_required": true,
+      "materiality_when_qualified": "LOW"
+    },
+    "estate_reshaping": {
+      "minimum_snapshots": 3,
+      "minimum_consistent_intervals": 2,
+      "minimum_relative_change": 0.03,
+      "denominator_required": true,
+      "healthy_source_required": true,
+      "contradiction_allowed": true,
+      "materiality_when_qualified": "LOW"
+    },
+    "organisational_restructuring": {
+      "minimum_snapshots": 1,
+      "minimum_consistent_intervals": 0,
+      "minimum_relative_change": 0,
+      "denominator_required": false,
+      "magnitude_required": false,
+      "persistence_required": false,
       "healthy_source_required": true,
       "materiality_when_qualified": "LOW"
     }

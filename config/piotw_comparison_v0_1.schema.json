@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "piotw-comparison-v0.1",
+  "title": "PIOTW General Peer / Historical Comparison v0.1",
+  "type": "object",
+  "required": ["contract_version", "comparison_id", "company_id", "entity_scope", "analysis_cutoff", "qualified_condition_id", "feature_id", "source_family", "comparison_type", "comparison_window", "feature_definition", "feature_unit", "directionality", "coverage", "missingness", "normalisation_method", "anomaly_strength", "evidence_ids", "caveats", "status"],
+  "properties": {
+    "contract_version": {"const": "piotw-comparison-v0.1"},
+    "comparison_type": {"enum": ["OWN_HISTORY", "PEER_COHORT"]},
+    "status": {"enum": ["AVAILABLE", "INSUFFICIENT_EVIDENCE", "NOT_COMPARABLE", "WITHHELD"]},
+    "company_value": {"type": ["number", "null"]},
+    "raw_value": {"type": ["number", "null"]},
+    "denominator": {"type": ["number", "null"]},
+    "historical_reference_values": {"type": "array", "items": {"type": "number"}},
+    "peer_values": {"type": "array", "items": {"type": "number"}},
+    "rank": {"type": ["integer", "null"]},
+    "percentile": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "missingness": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

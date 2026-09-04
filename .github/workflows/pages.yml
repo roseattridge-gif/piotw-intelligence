@@ -1,6 +1,11 @@
 name: Deploy to GitHub Pages
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "piotw-web/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -27,12 +32,15 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
+          cache-dependency-path: piotw-web/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run build
+        working-directory: piotw-web
+      - run: pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build
+        working-directory: piotw-web
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: piotw-web/out
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
